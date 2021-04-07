@@ -15,7 +15,7 @@ You can open language translations from above, click the **Edit** icon on the to
 - Translate texts within double quote `"`.
 - Do not translate variable names like `%{amount}`
 
-After you are happy with your changes, click **Propose Change**
+After you are happy with your changes, click **Propose changes**
 
 ![image](https://user-images.githubusercontent.com/608221/113917613-11b2bd00-97ea-11eb-9473-b0a300b7df19.png)
 
