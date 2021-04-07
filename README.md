@@ -1,6 +1,6 @@
 # Industry Idle Translations
 
-Base language is English and can be found here: https://github.com/fishpondstudio/IndustryIdle-i18n/blob/main/en.ts
+Base language is English and can be found in the list below
 
 ## Supported Languages:
 
