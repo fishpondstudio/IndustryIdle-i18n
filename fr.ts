@@ -1,4 +1,4 @@
-export const fr = {
+export const FR = {
     OK: "OK",
     SteelMill: "Steel Mill",
     StainlessSteelPlant: "Stainless Steel Plant",
@@ -445,6 +445,7 @@ export const fr = {
     Welcome: "Welcome",
     SeeTutorialAgain: "Redo Tutorial",
     ReadSteamGuide: "Official Guide on Steam",
+    HelpTranslateTheGame: "Help Translate the Game",
     SkipTutorial: "Skip Tutorial",
     NextTutorial: "Next",
     Tutorial1:
