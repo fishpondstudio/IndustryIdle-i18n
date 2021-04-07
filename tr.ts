@@ -1,4 +1,4 @@
-export const tr = {
+export const TR = {
     OK: "OK",
     SteelMill: "Steel Mill",
     StainlessSteelPlant: "Stainless Steel Plant",
@@ -445,6 +445,7 @@ export const tr = {
     Welcome: "Welcome",
     SeeTutorialAgain: "Redo Tutorial",
     ReadSteamGuide: "Official Guide on Steam",
+    HelpTranslateTheGame: "Help Translate the Game",
     SkipTutorial: "Skip Tutorial",
     NextTutorial: "Next",
     Tutorial1:
