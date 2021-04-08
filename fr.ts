@@ -32,8 +32,7 @@ export const FR = {
     Petrol: "Pétrole",
     Buy: "Acheter",
     NoLiquidity: "Plus d'argent",
-    NoLiquidityTurnOffAutoSell:
-        "Il n'y a pas assez de d'argent sur le marché pour %{res}, la vente automatique a été désactivée",
+    NoLiquidityTurnOffAutoSell: "Il n'y a pas assez de d'argent sur le marché pour %{res}, la vente automatique a été désactivée",
     Multiplier: "Multiplicateur",
     MultiplierDesc: "Tous les 10 niveaux, vous obtenez x2 multiplicateur",
     SellBuilding: "Vendre un bâtiment",
@@ -148,7 +147,7 @@ export const FR = {
     PowerSupply: "Source de courant",
     PowerSurplus: "Surplus de courant",
     Level: "Niveau",
-    Power: "Pouvoir",
+    Power: "Energie",
     CentralBank: "Banque centrale",
     ResourceInput: "Entrée",
     ResourceOutput: "Sortie",
