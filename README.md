@@ -5,6 +5,7 @@ Base language is English and can be found in the list below
 ## Supported Languages:
 
 - English (base): https://github.com/fishpondstudio/IndustryIdle-i18n/blob/main/en.ts
+- German: https://github.com/fishpondstudio/IndustryIdle-i18n/blob/main/de.ts
 - French: https://github.com/fishpondstudio/IndustryIdle-i18n/blob/main/fr.ts
 - Russian: https://github.com/fishpondstudio/IndustryIdle-i18n/blob/main/ru.ts
 - Turkish: https://github.com/fishpondstudio/IndustryIdle-i18n/blob/main/tr.ts
