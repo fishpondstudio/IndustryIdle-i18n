@@ -32,7 +32,8 @@ export const FR = {
     Petrol: "Pétrole",
     Buy: "Acheter",
     NoLiquidity: "Plus d'argent",
-    NoLiquidityTurnOffAutoSell: "Il n'y a pas assez de d'argent sur le marché pour %{res}, la vente automatique a été désactivée",
+    NoLiquidityTurnOffAutoSell:
+        "Il n'y a pas assez de d'argent sur le marché pour %{res}, la vente automatique a été désactivée",
     Multiplier: "Multiplicateur",
     MultiplierDesc: "Tous les 10 niveaux, vous obtenez x2 multiplicateur",
     SellBuilding: "Vendre un bâtiment",
@@ -50,7 +51,8 @@ export const FR = {
     Unlock: "Ouvrir",
     BuildingUnlocked: "%{building} a été déverrouillé",
     Science: "Science",
-    ScienceFromPowerDesc: "Les centrales électriques produisent une petite quantité de science lors de la production d'électricité",
+    ScienceFromPowerDesc:
+        "Les centrales électriques produisent une petite quantité de science lors de la production d'électricité",
     Culture: "Culture",
     School: "école",
     University: "Université",
@@ -81,8 +83,10 @@ export const FR = {
     Rocket: "Fusée",
     RocketFactory: "Usine de fusée",
     BuildingPermit: "Permis de construire",
-    BuildingPermitDesc: "Vous avez %{amount} permis de construction, vous avez déjà construit %{amountBuilt} bâtiments et il vous en reste %{amountLeft}",
-    BuildingLocked: "Le bâtiment n'est pas encore disponible, vous devez d'abord le déverrouiller dans le laboratoire de recherche",
+    BuildingPermitDesc:
+        "Vous avez %{amount} permis de construction, vous avez déjà construit %{amountBuilt} bâtiments et il vous en reste %{amountLeft}",
+    BuildingLocked:
+        "Le bâtiment n'est pas encore disponible, vous devez d'abord le déverrouiller dans le laboratoire de recherche",
     BuildQueue: "Créer une file d'attente",
     BuildQueueDesc: "Nombre de bâtiments actuellement en file d'attente",
     MaxBuilders: "Max constructeurs",
@@ -127,8 +131,10 @@ export const FR = {
     CarFactory: "Usine automobile",
     Ship: "Bateau",
     SolarPanel: "Panneau solaire",
-    SolarPanelDesc: "💡 Les panneaux solaires ne fonctionnent que 5 secondes toutes les 10 secondes - tous les cycles sont alignés",
-    WindTurbineDesc: "💡 Les éoliennes ne fonctionnent que 8 secondes toutes les 10 secondes - les cycles ne sont pas alignés",
+    SolarPanelDesc:
+        "💡 Les panneaux solaires ne fonctionnent que 5 secondes toutes les 10 secondes - tous les cycles sont alignés",
+    WindTurbineDesc:
+        "💡 Les éoliennes ne fonctionnent que 8 secondes toutes les 10 secondes - les cycles ne sont pas alignés",
     Movie: "Film",
     MovieStudio: "Studio de cinéma",
     Sitcom: "Sitcom",
@@ -148,7 +154,8 @@ export const FR = {
     ResourceOutput: "Sortie",
     ResourceStorage: "Stockage",
     ResourceChange: "Echanger",
-    ResourceInOutDesc: "💡 Appuyez sur les numéros Entrée-Sortie ci-dessus pour mettre en évidence les bâtiments de sortie et d'entrée correspondants",
+    ResourceInOutDesc:
+        "💡 Appuyez sur les numéros Entrée-Sortie ci-dessus pour mettre en évidence les bâtiments de sortie et d'entrée correspondants",
     ResourceChart: "Tableau des ressources",
     MarketUpdateIn: "Prochaine mise à jour des prix du marché dans %{time}",
     Income: "Revenu",
@@ -187,7 +194,8 @@ export const FR = {
     ChromiumAlloyPlant: "Usine d'alliage de chrome",
     Input: "Entrée",
     PanelPosition: "Position du panneau",
-    PanelPositionDesc: "Afficher le panneau latéral à gauche, à droite ou automatique (dépend de la vignette actuellement sélectionnée)",
+    PanelPositionDesc:
+        "Afficher le panneau latéral à gauche, à droite ou automatique (dépend de la vignette actuellement sélectionnée)",
     InputCapacity: "Capacité d'entrée",
     InputCapacityPerCycle: "Capacité d'entrée / cycle",
     Output: "Sortie",
@@ -200,18 +208,24 @@ export const FR = {
     ConsiderIncreaseProduction: "💡 Pensez à augmenter %{resource} production",
     AlwaysTransportInput: "Mode de stockage",
     AlwaysTransportInputTradeCenter: "Toujours exporter",
-    AlwaysTransportInputTradeCenterDesc: "Transportez toujours les ressources vers le centre d'échange, même si la vente automatique n'est pas activée pour cette ressource",
-    AlwaysTransportInputDesc: "Transportez toujours les ressources d'entrée, même si elles dépassent les exigences de production minimales",
+    AlwaysTransportInputTradeCenterDesc:
+        "Transportez toujours les ressources vers le centre d'échange, même si la vente automatique n'est pas activée pour cette ressource",
+    AlwaysTransportInputDesc:
+        "Transportez toujours les ressources d'entrée, même si elles dépassent les exigences de production minimales",
     ProductionCycleLength: "Cycle de production",
-    ProductionCycleLengthDesc: "Durée d'un cycle de production, mesurée en secondes. L'allongement du cycle augmentera les entrées / sorties par cycle, diminuant ainsi sa priorité lors de la récupération des ressources d'entrée",
+    ProductionCycleLengthDesc:
+        "Durée d'un cycle de production, mesurée en secondes. L'allongement du cycle augmentera les entrées / sorties par cycle, diminuant ainsi sa priorité lors de la récupération des ressources d'entrée",
     MaxInputDistance: "Distance d'entrée maximale",
-    MaxInputDistanceDesc: "La distance maximale à partir de laquelle ce bâtiment peut récupérer les ressources d'entrée, mesurée en nombre de tuiles",
+    MaxInputDistanceDesc:
+        "La distance maximale à partir de laquelle ce bâtiment peut récupérer les ressources d'entrée, mesurée en nombre de tuiles",
     AutoSellCapacity: "Capacité de vente automatique",
-    AutoSellCapacityDesc: "Quantité maximale de ressources que la vente automatique peut gérer par seconde et par ressource",
+    AutoSellCapacityDesc:
+        "Quantité maximale de ressources que la vente automatique peut gérer par seconde et par ressource",
     CurrentAutoSellCapacityMultiplier: "Multiplicateur actuel: x%{n}",
     AutoSellConcurrency: "Nombre de vente automatique",
     AutoSellConcurrencyDesc: "Nombre maximum de ressources que la vente automatique peut gérer en même temps",
-    MaxAutoSellConcurrencyReached: "Vous avez atteint le nombre maximale de vente automatique, désactivez une autre vente automatique pour activer celle-ci",
+    MaxAutoSellConcurrencyReached:
+        "Vous avez atteint le nombre maximale de vente automatique, désactivez une autre vente automatique pour activer celle-ci",
     CannotSellBuilding: "Impossible de vendre le bâtiment pour le moment",
     WallStreet: "Wall Street",
     MarketCap: "Capital en bourse",
@@ -261,7 +275,8 @@ export const FR = {
     SpaceshipFactory: "Usine de vaisseaux spatiaux",
     SatelliteFactory: "Usine de satellites",
     JetEngineFactory: "Usine de d'avion",
-    StockRatingDesc: "Le consensus de notation des actions des analystes de Wall Street, qui affecte votre capitalisation boursière et est mis à jour avec le marché",
+    StockRatingDesc:
+        "Le consensus de notation des actions des analystes de Wall Street, qui affecte votre capitalisation boursière et est mis à jour avec le marché",
     InterestRate: "Taux d'intérêt par jour",
     InterestRateDesc: "L'intérêt que vous gagnez sur votre capital en bourse lorsque vous êtes hors ligne",
     OfflineEarning: "Gains hors ligne",
@@ -270,20 +285,27 @@ export const FR = {
     OfflineEarningTime: "Temps de gain hors ligne",
     OfflineEarningTimeDesc: "Vous gagnerez des revenus hors ligne jusqu'à avoir atteind ce seuil",
     BuyPermit: "Acheter un permis",
-    NotEnoughBuildingPermit: "Pas assez de permis de construire. Veuillez en acheter plus pour construire de nouveaux bâtiments",
+    NotEnoughBuildingPermit:
+        "Pas assez de permis de construire. Veuillez en acheter plus pour construire de nouveaux bâtiments",
     MovingAverage: "Moyenne mobile",
     MovingAverageDesc: "Afficher la moyenne mobile du changement des ressources au lieu du changement en temps réel",
     AllowZoom: "Zoom",
-    AllowZoomDesc: "Activez la prise en charge du zoom. Utilisez la molette de votre souris pour zoomer. Le zoom actuel est %{zoom}",
-    AllowZoomMobileDesc: "Activez la prise en charge du zoom. Vous pouvez pincer pour zoomer. Le zoom actuel est %{zoom}",
+    AllowZoomDesc:
+        "Activez la prise en charge du zoom. Utilisez la molette de votre souris pour zoomer. Le zoom actuel est %{zoom}",
+    AllowZoomMobileDesc:
+        "Activez la prise en charge du zoom. Vous pouvez pincer pour zoomer. Le zoom actuel est %{zoom}",
     Settings: "Paramètres",
-    SellBuildingDesc: "La vente d'un bâtiment vous remboursera 50% de votre investissement et 50% des ressources seront transportées au centre d'échange",
-    SellBuildingFullRefundDesc: "La politique de recyclage des bâtiments est active, la vente d'un bâtiment vous remboursera intégralement jusqu'au %{time}",
+    SellBuildingDesc:
+        "La vente d'un bâtiment vous remboursera 50% de votre investissement et 50% des ressources seront transportées au centre d'échange",
+    SellBuildingFullRefundDesc:
+        "La politique de recyclage des bâtiments est active, la vente d'un bâtiment vous remboursera intégralement jusqu'au %{time}",
     Sound: "Effet sonore",
     SoundDesc: "Activer les effets sonores comme le clic ou le son d'erreur",
     AutoHighlight: "Mise en évidence automatique",
-    AutoHighlightDesc: "Mettez automatiquement en surbrillance les bâtiments du même type lorsque vous sélectionnez un bâtiment",
-    MusicDesc: "Allumez la musique: Ce n'est pas fini jusqu'à la Bossa Nova de Shane Ivers (https://www.silvermansound.com)",
+    AutoHighlightDesc:
+        "Mettez automatiquement en surbrillance les bâtiments du même type lorsque vous sélectionnez un bâtiment",
+    MusicDesc:
+        "Allumez la musique: Ce n'est pas fini jusqu'à la Bossa Nova de Shane Ivers (https://www.silvermansound.com)",
     Credits: "Crédits",
     Icons: "Icônes",
     MisplacedBuilding: "⛔ Le %{building} n'est pas placé au-dessus du bon gisement de ressources",
@@ -302,7 +324,8 @@ export const FR = {
     OnlyToWarehouse: "Uniquement pour les entrepôts",
     OnlyToWarehouseDesc: "Seuls les entrepôts peuvent transporter des ressources depuis ce bâtiment",
     TurnOffProduction: "Désactiver",
-    TurnOffProductionDesc: "Arrêtez la production du bâtiment. Le bâtiment ne transportera plus de ressources et n'utilisera plus d'électricité",
+    TurnOffProductionDesc:
+        "Arrêtez la production du bâtiment. Le bâtiment ne transportera plus de ressources et n'utilisera plus d'électricité",
     ApplyToAll: "S'applique à tous %{building}",
     FuelCostNumber: "%{cost} %{fuel}",
     Unlimited: "Illimité",
@@ -315,7 +338,8 @@ export const FR = {
     HideContent: "Masquer le contenu",
     BuyExpansionPack: "Acheter pour %{price}",
     Cities: "Villes",
-    WarehouseInputCapacityDesc: "Quantité de ressources que l'entrepôt peut transporter vers l'intérieur par seconde, par ressource.",
+    WarehouseInputCapacityDesc:
+        "Quantité de ressources que l'entrepôt peut transporter vers l'intérieur par seconde, par ressource.",
     WarehouseBuildDesc: "Les entrepôts peuvent transporter et stocker toutes les ressources",
     InputStrategy: "Stratégie d'entrée",
     InputStrategyClose: "Le plus proche",
@@ -323,9 +347,11 @@ export const FR = {
     InputStrategyFar: "Le plus loin",
     InputStrategyFarDesc: "Préférez l'entrepôt le plus éloigné qui dispose de suffisamment de ressources",
     InputStrategyAmount: "La quantité",
-    InputStrategyAmountDesc: "Préférez l'entrepôt avec la plus grande quantité de ressources, quelle que soit la distance",
+    InputStrategyAmountDesc:
+        "Préférez l'entrepôt avec la plus grande quantité de ressources, quelle que soit la distance",
     FuelCostSave: "Économisez sur le coût du carburant",
-    FuelCostSaveDesc: "Les entrepôts économisent un certain pourcentage de carburant pour le transport des ressources vers l'intérieur par rapport aux autres bâtiments, plus le niveau est élevé, plus l'économie est importante",
+    FuelCostSaveDesc:
+        "Les entrepôts économisent un certain pourcentage de carburant pour le transport des ressources vers l'intérieur par rapport aux autres bâtiments, plus le niveau est élevé, plus l'économie est importante",
     SoftwareCompany: "Société de logiciels",
     Software: "Logiciel",
     ScreenFactory: "Usine d'écran",
@@ -348,7 +374,8 @@ export const FR = {
     ProfitMargin: "Marge bénéficiaire",
     NotMakingProfitWarning: "💡 Production non rentable, pensez à la fermer",
     TurnOnAllProductions: "Production active",
-    TurnOnAllProductionsDesc: "Activer les productions de tous les bâtiments, ne peut pas être utilisé lorsque la politique d'économie de coûts est active",
+    TurnOnAllProductionsDesc:
+        "Activer les productions de tous les bâtiments, ne peut pas être utilisé lorsque la politique d'économie de coûts est active",
     OperationSuccessful: "Cette opération a été effectuée avec succès",
     TurnOn: "Allumer",
     Reward: "Récompense",
@@ -363,7 +390,8 @@ export const FR = {
     FillOrder: "Remplir la commande",
     RejectOrder: "Passer",
     YouHave: "Tu as %{amount}",
-    WholesaleCenterLocked: "Vous avez besoin d'au moins %{required} différentes ressources pour débloquer le centre de vente en gros. Vous avez seulement %{current} resources",
+    WholesaleCenterLocked:
+        "Vous avez besoin d'au moins %{required} différentes ressources pour débloquer le centre de vente en gros. Vous avez seulement %{current} resources",
     OrderFilled: "La commande de %{from} a été rempli avec succès!",
     PolicyCenter: "Centre de politiques",
     NewOrder: "Une nouvelle commande de %{from} est arrivé, veuillez vous enregistrer dans ",
@@ -371,7 +399,8 @@ export const FR = {
     PolicyNotEnoughTime: "Vous ne disposez pas de suffisamment de points de stratégie pour cette stratégie",
     TimeLeft: "%{time} restant",
     WholesaleCenterOrderFaster: "Exposition mondiale",
-    WholesaleCenterOrderFasterDesc: "Le centre de vente en gros reçoit les commandes 2 fois plus rapidement et la taille de la commande est 2 fois plus grande",
+    WholesaleCenterOrderFasterDesc:
+        "Le centre de vente en gros reçoit les commandes 2 fois plus rapidement et la taille de la commande est 2 fois plus grande",
     PolicyOilWellPowerx2: "Puits de pétrole suralimenté",
     PolicyOilWellPowerx2Desc: "Les puits de pétrole produisent 2x de pétrole et utilisent 2x de courant",
     HalfTransportSpeed: "Ralentissez pour économiser",
@@ -379,36 +408,46 @@ export const FR = {
     RefineryMoreOil: "Plus d'essence, Pas de problèmes",
     RefineryMoreOilDesc: "Les raffineries de pétrole produisent 50% plus d'essence et 50% moins de plastique",
     StickyInput: "Entrée collante",
-    StickyInputDesc: "Les bâtiments préféreront transporter à partir de la source précédente, au lieu de rechercher la meilleure source à chaque cycle (POLITIQUE GRATUITE)",
+    StickyInputDesc:
+        "Les bâtiments préféreront transporter à partir de la source précédente, au lieu de rechercher la meilleure source à chaque cycle (POLITIQUE GRATUITE)",
     RefineryMorePlastic: "Plus de plastique, Pas de problèmes",
     RefineryMorePlasticDesc: "Les raffineries de pétrole produisent 50% moins d'essence et 50% plus de plastique",
     FreeOilTransport: "Transport d'huile gratuit",
-    FreeOilTransportDesc: "Le transport de pétrole ne coûte pas de carburant mais les puits de pétrole consomment 2 fois plus de puissance",
+    FreeOilTransportDesc:
+        "Le transport de pétrole ne coûte pas de carburant mais les puits de pétrole consomment 2 fois plus de puissance",
     SuperSteelMill: "Coeurs de fer",
     SuperSteelMillDesc: "Les aciéries utilisent 50% moins de charbon et 25% plus de fer et 25% plus d'énergie",
     AlSemiconductor: "Circuit AI",
     AlSemiconductorDesc: "Les fonderies de circuits utilisent de l'aluminium au lieu du cuivre",
     CostSaver: "Économiseur de coûts",
     CostSaverDesc: "Si les intrants d'un bâtiment coûtent plus cher que sa production, arrêtez la production",
-    CostSaverBuildingDesc: "La politique d'économie de coûts est active, la production s'activera / s'éteindra automatiquement en fonction de sa rentabilité",
-    CostSaverBuildingWarning: "La politique d'économie de coûts est active, vous ne pouvez pas modifier manuellement la production",
+    CostSaverBuildingDesc:
+        "La politique d'économie de coûts est active, la production s'activera / s'éteindra automatiquement en fonction de sa rentabilité",
+    CostSaverBuildingWarning:
+        "La politique d'économie de coûts est active, vous ne pouvez pas modifier manuellement la production",
     GlassUseCoal: "Verre noir",
     GlassUseCoalDesc: "Les usines de verre utilisent 50% plus de charbon et 50% moins de silicium",
     AdjacentBonusOnlyOutput: "Plus de bonus adjacent",
-    AdjacentBonusOnlyOutputDesc: "Le bonus adjacent ne nécessite pas plus d'entrée mais utilise plus de puissance et n'est efficace qu'à 50%",
+    AdjacentBonusOnlyOutputDesc:
+        "Le bonus adjacent ne nécessite pas plus d'entrée mais utilise plus de puissance et n'est efficace qu'à 50%",
     IronMine2xOutput: "Fer lourd",
-    IronMine2xOutputDesc: "Les mines de fer produisent 2 fois le fer mais le transport du fer coûte 2 fois le carburant",
+    IronMine2xOutputDesc:
+        "Les mines de fer produisent 2 fois le fer mais le transport du fer coûte 2 fois le carburant",
     SolarPanelAlwaysWork: "Le soleil ne se couche jamais",
     SolarPanelAlwaysWorkDesc: "Le panneau solaire fonctionne 100% du temps mais produit 60% moins d'énergie",
     SteelScience: "La connaissance à travers l'acier",
     SteelScienceDesc: "Les aciéries utilisent 2x intrants et produisent des données scientifiques supplémentaires",
     ShowWarehouse: "Déverrouiller l'entrepôt",
-    ShowWarehouseDesc: "Un entrepôt est un bâtiment spécial qui ne transporte et stocke que des ressources et peut fournir des économies de carburant (POLITIQUE GRATUITE)",
+    ShowWarehouseDesc:
+        "Un entrepôt est un bâtiment spécial qui ne transporte et stocke que des ressources et peut fournir des économies de carburant (POLITIQUE GRATUITE)",
     WholesaleCenterProducingOnly: "Partenaires du centre de vente en gros",
-    WholesaleCenterProducingOnlyDesc: "Les commandes des centres de gros ne contiennent que des ressources en cours de production (vous devez également produire le nombre de ressources nécessaires pour déverrouiller le centre de vente en gros)",
+    WholesaleCenterProducingOnlyDesc:
+        "Les commandes des centres de gros ne contiennent que des ressources en cours de production (vous devez également produire le nombre de ressources nécessaires pour déverrouiller le centre de vente en gros)",
     ShoppingSpree: "virée shopping",
-    ShoppingSpreeDesc: "Si la capacité de sortie d'une ressource est insuffisante, achetez automatiquement le montant de la pénurie auprès du centre d'échange (si la ressource est vendue automatiquement, elle sera ignorée)",
-    ShoppingSpreeTradeCenterDesc: "💡 La politique virée shopping est activée, Le centre d'échange achètera automatiquement les ressources en pénurie",
+    ShoppingSpreeDesc:
+        "Si la capacité de sortie d'une ressource est insuffisante, achetez automatiquement le montant de la pénurie auprès du centre d'échange (si la ressource est vendue automatiquement, elle sera ignorée)",
+    ShoppingSpreeTradeCenterDesc:
+        "💡 La politique virée shopping est activée, Le centre d'échange achètera automatiquement les ressources en pénurie",
     ExtraPolicyPoints: "Lobbyiste politique",
     ExtraPolicyPointsDesc: "Augmenter de 50% la capacité de production des points stratégiques",
     CrAlloyUseFe: "Chroiron",
@@ -416,25 +455,33 @@ export const FR = {
     DoubleTileModifier: "Le pouvoir de la nature",
     DoubleTileModifierDesc: "Effet du modificateur de toutes les tuiles x2 - à la fois positif et négatif",
     TileModifierOutputOnly: "Modificateur de tuile Plus",
-    TileModifierOutputOnlyDesc: "Les modificateurs n'affectent que la sortie au lieu de l'entrée et de la sortie, mais ne sont efficaces qu'à 50%",
+    TileModifierOutputOnlyDesc:
+        "Les modificateurs n'affectent que la sortie au lieu de l'entrée et de la sortie, mais ne sont efficaces qu'à 50%",
     GasPlantPetrol: "Liquificateur de gaz",
     GasPlantPetrolDesc: "Les centrales au gaz utilisent du gaz supplémentaire pour produire de l'essence",
     BuildingRecycle: "Recyclage du bâtiment",
-    BuildingRecycleDesc: "Obtenez un remboursement complet lorsque vous vendez un bâtiment dans la minute qui suit la construction",
+    BuildingRecycleDesc:
+        "Obtenez un remboursement complet lorsque vous vendez un bâtiment dans la minute qui suit la construction",
     CoalPlantFuel: "Liquide de charbon",
     CoalPlantFuelDesc: "Les centrales au charbon utilisent du charbon supplémentaire pour produire de l'essence",
     Welcome: "Bienvenu",
     SeeTutorialAgain: "Refaire le didacticiel",
     ReadSteamGuide: "Guide officiel sur Steam",
-    HelpTranslateTheGame: "Aide pour traduire le jeu",
+    HelpTranslateTheGame: "Aide pour traduire le jeu🌐",
     SkipTutorial: "Passer le tutoriel",
     NextTutorial: "Suivant",
-    Tutorial1: "Industry Idle est un jeu <em>la gestion des ressources</em> où vous construisez des usines🏭, produire des biens📦 et gagner de l'argent💸.<br><br>Passons en revue quelques concepts de base pour vous aider à bien démarrer - cela ne prendra pas longtemps, je le promets.",
-    Tutorial2: "Tous les bâtiments ont besoin d'électricité ⚡,you have une <em>éolienne</em> qui génère de l'énergie. Vous pouvez voir votre alimentation électrique actuelle en haut a gauche.<br><br> Vous avez peut-être remarqué que les éoliennes ne fonctionnent que <em>80%</em> du temps. Vous pouvez envisager de construire d'autres types de centrales électriques qui génèrent une énergie stable.",
-    Tutorial3: "Vous avez beaucoup de <em>gisements de ressources</em> sur la carte. Pour extraire des ressources, ⛏️ il faut construire des mines <em>au dessus de</em> le dépôt correspondant.<br><br>Par exemple, vous avez un <em>puits de pétrole🛢️</em> qui extrait de <em>huile</em> d'un gisement de pétrole.<br></br>Les dépôts de ressources sont illimités - pas besoin de s'inquiéter de leur épuisement. En dehors des mines, d'autres bâtiments peuvent être construits sur n'importe quelle tuile vide.",
-    Tutorial4: "Le transport des ressources coûte du carburant. Sur cette carte, vous pouvez utiliser du <em>pétrole⛽</em> comme carburant. Tu as un <em>raffinerie de pétrole</em> qui transporte le l'huile du puits de pétrole et produit du pétrole.<br><br>Le petit mouvement des <em>points</em> représentent le mouvement en temps réel des ressources. Vous devez optimiser l'emplacement de vos bâtiments pour minimiser la distance à parcourir.<br><br><em>Améillorer</em> vos bâtiments augmenteront leur rendement, mais augmenteront également leur consommation d'énergie et leur entrée requise.<br><br>Vous pouvez changer votre type de carburant dans le centre de transport🚦. N'oubliez pas de vous assurer que votre production de carburant est supérieure à la consommation, sinon votre production s'arrêtera lorsque vous serez à court de carburant.",
-    Tutorial5: "Pour gagner de l'argent, vous devez exporter vos ressources via le centre d'échange. Pour ce faire, activez simplement <em>vente auto</em> pour cette ressource.<br></br>Vous pouvez également acheter des ressources au centre commercial. Se souvenir <em>si vous achetez une ressource, vous augmenterez le prix</em> et si vous vendez une ressource, vous réduirez le prix.<br><br>Le marché est <em>changant</em> et le prix📈 change régulièrement.",
-    Tutorial6: "Pour construire de nouveaux bâtiments, vous devez d'abord le déverrouiller dans le <em>Laboratoire de recherche🧪</em>. Le laboratoire de recherche convertit également la science en points de recherche. <br><br>Votre éolienne (et d'autres centrales électriques) produit une petite quantité de science lorsqu'elle fonctionne. Et tu peux construire une école🏫 et d'autres bâtiments dédiés pour stimuler la science plus tard.<br><br>Maintenant que vous avez appris toutes les bases, commencez à bâtir votre économie! Voilà de <em>l'argent💸</em> et du <em>pétrole⛽</em> to give you a jump start.",
+    Tutorial1:
+        "Industry Idle est un jeu <em>la gestion des ressources</em> où vous construisez des usines🏭, produire des biens📦 et gagner de l'argent💸.<br><br>Passons en revue quelques concepts de base pour vous aider à bien démarrer - cela ne prendra pas longtemps, je le promets.",
+    Tutorial2:
+        "Tous les bâtiments ont besoin d'électricité ⚡,you have une <em>éolienne</em> qui génère de l'énergie. Vous pouvez voir votre alimentation électrique actuelle en haut a gauche.<br><br> Vous avez peut-être remarqué que les éoliennes ne fonctionnent que <em>80%</em> du temps. Vous pouvez envisager de construire d'autres types de centrales électriques qui génèrent une énergie stable.",
+    Tutorial3:
+        "Vous avez beaucoup de <em>gisements de ressources</em> sur la carte. Pour extraire des ressources, ⛏️ il faut construire des mines <em>au dessus de</em> le dépôt correspondant.<br><br>Par exemple, vous avez un <em>puits de pétrole🛢️</em> qui extrait de <em>huile</em> d'un gisement de pétrole.<br></br>Les dépôts de ressources sont illimités - pas besoin de s'inquiéter de leur épuisement. En dehors des mines, d'autres bâtiments peuvent être construits sur n'importe quelle tuile vide.",
+    Tutorial4:
+        "Le transport des ressources coûte du carburant. Sur cette carte, vous pouvez utiliser du <em>pétrole⛽</em> comme carburant. Tu as un <em>raffinerie de pétrole</em> qui transporte le l'huile du puits de pétrole et produit du pétrole.<br><br>Le petit mouvement des <em>points</em> représentent le mouvement en temps réel des ressources. Vous devez optimiser l'emplacement de vos bâtiments pour minimiser la distance à parcourir.<br><br><em>Améillorer</em> vos bâtiments augmenteront leur rendement, mais augmenteront également leur consommation d'énergie et leur entrée requise.<br><br>Vous pouvez changer votre type de carburant dans le centre de transport🚦. N'oubliez pas de vous assurer que votre production de carburant est supérieure à la consommation, sinon votre production s'arrêtera lorsque vous serez à court de carburant.",
+    Tutorial5:
+        "Pour gagner de l'argent, vous devez exporter vos ressources via le centre d'échange. Pour ce faire, activez simplement <em>vente auto</em> pour cette ressource.<br></br>Vous pouvez également acheter des ressources au centre commercial. Se souvenir <em>si vous achetez une ressource, vous augmenterez le prix</em> et si vous vendez une ressource, vous réduirez le prix.<br><br>Le marché est <em>changant</em> et le prix📈 change régulièrement.",
+    Tutorial6:
+        "Pour construire de nouveaux bâtiments, vous devez d'abord le déverrouiller dans le <em>Laboratoire de recherche🧪</em>. Le laboratoire de recherche convertit également la science en points de recherche. <br><br>Votre éolienne (et d'autres centrales électriques) produit une petite quantité de science lorsqu'elle fonctionne. Et tu peux construire une école🏫 et d'autres bâtiments dédiés pour stimuler la science plus tard.<br><br>Maintenant que vous avez appris toutes les bases, commencez à bâtir votre économie! Voilà de <em>l'argent💸</em> et du <em>pétrole⛽</em> to give you a jump start.",
     WelcomePlay: "Jouer",
     WelcomePlayMuted: "Jouer (🔇Music)",
     Changelog: "Journal des modifications",
@@ -446,14 +493,17 @@ export const FR = {
     SteamCloudBackup: "Sauvegarde sur le cloud Steam",
     LastBackupAt: "Dernière sauvegarde",
     RestoreFromBackup: "Restorer depuis une sauvergarde",
-    RestoreFromBackupFail: "Échec de la restauration de la sauvegarde à partir de Steam Cloud: êtes-vous sûr qu'il y a une sauvegarde?",
+    RestoreFromBackupFail:
+        "Échec de la restauration de la sauvegarde à partir de Steam Cloud: êtes-vous sûr qu'il y a une sauvegarde?",
     RestoreFromBackupTitle: "êtes-vous sûr?",
-    RestoreFromBackupDesc: "Vous n'avez normalement pas besoin de restaurer à partir d'une sauvegarde cloud, sauf si votre sauvegarde locale est perdue. La sauvegarde dans le cloud est un peu plus ancienne que votre sauvegarde locale",
+    RestoreFromBackupDesc:
+        "Vous n'avez normalement pas besoin de restaurer à partir d'une sauvegarde cloud, sauf si votre sauvegarde locale est perdue. La sauvegarde dans le cloud est un peu plus ancienne que votre sauvegarde locale",
     ChatMessages: "Messages de chat",
     ChatPlaceholder: "Tapez votre message: max 100 caractères",
     ChangeName: "Changer",
     SaveName: "Sauvegarder",
-    NameValidationRule: "Votre nom ne doit contenir que des lettres et des chiffres et comprendre entre 5 et 15 caractères",
+    NameValidationRule:
+        "Votre nom ne doit contenir que des lettres et des chiffres et comprendre entre 5 et 15 caractères",
     NameValidationRuleProfanity: "Votre nom ne doit pas contenir de grossièretés",
     ChatMessageRateLimit: "Vous ne pouvez envoyer un nouveau message de discussion que toutes les 10 secondes",
     NameSaved: "Votre nom a été modifié avec succès",
@@ -463,35 +513,51 @@ export const FR = {
     Name: "Nom",
     Rank: "Rang",
     Tips1: "Les notations des actions ont 5 niveaux: acheter, surperformer, conserver, sous-performer et vendre",
-    Tips2: "Les bâtiments arrêteront de transporter des ressources s'il y en a déjà assez pour la production, à moins que vous n'activiez le mode de stockage",
-    Tips3: "Le coût du carburant pour le transport des ressources est déterminé par la distance et la quantité de ressources",
-    Tips4: "Les bâtiments ne transporteront une ressource que si la quantité trouvée sur la carte dépasse la capacité d'entrée",
-    Tips5: "Les bâtiments ne transporteront une ressource du centre d'échange que si la vente automatique est désactivée pour cette ressource",
-    Tips6: "Vous pouvez voir le coût du carburant pour une ressource dans la section de capacité d'entrée correspondante",
-    Tips7: "Si vous achetez une ressource, vous augmenterez le prix. Si vous vendez une ressource, vous réduirez le prix",
-    Tips8: "Vous pouvez voir le graphique pour chaque montant de ressources et son évolution au fil du temps dans le Bureau des statistiques",
-    Tips9: "Les points de recherche nécessaires pour un bâtiment sont déterminés par le prix du marché de ses ressources d'entrée",
-    Tips10: "Différentes ressources ont un prix différent sur le marché - soyez toujours prêt à faire face au changements du marché",
-    Tips11: "C'est une bonne idée de toujours vérifier votre alimentation et votre alimentation en carburant avant d'étendre votre production",
+    Tips2:
+        "Les bâtiments arrêteront de transporter des ressources s'il y en a déjà assez pour la production, à moins que vous n'activiez le mode de stockage",
+    Tips3:
+        "Le coût du carburant pour le transport des ressources est déterminé par la distance et la quantité de ressources",
+    Tips4:
+        "Les bâtiments ne transporteront une ressource que si la quantité trouvée sur la carte dépasse la capacité d'entrée",
+    Tips5:
+        "Les bâtiments ne transporteront une ressource du centre d'échange que si la vente automatique est désactivée pour cette ressource",
+    Tips6:
+        "Vous pouvez voir le coût du carburant pour une ressource dans la section de capacité d'entrée correspondante",
+    Tips7:
+        "Si vous achetez une ressource, vous augmenterez le prix. Si vous vendez une ressource, vous réduirez le prix",
+    Tips8:
+        "Vous pouvez voir le graphique pour chaque montant de ressources et son évolution au fil du temps dans le Bureau des statistiques",
+    Tips9:
+        "Les points de recherche nécessaires pour un bâtiment sont déterminés par le prix du marché de ses ressources d'entrée",
+    Tips10:
+        "Différentes ressources ont un prix différent sur le marché - soyez toujours prêt à faire face au changements du marché",
+    Tips11:
+        "C'est une bonne idée de toujours vérifier votre alimentation et votre alimentation en carburant avant d'étendre votre production",
     FPS30: "Économie d'énergie",
-    OfflineModeDesc: "Impossible de se connecter au serveur: les revenus hors ligne ne seront pas générés. S'il vous plait, vérifiez votre connexion internet",
-    OptOut: "Se désengager",Out in
+    OfflineModeDesc:
+        "Impossible de se connecter au serveur: les revenus hors ligne ne seront pas générés. S'il vous plait, vérifiez votre connexion internet",
+    OptOut: "Se désengager",
     OptIn: "Réinitialiser et activer",
     LeaderboardOptOut: "Désactivation du classement",
-    LeaderboardOptOutDesc: "Cela n'enverra plus le score du classement. VEUILLEZ NOTER: si vous souhaitez activer le classement plus tard, vos données doivent être réinitialisées",
+    LeaderboardOptOutDesc:
+        "Cela n'enverra plus le score du classement. VEUILLEZ NOTER: si vous souhaitez activer le classement plus tard, vos données doivent être réinitialisées",
     LeaderboardOptIn: "Réinitialiser et activer le classement",
-    LeaderboardOptInDesc: "Vos données doivent être RÉINITIALISÉES avant de pouvoir réactiver le classement, êtes-vous sûr?",
+    LeaderboardOptInDesc:
+        "Vos données doivent être RÉINITIALISÉES avant de pouvoir réactiver le classement, êtes-vous sûr?",
     RewardAdsFailed: "La vidéo de récompense ne s'est pas terminée",
-    RewardAdsNotAvailable: "La vidéo de récompense n'est pas disponible (actuellement, seul iOS / Android est pris en charge)",
+    RewardAdsNotAvailable:
+        "La vidéo de récompense n'est pas disponible (actuellement, seul iOS / Android est pris en charge)",
     OfflineEarningDoubleSuccess: "Vous avez doublé vos gains hors ligne",
-    FPS30Desc: "Activer le mode d'économie d'énergie exécutera le jeu à 30 FPS au lieu de 60 FPS. Cela prolongera la durée de vie de votre batterie",
+    FPS30Desc:
+        "Activer le mode d'économie d'énergie exécutera le jeu à 30 FPS au lieu de 60 FPS. Cela prolongera la durée de vie de votre batterie",
     HighlightAll: 'Surligner "%{type}"',
     HighlightInput: "🔍 Surligner %{type} Entrés",
     HighlightOutput: "🔍 Surligner %{type} Sortie",
     TotalInput: "Capacité d'entrée totale",
     TotalOutput: "Capacité de sortie totale",
     RunOutIn: "Sortie dans %{time}",
-    FuelRunOutWarning: "💡 Votre consommation de carburant dépasse la production. Lorsque le carburant sera épuisé, votre transport s'arrêtera",
+    FuelRunOutWarning:
+        "💡 Votre consommation de carburant dépasse la production. Lorsque le carburant sera épuisé, votre transport s'arrêtera",
     InAmount: "Dans: %{number}",
     OutAmount: "Dehors: %{number}",
     SwissBank: "Banque suisse",
@@ -508,7 +574,8 @@ export const FR = {
     RequireAnyExpansionPack: "Packs d'extension exclusifs",
     RequireAnyExpansionPackDesc: "Cette fonctionnalité vous oblige à posséder au moins un des packs d'extension",
     HideRewardAd: "Masquer les annonces avec récompense",
-    HideRewardAdDesc: "Toutes les publicités dans le jeu sont des publicités avec récompense facultatives. Cela masquera toutes les options publicitaires récompensées du jeu.",
+    HideRewardAdDesc:
+        "Toutes les publicités dans le jeu sont des publicités avec récompense facultatives. Cela masquera toutes les options publicitaires récompensées du jeu.",
     HideDiscordBanner: "Masquer la bannière Discord",
     HideDiscordBannerDesc: "Masquer Discord et la bannière de la vitrine dans le siège social",
     HideChat: "Masquer les message du chat",
@@ -518,39 +585,51 @@ export const FR = {
     PurchaseSteamContinue: "Veuillez terminer votre achat sur Steam",
     PurchaseSuccess: "L'achat est terminé, merci pour votre soutien",
     PrestigeCurrency: "Argent suisse 💵",
-    RestartDesc: "💡 Vous voulez juste redémarrer? Vous pouvez appuyer sur Démarrer dans une nouvelle ville ci-dessus et choisir votre ville actuelle",
+    RestartDesc:
+        "💡 Vous voulez juste redémarrer? Vous pouvez appuyer sur Démarrer dans une nouvelle ville ci-dessus et choisir votre ville actuelle",
     PrestigeGoBack: "Retourner",
     PermanentUpgradeDesc: "Cette mise à niveau sera reportée si vous commencez dans une nouvelle ville",
     ProductionMultiplier: "Multiplicateur de production",
-    ProductionMultiplierDesc: "Une augmentation de la capacité de production de tous vos bâtiments (y compris les mines, les usines, les centrales électriques, les bâtiments scientifiques et culturels)",
+    ProductionMultiplierDesc:
+        "Une augmentation de la capacité de production de tous vos bâtiments (y compris les mines, les usines, les centrales électriques, les bâtiments scientifiques et culturels)",
     FuelCostDiscount: "Remise sur le prix du carburant",
     FuelCostDiscountDesc: "Donne une réduction sur le coût du carburant lors du transport des ressources",
     AutoSellCapacityMultiplier: "Multiplicateur de capacité de vente automatique",
-    AutoSellCapacityMultiplierDesc: "Un multiplicateur qui est appliqué à votre capacité de vente quelle que soit la capacité actuelle",
+    AutoSellCapacityMultiplierDesc:
+        "Un multiplicateur qui est appliqué à votre capacité de vente quelle que soit la capacité actuelle",
     BuildingPermitCostDivider: "Diviseur des coûts de permis de construire",
     BuildingPermitCostDividerDesc: "Divisez le coût du permis de construire par ce diviseur",
     ExtraAdjacentBonus: "Bonus supplémentaire adjacent",
-    ExtraAdjacentBonusDesc: "Capacité de bonus supplémentaire pour chaque bâtiment en fonctionnement adjacent du même type",
+    ExtraAdjacentBonusDesc:
+        "Capacité de bonus supplémentaire pour chaque bâtiment en fonctionnement adjacent du même type",
     OfflineEarningMultiplier: "Multiplicateur de gains hors ligne",
     OfflineEarningMultiplierDesc: "Un multiplicateur qui s'applique aux revenus hors connexion",
     PrestigeAlertTitle: "Etes-vous sûr?",
-    PrestigeAlertContent: "Votre entreprise sera liquidée. Vous encaisserez %{amount} en argent suisse et créerez une nouvelle entreprise à %{city}",
-    PrestigeCurrencyDesc: "C'est l'argent sur votre compte bancaire suisse secret, vous pouvez l'emporter avec vous lorsque vous commencez dans une nouvelle ville",
+    PrestigeAlertContent:
+        "Votre entreprise sera liquidée. Vous encaisserez %{amount} en argent suisse et créerez une nouvelle entreprise à %{city}",
+    PrestigeCurrencyDesc:
+        "C'est l'argent sur votre compte bancaire suisse secret, vous pouvez l'emporter avec vous lorsque vous commencez dans une nouvelle ville",
     Prestige: "Encaisser",
     Cancel: "Annuler",
     SaveFileCorrupted: "Enregistrer le fichier corrompu",
-    CheatDetected: "Votre ancienne sauvegarde n'a pas réussi la validation du serveur et ne peut pas être lue. Vous allez commencer avec une nouvelle sauvegarde",
+    CheatDetected:
+        "Votre ancienne sauvegarde n'a pas réussi la validation du serveur et ne peut pas être lue. Vous allez commencer avec une nouvelle sauvegarde",
     LoadGameError: "Échec du chargement du jeu",
     LoadGameErrorMessage: "Message d'erreur: %{message}",
-    LoadGameErrorDesc: "S'il vous plait, vérifiez votre connexion internet. Si le problème persiste, veuillez contacter le support",
-    ExpansionPackIncompatible: "Vous importez une sauvegarde avec des packs d'extension mais votre jeu ne dispose pas des packs d'extension requis",
+    LoadGameErrorDesc:
+        "S'il vous plait, vérifiez votre connexion internet. Si le problème persiste, veuillez contacter le support",
+    ExpansionPackIncompatible:
+        "Vous importez une sauvegarde avec des packs d'extension mais votre jeu ne dispose pas des packs d'extension requis",
     SaveFileMigrated: "Une nouvelle ère: la bêta est arrivée",
-    SaveFileMigratedDesc: "Merci d'avoir joué aux tests en alpha. Votre ancienne carte n'est pas compatible mais nous avons migré vos données et vous offrons un bonus",
+    SaveFileMigratedDesc:
+        "Merci d'avoir joué aux tests en alpha. Votre ancienne carte n'est pas compatible mais nous avons migré vos données et vous offrons un bonus",
     ClaimSwissMoney: "Réclamer %{amount} Argent suisse 💵",
-    SaveFileMigratedFinePrint: "Votre capital en bourse est convertie en monnaie suisse et votre argent suisse non dépensé est reporté. Vous obtiendrez un bonus de 50% en argent suisse pour les tests de jeu en alpha. L'argent suisse maximal pouvant être reporté est plafonné à 200",
+    SaveFileMigratedFinePrint:
+        "Votre capital en bourse est convertie en monnaie suisse et votre argent suisse non dépensé est reporté. Vous obtiendrez un bonus de 50% en argent suisse pour les tests de jeu en alpha. L'argent suisse maximal pouvant être reporté est plafonné à 200",
     CashIn: "Encaisser",
     CurrentCity: "Ville actuelle",
-    CashInDesc: "Vous obtiendrez ce montant sur votre compte bancaire suisse si vous commencez dans une nouvelle ville. Il est basé sur le capital en bourse de votre entreprise et il doit atteindre %{amount} avant de pouvoir gagner de l'argent suisse",
+    CashInDesc:
+        "Vous obtiendrez ce montant sur votre compte bancaire suisse si vous commencez dans une nouvelle ville. Il est basé sur le capital en bourse de votre entreprise et il doit atteindre %{amount} avant de pouvoir gagner de l'argent suisse",
     MoveToNewMap: "Commencez dans une nouvelle ville",
     CityName: "Ville",
     CitySize: "Taille de la carte",
@@ -560,22 +639,35 @@ export const FR = {
     ResourceTilePercentage: "Tuiles de ressources",
     MapSquareGrid: "Carré",
     MapHexGrid: "Hex",
+    Translator: "Traducteur",
+    TranslatorName: "Picault Lucas",
+    Language: "Langue",
+    ThisLanguage: "Français",
     Stockholm: "Stockholm",
-    StockholmBonus: "<li>Eolienne de niveau 4 gratuite x1</li><li>Puits de pétrole de niveau 4 libre x1</li><li>Raffinerie de pétrole de niveau 2 gratuite x1</li><li>Les usines de papiers sont déverrouillées</li><li>Les camps de bucherons ont une sortie 2x</li>",
+    StockholmBonus:
+        "<li>Eolienne de niveau 4 gratuite x1</li><li>Puits de pétrole de niveau 4 libre x1</li><li>Raffinerie de pétrole de niveau 2 gratuite x1</li><li>Les usines de papiers sont déverrouillées</li><li>Les camps de bucherons ont une sortie 2x</li>",
     Rotterdam: "Rotterdam",
-    RotterdamBonus: "<li>Les aciéries ont une capacité 2x</li><li>Les usines en acier inoxydable ont une capacité 2x</li><li>Transport de fer gratuit</li><li>Le transport de l'acier coûte 50% de carburant en moins</li><li>Commencez avec une capacité de vente automatique 2x</li><li>Aucun modificateur de tuile</li>",
+    RotterdamBonus:
+        "<li>Les aciéries ont une capacité 2x</li><li>Les usines en acier inoxydable ont une capacité 2x</li><li>Transport de fer gratuit</li><li>Le transport de l'acier coûte 50% de carburant en moins</li><li>Commencez avec une capacité de vente automatique 2x</li><li>Aucun modificateur de tuile</li>",
     Oslo: "Oslo",
-    OsloBonus: "<li>Les raffineries de pétrole ont une capacité 2x</li><li>Les usines de traitement du gaz ont une capacité 2x</li><li>Les centrales à essence ont une capacité 2x</li><li>Les aciéries utilisent du gaz naturel au lieu du charbon</li><li>Transport de pétrole gratuit</li>",
+    OsloBonus:
+        "<li>Les raffineries de pétrole ont une capacité 2x</li><li>Les usines de traitement du gaz ont une capacité 2x</li><li>Les centrales à essence ont une capacité 2x</li><li>Les aciéries utilisent du gaz naturel au lieu du charbon</li><li>Transport de pétrole gratuit</li>",
     StPetersburg: "Saint-Pétersbourg",
-    StPetersburgBonus: "<li>Les mines d'uranium ont une production 2x</li><li>Les usines d'enrichissement d'uranium ont une capacité 2x</li><li>Le transport de l'uranium coûte 50% de carburant en moins</li><li>Le transport gratuit des armes</li><li>Les usines de missiles utilisent de l'uranium enrichi au lieu du titane et de l'uranium</li>",
+    StPetersburgBonus:
+        "<li>Les mines d'uranium ont une production 2x</li><li>Les usines d'enrichissement d'uranium ont une capacité 2x</li><li>Le transport de l'uranium coûte 50% de carburant en moins</li><li>Le transport gratuit des armes</li><li>Les usines de missiles utilisent de l'uranium enrichi au lieu du titane et de l'uranium</li>",
     Hamburg: "Hambourg",
-    HamburgBonus: "<li>Les usines Zeppelin sont déverrouillées</li><li>Les usines de semi-conducteurs ont une productivité 2x</li><li>Les chantiers navals ont une capacité 2x</li><li>Les usines automobiles ont une capacité 2x</li><li>Les usines de batteries Li-ion sont déverrouillées</li>",
+    HamburgBonus:
+        "<li>Les usines Zeppelin sont déverrouillées</li><li>Les usines de semi-conducteurs ont une productivité 2x</li><li>Les chantiers navals ont une capacité 2x</li><li>Les usines automobiles ont une capacité 2x</li><li>Les usines de batteries Li-ion sont déverrouillées</li>",
     Toulouse: "Toulouse",
-    ToulouseBonus: "<li>Les mines de titane ont une production 2x</li><li>Les usines d'enrichissement d'uranium ont une productivité 2x</li><li>Les usines de moteurs à réaction ont une capacité 2x</li><li>Les usines aéronautiques ont une productivité 2x</li><li>Les usines de fusées utilisent de l'uranium au lieu de l'uranium enrichi</li>",
+    ToulouseBonus:
+        "<li>Les mines de titane ont une production 2x</li><li>Les usines d'enrichissement d'uranium ont une productivité 2x</li><li>Les usines de moteurs à réaction ont une capacité 2x</li><li>Les usines aéronautiques ont une productivité 2x</li><li>Les usines de fusées utilisent de l'uranium au lieu de l'uranium enrichi</li>",
     Rome: "Rome",
-    RomeBonus: "<li>Les Colisée sont déverrouillés</li><li>Les Colisée ont une productivité 2x</li><li>Commencez avec le centre de politique de niveau 5</li><li>Les opéras ont une capacité 2x</li><li>Enregistrement les studios produisent également de la culture</li>",
+    RomeBonus:
+        "<li>Les Colisée sont déverrouillés</li><li>Les Colisée ont une productivité 2x</li><li>Commencez avec le centre de politique de niveau 5</li><li>Les opéras ont une capacité 2x</li><li>Enregistrement les studios produisent également de la culture</li>",
     Detroit: "Détroit",
-    DetroitBonus: "<li>Les usines de moteurs sont déverrouillées</li><li>Les usines de moteurs ont une productivité 2x</li><li>Les usines automobiles ont une capacité 2x</li><li>Les usines automobiles n'ont pas besoin de batteries</li><li>Les usines ferroviaires ont une capacité 2x</li>",
-    Boston: "",
-    BostonBonus: "<li>Commencez avec un laboratoire de recherche de niveau 5</li><li>Les écoles polytechniques sont déverrouillées</li><li>Les écoles polytechniques ont une capacité 2x</li><li>Les écoles ont une capacité 2x</li><li>Les universités ont 2x productivité</li>",
+    DetroitBonus:
+        "<li>Les usines de moteurs sont déverrouillées</li><li>Les usines de moteurs ont une productivité 2x</li><li>Les usines automobiles ont une capacité 2x</li><li>Les usines automobiles n'ont pas besoin de batteries</li><li>Les usines ferroviaires ont une capacité 2x</li>",
+    Boston: "Boston",
+    BostonBonus:
+        "<li>Commencez avec un laboratoire de recherche de niveau 5</li><li>Les écoles polytechniques sont déverrouillées</li><li>Les écoles polytechniques ont une capacité 2x</li><li>Les écoles ont une capacité 2x</li><li>Les universités ont 2x productivité</li>",
 };
