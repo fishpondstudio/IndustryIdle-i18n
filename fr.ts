@@ -157,7 +157,7 @@ export const FR = {
     ResourceInOutDesc:
         "💡 Appuyez sur les numéros Entrée-Sortie ci-dessus pour mettre en évidence les bâtiments de sortie et d'entrée correspondants",
     ResourceChart: "Tableau des ressources",
-    MarketUpdateIn: "Prochaine mise à jour des prix du marché dans %{time}",
+    MarketUpdateIn: "Mise à jour du marché dans %{time}",
     Income: "Revenu",
     Semiconductor: "Semi-conducteur",
     SemiconductorFactory: "Usine de semi-conducteurs",
