@@ -151,7 +151,7 @@ export const EN = {
     ResourceChange: "Change",
     ResourceInOutDesc: "💡 Tap on Out-In numbers above to highlight the corresponding output and input buildings",
     ResourceChart: "Resource Chart",
-    MarketUpdateIn: "Next market price update in %{time}",
+    MarketUpdateIn: "Market Update In %{time}",
     Income: "Income",
     Semiconductor: "Semiconductor",
     SemiconductorFactory: "Semiconductor Factory",
@@ -445,7 +445,7 @@ export const EN = {
     Welcome: "Welcome",
     SeeTutorialAgain: "Redo Tutorial",
     ReadSteamGuide: "Official Guide on Steam",
-    HelpTranslateTheGame: "Help Translate the Game",
+    HelpTranslateTheGame: "Help Translate the Game🌐",
     SkipTutorial: "Skip Tutorial",
     NextTutorial: "Next",
     Tutorial1:
@@ -599,6 +599,10 @@ export const EN = {
     ResourceTilePercentage: "Resource Tiles",
     MapSquareGrid: "Square",
     MapHexGrid: "Hex",
+    Translator: "Translator",
+    TranslatorName: "Add Your Name Here!",
+    Language: "Language",
+    ThisLanguage: "English",
     Stockholm: "Stockholm",
     StockholmBonus:
         "<li>Free level 4 wind turbine x1</li><li>Free level 4 oil well x1</li><li>Free level 2 oil refinery x1</li><li>Paper mills are unlocked</li><li>Logging camps have 2x output</li>",
