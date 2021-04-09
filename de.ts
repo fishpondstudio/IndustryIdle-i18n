@@ -32,7 +32,8 @@ export const DE = {
     Petrol: "Benzin",
     Buy: "kaufen",
     NoLiquidity: "Zahlungsunfähig",
-    NoLiquidityTurnOffAutoSell: "Es gibt nicht genügend Nachfrage für %{res}, der automatische Verkauf wurde abgestellt.",
+    NoLiquidityTurnOffAutoSell:
+        "Es gibt nicht genügend Nachfrage für %{res}, der automatische Verkauf wurde abgestellt.",
     Multiplier: "Multiplikator",
     MultiplierDesc: "Alle 10 level, erhältst du +1 multiplikator",
     SellBuilding: "verkaufe Gebäude",
@@ -188,7 +189,8 @@ export const DE = {
     ChromiumAlloyPlant: "Chromlegierungsfabrik",
     Input: "Eintrag",
     PanelPosition: "Panel Position",
-    PanelPositionDesc: "Anzeige des Seitenpanels links, rechts oder automatisch (entsprechend des aktuell ausgewählten Feldes)",
+    PanelPositionDesc:
+        "Anzeige des Seitenpanels links, rechts oder automatisch (entsprechend des aktuell ausgewählten Feldes)",
     InputCapacity: "Eintragskapazität",
     InputCapacityPerCycle: "Eintragskapazität / Zyklus",
     Output: "Austrag",
@@ -280,8 +282,10 @@ export const DE = {
     MovingAverage: "Gleitender Durchschnitt",
     MovingAverageDesc: "Zeigen Sie den gleitenden Durchschnitt der Ressourcenänderung anstelle der Echtzeitänderung an",
     AllowZoom: "Zoomen",
-    AllowZoomDesc: "Aktivieren Sie die Zoomunterstützung. Verwenden Sie Ihr Mausrad zum Zoomen. Aktueller Zoom ist %{zoom}",
-    AllowZoomMobileDesc: "Aktivieren Sie die Zoomunterstützung. Sie können zum Zoomen kneifen. Aktueller Zoom ist %{zoom}",
+    AllowZoomDesc:
+        "Aktivieren Sie die Zoomunterstützung. Verwenden Sie Ihr Mausrad zum Zoomen. Aktueller Zoom ist %{zoom}",
+    AllowZoomMobileDesc:
+        "Aktivieren Sie die Zoomunterstützung. Sie können zum Zoomen kneifen. Aktueller Zoom ist %{zoom}",
     Settings: "Einstellungen",
     SellBuildingDesc:
         "Durch den Verkauf eines Gebäudes erhalten Sie 50% Ihrer Investition zurück und 50% der Ressourcen werden zum Handelszentrum transportiert",
@@ -332,7 +336,8 @@ export const DE = {
     InputStrategyFar: "Weiter",
     InputStrategyFarDesc: "Bevorzugen Sie das am weitesten entfernte Lager mit genügend Ressourcen",
     InputStrategyAmount: "Menge",
-    InputStrategyAmountDesc: "Bevorzugen Sie das Lager mit der größten Menge an Ressourcen, unabhängig von der Entfernung",
+    InputStrategyAmountDesc:
+        "Bevorzugen Sie das Lager mit der größten Menge an Ressourcen, unabhängig von der Entfernung",
     fuelCostSave: "Treibstoffeinsparung",
     fuelCostSaveDesc:
         "Lagerhäuser sparen im Vergleich zu anderen Gebäuden einen bestimmten Prozentsatz an Treibstoff für den Transport von Ressourcen nach innen. Je höher das Niveau, desto mehr wird gespart",
@@ -358,7 +363,8 @@ export const DE = {
     ProfitMargin: "Gewinnspanne",
     NotMakingProfitWarning: "💡 Die Produktion ist nicht rentabel, überlegen Sie, ob Sie es herunterfahren möchten",
     TurnOnAllProductions: "Produktion An",
-    TurnOnAllProductionsDesc: "Produktionen aller Gebäude einschalten, kann nicht verwendet werden, wenn die Kostensparrichtlinie aktiv ist",
+    TurnOnAllProductionsDesc:
+        "Produktionen aller Gebäude einschalten, kann nicht verwendet werden, wenn die Kostensparrichtlinie aktiv ist",
     OperationSuccessful: "Der Vorgang wurde erfolgreich abgeschlossen",
     TurnOn: "Einschalten",
     Reward: "Belohnung",
@@ -373,7 +379,8 @@ export const DE = {
     FillOrder: "Auftrag erfüllen",
     RejectOrder: "Ablehnen",
     YouHave: "Du besitzt %{amount}",
-    WholesaleCenterLocked:"Du brauchst mindestens %{required} verschiedene Ressourcen zum Freischalten des Großhandelszentrums. Du hast nur %{current} der benötigten Ressourcen",
+    WholesaleCenterLocked:
+        "Du brauchst mindestens %{required} verschiedene Ressourcen zum Freischalten des Großhandelszentrums. Du hast nur %{current} der benötigten Ressourcen",
     OrderFilled: "Die Bestellung von %{from} wurde erfolgreich ausgeliefert!",
     PolicyCenter: "Bundestag",
     NewOrder: "Eine neue Bestellung von %{from} ist angekommen, nachzusehen im  Großhandelszentrum",
@@ -381,15 +388,18 @@ export const DE = {
     PolicyNotEnoughTime: "Sie haben nicht genügend Richtlinienpunkte für diese Richtlinie",
     TimeLeft: "%{time} übrig",
     WholesaleCenterOrderFaster: "Weltausstellung",
-    WholesaleCenterOrderFasterDesc: "Das Großhandelszentrum erhält Bestellungen 2x schneller und die Bestellgröße ist 2x größer",
+    WholesaleCenterOrderFasterDesc:
+        "Das Großhandelszentrum erhält Bestellungen 2x schneller und die Bestellgröße ist 2x größer",
     PolicyOilWellPowerx2: "Verdopple Ölquelle",
     PolicyOilWellPowerx2Desc: "Ölquellen produzieren 2x Öl und 2x verbrauchen Strom",
     HalfTransportSpeed: "Verlangsamen, um zu sparen",
-    HalfTransportSpeedDesc: "Die Transportgeschwindigkeit wird um 25% verlangsamt und die Kraftstoffkosten um 25% gesenkt.",
+    HalfTransportSpeedDesc:
+        "Die Transportgeschwindigkeit wird um 25% verlangsamt und die Kraftstoffkosten um 25% gesenkt.",
     RefineryMoreOil: "Mehr Treibstoff Mehr Probleme",
     RefineryMoreOilDesc: "Ölraffinerien produzieren 50% mehr Benzin und 50% weniger Plastik",
     StickyInput: "Sticky Input",
-    StickyInputDesc: "Gebäude bevorzugen den Transport aus nahen Quellen, anstatt in jedem Zyklus nach der besten Quelle zu suchen (KOSTENLOSE RICHTLINIE)",
+    StickyInputDesc:
+        "Gebäude bevorzugen den Transport aus nahen Quellen, anstatt in jedem Zyklus nach der besten Quelle zu suchen (KOSTENLOSE RICHTLINIE)",
     RefineryMorePlastic: "Mehr Plastic Mehr Probleme",
     RefineryMorePlasticDesc: "Ölraffinerien produzieren 50% weniger Benzin und 50% mehr Plastik",
     FreeOilTransport: "Kostenloser Öltransport",
@@ -400,12 +410,15 @@ export const DE = {
     AlSemiconductorDesc: "Schaltungsgießereien verwenden Aluminium anstelle von Kupfer",
     CostSaver: "Kostenersparnis",
     CostSaverDesc: "Wenn der Eintrag eines Gebäudes mehr kostet als der Austrag, stellen Sie die Produktion ein",
-    CostSaverBuildingDesc:"Die Kostensparrichtlinie ist aktiv. Die Produktion wird basierend auf ihrer Rentabilität automatisch ein- und ausgeschaltet",
-    CostSaverBuildingWarning: "Die Kosteneinsparungsrichtlinie ist aktiv. Sie können die Produktion nicht manuell ändern",
+    CostSaverBuildingDesc:
+        "Die Kostensparrichtlinie ist aktiv. Die Produktion wird basierend auf ihrer Rentabilität automatisch ein- und ausgeschaltet",
+    CostSaverBuildingWarning:
+        "Die Kosteneinsparungsrichtlinie ist aktiv. Sie können die Produktion nicht manuell ändern",
     GlassUseCoal: "Schwarzes Glas",
     GlassUseCoalDesc: "Glasfabriken verbrauchen 50% mehr Kohle und 50% weniger Silizium",
     AdjacentBonusOnlyOutput: "Angrenzender Bonus Plus",
-    AdjacentBonusOnlyOutputDesc: "Der Angrenzendungsbonus erfordert nicht mehr Eintrag, verbraucht aber mehr Strom und ist nur zu 50% effektiv",
+    AdjacentBonusOnlyOutputDesc:
+        "Der Angrenzendungsbonus erfordert nicht mehr Eintrag, verbraucht aber mehr Strom und ist nur zu 50% effektiv",
     IronMine2xOutput: "Schwermetall",
     IronMine2xOutputDesc: "Eisenminen produzieren 2x Eisen, aber der Eisentransport kostet 2x Treibstoff",
     SolarPanelAlwaysWork: "Die Sonne geht nie unter",
@@ -413,12 +426,16 @@ export const DE = {
     SteelScience: "Wissen durch Stahl",
     SteelScienceDesc: "Stahlwerke verbrauchen 2x Ressourcen und produzieren zusätzlich Wissenschaftspunkte",
     ShowWarehouse: "Lager freischalten",
-    ShowWarehouseDesc: "Ein Lagerhaus ist ein spezielles Gebäude, das nur Ressourcen transportiert und lagert und Kraftstoff spart (KOSTENLOSE RICHTLINIEN).",
+    ShowWarehouseDesc:
+        "Ein Lagerhaus ist ein spezielles Gebäude, das nur Ressourcen transportiert und lagert und Kraftstoff spart (KOSTENLOSE RICHTLINIEN).",
     WholesaleCenterProducingOnly: "Großhandelspartner",
-    WholesaleCenterProducingOnlyDesc: "Großhandelszentrum-Bestellungen enthalten nur Ressourcen, die derzeit produziert werden (Sie müssen auch die Anzahl der erforderlichen Ressourcen produzieren, um das Großhandelszentrum freizuschalten).",
+    WholesaleCenterProducingOnlyDesc:
+        "Großhandelszentrum-Bestellungen enthalten nur Ressourcen, die derzeit produziert werden (Sie müssen auch die Anzahl der erforderlichen Ressourcen produzieren, um das Großhandelszentrum freizuschalten).",
     ShoppingSpree: "Einkaufsbummel",
-    ShoppingSpreeDesc: "Wenn die Ausgabekapazität einer Ressource nicht ausreicht, kaufen Sie den Mangelbetrag automatisch am Marktplatz (wenn die Ressource automatisch weiterverkauft wird, wird er ignoriert).",
-    ShoppingSpreeTradeCenterDesc: "💡 Wenn die Einkaufsbummel-Richtlinie aktiviert ist, kauft der Marktplatz automatisch Ressourcen, die knapp sind",
+    ShoppingSpreeDesc:
+        "Wenn die Ausgabekapazität einer Ressource nicht ausreicht, kaufen Sie den Mangelbetrag automatisch am Marktplatz (wenn die Ressource automatisch weiterverkauft wird, wird er ignoriert).",
+    ShoppingSpreeTradeCenterDesc:
+        "💡 Wenn die Einkaufsbummel-Richtlinie aktiviert ist, kauft der Marktplatz automatisch Ressourcen, die knapp sind",
     ExtraPolicyPoints: "Politischer Lobbyist",
     ExtraPolicyPointsDesc: "Erhöhen Sie die Produktionskapazität für Richtlinienpunkte um 50%",
     CrAlloyUseFe: "Chroiron",
@@ -426,11 +443,13 @@ export const DE = {
     DoubleTileModifier: "Die Kraft der Natur",
     DoubleTileModifierDesc: "Der Effekt des Modifikators aller Zellen x2 - sowohl positiv als auch negativ",
     TileModifierOutputOnly: "Zellenmodifikator Plus",
-    TileModifierOutputOnlyDesc: "Zellenmodifikatoren wirken sich nur auf die Ausgabe anstatt auf den Eintrag und Ausgabe aus, sind jedoch nur zu 50% wirksam",
+    TileModifierOutputOnlyDesc:
+        "Zellenmodifikatoren wirken sich nur auf die Ausgabe anstatt auf den Eintrag und Ausgabe aus, sind jedoch nur zu 50% wirksam",
     GasPlantPetrol: "Gasliquidator",
     GasPlantPetrolDesc: "Gaskraftwerke verwenden zusätzliches Gas zur Herstellung von Treibstoff",
     BuildingRecycle: "Gebäuderecycling",
-    BuildingRecycleDesc: "Erhalten Sie die volle Rückerstattung, wenn Sie ein Gebäude innerhalb von 1 Minute nach dem Bau verkaufen",
+    BuildingRecycleDesc:
+        "Erhalten Sie die volle Rückerstattung, wenn Sie ein Gebäude innerhalb von 1 Minute nach dem Bau verkaufen",
     CoalPlantfuel: "Kohle Liquidator",
     CoalPlantfuelDesc: "Kohlekraftwerke verwenden zusätzliche Kohle zur Herstellung von Treibstoff",
     Welcome: "Welcome",
@@ -617,4 +636,27 @@ export const DE = {
     Boston: "Boston",
     BostonBonus:
         "<li>Starte mit Forschungslabor Level 5</li><li>Fachhochschulen sind fre</li><li>Polytechnics have 2x capacity</li><li>Schools have 2x capacity</li><li>University have 2x productivity</li>",
+    FuelType: "Choose Fuel",
+    FuelCost: "Fuel Cost",
+    FuelConsumption: "%{fuel} Consumption",
+    FuelEconomy: "Fuel Economy",
+    FuelProduction: "%{fuel} Production",
+    FuelInStorage: "%{fuel} In Storage",
+    FuelSurplus: "%{fuel} Surplus",
+    NotEnoughFuel: "Not enough %{fuel} for this operation",
+    BuildingNotEnoughFuel: "💡 Not enough %{fuel}",
+    Top20FuelCost: "Top 20 Fuel Cost",
+    FuelCostNumber: "%{cost} %{fuel}",
+    FuelCostSave: "Fuel Cost Save",
+    FuelCostSaveDesc:
+        "Warehouses save a certain percentage of fuel for transporting resources inward compared to other buildings, the higher the level, the more the save",
+    CoalPlantFuel: "Coal Liquidizer",
+    CoalPlantFuelDesc: "Coal power plants use extra coal to produce petrol",
+    FuelRunOutWarning: "💡 Your fuel consumption exceeds production. When fuel runs out, your transportation will halt",
+    FuelCostDiscount: "Fuel Cost Discount",
+    FuelCostDiscountDesc: "Gives a discount to fuel cost when transporting resources",
+    Translator: "Translator",
+    TranslatorName: "Translator's Credit",
+    Language: "Language",
+    ThisLanguage: "Deutsch",
 };
