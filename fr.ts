@@ -443,7 +443,7 @@ export const FR = {
     WholesaleCenterProducingOnly: "Partenaires du centre de vente en gros",
     WholesaleCenterProducingOnlyDesc:
         "Les commandes des centres de gros ne contiennent que des ressources en cours de production (vous devez également produire le nombre de ressources nécessaires pour déverrouiller le centre de vente en gros)",
-    ShoppingSpree: "virée shopping",
+    ShoppingSpree: "Virée shopping",
     ShoppingSpreeDesc:
         "Si la capacité de sortie d'une ressource est insuffisante, achetez automatiquement le montant de la pénurie auprès du centre d'échange (si la ressource est vendue automatiquement, elle sera ignorée)",
     ShoppingSpreeTradeCenterDesc:
@@ -670,4 +670,8 @@ export const FR = {
     Boston: "Boston",
     BostonBonus:
         "<li>Commencez avec un laboratoire de recherche de niveau 5</li><li>Les écoles polytechniques sont déverrouillées</li><li>Les écoles polytechniques ont une capacité 2x</li><li>Les écoles ont une capacité 2x</li><li>Les universités ont 2x productivité</li>",
+    HideNotProducing: "Hide resources that are not being produced",
+    SortByStorage: "Storage",
+    SortByProduction: "Production",
+    SortByName: "Name",
 };
