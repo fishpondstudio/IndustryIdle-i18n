@@ -325,7 +325,7 @@ export const FR = {
     TurnOffProduction: "Désactiver",
     TurnOffProductionDesc:
         "Arrêtez la production du bâtiment. Le bâtiment ne transportera plus de ressources et n'utilisera plus d'électricité",
-    ApplyToAll: "S'applique à tous %{building}",
+    ApplyToAll: "S'applique à tout les %{building}",
     FuelCostNumber: "%{cost} %{fuel}",
     Unlimited: "Illimité",
     Transport: "Transport",
