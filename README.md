@@ -9,6 +9,8 @@ Base language is English and can be found in the list below
 - French: https://github.com/fishpondstudio/IndustryIdle-i18n/blob/main/fr.ts
 - Russian: https://github.com/fishpondstudio/IndustryIdle-i18n/blob/main/ru.ts
 - Turkish: https://github.com/fishpondstudio/IndustryIdle-i18n/blob/main/tr.ts
+- Korean: https://github.com/fishpondstudio/IndustryIdle-i18n/blob/main/kr.ts
+- Spanish: https://github.com/fishpondstudio/IndustryIdle-i18n/blob/main/es.ts
 
 ## Edit Existing Translation
 
