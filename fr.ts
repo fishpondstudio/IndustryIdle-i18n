@@ -549,9 +549,9 @@ export const FR = {
     OfflineEarningDoubleSuccess: "Vous avez doublé vos gains hors ligne",
     FPS30Desc:
         "Activer le mode d'économie d'énergie exécutera le jeu à 30 FPS au lieu de 60 FPS. Cela prolongera la durée de vie de votre batterie",
-    HighlightAll: 'Surligner "%{type}"',
-    HighlightInput: "🔍 Surligner %{type} Entrés",
-    HighlightOutput: "🔍 Surligner %{type} Sortie",
+    HighlightAll: 'Afficher "%{type}"',
+    HighlightInput: "🔍 Afficher les Entrés de %{type} ",
+    HighlightOutput: "🔍 Afficher les Sortie de %{type} ",
     TotalInput: "Capacité d'entrée totale",
     TotalOutput: "Capacité de sortie totale",
     RunOutIn: "Sortie dans %{time}",
