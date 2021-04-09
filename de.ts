@@ -659,4 +659,8 @@ export const DE = {
     TranslatorName: "Translator's Credit",
     Language: "Language",
     ThisLanguage: "Deutsch",
+    HideNotProducing: "Hide resources that are not being produced",
+    SortByStorage: "Storage",
+    SortByProduction: "Production",
+    SortByName: "Name",
 };
