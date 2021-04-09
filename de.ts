@@ -152,7 +152,7 @@ export const DE = {
     ResourceChange: "wechsel",
     ResourceInOutDesc: "💡 Klicke auf Aus-Ein Tap on Out-In Zahl unterhalb um die Entsprechenden Gebäude zu markieren",
     ResourceChart: "Ressourcentabelle",
-    MarketUpdateIn: "Nächstes Marktpreisupdate in %{time}",
+    MarketUpdateIn: "Marktpreisupdate in %{time}",
     Income: "Einkommen",
     Semiconductor: "Halbleiterchip",
     SemiconductorFactory: "Halbleiterchipfabrik",
