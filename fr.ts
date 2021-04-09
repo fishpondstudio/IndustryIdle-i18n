@@ -669,8 +669,8 @@ export const FR = {
     Boston: "Boston",
     BostonBonus:
         "<li>Commencez avec un laboratoire de recherche de niveau 5</li><li>Les écoles polytechniques sont déverrouillées</li><li>Les écoles polytechniques ont une capacité 2x</li><li>Les écoles ont une capacité 2x</li><li>Les universités ont 2x productivité</li>",
-    HideNotProducing: "Hide resources that are not being produced",
-    SortByStorage: "Storage",
+    HideNotProducing: "Masquer les ressources qui ne sont pas produites",
+    SortByStorage: "Stockage",
     SortByProduction: "Production",
-    SortByName: "Name",
+    SortByName: "Nom",
 };
