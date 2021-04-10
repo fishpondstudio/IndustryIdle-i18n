@@ -655,7 +655,7 @@ export const DE = {
     FuelCostDiscount: "Treibstoffkostenrabatt",
     FuelCostDiscountDesc: "Gibt einen Rabatt auf die Treibstoffkosten beim Transport von Ressourcen",
     Translator: "Übersetzer",
-    TranslatorName: "v1rul3nt, Quiipy, KrawallKlumpen",
+    TranslatorName: "v1rul3nt, Quiipy",
     Language: "Language",
     ThisLanguage: "Deutsch",
     HideNotProducing: "Verstecke Ressourcen, die nicht produziert werden",
