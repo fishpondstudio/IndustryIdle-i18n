@@ -25,6 +25,10 @@ After you are happy with your changes, click **Propose changes**
 
 ![image](https://user-images.githubusercontent.com/608221/113917613-11b2bd00-97ea-11eb-9473-b0a300b7df19.png)
 
+Here you can review your changes, if you are happy, click "Create pull request"
+
+![image](https://user-images.githubusercontent.com/608221/114295260-ca0f8800-9aac-11eb-9bf1-844daaad1ad8.png)
+
 Your changes will be reviewed and merged. If you have questions, please ask in Discord!
 
 ## Add A New Language
