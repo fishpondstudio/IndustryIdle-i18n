@@ -650,7 +650,7 @@ export const RU = {
     Translator: "Переводчик",
     TranslatorName: "tenix1",
     Language: "Язык",
-    ThisLanguage: "Английский",
+    ThisLanguage: "Россия",
     HideNotProducing: "Скрыть ресурсы, которые не производятся",
     SortByStorage: "Место хранения",
     SortByProduction: "продукции",
