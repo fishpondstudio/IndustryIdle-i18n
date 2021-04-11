@@ -1,4 +1,4 @@
-export const EN = {
+export const IT = {
     Translator: "Translator",
     TranslatorName: "Add Your Name Here!",
     Language: "Language",
