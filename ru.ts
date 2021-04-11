@@ -648,9 +648,9 @@ export const RU = {
     BostonBonus:
         "<li>Начните с исследовательской лаборатории уровня 5</li><li>Политехнические институты разблокированы</li><li>Политехнические институты имеют 2x емкость</li><li>Школы имеют 2x емкость</li><li>Университеты имеют 2x производительность</li>",
     Translator: "Translator",
-    TranslatorName: "Add Your Name Here!",
+    TranslatorName: "Tenix",
     Language: "Language",
-    ThisLanguage: "English",
+    ThisLanguage: "Россия",
     HideNotProducing: "Hide resources that are not being produced",
     SortByStorage: "Storage",
     SortByProduction: "Production",
