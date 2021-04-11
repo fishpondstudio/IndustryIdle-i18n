@@ -1,4 +1,4 @@
-export const EN = {
+export const NL = {
     OK: "OK",
     SteelMill: "Steel Mill",
     StainlessSteelPlant: "Stainless Steel Plant",
