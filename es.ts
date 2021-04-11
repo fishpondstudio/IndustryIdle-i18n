@@ -651,7 +651,7 @@ export const ES = {
     ToulouseBonus:
         "<li> Las minas de titanio tienen el doble de rendimiento </li> <li> Las plantas de enriquecimiento de uranio tienen el doble de productividad </li> <li> Las fábricas de motores a reacción tienen el doble de capacidad </li> <li> Las fábricas de aviones tienen el doble de productividad </ li > <li> Las fábricas de cohetes utilizan uranio en lugar de uranio enriquecido </li> ",
     Rome: "Roma",
-    RomaBonus:
+    RomeBonus:
         "<li> Los coliseos están desbloqueados </li> <li> Los coliseos tienen el doble de productividad </li> <li> Comience con el centro de políticas de nivel 5 </li> <li> Los teatros de ópera tienen el doble de capacidad </li> <li> Los estudios de grabación también producen cultura </li> ",
     Detroit: "Detroit",
     DetroitBonus:
@@ -659,8 +659,6 @@ export const ES = {
     Boston: "Boston",
     BostonBonus:
         "<li> Comience con el laboratorio de investigación de nivel 5 </li> <li> Las escuelas politécnicas están desbloqueadas </li> <li> Las escuelas politécnicas tienen el doble de capacidad </li> <li> Las escuelas tienen el doble de capacidad </li> <li> Universidad tener el doble de productividad </li> ",
-    RomeBonus:
-        "<li>Colosseums are unlocked</li><li>Colosseums have 2x productivity</li><li>Start with level 5 policy center</li><li>Opera houses have 2x capacity</li><li>Recording studios also produce culture</li>",
     HideNotProducing: "Hide resources that are not being produced",
     SortByStorage: "Storage",
     SortByProduction: "Production",
