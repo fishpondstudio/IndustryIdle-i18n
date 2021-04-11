@@ -32,7 +32,8 @@ export const ES = {
     Petrol: "Gasolina",
     Buy: "Comprar",
     NoLiquidity: "Sin liquidez",
-    NoLiquidityTurnOffAutoSell: "No hay suficiente liquidez en el mercado para %{res}, la venta automática se ha desactivado",
+    NoLiquidityTurnOffAutoSell:
+        "No hay suficiente liquidez en el mercado para %{res}, la venta automática se ha desactivado",
     Multiplier: "Multiplicador",
     MultiplierDesc: "Cada 10 niveles, obtienes +1 multiplicador",
     SellBuilding: "Vender Edificio",
@@ -83,7 +84,8 @@ export const ES = {
     BuildingPermit: "Permiso de construcción",
     BuildingPermitDesc:
         "Tienes permiso para %{amount} edificios, ya has construido %{amountBuilt} y tienes %{amountLeft} izquierda",
-    BuildingLocked: "El edificio aún no está disponible, primero debes desbloquearlo en el Laboratorio de investigación",
+    BuildingLocked:
+        "El edificio aún no está disponible, primero debes desbloquearlo en el Laboratorio de investigación",
     BuildQueue: "Crear cola",
     BuildQueueDesc: "Número de edificios actualmente en cola",
     MaxBuilders: "Maximas Construcciones",
@@ -128,8 +130,10 @@ export const ES = {
     CarFactory: "Fábrica de coches",
     Ship: "Barco",
     SolarPanel: "Panel solar",
-    SolarPanelDesc: "💡 Los paneles solares solo funcionan 5 segundos de cada 10 segundos - todos los ciclos están alineados",
-    WindTurbineDesc: "💡 Las turbinas eólicas solo funcionan 8 segundos de cada 10 segundos - los ciclos no están alineados",
+    SolarPanelDesc:
+        "💡 Los paneles solares solo funcionan 5 segundos de cada 10 segundos - todos los ciclos están alineados",
+    WindTurbineDesc:
+        "💡 Las turbinas eólicas solo funcionan 8 segundos de cada 10 segundos - los ciclos no están alineados",
     Movie: "Película",
     MovieStudio: "Estudio de cine",
     Sitcom: "Comedia de enredo",
@@ -149,7 +153,8 @@ export const ES = {
     ResourceOutput: "Fuera",
     ResourceStorage: "Almacenamiento",
     ResourceChange: "Cambio",
-    ResourceInOutDesc: "💡 Toque los números de entrada y salida de arriba para resaltar los edificios de entrada y salida correspondientes",
+    ResourceInOutDesc:
+        "💡 Toque los números de entrada y salida de arriba para resaltar los edificios de entrada y salida correspondientes",
     ResourceChart: "Gráfico de recursos",
     MarketUpdateIn: "Actualización de mercado en %{time}",
     Income: "Ingreso",
@@ -188,7 +193,8 @@ export const ES = {
     ChromiumAlloyPlant: "Planta de aleación de cromo",
     Input: "Introducir",
     PanelPosition: "Panel Position",
-    PanelPositionDesc: "Mostrar panel lateral a la izquierda, derecha o automático (depende del mosaico seleccionado actualmente)",
+    PanelPositionDesc:
+        "Mostrar panel lateral a la izquierda, derecha o automático (depende del mosaico seleccionado actualmente)",
     InputCapacity: "Capacidad de entrada",
     InputCapacityPerCycle: "Capacidad de entrada / Ciclo",
     Output: "Salida",
@@ -197,13 +203,15 @@ export const ES = {
     ResourceDeposit: "Depósito de recursos",
     RecommendedBuilding: "💡 Este mosaico tiene %{resource} depositar",
     AdjacentBonus: "Bono adyacente",
-    AdjacentBonusDesc: "Usted obtiene %{bonus}% capacidad adicional para cada edificio de trabajo adyacente del mismo tipo",
+    AdjacentBonusDesc:
+        "Usted obtiene %{bonus}% capacidad adicional para cada edificio de trabajo adyacente del mismo tipo",
     ConsiderIncreaseProduction: "💡 Consider increase %{resource} producción",
     AlwaysTransportInput: "Modo de almacenamiento",
     AlwaysTransportInputTradeCenter: "Exportar siempre",
     AlwaysTransportInputTradeCenterDesc:
         "Transporte siempre los recursos al Trade Center, incluso si la venta automática no está habilitada para ese recurso.",
-    AlwaysTransportInputDesc: "Transporte siempre los recursos de entrada, incluso si están por encima de los requisitos mínimos de producción.",
+    AlwaysTransportInputDesc:
+        "Transporte siempre los recursos de entrada, incluso si están por encima de los requisitos mínimos de producción.",
     ProductionCycleLength: "Ciclo productivo",
     ProductionCycleLengthDesc:
         "Duración de un ciclo de producción, medido en segundos. Alargar el ciclo aumentará la entrada / salida por ciclo en consecuencia, por lo tanto, reducirá su prioridad al buscar recursos de entrada",
@@ -324,7 +332,8 @@ export const ES = {
     HideContent: "Ocultar contenido",
     BuyExpansionPack: "Comprar por %{price}",
     Cities: "Ciudades",
-    WarehouseInputCapacityDesc: "Cantidad de recursos que el almacén puede transportar hacia adentro por segundo, por recurso.",
+    WarehouseInputCapacityDesc:
+        "Cantidad de recursos que el almacén puede transportar hacia adentro por segundo, por recurso.",
     WarehouseBuildDesc: "Los almacenes pueden transportar y almacenar cualquier recurso.",
     InputStrategy: "Estrategia de entrada",
     InputStrategyClose: "Cerca",
@@ -332,7 +341,8 @@ export const ES = {
     InputStrategyFar: "Más lejos",
     InputStrategyFarDesc: "Prefiere el almacén más lejano que tenga suficientes recursos.",
     InputStrategyAmount: "Cantidad",
-    InputStrategyAmountDesc: "Prefiera el almacén con la mayor cantidad de recursos, independientemente de la distancia.",
+    InputStrategyAmountDesc:
+        "Prefiera el almacén con la mayor cantidad de recursos, independientemente de la distancia.",
     FuelCostSave: "Ahorro de costo de combustible",
     FuelCostSaveDesc:
         "Los almacenes ahorran un cierto porcentaje de combustible para transportar recursos hacia el interior en comparación con otros edificios, cuanto más alto es el nivel, más se ahorra",
@@ -358,7 +368,8 @@ export const ES = {
     ProfitMargin: "Margen de beneficio",
     NotMakingProfitWarning: "💡 Producción no rentable, considerar apagarlo",
     TurnOnAllProductions: "Producción activada",
-    TurnOnAllProductionsDesc: "Activar las producciones de todos los edificios, no se puede utilizar cuando la política de ahorro de costes está activa",
+    TurnOnAllProductionsDesc:
+        "Activar las producciones de todos los edificios, no se puede utilizar cuando la política de ahorro de costes está activa",
     OperationSuccessful: "Esta operación se ha completado con éxito",
     TurnOn: "Encender",
     Reward: "Recompensa",
@@ -382,11 +393,13 @@ export const ES = {
     PolicyNotEnoughTime: "No tiene suficientes puntos de política para esta política",
     TimeLeft: "%{time} Izquierda",
     WholesaleCenterOrderFaster: "Feria Mundial",
-    WholesaleCenterOrderFasterDesc: "El Centro Mayorista recibe pedidos 2 veces más rápido y el tamaño del pedido es 2 veces mayor",
+    WholesaleCenterOrderFasterDesc:
+        "El Centro Mayorista recibe pedidos 2 veces más rápido y el tamaño del pedido es 2 veces mayor",
     PolicyOilWellPowerx2: "Sobrecarga de pozo de petróleo",
     PolicyOilWellPowerx2Desc: "Los pozos de petróleo producen el doble de petróleo y usan el doble de energía",
     HalfTransportSpeed: "Reduzca la velocidad para ahorrar",
-    HalfTransportSpeedDesc: "La velocidad de transporte se ralentiza en un 25% y el costo de combustible se reduce en un 25%",
+    HalfTransportSpeedDesc:
+        "La velocidad de transporte se ralentiza en un 25% y el costo de combustible se reduce en un 25%",
     RefineryMoreOil: "Problemas de Mo Petrol Mo",
     RefineryMoreOilDesc: "Las refinerías de petróleo producen un 50% más de gasolina y un 50% menos de plástico",
     StickyInput: "Sticky Input",
@@ -395,7 +408,8 @@ export const ES = {
     RefineryMorePlastic: "Mo Plásticos Mo Problemas",
     RefineryMorePlasticDesc: "Las refinerías de petróleo producen un 50% menos de gasolina y un 50% más de plástico",
     FreeOilTransport: "Transporte de petróleo gratis",
-    FreeOilTransportDesc: "El transporte de petróleo no cuesta combustible, pero los pozos de petróleo usan el doble de energía",
+    FreeOilTransportDesc:
+        "El transporte de petróleo no cuesta combustible, pero los pozos de petróleo usan el doble de energía",
     SuperSteelMill: "Corazones de Hierro",
     SuperSteelMillDesc: "Las acerías utilizan un 50% menos de carbón y un 25% más de hierro y un 25% más de energía.",
     AlSemiconductor: "Al circuito",
@@ -411,7 +425,8 @@ export const ES = {
     AdjacentBonusOnlyOutputDesc:
         "La bonificación adyacente no requiere más entrada, pero usa más energía y es solo 50% efectiva",
     IronMine2xOutput: "Hierro pesado",
-    IronMine2xOutputDesc: "Las minas de hierro producen el doble de hierro, pero el transporte de hierro cuesta el doble de combustible",
+    IronMine2xOutputDesc:
+        "Las minas de hierro producen el doble de hierro, pero el transporte de hierro cuesta el doble de combustible",
     SolarPanelAlwaysWork: "El sol nunca se pone",
     SolarPanelAlwaysWorkDesc: "El panel solar funciona el 100% del tiempo pero produce un 60% menos de energía",
     SteelScience: "Conocimiento a través del acero",
@@ -439,7 +454,8 @@ export const ES = {
     GasPlantPetrol: "Licuadora de gas",
     GasPlantPetrolDesc: "Las centrales eléctricas de gas utilizan gas extra para producir gasolina",
     BuildingRecycle: "Reciclaje de edificios",
-    BuildingRecycleDesc: "Obtenga un reembolso completo cuando venda un edificio dentro de 1 minuto después de la construcción",
+    BuildingRecycleDesc:
+        "Obtenga un reembolso completo cuando venda un edificio dentro de 1 minuto después de la construcción",
     CoalPlantFuel: "Licuadora de carbón",
     CoalPlantFuelDesc: "Las centrales eléctricas de carbón utilizan carbón adicional para producir gasolina",
     Welcome: "Bienvenido",
@@ -471,7 +487,8 @@ export const ES = {
     SteamCloudBackup: "Copia de seguridad en la nube de Steam",
     LastBackupAt: "Última copia de seguridad",
     RestoreFromBackup: "Reinstalar desde el respaldo",
-    RestoreFromBackupFail: "No se pudo restaurar la copia de seguridad de Steam Cloud: ¿estás seguro de que hay una copia de seguridad??",
+    RestoreFromBackupFail:
+        "No se pudo restaurar la copia de seguridad de Steam Cloud: ¿estás seguro de que hay una copia de seguridad??",
     RestoreFromBackupTitle: "Estas seguro?",
     RestoreFromBackupDesc:
         "Normalmente no es necesario restaurar desde la copia de seguridad en la nube, a menos que se pierda su guardado local. Las copias de seguridad en la nube son un poco más antiguas que su guardado local",
@@ -488,18 +505,26 @@ export const ES = {
     LeaderboardDesc: "La puntuación de la tabla de clasificación es todo el dinero suizo que hayas ganado.",
     Name: "Nombre",
     Rank: "Rango",
-    Tips1: "Las calificaciones de acciones tienen 5 niveles: compra, rendimiento superior, retención, rendimiento inferior y venta",
+    Tips1:
+        "Las calificaciones de acciones tienen 5 niveles: compra, rendimiento superior, retención, rendimiento inferior y venta",
     Tips2:
         "Los edificios dejarán de transportar recursos si ya hay suficientes para la producción, a menos que active el modo de almacenamiento.",
-    Tips3: "El costo de combustible para el transporte de recursos está determinado por la distancia y la cantidad de recursos.",
-    Tips4: "Los edificios solo transportarán un recurso si la cantidad encontrada en el mapa excede la capacidad de entrada",
-    Tips5: "Los edificios solo transportarán un recurso desde Trade Center si la venta automática está desactivada para ese recurso",
+    Tips3:
+        "El costo de combustible para el transporte de recursos está determinado por la distancia y la cantidad de recursos.",
+    Tips4:
+        "Los edificios solo transportarán un recurso si la cantidad encontrada en el mapa excede la capacidad de entrada",
+    Tips5:
+        "Los edificios solo transportarán un recurso desde Trade Center si la venta automática está desactivada para ese recurso",
     Tips6: "Puede ver el costo de combustible de un recurso en la sección de capacidad de entrada correspondiente",
     Tips7: "Si compra un recurso, aumentará el precio. Si vende un recurso, bajará el precio",
-    Tips8: "Puede ver el cuadro de la cantidad de cada recurso y su cambio a lo largo del tiempo en la Oficina de estadísticas",
-    Tips9: "Los puntos de investigación necesarios para un edificio están determinados por el precio de mercado de sus recursos de entrada.",
-    Tips10: "Los diferentes recursos tienen un precio diferente en el mercado; siempre esté preparado para la volatilidad del mercado",
-    Tips11: "Es una buena idea verificar siempre su suministro de energía y combustible antes de expandir su producción.",
+    Tips8:
+        "Puede ver el cuadro de la cantidad de cada recurso y su cambio a lo largo del tiempo en la Oficina de estadísticas",
+    Tips9:
+        "Los puntos de investigación necesarios para un edificio están determinados por el precio de mercado de sus recursos de entrada.",
+    Tips10:
+        "Los diferentes recursos tienen un precio diferente en el mercado; siempre esté preparado para la volatilidad del mercado",
+    Tips11:
+        "Es una buena idea verificar siempre su suministro de energía y combustible antes de expandir su producción.",
     FPS30: "El ahorro de energía",
     OfflineModeDesc:
         "No se puede conectar al servidor: no se generarán ganancias sin conexión. Por favor revise su conexion a internet",
@@ -509,9 +534,11 @@ export const ES = {
     LeaderboardOptOutDesc:
         "Esto ya no enviará la puntuación de la tabla de clasificación. TENGA EN CUENTA: si desea habilitar la tabla de clasificación más adelante, sus datos deben restablecerse",
     LeaderboardOptIn: "Restablecer y habilitar la tabla de clasificación",
-    LeaderboardOptInDesc: "Sus datos deben REINICIARSE antes de que pueda volver a habilitar la tabla de clasificación, ¿está seguro?",
+    LeaderboardOptInDesc:
+        "Sus datos deben REINICIARSE antes de que pueda volver a habilitar la tabla de clasificación, ¿está seguro?",
     RewardAdsFailed: "El video de recompensa no se completó",
-    RewardAdsNotAvailable: "El video de recompensa no está disponible (actualmente solo es compatible con iOS / Android)",
+    RewardAdsNotAvailable:
+        "El video de recompensa no está disponible (actualmente solo es compatible con iOS / Android)",
     OfflineEarningDoubleSuccess: "Has duplicado tus ingresos sin conexión",
     FPS30Desc:
         "Activar el modo de ahorro de energía ejecutará el juego a 30FPS en lugar de 60FPS. Esto hará que su batería dure más",
@@ -521,7 +548,8 @@ export const ES = {
     TotalInput: "Capacidad de entrada total",
     TotalOutput: "Capacidad de salida total",
     RunOutIn: "Salir en %{time}",
-    FuelRunOutWarning: "💡 Su consumo de combustible supera la producción. Cuando se acabe el combustible, su transporte se detendrá",
+    FuelRunOutWarning:
+        "💡 Su consumo de combustible supera la producción. Cuando se acabe el combustible, su transporte se detendrá",
     InAmount: "en: %{number}",
     OutAmount: "Afuera: %{number}",
     SwissBank: "Banco suizo",
@@ -574,7 +602,8 @@ export const ES = {
     Prestige: "Dinero en",
     Cancel: "Cancelar",
     SaveFileCorrupted: "Guardar archivo dañado",
-    CheatDetected: "Su antiguo guardado no pasó la validación del servidor y no se puede leer. Empezarás con un nuevo guardado",
+    CheatDetected:
+        "Su antiguo guardado no pasó la validación del servidor y no se puede leer. Empezarás con un nuevo guardado",
     LoadGameError: "Error al cargar el juego",
     LoadGameErrorMessage: "Mensaje de error: %{message}",
     LoadGameErrorDesc: "Por favor revise su conexion a internet. Si el problema persiste, comuníquese con el soporte",
@@ -600,7 +629,7 @@ export const ES = {
     MapSquareGrid: "Cuadrado",
     MapHexGrid: "Hex",
     Translator: "Traductor",
-    TranslatorName: "Agregue su nombre aquí!",
+    TranslatorName: "Juan Manuel Jaén Cabrera (Leunal17)",
     Language: "Idioma",
     ThisLanguage: "Español",
     Stockholm: "Estocolmo",
@@ -630,4 +659,53 @@ export const ES = {
     Boston: "Boston",
     BostonBonus:
         "<li> Comience con el laboratorio de investigación de nivel 5 </li> <li> Las escuelas politécnicas están desbloqueadas </li> <li> Las escuelas politécnicas tienen el doble de capacidad </li> <li> Las escuelas tienen el doble de capacidad </li> <li> Universidad tener el doble de productividad </li> ",
+    RomeBonus:
+        "<li>Colosseums are unlocked</li><li>Colosseums have 2x productivity</li><li>Start with level 5 policy center</li><li>Opera houses have 2x capacity</li><li>Recording studios also produce culture</li>",
+    HideNotProducing: "Hide resources that are not being produced",
+    SortByStorage: "Storage",
+    SortByProduction: "Production",
+    SortByName: "Name",
+    BuildingInProgressCannotPrestige:
+        "You have building construction in progress, you cannot start in a new city until they are finished",
+    PlayerTrade: "Player Trade",
+    AddTradeFail: "Failed to add your trade",
+    AddTradeExceedMaximumTrade:
+        "You can only have maximum %{number} active trades, please claim or cancel one of them first",
+    AddTradeSuccess: "Your trade has been added successfully",
+    LoadTradeFail: "Failed to load player trades, please try again later",
+    ClaimTradeFail: "Failed to claim this trade, please try again later",
+    ClaimTradeSuccess: "Your trade has been claimed successfully: $%{cash} has been added to your account",
+    CancelTradeSuccess: "Your trade has been cancelled successfully",
+    CancelTradeFail: "Failed to cancel this trade, please try again later",
+    AcceptTradeSuccess: "This trade has been accepted by you: %{resource} has been added to your trade center",
+    AcceptTradeFail: "Failed to accept this trade, please try again later",
+    PlayerTradeBanner: "Trade Resources with Other Players",
+    PlayerTradeResource: "Resource",
+    PlayerTradeAmount: "Amount",
+    PlayerTradePrice: "Price $",
+    PlayerTradeValue: "Value $",
+    PlayerTradeWaiting: "Waiting...",
+    UseTradeCenterPrice: "Use Trade Center Price",
+    AddTrade: "Add Trade",
+    ActiveTrades: "Active Trades",
+    AcceptTrade: "Accept",
+    CancelTrade: "Cancel",
+    RefundTrade: "Refund",
+    RefundTradeSuccess: "This trade has been refunded: %{resource} has been refunded to your trade center",
+    RefundTradeFail: "Failed to refund this trade, please try again later",
+    ClaimTrade: "Claim",
+    RefreshTrade: "Refresh",
+    PasteYourSave: "Please paste your save data",
+    FailedToImportSave: "Failed to Import Save",
+    FailedToImportSaveDesc: "Your save file is incompatible or corrupted: %{error}",
+    SaveCopiedToClipboard: "Your save data has been copied to your clipboard",
+    CancelActiveTradeFirst: "You have active player trades, please cancel/claim them first",
+    FailedToCheckActiveTrade: "Failed to check active player trades, please try again later",
+    PlayerTradePriceNotValid: "Trade price must be between %{min} and %{max} (2 x Last Market Update Price)",
+    PlayerTradeQuotaExceed: "This trade has exceeded your quota",
+    PlayerTradeAmountNotValid: "Trade amount must be greater than 0",
+    PlayerTradeValidRange: "Range: %{min} ~ %{max}",
+    PlayerTradeFilterPrice: "Below Market Price",
+    PlayerTradeFilterCanAfford: "Can Afford",
+    PlayerTradeQuota: "Quota Left: %{value}",
 };
