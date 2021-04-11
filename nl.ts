@@ -149,7 +149,8 @@ export const NL = {
     ResourceOutput: "Uit",
     ResourceStorage: "Opslag",
     ResourceChange: "Aanpassing",
-    ResourceInOutDesc: "💡 klik op bovenliggende Uit-In nummers om de bijbehorende uitgaande en inkomende gebouwen te markeren",
+    ResourceInOutDesc:
+        "💡 klik op bovenliggende Uit-In nummers om de bijbehorende uitgaande en inkomende gebouwen te markeren",
     ResourceChart: "Goederen Grafiek",
     MarketUpdateIn: "Markt bijwerken In %{time}",
     Income: "Inkomsten",
@@ -203,7 +204,8 @@ export const NL = {
     AlwaysTransportInputTradeCenter: "Altijd Exporteren",
     AlwaysTransportInputTradeCenterDesc:
         "Altijd transporteren naar het handelscentrum, ook al is de automatische verkoop niet geactiveerd voor dit product",
-    AlwaysTransportInputDesc: "Altijd invoer goederen transporteren, zelfs als deze boven de minimale productie vereisten liggen",
+    AlwaysTransportInputDesc:
+        "Altijd invoer goederen transporteren, zelfs als deze boven de minimale productie vereisten liggen",
     ProductionCycleLength: "Productie Cyclus",
     ProductionCycleLengthDesc:
         "De duur van één productie cyclus, gemeten in seconden. De cyclus verlengen zal de invoer/uitvoer per cyclus verhogen, dus bijgevolg de prioriteit verlagen bij het ophalen van invoergoederen",
@@ -324,7 +326,8 @@ export const NL = {
     HideContent: "Verberg Inhoud",
     BuyExpansionPack: "Koop voor %{price}",
     Cities: "Steden",
-    WarehouseInputCapacityDesc: "Aantal goederen die het opslagplaats kan inwaards kan transporteren, per seconde, per goed.",
+    WarehouseInputCapacityDesc:
+        "Aantal goederen die het opslagplaats kan inwaards kan transporteren, per seconde, per goed.",
     WarehouseBuildDesc: "Opslagplaatsen kunnen eender welke goederen transporteren en opslaan",
     InputStrategy: "Invoer Strategie",
     InputStrategyClose: "Dichter",
@@ -358,7 +361,8 @@ export const NL = {
     ProfitMargin: "Winstmarge",
     NotMakingProfitWarning: "💡 Productie is niet winstmakend, overweeg om het uit te schakelen",
     TurnOnAllProductions: "Productie Aan",
-    TurnOnAllProductionsDesc: "Zet productie aan van alle gebouwen, kan niet gebruikt worden wanneer Kosten besparingsbeleid actief is",
+    TurnOnAllProductionsDesc:
+        "Zet productie aan van alle gebouwen, kan niet gebruikt worden wanneer Kosten besparingsbeleid actief is",
     OperationSuccessful: "Deze operatie is succesvol afgewerkt",
     TurnOn: "Aanzetten",
     Reward: "Beloning",
@@ -382,7 +386,8 @@ export const NL = {
     PolicyNotEnoughTime: "Je hebt niet genoeg beleidspunten voor dit beleid",
     TimeLeft: "%{time} over",
     WholesaleCenterOrderFaster: "Wereldtentoonstelling",
-    WholesaleCenterOrderFasterDesc: "Groothandel ontvangt bestellingen 2x sneller en de bestellingsgrootte is 2x groter",
+    WholesaleCenterOrderFasterDesc:
+        "Groothandel ontvangt bestellingen 2x sneller en de bestellingsgrootte is 2x groter",
     PolicyOilWellPowerx2: "Supercharge Oliebronnen",
     PolicyOilWellPowerx2Desc: "Oliebronnen produceren 2x olie and gebruiken 2x energie",
     HalfTransportSpeed: "Vertraag om te sparen",
@@ -439,7 +444,8 @@ export const NL = {
     GasPlantPetrol: "Gas Liquideerder",
     GasPlantPetrolDesc: "Aardgas energiecentrales gebruiken extra aardgas om petroleum te produceren",
     BuildingRecycle: "Gebouw Recyclage",
-    BuildingRecycleDesc: "Ontvang een volledige terugbetaling wanneer je een gebouw verkoopt binnen 1 minuut na constructie",
+    BuildingRecycleDesc:
+        "Ontvang een volledige terugbetaling wanneer je een gebouw verkoopt binnen 1 minuut na constructie",
     CoalPlantFuel: "Steenkool Liquideerder",
     CoalPlantFuelDesc: "Steenkool energiecentrales verbruiken extra steenkool om brandstof te produceren",
     Welcome: "Welkom",
@@ -492,14 +498,18 @@ export const NL = {
     Tips2:
         "Buildings will stop transporting resources if there's already enough for production, unless you turn on stockpile mode",
     Tips3: "Brandstof kosten voor goederen transport worden bepaald door afstand en hoeveelheid goederen",
-    Tips4: "Gebouwen zullen goederen enkel transporteren als het aantal gevonden op de kaart de invoer capaciteit overschrijdt",
-    Tips5: "Gebouwen zullen goederen enkel transporteren van het handelscentrum als de automatisch verkoop voor dit goed is afgezet",
+    Tips4:
+        "Gebouwen zullen goederen enkel transporteren als het aantal gevonden op de kaart de invoer capaciteit overschrijdt",
+    Tips5:
+        "Gebouwen zullen goederen enkel transporteren van het handelscentrum als de automatisch verkoop voor dit goed is afgezet",
     Tips6: "Je kan de brandstofkosten voor goederen bekijken onder de bijbehorende invoer capaciteits sectie",
     Tips7: "Als je een goed aankoopt, zal je de prijs opdrijven. Als je een goed verkoopt zal je de prijs drukken",
     Tips8: "Je kan de grafiek voor een goed's aantal en het aanpassen over tijd in het Statistieken Bureau",
     Tips9: "Onderzoekspunten voor een gebouw worden bepaald door de marktprijs en door zijn invoersgoederen",
-    Tips10: "Verschillende goederen hebben een verschillende prijs in de markt - wees altijd bereid voor de volatiliteit van de markt",
-    Tips11: "Het is een goed idee om altijd je energie en brandstof voorraad te controleren vooraleer je je productie gaat uitbreiden",
+    Tips10:
+        "Verschillende goederen hebben een verschillende prijs in de markt - wees altijd bereid voor de volatiliteit van de markt",
+    Tips11:
+        "Het is een goed idee om altijd je energie en brandstof voorraad te controleren vooraleer je je productie gaat uitbreiden",
     FPS30: "Energie Besparing",
     OfflineModeDesc:
         "Kan niet met de server connecteren: Offline verdiensten worden niet gegenereerd. Gelieve je internet connectie na te kijken",
@@ -521,7 +531,8 @@ export const NL = {
     TotalInput: "Totale Invoer Capaciteit",
     TotalOutput: "Totale Opbrengst Capaciteit",
     RunOutIn: "Uit in %{time}",
-    FuelRunOutWarning: "💡 Je brandstof consumptie overtreft productie. Wanneer brandstof op is, valt je transport stil",
+    FuelRunOutWarning:
+        "💡 Je brandstof consumptie overtreft productie. Wanneer brandstof op is, valt je transport stil",
     InAmount: "In: %{number}",
     OutAmount: "Uit: %{number}",
     SwissBank: "Zwitserse Bank",
@@ -549,7 +560,8 @@ export const NL = {
     PurchaseSteamContinue: "Beëindig je aankoop aub op Steam",
     PurchaseSuccess: "Je aankoop is afgerond, bedankt voor je steun",
     PrestigeCurrency: "Zwitsers Geld 💵",
-    RestartDesc: "💡 Wil je enkel herstarten? Je kan op start klikken in Start In Een Nieuwe Stad en je huidige stad kiezen",
+    RestartDesc:
+        "💡 Wil je enkel herstarten? Je kan op start klikken in Start In Een Nieuwe Stad en je huidige stad kiezen",
     PrestigeGoBack: "Ga Terug",
     PermanentUpgradeDesc: "Deze opwaardering wordt overgedragen naar de volgende stad",
     ProductionMultiplier: "Productie Multiplicator",
@@ -574,7 +586,8 @@ export const NL = {
     Prestige: "Cash In",
     Cancel: "Annuleren",
     SaveFileCorrupted: "Opslagbestand Gecorrupteerd",
-    CheatDetected: "Je oude opslag bestand heeft de server validatie niet doorstaan en kan niet gelezen worden. Je zal starten met een nieuwe opslag bestand",
+    CheatDetected:
+        "Je oude opslag bestand heeft de server validatie niet doorstaan en kan niet gelezen worden. Je zal starten met een nieuwe opslag bestand",
     LoadGameError: "Spel laden gefaald",
     LoadGameErrorMessage: "Foutmelding: %{message}",
     LoadGameErrorDesc: "Controleer aub je internet connectie. Als een probleem aanhoud, gelieve support te contacteren",
@@ -639,8 +652,7 @@ export const NL = {
     PlayerTrade: "Speler Handel",
     AddTradeFail: "Handel toevoegen gefaald",
     AddTradeValidationFail: "Handelsbedrag en prijs moeten groter zijn dan 0",
-    AddTradeExceedMaximumTrade:
-        "Je kan maximum %{number} actieve handels hebben, Eis ze op of annuleer ze eerst",
+    AddTradeExceedMaximumTrade: "Je kan maximum %{number} actieve handels hebben, Eis ze op of annuleer ze eerst",
     AddTradeSuccess: "Je handel is succesvol toegevoegd",
     LoadTradeFail: "Spelers handel laden is gefaald, probeer later opnieuw",
     ClaimTradeFail: "Handel opeisen is gefaald, probeer later opnieuw",
@@ -666,4 +678,16 @@ export const NL = {
     FailedToImportSave: "opgeslagen data importeren gefaald",
     FailedToImportSaveDesc: "je opgeslagen bestand is incompatibel or gecorrumpteerd: %{error}",
     SaveCopiedToClipboard: "Je opgeslagen data is gekopieerd naar je klembord",
+    RefundTrade: "Refund",
+    RefundTradeSuccess: "This trade has been refunded: %{resource} has been refunded to your trade center",
+    RefundTradeFail: "Failed to refund this trade, please try again later",
+    CancelActiveTradeFirst: "You have active player trades, please cancel/claim them first",
+    FailedToCheckActiveTrade: "Failed to check active player trades, please try again later",
+    PlayerTradePriceNotValid: "Trade price must be between %{min} and %{max} (2 x Last Market Update Price)",
+    PlayerTradeQuotaExceed: "This trade has exceeded your quota",
+    PlayerTradeAmountNotValid: "Trade amount must be greater than 0",
+    PlayerTradeValidRange: "Range: %{min} ~ %{max}",
+    PlayerTradeFilterPrice: "Below Market Price",
+    PlayerTradeFilterCanAfford: "Can Afford",
+    PlayerTradeQuota: "Quota Left: %{value}",
 };
