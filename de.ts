@@ -481,7 +481,8 @@ export const DE = {
     SteamCloudBackup: "Steam Cloud Sicherung",
     LastBackupAt: "Letze Sicherung",
     RestoreFromBackup: "Sicherung wiederherstellen",
-    RestoreFromBackupFail: "Wiederherstellung aus der Steam Cloud fehlgeschalgen: sind Sie sicher das dort seine Sicherung existiert?",
+    RestoreFromBackupFail:
+        "Wiederherstellung aus der Steam Cloud fehlgeschalgen: sind Sie sicher das dort seine Sicherung existiert?",
     RestoreFromBackupTitle: "Bist du sicher?",
     RestoreFromBackupDesc:
         "Normalerweise müssen Sie keine Wiederherstellung aus der Cloud-Sicherung durchführen, es sei denn, Ihre lokale Speicherung geht verloren. Cloud-Backups sind etwas älter als Ihre lokale Sicherung",
@@ -499,16 +500,26 @@ export const DE = {
     Name: "Name",
     Rank: "Rang",
     Tips1: "Aktienbewertungen haben 5 Kriterien: Kaufen, Überperformance, Halten, Underperformance und Verkaufen",
-    Tips2: "Gebäude stellen den Transport von Ressourcen ein, wenn bereits genug für die Produktion vorhanden ist, es sei denn, Sie aktivieren den Stapelmodus",
-    Tips3: "Die Kraftstoffkosten für den Ressourcentransport werden durch die Entfernung und die Menge der Ressourcen bestimmt",
-    Tips4: "Gebäude transportieren eine Ressource nur, wenn die auf der Karte gefundene Menge die Eingabekapazität überschreitet",
-    Tips5: "Gebäude transportieren eine Ressource nur vom Großhandelszentrum, wenn der automatische Verkauf für diese Ressource deaktiviert ist",
-    Tips6: "Sie können die Kraftstoffkosten für eine Ressource im entsprechenden Abschnitt zur Eingabekapazität anzeigen",
-    Tips7: "Wenn Sie eine Ressource kaufen, erhöhen Sie den Preis. Wenn Sie eine Ressource verkaufen, senken Sie den Preis",
-    Tips8: "Sie können das Diagramm für die Menge jeder Ressource und ihre zeitliche Änderung im Statistikbüro anzeigen",
-    Tips9: "Die für ein Gebäude benötigten Forschungspunkte werden durch den Marktpreis seiner Inputressourcen bestimmt",
-    Tips10: "Unterschiedliche Ressourcen werden auf dem Markt unterschiedlich bewertet - seien Sie immer auf Marktvschwankungen vorbereitet",
-    Tips11: "Es ist eine gute Idee, immer Ihre Strom- und Kraftstoffversorgung zu überprüfen, bevor Sie Ihre Produktion erweitern",
+    Tips2:
+        "Gebäude stellen den Transport von Ressourcen ein, wenn bereits genug für die Produktion vorhanden ist, es sei denn, Sie aktivieren den Stapelmodus",
+    Tips3:
+        "Die Kraftstoffkosten für den Ressourcentransport werden durch die Entfernung und die Menge der Ressourcen bestimmt",
+    Tips4:
+        "Gebäude transportieren eine Ressource nur, wenn die auf der Karte gefundene Menge die Eingabekapazität überschreitet",
+    Tips5:
+        "Gebäude transportieren eine Ressource nur vom Großhandelszentrum, wenn der automatische Verkauf für diese Ressource deaktiviert ist",
+    Tips6:
+        "Sie können die Kraftstoffkosten für eine Ressource im entsprechenden Abschnitt zur Eingabekapazität anzeigen",
+    Tips7:
+        "Wenn Sie eine Ressource kaufen, erhöhen Sie den Preis. Wenn Sie eine Ressource verkaufen, senken Sie den Preis",
+    Tips8:
+        "Sie können das Diagramm für die Menge jeder Ressource und ihre zeitliche Änderung im Statistikbüro anzeigen",
+    Tips9:
+        "Die für ein Gebäude benötigten Forschungspunkte werden durch den Marktpreis seiner Inputressourcen bestimmt",
+    Tips10:
+        "Unterschiedliche Ressourcen werden auf dem Markt unterschiedlich bewertet - seien Sie immer auf Marktvschwankungen vorbereitet",
+    Tips11:
+        "Es ist eine gute Idee, immer Ihre Strom- und Kraftstoffversorgung zu überprüfen, bevor Sie Ihre Produktion erweitern",
     FPS30: "Energiesparmodus",
     OfflineModeDesc:
         "Es kann keine Verbindung zum Server hergestellt werden: Es werden keine Offline-Einnahmen generiert. Bitte überprüfe deine Internetverbindung",
@@ -518,7 +529,8 @@ export const DE = {
     LeaderboardOptOutDesc:
         "Dadurch wird keine Ranglisten-Punktzahl mehr gesendet. BITTE BEACHTEN SIE: Wenn Sie die Bestenliste später aktivieren möchten, müssen Ihre Daten zurückgesetzt werden",
     LeaderboardOptIn: "Bestenliste zurücksetzen und aktivieren",
-    LeaderboardOptInDesc: "Ihre Daten müssen zurückgesetzt werden, bevor Sie die Bestenliste wieder aktivieren können. Sind Sie sicher?",
+    LeaderboardOptInDesc:
+        "Ihre Daten müssen zurückgesetzt werden, bevor Sie die Bestenliste wieder aktivieren können. Sind Sie sicher?",
     RewardAdsFailed: "Das Belohnungsvideo wurde nicht abgeschlossen",
     RewardAdsNotAvailable: "Belohnungsvideo ist nicht verfügbar (derzeit wird nur iOS / Android unterstützt)",
     OfflineEarningDoubleSuccess: "Sie haben Ihr Offline-Einkommen verdoppelt",
@@ -530,7 +542,8 @@ export const DE = {
     TotalInput: "Gesamteingabekapazität",
     TotalOutput: "Gesamtausgabekapazität",
     RunOutIn: "Leer in %{time}",
-    fuelRunOutWarning: "💡 Ihr Kraftstoffverbrauch übersteigt die Produktion. Wenn der Kraftstoff ausgeht, wird Ihr Transport angehalten",
+    fuelRunOutWarning:
+        "💡 Ihr Kraftstoffverbrauch übersteigt die Produktion. Wenn der Kraftstoff ausgeht, wird Ihr Transport angehalten",
     InAmount: "Ein: %{number}",
     OutAmount: "Aus: %{number}",
     SwissBank: "Schweizer Bank",
@@ -662,4 +675,47 @@ export const DE = {
     SortByStorage: "Lager",
     SortByProduction: "Produktion",
     SortByName: "Name",
+    BuildingInProgressCannotPrestige:
+        "You have building construction in progress, you cannot start in a new city until they are finished",
+    PlayerTrade: "Player Trade",
+    AddTradeFail: "Failed to add your trade",
+    AddTradeExceedMaximumTrade:
+        "You can only have maximum %{number} active trades, please claim or cancel one of them first",
+    AddTradeSuccess: "Your trade has been added successfully",
+    LoadTradeFail: "Failed to load player trades, please try again later",
+    ClaimTradeFail: "Failed to claim this trade, please try again later",
+    ClaimTradeSuccess: "Your trade has been claimed successfully: $%{cash} has been added to your account",
+    CancelTradeSuccess: "Your trade has been cancelled successfully",
+    CancelTradeFail: "Failed to cancel this trade, please try again later",
+    AcceptTradeSuccess: "This trade has been accepted by you: %{resource} has been added to your trade center",
+    AcceptTradeFail: "Failed to accept this trade, please try again later",
+    PlayerTradeBanner: "Trade Resources with Other Players",
+    PlayerTradeResource: "Resource",
+    PlayerTradeAmount: "Amount",
+    PlayerTradePrice: "Price $",
+    PlayerTradeValue: "Value $",
+    PlayerTradeWaiting: "Waiting...",
+    UseTradeCenterPrice: "Use Trade Center Price",
+    AddTrade: "Add Trade",
+    ActiveTrades: "Active Trades",
+    AcceptTrade: "Accept",
+    CancelTrade: "Cancel",
+    RefundTrade: "Refund",
+    RefundTradeSuccess: "This trade has been refunded: %{resource} has been refunded to your trade center",
+    RefundTradeFail: "Failed to refund this trade, please try again later",
+    ClaimTrade: "Claim",
+    RefreshTrade: "Refresh",
+    PasteYourSave: "Please paste your save data",
+    FailedToImportSave: "Failed to Import Save",
+    FailedToImportSaveDesc: "Your save file is incompatible or corrupted: %{error}",
+    SaveCopiedToClipboard: "Your save data has been copied to your clipboard",
+    CancelActiveTradeFirst: "You have active player trades, please cancel/claim them first",
+    FailedToCheckActiveTrade: "Failed to check active player trades, please try again later",
+    PlayerTradePriceNotValid: "Trade price must be between %{min} and %{max} (2 x Last Market Update Price)",
+    PlayerTradeQuotaExceed: "This trade has exceeded your quota",
+    PlayerTradeAmountNotValid: "Trade amount must be greater than 0",
+    PlayerTradeValidRange: "Range: %{min} ~ %{max}",
+    PlayerTradeFilterPrice: "Below Market Price",
+    PlayerTradeFilterCanAfford: "Can Afford",
+    PlayerTradeQuota: "Quota Left: %{value}",
 };
