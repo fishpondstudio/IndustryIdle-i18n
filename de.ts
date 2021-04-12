@@ -199,7 +199,8 @@ export const DE = {
     ResourceDeposit: "Ressourcen Absatz",
     RecommendedBuilding: "💡 Dieses Feld hat %{resource} Austrag",
     AdjacentBonus: "Angrenzungsbonus",
-    AdjacentBonusDesc: "Du erhältst %{bonus}% zusätzliche Kapazität für jedes angrenzende arbeitende Gebäude der selben Art",
+    AdjacentBonusDesc:
+        "Du erhältst %{bonus}% zusätzliche Kapazität für jedes angrenzende arbeitende Gebäude der selben Art",
     ConsiderIncreaseProduction: "💡 Versuche %{resource} Produktionserhöhrung",
     AlwaysTransportInput: "Vorratsmodus",
     AlwaysTransportInputTradeCenter: "Immer exportieren",
@@ -571,7 +572,8 @@ export const DE = {
     PurchaseSteamContinue: "Bitte beenden Sie Ihren Kauf bei Steam",
     PurchaseSuccess: "Der Kauf ist abgeschlossen, danke für Ihre Unterstützung",
     PrestigeCurrency: "Schweizer Franken 💵",
-    RestartDesc: "💡 Willst du nur neu starten? Sie können oben auf Start in einer neuen Stadt tippen und Ihre aktuelle Stadt auswählen",
+    RestartDesc:
+        "💡 Willst du nur neu starten? Sie können oben auf Start in einer neuen Stadt tippen und Ihre aktuelle Stadt auswählen",
     PrestigeGoBack: "bleiben",
     PermanentUpgradeDesc: "Dieses Upgrade bleibt bestehen, wenn Sie in einer neuen Stadt starten",
     ProductionMultiplier: "Produktionsmultiplikator",
@@ -596,10 +598,12 @@ export const DE = {
     Prestige: "Cash In",
     Cancel: "stornieren",
     SaveFileCorrupted: "Sicherung beschädigt",
-    CheatDetected: "Ihre alte Sicherung hat die Serverüberprüfung nicht bestanden und kann nicht gelesen werden. Sie beginnen mit einer neuen Sicherung",
+    CheatDetected:
+        "Ihre alte Sicherung hat die Serverüberprüfung nicht bestanden und kann nicht gelesen werden. Sie beginnen mit einer neuen Sicherung",
     LoadGameError: "Spiel konnte nicht geladen werden",
     LoadGameErrorMessage: "Fehlermeldung: %{message}",
-    LoadGameErrorDesc: "Bitte überprüfe deine Internetverbindung. Wenn das Problem weiterhin besteht, wenden Sie sich an den Support",
+    LoadGameErrorDesc:
+        "Bitte überprüfe deine Internetverbindung. Wenn das Problem weiterhin besteht, wenden Sie sich an den Support",
     ExpansionPackIncompatible:
         "Sie importieren einen Speicher mit Erweiterungspaketen, aber Ihr Spiel verfügt nicht über die erforderlichen Erweiterungspakete",
     SaveFileMigrated: "Eine neue Ära: Beta ist da",
@@ -664,7 +668,8 @@ export const DE = {
         "Lagerhäuser sparen im Vergleich zu anderen Gebäuden einen bestimmten Prozentsatz an Treibstoff für den Transport von Ressourcen. Je höher das Level, desto mehr wird gespart",
     CoalPlantFuel: "Kohle Liquidator",
     CoalPlantFuelDesc: "Kohlekraftwerke verwenden zusätzliche Kohle zur Herstellung von Treibstoff",
-    FuelRunOutWarning: "💡 Ihr Kraftstoffverbrauch übersteigt die Produktion. Wenn der Kraftstoff ausgeht, wird Ihr Transport angehalten",
+    FuelRunOutWarning:
+        "💡 Ihr Kraftstoffverbrauch übersteigt die Produktion. Wenn der Kraftstoff ausgeht, wird Ihr Transport angehalten",
     FuelCostDiscount: "Treibstoffkostenrabatt",
     FuelCostDiscountDesc: "Gibt einen Rabatt auf die Treibstoffkosten beim Transport von Ressourcen",
     Translator: "Übersetzer",
@@ -711,11 +716,16 @@ export const DE = {
     SaveCopiedToClipboard: "Ihre gespeicherten Daten wurden in Ihre Zwischenablage kopiert",
     CancelActiveTradeFirst: "Sie haben aktive Spieler-Handel, bitte stornieren / beanspruchen Sie diese zuerst",
     FailedToCheckActiveTrade: "Fehler beim überprüfen aktiver Spieler-Handel. Bitte versuchen Sie es später erneut",
-    PlayerTradePriceNotValid: "Verkaufspreis muss zwischen %{min} und %{max} liegen(2 x Preis der letzten Marktaktualisierung)",
+    PlayerTradePriceNotValid:
+        "Verkaufspreis muss zwischen %{min} und %{max} liegen(2 x Preis der letzten Marktaktualisierung)",
     PlayerTradeQuotaExceed: "Dieser Handel hat Ihre Menge überschritten",
     PlayerTradeAmountNotValid: "Die Handelsmenge muss größer als 0 sein",
     PlayerTradeValidRange: "Entfernung: %{min} ~ %{max}",
     PlayerTradeFilterPrice: "unter dem Marktpreis",
     PlayerTradeFilterCanAfford: "bezahlbar",
     PlayerTradeQuota: "Menge übrig: %{value}",
+    WindTurbineDesc: "💡 Wind Turbines only work 8 seconds out of every 10 seconds - cycles are not aligned",
+    PlayerTradeUnavailable:
+        "You need to have at least one resource in production and in storage before you can trade with players",
+    PlayerTradeToClaim: "Your have %{num} new trade(s) to claim in Player Trade",
 };

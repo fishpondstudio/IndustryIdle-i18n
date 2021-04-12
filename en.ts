@@ -677,4 +677,7 @@ export const EN = {
     PlayerTradeFilterPrice: "Below Market Price",
     PlayerTradeFilterCanAfford: "Can Afford",
     PlayerTradeQuota: "Quota Left: %{value}",
+    PlayerTradeUnavailable:
+        "You need to have at least one resource in production and in storage before you can trade with players",
+    PlayerTradeToClaim: "Your have %{num} new trade(s) to claim in Player Trade",
 };
