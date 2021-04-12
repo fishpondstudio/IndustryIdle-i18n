@@ -724,8 +724,8 @@ export const DE = {
     PlayerTradeFilterPrice: "unter dem Marktpreis",
     PlayerTradeFilterCanAfford: "bezahlbar",
     PlayerTradeQuota: "Menge übrig: %{value}",
-    WindTurbineDesc: "💡 Wind Turbines only work 8 seconds out of every 10 seconds - cycles are not aligned",
+    WindTurbineDesc: "💡 Windkraftanlagen arbeiten nur 8 von 10 Sekunden - Die Stromkreisläufe sind nicht miteinander verbunden",
     PlayerTradeUnavailable:
-        "You need to have at least one resource in production and in storage before you can trade with players",
-    PlayerTradeToClaim: "Your have %{num} new trade(s) to claim in Player Trade",
+        "Sie brauchen mindestens eine Ressource in Produktion oder im Lager um mit anderen Spielern zu handeln",
+    PlayerTradeToClaim: "Sie haben %{num} neue Handel zum abholen im Spielerhandel",
 };
