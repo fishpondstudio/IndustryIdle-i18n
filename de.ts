@@ -35,7 +35,7 @@ export const DE = {
     NoLiquidityTurnOffAutoSell:
         "Es gibt nicht genügend Nachfrage für %{res}, der automatische Verkauf wurde abgestellt.",
     Multiplier: "Multiplikator",
-    MultiplierDesc: "Alle 10 Level, erhältst du +1 Multiplikator",
+    MultiplierDesc: "Alle 10, erhältst du +1 Multiplikator",
     SellBuilding: "Gebäude verkaufen",
     PowerGrid: "Stromversorgung",
     TradeAmount: "Handelsmenge",
@@ -143,7 +143,7 @@ export const DE = {
     PowerUsage: "Energieverbrauch",
     PowerSupply: "Energieerzeugung",
     PowerSurplus: "Energieüberschuss",
-    Level: "Level",
+    Level: "Stufe",
     Power: "Energie",
     CentralBank: "Zentralbank",
     ResourceInput: "Eingang",
@@ -185,17 +185,17 @@ export const DE = {
     UraniumMine: "Uranmine",
     Titanium: "Titan",
     TitaniumMine: "Titanmine",
-    TitaniumAlloyPlant: "Titanlegierungsfabrik",
-    ChromiumAlloyPlant: "Chromlegierungsfabrik",
+    TitaniumAlloyPlant: "Titanmanufaktur",
+    ChromiumAlloyPlant: "Chrommanufaktur",
     Input: "Eintrag",
     PanelPosition: "Paneel Position",
     PanelPositionDesc:
-        "Anzeige des Seitenpanels links, rechts oder automatisch (entsprechend des aktuell ausgewählten Feldes)",
-    InputCapacity: "Eintragskapazität",
-    InputCapacityPerCycle: "Eintragskapazität / Zyklus",
+        "Anzeige des Seitenpaneels links, rechts oder automatisch (entsprechend des aktuell ausgewählten Feldes)",
+    InputCapacity: "benötigte Materialien",
+    InputCapacityPerCycle: "benötigte Materialien / Zyklus",
     Output: "Produktion",
-    OutputCapacity: "Austragskapazität",
-    OutputCapacityPerCycle: "Austragskapazität / Zyklus",
+    OutputCapacity: "produzierte Materialien",
+    OutputCapacityPerCycle: "produzierte Materialien / Zyklus",
     ResourceDeposit: "Ressourcen Absatz",
     RecommendedBuilding: "💡 Dieses Feld hat %{resource} Austrag",
     AdjacentBonus: "Angrenzungsbonus",
@@ -595,8 +595,8 @@ export const DE = {
         "Ihr Unternehmen wird aufgelöst. Sie werden %{amount} Schweizer Franken bekommen und eine neue Firma in %{city} gründen",
     PrestigeCurrencyDesc:
         "Dies ist das Geld auf Ihrem geheimen Schweizer Bankkonto. Sie können es mitnehmen, wenn Sie in einer neuen Stadt anfangen",
-    Prestige: "Cash In",
-    Cancel: "stornieren",
+    Prestige: "Einzahlen",
+    Cancel: "Stornieren",
     SaveFileCorrupted: "Sicherung beschädigt",
     CheatDetected:
         "Ihre alte Sicherung hat die Serverüberprüfung nicht bestanden und kann nicht gelesen werden. Sie beginnen mit einer neuen Sicherung",
@@ -612,7 +612,7 @@ export const DE = {
     ClaimSwissMoney: "Erhalte %{amount} Schweizer Franken 💵",
     SaveFileMigratedFinePrint:
         "Ihre Marktwert wird in Schweizer Franken umgerechnet und Ihre nicht ausgegebenen Schweizer Franken werden angerechnet. Sie erhalten 50% Schweizer Bonusfranken für Spieltests in Alpha. Die maximalen Schweizer Franken, die angerechnet werden können, sind auf 200 begrenzt",
-    CashIn: "Cash In",
+    CashIn: "Einzahlen",
     CurrentCity: "Aktuelle Stadt",
     CashInDesc:
         "Sie erhalten diesen Betrag auf Ihr Schweizer Bankkonto, wenn Sie in einer neuen Stadt beginnen. Er basiert auf dem Marktwert Ihres Unternehmens und muss %{amount} erreichen, bevor Sie Schweizer Franken verdienen können",
@@ -630,7 +630,7 @@ export const DE = {
         "<li> kostenlose Windkraftanlage der Stufe 4 x1 </ li> <li> kostenlose Ölquelle der Stufe 4 x1 </ li> <li> kostenlose Ölraffinerie der Stufe 2 x1 </ li> <li> Papierfabriken sind freigeschaltet </ li > <li> Sägewerke haben 2x Ausgabe </ li> ",
     Rotterdam: "Rotterdam",
     RotterdamBonus:
-        "<li> Stahlwerke haben 2x Kapazität </ li> <li> Edelstahlwerke haben 2x Kapazität </ li> <li> Kostenloser Eisentransport </ li> <li> Stahltransport kostet 50% weniger Kraftstoff </ li> < li> Beginnen Sie mit 2x automatischer Verkaufskapazität </ li> <li> Keine Kachelmodifikatoren </ li> ",
+        "<li> Stahlwerke haben 2x Kapazität </ li> <li> Edelstahlwerke haben 2x Kapazität </ li> <li> Kostenloser Eisentransport </ li> <li> Stahltransport kostet 50% weniger Kraftstoff </ li> <li> Beginnen Sie mit 2x automatischer Verkaufskapazität </ li> <li> Keine Kachelmodifikatoren </ li> ",
     Oslo: "Oslo",
     OsloBonus:
         "<li> Ölraffinerien haben 2x Kapazität </ li> <li> Gasaufbereitungsanlagen haben 2x Kapazität </ li> <li> Benzinkraftwerke haben 2x Kapazität </ li> <li> Stahlwerke verwenden Erdgas anstelle von Kohle </ li> <li> Kostenloser Öltransport </ li> ",
@@ -648,7 +648,7 @@ export const DE = {
         "<li> Kolosseen sind freigeschaltet </ li> <li> Kolosseen haben 2x Produktivität </ li> <li> Beginnen Sie mit dem Policy Center der Stufe 5 </ li> <li> Opernhäuser haben 2x Kapazität </ li> <li> Aufnahmestudios produzieren auch Kultur </ li> ",
     Detroit: "Detroit",
     DetroitBonus:
-        "<li> Motorenfabriken sind entsperrt </ li> <li> Motorfabriken haben 2x Produktivität </ li> <li> Autofabriken haben 2x Kapazität </ li> <li> Autofabriken benötigen keine Batterien </ li> < li> Zugfabriken haben 2x Kapazität </ li> ",
+        "<li> Motorenfabriken sind entsperrt </ li> <li> Motorfabriken haben 2x Produktivität </ li> <li> Autofabriken haben 2x Kapazität </ li> <li> Autofabriken benötigen keine Batterien </ li> <li> Zugfabriken haben 2x Kapazität </ li> ",
     Boston: "Boston",
     BostonBonus:
         "<li> Starte mit Forschungslabor Level 5 </ li> <li> Fachhochschulen sind frei </ li> <li> Fachhochschulen haben 2x Kapazität </ li> <li> Schulen haben 2x Kapazität </ li> <li> Universität haben 2x Produktivität </ li> ",
@@ -661,7 +661,7 @@ export const DE = {
     FuelSurplus: "%{fuel} Überschuss",
     NotEnoughFuel: "Nicht genug %{fuel} für diese Operation",
     BuildingNotEnoughFuel: "💡 Nicht genug %{fuel}",
-    Top20FuelCost: "Top 20 Treibstoffkosten",
+    Top20FuelCost: "Top 20 Treibstoffverbraucher",
     FuelCostNumber: "%{cost} %{fuel}",
     FuelCostSave: "Treibstoffkosten sparen",
     FuelCostSaveDesc:
@@ -676,7 +676,7 @@ export const DE = {
     TranslatorName: "v1rul3nt, Quiipy",
     Language: "Language",
     ThisLanguage: "Deutsch",
-    HideNotProducing: "Verstecke Ressourcen, die nicht produziert werden",
+    HideNotProducing: "Ressourcen ausblenden, die nicht produziert werden",
     SortByStorage: "Lager",
     SortByProduction: "Produktion",
     SortByName: "Name",
