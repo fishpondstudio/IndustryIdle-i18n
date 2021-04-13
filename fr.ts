@@ -462,7 +462,7 @@ export const FR = {
     BuildingRecycle: "Recyclage du bâtiment",
     BuildingRecycleDesc:
         "Obtenez un remboursement complet lorsque vous vendez un bâtiment dans la minute qui suit la construction",
-    CoalPlantFuel: "Liquide de charbon",
+    CoalPlantFuel: "Charbon liquide",
     CoalPlantFuelDesc: "Les centrales au charbon utilisent du charbon supplémentaire pour produire de l'essence",
     Welcome: "Bienvenu",
     SeeTutorialAgain: "Refaire le didacticiel",
@@ -710,11 +710,11 @@ export const FR = {
     SaveCopiedToClipboard: "Vos données de sauvegarde ont été copiées dans votre presse-papiers",
     CancelActiveTradeFirst: "Vous avez des échanges de joueurs actifs, veuillez d'abord les annuler / les réclamer",
     FailedToCheckActiveTrade: "Échec de la vérification des échanges de joueurs actifs, veuillez réessayer plus tard",
-    PlayerTradePriceNotValid: "Le prix de la transaction doit être compris entre %{min} et %{max} (2 x prix de la dernière mise à jour du marché)",
+    PlayerTradePriceNotValid: "Le prix de la transaction doit être compris entre %{min} et %{max} (2x prix de la dernière mise à jour du marché)",
     PlayerTradeQuotaExceed: "Ce commerce a dépassé votre quota",
     PlayerTradeAmountNotValid: "Le montant de la transaction doit être supérieur à 0",
     PlayerTradeValidRange: "Entre: %{min} ~ %{max}",
     PlayerTradeFilterPrice: "En dessous du prix du marché",
-    PlayerTradeFilterCanAfford: "Trop chere",
-    PlayerTradeQuota: "Quota restant: %{value}",
+    PlayerTradeFilterCanAfford: "Trop cher",
+    PlayerTradeQuota: "Quantité de trade restant: %{value}",
 };
