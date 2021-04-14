@@ -1,6 +1,6 @@
 export const ZH = {
     Translator: "译者",
-    TranslatorName: "LazySu",
+    TranslatorName: "LazySu, snewpeap",
     Language: "语言",
     ThisLanguage: "中文",
     OK: "好的",
@@ -648,7 +648,6 @@ export const ZH = {
     PlayerTradeFilterPrice: "低于市场价格",
     PlayerTradeFilterCanAfford: "负担得起",
     PlayerTradeQuota: "剩余配额: %{value}",
-    PlayerTradeUnavailable:
-        "在与玩家进行交易之前，你需要在生产和存储中至少有一个资源",
+    PlayerTradeUnavailable: "在与玩家进行交易之前，你需要在生产和存储中至少有一个资源",
     PlayerTradeToClaim: "您持有 %{num} 玩家交易中的新交易",
 };
