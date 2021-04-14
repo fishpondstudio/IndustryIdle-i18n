@@ -685,7 +685,7 @@ export const EN = {
     PowerBankChargeSpeed: "Charge Speed",
     PowerBankPowerLeft: "Power Left",
     PowerBankMoreCapacity: "Battery Saver",
-    PowerBankMoreCapacityDesc: "Power banks charge at 50% speed but only have 50% more capacity",
+    PowerBankMoreCapacityDesc: "Power banks charge at 50% speed but have 50% more capacity",
     PowerBankNotWorking: "⛔ Power banks only work next to a power plant",
     ExcludeBuildingsShutdown: "Exclude buildings that are shut down",
     ColorTheme: "Game Color Theme",

@@ -334,7 +334,6 @@ export const ES = {
     Cities: "Ciudades",
     WarehouseInputCapacityDesc:
         "Cantidad de recursos que el almacén puede transportar hacia adentro por segundo, por recurso.",
-    WarehouseBuildDesc: "Los almacenes pueden transportar y almacenar cualquier recurso.",
     InputStrategy: "Estrategia de entrada",
     InputStrategyClose: "Cerca",
     InputStrategyCloseDesc: "Prefiera el almacén más cercano que tenga suficientes recursos",
@@ -714,9 +713,10 @@ export const ES = {
     PowerBankChargeSpeed: "Charge Speed",
     PowerBankPowerLeft: "Power Left",
     PowerBankMoreCapacity: "Battery Saver",
-    PowerBankMoreCapacityDesc: "Power banks charge at 50% speed but only have 50% more capacity",
+    PowerBankMoreCapacityDesc: "Power banks charge at 50% speed but have 50% more capacity",
     PowerBankNotWorking: "⛔ Power banks only work next to a power plant",
     ExcludeBuildingsShutdown: "Exclude buildings that are shut down",
     ColorTheme: "Game Color Theme",
     ColorThemeDesc: "Color theme for game icons, highlight, grid and background. REQUIRES RELOAD",
+    WarehouseBuildDesc: "Transport and store any resources and with lower fuel cost",
 };

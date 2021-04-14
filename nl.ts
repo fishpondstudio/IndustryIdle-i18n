@@ -329,7 +329,6 @@ export const NL = {
     Cities: "Steden",
     WarehouseInputCapacityDesc:
         "Aantal goederen die de opslagplaats inwaards kan transporteren, per seconde, per goed.",
-    WarehouseBuildDesc: "Opslagplaatsen kunnen goederen transporteren en opslaan",
     InputStrategy: "Invoer Strategie",
     InputStrategyClose: "Dichter",
     InputStrategyCloseDesc: "Prefereer de dichtste opslagplaats die genoeg goederen heeft",
@@ -702,9 +701,10 @@ export const NL = {
     PowerBankChargeSpeed: "Charge Speed",
     PowerBankPowerLeft: "Power Left",
     PowerBankMoreCapacity: "Battery Saver",
-    PowerBankMoreCapacityDesc: "Power banks charge at 50% speed but only have 50% more capacity",
+    PowerBankMoreCapacityDesc: "Power banks charge at 50% speed but have 50% more capacity",
     PowerBankNotWorking: "⛔ Power banks only work next to a power plant",
     ExcludeBuildingsShutdown: "Exclude buildings that are shut down",
     ColorTheme: "Game Color Theme",
     ColorThemeDesc: "Color theme for game icons, highlight, grid and background. REQUIRES RELOAD",
+    WarehouseBuildDesc: "Transport and store any resources and with lower fuel cost",
 };
