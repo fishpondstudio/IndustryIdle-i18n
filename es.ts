@@ -706,4 +706,17 @@ export const ES = {
     PlayerTradeFilterPrice: "Below Market Price",
     PlayerTradeFilterCanAfford: "Can Afford",
     PlayerTradeQuota: "Quota Left: %{value}",
+    PlayerTradeUnavailable:
+        "You need to have at least one resource in production and in storage before you can trade with players",
+    PlayerTradeToClaim: "Your have %{num} new trade(s) to claim in Player Trade",
+    PowerBank: "Power Bank",
+    PowerBankBuildDesc: "Store surplus power and provide power supply during shortage",
+    PowerBankChargeSpeed: "Charge Speed",
+    PowerBankPowerLeft: "Power Left",
+    PowerBankMoreCapacity: "Battery Saver",
+    PowerBankMoreCapacityDesc: "Power banks charge at 50% speed but only have 50% more capacity",
+    PowerBankNotWorking: "⛔ Power banks only work next to a power plant",
+    ExcludeBuildingsShutdown: "Exclude buildings that are shut down",
+    ColorTheme: "Game Color Theme",
+    ColorThemeDesc: "Color theme for game icons, highlight, grid and background. REQUIRES RELOAD",
 };

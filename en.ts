@@ -329,7 +329,6 @@ export const EN = {
     BuyExpansionPack: "Buy For %{price}",
     Cities: "Cities",
     WarehouseInputCapacityDesc: "Amount of resources the warehouse can transport inward per second, per resource.",
-    WarehouseBuildDesc: "Warehouses can transport and store any resources",
     InputStrategy: "Input Strategy",
     InputStrategyClose: "Closer",
     InputStrategyCloseDesc: "Prefer the closest warehouse which has enough resources",
@@ -680,4 +679,15 @@ export const EN = {
     PlayerTradeUnavailable:
         "You need to have at least one resource in production and in storage before you can trade with players",
     PlayerTradeToClaim: "Your have %{num} new trade(s) to claim in Player Trade",
+    PowerBank: "Power Bank",
+    PowerBankBuildDesc: "Store surplus power and provide power supply during shortage",
+    WarehouseBuildDesc: "Transport and store any resources and with lower fuel cost",
+    PowerBankChargeSpeed: "Charge Speed",
+    PowerBankPowerLeft: "Power Left",
+    PowerBankMoreCapacity: "Battery Saver",
+    PowerBankMoreCapacityDesc: "Power banks charge at 50% speed but only have 50% more capacity",
+    PowerBankNotWorking: "⛔ Power banks only work next to a power plant",
+    ExcludeBuildingsShutdown: "Exclude buildings that are shut down",
+    ColorTheme: "Game Color Theme",
+    ColorThemeDesc: "Color theme for game icons, highlight, grid and background. REQUIRES RELOAD",
 };

@@ -189,7 +189,8 @@ export const NL = {
     ChromiumAlloyPlant: "Chroom Legering Fabriek",
     Input: "Invoer",
     PanelPosition: "Paneel Positie",
-    PanelPositionDesc: "Toon zijpaneel aan de linkerkant, rechterkant of automatisch (afhankelijk van de geselecteerde tegel)",
+    PanelPositionDesc:
+        "Toon zijpaneel aan de linkerkant, rechterkant of automatisch (afhankelijk van de geselecteerde tegel)",
     InputCapacity: "Invoer Capaciteit",
     InputCapacityPerCycle: "Invoer Capaciteit per Cyclus",
     Output: "Productie",
@@ -590,7 +591,8 @@ export const NL = {
         "Je oude opslag bestand heeft de server validatie niet doorstaan en kan niet gelezen worden. Je zal starten met een nieuwe opslag bestand",
     LoadGameError: "Spel laden gefaald",
     LoadGameErrorMessage: "Foutmelding: %{message}",
-    LoadGameErrorDesc: "Controleer aub je internet connectie. Als het probleem aanhoudt, gelieve support te contacteren",
+    LoadGameErrorDesc:
+        "Controleer aub je internet connectie. Als het probleem aanhoudt, gelieve support te contacteren",
     ExpansionPackIncompatible:
         "Je probeert een save file te importeren met uitbreidingspakketten, maar je spel heeft niet de nodige uitbreindingspakketten",
     SaveFileMigrated: "Een nieuwe Era: De Beta Is Hier",
@@ -652,7 +654,8 @@ export const NL = {
     PlayerTrade: "Speler Handel",
     AddTradeFail: "Handelsoffer toevoegen gefaald",
     AddTradeValidationFail: "Handelsbedrag en prijs moeten groter zijn dan 0",
-    AddTradeExceedMaximumTrade: "Je kan maximum %{number} actieve handelsoffers hebben, claim ze op of annuleer ze eerst",
+    AddTradeExceedMaximumTrade:
+        "Je kan maximum %{number} actieve handelsoffers hebben, claim ze op of annuleer ze eerst",
     AddTradeSuccess: "Je handelsoffer is succesvol toegevoegd",
     LoadTradeFail: "Spelers handel laden is gefaald, probeer later opnieuw",
     ClaimTradeFail: "Handelsoffer claimen is gefaald, probeer later opnieuw",
@@ -683,11 +686,25 @@ export const NL = {
     RefundTradeFail: "Transactie terugbetalen is gefaald, probeer aub later opnieuw",
     CancelActiveTradeFirst: "Je hebt actieve speler transacties, annuleer of eis ze aub eerst op",
     FailedToCheckActiveTrade: "Controleren van actieve speler transacties gefaald, probeer aub later opnieuw",
-    PlayerTradePriceNotValid: "Handelsprijs moet tussen %{min} en %{max}  (2 x laatste markt hernieuwings prijs) liggen",
+    PlayerTradePriceNotValid:
+        "Handelsprijs moet tussen %{min} en %{max}  (2 x laatste markt hernieuwings prijs) liggen",
     PlayerTradeQuotaExceed: "Deze transactie heeft uw quota overschreden",
     PlayerTradeAmountNotValid: "Handelshoeveelheid moet groter zijn dan 0",
     PlayerTradeValidRange: "Bereik: %{min} ~ %{max}",
     PlayerTradeFilterPrice: "Onder Market Prijs",
     PlayerTradeFilterCanAfford: "Kan Betalen",
     PlayerTradeQuota: "Resterend quota: %{value}",
+    PlayerTradeUnavailable:
+        "You need to have at least one resource in production and in storage before you can trade with players",
+    PlayerTradeToClaim: "Your have %{num} new trade(s) to claim in Player Trade",
+    PowerBank: "Power Bank",
+    PowerBankBuildDesc: "Store surplus power and provide power supply during shortage",
+    PowerBankChargeSpeed: "Charge Speed",
+    PowerBankPowerLeft: "Power Left",
+    PowerBankMoreCapacity: "Battery Saver",
+    PowerBankMoreCapacityDesc: "Power banks charge at 50% speed but only have 50% more capacity",
+    PowerBankNotWorking: "⛔ Power banks only work next to a power plant",
+    ExcludeBuildingsShutdown: "Exclude buildings that are shut down",
+    ColorTheme: "Game Color Theme",
+    ColorThemeDesc: "Color theme for game icons, highlight, grid and background. REQUIRES RELOAD",
 };

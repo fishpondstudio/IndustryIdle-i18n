@@ -724,8 +724,19 @@ export const DE = {
     PlayerTradeFilterPrice: "unter dem Marktpreis",
     PlayerTradeFilterCanAfford: "bezahlbar",
     PlayerTradeQuota: "Menge übrig: %{value}",
-    WindTurbineDesc: "💡 Windkraftanlagen arbeiten nur 8 von 10 Sekunden - Die Stromkreisläufe sind nicht miteinander verbunden",
+    WindTurbineDesc:
+        "💡 Windkraftanlagen arbeiten nur 8 von 10 Sekunden - Die Stromkreisläufe sind nicht miteinander verbunden",
     PlayerTradeUnavailable:
         "Sie brauchen mindestens eine Ressource in Produktion oder im Lager um mit anderen Spielern zu handeln",
     PlayerTradeToClaim: "Sie haben %{num} neue Handel zum abholen im Spielerhandel",
+    PowerBank: "Power Bank",
+    PowerBankBuildDesc: "Store surplus power and provide power supply during shortage",
+    PowerBankChargeSpeed: "Charge Speed",
+    PowerBankPowerLeft: "Power Left",
+    PowerBankMoreCapacity: "Battery Saver",
+    PowerBankMoreCapacityDesc: "Power banks charge at 50% speed but only have 50% more capacity",
+    PowerBankNotWorking: "⛔ Power banks only work next to a power plant",
+    ExcludeBuildingsShutdown: "Exclude buildings that are shut down",
+    ColorTheme: "Game Color Theme",
+    ColorThemeDesc: "Color theme for game icons, highlight, grid and background. REQUIRES RELOAD",
 };
