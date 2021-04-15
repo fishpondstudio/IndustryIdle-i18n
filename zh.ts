@@ -653,7 +653,7 @@ export const ZH = {
     PowerBankBuildDesc: "存储过剩的电力，在电力短缺时提供电能",
     PowerBankChargeSpeed: "充电速度",
     PowerBankPowerLeft: "电量剩余",
-    PowerBankMoreCapacity: "省电模式",
+    PowerBankMoreCapacity: "电池保护",
     PowerBankMoreCapacityDesc: "电力银行的充电速度只有原来50%，但是多50%容量",
     PowerBankNotWorking: "⛔ 电力银行只在紧邻发电厂时工作",
     ExcludeBuildingsShutdown: "被关闭的建筑除外",
