@@ -707,4 +707,17 @@ export const NL = {
     ColorTheme: "Spel kleurenthema",
     ColorThemeDesc: "Kleurenthema voor spelicoontjes, markeringen, grid en achtergrond. VEREIST HERSTART",
     WarehouseBuildDesc: "Transporteer en sla mijn goederen op en met lagere brandstof kosten",
+    SiliconMine2xOutput: "Silicon Valley",
+    SiliconMine2xOutputDesc:
+        "Silicon mines produce 2x silicon but use 50% more power and silicon transport costs 50% more fuel",
+    CoalMine2xOutput: "Industrial Revolution",
+    CoalMine2xOutputDesc: "Coal mines produce 2x coal but use 50% more power and coal transport costs 50% more fuel",
+    AlMine2xOutput: "Aluminum Smelting",
+    AlMine2xOutputDesc: "Aluminum mines produce 2x aluminum and use 2x more power",
+    LoggingCamp2xOutput: "Deforestation",
+    LoggingCamp2xOutputDesc: "Logging camps produce 2x wood and wood transport costs 2x fuel",
+    HideResourceMovement: "Hide Resource Movement",
+    HideResourceMovementDesc:
+        "This will hide resource movement (those tiny dots) by default and only show the movement when you select a building",
+    PowerBankLeft: "Power Bank",
 };

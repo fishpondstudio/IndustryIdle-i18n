@@ -556,8 +556,7 @@ export const ZH = {
     LoadGameErrorDesc: "请检查您的互联网连接。如果问题仍然存在，请联系支持人员",
     ExpansionPackIncompatible: "您正在使用扩展包导入保存，但您的游戏没有所需的扩展包",
     SaveFileMigrated: "新时代：Beta测试在此",
-    SaveFileMigratedDesc:
-        "感谢您参与游戏的alpha测试。您的旧地图不兼容，但是我们已经迁移了您的数据并为您提供了一些奖励",
+    SaveFileMigratedDesc: "感谢您参与游戏的alpha测试。您的旧地图不兼容，但是我们已经迁移了您的数据并为您提供了一些奖励",
     ClaimSwissMoney: "获取 %{amount} 瑞士货币 💵",
     SaveFileMigratedFinePrint:
         "您的市值转换为瑞士货币，您未使用的瑞士货币将结转。您将获得额外50％的瑞士货币作为参与游戏alpha测试的奖金。可结转的瑞士货币上限为200",
@@ -660,4 +659,17 @@ export const ZH = {
     ColorTheme: "游戏颜色主题",
     ColorThemeDesc: "颜色主题应用于游戏图标，高亮，网格和背景。需要重启生效",
     WarehouseBuildDesc: "以更低的燃料消耗运输及存储任何资源",
+    SiliconMine2xOutput: "Silicon Valley",
+    SiliconMine2xOutputDesc:
+        "Silicon mines produce 2x silicon but use 50% more power and silicon transport costs 50% more fuel",
+    CoalMine2xOutput: "Industrial Revolution",
+    CoalMine2xOutputDesc: "Coal mines produce 2x coal but use 50% more power and coal transport costs 50% more fuel",
+    AlMine2xOutput: "Aluminum Smelting",
+    AlMine2xOutputDesc: "Aluminum mines produce 2x aluminum and use 2x more power",
+    LoggingCamp2xOutput: "Deforestation",
+    LoggingCamp2xOutputDesc: "Logging camps produce 2x wood and wood transport costs 2x fuel",
+    HideResourceMovement: "Hide Resource Movement",
+    HideResourceMovementDesc:
+        "This will hide resource movement (those tiny dots) by default and only show the movement when you select a building",
+    PowerBankLeft: "Power Bank",
 };
