@@ -156,7 +156,7 @@ export const DE = {
     Income: "Einkommen",
     Semiconductor: "Halbleiterchip",
     SemiconductorFactory: "Halbleiterchipfabrik",
-    SemiconductorFab: "Halbleiterchip Fab",
+    SemiconductorFab: "Schaltkreisgießerei",
     Steel: "Stahl",
     Bitcoin: "Bitcoin",
     BitcoinFarm: "Bitcoin Farm",
