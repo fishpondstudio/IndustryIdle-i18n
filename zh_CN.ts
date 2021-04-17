@@ -302,7 +302,7 @@ export const ZH_CN = {
     HighlightWarehouseOnly: "只供应仓库的...",
     HighlightProductionCycleNotDefault: "生产周期 > 1的...",
     HighlightMaxInputDistanceNotDefault: "最大输入距离 < ∞的...",
-    HighlightNotMakingProfit: "...不盈利的",
+    HighlightNotMakingProfit: "不盈利的...",
     NBuildingsAreHighlighted: "%{n} 建筑物被突出显示",
     OnlyToWarehouse: "仓库专运",
     OnlyToWarehouseDesc: "只有仓库才能从这座建筑物里运送资源",
