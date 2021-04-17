@@ -667,7 +667,7 @@ export const ZH_CN = {
     AlMine2xOutput: "铝电解",
     AlMine2xOutputDesc: "铝矿场产生2倍的铝，但消耗2倍的电力",
     LoggingCamp2xOutput: "毁林",
-    LoggingCamp2xOutputDesc: "伐木场产生2倍的铁，但运输木头消耗2倍的燃料",
+    LoggingCamp2xOutputDesc: "伐木场产生2倍的木头，但运输木头消耗2倍的燃料",
     HideResourceMovement: "隐藏资源移动",
     HideResourceMovementDesc:
         "这将默认隐藏资源移动（那些小点），仅在选择建筑时显示相关资源移动",
