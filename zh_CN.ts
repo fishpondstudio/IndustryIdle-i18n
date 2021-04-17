@@ -101,7 +101,7 @@ export const ZH_CN = {
     ResearchLab: "研究实验室",
     TradeCenter: "贸易中心",
     Resources: "资源",
-    NotEnoughPower: "💡 电力不足，考虑增加发电站",
+    NotEnoughPower: "💡 电力不足，考虑增加供电",
     NotEnoughFuel: "没有足够的 %{fuel} 进行此操作",
     NotEnoughCash: "没有足够的现金进行此操作",
     NotEnoughSwissMoney: "没有足够的瑞士资金进行此操作",
