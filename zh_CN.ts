@@ -666,7 +666,7 @@ export const ZH_CN = {
     CoalMine2xOutputDesc: "煤矿场生产2倍的煤，但用电量增加50%，运输煤的燃料消耗增加50%",
     AlMine2xOutput: "铝电解",
     AlMine2xOutputDesc: "铝矿场产生2倍的铝，但消耗2倍的电力",
-    LoggingCamp2xOutput: "Deforestation",
+    LoggingCamp2xOutput: "毁林",
     LoggingCamp2xOutputDesc: "伐木场产生2倍的铁，但运输木头消耗2倍的燃料",
     HideResourceMovement: "隐藏资源移动",
     HideResourceMovementDesc:
