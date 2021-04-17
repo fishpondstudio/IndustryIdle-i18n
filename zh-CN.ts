@@ -660,8 +660,7 @@ export const ZH_CN = {
     ColorThemeDesc: "颜色主题应用于游戏图标，高亮，网格和背景。需要重启生效",
     WarehouseBuildDesc: "以更低的燃料消耗运输及存储任何资源",
     SiliconMine2xOutput: "硅谷",
-    SiliconMine2xOutputDesc:
-        "硅矿场生产2倍的硅，但用电量增加50%，运输硅的燃料消耗增加50%",
+    SiliconMine2xOutputDesc: "硅矿场生产2倍的硅，但用电量增加50%，运输硅的燃料消耗增加50%",
     CoalMine2xOutput: "工业革命",
     CoalMine2xOutputDesc: "煤矿场生产2倍的煤，但用电量增加50%，运输煤的燃料消耗增加50%",
     AlMine2xOutput: "铝电解",
@@ -669,7 +668,6 @@ export const ZH_CN = {
     LoggingCamp2xOutput: "毁林",
     LoggingCamp2xOutputDesc: "伐木场产生2倍的木头，但运输木头消耗2倍的燃料",
     HideResourceMovement: "隐藏资源移动",
-    HideResourceMovementDesc:
-        "这将默认隐藏资源移动（那些小点），仅在选择建筑时显示相关资源移动",
+    HideResourceMovementDesc: "这将默认隐藏资源移动（那些小点），仅在选择建筑时显示相关资源移动",
     PowerBankLeft: "电池组",
 };
