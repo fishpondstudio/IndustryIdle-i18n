@@ -756,7 +756,8 @@ export const FR = {
     AcceptTradeFailRateLimit: "You can only accept one trade every %{time} seconds",
     DowngradeBuilding: "Downgrade",
     CancelTradeConfirmDialogTitle: "Cancel This Trade?",
-    CancelTradeConfirmDialogDesc: "Cancelling this trade will refund 90% of the resource to the Trade Center warehouse",
+    CancelTradeConfirmDialogDesc:
+        "Cancelling this trade will refund %{percent} of the resource to the Trade Center warehouse",
     CancelTradeConfirmDialogYes: "Yes",
     CancelTradeConfirmDialogNo: "No",
     WarehouseInputRoutes: "Input Routes",
