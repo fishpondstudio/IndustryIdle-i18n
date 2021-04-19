@@ -689,7 +689,7 @@ export const ZH_CN = {
     WarehouseInputRoutes: "运入路线",
     WarehouseAddInput: "添加路线",
     WarehouseTapToSelect: "在地图上点选...",
-    WarehouseFindOnMap: "🔍 在地图上寻找",
+    WarehouseFindOnMap: "🔍 在地图上定位",
     WarehouseRemoveRoute: "删除",
     WarehouseAddRouteFail: "添加路线失败: 选择的地块不是有效运入源",
     LevelN: "级别 %{level}",
