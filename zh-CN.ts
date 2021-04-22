@@ -682,8 +682,7 @@ export const ZH_CN = {
     AcceptTradeFailRateLimit: "每%{time}秒只能接受一宗交易",
     DowngradeBuilding: "降级",
     CancelTradeConfirmDialogTitle: "要取消这宗交易吗？",
-    CancelTradeConfirmDialogDesc:
-        "取消这宗交易将会返还%{percent}的资源到贸易中心仓库",
+    CancelTradeConfirmDialogDesc: "取消这宗交易将会返还%{percent}的资源到贸易中心仓库",
     CancelTradeConfirmDialogYes: "是",
     CancelTradeConfirmDialogNo: "否",
     WarehouseInputRoutes: "运入路线",

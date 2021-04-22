@@ -759,7 +759,8 @@ export const DE = {
     ColorThemeEditorResetAll: "Alle zurücksetzten",
     NewMessageMentions: "Eine neue Nachricht erwähnt Sie: %{message}",
     HideChatMentions: "Chat-Erwähnungen ausblenden",
-    HideChatMentionsDesc: "Blenden Sie die Audio- und Toastbenachrichtigung aus, wenn eine Chat-Nachricht mich erwähnt,",
+    HideChatMentionsDesc:
+        "Blenden Sie die Audio- und Toastbenachrichtigung aus, wenn eine Chat-Nachricht mich erwähnt,",
     PendingConstructionCannotReload: "Sie haben gerade einen Bauvorgang, das Spiel kann nicht neu geladen werden",
     AcceptTradeFailRateLimit: "Sie können nur einen Trade alle %{time} Sekunden akzeptieren",
     DowngradeBuilding: "Downgrade",

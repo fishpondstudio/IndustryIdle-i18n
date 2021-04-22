@@ -735,7 +735,8 @@ export const FR = {
     SiliconMine2xOutputDesc:
         "Les mines de silicium produisent 2x silicium mais utilisent 50% de plus d'électricité et le transport du silicium coûte 50% de plus de carburant",
     CoalMine2xOutput: "Mine de charbon",
-    CoalMine2xOutputDesc: "Les mines de charbon produisent 2x charbon mais utilisent 50% de plus d'électricité et le transport du charbon coûte 50% de plus de carburant",
+    CoalMine2xOutputDesc:
+        "Les mines de charbon produisent 2x charbon mais utilisent 50% de plus d'électricité et le transport du charbon coûte 50% de plus de carburant",
     AlMine2xOutput: "Mine d'Aluminium",
     AlMine2xOutputDesc: "Les mines d'aluminium produisent 2x aluminium mais utilisent 2x plus d'électricité",
     LoggingCamp2xOutput: "Chantier forestier",
@@ -756,8 +757,7 @@ export const FR = {
     AcceptTradeFailRateLimit: "Vous pouvez seulement accepter un échange toutes les %{time} secondes",
     DowngradeBuilding: "Downgrade",
     CancelTradeConfirmDialogTitle: "Annuler cet échange?",
-    CancelTradeConfirmDialogDesc:
-        "Annuler cet échange va rembourser %{percent} de la ressource au centre d'échange",
+    CancelTradeConfirmDialogDesc: "Annuler cet échange va rembourser %{percent} de la ressource au centre d'échange",
     CancelTradeConfirmDialogYes: "Oui",
     CancelTradeConfirmDialogNo: "Non",
     WarehouseInputRoutes: "Input Routes",
