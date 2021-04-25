@@ -712,4 +712,14 @@ export const ZH_CN = {
     ShowTheoreticalInputOutputCapacity: "显示理论输入/输出量",
     SpecialTransportCost: "有特殊运输成本的资源",
     FreeTransportCost: "免费运输的资源",
+    Osaka: "Osaka",
+    OsakaBonus:
+        "<li>Resources tend to spawn in clusters</li><li>Warehouse provide 50% more fuel save</li><li>Unique building: manga publisher</li><li>Unique building: anime studio</li><li>Semiconductor factories have 2x productivity</li><li>Li-ion battery factories have 2x capacity</li><li>Battery factories are unlocked</li><li>Battery factories have 2x capacity</li><li>Battery fuel economy improves by 100%</li><li>Battery factories do not require coal</li><li>Start with 100K batteries</li>",
+    HideChatDescV2: "Hide chat message from the bottom toolbar. By showing chat messages, you agree to our ",
+    HideChatDescV2ToS: "Terms of Service",
+    IntegratedCircuitFab: "Integrated Circuit Fab",
+    MangaPublisher: "Manga Publisher",
+    Manga: "Manga",
+    AnimeStudio: "Anime Studio",
+    Anime: "Anime",
 };

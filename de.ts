@@ -792,8 +792,19 @@ export const DE = {
     ImportSaveVersionTooNew:
         "Sie importerien eine Sicherung aus %{saveVersion} aber die Spielversion ist %{gameVersion}. Bitte aktualisiere zuerst dein Spiel",
     BatteryFuelEconomy: "Wiederaufladbare Batterie",
-    BatteryFuelEconomyDesc: "Der Kraftstoffverbrauch der Batterie verbessert sich um 100% (daher 50% Kraftstoffkosten).",
+    BatteryFuelEconomyDesc:
+        "Der Kraftstoffverbrauch der Batterie verbessert sich um 100% (daher 50% Kraftstoffkosten).",
     ShowTheoreticalInputOutputCapacity: "Zeigen Sie die theoretische Eingangs- / Ausgabekapazität an",
     SpecialTransportCost: "Ressourcen mit besonderen Transportkosten",
     FreeTransportCost: "Ressourcen mit kostenlosen Transportkosten",
+    Osaka: "Osaka",
+    OsakaBonus:
+        "<li>Resources tend to spawn in clusters</li><li>Warehouse provide 50% more fuel save</li><li>Unique building: manga publisher</li><li>Unique building: anime studio</li><li>Semiconductor factories have 2x productivity</li><li>Li-ion battery factories have 2x capacity</li><li>Battery factories are unlocked</li><li>Battery factories have 2x capacity</li><li>Battery fuel economy improves by 100%</li><li>Battery factories do not require coal</li><li>Start with 100K batteries</li>",
+    HideChatDescV2: "Hide chat message from the bottom toolbar. By showing chat messages, you agree to our ",
+    HideChatDescV2ToS: "Terms of Service",
+    IntegratedCircuitFab: "Integrated Circuit Fab",
+    MangaPublisher: "Manga Publisher",
+    Manga: "Manga",
+    AnimeStudio: "Anime Studio",
+    Anime: "Anime",
 };

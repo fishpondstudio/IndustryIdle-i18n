@@ -681,8 +681,7 @@ export const ZH_TW = {
     AcceptTradeFailRateLimit: "每隔 %{time} 秒才能接受一筆交易",
     DowngradeBuilding: "降級",
     CancelTradeConfirmDialogTitle: "取消交易？",
-    CancelTradeConfirmDialogDesc:
-        "取消這筆交易會歸還 %{percent} 的資源到交易中心",
+    CancelTradeConfirmDialogDesc: "取消這筆交易會歸還 %{percent} 的資源到交易中心",
     CancelTradeConfirmDialogYes: "是",
     CancelTradeConfirmDialogNo: "否",
     WarehouseInputRoutes: "進貨途徑",
@@ -705,11 +704,20 @@ export const ZH_TW = {
     BookPublisherScienceDesc: "圖書出版社貢獻科學，而非文化",
     WarehouseOutwardFuelSave: "免運",
     WarehouseOutwardFuelSaveDesc: "從倉庫出貨，同樣省油",
-    ImportSaveVersionTooNew:
-        "匯入的存檔版本為 %{saveVersion} ，但您的遊戲版本為 %{gameVersion}。請先更新您的遊戲。",
+    ImportSaveVersionTooNew: "匯入的存檔版本為 %{saveVersion} ，但您的遊戲版本為 %{gameVersion}。請先更新您的遊戲。",
     BatteryFuelEconomy: "充電電池",
     BatteryFuelEconomyDesc: "電池效率提升100% (例. 50% 燃料消耗)",
     ShowTheoreticalInputOutputCapacity: "顯示理論 輸入/輸出 容量",
     SpecialTransportCost: "Resources with Special Transport Cost",
     FreeTransportCost: "Resources with Free Transport Cost",
+    Osaka: "Osaka",
+    OsakaBonus:
+        "<li>Resources tend to spawn in clusters</li><li>Warehouse provide 50% more fuel save</li><li>Unique building: manga publisher</li><li>Unique building: anime studio</li><li>Semiconductor factories have 2x productivity</li><li>Li-ion battery factories have 2x capacity</li><li>Battery factories are unlocked</li><li>Battery factories have 2x capacity</li><li>Battery fuel economy improves by 100%</li><li>Battery factories do not require coal</li><li>Start with 100K batteries</li>",
+    HideChatDescV2: "Hide chat message from the bottom toolbar. By showing chat messages, you agree to our ",
+    HideChatDescV2ToS: "Terms of Service",
+    IntegratedCircuitFab: "Integrated Circuit Fab",
+    MangaPublisher: "Manga Publisher",
+    Manga: "Manga",
+    AnimeStudio: "Anime Studio",
+    Anime: "Anime",
 };
