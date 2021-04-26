@@ -799,12 +799,12 @@ export const DE = {
     FreeTransportCost: "Ressourcen mit kostenlosen Transportkosten",
     Osaka: "Osaka",
     OsakaBonus:
-        "<li>Resources tend to spawn in clusters</li><li>Warehouse provide 50% more fuel save</li><li>Unique building: manga publisher</li><li>Unique building: anime studio</li><li>Semiconductor factories have 2x productivity</li><li>Li-ion battery factories have 2x capacity</li><li>Battery factories are unlocked</li><li>Battery factories have 2x capacity</li><li>Battery fuel economy improves by 100%</li><li>Battery factories do not require coal</li><li>Start with 100K batteries</li>",
-    HideChatDescV2: "Hide chat message from the bottom toolbar. By showing chat messages, you agree to our ",
-    HideChatDescV2ToS: "Terms of Service",
-    IntegratedCircuitFab: "Integrated Circuit Fab",
-    MangaPublisher: "Manga Publisher",
+        "<li>Ressourcen erscheinen in der Regel in Clustern.</ li> <li>Das Lagerhaus bietet 50% mehr Kraftstoffeinsparung.</ li> <li>Einzigartiges Gebäude: Manga-Verlag</ li> <li>Einzigartiges Gebäude: Anime-Studio</ li ><li>Halbleiterchipfabriken haben 2x Produktivität</ li> <li>Li-Ionen-Batteriefabriken haben 2x Kapazität</ li> <li>Batteriefabriken sind entsperrt</ li> <li>Batteriefabriken haben 2x Kapazität</ li > <li>Der Kraftstoffverbrauch der Batterie erhöht sich um 100%.</ li> <li>Batteriefabriken benötigen keine Kohle.</ Li> <li>Beginnen Sie mit 100K-Batterien</ li>",
+    HideChatDescV2: "Chat-Nachricht in der unteren Symbolleiste ausblenden. Durch das Anzeigen von Chat-Nachrichten stimmen Sie den ",
+    HideChatDescV2ToS: "Nutzungsbedingungen zu",
+    IntegratedCircuitFab: "Integrierte Schaltkreisgießerei",
+    MangaPublisher: "Mangaverlag",
     Manga: "Manga",
-    AnimeStudio: "Anime Studio",
+    AnimeStudio: "Animestudio",
     Anime: "Anime",
 };
