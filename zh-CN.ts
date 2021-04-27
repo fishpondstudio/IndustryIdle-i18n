@@ -722,4 +722,14 @@ export const ZH_CN = {
     Manga: "漫画",
     AnimeStudio: "动漫工作室",
     Anime: "动漫",
+    PlayerTradeAction: "Action",
+    PlayerTradeBuy: "Buy",
+    PlayerTradeSell: "Sell",
+    PlayerTradeBid: "Bid",
+    PlayerTradeAsk: "Ask",
+    CancelTradeConfirmDialogDescV2:
+        "Cancelling this trade will refund %{percent} of the resource/cash. Resources will be refunded to Trade Center warehouse",
+    ClaimTradeSuccessV2: "Your trade has been claimed successfully: %{cashOrResource}",
+    AcceptTradeSuccessV2: "This trade has been accepted by you: %{cashOrResource}",
+    PlayerTradeFilterPriceV2: "Better Than Market Price",
 };

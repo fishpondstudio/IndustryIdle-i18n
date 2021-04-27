@@ -741,7 +741,6 @@ export const FR = {
     AlMine2xOutputDesc: "Les mines d'aluminium produisent 2x aluminium mais utilisent 2x plus d'électricité",
     LoggingCamp2xOutput: "Chantier forestier",
     LoggingCamp2xOutputDesc: "Les camps forestiers produisent 2x bois mais utilisent 2x plus de carburant",
-        "Cela masquera le mouvement des ressources (ces petits points) par défaut et n'affichera le mouvement que lorsque vous sélectionnez un bâtiment",
     PowerBankLeft: "Stockage d'énergie",
     ColorThemeEditor: "Editeur de la couleur du thème",
     ColorThemeEditorDesc: "You can override colors in the current color theme. You currently have %{num} overrides",
@@ -777,7 +776,8 @@ export const FR = {
     BookPublisherScience: "Littérature scientifique",
     BookPublisherScienceDesc: "Les éditeurs de livres produisent de la science au lieu de la culture",
     WarehouseOutwardFuelSave: "Livraison gratuite",
-    WarehouseOutwardFuelSaveDesc: "Les entrepôts offrent également la même économie de carburant sur le transport aller",
+    WarehouseOutwardFuelSaveDesc:
+        "Les entrepôts offrent également la même économie de carburant sur le transport aller",
     ImportSaveVersionTooNew:
         "Vous importez une sauvegarde de %{saveVersion} mais votre jeu est en %{gameVersion}. Veuillez d'abord mettre à jour votre jeu",
     BatteryFuelEconomy: "Batterie rechargeable",
@@ -788,11 +788,25 @@ export const FR = {
     Osaka: "Osaka",
     OsakaBonus:
         "<li>Les ressources ont tendance à apparaître en groupe </li><li>L'entrepôt offre 50% d'économie de carburant en plus</li><li>Bâtiment unique: éditeur de mangas</li><li>Bâtiment unique: studio d'anime</li><li>Les usines de semi-conducteurs ont une productivité 2x</li><li>Les usines de batteries Li-ion ont une capacité 2x</li><li>Les usines de batteries sont déverrouillées</li><li>Les usines de batteries ont une capacité 2x</li><li>L'économie de carburant de la batterie s'améliore de 100%</li><li>Les usines de batteries ne nécessitent pas de charbon</li><li>Commencez avec 100K de batteries</li>",
-    HideChatDescV2: "Masquer le message de chat dans la barre d'outils inférieure. En affichant les messages de chat, vous acceptez nos ",
+    HideChatDescV2:
+        "Masquer le message de chat dans la barre d'outils inférieure. En affichant les messages de chat, vous acceptez nos ",
     HideChatDescV2ToS: "Conditions d'utilisation",
     IntegratedCircuitFab: "Usine de Circuit intégrés",
     MangaPublisher: "Éditeur de manga",
     Manga: "Manga",
     AnimeStudio: "Studio d'animés",
     Anime: "Animé",
+    HideResourceMovement: "Hide Resource Movement",
+    HideResourceMovementDesc:
+        "Cela masquera le mouvement des ressources (ces petits points) par défaut et n'affichera le mouvement que lorsque vous sélectionnez un bâtiment",
+    PlayerTradeAction: "Action",
+    PlayerTradeBuy: "Buy",
+    PlayerTradeSell: "Sell",
+    PlayerTradeBid: "Bid",
+    PlayerTradeAsk: "Ask",
+    CancelTradeConfirmDialogDescV2:
+        "Cancelling this trade will refund %{percent} of the resource/cash. Resources will be refunded to Trade Center warehouse",
+    ClaimTradeSuccessV2: "Your trade has been claimed successfully: %{cashOrResource}",
+    AcceptTradeSuccessV2: "This trade has been accepted by you: %{cashOrResource}",
+    PlayerTradeFilterPriceV2: "Better Than Market Price",
 };

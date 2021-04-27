@@ -800,11 +800,22 @@ export const DE = {
     Osaka: "Osaka",
     OsakaBonus:
         "<li>Ressourcen erscheinen in der Regel in Clustern.</ li> <li>Das Lagerhaus bietet 50% mehr Kraftstoffeinsparung.</ li> <li>Einzigartiges Gebäude: Manga-Verlag</ li> <li>Einzigartiges Gebäude: Anime-Studio</ li ><li>Halbleiterchipfabriken haben 2x Produktivität</ li> <li>Li-Ionen-Batteriefabriken haben 2x Kapazität</ li> <li>Batteriefabriken sind entsperrt</ li> <li>Batteriefabriken haben 2x Kapazität</ li > <li>Der Kraftstoffverbrauch der Batterie erhöht sich um 100%.</ li> <li>Batteriefabriken benötigen keine Kohle.</ Li> <li>Beginnen Sie mit 100K-Batterien</ li>",
-    HideChatDescV2: "Chat-Nachricht in der unteren Symbolleiste ausblenden. Durch das Anzeigen von Chat-Nachrichten stimmen Sie den ",
+    HideChatDescV2:
+        "Chat-Nachricht in der unteren Symbolleiste ausblenden. Durch das Anzeigen von Chat-Nachrichten stimmen Sie den ",
     HideChatDescV2ToS: "Nutzungsbedingungen zu",
     IntegratedCircuitFab: "Integrierte Schaltkreisgießerei",
     MangaPublisher: "Mangaverlag",
     Manga: "Manga",
     AnimeStudio: "Animestudio",
     Anime: "Anime",
+    PlayerTradeAction: "Action",
+    PlayerTradeBuy: "Buy",
+    PlayerTradeSell: "Sell",
+    PlayerTradeBid: "Bid",
+    PlayerTradeAsk: "Ask",
+    CancelTradeConfirmDialogDescV2:
+        "Cancelling this trade will refund %{percent} of the resource/cash. Resources will be refunded to Trade Center warehouse",
+    ClaimTradeSuccessV2: "Your trade has been claimed successfully: %{cashOrResource}",
+    AcceptTradeSuccessV2: "This trade has been accepted by you: %{cashOrResource}",
+    PlayerTradeFilterPriceV2: "Better Than Market Price",
 };

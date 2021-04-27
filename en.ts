@@ -638,10 +638,8 @@ export const EN = {
     AddTradeSuccess: "Your trade has been added successfully",
     LoadTradeFail: "Failed to load player trades, please try again later",
     ClaimTradeFail: "Failed to claim this trade, please try again later",
-    ClaimTradeSuccess: "Your trade has been claimed successfully: $%{cash} has been added to your account",
     CancelTradeSuccess: "Your trade has been cancelled successfully",
     CancelTradeFail: "Failed to cancel this trade, please try again later",
-    AcceptTradeSuccess: "This trade has been accepted by you: %{resource} has been added to your trade center",
     AcceptTradeFail: "Failed to accept this trade, please try again later",
     PlayerTradeBanner: "Trade Resources with Other Players",
     PlayerTradeResource: "Resource",
@@ -669,7 +667,6 @@ export const EN = {
     PlayerTradeQuotaExceed: "This trade has exceeded your quota",
     PlayerTradeAmountNotValid: "Trade amount must be greater than 0",
     PlayerTradeValidRange: "Range: %{min} ~ %{max}",
-    PlayerTradeFilterPrice: "Below Market Price",
     PlayerTradeFilterCanAfford: "Can Afford",
     PlayerTradeQuota: "Quota Left: %{value}",
     PlayerTradeUnavailable:
@@ -711,8 +708,6 @@ export const EN = {
     AcceptTradeFailRateLimit: "You can only accept one trade every %{time} seconds",
     DowngradeBuilding: "Downgrade",
     CancelTradeConfirmDialogTitle: "Cancel This Trade?",
-    CancelTradeConfirmDialogDesc:
-        "Cancelling this trade will refund %{percent} of the resource to the Trade Center warehouse",
     CancelTradeConfirmDialogYes: "Yes",
     CancelTradeConfirmDialogNo: "No",
     WarehouseInputRoutes: "Input Routes",
@@ -752,4 +747,14 @@ export const EN = {
     Manga: "Manga",
     AnimeStudio: "Anime Studio",
     Anime: "Anime",
+    PlayerTradeAction: "Action",
+    PlayerTradeBuy: "Buy",
+    PlayerTradeSell: "Sell",
+    PlayerTradeBid: "Bid",
+    PlayerTradeAsk: "Ask",
+    CancelTradeConfirmDialogDescV2:
+        "Cancelling this trade will refund %{percent} of the resource/cash. Resources will be refunded to Trade Center warehouse",
+    ClaimTradeSuccessV2: "Your trade has been claimed successfully: %{cashOrResource}",
+    AcceptTradeSuccessV2: "This trade has been accepted by you: %{cashOrResource}",
+    PlayerTradeFilterPriceV2: "Better Than Market Price",
 };
