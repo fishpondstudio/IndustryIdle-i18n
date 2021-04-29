@@ -762,4 +762,6 @@ export const EN = {
     ResourceExplorerDescLong: "💡 Resource Explorers do not have adjacent bonus. The power usage differs per resource",
     ResourceExplorerSelectResource: "Explore",
     ProductionSettings: "Production Settings",
+    PlayerTradeQuotaDesc: "💡 Player trade quota is %{percent} of your market cap, it resets when the market updates",
+    PlayerTradePartialFillTitle: "Choose Fill Percentage",
 };
