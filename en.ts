@@ -475,7 +475,6 @@ export const EN = {
     RestoreFromBackupDesc:
         "You normally don't need to restore from cloud backup, unless your local save is lost. Cloud backup are a bit older than your local save",
     ChatMessages: "Chat Messages",
-    ChatPlaceholder: "Type your message: max 100 chars",
     ChangeName: "Change",
     SaveName: "Save",
     NameValidationRule: "Your name should only contain letters and numbers and be between 5-15 chars",
@@ -767,4 +766,6 @@ export const EN = {
     FirstTimeReadGuide: "💡 Need a little bit of help on how to play? Tap to read the beginner's guide!",
     ReadSteamGuideV2: "Game Guides",
     ReadSteamGuideV2Desc: "You can read community created guides on Steam - and you can create your own as well",
+    ChatMessageTooLong: "Your chat message exceeded the maximum chars allowed",
+    ChatPlaceholderV2: "Type your message: max %{length} chars",
 };
