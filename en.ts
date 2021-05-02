@@ -774,4 +774,13 @@ export const EN = {
     ProfitBreakdownFuel: "Fuel Cost",
     BuildingProfit: "Profit",
     RestoreBackup: "Restore",
+    SteamLogin: "Sign In Through Steam",
+    SteamLoginDialogDesc:
+        "Your local save has Expansion Pack enabled, you need to sign in through Steam to continue. Or you can ERASE YOUR LOCAL SAVE and start over",
+    SteamLoginDesc: "If you own expansion packs on Steam, you can play with expansion packs on web after signing in",
+    SteamLoginYes: "Sign In",
+    SteamLoginNo: "Erase & Start Over",
+    HongKong: "Hong Kong",
+    HongKongBonus:
+        "<li>Unique market pricing algorithm - prices follow normal distribution (bell curve)</li><li>Market updates are twice as frequent (every hour)</li>",
 };
