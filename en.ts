@@ -774,4 +774,22 @@ export const EN = {
     ProfitBreakdownFuel: "Fuel Cost",
     BuildingProfit: "Profit",
     RestoreBackup: "Restore",
+    SteamLogin: "Sign In Through Steam",
+    SteamLoginDialogDesc:
+        "Your local save has Expansion Pack enabled, you need to sign in through Steam to continue. Or you can ERASE YOUR LOCAL SAVE and start over",
+    SteamLoginDesc: "If you own expansion packs on Steam, you can play with expansion packs on web after signing in",
+    SteamLoginYes: "Sign In",
+    SteamLoginNo: "Erase & Start Over",
+    KungFuDojo: "Kung-Fu Dojo",
+    KungFu: "Kung-Fu",
+    TaiChi: "Tai-Chi",
+    TaiChiDojo: "Tai-Chi Dojo",
+    HongKong: "Hong Kong",
+    HongKongBonus:
+        "<li>Unique market pricing algorithm - prices follow normal distribution (bell curve)</li><li>Market updates and trade quota resets are twice as frequent (every hour)</li><li>Research can be unlocked via traded resources</li><li>Unique building: Kung-Fu Dojo</li><li>Unique building: Tai-Chi Dojo</li><li>50% increase in max numbers of active player trades allowed</li><li>Start with 1 more auto sell concurrency</li><li>Unique policy: International Export Trade</li><li>Unique policy: Pearl of the Orient</li><li>Movie studios have 2x capacity</li>",
+    FreeTransportToTradeCenter: "International Export Trade",
+    FreeTransportToTradeCenterDesc:
+        "Transportation to the trade center does not cost fuel but transportation from the trade center cost 50% more fuel",
+    TaiChi10xCulture: "Pearl of the Orient",
+    TaiChi10xCultureDesc: "Tai-chi dojo produces 10x culture and tai-chi transportation is free",
 };
