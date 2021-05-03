@@ -791,5 +791,5 @@ export const EN = {
     FreeTransportToTradeCenterDesc:
         "Transportation to the trade center does not cost fuel but transportation from the trade center cost 50% more fuel",
     TaiChi10xCulture: "Pearl of the Orient",
-    TaiChi10xCultureDesc: "Tai-chi dojo produces 10x culture and tai-chi transportation is free",
+    TaiChi10xCultureDesc: "Tai-chi dojos produce 2x culture and tai-chi transportation is free",
 };
