@@ -371,7 +371,6 @@ export const EN = {
     NextOrderIn: "Next Order In",
     FillOrder: "Fill Order",
     RejectOrder: "Pass",
-    YouHave: "You have %{amount}",
     WholesaleCenterLocked:
         "You need at least %{required} different resources to unlock Wholesale Center. You only have %{current} resources",
     OrderFilled: "The order from %{from} has been successfully filled!",
@@ -792,4 +791,6 @@ export const EN = {
         "Transportation to the trade center does not cost fuel but transportation from the trade center cost 50% more fuel",
     TaiChi10xCulture: "Pearl of the Orient",
     TaiChi10xCultureDesc: "Tai-chi dojos produce 2x culture and tai-chi transportation is free",
+    PlayerTradeYouHave: "In Storage: %{amount}",
+    PlayerTradeFillValue: "Value",
 };
