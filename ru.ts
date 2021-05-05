@@ -235,7 +235,7 @@ export const RU = {
     BatteryFactory: "Аккумуляторный завод",
     RatingBuy: "Купить",
     RatingSell: "Продать",
-    SwissShop: "Швейарский магазин",
+    SwissShop: "Швейцарский магазин",
     RatingHold: "Удерживать",
     RatingOutperform: "Повышение",
     RatingUnderperform: "Понижениие",
