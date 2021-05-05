@@ -793,4 +793,8 @@ export const EN = {
     TaiChi10xCultureDesc: "Tai-chi dojos produce 2x culture and tai-chi transportation is free",
     PlayerTradeYouHave: "In Storage: %{amount}",
     PlayerTradeFillValue: "Value",
+    FiberFactory: "Fiber Factory",
+    Fiber: "Fiber",
+    AchievementOslo100: "Freshman Viking",
+    AchievementOslo100Desc: "Earn 100 Swiss Money in Oslo in a single run",
 };
