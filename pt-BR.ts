@@ -1,4 +1,4 @@
-export const PT = {
+export const PT_BR = {
     Translator: "Translator",
     TranslatorName: "Add Your Name Here!",
     Language: "Language",
