@@ -465,7 +465,6 @@ export const EN = {
     Send: "Send",
     Import: "Import",
     Export: "Export",
-    SteamCloudBackup: "Steam Cloud Backup",
     LastBackupAt: "Last Backup",
     RestoreFromBackup: "Restore from Backup",
     RestoreFromBackupFail: "Failed to restore backup from Steam Cloud: are you sure there's a backup?",
@@ -867,4 +866,11 @@ export const EN = {
     AchievementOsaka500Desc: "Earn 500 Swiss Money in Osaka in a single run",
     AchievementOsaka1000: "Kōshaku",
     AchievementOsaka1000Desc: "Earn 1000 Swiss Money in Osaka in a single run",
+    SteamAutoCloudBackup: "Steam Cloud Auto Backup",
+    SteamAutoCloudBackupDesc:
+        "The game saves automatically to your local save. Your local save is synced to Steam Cloud every 10 minutes. You can force Steam cloud sync at any time.",
+    SteamAutoCloudBackupFailed: "Steam Cloud Auto Backup Failed: %{error}",
+    SteamManualBackup: "Force Steam Cloud Sync",
+    UILoading: "Loading...",
+    UserAuthenticated: "You are authenticated",
 };
