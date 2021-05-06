@@ -474,7 +474,6 @@ export const RU = {
     Send: "Отправить",
     Import: "Импорт",
     Export: "Экспорт",
-    SteamCloudBackup: "Облачное резервное копирование Steam",
     LastBackupAt: "Последняя резервная копия",
     RestoreFromBackup: "Восстановление из резервной копиии",
     RestoreFromBackupFail:
@@ -892,11 +891,11 @@ export const RU = {
     AchievementOsaka500Desc: "Заработай 500 Индустриальных кредитов в Осаке за одну сессию",
     AchievementOsaka1000: "Косяку",
     AchievementOsaka1000Desc: "Заработай 1000 Индустриальных кредитов в Осаке за одну сессию",
-    SteamAutoCloudBackup: "Steam Cloud Auto Backup",
+    SteamAutoCloudBackup: "Автоматическое облачное резервное копирование Steam",
     SteamAutoCloudBackupDesc:
-        "The game saves automatically to your local save. Your local save is synced to Steam Cloud every 10 minutes. You can force Steam cloud sync at any time.",
-    SteamAutoCloudBackupFailed: "Steam Cloud Auto Backup Failed: %{error}",
-    SteamManualBackup: "Force Steam Cloud Sync",
-    UILoading: "Loading...",
-    UserAuthenticated: "You are authenticated",
+        "Игра сохраняется автоматически в Вашем локольном сохранении. Локальное сохранение синхронизируется с облаком Steam каждые 10 минут. Вы можете принудительно синхронизироваться с облаком Steam в любое время.",
+    SteamAutoCloudBackupFailed: "Автоматическое облачное резервное копирование Steam не выполнено: %{error}",
+    SteamManualBackup: "Принудительная синхронизация с облаком Steam",
+    UILoading: "Загрузка...",
+    UserAuthenticated: "Вы авторизованы",
 };
