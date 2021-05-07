@@ -868,7 +868,7 @@ export const EN = {
     AchievementOsaka1000Desc: "Earn 1000 Swiss Money in Osaka in a single run",
     SteamAutoCloudBackup: "Steam Cloud Auto Backup",
     SteamAutoCloudBackupDesc:
-        "The game saves automatically to your local save. Your local save is synced to Steam Cloud every 10 minutes. You can force Steam cloud sync at any time.",
+        "The game saves automatically to your local save. Your local save is synced to Steam Cloud every 10 minutes. You can force Steam cloud backup at any time.",
     SteamAutoCloudBackupFailed: "Steam Cloud Auto Backup Failed: %{error}",
     SteamManualBackup: "Force Steam Cloud Backup",
     UILoading: "Loading...",
