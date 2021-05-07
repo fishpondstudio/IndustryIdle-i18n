@@ -870,7 +870,10 @@ export const EN = {
     SteamAutoCloudBackupDesc:
         "The game saves automatically to your local save. Your local save is synced to Steam Cloud every 10 minutes. You can force Steam cloud sync at any time.",
     SteamAutoCloudBackupFailed: "Steam Cloud Auto Backup Failed: %{error}",
-    SteamManualBackup: "Force Steam Cloud Sync",
+    SteamManualBackup: "Force Steam Cloud Backup",
     UILoading: "Loading...",
     UserAuthenticated: "You are authenticated",
+    BuildingResourceBreakdown: "Idle Amount Breakdown",
+    SortByDeficit: "Deficit",
+    SortByRunOut: "Run Out",
 };
