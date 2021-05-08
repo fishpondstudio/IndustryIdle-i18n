@@ -870,4 +870,25 @@ export const KR = {
     SteamManualBackup: "강제 Steam 클라우드 동기화",
     UILoading: "로드 중...",
     UserAuthenticated: "인증되었습니다",
+    BuildingResourceBreakdown: "Idle Amount Breakdown",
+    SortByDeficit: "Deficit",
+    SortByRunOut: "Run Out",
+    SocialNetworkInc: "Social Network Inc",
+    SocialNetwork: "Social Network",
+    DatabaseCompany: "Database Company",
+    Database: "Database",
+    SatelinkInc: "Satelink Inc",
+    GameStationInc: "GameStation Inc",
+    AirShuttleInc: "Air Shuttle Inc",
+    AircraftCarrierFactory: "Aircraft Carrier Factory",
+    AircraftCarrier: "Aircraft Carrier",
+    MapExclusive: "Map Exclusive",
+    ElectricCar: "Nikola Tesla",
+    ElectricCarDesc: "Car factories use batteries instead of petrol and only require 50% of the amount",
+    DetroitBonusV2:
+        "<li>Engine factories are unlocked</li><li>Engine factories have 2x productivity</li><li>Car factories have 2x capacity</li><li>Free car transportation</li><li>Nikola Tesla policy is free</li><li>Train factories have 2x capacity</li>",
+    HongKongBonusV2:
+        "<li>Unique market pricing algorithm - prices and stock rating follow normal distribution (bell curve)</li><li>Market updates and trade quota resets are twice as frequent (every hour)</li><li>Research can be unlocked via traded resources</li><li>Unique building: Kung-Fu Dojo</li><li>Unique building: Tai-Chi Dojo</li><li>50% increase in max numbers of active player trades allowed</li><li>Start with 1 more auto sell concurrency</li><li>Unique policy: International Export Trade</li><li>Unique policy: Pearl of the Orient</li><li>Wholesale Center only needs 4 resources to unlock</li><li>Start with 100M Cash</li>",
+    TaiChi10xCultureDescV2:
+        "Free Kung-fu and Tai-chi transportation. Movie studios have 2x capacity but uses 50% more power",
 };
