@@ -480,7 +480,6 @@ export const EN = {
     NameSaved: "Your name has been changed successfully",
     NoMessages: "No new messages",
     Leaderboard: "Leaderboard",
-    LeaderboardDesc: "The leaderboard score is all the Swiss money you've ever earned",
     Name: "Name",
     Rank: "Rank",
     Tips1: "Stock ratings have 5 levels: Buy, Overperform, Hold, Underperform and Sell",
@@ -891,4 +890,10 @@ export const EN = {
         "Free Kung-fu and Tai-chi transportation. Movie studios have 2x capacity but uses 50% more power",
     SettingsFullScreen: "Full Screen",
     SettingsFullScreenDesc: "Run the game in fullscreen mode. Only available for Steam version",
+    LeaderboardByAllPrestigeCurrency: "All Time Swiss Money Earned",
+    LeaderboardByCash: "Current Cash At Hand",
+    LeaderboardByBuildingCount: "Number of Buildings",
+    LeaderboardTotalValuation: "Total Valuation",
+    LeaderboardDescV2: "See the where the top players are",
+    LastUpdatedAt: "Last Updated At",
 };
