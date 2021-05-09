@@ -892,7 +892,7 @@ export const EN = {
     SettingsFullScreenDesc: "Run the game in fullscreen mode. Only available for Steam version",
     LeaderboardByAllPrestigeCurrency: "All Time Swiss Money Earned",
     LeaderboardByCash: "Current Cash At Hand",
-    LeaderboardByBuildingCount: "Number of Buildings",
+    LeaderboardBySwissPerBuilding: "Current Swiss Money Per Building",
     LeaderboardTotalValuation: "Total Valuation",
     LeaderboardDescV2: "See the where the top players are",
     LastUpdatedAt: "Last Updated At",
