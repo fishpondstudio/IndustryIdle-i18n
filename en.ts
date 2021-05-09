@@ -73,7 +73,6 @@ export const EN = {
     ZeppelinFactory: "Zeppelin Factory",
     Tank: "Tank",
     TankFactory: "Tank Factory",
-    MinimumTradingAmount: "You cannot trade lower than minimum amount",
     CoalPowerPlant: "Coal Power Plant",
     PetrolPowerPlant: "Petrol Power Plant",
     Copper: "Copper",
