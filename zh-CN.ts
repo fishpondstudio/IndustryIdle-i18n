@@ -871,7 +871,7 @@ export const ZH_CN = {
         "<li>发动机工厂已预先解锁</li><li>发动机工厂的产出量是原来的2倍</li><li>汽车工厂的生产能力是原来的2倍</li><li>汽车运输免费</li><li>尼古拉.特斯拉政策免政策点</li><li>火车工厂的生产能力是原来的2倍</li>",
     HongKongBonusV2:
         "<li>独特的市场定价算法-价格符合正态分布(即钟形曲线)</li><li>市场更新和交易配额重置频率是原来的2倍(即每小时)</li><li>可以用已经交易的资源解锁研究</li><li>独特建筑：功夫馆</li><li>独特建筑：太极馆</li><li>允许同时进行的玩家交易数量增加50%</li><li>开局即多1个自动销售并发数</li><li>独特政策：国际出口贸易</li><li>独特政策：东方之珠</li><li>解锁批发中心只需4种资源</li><li>开局即有100M现金</li>",
-    TaiChi10xCultureDescV2: "免费的功夫和太极运输。电影制片厂的容量是原来的两倍，但耗电量增加了50%",
+    TaiChi10xCultureDescV2: "功夫和太极运输免费。电影工作室的生产能力是原来的2倍，但耗电量增加50%",
     SettingsFullScreen: "全屏",
     SettingsFullScreenDesc: "在全屏模式下运行游戏。只对Steam版本有效",
     LeaderboardByAllPrestigeCurrency: "有史以来赚取的瑞士货币",
