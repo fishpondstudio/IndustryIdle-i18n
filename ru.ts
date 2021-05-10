@@ -86,7 +86,7 @@ export const RU = {
     RocketFactory: "Ракетный завод",
     BuildingPermit: "Разрешение на строительство",
     BuildingPermitDesc:
-        "Приобретено %{amount} разрешений на строительство зданий. Использовано %{amountBuilt} разрешений. Осталось %{amountLeft} разрешений",
+        "Приобретено %{amount} разрешения(й) на строительство зданий. Использовано %{amountBuilt} разрешения(й). Осталось %{amountLeft} разрешения(й)",
     BuildingLocked: "Здание еще не доступно, вам нужно сначала разблокировать его в исследовательской лаборатории",
     BuildQueue: "Очередь на строительство",
     BuildQueueDesc: "Количество зданий, находящихся в очереди",
@@ -909,19 +909,18 @@ export const RU = {
     ElectricCar: "Никола Тесла",
     ElectricCarDesc:
         "Автомобильные заводы используют аккумуляторы вместо бензина и используют только 50% от требуемого количества",
-    DetroitBonusV2:
-        "<li>Заводы двигателей разблокированы</li><li>Заводы двигателей имеют производительность 2Х</li><li>Заводы автомобилей имеют мощность 2Х</li><li>Бесплатная перевозка автомобилей</li><li>Бесплатная политика Никола Тесла</li><li>Заводы поездов имеют мощность 2Х</li>",
     HongKongBonusV2:
         "<li>Уникальный алгоритм ценообразования на рынке - цены и рейтинг акций подчиняются нормальному распределению ( колоколообразная кривая)</li><li>Обновления рынка и сброс торговых квот происходят в два раза чаще (каждый час)</li><li>Исследования можно разблокировать с помощью продаваемых ресурсов</li><li>Уникальное здание: Кунг-Фу Додзё</li><li>Уникальное здание: Тай-Чи Додзё</li><li>Максимальное допустимое количество активных сделок с игроками увеличено на 50%</li><li>+1 к автопродажам</li><li>Уникальная политика: Международная экспортная торговля</li><li>Уникальная политика: Жемчужина Востока</li><li>Для разблокировки оптового центра требуется всего 4 ресурса</li><li>100 млн. наличных</li>",
     TaiChi10xCultureDescV2:
         "Бесплатная перевозка для Кунг-Фу и Тай-Чи. Киностудии имеют мощность 2x, но потребляют на 50% больше энергии",
-        "SettingsFullScreen": "Full Screen",
-        "SettingsFullScreenDesc": "Run the game in fullscreen mode. Only available for Steam version",
-        "LeaderboardByAllPrestigeCurrency": "All Time Swiss Money Earned",
-        "LeaderboardByCash": "Current Cash At Hand",
-        "LeaderboardBySwissPerBuilding": "Current Swiss Money Per Building",
-        "LeaderboardTotalValuation": "Total Valuation",
-        "LeaderboardDescV2": "See the where the top players are",
-        "LastUpdatedAt": "Last Updated At",
-        "DetroitBonusV3": "<li>Engine factories are unlocked</li><li>Engine factories have 2x productivity</li><li>Car factories have 2x capacity</li><li>Car factories use gas instead of petrol</li><li>Free car transportation</li><li>Nikola Tesla policy is free</li><li>Train factories have 2x capacity</li>",
+    SettingsFullScreen: "Полноэкранный режим",
+    SettingsFullScreenDesc: "Запуск игры в полноэкранном режиме возможен только для Steam версии",
+    LeaderboardByAllPrestigeCurrency: "Всего заработано Индустриальных кредитов",
+    LeaderboardByCash: "Текущая сумма наличных денег",
+    LeaderboardBySwissPerBuilding: "Текущее количество Индустриальных кредитов/здание",
+    LeaderboardTotalValuation: "Общая стоимость активов",
+    LeaderboardDescV2: "Посмотрите, на каких позициях находятся ведущие игроки",
+    LastUpdatedAt: "Последнее обновление",
+    DetroitBonusV3:
+        "<li>Заводы двигателей разблокированы</li><li>Заводы двигателей имеют производительность 2Х</li><li>Заводы автомобилей имеют мощность 2Х</li><li>Заводы автомобилей используют газ вместо бензина</li><li>Бесплатная перевозка автомобилей</li><li>Политика Никола Тесла бесплатная</li><li>Заводы поездов имеют мощность 2Х</li>",
 };
