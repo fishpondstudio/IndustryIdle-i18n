@@ -872,13 +872,14 @@ export const ZH_CN = {
     HongKongBonusV2:
         "<li>独特的市场定价算法-价格和股票评级遵循正态分布（钟形曲线）</li><li>市场更新和贸易配额重置的频率是原来的两倍（每小时）</li><li>研究可以通过可交易的资源解锁</li><li>独特建筑：功夫馆</li><li>独特建筑：太极馆</li><li>允许活跃玩家交易的最大数量增加50%</li><li>从1个自动销售并发开始</li><li>独特政策：国际出口贸易</li><li>独特政策：东方之珠</li><li>批发中心只需要4个资源解锁</li><li>从100M现金开始</li>",
     TaiChi10xCultureDescV2: "免费的功夫和太极运输。电影制片厂的容量是原来的两倍，但耗电量增加了50%",
-    "SettingsFullScreen": "Full Screen",
-    "SettingsFullScreenDesc": "Run the game in fullscreen mode. Only available for Steam version",
-    "LeaderboardByAllPrestigeCurrency": "All Time Swiss Money Earned",
-    "LeaderboardByCash": "Current Cash At Hand",
-    "LeaderboardBySwissPerBuilding": "Current Swiss Money Per Building",
-    "LeaderboardTotalValuation": "Total Valuation",
-    "LeaderboardDescV2": "See the where the top players are",
-    "LastUpdatedAt": "Last Updated At",
-    "DetroitBonusV3": "<li>Engine factories are unlocked</li><li>Engine factories have 2x productivity</li><li>Car factories have 2x capacity</li><li>Car factories use gas instead of petrol</li><li>Free car transportation</li><li>Nikola Tesla policy is free</li><li>Train factories have 2x capacity</li>"
+    SettingsFullScreen: "Full Screen",
+    SettingsFullScreenDesc: "Run the game in fullscreen mode. Only available for Steam version",
+    LeaderboardByAllPrestigeCurrency: "All Time Swiss Money Earned",
+    LeaderboardByCash: "Current Cash At Hand",
+    LeaderboardBySwissPerBuilding: "Current Swiss Money Per Building",
+    LeaderboardTotalValuation: "Total Valuation",
+    LeaderboardDescV2: "See the where the top players are",
+    LastUpdatedAt: "Last Updated At",
+    DetroitBonusV3:
+        "<li>Engine factories are unlocked</li><li>Engine factories have 2x productivity</li><li>Car factories have 2x capacity</li><li>Car factories use gas instead of petrol</li><li>Free car transportation</li><li>Nikola Tesla policy is free</li><li>Train factories have 2x capacity</li>",
 };

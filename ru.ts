@@ -915,13 +915,14 @@ export const RU = {
         "<li>Уникальный алгоритм ценообразования на рынке - цены и рейтинг акций подчиняются нормальному распределению ( колоколообразная кривая)</li><li>Обновления рынка и сброс торговых квот происходят в два раза чаще (каждый час)</li><li>Исследования можно разблокировать с помощью продаваемых ресурсов</li><li>Уникальное здание: Кунг-Фу Додзё</li><li>Уникальное здание: Тай-Чи Додзё</li><li>Максимальное допустимое количество активных сделок с игроками увеличено на 50%</li><li>+1 к автопродажам</li><li>Уникальная политика: Международная экспортная торговля</li><li>Уникальная политика: Жемчужина Востока</li><li>Для разблокировки оптового центра требуется всего 4 ресурса</li><li>100 млн. наличных</li>",
     TaiChi10xCultureDescV2:
         "Бесплатная перевозка для Кунг-Фу и Тай-Чи. Киностудии имеют мощность 2x, но потребляют на 50% больше энергии",
-        "SettingsFullScreen": "Full Screen",
-        "SettingsFullScreenDesc": "Run the game in fullscreen mode. Only available for Steam version",
-        "LeaderboardByAllPrestigeCurrency": "All Time Swiss Money Earned",
-        "LeaderboardByCash": "Current Cash At Hand",
-        "LeaderboardBySwissPerBuilding": "Current Swiss Money Per Building",
-        "LeaderboardTotalValuation": "Total Valuation",
-        "LeaderboardDescV2": "See the where the top players are",
-        "LastUpdatedAt": "Last Updated At",
-        "DetroitBonusV3": "<li>Engine factories are unlocked</li><li>Engine factories have 2x productivity</li><li>Car factories have 2x capacity</li><li>Car factories use gas instead of petrol</li><li>Free car transportation</li><li>Nikola Tesla policy is free</li><li>Train factories have 2x capacity</li>",
+    SettingsFullScreen: "Full Screen",
+    SettingsFullScreenDesc: "Run the game in fullscreen mode. Only available for Steam version",
+    LeaderboardByAllPrestigeCurrency: "All Time Swiss Money Earned",
+    LeaderboardByCash: "Current Cash At Hand",
+    LeaderboardBySwissPerBuilding: "Current Swiss Money Per Building",
+    LeaderboardTotalValuation: "Total Valuation",
+    LeaderboardDescV2: "See the where the top players are",
+    LastUpdatedAt: "Last Updated At",
+    DetroitBonusV3:
+        "<li>Engine factories are unlocked</li><li>Engine factories have 2x productivity</li><li>Car factories have 2x capacity</li><li>Car factories use gas instead of petrol</li><li>Free car transportation</li><li>Nikola Tesla policy is free</li><li>Train factories have 2x capacity</li>",
 };
