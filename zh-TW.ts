@@ -883,4 +883,15 @@ export const ZH_TW = {
     LastUpdatedAt: "Last Updated At",
     DetroitBonusV3:
         "<li>Engine factories are unlocked</li><li>Engine factories have 2x productivity</li><li>Car factories have 2x capacity</li><li>Car factories use gas instead of petrol</li><li>Free car transportation</li><li>Nikola Tesla policy is free</li><li>Train factories have 2x capacity</li>",
+    AutoScroll: "Auto Scroll",
+    SaveAndExit: "Save and Exit Game",
+    SaveAndExitDesc:
+        "Save and exit game. This is only available on Steam version and does the same as the close button on the window bar",
+    AutoSellResourceWarningShortLabel: "💡Auto Sell",
+    AutoSellResourceWarningDesc:
+        "You are auto selling this resource, the amount stored in Trade Center cannot be used here",
+    PlayerTradeLocalPrice: "Local Price: %{price}",
+    ConstructionStatusQueueing: "%{building} is queueing for construction",
+    ConstructionStatusBuilding: "%{building} is under construction now",
+    ConstructionCancel: "Cancel Construction",
 };

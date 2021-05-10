@@ -882,4 +882,15 @@ export const ZH_CN = {
     LastUpdatedAt: "最近更新于",
     DetroitBonusV3:
         "<li>发动机工厂已预先解锁</li><li>发动机工厂的产出量是原来的2倍</li><li>汽车工厂的生产能力是原来的2倍</li><li>汽车工厂使用天然气替代汽油</li><li>汽车运输免费</li><li>尼古拉.特斯拉政策免政策点</li><li>火车工厂的生产能力是原来的2倍</li>",
+    AutoScroll: "Auto Scroll",
+    SaveAndExit: "Save and Exit Game",
+    SaveAndExitDesc:
+        "Save and exit game. This is only available on Steam version and does the same as the close button on the window bar",
+    AutoSellResourceWarningShortLabel: "💡Auto Sell",
+    AutoSellResourceWarningDesc:
+        "You are auto selling this resource, the amount stored in Trade Center cannot be used here",
+    PlayerTradeLocalPrice: "Local Price: %{price}",
+    ConstructionStatusQueueing: "%{building} is queueing for construction",
+    ConstructionStatusBuilding: "%{building} is under construction now",
+    ConstructionCancel: "Cancel Construction",
 };

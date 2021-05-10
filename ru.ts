@@ -923,4 +923,15 @@ export const RU = {
     LastUpdatedAt: "Последнее обновление",
     DetroitBonusV3:
         "<li>Заводы двигателей разблокированы</li><li>Заводы двигателей имеют производительность 2Х</li><li>Заводы автомобилей имеют мощность 2Х</li><li>Заводы автомобилей используют газ вместо бензина</li><li>Бесплатная перевозка автомобилей</li><li>Политика Никола Тесла бесплатная</li><li>Заводы поездов имеют мощность 2Х</li>",
+    AutoScroll: "Auto Scroll",
+    SaveAndExit: "Save and Exit Game",
+    SaveAndExitDesc:
+        "Save and exit game. This is only available on Steam version and does the same as the close button on the window bar",
+    AutoSellResourceWarningShortLabel: "💡Auto Sell",
+    AutoSellResourceWarningDesc:
+        "You are auto selling this resource, the amount stored in Trade Center cannot be used here",
+    PlayerTradeLocalPrice: "Local Price: %{price}",
+    ConstructionStatusQueueing: "%{building} is queueing for construction",
+    ConstructionStatusBuilding: "%{building} is under construction now",
+    ConstructionCancel: "Cancel Construction",
 };
