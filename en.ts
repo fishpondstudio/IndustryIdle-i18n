@@ -481,8 +481,7 @@ export const EN = {
     Name: "Name",
     Rank: "Rank",
     Tips1: "Stock ratings have 5 levels: Buy, Overperform, Hold, Underperform and Sell",
-    Tips2:
-        "Buildings will stop transporting resources if there's already enough for production, unless you turn on stockpile mode",
+    Tips2: "Buildings will stop transporting resources if there's already enough for production, unless you turn on stockpile mode",
     Tips3: "Fuel cost for resource transportation is determined by distance and amount of resources",
     Tips4: "Buildings will only transport a resource if the amount found on map exceeds the input capacity",
     Tips5: "Buildings will only transport a resource from Trade Center if auto sell is turned off for that resource",
@@ -894,7 +893,6 @@ export const EN = {
     LastUpdatedAt: "Last Updated At",
     DetroitBonusV3:
         "<li>Engine factories are unlocked</li><li>Engine factories have 2x productivity</li><li>Car factories have 2x capacity</li><li>Car factories use gas instead of petrol</li><li>Free car transportation</li><li>Nikola Tesla policy is free</li><li>Train factories have 2x capacity</li>",
-    AutoScroll: "Auto Scroll",
     SaveAndExit: "Save and Exit Game",
     SaveAndExitDesc:
         "Save and exit game. This is only available on Steam version and does the same as the close button on the window bar",
@@ -903,6 +901,21 @@ export const EN = {
         "You are auto selling this resource, the amount stored in Trade Center cannot be used here",
     PlayerTradeLocalPrice: "Local Price: %{price}",
     ConstructionStatusQueueing: "%{building} is queueing for construction",
+    ConstructionStatusPaused: "%{building}'s construction is paused",
     ConstructionStatusBuilding: "%{building} is under construction now",
-    ConstructionCancel: "Cancel Construction",
+    ChatForceScroll: "Force Scroll",
+    ChatForceScrollDesc:
+        "If force scroll is on, the chat will scroll whenever there's a new message. Otherwise it will only scroll when you are already at the bottom",
+    ResourceExplorer2: "Resource Explorer 2.0",
+    ResourceExplorer2Desc: "Resource explorers produce 2x output but use 2x power",
+    ConstructionCancel: "Cancel",
+    ConstructionPause: "Pause",
+    ConstructionResume: "Resume",
+    PolicyBlueprint: "Blueprint",
+    PolicyBlueprintDesc:
+        "Construction of a building will not automatically start - it has to be started manually (FREE POLICY)",
+    HighlightUnderConstruction: "...that haven't been constructed",
+    HighlightUnderLevel10: "...that are under level 10",
+    HighlightUnderLevel20: "...that are under level 20",
+    HighlightUnderLevel30: "...that are under level 30",
 };
