@@ -499,26 +499,16 @@ export const DE = {
     Name: "Name",
     Rank: "Rang",
     Tips1: "Aktienbewertungen haben 5 Kriterien: Kaufen, Überperformance, Halten, Underperformance und Verkaufen",
-    Tips2:
-        "Gebäude stellen den Transport von Ressourcen ein, wenn bereits genug für die Produktion vorhanden ist, es sei denn, Sie aktivieren den Stapelmodus",
-    Tips3:
-        "Die Kraftstoffkosten für den Ressourcentransport werden durch die Entfernung und die Menge der Ressourcen bestimmt",
-    Tips4:
-        "Gebäude transportieren eine Ressource nur, wenn die auf der Karte gefundene Menge die Eingabekapazität überschreitet",
-    Tips5:
-        "Gebäude transportieren eine Ressource nur vom Großhandelszentrum, wenn der automatische Verkauf für diese Ressource deaktiviert ist",
-    Tips6:
-        "Sie können die Kraftstoffkosten für eine Ressource im entsprechenden Abschnitt zur Eingabekapazität anzeigen",
-    Tips7:
-        "Wenn Sie eine Ressource kaufen, erhöhen Sie den Preis. Wenn Sie eine Ressource verkaufen, senken Sie den Preis",
-    Tips8:
-        "Sie können das Diagramm für die Menge jeder Ressource und ihre zeitliche Änderung im Statistikbüro anzeigen",
-    Tips9:
-        "Die für ein Gebäude benötigten Forschungspunkte werden durch den Marktpreis seiner Inputressourcen bestimmt",
-    Tips10:
-        "Unterschiedliche Ressourcen werden auf dem Markt unterschiedlich bewertet - seien Sie immer auf Marktvschwankungen vorbereitet",
-    Tips11:
-        "Es ist eine gute Idee, immer Ihre Strom- und Kraftstoffversorgung zu überprüfen, bevor Sie Ihre Produktion erweitern",
+    Tips2: "Gebäude stellen den Transport von Ressourcen ein, wenn bereits genug für die Produktion vorhanden ist, es sei denn, Sie aktivieren den Stapelmodus",
+    Tips3: "Die Kraftstoffkosten für den Ressourcentransport werden durch die Entfernung und die Menge der Ressourcen bestimmt",
+    Tips4: "Gebäude transportieren eine Ressource nur, wenn die auf der Karte gefundene Menge die Eingabekapazität überschreitet",
+    Tips5: "Gebäude transportieren eine Ressource nur vom Großhandelszentrum, wenn der automatische Verkauf für diese Ressource deaktiviert ist",
+    Tips6: "Sie können die Kraftstoffkosten für eine Ressource im entsprechenden Abschnitt zur Eingabekapazität anzeigen",
+    Tips7: "Wenn Sie eine Ressource kaufen, erhöhen Sie den Preis. Wenn Sie eine Ressource verkaufen, senken Sie den Preis",
+    Tips8: "Sie können das Diagramm für die Menge jeder Ressource und ihre zeitliche Änderung im Statistikbüro anzeigen",
+    Tips9: "Die für ein Gebäude benötigten Forschungspunkte werden durch den Marktpreis seiner Inputressourcen bestimmt",
+    Tips10: "Unterschiedliche Ressourcen werden auf dem Markt unterschiedlich bewertet - seien Sie immer auf Marktvschwankungen vorbereitet",
+    Tips11: "Es ist eine gute Idee, immer Ihre Strom- und Kraftstoffversorgung zu überprüfen, bevor Sie Ihre Produktion erweitern",
     FPS30: "Energiesparmodus",
     OfflineModeDesc:
         "Es kann keine Verbindung zum Server hergestellt werden: Es werden keine Offline-Einnahmen generiert. Bitte überprüfe deine Internetverbindung",
@@ -987,4 +977,21 @@ export const DE = {
     ConstructionStatusQueueing: "%{building} steht für den Bau an",
     ConstructionStatusBuilding: "%{building} befindet sich derzeit im Aufbau",
     ConstructionCancel: "Bau abbrechen",
+    ConstructionStatusPaused: "%{building}'s construction is paused",
+    ChatForceScroll: "Force Scroll",
+    ChatForceScrollDesc:
+        "If force scroll is on, the chat will scroll whenever there's a new message. Otherwise it will only scroll when you are already at the bottom",
+    ResourceExplorer2: "Resource Explorer 2.0",
+    ResourceExplorer2Desc: "Resource explorers produce 2x output but use 2x power",
+    ConstructionPause: "Pause",
+    ConstructionResume: "Resume",
+    PolicyBlueprint: "Blueprint",
+    PolicyBlueprintDesc:
+        "Construction of a building will not automatically start - it has to be started manually (FREE POLICY)",
+    HighlightUnderConstruction: "...that haven't been constructed",
+    HighlightUnderLevel10: "...that are under level 10",
+    HighlightUnderLevel20: "...that are under level 20",
+    HighlightUnderLevel30: "...that are under level 30",
+    Logout: "You Are Logged Out",
+    LogoutDesc: "You have logged in on another device, this device are logged out",
 };

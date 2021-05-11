@@ -511,26 +511,16 @@ export const FR = {
     Name: "Nom",
     Rank: "Rang",
     Tips1: "Les notations des actions ont 5 niveaux: acheter, sur-performer, conserver, sous-performer et vendre",
-    Tips2:
-        "Les bâtiments arrêteront de transporter des ressources s'il y en a déjà assez pour la production, à moins que vous n'activiez le mode de stockage",
-    Tips3:
-        "Le coût du carburant pour le transport des ressources est déterminé par la distance et la quantité de ressources",
-    Tips4:
-        "Les bâtiments ne transporteront une ressource que si la quantité trouvée sur la carte dépasse la capacité d'entrée",
-    Tips5:
-        "Les bâtiments ne transporteront une ressource du centre d'échange que si la vente automatique est désactivée pour cette ressource",
-    Tips6:
-        "Vous pouvez voir le coût du carburant pour une ressource dans la section de capacité d'entrée correspondante",
-    Tips7:
-        "Si vous achetez une ressource, vous augmenterez le prix. Si vous vendez une ressource, vous réduirez le prix",
-    Tips8:
-        "Vous pouvez voir le graphique pour chaque montant de ressources et son évolution au fil du temps dans le Bureau des statistiques",
-    Tips9:
-        "Les points de recherche nécessaires pour un bâtiment sont déterminés par le prix du marché de ses ressources d'entrée",
-    Tips10:
-        "Différentes ressources ont un prix différent sur le marché - soyez toujours prêt à faire face aux changements du marché",
-    Tips11:
-        "C'est une bonne idée de toujours vérifier votre alimentation en électricité et en carburant avant d'étendre votre production",
+    Tips2: "Les bâtiments arrêteront de transporter des ressources s'il y en a déjà assez pour la production, à moins que vous n'activiez le mode de stockage",
+    Tips3: "Le coût du carburant pour le transport des ressources est déterminé par la distance et la quantité de ressources",
+    Tips4: "Les bâtiments ne transporteront une ressource que si la quantité trouvée sur la carte dépasse la capacité d'entrée",
+    Tips5: "Les bâtiments ne transporteront une ressource du centre d'échange que si la vente automatique est désactivée pour cette ressource",
+    Tips6: "Vous pouvez voir le coût du carburant pour une ressource dans la section de capacité d'entrée correspondante",
+    Tips7: "Si vous achetez une ressource, vous augmenterez le prix. Si vous vendez une ressource, vous réduirez le prix",
+    Tips8: "Vous pouvez voir le graphique pour chaque montant de ressources et son évolution au fil du temps dans le Bureau des statistiques",
+    Tips9: "Les points de recherche nécessaires pour un bâtiment sont déterminés par le prix du marché de ses ressources d'entrée",
+    Tips10: "Différentes ressources ont un prix différent sur le marché - soyez toujours prêt à faire face aux changements du marché",
+    Tips11: "C'est une bonne idée de toujours vérifier votre alimentation en électricité et en carburant avant d'étendre votre production",
     FPS30: "Économie d'énergie",
     OfflineModeDesc:
         "Impossible de se connecter au serveur: les revenus hors ligne ne seront pas générés. S'il vous plait, vérifiez votre connexion internet",
@@ -974,4 +964,21 @@ export const FR = {
     ConstructionStatusQueueing: "%{building} is queueing for construction",
     ConstructionStatusBuilding: "%{building} is under construction now",
     ConstructionCancel: "Cancel Construction",
+    ConstructionStatusPaused: "%{building}'s construction is paused",
+    ChatForceScroll: "Force Scroll",
+    ChatForceScrollDesc:
+        "If force scroll is on, the chat will scroll whenever there's a new message. Otherwise it will only scroll when you are already at the bottom",
+    ResourceExplorer2: "Resource Explorer 2.0",
+    ResourceExplorer2Desc: "Resource explorers produce 2x output but use 2x power",
+    ConstructionPause: "Pause",
+    ConstructionResume: "Resume",
+    PolicyBlueprint: "Blueprint",
+    PolicyBlueprintDesc:
+        "Construction of a building will not automatically start - it has to be started manually (FREE POLICY)",
+    HighlightUnderConstruction: "...that haven't been constructed",
+    HighlightUnderLevel10: "...that are under level 10",
+    HighlightUnderLevel20: "...that are under level 20",
+    HighlightUnderLevel30: "...that are under level 30",
+    Logout: "You Are Logged Out",
+    LogoutDesc: "You have logged in on another device, this device are logged out",
 };

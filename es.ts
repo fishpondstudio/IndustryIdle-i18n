@@ -503,26 +503,17 @@ export const ES = {
     LeaderboardDesc: "La puntuación de la tabla de clasificación es todo el dinero suizo que hayas ganado.",
     Name: "Nombre",
     Rank: "Rango",
-    Tips1:
-        "Las calificaciones de acciones tienen 5 niveles: compra, rendimiento superior, retención, rendimiento inferior y venta",
-    Tips2:
-        "Los edificios dejarán de transportar recursos si ya hay suficientes para la producción, a menos que active el modo de almacenamiento.",
-    Tips3:
-        "El costo de combustible para el transporte de recursos está determinado por la distancia y la cantidad de recursos.",
-    Tips4:
-        "Los edificios solo transportarán un recurso si la cantidad encontrada en el mapa excede la capacidad de entrada",
-    Tips5:
-        "Los edificios solo transportarán un recurso desde Trade Center si la venta automática está desactivada para ese recurso",
+    Tips1: "Las calificaciones de acciones tienen 5 niveles: compra, rendimiento superior, retención, rendimiento inferior y venta",
+    Tips2: "Los edificios dejarán de transportar recursos si ya hay suficientes para la producción, a menos que active el modo de almacenamiento.",
+    Tips3: "El costo de combustible para el transporte de recursos está determinado por la distancia y la cantidad de recursos.",
+    Tips4: "Los edificios solo transportarán un recurso si la cantidad encontrada en el mapa excede la capacidad de entrada",
+    Tips5: "Los edificios solo transportarán un recurso desde Trade Center si la venta automática está desactivada para ese recurso",
     Tips6: "Puede ver el costo de combustible de un recurso en la sección de capacidad de entrada correspondiente",
     Tips7: "Si compra un recurso, aumentará el precio. Si vende un recurso, bajará el precio",
-    Tips8:
-        "Puede ver el cuadro de la cantidad de cada recurso y su cambio a lo largo del tiempo en la Oficina de estadísticas",
-    Tips9:
-        "Los puntos de investigación necesarios para un edificio están determinados por el precio de mercado de sus recursos de entrada.",
-    Tips10:
-        "Los diferentes recursos tienen un precio diferente en el mercado; siempre esté preparado para la volatilidad del mercado",
-    Tips11:
-        "Es una buena idea verificar siempre su suministro de energía y combustible antes de expandir su producción.",
+    Tips8: "Puede ver el cuadro de la cantidad de cada recurso y su cambio a lo largo del tiempo en la Oficina de estadísticas",
+    Tips9: "Los puntos de investigación necesarios para un edificio están determinados por el precio de mercado de sus recursos de entrada.",
+    Tips10: "Los diferentes recursos tienen un precio diferente en el mercado; siempre esté preparado para la volatilidad del mercado",
+    Tips11: "Es una buena idea verificar siempre su suministro de energía y combustible antes de expandir su producción.",
     FPS30: "El ahorro de energía",
     OfflineModeDesc:
         "No se puede conectar al servidor: no se generarán ganancias sin conexión. Por favor revise su conexion a internet",
@@ -958,4 +949,21 @@ export const ES = {
     ConstructionStatusQueueing: "%{building} is queueing for construction",
     ConstructionStatusBuilding: "%{building} is under construction now",
     ConstructionCancel: "Cancel Construction",
+    ConstructionStatusPaused: "%{building}'s construction is paused",
+    ChatForceScroll: "Force Scroll",
+    ChatForceScrollDesc:
+        "If force scroll is on, the chat will scroll whenever there's a new message. Otherwise it will only scroll when you are already at the bottom",
+    ResourceExplorer2: "Resource Explorer 2.0",
+    ResourceExplorer2Desc: "Resource explorers produce 2x output but use 2x power",
+    ConstructionPause: "Pause",
+    ConstructionResume: "Resume",
+    PolicyBlueprint: "Blueprint",
+    PolicyBlueprintDesc:
+        "Construction of a building will not automatically start - it has to be started manually (FREE POLICY)",
+    HighlightUnderConstruction: "...that haven't been constructed",
+    HighlightUnderLevel10: "...that are under level 10",
+    HighlightUnderLevel20: "...that are under level 20",
+    HighlightUnderLevel30: "...that are under level 30",
+    Logout: "You Are Logged Out",
+    LogoutDesc: "You have logged in on another device, this device are logged out",
 };

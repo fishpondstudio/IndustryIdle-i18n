@@ -918,4 +918,6 @@ export const EN = {
     HighlightUnderLevel10: "...that are under level 10",
     HighlightUnderLevel20: "...that are under level 20",
     HighlightUnderLevel30: "...that are under level 30",
+    Logout: "You Are Logged Out",
+    LogoutDesc: "You have logged in on another device, this device are logged out",
 };

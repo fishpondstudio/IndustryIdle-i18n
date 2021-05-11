@@ -912,4 +912,21 @@ export const KR = {
     ConstructionStatusQueueing: "%{building} is queueing for construction",
     ConstructionStatusBuilding: "%{building} is under construction now",
     ConstructionCancel: "Cancel Construction",
+    ConstructionStatusPaused: "%{building}'s construction is paused",
+    ChatForceScroll: "Force Scroll",
+    ChatForceScrollDesc:
+        "If force scroll is on, the chat will scroll whenever there's a new message. Otherwise it will only scroll when you are already at the bottom",
+    ResourceExplorer2: "Resource Explorer 2.0",
+    ResourceExplorer2Desc: "Resource explorers produce 2x output but use 2x power",
+    ConstructionPause: "Pause",
+    ConstructionResume: "Resume",
+    PolicyBlueprint: "Blueprint",
+    PolicyBlueprintDesc:
+        "Construction of a building will not automatically start - it has to be started manually (FREE POLICY)",
+    HighlightUnderConstruction: "...that haven't been constructed",
+    HighlightUnderLevel10: "...that are under level 10",
+    HighlightUnderLevel20: "...that are under level 20",
+    HighlightUnderLevel30: "...that are under level 30",
+    Logout: "You Are Logged Out",
+    LogoutDesc: "You have logged in on another device, this device are logged out",
 };

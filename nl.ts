@@ -494,21 +494,16 @@ export const NL = {
     Name: "Naam",
     Rank: "Rang",
     Tips1: "Aandelen beoordelingen hebben 5 niveau's: Kopen, Over Presteren, Stagnatie, Onder Presteren en Verkopen",
-    Tips2:
-        "Gebouwen zullen stoppen met transporteren van grondstoffen als er al genoeg zijn voor productie, tenzij je opslagmodus aan hebt staan.",
+    Tips2: "Gebouwen zullen stoppen met transporteren van grondstoffen als er al genoeg zijn voor productie, tenzij je opslagmodus aan hebt staan.",
     Tips3: "Brandstof kosten voor goederen transport worden bepaald door afstand en hoeveelheid goederen",
-    Tips4:
-        "Gebouwen zullen goederen enkel transporteren als de gevonden hoeveelheid op de kaart de invoer capaciteit overschrijdt",
-    Tips5:
-        "Gebouwen zullen goederen enkel transporteren van het handelscentrum als de automatisch verkoop voor dit goed is afgezet",
+    Tips4: "Gebouwen zullen goederen enkel transporteren als de gevonden hoeveelheid op de kaart de invoer capaciteit overschrijdt",
+    Tips5: "Gebouwen zullen goederen enkel transporteren van het handelscentrum als de automatisch verkoop voor dit goed is afgezet",
     Tips6: "Je kan de brandstofkosten voor goederen bekijken onder de bijbehorende invoer capaciteits sectie",
     Tips7: "Als je goederen aankoopt, zal de prijs stijgen. Als je goederen verkoopt zal de prijs dalen",
     Tips8: "Je kan de grafiek voor een goed's aantal en het aanpassen over tijd in het Statistieken Bureau",
     Tips9: "Onderzoekspunten voor een gebouw worden bepaald door de marktprijs en door zijn invoersgoederen",
-    Tips10:
-        "Verschillende goederen hebben een verschillende prijs in de markt - wees altijd bereid voor de grillen van de markt",
-    Tips11:
-        "Het is een goed idee om altijd je energie en brandstof voorraad te controleren voordat je de productie gaat uitbreiden",
+    Tips10: "Verschillende goederen hebben een verschillende prijs in de markt - wees altijd bereid voor de grillen van de markt",
+    Tips11: "Het is een goed idee om altijd je energie en brandstof voorraad te controleren voordat je de productie gaat uitbreiden",
     FPS30: "Energie Besparing",
     OfflineModeDesc:
         "Kan niet met de server connecteren: Offline verdiensten worden niet gegenereerd. Gelieve je internet connectie na te kijken",
@@ -946,4 +941,21 @@ export const NL = {
     ConstructionStatusQueueing: "%{building} is queueing for construction",
     ConstructionStatusBuilding: "%{building} is under construction now",
     ConstructionCancel: "Cancel Construction",
+    ConstructionStatusPaused: "%{building}'s construction is paused",
+    ChatForceScroll: "Force Scroll",
+    ChatForceScrollDesc:
+        "If force scroll is on, the chat will scroll whenever there's a new message. Otherwise it will only scroll when you are already at the bottom",
+    ResourceExplorer2: "Resource Explorer 2.0",
+    ResourceExplorer2Desc: "Resource explorers produce 2x output but use 2x power",
+    ConstructionPause: "Pause",
+    ConstructionResume: "Resume",
+    PolicyBlueprint: "Blueprint",
+    PolicyBlueprintDesc:
+        "Construction of a building will not automatically start - it has to be started manually (FREE POLICY)",
+    HighlightUnderConstruction: "...that haven't been constructed",
+    HighlightUnderLevel10: "...that are under level 10",
+    HighlightUnderLevel20: "...that are under level 20",
+    HighlightUnderLevel30: "...that are under level 30",
+    Logout: "You Are Logged Out",
+    LogoutDesc: "You have logged in on another device, this device are logged out",
 };

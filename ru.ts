@@ -494,19 +494,14 @@ export const RU = {
     Name: "Имя",
     Rank: "Рейтинг",
     Tips1: "Рейтинги акций имеют 5 уровней: Покупка, Повышение, Удержание, Понижение и Продажа",
-    Tips2:
-        "Здания перестанут перевозить ресурсы, если их уже достаточно для производства, если только вы не включите режим накопления запасов",
+    Tips2: "Здания перестанут перевозить ресурсы, если их уже достаточно для производства, если только вы не включите режим накопления запасов",
     Tips3: "Стоимость топлива для перевозки ресурсов определяется расстоянием и количеством ресурсов",
-    Tips4:
-        "Здания будут перевозить ресурс только в том случае, если количество, найденное на карте, превысит входную мощность",
-    Tips5:
-        "Здания будут перевозить ресурс из Торгового центра, только если для этого ресурса отключена автоматическая продажа",
+    Tips4: "Здания будут перевозить ресурс только в том случае, если количество, найденное на карте, превысит входную мощность",
+    Tips5: "Здания будут перевозить ресурс из Торгового центра, только если для этого ресурса отключена автоматическая продажа",
     Tips6: "Вы можете увидеть стоимость топлива для ресурса в соответствующем разделе входная мощность",
     Tips7: "Если вы покупаете ресурс, вы поднимаете цену. Если вы продаете ресурс, вы снижаете цену",
-    Tips8:
-        "Вы можете увидеть график количества каждого ресурса и его изменения за период времени в Статистическом бюро",
-    Tips9:
-        "Исследовательские единицы, необходимые для постойки зданий, определяются рыночной ценой входящих в него ресурсов",
+    Tips8: "Вы можете увидеть график количества каждого ресурса и его изменения за период времени в Статистическом бюро",
+    Tips9: "Исследовательские единицы, необходимые для постойки зданий, определяются рыночной ценой входящих в него ресурсов",
     Tips10: "Различные ресурсы имеют разную цену на рынке - всегда будьте готовы к волатильности рынка",
     Tips11: "Хорошая идея - всегда проверять запасы электроэнергии и топлива перед расширением производства",
     FPS30: "Энергосбережение",
@@ -934,4 +929,21 @@ export const RU = {
     ConstructionStatusQueueing: "%{building} в очереди на строительство",
     ConstructionStatusBuilding: "%{building} строится",
     ConstructionCancel: "Отменить строительство",
+    ConstructionStatusPaused: "%{building}'s construction is paused",
+    ChatForceScroll: "Force Scroll",
+    ChatForceScrollDesc:
+        "If force scroll is on, the chat will scroll whenever there's a new message. Otherwise it will only scroll when you are already at the bottom",
+    ResourceExplorer2: "Resource Explorer 2.0",
+    ResourceExplorer2Desc: "Resource explorers produce 2x output but use 2x power",
+    ConstructionPause: "Pause",
+    ConstructionResume: "Resume",
+    PolicyBlueprint: "Blueprint",
+    PolicyBlueprintDesc:
+        "Construction of a building will not automatically start - it has to be started manually (FREE POLICY)",
+    HighlightUnderConstruction: "...that haven't been constructed",
+    HighlightUnderLevel10: "...that are under level 10",
+    HighlightUnderLevel20: "...that are under level 20",
+    HighlightUnderLevel30: "...that are under level 30",
+    Logout: "You Are Logged Out",
+    LogoutDesc: "You have logged in on another device, this device are logged out",
 };
