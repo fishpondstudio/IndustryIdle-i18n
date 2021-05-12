@@ -159,6 +159,7 @@ export const VN = {
     Income: "Thu nhập",
     Semiconductor: "Bán dẫn",
     SemiconductorFactory: "Xưởng bán dẫn",
+    SemiconductorFab: "Xưởng bán dẫn",
     Steel: "Thép",
     Bitcoin: "Bitcoin",
     BitcoinFarm: "Đào Bitcoin",
