@@ -929,4 +929,11 @@ export const KR = {
     HighlightUnderLevel30: "...that are under level 30",
     Logout: "You Are Logged Out",
     LogoutDesc: "You have logged in on another device, this device are logged out",
+    ConstructionStatusQueueingV2: "Queueing",
+    ConstructionStatusPausedV2: "Paused",
+    ConstructionStatusBuildingV2: "Building",
+    ConstructionStatusUnpaidV2: "Unpaid",
+    ConstructionStatus: "Construction Status",
+    ConstructionStart: "Start",
+    CostFree: "Free",
 };

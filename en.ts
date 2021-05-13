@@ -900,9 +900,6 @@ export const EN = {
     AutoSellResourceWarningDesc:
         "You are auto selling this resource, the amount stored in Trade Center cannot be used here",
     PlayerTradeLocalPrice: "Local Price: %{price}",
-    ConstructionStatusQueueing: "%{building} is queueing for construction",
-    ConstructionStatusPaused: "%{building}'s construction is paused",
-    ConstructionStatusBuilding: "%{building} is under construction now",
     ChatForceScroll: "Force Scroll",
     ChatForceScrollDesc:
         "If force scroll is on, the chat will scroll whenever there's a new message. Otherwise it will only scroll when you are already at the bottom",
@@ -920,4 +917,11 @@ export const EN = {
     HighlightUnderLevel30: "...that are under level 30",
     Logout: "You Are Logged Out",
     LogoutDesc: "You have logged in on another device, this device are logged out",
+    ConstructionStatusQueueingV2: "Queueing",
+    ConstructionStatusPausedV2: "Paused",
+    ConstructionStatusBuildingV2: "Building",
+    ConstructionStatusUnpaidV2: "Unpaid",
+    ConstructionStatus: "Construction Status",
+    ConstructionStart: "Start",
+    CostFree: "Free",
 };

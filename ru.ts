@@ -934,7 +934,8 @@ export const RU = {
     ChatForceScrollDesc:
         "Если включена принудительная прокрутка, чат будет прокручиваться при каждом новом сообщении. В противном случае он будет прокручиваться только тогда, когда вы находитесь на самом последнем сообщении.",
     ResourceExplorer2: "Исследователь ресурсов 2.0",
-    ResourceExplorer2Desc: "Исследователи ресурсов производят в 2 раза больше продукции, но потребляют в 2 раза больше энергии",
+    ResourceExplorer2Desc:
+        "Исследователи ресурсов производят в 2 раза больше продукции, но потребляют в 2 раза больше энергии",
     ConstructionPause: "Пауза",
     ConstructionResume: "Продолжить",
     PolicyBlueprint: "Чертеж",
@@ -946,4 +947,11 @@ export const RU = {
     HighlightUnderLevel30: "...которые ниже 30-го уровня",
     Logout: "Выход из системы",
     LogoutDesc: "Вы уже выполнили вход на другом устройстве. Данная сессия завершена",
+    ConstructionStatusQueueingV2: "Queueing",
+    ConstructionStatusPausedV2: "Paused",
+    ConstructionStatusBuildingV2: "Building",
+    ConstructionStatusUnpaidV2: "Unpaid",
+    ConstructionStatus: "Construction Status",
+    ConstructionStart: "Start",
+    CostFree: "Free",
 };

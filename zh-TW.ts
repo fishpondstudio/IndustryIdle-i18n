@@ -725,8 +725,7 @@ export const ZH_TW = {
     PlayerTradeSell: "販賣",
     PlayerTradeBid: "買價",
     PlayerTradeAsk: "賣價",
-    CancelTradeConfirmDialogDescV2:
-        "取消此項交易將退還％{percent}的資源/現金。 資源將退還至貿易中心倉庫",
+    CancelTradeConfirmDialogDescV2: "取消此項交易將退還％{percent}的資源/現金。 資源將退還至貿易中心倉庫",
     ClaimTradeSuccessV2: "你發起的交易已成功完成: %{cashOrResource}",
     AcceptTradeSuccessV2: "你已經達成了這筆交易: %{cashOrResource}",
     PlayerTradeFilterPriceV2: "優於市場價格",
@@ -765,8 +764,7 @@ export const ZH_TW = {
     HongKongBonus:
         "<li>獨特的市場定價算法-價格符合正態分佈(即鐘形曲線)</li><li>市場更新和交易配額重置頻率是原來的2倍(即每小時)</li>< li>可以用已經交易的資源解鎖科技</li><li>獨特建築: 功夫館</li><li>獨特建築: 太極館</li><li>允許同時進行的玩家交易數量上限增加50%</li><li>開局即多1個自動銷售並發數</li><li>獨特政策: 國際出口貿易</li><li>獨特政策: 東方之珠</li><li >電影工作室的生產能力是原來的2倍</li>",
     FreeTransportToTradeCenter: "國際出口貿易",
-    FreeTransportToTradeCenterDesc:
-        "運輸到貿易中心不消耗燃料，但從貿易中心運出資源多消耗50%燃料",
+    FreeTransportToTradeCenterDesc: "運輸到貿易中心不消耗燃料，但從貿易中心運出資源多消耗50%燃料",
     TaiChi10xCulture: "東方之珠",
     TaiChi10xCultureDesc: "太極館產出的文化點是原來的2倍，且太極運輸免費",
     PlayerTradeYouHave: "庫存: %{amount}",
@@ -847,7 +845,7 @@ export const ZH_TW = {
     AchievementOsaka1000Desc: "在大阪一次性賺取1000瑞士貨幣",
     SteamAutoCloudBackup: "Steam雲自動備份",
     SteamAutoCloudBackupDesc:
-    "遊戲會自動保存到您的本地保存。您的本地保存每10分鐘同步到Steam Cloud。您可以隨時強制Steam雲同步。",
+        "遊戲會自動保存到您的本地保存。您的本地保存每10分鐘同步到Steam Cloud。您可以隨時強制Steam雲同步。",
     SteamManualBackup: "強制Steam同步雲",
     UILoading: "載入中...",
     UserAuthenticated: "您已通過身份驗證",
@@ -870,8 +868,7 @@ export const ZH_TW = {
         "<li>發動機工廠已預先解鎖</li><li>發動機工廠的產出量是原來的2倍</li><li>汽車工廠的生產能力是原來的2倍</li><li>汽車運輸免費</li><li>尼古拉.特斯拉政策免政策點</li><li>火車工廠的生產能力是原來的2倍</li>",
     HongKongBonusV2:
         "<li>獨特的市場定價算法-價格符合正態分佈(即鐘形曲線)</li><li>市場更新和交易配額重置頻率是原來的2倍(即每小時)</li>< li>可以用已經交易的資源解鎖研究</li><li>獨特建築：功夫館</li><li>獨特建築：太極館</li><li>允許同時進行的玩家交易數量增加50 %</li><li>開局即多1個自動銷售並發數</li><li>獨特政策：國際出口貿易</li><li>獨特政策：東方之珠</li><li>解鎖批發中心只需4種資源</li><li>開局即有100M現金</li>",
-    TaiChi10xCultureDescV2:
-        "功夫和太極運輸免費。電影工作室的生產能力是原來的2倍，但耗電量增加50%",
+    TaiChi10xCultureDescV2: "功夫和太極運輸免費。電影工作室的生產能力是原來的2倍，但耗電量增加50%",
     SettingsFullScreen: "全屏",
     SettingsFullScreenDesc: "以全屏模式運行遊戲。 僅適用於Steam版本",
     LeaderboardByAllPrestigeCurrency: "有史以來賺取的瑞士貨幣",
@@ -884,30 +881,33 @@ export const ZH_TW = {
         "<li>發動機工廠已預先解鎖</li><li>發動機工廠的產出量是原來的2倍</li><li>汽車工廠的生產能力是原來的2倍</li><li >汽車工廠使用天然氣替代汽油</li><li>汽車運輸免費</li><li>尼古拉.特斯拉政策免政策點</li><li>火車工廠的生產能力是原來的2倍</li>",
     AutoScroll: "自動滾屏",
     SaveAndExit: "保存並退出遊戲",
-    SaveAndExitDesc:
-        "保存並退出遊戲。 這僅在Steam版本上可用，並且與窗口欄上的關閉按鈕相同",
+    SaveAndExitDesc: "保存並退出遊戲。 這僅在Steam版本上可用，並且與窗口欄上的關閉按鈕相同",
     AutoSellResourceWarningShortLabel: "💡汽車銷售",
-    AutoSellResourceWarningDesc:
-        "您正在自動出售此資源，此處無法使用貿易中心中存儲的金額",
+    AutoSellResourceWarningDesc: "您正在自動出售此資源，此處無法使用貿易中心中存儲的金額",
     PlayerTradeLocalPrice: "當地價格: %{price}",
     ConstructionStatusQueueing: "%{building} 正在施工",
     ConstructionStatusBuilding: "%{building} 現在正在建設中",
     ConstructionCancel: "取消施工",
     ConstructionStatusPaused: "%{building}'的施工被暫停",
     ChatForceScroll: "強制滾動",
-    ChatForceScrollDesc:
-        "如果啟用了強制滾動，則每當有新消息時，聊天都會滾動。 否則，只有當您已經在底部時，它才會滾動",
+    ChatForceScrollDesc: "如果啟用了強制滾動，則每當有新消息時，聊天都會滾動。 否則，只有當您已經在底部時，它才會滾動",
     ResourceExplorer2: "Resource Explorer 2.0",
     ResourceExplorer2Desc: "Resource explorers produce 2x output but use 2x power",
     ConstructionPause: "暫停",
     ConstructionResume: "恢復",
     PolicyBlueprint: "藍圖",
-    PolicyBlueprintDesc:
-        "建築物的建造不會自動開始-必須手動開始（免費政策）",
+    PolicyBlueprintDesc: "建築物的建造不會自動開始-必須手動開始（免費政策）",
     HighlightUnderConstruction: "...尚未建造",
     HighlightUnderLevel10: "...低於10級",
     HighlightUnderLevel20: "...低於20級",
     HighlightUnderLevel30: "...低於30級",
     Logout: "您已登出",
     LogoutDesc: "You have logged in on another device, this device are logged out",
+    ConstructionStatusQueueingV2: "Queueing",
+    ConstructionStatusPausedV2: "Paused",
+    ConstructionStatusBuildingV2: "Building",
+    ConstructionStatusUnpaidV2: "Unpaid",
+    ConstructionStatus: "Construction Status",
+    ConstructionStart: "Start",
+    CostFree: "Free",
 };
