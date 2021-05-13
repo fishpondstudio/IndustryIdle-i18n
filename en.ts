@@ -924,4 +924,5 @@ export const EN = {
     ConstructionStatus: "Construction Status",
     ConstructionStart: "Start",
     CostFree: "Free",
+    PlaceBlueprint: "Place a building blueprint is free",
 };
