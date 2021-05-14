@@ -904,7 +904,7 @@ export const ZH_CN = {
     PolicyBlueprint: "蓝图模式",
     PolicyBlueprintDesc:
         "建筑的建造不会自动开始 - 必须手动开始 (免费政策)",
-    HighlightUnderConstruction: "...未建造过的建筑",
+    HighlightUnderConstruction: "未建造完成的...",
     HighlightUnderLevel10: "...低于 10 级的建筑",
     HighlightUnderLevel20: "...低于 20 级的建筑",
     HighlightUnderLevel30: "...低于 30 级的建筑",
