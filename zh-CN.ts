@@ -898,7 +898,7 @@ export const ZH_CN = {
     ChatForceScrollDesc:
         "如果开启了强制滚动，聊天窗口每收到一条新消息都会滚动。否则其只在处于最近消息时才会滚动。",
     ResourceExplorer2: "资源勘探者 2.0",
-    ResourceExplorer2Desc: "资源勘探者拥有 2x 产出，但使用 2x 电力",
+    ResourceExplorer2Desc: "资源勘探者有2倍产出，但使用2倍电力",
     ConstructionPause: "暂停",
     ConstructionResume: "恢复",
     PolicyBlueprint: "蓝图模式",
