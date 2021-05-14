@@ -73,7 +73,6 @@ export const KR = {
     ZeppelinFactory: "비행선 공장",
     Tank: "탱크",
     TankFactory: "탱크 공장",
-    MinimumTradingAmount: "최소량 미만으로 거래할 수 없습니다.",
     CoalPowerPlant: "석탄 발전소",
     PetrolPowerPlant: "가솔린 발전소",
     Copper: "구리",
@@ -159,7 +158,6 @@ export const KR = {
     Income: "수입",
     Semiconductor: "반도체",
     SemiconductorFactory: "반도체 공장",
-    SemiconductorFab: "반도체 팹",
     Steel: "강철",
     Bitcoin: "비트코인",
     BitcoinFarm: "비트코인 채굴장",
@@ -285,7 +283,6 @@ export const KR = {
     AllowZoomDesc: "확대 지원을 켜십시오. 확대하려면 마우스 휠을 사용하십시오. 현재 확대 배율은 %{zoom} 입니다",
     AllowZoomMobileDesc: "확대 지원을 켜십시오. 손가락을 모아 확대할 수 있습니다. 현재 확대 배율은 %{zoom} 입니다",
     Settings: "설정",
-    SellBuildingDesc: "건물을 팔면 투자금의 50%가 환불되고 자원의 50%는 무역 센터로 보내집니다",
     SellBuildingFullRefundDesc:
         "건물 재활용 정책이 활성화되어 있습니다. 건물을 판매하면 %{time}까지 전액 환불 해드립니다",
     Sound: "사운드 효과",
@@ -296,14 +293,12 @@ export const KR = {
     Credits: "제작 참여",
     Icons: "아이콘",
     MisplacedBuilding: "⛔ 이 %{building} 은 올바른 자원 매장층 위에 배치되지 않았습니다",
-    UnderConstruction: "%{building} 공사중",
     Left: "왼쪽",
     Right: "오른쪽",
     Auto: "자동",
     HighlightBuildings: "건물 하이라이트",
     HighlightTurnedOff: "...꺼진 건물",
     HighlightStockpileModeOn: "...비축 모드가 켜져있는 경우",
-    HighlightWarehouseOnly: "...창고 전용",
     HighlightProductionCycleNotDefault: "...생산주기 > 1",
     HighlightMaxInputDistanceNotDefault: "...최대 입력 거리 < ∞",
     HighlightNotMakingProfit: "...이익을 내지 못 함 ",
@@ -324,7 +319,6 @@ export const KR = {
     HideContent: "컨텐츠 숨기기",
     BuyExpansionPack: "%{price}에 구매",
     Cities: "도시",
-    WarehouseInputCapacityDesc: "창고가 초당 내부로 전송할 수 있는 자원의 양",
     InputStrategy: "입력 전략",
     InputStrategyClose: "가까운 것 우선",
     InputStrategyCloseDesc: "충분한 자원이 있는 가장 가까운 창고를 선호합니다",
@@ -354,7 +348,6 @@ export const KR = {
     WholesaleCenter: "도매 센터",
     OrderFrom: "%{name} 에서 주문",
     ExpireIn: "만료",
-    ProfitMargin: "이익 마진",
     NotMakingProfitWarning: "💡 생산에 수익성이 없습니다. 끄는 것을 고려하십시오",
     TurnOnAllProductions: "생산 켜기",
     TurnOnAllProductionsDesc: "모든 건물의 생산을 켭니다. 비용 절약 정책이 활성화되면 사용할 수 없습니다",
@@ -371,7 +364,6 @@ export const KR = {
     NextOrderIn: "다음 주문",
     FillOrder: "주문 채우기",
     RejectOrder: "거절",
-    YouHave: "보유량 %{amount}",
     WholesaleCenterLocked:
         "도매 센터를 잠금 해제하려면 최소 %{required} 개의 다른 자원이 필요합니다. %{current} 개의 자원만 있습니다",
     OrderFilled: "%{from} 의 주문이 성공적으로 완료되었습니다!",
@@ -393,7 +385,6 @@ export const KR = {
         "건물은 매 주기마다 최상의 입력을 검색하는 대신 이전 입력에서 전송하는 것을 선호합니다 (무료 정책)",
     RefineryMorePlastic: "Mo Plastics Mo Problems",
     RefineryMorePlasticDesc: "정유 공장은 가솔린을 50% 덜 생산하고 플라스틱을 50% 더 생산합니다",
-    FreeOilTransport: "무료 원유 운송",
     FreeOilTransportDesc: "원유 운송은 비용이 들지 않지만 유정은 2배의 전력을 사용합니다",
     SuperSteelMill: "철의 심장",
     SuperSteelMillDesc: "제철소는 석탄을 50% 적게 사용하고 철은 25% 더 많이 사용하며 전력은 25% 더 많이 사용합니다",
@@ -440,7 +431,6 @@ export const KR = {
     CoalPlantFuelDesc: "석탄 발전소는 추가 석탄을 사용하여 휘발유를 생산합니다",
     Welcome: "환영합니다",
     SeeTutorialAgain: "튜토리얼 재실행",
-    ReadSteamGuide: "Steam 공식 가이드",
     HelpTranslateTheGame: "게임 번역을 도와주세요🌐",
     SkipTutorial: "튜토리얼 건너 뛰기",
     NextTutorial: "다음",
@@ -450,8 +440,6 @@ export const KR = {
         "모든 건물에는 전력⚡이 필요합니다. 전력을 생성하는 <em>풍력 터빈</em>이 있습니다. 상단 막대의 왼쪽에서 현재 전력 공급을 확인할 수 있습니다.<br><br>풍력 터빈은 시간의 <em>80%</em>만 동작합니다. 안정적인 전력을 생성하는 다른 유형의 발전소를 건설하는 것을 고려할 수 있습니다.",
     Tutorial3:
         "지도에 많은 <em>자원 매장지</em>가 있습니다. 자원을 추출하려면 해당 매장지 <em>위에</em> 광산⛏️을 건설해야합니다. <br><br> 예를 들어, 석유 매장지에서 <em> 석유</em>를 추출하는 <em> 유정🛢️</em>이 있습니다. <br></br> 자원 매장량은 무제한이므로 고갈에 대해 걱정할 필요가 없습니다. 광산을 제외하고는 빈 타일에 다른 건물을 지을 수 있습니다.",
-    Tutorial4:
-        "자원 운송에는 연료가 듭니다. 이 지도에서 <em>휘발유⛽</em>를 연료로 사용할 수 있습니다. 유정에서 석유를 운송하고 휘발유를 생산하는 <em>정유소</em>가 있습니다. <br><br> 작은 움직이는 <em>점</em>은 자원의 실시간 이동을 나타냅니다. 이동 거리를 최소화하려면 건물 위치를 최적화해야 합니다. <br><br><em> 업그레이드</em > 건물의 생산량은 증가하지만 필요한 전력 사용량과 투입량도 증가합니다. <br><br>운송 센터🚦에서 연료 유형을 변경할 수 있습니다. 연료 생산량이 소비량 이상인지 확인하세요. 연료가 떨어지면 생산이 중단될 겁니다.",
     Tutorial5:
         "돈을 벌려면 무역 센터를 통해 자원을 내보내야 합니다. 이렇게 하려면 해당 리소스에 대해 <em>자동 판매</em>를 설정하기만 하면 됩니다. <br></br> 또한 무역 센터도 마찬가지입니다. <em>자원을 구입하면 가격이 상승</em>하고 자원을 판매하면 가격이 하락합니다. <br> <br> 시장은 <em>변덕스럽고</em> 가격📈은 정기적으로 변경됩니다.",
     Tutorial6:
@@ -464,7 +452,6 @@ export const KR = {
     Send: "보내기",
     Import: "가져오기",
     Export: "내보내기",
-    SteamCloudBackup: "Steam 클라우드 백업",
     LastBackupAt: "마지막 백업",
     RestoreFromBackup: "백업에서 복원",
     RestoreFromBackupFail: "Steam 클라우드에서 백업을 복원하지 못했습니다 : 백업이 있습니까?",
@@ -472,7 +459,6 @@ export const KR = {
     RestoreFromBackupDesc:
         "로컬 저장이 손실되지 않는 한 일반적으로 클라우드 백업에서 복원할 필요가 없습니다. 클라우드 백업은 로컬 저장보다 약간 오래되었습니다.",
     ChatMessages: "채팅 메시지",
-    ChatPlaceholder: "메시지 입력 : 최대 100 자",
     ChangeName: "변경",
     SaveName: "저장",
     NameValidationRule: "이름은 문자와 숫자만 포함해야하며 5-15자 사이여야 합니다",
@@ -481,7 +467,6 @@ export const KR = {
     NameSaved: "이름이 성공적으로 변경되었습니다",
     NoMessages: "새 메시지 없음",
     Leaderboard: "리더 보드",
-    LeaderboardDesc: "리더 보드 점수는 지금까지 벌어 들인 모든 스위스 돈입니다",
     Name: "이름",
     Rank: "순위",
     Tips1: "주식 등급은 매수, 과잉, 보류, 저조 및 매도의 5 단계로 나뉩니다.",
@@ -536,7 +521,6 @@ export const KR = {
     HideDiscordBanner: "Discord 배너 숨기기",
     HideDiscordBannerDesc: "본부에서 Discord 배너 및 상점 배너 숨기기",
     HideChat: "채팅 메시지 숨기기",
-    HideChatDesc: "하단 도구 모음에서 채팅 메시지 숨기기",
     SortedByDeficit: "부족분 순 정렬",
     PurchaseFailed: "구매가 완료되지 않았습니다",
     PurchaseSteamContinue: "Steam에서 구매를 완료하세요",
@@ -590,14 +574,10 @@ export const KR = {
     MapSquareGrid: "정사각형",
     MapHexGrid: "6각형",
     Stockholm: "스톡홀름",
-    StockholmBonus:
-        "<li>무료 레벨4 풍력 터빈 x1</li><li>무료 레벨4 유정 x1</li><li>무료 레벨2 정유소 x1</li><li>제지 공장 잠금 해제</li><li>벌목소 생산량 2배</li>",
     Rotterdam: "로테르담",
     RotterdamBonus:
         "<li>제철소 용량 2배</li><li>스테인리스 공장 용량 2배</li><li>무료 철 수송</li><li>강철 수송 연료비 50% 절감</li><li>자동 판매 용량 2배로 시작</li><li>타일 보정 없음</li>",
     Oslo: "오슬로",
-    OsloBonus:
-        "<li>정유소 용량 2배</li><li>가스 처리 공장 용량 2배</li><li>석유 발전소 용량 2배</li><li>제철소는 석탄 대신 천연 가스를 사용합니다</li><li>무료 석유 운송</li>",
     StPetersburg: "상트 페테르부르크",
     StPetersburgBonus:
         "<li>우라늄 광산 생산량 2배</li><li>우라늄 농축 시설 용량 2배</li><li>우라늄 수송 연료비 50% 절감</li><li>무료 총기 수송</li><li>미사일 공장은 티타늄과 우라늄 대신 농축 우라늄을 사용합니다</li>",
@@ -611,8 +591,6 @@ export const KR = {
     RomeBonus:
         "<li>콜로세움 잠금 해제</li><li>콜로세움 생산성 2배</li><li>레벨5 정책 센터에서 시작</li><li>오페라 하우스 용량 2배</li><li>녹음 스튜디오도 문화를 만들어냅니다</li>",
     Detroit: "디트로이트",
-    DetroitBonus:
-        "<li>엔진 공장 잠금 해제</li><li>엔진 공장 생산성 2 배</li><li>자동차 공장 용량 2 배</li><li>자동차 공장에는 배터리가 필요하지 않습니다</li>< li> 기차 공장 용량 2배</li>",
     Boston: "보스턴",
     BostonBonus:
         "<li>레벨5 연구실에서 시작</li><li>과학기술 전문학교 잠금 해제</li><li>과학기술 전문학교 용량 2배</li><li>학교 용량 2배</li><li>대학 생산성 2배</li>",
@@ -627,10 +605,8 @@ export const KR = {
     AddTradeSuccess: "당신의 거래가 성공적으로 추가되었습니다",
     LoadTradeFail: "플레이어 거래를 불러오지 못했습니다. 나중에 다시 시도하십시오",
     ClaimTradeFail: "이 거래를 청구하지 못했습니다. 나중에 다시 시도하십시오",
-    ClaimTradeSuccess: "거래가 성공적으로 청구되었습니다: $%{cash}가 계좌에 추가되었습니다",
     CancelTradeSuccess: "거래가 성공적으로 취소되었습니다",
     CancelTradeFail: "거래를 취소하지 못했습니다. 나중에 다시 시도하십시오",
-    AcceptTradeSuccess: "거래를 수락하셨습니다: %{resource}가 거래 센터에 추가되었습니다",
     AcceptTradeFail: "거래를 수락하지 못했습니다. 나중에 다시 시도하십시오",
     PlayerTradeBanner: "다른 플레이어와 자원 거래",
     PlayerTradeResource: "자원",
@@ -654,11 +630,8 @@ export const KR = {
     SaveCopiedToClipboard: "저장 데이터가 클립 보드에 복사되었습니다",
     CancelActiveTradeFirst: "활성중인 사용자 간 거래가 있습니다. 먼저 취소/청구하십시오",
     FailedToCheckActiveTrade: "활성중인 사용자 간 거래를 확인하지 못했습니다. 나중에 다시 시도하십시오",
-    PlayerTradePriceNotValid: "거래 가격은 %{min}에서 %{max}사이여야 합니다 (2 x 마지막 시장 업데이트 가격)",
     PlayerTradeQuotaExceed: "이 거래는 한도를 초과했습니다",
-    PlayerTradeAmountNotValid: "거래량은 0보다 커야합니다",
     PlayerTradeValidRange: "범위: %{min} ~ %{max}",
-    PlayerTradeFilterPrice: "시장 가격 이하",
     PlayerTradeFilterCanAfford: "감당할 수 있는",
     PlayerTradeQuota: "남은 한도: %{value}",
     PlayerTradeUnavailable: "사용자와 거래하기 전에 생산 및 보관에 최소한 하나의 자원이 있어야 합니다",
@@ -780,13 +753,10 @@ export const KR = {
     TaiChi: "태극권",
     TaiChiDojo: "태극권 도장",
     HongKong: "홍콩",
-    HongKongBonus:
-        "<li>고유한 시장 가격 알고리즘 - 가격은 정규 분포를 따릅니다(종 모양 곡선)</li><li>시장 업데이트 및 거래 할당량 재설정 빈도 2배(1시간마다)</li><li>거래된 자원을 통해 연구를 잠금 해제할 수 있습니다</li><li>고유 건물: 쿵푸 도장</li><li>고유 건물: 태극권 도장</li><li>허용되는 최대 활성 플레이어 거래수 50% 증가</li><li>시작 시, 자동 판매 종류 +1개</li><li>고유 정책: 국제 수출 무역</li><li>고유 정책: 동양의 진주</li><li>영화 스튜디오 용량 2배</li>",
     FreeTransportToTradeCenter: "국제 수출 무역",
     FreeTransportToTradeCenterDesc:
         "무역 센터로의 운송에는 연료 비용이 들지 않지만, 무역 센터에서 나가는 운송은 연료 비용이 50% 더 많이 든다",
     TaiChi10xCulture: "동양의 진주",
-    TaiChi10xCultureDesc: "태극권 도장은 문화를 2배 생산하며 태극권 운송이 무료입니다",
     PlayerTradeYouHave: "저장량: %{amount}",
     PlayerTradeFillValue: "가치",
     FiberFactory: "섬유 공장",
@@ -885,8 +855,6 @@ export const KR = {
     MapExclusive: "Map Exclusive",
     ElectricCar: "Nikola Tesla",
     ElectricCarDesc: "Car factories use batteries instead of petrol and only require 50% of the amount",
-    DetroitBonusV2:
-        "<li>Engine factories are unlocked</li><li>Engine factories have 2x productivity</li><li>Car factories have 2x capacity</li><li>Free car transportation</li><li>Nikola Tesla policy is free</li><li>Train factories have 2x capacity</li>",
     HongKongBonusV2:
         "<li>Unique market pricing algorithm - prices and stock rating follow normal distribution (bell curve)</li><li>Market updates and trade quota resets are twice as frequent (every hour)</li><li>Research can be unlocked via traded resources</li><li>Unique building: Kung-Fu Dojo</li><li>Unique building: Tai-Chi Dojo</li><li>50% increase in max numbers of active player trades allowed</li><li>Start with 1 more auto sell concurrency</li><li>Unique policy: International Export Trade</li><li>Unique policy: Pearl of the Orient</li><li>Wholesale Center only needs 4 resources to unlock</li><li>Start with 100M Cash</li>",
     TaiChi10xCultureDescV2:
@@ -901,7 +869,6 @@ export const KR = {
     LastUpdatedAt: "Last Updated At",
     DetroitBonusV3:
         "<li>Engine factories are unlocked</li><li>Engine factories have 2x productivity</li><li>Car factories have 2x capacity</li><li>Car factories use gas instead of petrol</li><li>Free car transportation</li><li>Nikola Tesla policy is free</li><li>Train factories have 2x capacity</li>",
-    AutoScroll: "Auto Scroll",
     SaveAndExit: "Save and Exit Game",
     SaveAndExitDesc:
         "Save and exit game. This is only available on Steam version and does the same as the close button on the window bar",
@@ -909,15 +876,12 @@ export const KR = {
     AutoSellResourceWarningDesc:
         "You are auto selling this resource, the amount stored in Trade Center cannot be used here",
     PlayerTradeLocalPrice: "Local Price: %{price}",
-    ConstructionStatusQueueing: "%{building} is queueing for construction",
-    ConstructionStatusBuilding: "%{building} is under construction now",
-    ConstructionCancel: "Cancel Construction",
-    ConstructionStatusPaused: "%{building}'s construction is paused",
     ChatForceScroll: "Force Scroll",
     ChatForceScrollDesc:
         "If force scroll is on, the chat will scroll whenever there's a new message. Otherwise it will only scroll when you are already at the bottom",
     ResourceExplorer2: "Resource Explorer 2.0",
     ResourceExplorer2Desc: "Resource explorers produce 2x output but use 2x power",
+    ConstructionCancel: "Cancel Construction",
     ConstructionPause: "Pause",
     ConstructionResume: "Resume",
     PolicyBlueprint: "Blueprint",
@@ -953,6 +917,7 @@ export const KR = {
         "<li>Unique building: music producer</li><li>Logging camps have 2x output</li><li>Paper mills are unlocked</li><li>Circuit foundries have 2x productivity</li><li>Science Literature policy is free</li>",
     OsloBonusV2:
         "<li>Oil refineries are unlocked</li><li>Oil refineries have 2x capacity</li><li>Electric oil transport policy is free</li><li>Gas processing plants have 2x capacity</li><li>Free level 4 wind turbine x1</li><li>Free level 4 oil well x1</li><li>Free level 2 oil refinery x1</li><li>Free level 2 natural gas pump x1</li>",
+    FreeOilTransport: "무료 원유 운송",
     Tutorial4P1:
         "Resource transportation costs fuel. There are several fuel types and now you are using <em>petrol⛽</em> as fuel. You have an <em>oil refinery</em> that transports oil from the oil well and produces petrol.<br><br>The tiny moving <em>dots</em> represent the real-time movement of resources. You should optimize your building locations to minimize the distance of travel.<br><br><em>Upgrading</em> your buildings will increase their output, but will also increase their power usage and input required.",
     Tutorial4P2:

@@ -73,7 +73,6 @@ export const PT_BR = {
     ZeppelinFactory: "Fábrica de Zepelins",
     Tank: "Tanque",
     TankFactory: "Fábrica de Tanques",
-    MinimumTradingAmount: "You cannot trade lower than minimum amount",
     CoalPowerPlant: "Coal Power Plant",
     PetrolPowerPlant: "Petrol Power Plant",
     Copper: "Cobre",
@@ -286,8 +285,6 @@ export const PT_BR = {
     AllowZoomDesc: "Turn on zoom support. Use your mouse wheel to zoom. Current zoom is %{zoom}",
     AllowZoomMobileDesc: "Turn on zoom support. You can pinch to zoom. Current zoom is %{zoom}",
     Settings: "Configurações",
-    SellBuildingDesc:
-        "Selling a building will refund you 50% of your investment and 50% of the resources will be transported to Trade Center",
     SellBuildingFullRefundDesc:
         "Building Recycle policy is active, selling a building will give you full refund until in %{time}",
     Sound: "Efeito sonoro",
@@ -298,7 +295,6 @@ export const PT_BR = {
     Credits: "Créditos",
     Icons: "Ícones",
     MisplacedBuilding: "⛔ This %{building} is not placed on top of the correct resource deposit",
-    UnderConstruction: "%{building} is under construction",
     Left: "Esquerda",
     Right: "Direita",
     Auto: "Auto",
@@ -392,7 +388,6 @@ export const PT_BR = {
         "Buildings will prefer to transport from previous source, instead of searching for the best source every cycle (FREE POLICY)",
     RefineryMorePlastic: "Mo Plastics Mo Problems",
     RefineryMorePlasticDesc: "Oil Refineries produce 50% less petrol and 50% more plastic",
-    FreeOilTransport: "Transporte de óleo grátis",
     FreeOilTransportDesc: "Oil transport doesn't cost fuel but oil wells use 2x power",
     SuperSteelMill: "Hearts of Iron",
     SuperSteelMillDesc: "Steel mills use 50% less coal and 25% more iron and 25% more power",
@@ -451,8 +446,6 @@ export const PT_BR = {
         "All buildings need power⚡, you have a <em>wind turbine</em> that generates power. You can see your current power supply on the left side of the top bar.<br><br>You might have noticed that wind turbines only work <em>80%</em> of the time. You can consider building other types of power plants that generate stable power.",
     Tutorial3:
         "You have a lot of <em>resource deposits</em> on the map. To extract resources, you have to build mines⛏️ <em>on top of</em> the corresponding deposit.<br><br>For example, you have an <em>oil well🛢️</em> that extracts <em>oil</em> from an oil deposit.<br></br>Resource deposits are unlimited - no need to worry about them running out. Apart from mines, other buildings can be built on any empty tile.",
-    Tutorial4:
-        "Resource transportation costs fuel. On this map, you can use <em>petrol⛽</em> as fuel. You have an <em>oil refinery</em> that transports oil from the oil well and produces petrol.<br><br>The tiny moving <em>dots</em> represent the real-time movement of resources. You should optimize your building locations to minimize the distance of travel.<br><br><em>Upgrading</em> your buildings will increase their output, but will also increase their power usage and input required.<br><br>You can change your fuel type in the transportation center🚦. Remember to make sure your fuel production is above consumption otherwise your production will halt when you run out of fuel.",
     Tutorial5:
         "To make money, you need to export your resources via the trade center. To do this, simply turn on <em>auto sell</em> for that resource.<br></br>You can also buy resources from the trade center as well. Remember <em>if you buy a resource, you will drive up the price</em> and if you sell a resource, you will drive down the price.<br><br>The market is <em>volatile</em> and the price📈 changes regularly.",
     Tutorial6:
@@ -480,7 +473,6 @@ export const PT_BR = {
     NameSaved: "Seu nome foi alterado com sucesso",
     NoMessages: "Sem mensagens novas",
     Leaderboard: "Leaderboard",
-    LeaderboardDesc: "The leaderboard score is all the Swiss money you've ever earned",
     Name: "Nome",
     Rank: "Rank",
     Tips1: "Stock ratings have 5 levels: Buy, Overperform, Hold, Underperform and Sell",
@@ -593,14 +585,10 @@ export const PT_BR = {
     MapSquareGrid: "Square",
     MapHexGrid: "Hexagonal",
     Stockholm: "Stockholm",
-    StockholmBonus:
-        "<li>Free level 4 wind turbine x1</li><li>Free level 4 oil well x1</li><li>Free level 2 oil refinery x1</li><li>Paper mills are unlocked</li><li>Logging camps have 2x output</li>",
     Rotterdam: "Rotterdam",
     RotterdamBonus:
         "<li>Steel Mills have 2x capacity</li><li>Stainless Steel Plants have 2x capacity</li><li>Free iron transportation</li><li>Steel transportation costs 50% less fuel</li><li>Start with 2x auto sell capacity</li><li>No tile modifiers</li>",
     Oslo: "Oslo",
-    OsloBonus:
-        "<li>Oil refineries have 2x capacity</li><li>Gas processing plants have 2x capacity</li><li>Petrol power plants have 2x capacity</li><li>Steel mills use natural gas instead of coal</li><li>Free oil transportation</li>",
     StPetersburg: "St. Petersburg",
     StPetersburgBonus:
         "<li>Uranium mines have 2x output</li><li>Uranium enrichment plants have 2x capacity</li><li>Uranium transportation costs 50% less fuel</li><li>Free gun transportation</li><li>Missile factories use enriched uranium instead of titanium and uranium</li>",
@@ -614,8 +602,6 @@ export const PT_BR = {
     RomeBonus:
         "<li>Colosseums are unlocked</li><li>Colosseums have 2x productivity</li><li>Start with level 5 policy center</li><li>Opera houses have 2x capacity</li><li>Recording studios also produce culture</li>",
     Detroit: "Detroit",
-    DetroitBonus:
-        "<li>Engine factories are unlocked</li><li>Engine factories have 2x productivity</li><li>Car factories have 2x capacity</li><li>Car factories do not need batteries</li><li>Train factories have 2x capacity</li>",
     Boston: "Boston",
     BostonBonus:
         "<li>Start with level 5 research lab</li><li>Polytechnics are unlocked</li><li>Polytechnics have 2x capacity</li><li>Schools have 2x capacity</li><li>Universities have 2x productivity</li>",
@@ -657,7 +643,6 @@ export const PT_BR = {
     SaveCopiedToClipboard: "Your save data has been copied to your clipboard",
     CancelActiveTradeFirst: "You have active player trades, please cancel/claim them first",
     FailedToCheckActiveTrade: "Failed to check active player trades, please try again later",
-    PlayerTradePriceNotValid: "Trade price must be between %{min} and %{max} (2 x Last Market Update Price)",
     PlayerTradeQuotaExceed: "This trade has exceeded your quota",
     PlayerTradeValidRange: "Alcance: %{min} ~ %{max}",
     PlayerTradeFilterCanAfford: "Can Afford",
@@ -782,13 +767,10 @@ export const PT_BR = {
     TaiChi: "Tai-Chi",
     TaiChiDojo: "Tai-Chi Dojo",
     HongKong: "Hong Kong",
-    HongKongBonus:
-        "<li>Unique market pricing algorithm - prices follow normal distribution (bell curve)</li><li>Market updates and trade quota resets are twice as frequent (every hour)</li><li>Research can be unlocked via traded resources</li><li>Unique building: Kung-Fu Dojo</li><li>Unique building: Tai-Chi Dojo</li><li>50% increase in max numbers of active player trades allowed</li><li>Start with 1 more auto sell concurrency</li><li>Unique policy: International Export Trade</li><li>Unique policy: Pearl of the Orient</li><li>Movie studios have 2x capacity</li>",
     FreeTransportToTradeCenter: "International Export Trade",
     FreeTransportToTradeCenterDesc:
         "Transportation to the trade center does not cost fuel but transportation from the trade center cost 50% more fuel",
     TaiChi10xCulture: "Pearl of the Orient",
-    TaiChi10xCultureDesc: "Tai-chi dojos produce 2x culture and tai-chi transportation is free",
     PlayerTradeYouHave: "Armazenado: %{amount}",
     PlayerTradeFillValue: "Valor",
     FiberFactory: "Fábrica de fibra",
@@ -908,9 +890,6 @@ export const PT_BR = {
     AutoSellResourceWarningDesc:
         "You are auto selling this resource, the amount stored in Trade Center cannot be used here",
     PlayerTradeLocalPrice: "Local Price: %{price}",
-    ConstructionStatusQueueing: "%{building} is queueing for construction",
-    ConstructionStatusPaused: "%{building}'s construction is paused",
-    ConstructionStatusBuilding: "%{building} is under construction now",
     ChatForceScroll: "Forçar Rolagem",
     ChatForceScrollDesc:
         "If force scroll is on, the chat will scroll whenever there's a new message. Otherwise it will only scroll when you are already at the bottom",
@@ -952,6 +931,7 @@ export const PT_BR = {
         "<li>Unique building: music producer</li><li>Logging camps have 2x output</li><li>Paper mills are unlocked</li><li>Circuit foundries have 2x productivity</li><li>Science Literature policy is free</li>",
     OsloBonusV2:
         "<li>Oil refineries are unlocked</li><li>Oil refineries have 2x capacity</li><li>Electric oil transport policy is free</li><li>Gas processing plants have 2x capacity</li><li>Free level 4 wind turbine x1</li><li>Free level 4 oil well x1</li><li>Free level 2 oil refinery x1</li><li>Free level 2 natural gas pump x1</li>",
+    FreeOilTransport: "Transporte de óleo grátis",
     Tutorial4P1:
         "Resource transportation costs fuel. There are several fuel types and now you are using <em>petrol⛽</em> as fuel. You have an <em>oil refinery</em> that transports oil from the oil well and produces petrol.<br><br>The tiny moving <em>dots</em> represent the real-time movement of resources. You should optimize your building locations to minimize the distance of travel.<br><br><em>Upgrading</em> your buildings will increase their output, but will also increase their power usage and input required.",
     Tutorial4P2:

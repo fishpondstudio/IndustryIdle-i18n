@@ -1,4 +1,8 @@
 export const NL = {
+    Translator: "Vertaler",
+    TranslatorName: "Maccie, Arlene",
+    Language: "Taal",
+    ThisLanguage: "Nederlands",
     OK: "OK",
     SteelMill: "Staalfabriek",
     StainlessSteelPlant: "Roestvrij Staalfabriek",
@@ -69,7 +73,6 @@ export const NL = {
     ZeppelinFactory: "Zeppelin Fabriek",
     Tank: "Tank",
     TankFactory: "Tank Fabriek",
-    MinimumTradingAmount: "Je kan niet handelen onder het minimum aantal",
     CoalPowerPlant: "Kolencentrale",
     PetrolPowerPlant: "Petroleumcentrale",
     Copper: "Koper",
@@ -156,7 +159,6 @@ export const NL = {
     Income: "Inkomsten",
     Semiconductor: "Halfgeleiders",
     SemiconductorFactory: "Halfgeleiders Fabriek",
-    SemiconductorFab: "Halfgeleiders Fab",
     Steel: "Staal",
     Bitcoin: "Bitcoin",
     BitcoinFarm: "Bitcoin Server",
@@ -286,8 +288,6 @@ export const NL = {
     AllowZoomDesc: "Zet zoom support aan. Gebruik je muiswiel om in te zoomen. Huidige zoom is %{zoom}",
     AllowZoomMobileDesc: "Zet zoom support aan. Je kan pinchen om te zoomen. Huidige zoom is %{zoom}",
     Settings: "Instellingen",
-    SellBuildingDesc:
-        "Een gebouw verkopen geeft je 50% van de investering terug en 50% van de goederen worden naar het Handelscentrum getransporteerd",
     SellBuildingFullRefundDesc:
         "Gebouw recyclage toelating is actief, een gebouw verkopen zal je nu volledig terugbetalen tot %{time}",
     Sound: "Geluidseffecten",
@@ -298,7 +298,6 @@ export const NL = {
     Credits: "Credits",
     Icons: "Icoontjes",
     MisplacedBuilding: "⛔ Dit %{building} gebouw is niet op een correcte goederen opslag gebouwd",
-    UnderConstruction: "%{building} is onder constructie",
     Left: "Links",
     Right: "Rechts",
     Auto: "Automatisch",
@@ -326,8 +325,6 @@ export const NL = {
     HideContent: "Verberg Inhoud",
     BuyExpansionPack: "Kopen voor %{price}",
     Cities: "Steden",
-    WarehouseInputCapacityDesc:
-        "Aantal goederen die de opslagplaats inwaards kan transporteren, per seconde, per goed.",
     InputStrategy: "Invoer Strategie",
     InputStrategyClose: "Dichter",
     InputStrategyCloseDesc: "Prefereer de dichtste opslagplaats die genoeg goederen heeft",
@@ -357,7 +354,6 @@ export const NL = {
     WholesaleCenter: "Groothandel",
     OrderFrom: "Bestelling van %{name}",
     ExpireIn: "Vervalt in",
-    ProfitMargin: "Winstmarge",
     NotMakingProfitWarning: "💡 Productie is niet winstgevend, overweeg om het uit te schakelen",
     TurnOnAllProductions: "Productie Aan",
     TurnOnAllProductionsDesc:
@@ -375,7 +371,6 @@ export const NL = {
     NextOrderIn: "Volgende Bestelling In",
     FillOrder: "Vervul",
     RejectOrder: "Afslaan",
-    YouHave: "Je hebt %{amount}",
     WholesaleCenterLocked:
         "Je hebt minstens %{required} verschillende goederen nodig om de groothandel te ontgrendelen. Je hebt slechts %{current} goederen",
     OrderFilled: "De bestelling van %{from} is succesvol vervult!",
@@ -398,7 +393,6 @@ export const NL = {
         "Gebouwen zullen transport van voorgaande bron prefereren, in plaats van te zoeken naar de beste bron elke cyclus (GRATIS BELEID)",
     RefineryMorePlastic: "Meer Plastic Meer Problemen",
     RefineryMorePlasticDesc: "Olie Raffinaderijen produceren 50% minder brandstof and 50% meer plastic",
-    FreeOilTransport: "Gratis Olie Transport",
     FreeOilTransportDesc: "Olie transport kost geen brandstof meer maar oliebronnen verbruiken 2x meer energie",
     SuperSteelMill: "Harten van Ijzer",
     SuperSteelMillDesc: "Staalfabrieken verbruiken 50% minder steenkool en 25% meer ijzer en 25% meer energie",
@@ -449,7 +443,6 @@ export const NL = {
     CoalPlantFuelDesc: "Steenkool energiecentrales verbruiken extra steenkool om brandstof te produceren",
     Welcome: "Welkom",
     SeeTutorialAgain: "Doe de Tutorial opnieuw",
-    ReadSteamGuide: "Officiele Gids op Steam",
     HelpTranslateTheGame: "Help het spel vertalen🌐",
     SkipTutorial: "Tutorial Overslaan",
     NextTutorial: "Volgende",
@@ -459,8 +452,6 @@ export const NL = {
         "Alle gebouwen hebben energie nodig⚡, je hebt een <em>wind turbine</em> die energie genereert. Je kan je huidige energie toevoer bekijken links in de bovenbalk.<br><br>Het zal je opvallen dat wind turbines maar <em>80%</em> van de tijd werken. Je kan overwegen andere gebouwen van het type energiecentrale te bouwen, die meer stabiele energie leveren.",
     Tutorial3:
         "Je hebt een heel aantal <em>bronnen</em> op de kaart. Om de bronnen te ontmijnen, moeten je mijnen bouwen⛏️ <em>bovenop</em> de bijbehorende bron.<br><br>Bijvoorbeeld, je hebt een <em>oliepomp🛢️</em> die <em>olie</em> op pompt van een oliebron.<br></br>Bronnen zijn onuitputtelijk - geen zorgen dat je zonder zal zitten. Apart van mijnen heb je andere gebouwen die je kan bouwen op lege tegels.",
-    Tutorial4:
-        "Goederen transport kost brandstof. Op deze kaart, kan je <em>petroleum⛽</em> gebruiken als brandstof. Je hebt een <em>olieraffinaderij</em> die olie transporteert van de oliebron en petroleum produceert.<br><br>De kleine bewegende <em>stipjes</em> geeft het realtime transport van je goederen weer. Je moet je gebouw locaties optimaliseren om reisafstand te minimalizeren.<br><br>Je gebouwen <em>opwaarderen</em> zal hun opbrengst verhogen, maar verhoogt ook hun stroomverbruik en de vereiste invoer.<br><br>Je kan je brandstof type aanpassen in het transport centrum🚦. Vergeet niet je brandstof productie boven je brandstof verbruik te houden, anders zal je productie stilvallen wanneer je zonder brandstof zit.",
     Tutorial5:
         "Om geld te verdienen, moet je je goederen exporteren via het handelscentrum. Om dit te doen, activeer je gewoon de <em>automatische verkoop</em> voor deze goederen.<br></br>Je kan ook goederen kopen van het handelscentrum. Onthoud <em>Als je goederen koopt, drijf je de prijs omhoog</em> en als je goederen verkoopt, drijf je de prijs naar beneden.<br><br>De markt is <em>grillig</em> en de prijs veranderd geregeld.",
     Tutorial6:
@@ -473,7 +464,6 @@ export const NL = {
     Send: "Versturen",
     Import: "Importeren",
     Export: "Exporteren",
-    SteamCloudBackup: "Steam Cloud Backup",
     LastBackupAt: "Laatste Backup",
     RestoreFromBackup: "Backup Herstellen",
     RestoreFromBackupFail: "Backup herstel gefaald uit de Steam Cloud. Ben je zeker dat er een backup is?",
@@ -481,7 +471,6 @@ export const NL = {
     RestoreFromBackupDesc:
         "You normally don't need to restore from cloud backup, unless your local save is lost. Cloud backup are a bit older than your local save",
     ChatMessages: "Chat Berichten",
-    ChatPlaceholder: "Typ je bericht: max 100 karakters",
     ChangeName: "Aanpassen",
     SaveName: "Opslaan",
     NameValidationRule: "Je naam mag enkel letters en nummers bevatten en moet tussen 5 en 15 karakters lang zijn",
@@ -490,7 +479,6 @@ export const NL = {
     NameSaved: "Je naam is succesvol aangepast",
     NoMessages: "Geen nieuwe berichten",
     Leaderboard: "Scorebord",
-    LeaderboardDesc: "De score op het scorebord is al het Zwitsers geld dat je ooit verdient hebt",
     Name: "Naam",
     Rank: "Rang",
     Tips1: "Aandelen beoordelingen hebben 5 niveau's: Kopen, Over Presteren, Stagnatie, Onder Presteren en Verkopen",
@@ -548,7 +536,6 @@ export const NL = {
     HideDiscordBanner: "Verberg Discord Banner",
     HideDiscordBannerDesc: "Verberg Discord en de winkelbanner in het hoofdkwartier",
     HideChat: "Verberg Chat Bericht",
-    HideChatDesc: "verberg de berichten van de onderste toolbar",
     SortedByDeficit: "Gesorteerd op tekorten",
     PurchaseFailed: "De aankoop is niet doorgegaan",
     PurchaseSteamContinue: "Beëindig je aankoop aub op Steam",
@@ -607,19 +594,11 @@ export const NL = {
     ResourceTilePercentage: "Grondstof Tegels",
     MapSquareGrid: "Vierkant",
     MapHexGrid: "Hex",
-    Translator: "Vertaler",
-    TranslatorName: "Maccie, Arlene",
-    Language: "Taal",
-    ThisLanguage: "Nederlands",
     Stockholm: "Stockholm",
-    StockholmBonus:
-        "<li>Gratis niveau 4 wind turbines x1</li><li>gratis niveau 4 oliebronnen x1</li><li>gratis niveau 2 oil raffinaderijen x1</li><li>Papiermolens zijn vrijgespeeld</li><li>Houthakkers kampen hebben 2x uitvoer</li>",
     Rotterdam: "Rotterdam",
     RotterdamBonus:
         "<li>Staalfabrieken hebben 2x capaciteit</li><li>Roestvrij Staalfabrieken hebben 2x capaciteit</li><li>Gratis ijzertransport</li><li>Staal transport kost 50% minder brandstof</li><li>Start met 2x auto verkoop capaciteit</li><li>Geen tegel modificators</li>",
     Oslo: "Oslo",
-    OsloBonus:
-        "<li>Olie raffinaderijen hebben 2x capaciteit</li><li>Aardgas verwerkingsfabrieken hebben 2x capaciteit</li><li>Petroleum energiecentrales hebben 2x capaciteit</li><li>Staalfabrieken gebruiken aardgas in de plaats van steenkool</li><li>gratis olie transport</li>",
     StPetersburg: "St. Petersburg",
     StPetersburgBonus:
         "<li>Uranium mijnen hebben 2x uitvoer</li><li>Uranium verrijkingscentrales hebben 2x capaciteit</li><li>Uranium transport kost 50% minder brandstof</li><li>Gratis wapen transport</li><li>Missile fabrieken gebruiken verrijkt uranium in de plaats van titanium en uranium</li>",
@@ -633,8 +612,6 @@ export const NL = {
     RomeBonus:
         "<li>Colosseums zijn vrijgespeeld</li><li>Colosseums hebben 2x productiviteit</li><li>Start met een niveau 5 beleidscentrum</li><li>Opera huizen hebben 2x capaciteit</li><li>Opnamestudios produceren ook cultuur</li>",
     Detroit: "Detroit",
-    DetroitBonus:
-        "<li>Motor fabrieken zijn vrijgespeeld</li><li>Motor fabrieken hebben 2x productiviteit</li><li>Auto fabrieken hebben 2x capaciteit</li><li>Auto fabrieken hebben geen batterijen nodig</li><li>Trein fabrieken hebben 2x capaciteit</li>",
     Boston: "Boston",
     BostonBonus:
         "<li>Start met niveau 5 Onderzoeks Laboratorium</li><li>Technische school is vrijgespeeld</li><li>Universiteient hebben 2x capaciteit</li><li>Scholen hebben 2x capaciteit</li><li>Universiteiten hebben 2x productiviteit</li>",
@@ -646,16 +623,13 @@ export const NL = {
         "Je hebt gebouwenconstructie onderweg; je kan niet starten in een nieuwe stad totdat dit afgehandelt is",
     PlayerTrade: "Speler Handel",
     AddTradeFail: "Handelsoffer toevoegen gefaald",
-    AddTradeValidationFail: "Handelsbedrag en prijs moeten groter zijn dan 0",
     AddTradeExceedMaximumTrade:
         "Je kan maximum %{number} actieve handelsoffers hebben, claim ze op of annuleer ze eerst",
     AddTradeSuccess: "Je handelsoffer is succesvol toegevoegd",
     LoadTradeFail: "Spelers handel laden is gefaald, probeer later opnieuw",
     ClaimTradeFail: "Handelsoffer claimen is gefaald, probeer later opnieuw",
-    ClaimTradeSuccess: "Jou handelsoffer is succesvol opgeclaimt: $%{cash} is toegevoegd aan je account",
     CancelTradeSuccess: "Jou handelsoffer is succesvol geannuleerd",
     CancelTradeFail: "Handelsoffer annuleren is gefaald, probeer later opnieuw",
-    AcceptTradeSuccess: "Deze transactie is geaccepteerd door jou: %{resource} is toegevoegd aan je handelscentrum",
     AcceptTradeFail: "Handelsoffer accepteren is gefaald, probeer later opnieuw",
     PlayerTradeBanner: "Handel goederen met andere spelers",
     PlayerTradeResource: "Goederen",
@@ -668,23 +642,19 @@ export const NL = {
     ActiveTrades: "Actieve handelingen",
     AcceptTrade: "Accepteer",
     CancelTrade: "Annuleer",
+    RefundTrade: "Refund",
+    RefundTradeSuccess: "Deze transactie werd terugbetaald: %{resource} is terugbetaald aan je handelscentrum",
+    RefundTradeFail: "Transactie terugbetalen is gefaald, probeer aub later opnieuw",
     ClaimTrade: "Claim",
     RefreshTrade: "Ververs",
     PasteYourSave: "Plak uw opslag data aub",
     FailedToImportSave: "opgeslagen data importeren gefaald",
     FailedToImportSaveDesc: "je opgeslagen bestand is incompatibel or gecorrumpteerd: %{error}",
     SaveCopiedToClipboard: "Je opgeslagen data is gekopieerd naar je klembord",
-    RefundTrade: "Refund",
-    RefundTradeSuccess: "Deze transactie werd terugbetaald: %{resource} is terugbetaald aan je handelscentrum",
-    RefundTradeFail: "Transactie terugbetalen is gefaald, probeer aub later opnieuw",
     CancelActiveTradeFirst: "Je hebt actieve speler transacties, annuleer of eis ze aub eerst op",
     FailedToCheckActiveTrade: "Controleren van actieve speler transacties gefaald, probeer aub later opnieuw",
-    PlayerTradePriceNotValid:
-        "Handelsprijs moet tussen %{min} en %{max}  (2 x laatste markt hernieuwings prijs) liggen",
     PlayerTradeQuotaExceed: "Deze transactie heeft uw quota overschreden",
-    PlayerTradeAmountNotValid: "Handelshoeveelheid moet groter zijn dan 0",
     PlayerTradeValidRange: "Bereik: %{min} ~ %{max}",
-    PlayerTradeFilterPrice: "Onder Market Prijs",
     PlayerTradeFilterCanAfford: "Kan Betalen",
     PlayerTradeQuota: "Resterend quota: %{value}",
     PlayerTradeUnavailable:
@@ -692,6 +662,7 @@ export const NL = {
     PlayerTradeToClaim: "Je hebt %{num} nieuwe transactie(s) om te claimen in Speler transacties",
     PowerBank: "Power Bank",
     PowerBankBuildDesc: "Store surplus power and provide power supply during shortage",
+    WarehouseBuildDesc: "Transporteer en sla mijn goederen op en met lagere brandstof kosten",
     PowerBankChargeSpeed: "Oplaadsnelheid",
     PowerBankPowerLeft: "Resterende Energie",
     PowerBankMoreCapacity: "Batterij Besparing",
@@ -700,7 +671,6 @@ export const NL = {
     ExcludeBuildingsShutdown: "Sluit gebouwen uit die gesloten zijn",
     ColorTheme: "Spel kleurenthema",
     ColorThemeDesc: "Kleurenthema voor spelicoontjes, markeringen, grid en achtergrond. VEREIST HERSTART",
-    WarehouseBuildDesc: "Transporteer en sla mijn goederen op en met lagere brandstof kosten",
     SiliconMine2xOutput: "Silicon Valley",
     SiliconMine2xOutputDesc:
         "Silicon mines produce 2x silicon but use 50% more power and silicon transport costs 50% more fuel",
@@ -726,8 +696,6 @@ export const NL = {
     AcceptTradeFailRateLimit: "You can only accept one trade every %{time} seconds",
     DowngradeBuilding: "Downgrade",
     CancelTradeConfirmDialogTitle: "Cancel This Trade?",
-    CancelTradeConfirmDialogDesc:
-        "Cancelling this trade will refund %{percent} of the resource to the Trade Center warehouse",
     CancelTradeConfirmDialogYes: "Yes",
     CancelTradeConfirmDialogNo: "No",
     WarehouseInputRoutes: "Input Routes",
@@ -809,13 +777,10 @@ export const NL = {
     TaiChi: "Tai-Chi",
     TaiChiDojo: "Tai-Chi Dojo",
     HongKong: "Hong Kong",
-    HongKongBonus:
-        "<li>Unique market pricing algorithm - prices follow normal distribution (bell curve)</li><li>Market updates and trade quota resets are twice as frequent (every hour)</li><li>Research can be unlocked via traded resources</li><li>Unique building: Kung-Fu Dojo</li><li>Unique building: Tai-Chi Dojo</li><li>50% increase in max numbers of active player trades allowed</li><li>Start with 1 more auto sell concurrency</li><li>Unique policy: International Export Trade</li><li>Unique policy: Pearl of the Orient</li><li>Movie studios have 2x capacity</li>",
     FreeTransportToTradeCenter: "International Export Trade",
     FreeTransportToTradeCenterDesc:
         "Transportation to the trade center does not cost fuel but transportation from the trade center cost 50% more fuel",
     TaiChi10xCulture: "Pearl of the Orient",
-    TaiChi10xCultureDesc: "Tai-chi dojos produce 2x culture and tai-chi transportation is free",
     PlayerTradeYouHave: "In Storage: %{amount}",
     PlayerTradeFillValue: "Value",
     FiberFactory: "Fiber Factory",
@@ -914,8 +879,6 @@ export const NL = {
     MapExclusive: "Map Exclusive",
     ElectricCar: "Nikola Tesla",
     ElectricCarDesc: "Car factories use batteries instead of petrol and only require 50% of the amount",
-    DetroitBonusV2:
-        "<li>Engine factories are unlocked</li><li>Engine factories have 2x productivity</li><li>Car factories have 2x capacity</li><li>Free car transportation</li><li>Nikola Tesla policy is free</li><li>Train factories have 2x capacity</li>",
     HongKongBonusV2:
         "<li>Unique market pricing algorithm - prices and stock rating follow normal distribution (bell curve)</li><li>Market updates and trade quota resets are twice as frequent (every hour)</li><li>Research can be unlocked via traded resources</li><li>Unique building: Kung-Fu Dojo</li><li>Unique building: Tai-Chi Dojo</li><li>50% increase in max numbers of active player trades allowed</li><li>Start with 1 more auto sell concurrency</li><li>Unique policy: International Export Trade</li><li>Unique policy: Pearl of the Orient</li><li>Wholesale Center only needs 4 resources to unlock</li><li>Start with 100M Cash</li>",
     TaiChi10xCultureDescV2:
@@ -930,7 +893,6 @@ export const NL = {
     LastUpdatedAt: "Last Updated At",
     DetroitBonusV3:
         "<li>Engine factories are unlocked</li><li>Engine factories have 2x productivity</li><li>Car factories have 2x capacity</li><li>Car factories use gas instead of petrol</li><li>Free car transportation</li><li>Nikola Tesla policy is free</li><li>Train factories have 2x capacity</li>",
-    AutoScroll: "Auto Scroll",
     SaveAndExit: "Save and Exit Game",
     SaveAndExitDesc:
         "Save and exit game. This is only available on Steam version and does the same as the close button on the window bar",
@@ -938,15 +900,12 @@ export const NL = {
     AutoSellResourceWarningDesc:
         "You are auto selling this resource, the amount stored in Trade Center cannot be used here",
     PlayerTradeLocalPrice: "Local Price: %{price}",
-    ConstructionStatusQueueing: "%{building} is queueing for construction",
-    ConstructionStatusBuilding: "%{building} is under construction now",
-    ConstructionCancel: "Cancel Construction",
-    ConstructionStatusPaused: "%{building}'s construction is paused",
     ChatForceScroll: "Force Scroll",
     ChatForceScrollDesc:
         "If force scroll is on, the chat will scroll whenever there's a new message. Otherwise it will only scroll when you are already at the bottom",
     ResourceExplorer2: "Resource Explorer 2.0",
     ResourceExplorer2Desc: "Resource explorers produce 2x output but use 2x power",
+    ConstructionCancel: "Cancel Construction",
     ConstructionPause: "Pause",
     ConstructionResume: "Resume",
     PolicyBlueprint: "Blueprint",
@@ -982,6 +941,7 @@ export const NL = {
         "<li>Unique building: music producer</li><li>Logging camps have 2x output</li><li>Paper mills are unlocked</li><li>Circuit foundries have 2x productivity</li><li>Science Literature policy is free</li>",
     OsloBonusV2:
         "<li>Oil refineries are unlocked</li><li>Oil refineries have 2x capacity</li><li>Electric oil transport policy is free</li><li>Gas processing plants have 2x capacity</li><li>Free level 4 wind turbine x1</li><li>Free level 4 oil well x1</li><li>Free level 2 oil refinery x1</li><li>Free level 2 natural gas pump x1</li>",
+    FreeOilTransport: "Gratis Olie Transport",
     Tutorial4P1:
         "Resource transportation costs fuel. There are several fuel types and now you are using <em>petrol⛽</em> as fuel. You have an <em>oil refinery</em> that transports oil from the oil well and produces petrol.<br><br>The tiny moving <em>dots</em> represent the real-time movement of resources. You should optimize your building locations to minimize the distance of travel.<br><br><em>Upgrading</em> your buildings will increase their output, but will also increase their power usage and input required.",
     Tutorial4P2:

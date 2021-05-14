@@ -1,4 +1,8 @@
 export const ES = {
+    Translator: "Traductor",
+    TranslatorName: "Juan Manuel Jaén Cabrera (Leunal17)",
+    Language: "Idioma",
+    ThisLanguage: "Español",
     OK: "Vale",
     SteelMill: "Molino de acero",
     StainlessSteelPlant: "Planta de acero inoxidable",
@@ -70,7 +74,6 @@ export const ES = {
     ZeppelinFactory: "Fábrica de Zeppelin",
     Tank: "Tanque",
     TankFactory: "Fábrica de tanques",
-    MinimumTradingAmount: "No puede operar por debajo de la cantidad mínima",
     CoalPowerPlant: "Central eléctrica de carbón",
     PetrolPowerPlant: "Planta de energía de gasolina",
     Copper: "Cobre",
@@ -160,7 +163,6 @@ export const ES = {
     Income: "Ingreso",
     Semiconductor: "Semiconductor",
     SemiconductorFactory: "Fábrica de semiconductores",
-    SemiconductorFab: "Semiconductor Fab",
     Steel: "Acero",
     Bitcoin: "Bitcoin",
     BitcoinFarm: "Granja de Bitcoin",
@@ -291,8 +293,6 @@ export const ES = {
     AllowZoomDesc: "Activar el soporte de zoom. Usa la rueda del mouse para hacer zoom. El zoom actual es %{zoom}",
     AllowZoomMobileDesc: "Activar el soporte de zoom. Puedes pellizcar para hacer zoom. El zoom actual es %{zoom}",
     Settings: "Ajustes",
-    SellBuildingDesc:
-        "Vender un edificio le reembolsará el 50% de su inversión y el 50% de los recursos serán transportados a Trade Center",
     SellBuildingFullRefundDesc:
         "La política de reciclaje de edificios está activa, vender un edificio le dará un reembolso completo hasta en %{time}",
     Sound: "Efecto de sonido",
@@ -303,7 +303,6 @@ export const ES = {
     Credits: "Creditos",
     Icons: "Iconos",
     MisplacedBuilding: "⛔ Este %{building} no se coloca encima del depósito de recursos correcto",
-    UnderConstruction: "%{building} está en construcción",
     Left: "Izquierda",
     Right: "Derecha",
     Auto: "Auto",
@@ -331,8 +330,6 @@ export const ES = {
     HideContent: "Ocultar contenido",
     BuyExpansionPack: "Comprar por %{price}",
     Cities: "Ciudades",
-    WarehouseInputCapacityDesc:
-        "Cantidad de recursos que el almacén puede transportar hacia adentro por segundo, por recurso.",
     InputStrategy: "Estrategia de entrada",
     InputStrategyClose: "Cerca",
     InputStrategyCloseDesc: "Prefiera el almacén más cercano que tenga suficientes recursos",
@@ -363,7 +360,6 @@ export const ES = {
     WholesaleCenter: "Centro al por mayor",
     OrderFrom: "Ordenar desde %{name}",
     ExpireIn: "Expira en",
-    ProfitMargin: "Margen de beneficio",
     NotMakingProfitWarning: "💡 Producción no rentable, considerar apagarlo",
     TurnOnAllProductions: "Producción activada",
     TurnOnAllProductionsDesc:
@@ -381,7 +377,6 @@ export const ES = {
     NextOrderIn: "Siguiente orden en",
     FillOrder: "Completar pedido",
     RejectOrder: "Aprobar",
-    YouHave: "Tú tienes %{amount}",
     WholesaleCenterLocked:
         "Necesitas al menos %{required} diferentes recursos para desbloquear el Centro Mayorista. Tu solo tienes %{current} recuursos",
     OrderFilled: "La orden de %{from} se ha llenado con éxito!",
@@ -405,7 +400,6 @@ export const ES = {
         "Los edificios preferirán transportarse desde la fuente anterior, en lugar de buscar la mejor fuente en cada ciclo (POLÍTICA GRATUITA)",
     RefineryMorePlastic: "Mo Plásticos Mo Problemas",
     RefineryMorePlasticDesc: "Las refinerías de petróleo producen un 50% menos de gasolina y un 50% más de plástico",
-    FreeOilTransport: "Transporte de petróleo gratis",
     FreeOilTransportDesc:
         "El transporte de petróleo no cuesta combustible, pero los pozos de petróleo usan el doble de energía",
     SuperSteelMill: "Corazones de Hierro",
@@ -458,7 +452,6 @@ export const ES = {
     CoalPlantFuelDesc: "Las centrales eléctricas de carbón utilizan carbón adicional para producir gasolina",
     Welcome: "Bienvenido",
     SeeTutorialAgain: "Rehacer tutorial",
-    ReadSteamGuide: "Guía oficial en Steam",
     HelpTranslateTheGame: "Ayuda a traducir el juego🌐",
     SkipTutorial: "Saltar tutorial",
     NextTutorial: "Próximo",
@@ -468,8 +461,6 @@ export const ES = {
         "Todos los edificios necesitan energía⚡, usted tiene una <em>turbina eólica</em> que genera poder. Puede ver su fuente de alimentación actual en el lado izquierdo de la barra superior.<br><br>Es posible que haya notado que las turbinas eólicas solo funcionan el <em>80%</em> del tiempo. Puede considerar la construcción de otros tipos de plantas de energía que generen energía estable.",
     Tutorial3:
         "Tienes mucho de <em>depósitos de recursos</em> en el mapa. Para extraer recursos, tienes que construir minas.⛏️ <em>on top of</em> el depósito correspondiente.<br><br>Por ejemplo, tienes un <em>oil well🛢️</em> que extrae <em>oil</em> de un depósito de petróleo.<br></br>Resource deposits are unlimited - no need to worry about them running out. Apart from mines, other buildings can be built on any empty tile.",
-    Tutorial4:
-        "El transporte de recursos cuesta combustible. En este mapa, puede utilizar <em> gasolina⛽ </em> como combustible. Tiene una <em> refinería de petróleo </em> que transporta petróleo desde el pozo de petróleo y produce gasolina. <br> <br> Los diminutos <em> puntos </em> en movimiento representan el movimiento de recursos en tiempo real. Debe optimizar las ubicaciones de sus edificios para minimizar la distancia de viaje. <br> <br> <em> Mejorar </em> sus edificios aumentará su producción, pero también aumentará el uso de energía y la entrada requerida. <br> <br > Puedes cambiar tu tipo de combustible en el centro de transporte🚦. Recuerde asegurarse de que su producción de combustible esté por encima del consumo, de lo contrario su producción se detendrá cuando se quede sin combustible.",
     Tutorial5:
         "Para ganar dinero, debe exportar sus recursos a través del centro comercial. Para hacer esto, simplemente active <em> venta automática </em> para ese recurso. <br> </br> También puede comprar recursos en el centro comercial. Recuerda <em> si compras un recurso, subirás el precio </em> y si vendes un recurso, bajarás el precio. <br> <br> El mercado es <em> volátil </ em > y el precio📈 cambia regularmente.",
     Tutorial6:
@@ -482,7 +473,6 @@ export const ES = {
     Send: "Enviar",
     Import: "Importar",
     Export: "Exportar",
-    SteamCloudBackup: "Copia de seguridad en la nube de Steam",
     LastBackupAt: "Última copia de seguridad",
     RestoreFromBackup: "Reinstalar desde el respaldo",
     RestoreFromBackupFail:
@@ -491,7 +481,6 @@ export const ES = {
     RestoreFromBackupDesc:
         "Normalmente no es necesario restaurar desde la copia de seguridad en la nube, a menos que se pierda su guardado local. Las copias de seguridad en la nube son un poco más antiguas que su guardado local",
     ChatMessages: "Mensajes de chat",
-    ChatPlaceholder: "Escriba su mensaje: máximo 100 caracteres",
     ChangeName: "Cambio",
     SaveName: "Ahorrar",
     NameValidationRule: "Su nombre solo debe contener letras y números y tener entre 5 y 15 caracteres",
@@ -500,7 +489,6 @@ export const ES = {
     NameSaved: "Tu nombre ha sido cambiado exitosamente",
     NoMessages: "no hay mensajes nuevos",
     Leaderboard: "Tabla de clasificación",
-    LeaderboardDesc: "La puntuación de la tabla de clasificación es todo el dinero suizo que hayas ganado.",
     Name: "Nombre",
     Rank: "Rango",
     Tips1: "Las calificaciones de acciones tienen 5 niveles: compra, rendimiento superior, retención, rendimiento inferior y venta",
@@ -560,7 +548,6 @@ export const ES = {
     HideDiscordBanner: "Ocultar estandarte de discordia",
     HideDiscordBannerDesc: "Ocultar Discord y banner de escaparate en la sede",
     HideChat: "Ocultar mensaje de chat",
-    HideChatDesc: "Ocultar el mensaje de chat de la barra de herramientas inferior",
     SortedByDeficit: "Ordenada por déficit",
     PurchaseFailed: "La compra no se completó",
     PurchaseSteamContinue: "Termina tu compra en Steam",
@@ -617,19 +604,11 @@ export const ES = {
     ResourceTilePercentage: "Azulejos de recursos",
     MapSquareGrid: "Cuadrado",
     MapHexGrid: "Hex",
-    Translator: "Traductor",
-    TranslatorName: "Juan Manuel Jaén Cabrera (Leunal17)",
-    Language: "Idioma",
-    ThisLanguage: "Español",
     Stockholm: "Estocolmo",
-    StockholmBonus:
-        "<li> Turbina eólica de nivel 4 libre x1 </li> <li> Pozo de petróleo de nivel 4 libre x1 </li> <li> Refinería de petróleo de nivel 2 libre x1 </li> <li> Los molinos de papel están desbloqueados </ li > <li> Los campamentos madereros tienen el doble de rendimiento </li> ",
     Rotterdam: "Rotterdam",
     RotterdamBonus:
         "<li> Las acerías tienen el doble de capacidad </li> <li> Las plantas de acero inoxidable tienen el doble de capacidad </li> <li> Transporte gratuito de hierro </li> <li> El transporte de acero cuesta un 50% menos de combustible </li> <li> Comience con el doble de capacidad de venta automática </li> <li> Sin modificadores de mosaicos </li> ",
     Oslo: "Oslo",
-    OsloBonus:
-        "<li> Las refinerías de petróleo tienen el doble de capacidad </li> <li> Las plantas de procesamiento de gas tienen el doble de capacidad </li> <li> Las plantas de energía de petróleo tienen el doble de capacidad </li> <li> Las acerías utilizan gas natural en lugar de carbón </li> <li> Transporte de petróleo gratuito </li> ",
     StPetersburg: "San Petersburgo",
     StPetersburgBonus:
         "<li> Las minas de uranio tienen el doble de producción </li> <li> Las plantas de enriquecimiento de uranio tienen el doble de capacidad </li> <li> El transporte de uranio cuesta 50% menos de combustible </li> <li> Transporte de armas gratis </li> <li> Las fábricas de misiles utilizan uranio enriquecido en lugar de titanio y uranio </li> ",
@@ -643,8 +622,6 @@ export const ES = {
     RomeBonus:
         "<li> Los coliseos están desbloqueados </li> <li> Los coliseos tienen el doble de productividad </li> <li> Comience con el centro de políticas de nivel 5 </li> <li> Los teatros de ópera tienen el doble de capacidad </li> <li> Los estudios de grabación también producen cultura </li> ",
     Detroit: "Detroit",
-    DetroitBonus:
-        "<li> Las fábricas de motores están desbloqueadas </li> <li> Las fábricas de motores tienen el doble de productividad </li> <li> Las fábricas de automóviles tienen el doble de capacidad </li> <li> Las fábricas de automóviles no necesitan baterías </li> < li> Las fábricas de trenes tienen el doble de capacidad </li> ",
     Boston: "Boston",
     BostonBonus:
         "<li> Comience con el laboratorio de investigación de nivel 5 </li> <li> Las escuelas politécnicas están desbloqueadas </li> <li> Las escuelas politécnicas tienen el doble de capacidad </li> <li> Las escuelas tienen el doble de capacidad </li> <li> Universidad tener el doble de productividad </li> ",
@@ -661,10 +638,8 @@ export const ES = {
     AddTradeSuccess: "Your trade has been added successfully",
     LoadTradeFail: "Failed to load player trades, please try again later",
     ClaimTradeFail: "Failed to claim this trade, please try again later",
-    ClaimTradeSuccess: "Your trade has been claimed successfully: $%{cash} has been added to your account",
     CancelTradeSuccess: "Your trade has been cancelled successfully",
     CancelTradeFail: "Failed to cancel this trade, please try again later",
-    AcceptTradeSuccess: "This trade has been accepted by you: %{resource} has been added to your trade center",
     AcceptTradeFail: "Failed to accept this trade, please try again later",
     PlayerTradeBanner: "Trade Resources with Other Players",
     PlayerTradeResource: "Resource",
@@ -688,11 +663,8 @@ export const ES = {
     SaveCopiedToClipboard: "Your save data has been copied to your clipboard",
     CancelActiveTradeFirst: "You have active player trades, please cancel/claim them first",
     FailedToCheckActiveTrade: "Failed to check active player trades, please try again later",
-    PlayerTradePriceNotValid: "Trade price must be between %{min} and %{max} (2 x Last Market Update Price)",
     PlayerTradeQuotaExceed: "This trade has exceeded your quota",
-    PlayerTradeAmountNotValid: "Trade amount must be greater than 0",
     PlayerTradeValidRange: "Range: %{min} ~ %{max}",
-    PlayerTradeFilterPrice: "Below Market Price",
     PlayerTradeFilterCanAfford: "Can Afford",
     PlayerTradeQuota: "Quota Left: %{value}",
     PlayerTradeUnavailable:
@@ -700,6 +672,7 @@ export const ES = {
     PlayerTradeToClaim: "Your have %{num} new trade(s) to claim in Player Trade",
     PowerBank: "Power Bank",
     PowerBankBuildDesc: "Store surplus power and provide power supply during shortage",
+    WarehouseBuildDesc: "Transport and store any resources and with lower fuel cost",
     PowerBankChargeSpeed: "Charge Speed",
     PowerBankPowerLeft: "Power Left",
     PowerBankMoreCapacity: "Battery Saver",
@@ -708,7 +681,6 @@ export const ES = {
     ExcludeBuildingsShutdown: "Exclude buildings that are shut down",
     ColorTheme: "Game Color Theme",
     ColorThemeDesc: "Color theme for game icons, highlight, grid and background. REQUIRES RELOAD",
-    WarehouseBuildDesc: "Transport and store any resources and with lower fuel cost",
     SiliconMine2xOutput: "Silicon Valley",
     SiliconMine2xOutputDesc:
         "Silicon mines produce 2x silicon but use 50% more power and silicon transport costs 50% more fuel",
@@ -734,8 +706,6 @@ export const ES = {
     AcceptTradeFailRateLimit: "You can only accept one trade every %{time} seconds",
     DowngradeBuilding: "Downgrade",
     CancelTradeConfirmDialogTitle: "Cancel This Trade?",
-    CancelTradeConfirmDialogDesc:
-        "Cancelling this trade will refund %{percent} of the resource to the Trade Center warehouse",
     CancelTradeConfirmDialogYes: "Yes",
     CancelTradeConfirmDialogNo: "No",
     WarehouseInputRoutes: "Input Routes",
@@ -817,13 +787,10 @@ export const ES = {
     TaiChi: "Tai-Chi",
     TaiChiDojo: "Tai-Chi Dojo",
     HongKong: "Hong Kong",
-    HongKongBonus:
-        "<li>Unique market pricing algorithm - prices follow normal distribution (bell curve)</li><li>Market updates and trade quota resets are twice as frequent (every hour)</li><li>Research can be unlocked via traded resources</li><li>Unique building: Kung-Fu Dojo</li><li>Unique building: Tai-Chi Dojo</li><li>50% increase in max numbers of active player trades allowed</li><li>Start with 1 more auto sell concurrency</li><li>Unique policy: International Export Trade</li><li>Unique policy: Pearl of the Orient</li><li>Movie studios have 2x capacity</li>",
     FreeTransportToTradeCenter: "International Export Trade",
     FreeTransportToTradeCenterDesc:
         "Transportation to the trade center does not cost fuel but transportation from the trade center cost 50% more fuel",
     TaiChi10xCulture: "Pearl of the Orient",
-    TaiChi10xCultureDesc: "Tai-chi dojos produce 2x culture and tai-chi transportation is free",
     PlayerTradeYouHave: "In Storage: %{amount}",
     PlayerTradeFillValue: "Value",
     FiberFactory: "Fiber Factory",
@@ -922,8 +889,6 @@ export const ES = {
     MapExclusive: "Map Exclusive",
     ElectricCar: "Nikola Tesla",
     ElectricCarDesc: "Car factories use batteries instead of petrol and only require 50% of the amount",
-    DetroitBonusV2:
-        "<li>Engine factories are unlocked</li><li>Engine factories have 2x productivity</li><li>Car factories have 2x capacity</li><li>Free car transportation</li><li>Nikola Tesla policy is free</li><li>Train factories have 2x capacity</li>",
     HongKongBonusV2:
         "<li>Unique market pricing algorithm - prices and stock rating follow normal distribution (bell curve)</li><li>Market updates and trade quota resets are twice as frequent (every hour)</li><li>Research can be unlocked via traded resources</li><li>Unique building: Kung-Fu Dojo</li><li>Unique building: Tai-Chi Dojo</li><li>50% increase in max numbers of active player trades allowed</li><li>Start with 1 more auto sell concurrency</li><li>Unique policy: International Export Trade</li><li>Unique policy: Pearl of the Orient</li><li>Wholesale Center only needs 4 resources to unlock</li><li>Start with 100M Cash</li>",
     TaiChi10xCultureDescV2:
@@ -938,7 +903,6 @@ export const ES = {
     LastUpdatedAt: "Last Updated At",
     DetroitBonusV3:
         "<li>Engine factories are unlocked</li><li>Engine factories have 2x productivity</li><li>Car factories have 2x capacity</li><li>Car factories use gas instead of petrol</li><li>Free car transportation</li><li>Nikola Tesla policy is free</li><li>Train factories have 2x capacity</li>",
-    AutoScroll: "Auto Scroll",
     SaveAndExit: "Save and Exit Game",
     SaveAndExitDesc:
         "Save and exit game. This is only available on Steam version and does the same as the close button on the window bar",
@@ -946,15 +910,12 @@ export const ES = {
     AutoSellResourceWarningDesc:
         "You are auto selling this resource, the amount stored in Trade Center cannot be used here",
     PlayerTradeLocalPrice: "Local Price: %{price}",
-    ConstructionStatusQueueing: "%{building} is queueing for construction",
-    ConstructionStatusBuilding: "%{building} is under construction now",
-    ConstructionCancel: "Cancel Construction",
-    ConstructionStatusPaused: "%{building}'s construction is paused",
     ChatForceScroll: "Force Scroll",
     ChatForceScrollDesc:
         "If force scroll is on, the chat will scroll whenever there's a new message. Otherwise it will only scroll when you are already at the bottom",
     ResourceExplorer2: "Resource Explorer 2.0",
     ResourceExplorer2Desc: "Resource explorers produce 2x output but use 2x power",
+    ConstructionCancel: "Cancel Construction",
     ConstructionPause: "Pause",
     ConstructionResume: "Resume",
     PolicyBlueprint: "Blueprint",
@@ -990,6 +951,7 @@ export const ES = {
         "<li>Unique building: music producer</li><li>Logging camps have 2x output</li><li>Paper mills are unlocked</li><li>Circuit foundries have 2x productivity</li><li>Science Literature policy is free</li>",
     OsloBonusV2:
         "<li>Oil refineries are unlocked</li><li>Oil refineries have 2x capacity</li><li>Electric oil transport policy is free</li><li>Gas processing plants have 2x capacity</li><li>Free level 4 wind turbine x1</li><li>Free level 4 oil well x1</li><li>Free level 2 oil refinery x1</li><li>Free level 2 natural gas pump x1</li>",
+    FreeOilTransport: "Transporte de petróleo gratis",
     Tutorial4P1:
         "Resource transportation costs fuel. There are several fuel types and now you are using <em>petrol⛽</em> as fuel. You have an <em>oil refinery</em> that transports oil from the oil well and produces petrol.<br><br>The tiny moving <em>dots</em> represent the real-time movement of resources. You should optimize your building locations to minimize the distance of travel.<br><br><em>Upgrading</em> your buildings will increase their output, but will also increase their power usage and input required.",
     Tutorial4P2:

@@ -73,7 +73,6 @@ export const VN = {
     ZeppelinFactory: "Xưởng khinh khí cầu",
     Tank: "Xe tăng",
     TankFactory: "Xưởng xe tăng",
-    MinimumTradingAmount: "Bạn không thể giao dịch dưới mức tối thiểu",
     CoalPowerPlant: "Nhà máy điện than",
     PetrolPowerPlant: "Nhà máy điện dầu",
     Copper: "Đồng",
@@ -159,7 +158,6 @@ export const VN = {
     Income: "Thu nhập",
     Semiconductor: "Bán dẫn",
     SemiconductorFactory: "Xưởng bán dẫn",
-    SemiconductorFab: "Xưởng bán dẫn",
     Steel: "Thép",
     Bitcoin: "Bitcoin",
     BitcoinFarm: "Đào Bitcoin",
@@ -288,8 +286,6 @@ export const VN = {
     AllowZoomMobileDesc:
         "Bật hỗ trợ phóng to thu nhỏ. Dùng động tác nhéo để thay đổi. Mức độ phóng hiện tại là %{zoom}",
     Settings: "Tùy chọn",
-    SellBuildingDesc:
-        "Bán công trình sẽ hoàn lại 50% tổng chi phí xây dựng và nâng cấp, đồng thời 50% tài nguyên sẽ được chuyển về Trung tâm Thương mại",
     SellBuildingFullRefundDesc:
         "Chính sách tái cơ cấu công trình đang bật, bán một công trình sẽ hoàn lại toàn bộ giá trị trong vòng %{time} tới",
     Sound: "Hiệu ứng âm thanh",
@@ -300,14 +296,12 @@ export const VN = {
     Credits: "Công trạng",
     Icons: "Hình",
     MisplacedBuilding: "⛔ Công trình %{building} này xây không đúng trên vỉa tài nguyên tương ứng",
-    UnderConstruction: "Công trình %{building} đang trong quá trình xây dựng",
     Left: "Trái",
     Right: "Phải",
     Auto: "Tự động",
     HighlightBuildings: "Đánh dấu công trình",
     HighlightTurnedOff: "...đã bị ngưng hoạt động",
     HighlightStockpileModeOn: "...đang bật chế độ tích trữ",
-    HighlightWarehouseOnly: "...chỉ dành cho kho bãi",
     HighlightProductionCycleNotDefault: "...có chu kỳ sản xuất > 1",
     HighlightMaxInputDistanceNotDefault: "...có khoảng cách thu tài nguyên tối đa < ∞",
     HighlightNotMakingProfit: "...không có lãi",
@@ -328,7 +322,6 @@ export const VN = {
     HideContent: "Che nội dung",
     BuyExpansionPack: "Mua với giá %{price}",
     Cities: "Các thành phố",
-    WarehouseInputCapacityDesc: "Lượng tài nguyên kho bãi có thể vẫn chuyển về mỗi giây cho từng loại.",
     InputStrategy: "Chiến lược nhập",
     InputStrategyClose: "Gần hơn",
     InputStrategyCloseDesc: "Ưu tiên kho bãi gần nhất có đủ nguyên liệu",
@@ -359,7 +352,6 @@ export const VN = {
     WholesaleCenter: "Trung tâm bán sỉ",
     OrderFrom: "Đơn đặt hàng từ %{name}",
     ExpireIn: "Hết hạn trong",
-    ProfitMargin: "Tỉ lệ lợi nhuận",
     NotMakingProfitWarning: "💡 Sản xuất không có lãi, đề nghị ngưng vận hành",
     TurnOnAllProductions: "Bật sản xuất",
     TurnOnAllProductionsDesc:
@@ -377,7 +369,6 @@ export const VN = {
     NextOrderIn: "Đơn đặt hàng tiếp theo trong",
     FillOrder: "Hoàn thành đơn hàng",
     RejectOrder: "Bỏ qua",
-    YouHave: "Bạn có %{amount}",
     WholesaleCenterLocked:
         "Bạn cần tối thiểu %{required} loại tài nguyên khác nhau để mở Trung tâm Bán sỉ. Bạn mới có %{current} loại tài nguyên",
     OrderFilled: "Đơn hàng của %{from} đã hoàn thành!",
@@ -400,7 +391,6 @@ export const VN = {
         "Công trình sẽ ưu tiên vận chuyển từ nguồn cung cũ thay vì liên tục tìm nguồn cung tốt nhất mỗi chu kỳ (Chính sách MIỄN PHÍ)",
     RefineryMorePlastic: "Thêm nhựa thêm vấn đề",
     RefineryMorePlasticDesc: "Xưởng lọc dầu sản xuất bớt đi 50% xăng và thêm 50% nhựa",
-    FreeOilTransport: "Vận chuyển dầu thô miễn phí",
     FreeOilTransportDesc: "Vận chuyển dầu thô không cần nhiên liệu nhưng mỏ dầu sử dụng x2 điện năng",
     SuperSteelMill: "Thiết Tâm",
     SuperSteelMillDesc: "Nhà máy thép sử dụng bớt đi 50% than nhưng tăng thêm 25% sắt và 25% điện năng",
@@ -448,7 +438,6 @@ export const VN = {
     CoalPlantFuelDesc: "Nhà máy điện than sử dung thêm than và sản xuất xăng",
     Welcome: "Chào mừng bạn",
     SeeTutorialAgain: "Thực hiện lại hướng dẫn cách chơi",
-    ReadSteamGuide: "Hướng dẫn chính thức trên Steam",
     HelpTranslateTheGame: "Hãy giúp dịch thuật trò chơi🌐",
     SkipTutorial: "Bỏ qua hướng dẫn cách chơi",
     NextTutorial: "Tiếp theo",
@@ -458,8 +447,6 @@ export const VN = {
         "Tất cả các công trình đều cần điện năng⚡, bạn hiện có <em>Điện gió</em> sản sinh ra điện. Bạn có thể tìm thấy sản lượng cung cấp điện hiện tại ở góc trên bên trái.<br><br>Có thể bạn đã để ý thấy Điện gió chỉ sản xuất <em>80%</em> thời gian. Bạn có thể xem xét xây dựng các công trình phát điện khác để có thể phát điện ổn định.",
     Tutorial3:
         "Bạn có rất nhiều <em>vỉa tài nguyên</em> trên bản đồ. Để khai thác tài nguyên, bạn cần xây mỏ⛏️ <em>lên trên</em> các ô tài nguyên đó.<br><br>Ví dụ, bạn có thể xây <em>giếng dầu🛢️</em> để khai thác <em>dầu thô</em> từ một vỉa dầu.<br></br>Vỉa tài nguyên là vô hạn - không cần lo cạn kiệt dự trữ. Ngoài xây mỏ, các loại công trình khác có thể xây được trên bất kỳ ô trống nào.",
-    Tutorial4:
-        "Vận chuyển tài nguyên cần nhiên liệu. Trên bản đồ này, bạn có thể sử dụng <em>xăng⛽</em> làm nhiên liệu. Bạn có một <em>nhà máy lọc dầu</em> nhập dầu thô về và sản xuất ra xăng.<br><br>Những <em>dấu chấm</em> nhỏ đang di chuyển đại biểu cho sự chuyển động trong thời gian thực của tài nguyên. Khuyến nghị bạn hãy tối ưu hóa vị trí của các công trình để giảm thiểu quãng đường cần vận chuyển.<br><br><em>Nâng cấp</em> công trình sẽ làm tăng sản lượng, nhưng đồng thời cũng tăng nhu cầu điện năng và nguyên liệu.<br><br>Bạn có thể thay đổi loại nhiên liệu trong Trung tâm Vận tải🚦. Xin ghi nhớ rằng bạn cần phải đảm bảo nguồn cung ứng nhiên liệu luôn vượt lượng tiêu thụ, nếu không sản xuất sẽ bị đình trệ khi bạn hết nhiên liệu dự trữ.",
     Tutorial5:
         "Để kiếm tiền, bạn cần xuất khẩu tài nguyên thông qua Trung tâm Thương mại. Để làm việc này, chỉ cần bật <em>Tự động bán</em> cho tài nguyên mà bạn muốn bán.<br></br>Bạn cũng có thể mua tài nguyên từ Trung tâm Thương mại. Xin lưu ý, <em>nếu bạn mua một loại tài nguyên, bạn sẽ nâng giá thành</em> và nếu bạn bán tài nguyên, bạn sẽ hạ giá thành.<br><br>Thị trường liên tục <em>biến thiên</em> và giá cả📈 thường xuyên thay đổi.",
     Tutorial6:
@@ -472,7 +459,6 @@ export const VN = {
     Send: "Gửi",
     Import: "Nhập",
     Export: "Xuất",
-    SteamCloudBackup: "Bảo lưu lên Đám mây của Steam",
     LastBackupAt: "Bảo lưu lần cuối lúc",
     RestoreFromBackup: "Sử dụng bản bảo lưu gần nhất",
     RestoreFromBackupFail: "Khôi phục dữ liệu từ Đám mây của Steam không thành công: bạn có chắc đã lưu rồi không?",
@@ -480,7 +466,6 @@ export const VN = {
     RestoreFromBackupDesc:
         "Bạn hiếm khi cần khôi phục dữ liệu từ đám mây, trừ khi bản lưu trên máy của bạn bị mất. Bản lưu trên đám mây sẽ cũ hơn một chút so với trên máy.",
     ChatMessages: "Tin nhắn",
-    ChatPlaceholder: "Gõ tin của bạn: tối đa 100 ký tự",
     ChangeName: "Thay đổi",
     SaveName: "Lưu",
     NameValidationRule: "Tên của bạn chỉ được chứa chữ cái và số, từ 5 đến 15 ký tự",
@@ -489,7 +474,6 @@ export const VN = {
     NameSaved: "Đổi tên thành công",
     NoMessages: "Không có tin nhắn mới",
     Leaderboard: "Bảng xếp hạng",
-    LeaderboardDesc: "Bảng xếp hạng thống kê tất cả tiền Thụy Sĩ bạn đã kiếm được",
     Name: "Tên",
     Rank: "Hạng",
     Tips1: "Đánh giá cổ phiếu có 5 cấp: Mua, Vượt bậc, Giữ, Yếu and Bán",
@@ -547,7 +531,6 @@ export const VN = {
     HideDiscordBanner: "Giấu thẻ Discord",
     HideDiscordBannerDesc: "Che thẻ Discord trong trụ sở",
     HideChat: "Giấu khung chat",
-    HideChatDesc: "Che khung chat trên thanh công cụ ở phía dưới màn hình",
     SortedByDeficit: "Sắp theo thiếu hụt",
     PurchaseFailed: "Giao dịch không thành công",
     PurchaseSteamContinue: "Xin hãy thực hiện giao dịch trên Steam",
@@ -604,14 +587,10 @@ export const VN = {
     MapSquareGrid: "Hình vuông",
     MapHexGrid: "Lục giác",
     Stockholm: "Stockholm",
-    StockholmBonus:
-        "<li>Điện gió cấp 4 miễn phí x1</li><li>Giếng dầu thô cấp 4 miễn phí x1</li><li>Nhà máy lọc dầu cấp 2 miễn phí x1</li><li>Nhà máy giấy đã được mở</li><li>Xưởng đốn gỗ sản lượng x2</li>",
     Rotterdam: "Rotterdam",
     RotterdamBonus:
         "<li>Nhà máy thép sản lượng x2</li><li>Nhà máy thép không gỉ sản lượng x2</li><li>Vận chuyển sắt miễn phí</li><li>Vận chuyển thép giảm 50% nhiên liệu</li><li>Số lượng Tự động Bán x2</li><li>Không có hiệu suất trên ô</li>",
     Oslo: "Oslo",
-    OsloBonus:
-        "<li>Nhà máy lọc dầu sản lượng x2</li><li>Nhà máy xử lý khí đốt sản lượng x2</li><li>Nhà máy điện dầu sản lượng x2</li><li>Nhà máy thép sử dụng khí đốt thay vì Than</li><li>Vận chuyển dầu thô miễn phí</li>",
     StPetersburg: "St. Petersburg",
     StPetersburgBonus:
         "<li>Mỏ Uranium sản lượng x2</li><li>Nhà máy làm giàu Uranium sản lượng x2</li><li>Vận chuyển Uranium giảm 50% nhiên liệu</li><li>Vận chuyển súng miễn phí</li><li>Xưởng tên lửa sử dụng Uranium giàu thay vì Titan và Uranium</li>",
@@ -625,8 +604,6 @@ export const VN = {
     RomeBonus:
         "<li>Đấu trường đã được mở</li><li>Đấu trường hiệu suất x2</li><li>Khởi đầu với Trung tâm Chính sách cấp 5</li><li>Nhà hát lớn sản lượng x2</li><li>Phòng thu thanh cũng sản xuất điểm văn hóa</li>",
     Detroit: "Detroit",
-    DetroitBonus:
-        "<li>Xưởng động cơ đã được mở</li><li>Xưởng động cơ hiệu suất x2</li><li>Xưởng ô tô sản lượng x2</li><li>Xưởng ô tô không cần pin</li><li>Xưởng tàu hỏa sản lượng x2</li>",
     Boston: "Boston",
     BostonBonus:
         "<li>Khởi đầu với Viện nghiên cứu cấp 5</li><li>Đại học Bách khoa đã được mở</li><li>Đại học Bách khoa sản lượng x2</li><li>Trường học sản lượng x2</li><li>Đại học Tổng hợp hiệu suất x2</li>",
@@ -643,10 +620,8 @@ export const VN = {
     AddTradeSuccess: "Giao dịch của bạn đã hoàn thành",
     LoadTradeFail: "Không tải được dữ liệu giao dịch, xin vui lòng thử lại sau",
     ClaimTradeFail: "Kết toán giao dịch không thành công, xin vui lòng thử lại sau",
-    ClaimTradeSuccess: "Giao dịch của bạn đã kết toán thành công: $%{cash} đã được thêm vào tài khoản",
     CancelTradeSuccess: "Giao dịch của bạn đã hủy thành công",
     CancelTradeFail: "Không hủy được giao dịch của bạn, xin vui lòng thử lại sau",
-    AcceptTradeSuccess: "Giao dịch này đã được bạn chấp nhận: %{resource} đã được chuyển về Trung tâm Thương mại",
     AcceptTradeFail: "Chấp nhận giao dịch không thành công, xin vui lòng thử lại sau",
     PlayerTradeBanner: "Giao dịch tài nguyên với người chơi khác",
     PlayerTradeResource: "Tài nguyên",
@@ -671,11 +646,8 @@ export const VN = {
     CancelActiveTradeFirst: "Bạn có giao dịch đang thực hiện với người chơi khác, xin vui lòng kết toán hoặc hủy chúng",
     FailedToCheckActiveTrade:
         "Kiểm tra giao dịch đang thực hiện với người chơi khác không thành công, xin vui lòng thử lại sau",
-    PlayerTradePriceNotValid: "Giá sản phẩm phải nằm trong khoảng %{min} và %{max} (2x Giá thị trường gần đây nhất)",
     PlayerTradeQuotaExceed: "Giao dịch này vượt quá hạn mức của bạn",
-    PlayerTradeAmountNotValid: "Số lượng giao dịch phải lớn hơn 0",
     PlayerTradeValidRange: "Khoảng: %{min} ~ %{max}",
-    PlayerTradeFilterPrice: "Dưới giá thị trường",
     PlayerTradeFilterCanAfford: "Có thể thanh toán",
     PlayerTradeQuota: "Hạn mức còn lại: %{value}",
     PlayerTradeUnavailable:
@@ -963,6 +935,7 @@ export const VN = {
         "<li>Unique building: music producer</li><li>Logging camps have 2x output</li><li>Paper mills are unlocked</li><li>Circuit foundries have 2x productivity</li><li>Science Literature policy is free</li>",
     OsloBonusV2:
         "<li>Oil refineries are unlocked</li><li>Oil refineries have 2x capacity</li><li>Electric oil transport policy is free</li><li>Gas processing plants have 2x capacity</li><li>Free level 4 wind turbine x1</li><li>Free level 4 oil well x1</li><li>Free level 2 oil refinery x1</li><li>Free level 2 natural gas pump x1</li>",
+    FreeOilTransport: "Vận chuyển dầu thô miễn phí",
     Tutorial4P1:
         "Resource transportation costs fuel. There are several fuel types and now you are using <em>petrol⛽</em> as fuel. You have an <em>oil refinery</em> that transports oil from the oil well and produces petrol.<br><br>The tiny moving <em>dots</em> represent the real-time movement of resources. You should optimize your building locations to minimize the distance of travel.<br><br><em>Upgrading</em> your buildings will increase their output, but will also increase their power usage and input required.",
     Tutorial4P2:
