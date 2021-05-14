@@ -2,7 +2,7 @@ export const PT_BR = {
     Translator: "Tradutor",
     TranslatorName: "Altruista",
     Language: "Língua",
-    ThisLanguage: "Português",
+    ThisLanguage: "Português (BR)",
     OK: "OK",
     SteelMill: "Fábrica de aço",
     StainlessSteelPlant: "Fábrica de aço inoxidável",
