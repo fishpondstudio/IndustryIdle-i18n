@@ -905,9 +905,9 @@ export const ZH_CN = {
     PolicyBlueprintDesc:
         "建筑的建造不会自动开始 - 必须手动开始 (免费政策)",
     HighlightUnderConstruction: "未建造完成的...",
-    HighlightUnderLevel10: "...低于 10 级的建筑",
-    HighlightUnderLevel20: "...低于 20 级的建筑",
-    HighlightUnderLevel30: "...低于 30 级的建筑",
+    HighlightUnderLevel10: "低于10级的...",
+    HighlightUnderLevel20: "低于20级的...",
+    HighlightUnderLevel30: "低于30级的...",
     Logout: "你已成功退出账号",
     LogoutDesc: "你在另一个设备上登录了，该设备上的账号已退出",
     ConstructionStatusQueueingV2: "队列中",
