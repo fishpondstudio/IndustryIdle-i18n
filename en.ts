@@ -950,4 +950,14 @@ export const EN = {
         "Selling a building will refund you %{percent} of your investment and %{percent} of the resources will be transported to Trade Center",
     BuilderMoveSpeed: "Builder Move Speed",
     BuilderMoveSpeedDesc: "The speed that builders move to construct buildings",
+    ////////// To remove
+    SellBuildingDesc:
+        "Selling a building will refund you 50% of your investment and 50% of the resources will be transported to Trade Center",
+    Tutorial4:
+        "Resource transportation costs fuel. On this map, you can use <em>petrol⛽</em> as fuel. You have an <em>oil refinery</em> that transports oil from the oil well and produces petrol.<br><br>The tiny moving <em>dots</em> represent the real-time movement of resources. You should optimize your building locations to minimize the distance of travel.<br><br><em>Upgrading</em> your buildings will increase their output, but will also increase their power usage and input required.<br><br>You can change your fuel type in the transportation center🚦. Remember to make sure your fuel production is above consumption otherwise your production will halt when you run out of fuel.",
+    StockholmBonus:
+        "<li>Free level 4 wind turbine x1</li><li>Free level 4 oil well x1</li><li>Free level 2 oil refinery x1</li><li>Paper mills are unlocked</li><li>Logging camps have 2x output</li>",
+    OsloBonus:
+        "<li>Oil refineries have 2x capacity</li><li>Gas processing plants have 2x capacity</li><li>Petrol power plants have 2x capacity</li><li>Steel mills use natural gas instead of coal</li><li>Free oil transportation</li>",
+    ////////////////////
 };
