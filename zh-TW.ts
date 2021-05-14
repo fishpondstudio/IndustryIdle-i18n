@@ -910,4 +910,40 @@ export const ZH_TW = {
     ConstructionStatus: "Construction Status",
     ConstructionStart: "Start",
     CostFree: "Free",
+    SteamAutoCloudBackupFailed: "Steam Cloud Auto Backup Failed: %{error}",
+    PlaceBlueprint: "Place a building blueprint is free",
+    PlayerTradePriceNotValidV2: "Trade price must be between %{min} and %{max}",
+    PlayerTradeNowAllowed: "Player trades are not available within 24 hours after you've restored/imported a save",
+    MarketNews: "Market News",
+    MarketNewsApplyToYou: "Only you",
+    MarketNewsApplyToGlobal: "Global",
+    MarketNewsHighlightAffected: "🔍 Highlight",
+    MarketNewsFilterInput: "All %{res} input ",
+    MarketNewsFilterOutput: "All %{res} output ",
+    MarketNewsFilterBoth: "All %{res} input and output ",
+    MarketNewsIncrease: "increased by %{percent}",
+    MarketNewsDecrease: "decreased by %{percent}",
+    MarketNewsBuilding: "This building is affected by %{num} news",
+    StockholmBonusV2:
+        "<li>Unique building: music producer</li><li>Logging camps have 2x output</li><li>Paper mills are unlocked</li><li>Circuit foundries have 2x productivity</li><li>Science Literature policy is free</li>",
+    OsloBonusV2:
+        "<li>Oil refineries are unlocked</li><li>Oil refineries have 2x capacity</li><li>Electric oil transport policy is free</li><li>Gas processing plants have 2x capacity</li><li>Free level 4 wind turbine x1</li><li>Free level 4 oil well x1</li><li>Free level 2 oil refinery x1</li><li>Free level 2 natural gas pump x1</li>",
+    Tutorial4P1:
+        "Resource transportation costs fuel. There are several fuel types and now you are using <em>petrol⛽</em> as fuel. You have an <em>oil refinery</em> that transports oil from the oil well and produces petrol.<br><br>The tiny moving <em>dots</em> represent the real-time movement of resources. You should optimize your building locations to minimize the distance of travel.<br><br><em>Upgrading</em> your buildings will increase their output, but will also increase their power usage and input required.",
+    Tutorial4P2:
+        "You can change your fuel type in the <em>logistics department🚦</em> - on this map, you can also use <em>natural gas</em> as fuel.<br><br>The logistics department also shows your transportation routes that burns most fuel - you'll want to keep an eye on it.<br><br>Remember to <em>make sure your fuel production is above consumption</em> otherwise your production will halt when you run out of fuel.<br><br>If that happens, don't worry, you can buy some emergency fuel from the trade center or from other players",
+    Tutorial5P2:
+        "<em>The statistics bureau📊</em> provides a good overview of your production. You can see a detailed breakdown of your resource input and output.<br><br>There are also lots of useful charts📈 - you'll want to refer to them when you balance your production.<br></br>Your <em>cash💰, power surplus⚡ and fuel surplus⛽</em> numbers are also shown on the top left corner - if any of them turns red, you should investigate what's going on.",
+    MusicProducer: "Music Producer",
+    PlasticFiber: "Plastic Fiber",
+    PlasticFiberDesc: "Fiber factories use 50% more plastics but 50% less glass",
+    NewsEffectx2: "Press Conference",
+    NewsEffectx2Desc: "The effect of market news doubles, both positive and negative",
+    SellRefundPercentage: "Sell/Downgrade Refund",
+    SellRefundPercentageDesc:
+        "If you sell or downgrade a building, this is the percentage of cash and resources you are refunded",
+    SellBuildingDescV2:
+        "Selling a building will refund you %{percent} of your investment and %{percent} of the resources will be transported to Trade Center",
+    BuilderMoveSpeed: "Builder Move Speed",
+    BuilderMoveSpeedDesc: "The speed that builders move to construct buildings",
 };

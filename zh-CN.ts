@@ -884,26 +884,22 @@ export const ZH_CN = {
         "<li>发动机工厂已预先解锁</li><li>发动机工厂的产出量是原来的2倍</li><li>汽车工厂的生产能力是原来的2倍</li><li>汽车工厂使用天然气替代汽油</li><li>汽车运输免费</li><li>尼古拉.特斯拉政策免政策点</li><li>火车工厂的生产能力是原来的2倍</li>",
     AutoScroll: "自动滚动",
     SaveAndExit: "保存并退出游戏",
-    SaveAndExitDesc:
-        "保存并退出游戏。此功能只在steam版本游戏内可用，且与直接点击窗口栏的关闭按钮作用相同。",
+    SaveAndExitDesc: "保存并退出游戏。此功能只在steam版本游戏内可用，且与直接点击窗口栏的关闭按钮作用相同。",
     AutoSellResourceWarningShortLabel: "💡自动销售",
-    AutoSellResourceWarningDesc:
-        "你正在自动销售该资源, 保存在贸易中心的该资源不能用于此处。",
+    AutoSellResourceWarningDesc: "你正在自动销售该资源, 保存在贸易中心的该资源不能用于此处。",
     PlayerTradeLocalPrice: "本地价格: %{price}",
     ConstructionStatusQueueing: "%{building} 在建造队列中",
     ConstructionStatusBuilding: "%{building} 正在建造中",
     ConstructionCancel: "取消建造",
     ConstructionStatusPaused: "%{building}建造暂停中",
     ChatForceScroll: "强制滚动",
-    ChatForceScrollDesc:
-        "如果开启了强制滚动，聊天窗口每收到一条新消息都会滚动。否则其只在处于最近消息时才会滚动。",
+    ChatForceScrollDesc: "如果开启了强制滚动，聊天窗口每收到一条新消息都会滚动。否则其只在处于最近消息时才会滚动。",
     ResourceExplorer2: "资源勘探者 2.0",
     ResourceExplorer2Desc: "资源勘探者有2倍产出，但使用2倍电力",
     ConstructionPause: "暂停",
     ConstructionResume: "恢复",
     PolicyBlueprint: "蓝图模式",
-    PolicyBlueprintDesc:
-        "建筑的建造不会自动开始 - 必须手动开始 (免费政策)",
+    PolicyBlueprintDesc: "建筑的建造不会自动开始 - 必须手动开始 (免费政策)",
     HighlightUnderConstruction: "未建造完成的...",
     HighlightUnderLevel10: "低于10级的...",
     HighlightUnderLevel20: "低于20级的...",
@@ -917,4 +913,39 @@ export const ZH_CN = {
     ConstructionStatus: "建造状态",
     ConstructionStart: "开始建造",
     CostFree: "免费",
+    PlaceBlueprint: "Place a building blueprint is free",
+    PlayerTradePriceNotValidV2: "Trade price must be between %{min} and %{max}",
+    PlayerTradeNowAllowed: "Player trades are not available within 24 hours after you've restored/imported a save",
+    MarketNews: "Market News",
+    MarketNewsApplyToYou: "Only you",
+    MarketNewsApplyToGlobal: "Global",
+    MarketNewsHighlightAffected: "🔍 Highlight",
+    MarketNewsFilterInput: "All %{res} input ",
+    MarketNewsFilterOutput: "All %{res} output ",
+    MarketNewsFilterBoth: "All %{res} input and output ",
+    MarketNewsIncrease: "increased by %{percent}",
+    MarketNewsDecrease: "decreased by %{percent}",
+    MarketNewsBuilding: "This building is affected by %{num} news",
+    StockholmBonusV2:
+        "<li>Unique building: music producer</li><li>Logging camps have 2x output</li><li>Paper mills are unlocked</li><li>Circuit foundries have 2x productivity</li><li>Science Literature policy is free</li>",
+    OsloBonusV2:
+        "<li>Oil refineries are unlocked</li><li>Oil refineries have 2x capacity</li><li>Electric oil transport policy is free</li><li>Gas processing plants have 2x capacity</li><li>Free level 4 wind turbine x1</li><li>Free level 4 oil well x1</li><li>Free level 2 oil refinery x1</li><li>Free level 2 natural gas pump x1</li>",
+    Tutorial4P1:
+        "Resource transportation costs fuel. There are several fuel types and now you are using <em>petrol⛽</em> as fuel. You have an <em>oil refinery</em> that transports oil from the oil well and produces petrol.<br><br>The tiny moving <em>dots</em> represent the real-time movement of resources. You should optimize your building locations to minimize the distance of travel.<br><br><em>Upgrading</em> your buildings will increase their output, but will also increase their power usage and input required.",
+    Tutorial4P2:
+        "You can change your fuel type in the <em>logistics department🚦</em> - on this map, you can also use <em>natural gas</em> as fuel.<br><br>The logistics department also shows your transportation routes that burns most fuel - you'll want to keep an eye on it.<br><br>Remember to <em>make sure your fuel production is above consumption</em> otherwise your production will halt when you run out of fuel.<br><br>If that happens, don't worry, you can buy some emergency fuel from the trade center or from other players",
+    Tutorial5P2:
+        "<em>The statistics bureau📊</em> provides a good overview of your production. You can see a detailed breakdown of your resource input and output.<br><br>There are also lots of useful charts📈 - you'll want to refer to them when you balance your production.<br></br>Your <em>cash💰, power surplus⚡ and fuel surplus⛽</em> numbers are also shown on the top left corner - if any of them turns red, you should investigate what's going on.",
+    MusicProducer: "Music Producer",
+    PlasticFiber: "Plastic Fiber",
+    PlasticFiberDesc: "Fiber factories use 50% more plastics but 50% less glass",
+    NewsEffectx2: "Press Conference",
+    NewsEffectx2Desc: "The effect of market news doubles, both positive and negative",
+    SellRefundPercentage: "Sell/Downgrade Refund",
+    SellRefundPercentageDesc:
+        "If you sell or downgrade a building, this is the percentage of cash and resources you are refunded",
+    SellBuildingDescV2:
+        "Selling a building will refund you %{percent} of your investment and %{percent} of the resources will be transported to Trade Center",
+    BuilderMoveSpeed: "Builder Move Speed",
+    BuilderMoveSpeedDesc: "The speed that builders move to construct buildings",
 };
