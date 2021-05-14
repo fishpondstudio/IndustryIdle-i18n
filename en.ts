@@ -285,8 +285,6 @@ export const EN = {
     AllowZoomDesc: "Turn on zoom support. Use your mouse wheel to zoom. Current zoom is %{zoom}",
     AllowZoomMobileDesc: "Turn on zoom support. You can pinch to zoom. Current zoom is %{zoom}",
     Settings: "Settings",
-    SellBuildingDesc:
-        "Selling a building will refund you 50% of your investment and 50% of the resources will be transported to Trade Center",
     SellBuildingFullRefundDesc:
         "Building Recycle policy is active, selling a building will give you full refund until in %{time}",
     Sound: "Sound Effect",
@@ -390,7 +388,6 @@ export const EN = {
         "Buildings will prefer to transport from previous source, instead of searching for the best source every cycle (FREE POLICY)",
     RefineryMorePlastic: "Mo Plastics Mo Problems",
     RefineryMorePlasticDesc: "Oil Refineries produce 50% less petrol and 50% more plastic",
-    FreeOilTransport: "Free Oil Transport",
     FreeOilTransportDesc: "Oil transport doesn't cost fuel but oil wells use 2x power",
     SuperSteelMill: "Hearts of Iron",
     SuperSteelMillDesc: "Steel mills use 50% less coal and 25% more iron and 25% more power",
@@ -449,8 +446,6 @@ export const EN = {
         "All buildings need power⚡, you have a <em>wind turbine</em> that generates power. You can see your current power supply on the left side of the top bar.<br><br>You might have noticed that wind turbines only work <em>80%</em> of the time. You can consider building other types of power plants that generate stable power.",
     Tutorial3:
         "You have a lot of <em>resource deposits</em> on the map. To extract resources, you have to build mines⛏️ <em>on top of</em> the corresponding deposit.<br><br>For example, you have an <em>oil well🛢️</em> that extracts <em>oil</em> from an oil deposit.<br></br>Resource deposits are unlimited - no need to worry about them running out. Apart from mines, other buildings can be built on any empty tile.",
-    Tutorial4:
-        "Resource transportation costs fuel. On this map, you can use <em>petrol⛽</em> as fuel. You have an <em>oil refinery</em> that transports oil from the oil well and produces petrol.<br><br>The tiny moving <em>dots</em> represent the real-time movement of resources. You should optimize your building locations to minimize the distance of travel.<br><br><em>Upgrading</em> your buildings will increase their output, but will also increase their power usage and input required.<br><br>You can change your fuel type in the transportation center🚦. Remember to make sure your fuel production is above consumption otherwise your production will halt when you run out of fuel.",
     Tutorial5:
         "To make money, you need to export your resources via the trade center. To do this, simply turn on <em>auto sell</em> for that resource.<br></br>You can also buy resources from the trade center as well. Remember <em>if you buy a resource, you will drive up the price</em> and if you sell a resource, you will drive down the price.<br><br>The market is <em>volatile</em> and the price📈 changes regularly.",
     Tutorial6:
@@ -590,14 +585,10 @@ export const EN = {
     MapSquareGrid: "Square",
     MapHexGrid: "Hex",
     Stockholm: "Stockholm",
-    StockholmBonus:
-        "<li>Free level 4 wind turbine x1</li><li>Free level 4 oil well x1</li><li>Free level 2 oil refinery x1</li><li>Paper mills are unlocked</li><li>Logging camps have 2x output</li>",
     Rotterdam: "Rotterdam",
     RotterdamBonus:
         "<li>Steel Mills have 2x capacity</li><li>Stainless Steel Plants have 2x capacity</li><li>Free iron transportation</li><li>Steel transportation costs 50% less fuel</li><li>Start with 2x auto sell capacity</li><li>No tile modifiers</li>",
     Oslo: "Oslo",
-    OsloBonus:
-        "<li>Oil refineries have 2x capacity</li><li>Gas processing plants have 2x capacity</li><li>Petrol power plants have 2x capacity</li><li>Steel mills use natural gas instead of coal</li><li>Free oil transportation</li>",
     StPetersburg: "St. Petersburg",
     StPetersburgBonus:
         "<li>Uranium mines have 2x output</li><li>Uranium enrichment plants have 2x capacity</li><li>Uranium transportation costs 50% less fuel</li><li>Free gun transportation</li><li>Missile factories use enriched uranium instead of titanium and uranium</li>",
@@ -936,4 +927,27 @@ export const EN = {
     MarketNewsIncrease: "increased by %{percent}",
     MarketNewsDecrease: "decreased by %{percent}",
     MarketNewsBuilding: "This building is affected by %{num} news",
+    StockholmBonusV2:
+        "<li>Unique building: music producer</li><li>Logging camps have 2x output</li><li>Paper mills are unlocked</li><li>Circuit foundries have 2x productivity</li><li>Science Literature policy is free</li>",
+    OsloBonusV2:
+        "<li>Oil refineries are unlocked</li><li>Oil refineries have 2x capacity</li><li>Electric oil transport policy is free</li><li>Gas processing plants have 2x capacity</li><li>Free level 4 wind turbine x1</li><li>Free level 4 oil well x1</li><li>Free level 2 oil refinery x1</li><li>Free level 2 natural gas pump x1</li>",
+    FreeOilTransport: "Electric Oil Transport",
+    Tutorial4P1:
+        "Resource transportation costs fuel. There are several fuel types and now you are using <em>petrol⛽</em> as fuel. You have an <em>oil refinery</em> that transports oil from the oil well and produces petrol.<br><br>The tiny moving <em>dots</em> represent the real-time movement of resources. You should optimize your building locations to minimize the distance of travel.<br><br><em>Upgrading</em> your buildings will increase their output, but will also increase their power usage and input required.",
+    Tutorial4P2:
+        "You can change your fuel type in the <em>logistics department🚦</em> - on this map, you can also use <em>natural gas</em> as fuel.<br><br>The logistics department also shows your transportation routes that burns most fuel - you'll want to keep an eye on it.<br><br>Remember to <em>make sure your fuel production is above consumption</em> otherwise your production will halt when you run out of fuel.<br><br>If that happens, don't worry, you can buy some emergency fuel from the trade center or from other players",
+    Tutorial5P2:
+        "<em>The statistics bureau📊</em> provides a good overview of your production. You can see a detailed breakdown of your resource input and output.<br><br>There are also lots of useful charts📈 - you'll want to refer to them when you balance your production.<br></br>Your <em>cash💰, power surplus⚡ and fuel surplus⛽</em> numbers are also shown on the top left corner - if any of them turns red, you should investigate what's going on.",
+    MusicProducer: "Music Producer",
+    PlasticFiber: "Plastic Fiber",
+    PlasticFiberDesc: "Fiber factories use 50% more plastics but 50% less glass",
+    NewsEffectx2: "Press Conference",
+    NewsEffectx2Desc: "The effect of market news doubles, both positive and negative",
+    SellRefundPercentage: "Sell/Downgrade Refund",
+    SellRefundPercentageDesc:
+        "If you sell or downgrade a building, this is the percentage of cash and resources you are refunded",
+    SellBuildingDescV2:
+        "Selling a building will refund you %{percent} of your investment and %{percent} of the resources will be transported to Trade Center",
+    BuilderMoveSpeed: "Builder Move Speed",
+    BuilderMoveSpeedDesc: "The speed that builders move to construct buildings",
 };
