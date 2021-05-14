@@ -888,7 +888,7 @@ export const ZH_CN = {
         "保存并退出游戏。此功能只在steam版本游戏内可用，且与直接点击窗口栏的关闭按钮作用相同。",
     AutoSellResourceWarningShortLabel: "💡自动销售",
     AutoSellResourceWarningDesc:
-        "你正在自动销售该资源, 保存在交易中心的该资源不能用于此处。",
+        "你正在自动销售该资源, 保存在贸易中心的该资源不能用于此处。",
     PlayerTradeLocalPrice: "本地价格: %{price}",
     ConstructionStatusQueueing: "%{building} 在建造队列中",
     ConstructionStatusBuilding: "%{building} 正在建造中",
