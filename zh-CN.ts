@@ -896,7 +896,7 @@ export const ZH_CN = {
     ConstructionStatusPaused: "%{building}建造暂停中",
     ChatForceScroll: "强制滚动",
     ChatForceScrollDesc:
-        "如果强制滚动开启了,聊天窗口在每收到一个新消息时都会滚动. 否则其只会在你处于聊天窗口最近消息时才会滚动。",
+        "如果开启了强制滚动，聊天窗口每收到一条新消息都会滚动。否则其只在处于最近消息时才会滚动。",
     ResourceExplorer2: "资源勘探者 2.0",
     ResourceExplorer2Desc: "资源勘探者拥有 2x 产出，但使用 2x 电力",
     ConstructionPause: "暂停",
