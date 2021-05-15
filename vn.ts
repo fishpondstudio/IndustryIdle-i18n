@@ -154,7 +154,7 @@ export const VN = {
     ResourceChange: "Thay đổi",
     ResourceInOutDesc: "💡 Bấm vào con số Ra/Vào ở trên để đánh dấu các công trình sản xuất hoặc tiêu thụ",
     ResourceChart: "Biểu đồ tài nguyên",
-    MarketUpdateIn: "Sàn giao dịch sẽ làm mới trong %{time}",
+    MarketUpdateIn: "Sàn giao dịch sẽ cập nhật trong %{time}",
     Income: "Thu nhập",
     Semiconductor: "Bóng Bán dẫn",
     SemiconductorFactory: "Xưởng bán dẫn",
@@ -268,7 +268,7 @@ export const VN = {
     SatelliteFactory: "Xưởng vệ tinh",
     JetEngineFactory: "Xưởng động cơ phản lực",
     StockRatingDesc:
-        "Chỉ số đánh giá cổ phiếu của các nhà phân tích phố Wall, chỉ số này sẽ ảnh hưởng đến giá trị vốn hóa và được tái lập cùng với chu kỳ thị trường",
+        "Chỉ số đánh giá cổ phiếu của các nhà phân tích phố Wall, chỉ số này sẽ ảnh hưởng đến giá trị vốn hóa và được cập nhật cùng chu kỳ với thị trường",
     InterestRate: "Lãi suất qua đêm",
     InterestRateDesc: "Lãi suất bạn nhận được dựa trên giá trị vốn hóa trong khi bạn nghỉ chơi",
     OfflineEarning: "Tiền lãi nghỉ chơi",
@@ -337,7 +337,7 @@ export const VN = {
     ScreenFactory: "Xưởng màn hình",
     Screen: "Màn hình",
     JoinDiscord:
-        "Mời gia nhâp máy chủ Discord của chúng tôi để tham khảo thông tin mới nhất, hướng dẫn cũng như trao đổi",
+        "Mời gia nhâp máy chủ Discord của chúng tôi để tham khảo cập nhật mới nhất, hướng dẫn cũng như trao đổi",
     ClaimOfflineEarning: "Thu tiền lãi nghỉ chơi",
     OfflineTime: "Thời gian nghỉ chơi",
     Minutes: "%{time} phút",
@@ -638,7 +638,7 @@ export const VN = {
     RefundTradeSuccess: "Giao dịch này đã được hoàn lại: %{resource} đã được trả về Trung tâm Thương mại",
     RefundTradeFail: "Hoàn lại không thành công, xin vui lòng thử lại sau",
     ClaimTrade: "Kết toán",
-    RefreshTrade: "Làm mới",
+    RefreshTrade: "Cập nhật",
     PasteYourSave: "Xin vui lòng dán dữ liệu sao lưu",
     FailedToImportSave: "Đọc dữ liệu sao lưu không thành công",
     FailedToImportSaveDesc: "Bản lưu của bạn không tương thích hoặc đã bị hỏng: %{error}",
@@ -744,7 +744,7 @@ export const VN = {
     ResourceExplorerDescLong: "💡 Khai khuẩn tài nguyên không được hưởng hiệu ứng liền kề. Điện năng sử dụng tùy thuộc vào loại tài nguyên",
     ResourceExplorerSelectResource: "Khai khẩn",
     ProductionSettings: "Cơ cấu sản xuất",
-    PlayerTradeQuotaDesc: "💡 Hạn mức giao dịch người chơi chiếm %{percent} tổng giá trị vốn hóa của bạn, nó sẽ hoàn trả khi thị trường thay đổi",
+    PlayerTradeQuotaDesc: "💡 Hạn mức giao dịch người chơi chiếm %{percent} tổng giá trị vốn hóa của bạn, nó sẽ hoàn trả khi thị trường cập nhật",
     PlayerTradePartialFillTitle: "Chọn phần trăm làm đầy",
     PlayerTradeAmountNotValidV2: "Số lượng giao dịch tối thiểu là 1",
     PlayerTradeOptOut: "Bạn đã từ chối tham dự bảng xếp hạng, bạn không thể giao dịch với người chơi khác",
@@ -874,7 +874,7 @@ export const VN = {
     ElectricCar: "Nikola Tesla",
     ElectricCarDesc: "Xưởng ô tô sử dụng pin thay cho xăng và nhu cầu chỉ bằng 50%",
     HongKongBonusV2:
-        "<li>Thuật toán định giá đặc trưng - giá thành và đánh giá cổ phiếu đi theo phân phối đồng đều (biểu đồ hình chuông)</li><li>Thị trường thay đổi và hạn mức giao dịch được hoàn lại nhanh gấp đôi bình thường (mỗi giờ một lần)</li><li>Nghiên cứu có thể mở thông qua giao dịch tài nguyên</li><li>Công trình đặc trưng: Võ đường</li><li>Công trình đặc trưng: Thái Cực đường</li><li>Tăng 50% số lượng tối đa giao dịch với người chơi</li><li>Khởi đầu với thêm 1 danh mục Tự động Bán hàng</li><li>Chính sách đặc trưng: Xuất khẩu Quốc tế</li><li>Chính sách đặc trưng: Hòn ngọc Viễn Đông</li><li>Trung tâm Thương mại chỉ cần 4 tài nguyên là có thể mở khóa</li><li>Khởi đầu với 100M tiền mặt</li>",
+        "<li>Thuật toán định giá đặc trưng - giá thành và đánh giá cổ phiếu đi theo phân phối đồng đều (biểu đồ hình chuông)</li><li>Thị trường cập nhật và hạn mức giao dịch được hoàn lại nhanh gấp đôi bình thường (mỗi giờ một lần)</li><li>Nghiên cứu có thể mở thông qua giao dịch tài nguyên</li><li>Công trình đặc trưng: Võ đường</li><li>Công trình đặc trưng: Thái Cực đường</li><li>Tăng 50% số lượng tối đa giao dịch với người chơi</li><li>Khởi đầu với thêm 1 danh mục Tự động Bán hàng</li><li>Chính sách đặc trưng: Xuất khẩu Quốc tế</li><li>Chính sách đặc trưng: Hòn ngọc Viễn Đông</li><li>Trung tâm Thương mại chỉ cần 4 tài nguyên là có thể mở khóa</li><li>Khởi đầu với 100M tiền mặt</li>",
     TaiChi10xCultureDescV2:
         "Vận chuyển Võ sinh và Thái Cực quyền miễn phí. Xưởng phim sản lượng x2 nhưng tiêu thụ thêm 50% điện năng",
     SettingsFullScreen: "Toàn màn hình",
@@ -884,7 +884,7 @@ export const VN = {
     LeaderboardBySwissPerBuilding: "Tiền Thụy Sĩ hiện có trên mỗi công trình",
     LeaderboardTotalValuation: "Tổng giá trị vốn hóa",
     LeaderboardDescV2: "Theo dõi những người chơi hàng đầu",
-    LastUpdatedAt: "Làm mới lần cuối vào lúc",
+    LastUpdatedAt: "Cập nhật lần cuối vào lúc",
     DetroitBonusV3:
         "<li>Xưởng động cơ đã được mở khóa</li><li>Xưởng động cơ hiệu suất x2</li><li>Xưởng ô tô sản lượng x2</li><li>Xưởng ô tô sử dụng khí hóa lỏng thay cho xăng</li><li>Vận chuyển ô tô miễn phí</li><li>Chính sách Nikola Tesla miễn phí</li><li>Xưởng tàu hỏa sản lượng x2</li>",
     SaveAndExit: "Lưu lại và đóng trò chơi",
