@@ -970,4 +970,12 @@ export const ES = {
         "Selling a building will refund you %{percent} of your investment and %{percent} of the resources will be transported to Trade Center",
     BuilderMoveSpeed: "Builder Move Speed",
     BuilderMoveSpeedDesc: "The speed that builders move to construct buildings",
+    EBookInc: "eBook Inc",
+    ResourceBooster: "Resource Booster",
+    BuildWarningTitle: "Building Might Not Work",
+    BuildWarningTitleDesc: "%{reason}. Are you sure to build on this tile?",
+    BuildWarningBuildAnyway: "Build Anyway",
+    ResourceBoosterNotWorking: "⛔ Resource boosters only work next to deposit mines",
+    ResourceBoosterPercentage: "💡 This building gets %{percent} output boost from adjacent resource boosters",
+    ResourceBoosterBuildings: "Buildings Being Boosted",
 };

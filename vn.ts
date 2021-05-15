@@ -686,7 +686,8 @@ export const VN = {
     NewMessageMentions: "Bạn có tin nhắn mới: %{message}",
     HideChatMentions: "Giấu tin nhắn của bạn",
     HideChatMentionsDesc: "Giấu thông báo và không chơi âm thanh nhắc nhở khi bạn có tin nhắn,",
-    PendingConstructionCannotReload: "Bạn có công trình đang trong quá trình xây dựng, trò chơi không thể đọc lại dữ liệu",
+    PendingConstructionCannotReload:
+        "Bạn có công trình đang trong quá trình xây dựng, trò chơi không thể đọc lại dữ liệu",
     AcceptTradeFailRateLimit: "Bạn chỉ có thể chấp nhận một giao dịch trong mỗi %{time} giây",
     DowngradeBuilding: "Hạ cấp",
     CancelTradeConfirmDialogTitle: "Bạn muốn hủy giao dịch này?",
@@ -711,7 +712,8 @@ export const VN = {
     BookPublisherScience: "Ấn phẩm khoa học",
     BookPublisherScienceDesc: "Nhà xuất bản sản xuất điểm khoa học thay vì văn hóa",
     WarehouseOutwardFuelSave: "Giao hàng miễn phí",
-    WarehouseOutwardFuelSaveDesc: "Kho bãi cung cấp mức tiết kiệm nhiên liệu cho các tuyến xuất hàng như các tuyến nhập hàng",
+    WarehouseOutwardFuelSaveDesc:
+        "Kho bãi cung cấp mức tiết kiệm nhiên liệu cho các tuyến xuất hàng như các tuyến nhập hàng",
     ImportSaveVersionTooNew:
         "Bạn đang đọc bản lưu từ bản %{saveVersion} nhưng trò chơi của bạn đang ở bản %{gameVersion}. Xin vui lòng nâng cấp trò chơi trước",
     BatteryFuelEconomy: "Pin sạc",
@@ -722,7 +724,8 @@ export const VN = {
     Osaka: "Osaka",
     OsakaBonus:
         "<li>Tài nguyên có xu hướng gom lại với nhau</li><li>Kho bãi tăng thêm 50% tiết kiệm nhiên liệu</li><li>Công trình đặc thù: Nhà xuất bản truyện tranh</li><li>Công trình đặc thù: Xưởng làm phim hoạt hình</li><li>Xưởng bán dẫn sản lượng x2</li><li>Xưởng pin Li-ti i-ông sản lượng x2</li><li>Xưởng pin đã được mở khóa</li><li>Xưởng pin sản lượng x2</li><li>Nhiên liệu pin hiệu suất tăng 100%</li><li>Xưởng pin không cần nguyên liệu Than</li><li>Khởi đầu với 100K pin</li>",
-    HideChatDescV2: "Giấu các mẩu chat khỏi thanh công cụ phía dưới màn hình. Nếu chọn hiển thị tin chat, bạn đồng ý với ",
+    HideChatDescV2:
+        "Giấu các mẩu chat khỏi thanh công cụ phía dưới màn hình. Nếu chọn hiển thị tin chat, bạn đồng ý với ",
     HideChatDescV2ToS: "Điều khoản sử dụng dịch vụ của chúng tôi",
     IntegratedCircuitFab: "Xưởng vi mạch",
     MangaPublisher: "Nhà xuất bản truyện tranh",
@@ -741,16 +744,19 @@ export const VN = {
     PlayerTradeFilterPriceV2: "Tốt hơn giá thị trường",
     ResourceExplorer: "Khai khẩn tài nguyên",
     ResourceExplorerDesc: "Cho phép bạn khai thác tài nguyên từ ô trống trên bản đồ",
-    ResourceExplorerDescLong: "💡 Khai khuẩn tài nguyên không được hưởng hiệu ứng liền kề. Điện năng sử dụng tùy thuộc vào loại tài nguyên",
+    ResourceExplorerDescLong:
+        "💡 Khai khuẩn tài nguyên không được hưởng hiệu ứng liền kề. Điện năng sử dụng tùy thuộc vào loại tài nguyên",
     ResourceExplorerSelectResource: "Khai khẩn",
     ProductionSettings: "Cơ cấu sản xuất",
-    PlayerTradeQuotaDesc: "💡 Hạn mức giao dịch người chơi chiếm %{percent} tổng giá trị vốn hóa của bạn, nó sẽ hoàn trả khi thị trường cập nhật",
+    PlayerTradeQuotaDesc:
+        "💡 Hạn mức giao dịch người chơi chiếm %{percent} tổng giá trị vốn hóa của bạn, nó sẽ hoàn trả khi thị trường cập nhật",
     PlayerTradePartialFillTitle: "Chọn phần trăm làm đầy",
     PlayerTradeAmountNotValidV2: "Số lượng giao dịch tối thiểu là 1",
     PlayerTradeOptOut: "Bạn đã từ chối tham dự bảng xếp hạng, bạn không thể giao dịch với người chơi khác",
     FirstTimeReadGuide: "💡 Cần một chút giúp đỡ về cách chơi? Nhấp vào đây để đọc hướng dẫn tân thủ!",
     ReadSteamGuideV2: "Hướng dẫn chơi",
-    ReadSteamGuideV2Desc: "Bạn có thể đọc các bản hướng dẫn được viết bởi cộng đồng trên Steam - và bạn cũng có thể viết hướng dẫn của chính mình",
+    ReadSteamGuideV2Desc:
+        "Bạn có thể đọc các bản hướng dẫn được viết bởi cộng đồng trên Steam - và bạn cũng có thể viết hướng dẫn của chính mình",
     ChatMessageTooLong: "Tin chat của bạn vượt quá số ký tự cho phép",
     ChatPlaceholderV2: "Nhập tin chat của bạn: tối đa %{length} ký tự",
     ShowProfitBreakdown: "Hiển thị phân tích lợi nhuận",
@@ -763,7 +769,8 @@ export const VN = {
     SteamLogin: "Đăng nhập qua Steam",
     SteamLoginDialogDesc:
         "Bản lưu trên máy của bạn có Bản mở rộng, bạn cần đăng nhập vào Steam để tiếp tục. Hoặc bạn có thể XÓA BẢN LƯU TRÊN MÁY và chơi lại từ đầu",
-    SteamLoginDesc: "Nếu bạn đã mua Bản mở rộng trên steam, bạn có thể chơi với bản mở rộng trên trình duyệt sau khi đăng nhập vào Steam",
+    SteamLoginDesc:
+        "Nếu bạn đã mua Bản mở rộng trên steam, bạn có thể chơi với bản mở rộng trên trình duyệt sau khi đăng nhập vào Steam",
     SteamLoginYes: "Đăng nhập",
     SteamLoginNo: "Xóa & bắt đầu lại từ đầu",
     KungFuDojo: "Võ đường",
@@ -920,7 +927,8 @@ export const VN = {
     CostFree: "Miễn phí",
     PlaceBlueprint: "Miễn phí đặt bản thiết kế",
     PlayerTradePriceNotValidV2: "Giá thành giao dịch phải nằm trong khoảng từ %{min} đến %{max}",
-    PlayerTradeNowAllowed: "Giao dịch với người chơi khác bị đình chỉ trong vòng 24h sau khi bạn tại tạo dữ liệu từ một bản lưu khác",
+    PlayerTradeNowAllowed:
+        "Giao dịch với người chơi khác bị đình chỉ trong vòng 24h sau khi bạn tại tạo dữ liệu từ một bản lưu khác",
     MarketNews: "Tin thị trường",
     MarketNewsApplyToYou: "Chỉ ảnh hưởng bạn",
     MarketNewsApplyToGlobal: "Toàn cầu",
@@ -954,4 +962,12 @@ export const VN = {
         "Bán một công trình sẽ hoàn lại %{percent} chi phí đầu tư và %{percent} tài nguyên sẽ được vận chuyển về Trung tâm Thương mại",
     BuilderMoveSpeed: "Tốc độ di chuyển của Đội xây dựng",
     BuilderMoveSpeedDesc: "Tốc độ mà các Đội xây dựng của bạn di chuyển đến công trường",
+    EBookInc: "eBook Inc",
+    ResourceBooster: "Resource Booster",
+    BuildWarningTitle: "Building Might Not Work",
+    BuildWarningTitleDesc: "%{reason}. Are you sure to build on this tile?",
+    BuildWarningBuildAnyway: "Build Anyway",
+    ResourceBoosterNotWorking: "⛔ Resource boosters only work next to deposit mines",
+    ResourceBoosterPercentage: "💡 This building gets %{percent} output boost from adjacent resource boosters",
+    ResourceBoosterBuildings: "Buildings Being Boosted",
 };
