@@ -958,4 +958,6 @@ export const EN = {
     ResourceBoosterNotWorking: "⛔ Resource boosters only work next to deposit mines",
     ResourceBoosterPercentage: "💡 This building gets %{percent} output boost from adjacent resource boosters",
     ResourceBoosterBuildings: "Buildings Being Boosted",
+    BuildingResourceConversion: "%{resource} Conversion",
+    AllTimeSwissMoneyEarned: "All time Swiss Money earned: %{number}",
 };
