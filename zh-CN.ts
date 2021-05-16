@@ -905,10 +905,8 @@ export const ZH_CN = {
     NewsEffectx2: "新闻发布会",
     NewsEffectx2Desc: "所有市场消息的正面和负面效果翻倍",
     SellRefundPercentage: "出售/降级退款",
-    SellRefundPercentageDesc:
-        "每当你出售或降级建筑，该数值是退还的现金和资源的比例",
-    SellBuildingDescV2:
-        "出售建筑将返还你%{percent}的投资且%{percent}的资源将会运送到贸易中心",
+    SellRefundPercentageDesc: "每当你出售或降级建筑，该数值是退还的现金和资源的比例",
+    SellBuildingDescV2: "出售建筑将返还你%{percent}的投资且%{percent}的资源将会运送到贸易中心",
     BuilderMoveSpeed: "工程队移速",
     BuilderMoveSpeedDesc: "工程队前往施工建筑的速度",
     EBookInc: "电子书公司",
@@ -919,4 +917,21 @@ export const ZH_CN = {
     ResourceBoosterNotWorking: "⛔ 资源加速器只在紧邻矿藏时有效",
     ResourceBoosterPercentage: "💡 该建筑获从相邻资源加速器获得%{percent}产出提升",
     ResourceBoosterBuildings: "建筑正在加速",
+    BuildingResourceConversion: "%{resource} Conversion",
+    AllTimeSwissMoneyEarned: "All time Swiss Money earned: %{number}",
+    BuildingUpgradeCostDivider: "Building Upgrade Cost Divider",
+    BuildingUpgradeCostDividerDesc: "Divide building construction and upgrade cost by this divider",
+    AchievementSoftwareGiant: "Software Giant",
+    AchievementSoftwareGiantDesc:
+        "Build a level 10 Software Company, level 10 Operating System Inc, level 10 Database Company and level 10 Web Browser on the same map",
+    AchievementSpaceRace: "Space Race",
+    AchievementSpaceRaceDesc:
+        "Build a level 10 Rocket Factory, level 10 Satellite Factory, level 10 Spaceship Factory and level 10 Space Station Factory on the same map",
+    AchievementToTheMoon: "To The Moon",
+    AchievementToTheMoonDesc:
+        "Build a level 40 Bitcoin Farm and level 40 Dogecoin Farm. Own 1B Bitcoin and 1B Dogecoin",
+    ItsAllGreen: "It's All Green",
+    ItsAllGreenDesc: "Have 50 production lines and no production deficit at all",
+    DeepInRed: "Deep In Red",
+    DeepInRedDesc: "Have 50 production lines that has production deficit",
 };

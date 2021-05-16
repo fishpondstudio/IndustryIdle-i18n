@@ -985,4 +985,21 @@ export const DE = {
     ResourceBoosterNotWorking: "⛔ Resource boosters only work next to deposit mines",
     ResourceBoosterPercentage: "💡 This building gets %{percent} output boost from adjacent resource boosters",
     ResourceBoosterBuildings: "Buildings Being Boosted",
+    BuildingResourceConversion: "%{resource} Conversion",
+    AllTimeSwissMoneyEarned: "All time Swiss Money earned: %{number}",
+    BuildingUpgradeCostDivider: "Building Upgrade Cost Divider",
+    BuildingUpgradeCostDividerDesc: "Divide building construction and upgrade cost by this divider",
+    AchievementSoftwareGiant: "Software Giant",
+    AchievementSoftwareGiantDesc:
+        "Build a level 10 Software Company, level 10 Operating System Inc, level 10 Database Company and level 10 Web Browser on the same map",
+    AchievementSpaceRace: "Space Race",
+    AchievementSpaceRaceDesc:
+        "Build a level 10 Rocket Factory, level 10 Satellite Factory, level 10 Spaceship Factory and level 10 Space Station Factory on the same map",
+    AchievementToTheMoon: "To The Moon",
+    AchievementToTheMoonDesc:
+        "Build a level 40 Bitcoin Farm and level 40 Dogecoin Farm. Own 1B Bitcoin and 1B Dogecoin",
+    ItsAllGreen: "It's All Green",
+    ItsAllGreenDesc: "Have 50 production lines and no production deficit at all",
+    DeepInRed: "Deep In Red",
+    DeepInRedDesc: "Have 50 production lines that has production deficit",
 };
