@@ -285,8 +285,6 @@ export const TR = {
     AllowZoomDesc: "Turn on zoom support. Use your mouse wheel to zoom. Current zoom is %{zoom}",
     AllowZoomMobileDesc: "Turn on zoom support. You can pinch to zoom. Current zoom is %{zoom}",
     Settings: "Settings",
-    SellBuildingFullRefundDesc:
-        "Building Recycle policy is active, selling a building will give you full refund until in %{time}",
     Sound: "Sound Effect",
     SoundDesc: "Turn on sound effect like click or error sound",
     AutoHighlight: "Auto Highlight",
@@ -351,7 +349,6 @@ export const TR = {
     WholesaleCenter: "Wholesale Center",
     OrderFrom: "Order from %{name}",
     ExpireIn: "Expire In",
-    NotMakingProfitWarning: "💡 Production not profitable, consider shut it down",
     TurnOnAllProductions: "Production On",
     TurnOnAllProductionsDesc: "Turn on productions of all buildings, cannot be used when Cost Saver policy is active",
     OperationSuccessful: "This operation has been successfully completed",
@@ -409,9 +406,6 @@ export const TR = {
     SolarPanelAlwaysWorkDesc: "Solar panel works 100% of the time but produces 60% less power",
     SteelScience: "Knowledge Through Steel",
     SteelScienceDesc: "Steel mills use 2x input and produce extra science",
-    ShowWarehouse: "Unlock Warehouse",
-    ShowWarehouseDesc:
-        "A warehouse is a special building that only transports and store resources and can provide fuel save (FREE POLICY)",
     WholesaleCenterProducingOnly: "Wholesale Partners",
     WholesaleCenterProducingOnlyDesc:
         "Wholesale center orders only contain resources that are currently being produced (you also need to be producing the number of required resources to unlock wholesale center)",
@@ -609,8 +603,6 @@ export const TR = {
     SortByStorage: "Storage",
     SortByProduction: "Production",
     SortByName: "Name",
-    BuildingInProgressCannotPrestige:
-        "You have building construction in progress, you cannot start in a new city until they are finished",
     PlayerTrade: "Player Trade",
     AddTradeFail: "Failed to add your trade",
     AddTradeExceedMaximumTrade:
@@ -906,7 +898,6 @@ export const TR = {
     HighlightUnderLevel20: "...that are under level 20",
     HighlightUnderLevel30: "...that are under level 30",
     Logout: "You Are Logged Out",
-    LogoutDesc: "You have logged in on another device, this device are logged out",
     ConstructionStatusQueueingV2: "Queueing",
     ConstructionStatusPausedV2: "Paused",
     ConstructionStatusBuildingV2: "Building",
@@ -916,7 +907,6 @@ export const TR = {
     CostFree: "Free",
     PlaceBlueprint: "Place a building blueprint is free",
     PlayerTradePriceNotValidV2: "Trade price must be between %{min} and %{max}",
-    PlayerTradeNowAllowed: "Player trades are not available within 24 hours after you've restored/imported a save",
     MarketNews: "Market News",
     MarketNewsApplyToYou: "Only you",
     MarketNewsApplyToGlobal: "Global",
@@ -975,4 +965,10 @@ export const TR = {
     ItsAllGreenDesc: "Have 50 production lines and no production deficit at all",
     DeepInRed: "Deep In Red",
     DeepInRedDesc: "Have 50 production lines that has production deficit",
+    UseScientificNotation: "Use Scientific Notation",
+    UseScientificNotationDesc: "Use scientific notation (e notation) for numbers larger than 999.9T",
+    LogoutDescV2:
+        "You have logged in on another device, this device is logged out. You can log back in but the other device will be logged out",
+    LogBackIn: "Log Back In",
+    PlayerTradeNowAllowedV2: "Player trades are not available within %{hour} hours of restoring/importing a save",
 };

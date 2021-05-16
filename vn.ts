@@ -286,8 +286,6 @@ export const VN = {
     AllowZoomMobileDesc:
         "Bật hỗ trợ phóng to thu nhỏ. Dùng động tác nhéo để thay đổi. Mức độ phóng hiện tại là %{zoom}",
     Settings: "Tùy chọn",
-    SellBuildingFullRefundDesc:
-        "Chính sách tái cơ cấu công trình đang bật, bán một công trình sẽ hoàn lại toàn bộ giá trị trong vòng %{time} tới",
     Sound: "Hiệu ứng âm thanh",
     SoundDesc: "Bật hiệu ứng âm thanh cho nhấp chuột hay báo lỗi",
     AutoHighlight: "Tự động đánh dấu",
@@ -352,7 +350,6 @@ export const VN = {
     WholesaleCenter: "Trung tâm bán sỉ",
     OrderFrom: "Đơn đặt hàng từ %{name}",
     ExpireIn: "Hết hạn trong",
-    NotMakingProfitWarning: "💡 Sản xuất không có lãi, đề nghị ngưng vận hành",
     TurnOnAllProductions: "Bật sản xuất",
     TurnOnAllProductionsDesc:
         "Bật sản xuất cho tất cả các công trình, không dùng được khi đang chạy Chính sách Tiết kiệm",
@@ -411,9 +408,6 @@ export const VN = {
     SolarPanelAlwaysWorkDesc: "Tấm năng lượng mặt trời hoạt động 100% thời gian nhưng giảm 60% sản lượng",
     SteelScience: "Kiến thức từ Thép",
     SteelScienceDesc: "Nhà máy thép dùng x2 nguyên liệu và sản xuất thêm điểm khoa học",
-    ShowWarehouse: "Mở khóa kho bãi",
-    ShowWarehouseDesc:
-        "Kho bãi là công trình đặc biệt chỉ vận chuyển và tàng trữ tài nguyên, đồng thời cũng giúp tiết kiệm nhiên liệu trong vận chuyển (chính sách MIỄN PHÍ)",
     WholesaleCenterProducingOnly: "Đối tác Bán Sỉ",
     WholesaleCenterProducingOnlyDesc:
         "Đơn hàng của Trung tâm Bán sỉ chỉ bao gồm các tài nguyên mà bạn đang sản xuất (bạn vẫn cần sản xuất đủ số loại tài nguyên để mở khóa Trung tâm Bán sỉ)",
@@ -611,8 +605,6 @@ export const VN = {
     SortByStorage: "Tồn kho",
     SortByProduction: "Sản lượng",
     SortByName: "Tên",
-    BuildingInProgressCannotPrestige:
-        "Bạn có công trình đang xây dựng dở, bạn không thể Khởi đầu ở một Thành phố mới cho đến khi xây xong",
     PlayerTrade: "Giao dịch với người chơi",
     AddTradeFail: "Thêm giao dịch không thành công",
     AddTradeExceedMaximumTrade:
@@ -917,7 +909,6 @@ export const VN = {
     HighlightUnderLevel20: "...dưới cấp 20",
     HighlightUnderLevel30: "...dưới cấp 30",
     Logout: "Bạn đã bị đăng xuất",
-    LogoutDesc: "Bạn đã đăng nhập từ một thiết bị khác, thiết bị này đã bị đăng xuất",
     ConstructionStatusQueueingV2: "Đang xếp hàng",
     ConstructionStatusPausedV2: "Đã tạm ngưng",
     ConstructionStatusBuildingV2: "Đang xây",
@@ -927,8 +918,6 @@ export const VN = {
     CostFree: "Miễn phí",
     PlaceBlueprint: "Miễn phí đặt bản thiết kế",
     PlayerTradePriceNotValidV2: "Giá thành giao dịch phải nằm trong khoảng từ %{min} đến %{max}",
-    PlayerTradeNowAllowed:
-        "Giao dịch với người chơi khác bị đình chỉ trong vòng 24h sau khi bạn tại tạo dữ liệu từ một bản lưu khác",
     MarketNews: "Tin thị trường",
     MarketNewsApplyToYou: "Chỉ ảnh hưởng bạn",
     MarketNewsApplyToGlobal: "Toàn cầu",
@@ -987,4 +976,10 @@ export const VN = {
     ItsAllGreenDesc: "Have 50 production lines and no production deficit at all",
     DeepInRed: "Deep In Red",
     DeepInRedDesc: "Have 50 production lines that has production deficit",
+    UseScientificNotation: "Use Scientific Notation",
+    UseScientificNotationDesc: "Use scientific notation (e notation) for numbers larger than 999.9T",
+    LogoutDescV2:
+        "You have logged in on another device, this device is logged out. You can log back in but the other device will be logged out",
+    LogBackIn: "Log Back In",
+    PlayerTradeNowAllowedV2: "Player trades are not available within %{hour} hours of restoring/importing a save",
 };

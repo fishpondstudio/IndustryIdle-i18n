@@ -285,8 +285,6 @@ export const PT_BR = {
     AllowZoomDesc: "Turn on zoom support. Use your mouse wheel to zoom. Current zoom is %{zoom}",
     AllowZoomMobileDesc: "Turn on zoom support. You can pinch to zoom. Current zoom is %{zoom}",
     Settings: "Configurações",
-    SellBuildingFullRefundDesc:
-        "Building Recycle policy is active, selling a building will give you full refund until in %{time}",
     Sound: "Efeito sonoro",
     SoundDesc: "Turn on sound effect like click or error sound",
     AutoHighlight: "Auto Highlight",
@@ -351,7 +349,6 @@ export const PT_BR = {
     WholesaleCenter: "Wholesale Center",
     OrderFrom: "Ordem de %{name}",
     ExpireIn: "Expira em",
-    NotMakingProfitWarning: "💡 Produção não lucrativa, considere o desligamento",
     TurnOnAllProductions: "Production On",
     TurnOnAllProductionsDesc: "Turn on productions of all buildings, cannot be used when Cost Saver policy is active",
     OperationSuccessful: "Essa operação foi concluída com sucesso",
@@ -409,9 +406,6 @@ export const PT_BR = {
     SolarPanelAlwaysWorkDesc: "Solar panels work 100% of the time but produces 60% less power",
     SteelScience: "Conhecimento através do aço",
     SteelScienceDesc: "Steel mills use 2x input and produce extra science",
-    ShowWarehouse: "Unlock Warehouse",
-    ShowWarehouseDesc:
-        "A warehouse is a special building that only transports and store resources and can provide fuel save (FREE POLICY)",
     WholesaleCenterProducingOnly: "Wholesale Partners",
     WholesaleCenterProducingOnlyDesc:
         "Wholesale center orders only contain resources that are currently being produced (you also need to be producing the number of required resources to unlock wholesale center)",
@@ -609,8 +603,6 @@ export const PT_BR = {
     SortByStorage: "Armazenamento",
     SortByProduction: "Produção",
     SortByName: "Nome",
-    BuildingInProgressCannotPrestige:
-        "You have building construction in progress, you cannot start in a new city until they are finished",
     PlayerTrade: "Troca entre jogadores",
     AddTradeFail: "Falha em adicionar sua oferta",
     AddTradeExceedMaximumTrade:
@@ -906,7 +898,6 @@ export const PT_BR = {
     HighlightUnderLevel20: "...que estão abaixo do nível 20",
     HighlightUnderLevel30: "...que estão abaixo do nível 30",
     Logout: "Você está desconectado",
-    LogoutDesc: "Você está conectado em outro dispositivo, este dispositivo está desconectado",
     ConstructionStatusQueueingV2: "Na fila",
     ConstructionStatusPausedV2: "Pausado",
     ConstructionStatusBuildingV2: "Construindo",
@@ -916,7 +907,6 @@ export const PT_BR = {
     CostFree: "Grátis",
     PlaceBlueprint: "Place a building blueprint is free",
     PlayerTradePriceNotValidV2: "Trade price must be between %{min} and %{max}",
-    PlayerTradeNowAllowed: "Player trades are not available within 24 hours after you've restored/imported a save",
     MarketNews: "Market News",
     MarketNewsApplyToYou: "Only you",
     MarketNewsApplyToGlobal: "Global",
@@ -975,4 +965,10 @@ export const PT_BR = {
     ItsAllGreenDesc: "Have 50 production lines and no production deficit at all",
     DeepInRed: "Deep In Red",
     DeepInRedDesc: "Have 50 production lines that has production deficit",
+    UseScientificNotation: "Use Scientific Notation",
+    UseScientificNotationDesc: "Use scientific notation (e notation) for numbers larger than 999.9T",
+    LogoutDescV2:
+        "You have logged in on another device, this device is logged out. You can log back in but the other device will be logged out",
+    LogBackIn: "Log Back In",
+    PlayerTradeNowAllowedV2: "Player trades are not available within %{hour} hours of restoring/importing a save",
 };

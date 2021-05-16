@@ -288,8 +288,6 @@ export const NL = {
     AllowZoomDesc: "Zet zoom support aan. Gebruik je muiswiel om in te zoomen. Huidige zoom is %{zoom}",
     AllowZoomMobileDesc: "Zet zoom support aan. Je kan pinchen om te zoomen. Huidige zoom is %{zoom}",
     Settings: "Instellingen",
-    SellBuildingFullRefundDesc:
-        "Gebouw recyclage toelating is actief, een gebouw verkopen zal je nu volledig terugbetalen tot %{time}",
     Sound: "Geluidseffecten",
     SoundDesc: "Zet geluidseffecten aan, zoals klikken en foutmeldingen",
     AutoHighlight: "Automatisch markeren",
@@ -354,7 +352,6 @@ export const NL = {
     WholesaleCenter: "Groothandel",
     OrderFrom: "Bestelling van %{name}",
     ExpireIn: "Vervalt in",
-    NotMakingProfitWarning: "💡 Productie is niet winstgevend, overweeg om het uit te schakelen",
     TurnOnAllProductions: "Productie Aan",
     TurnOnAllProductionsDesc:
         "Zet productie aan van alle gebouwen, kan niet gebruikt worden wanneer Kosten besparingsbeleid actief is",
@@ -414,9 +411,6 @@ export const NL = {
     SolarPanelAlwaysWorkDesc: "Zonnepanelen werken 100% van de tijd, maar produceren maar 60% energie",
     SteelScience: "Kennis Door Staal",
     SteelScienceDesc: "Staalfabrieken gebruiken 2x invoer en produceren extra wetenschap",
-    ShowWarehouse: "Toon Opslagplaats",
-    ShowWarehouseDesc:
-        "Een opslagplaats is een speciaal gebouw dat enkel goederen transporteert en opslaat en brandstof kan besparen (GRATIS BELEID)",
     WholesaleCenterProducingOnly: "Groothandelspartners",
     WholesaleCenterProducingOnlyDesc:
         "Groothandelsbestellingen bevatten enkel goederen die momenteel geproduceert worden ( Je moet ook het aantal vereiste goederen produceren om de groothandel vrij te spelen)",
@@ -619,8 +613,6 @@ export const NL = {
     SortByStorage: "Opslag",
     SortByProduction: "Productie",
     SortByName: "Naam",
-    BuildingInProgressCannotPrestige:
-        "Je hebt gebouwenconstructie onderweg; je kan niet starten in een nieuwe stad totdat dit afgehandelt is",
     PlayerTrade: "Speler Handel",
     AddTradeFail: "Handelsoffer toevoegen gefaald",
     AddTradeExceedMaximumTrade:
@@ -916,7 +908,6 @@ export const NL = {
     HighlightUnderLevel20: "...that are under level 20",
     HighlightUnderLevel30: "...that are under level 30",
     Logout: "You Are Logged Out",
-    LogoutDesc: "You have logged in on another device, this device are logged out",
     ConstructionStatusQueueingV2: "Queueing",
     ConstructionStatusPausedV2: "Paused",
     ConstructionStatusBuildingV2: "Building",
@@ -926,7 +917,6 @@ export const NL = {
     CostFree: "Free",
     PlaceBlueprint: "Place a building blueprint is free",
     PlayerTradePriceNotValidV2: "Trade price must be between %{min} and %{max}",
-    PlayerTradeNowAllowed: "Player trades are not available within 24 hours after you've restored/imported a save",
     MarketNews: "Market News",
     MarketNewsApplyToYou: "Only you",
     MarketNewsApplyToGlobal: "Global",
@@ -985,4 +975,10 @@ export const NL = {
     ItsAllGreenDesc: "Have 50 production lines and no production deficit at all",
     DeepInRed: "Deep In Red",
     DeepInRedDesc: "Have 50 production lines that has production deficit",
+    UseScientificNotation: "Use Scientific Notation",
+    UseScientificNotationDesc: "Use scientific notation (e notation) for numbers larger than 999.9T",
+    LogoutDescV2:
+        "You have logged in on another device, this device is logged out. You can log back in but the other device will be logged out",
+    LogBackIn: "Log Back In",
+    PlayerTradeNowAllowedV2: "Player trades are not available within %{hour} hours of restoring/importing a save",
 };

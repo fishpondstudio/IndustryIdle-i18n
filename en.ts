@@ -85,7 +85,7 @@ export const EN = {
     RocketFactory: "Rocket Factory",
     BuildingPermit: "Building Permit",
     BuildingPermitDesc:
-        "You have permit for %{amount} buildings, you have already built %{amountBuilt} and have %{amountLeft} left",
+        "You have permits for %{amount} buildings, you have already built %{amountBuilt} and have %{amountLeft} left",
     BuildingLocked: "Building is not available yet, you need to unlock it in Research Lab first",
     BuildQueue: "Build Queue",
     BuildQueueDesc: "Number of buildings currently in queue",
@@ -104,7 +104,7 @@ export const EN = {
     NotEnoughPower: "💡 Not enough power, consider increasing power supply",
     NotEnoughFuel: "Not enough %{fuel} for this operation",
     NotEnoughCash: "Not enough cash for this operation",
-    NotEnoughSwissMoney: "Not enough Swiss money for this operation",
+    NotEnoughSwissMoney: "Not enough Swiss Money for this operation",
     BuildingNotEnoughFuel: "💡 Not enough %{fuel}",
     AutoSell: "Auto Sell",
     SellAll: "Sell All",
@@ -208,7 +208,7 @@ export const EN = {
     AlwaysTransportInputDesc: "Always transport input resources, even if they are above minimal production requirement",
     ProductionCycleLength: "Production Cycle",
     ProductionCycleLengthDesc:
-        "Duration of one production cycle, measured in seconds. Lengthening the cycle will increase the input/output per cycle accordingly thus lower its priority when fetching input resources",
+        "Duration of one production cycle, measured in seconds. Lengthening the cycle will increase the input/output per cycle accordingly thus lowering its priority when fetching input resources",
     MaxInputDistance: "Max Input Distance",
     MaxInputDistanceDesc:
         "The maximum distance this building can fetch input resources from, measured in number of tiles",
@@ -285,8 +285,6 @@ export const EN = {
     AllowZoomDesc: "Turn on zoom support. Use your mouse wheel to zoom. Current zoom is %{zoom}",
     AllowZoomMobileDesc: "Turn on zoom support. You can pinch to zoom. Current zoom is %{zoom}",
     Settings: "Settings",
-    SellBuildingFullRefundDesc:
-        "Building Recycle policy is active, selling a building will give you full refund until in %{time}",
     Sound: "Sound Effect",
     SoundDesc: "Turn on sound effect like click or error sound",
     AutoHighlight: "Auto Highlight",
@@ -303,7 +301,7 @@ export const EN = {
     HighlightStockpileModeOn: "...that have stockpile mode on",
     HighlightProductionCycleNotDefault: "...that have production cycle > 1",
     HighlightMaxInputDistanceNotDefault: "...that have max input distance < ∞",
-    HighlightNotMakingProfit: "...do not make a profit",
+    HighlightNotMakingProfit: "...that do not make a profit",
     NBuildingsAreHighlighted: "%{n} building(s) are highlighted",
     OnlyToWarehouse: "Only for Warehouses",
     OnlyToWarehouseDesc: "Only warehouses can transport resources from this building",
@@ -346,12 +344,11 @@ export const EN = {
     EarningPerMinute: "Earning Rate",
     EffectiveTime: "Effective Time",
     EffectiveTimeDesc: "Your effective offline earning time is capped at %{time}min.",
-    BuildSearchPlaceholder: "Type building or resource to search",
+    BuildSearchPlaceholder: "Type a building or resource to search",
     MineOverlayWarning: "%{building} is not affected by tile modifier",
     WholesaleCenter: "Wholesale Center",
     OrderFrom: "Order from %{name}",
     ExpireIn: "Expire In",
-    NotMakingProfitWarning: "💡 Production not profitable, consider shut it down",
     TurnOnAllProductions: "Production On",
     TurnOnAllProductionsDesc: "Turn on productions of all buildings, cannot be used when Cost Saver policy is active",
     OperationSuccessful: "This operation has been successfully completed",
@@ -402,16 +399,13 @@ export const EN = {
     GlassUseCoalDesc: "Glass factories use 50% more coal and 50% less silicon",
     AdjacentBonusOnlyOutput: "Adjacent Bonus Plus",
     AdjacentBonusOnlyOutputDesc:
-        "Adjacent bonus does not require more input but uses more power and is only 50% effective",
+        "Adjacent bonus does not require more input but uses more power and is only 50% as effective",
     IronMine2xOutput: "Heavy Iron",
     IronMine2xOutputDesc: "Iron mines produce 2x iron but iron transport costs 2x fuel",
     SolarPanelAlwaysWork: "The Sun Never Sets",
-    SolarPanelAlwaysWorkDesc: "Solar panels work 100% of the time but produces 60% less power",
+    SolarPanelAlwaysWorkDesc: "Solar panels work 100% of the time but produce 60% less power",
     SteelScience: "Knowledge Through Steel",
     SteelScienceDesc: "Steel mills use 2x input and produce extra science",
-    ShowWarehouse: "Unlock Warehouse",
-    ShowWarehouseDesc:
-        "A warehouse is a special building that only transports and store resources and can provide fuel save (FREE POLICY)",
     WholesaleCenterProducingOnly: "Wholesale Partners",
     WholesaleCenterProducingOnlyDesc:
         "Wholesale center orders only contain resources that are currently being produced (you also need to be producing the number of required resources to unlock wholesale center)",
@@ -425,7 +419,7 @@ export const EN = {
     CrAlloyUseFe: "Chroiron",
     CrAlloyUseFeDesc: "Chromium alloy plants do not use Lithium but use 2x Iron instead",
     DoubleTileModifier: "Nature's Power",
-    DoubleTileModifierDesc: "All tiles' modifier's effect x2 - both positive and negative",
+    DoubleTileModifierDesc: "All tile modifiers' effect x2 - both positive and negative",
     TileModifierOutputOnly: "Tile Modifier Plus",
     TileModifierOutputOnlyDesc:
         "Tile modifiers only affect output instead of both input and output but are only 50% effective",
@@ -479,11 +473,11 @@ export const EN = {
     Tips2: "Buildings will stop transporting resources if there's already enough for production, unless you turn on stockpile mode",
     Tips3: "Fuel cost for resource transportation is determined by distance and amount of resources",
     Tips4: "Buildings will only transport a resource if the amount found on map exceeds the input capacity",
-    Tips5: "Buildings will only transport a resource from Trade Center if auto sell is turned off for that resource",
+    Tips5: "Buildings will only transport a resource from the Trade Center if auto sell is turned off for that resource",
     Tips6: "You can see the fuel cost for a resource under the corresponding input capacity section",
     Tips7: "If you buy a resource, you will drive up the price. If you sell a resource, you will drive down the price",
     Tips8: "You can see the chart for each resource's amount and its change over time in Statistics Bureau",
-    Tips9: "Research points needed for a building is determined by the market price of it's input resources",
+    Tips9: "Research points needed for a building are determined by the market price of it's input resources",
     Tips10: "Different resources are priced differently in market - always be prepared for market volatility",
     Tips11: "It's a good idea to always check your power and fuel supply before expanding your production",
     FPS30: "Energy Saving",
@@ -500,7 +494,7 @@ export const EN = {
     RewardAdsNotAvailable: "Reward video is not available (currently only iOS/Android is supported)",
     OfflineEarningDoubleSuccess: "You have doubled your offline earning",
     FPS30Desc:
-        "Turn on energy saving mode will run the game at 30FPS instead of 60FPS. This will make your battery last longer",
+        "Turning on energy saving mode will run the game at 30FPS instead of 60FPS. This will make your battery last longer",
     HighlightAll: 'Highlight "%{type}"',
     HighlightInput: "🔍 Highlight %{type} Input",
     HighlightOutput: "🔍 Highlight %{type} Output",
@@ -553,7 +547,7 @@ export const EN = {
     OfflineEarningMultiplierDesc: "A multiplier that applies to offline earnings",
     PrestigeAlertTitle: "Are you sure?",
     PrestigeAlertContent:
-        "Your company will be liquidated. You will cash in %{amount} Swiss money and start a new company in %{city}",
+        "Your company will be liquidated. You will cash in %{amount} Swiss Money and start a new company in %{city}",
     PrestigeCurrencyDesc:
         "This is the money in your secret Swiss bank account, you can carry it with you when you start in a new city",
     Prestige: "Cash In",
@@ -562,7 +556,7 @@ export const EN = {
     CheatDetected: "Your old save did not pass server validation and cannot be read. You will start with a new save",
     LoadGameError: "Failed to Load Game",
     LoadGameErrorMessage: "Error message: %{message}",
-    LoadGameErrorDesc: "Please check your Internet connection. If the problem persists, please contact support",
+    LoadGameErrorDesc: "Please check your internet connection. If the problem persists, please contact support",
     ExpansionPackIncompatible:
         "You are importing a save with expansion packs but your game doesn't have the required expansion packs",
     SaveFileMigrated: "A New Era: Beta Is Here",
@@ -570,11 +564,11 @@ export const EN = {
         "Thank you for play testing in alpha. Your old map is not compatible but we have migrated your data and give you some bonus",
     ClaimSwissMoney: "Claim %{amount} Swiss Money 💵",
     SaveFileMigratedFinePrint:
-        "Your market cap is converted to Swiss Money and your unspent Swiss money is carried forward. You will get 50% bonus Swiss money for play testing in alpha. Max Swiss money that can be carried forward is capped at 200",
+        "Your market cap is converted to Swiss Money and your unspent Swiss Money is carried forward. You will get 50% bonus Swiss Money for play testing in alpha. Max Swiss Money that can be carried forward is capped at 200",
     CashIn: "Cash In",
     CurrentCity: "Current City",
     CashInDesc:
-        "Your will get this amount to your Swiss bank account if you start in a new city. It is based on your company's market cap and it must reach %{amount} before you can earn Swiss money",
+        "Your will get this amount to your Swiss bank account if you start in a new city. It is based on your company's market cap and it must reach %{amount} before you can earn Swiss Money",
     MoveToNewMap: "Start In A New City",
     CityName: "City",
     CitySize: "Map Size",
@@ -609,8 +603,6 @@ export const EN = {
     SortByStorage: "Storage",
     SortByProduction: "Production",
     SortByName: "Name",
-    BuildingInProgressCannotPrestige:
-        "You have building construction in progress, you cannot start in a new city until they are finished",
     PlayerTrade: "Player Trade",
     AddTradeFail: "Failed to add your trade",
     AddTradeExceedMaximumTrade:
@@ -649,7 +641,7 @@ export const EN = {
     PlayerTradeQuota: "Quota Left: %{value}",
     PlayerTradeUnavailable:
         "You need to have at least one resource in production and in storage before you can trade with players",
-    PlayerTradeToClaim: "Your have %{num} new trade(s) to claim in Player Trade",
+    PlayerTradeToClaim: "You have %{num} new trade(s) to claim in Player Trade",
     PowerBank: "Power Bank",
     PowerBankBuildDesc: "Store surplus power and provide power supply during shortage",
     WarehouseBuildDesc: "Transport and store any resources and with lower fuel cost",
@@ -717,7 +709,7 @@ export const EN = {
     FreeTransportCost: "Resources with Free Transport Cost",
     Osaka: "Osaka",
     OsakaBonus:
-        "<li>Resources tend to spawn in clusters</li><li>Warehouse provide 50% more fuel save</li><li>Unique building: manga publisher</li><li>Unique building: anime studio</li><li>Semiconductor factories have 2x productivity</li><li>Li-ion battery factories have 2x capacity</li><li>Battery factories are unlocked</li><li>Battery factories have 2x capacity</li><li>Battery fuel economy improves by 100%</li><li>Battery factories do not require coal</li><li>Start with 100K batteries</li>",
+        "<li>Resources tend to spawn in clusters</li><li>Warehouses provide 50% more fuel save</li><li>Unique building: manga publisher</li><li>Unique building: anime studio</li><li>Semiconductor factories have 2x productivity</li><li>Li-ion battery factories have 2x capacity</li><li>Battery factories are unlocked</li><li>Battery factories have 2x capacity</li><li>Battery fuel economy improves by 100%</li><li>Battery factories do not require coal</li><li>Start with 100K batteries</li>",
     HideChatDescV2: "Hide chat message from the bottom toolbar. By showing chat messages, you agree to our ",
     HideChatDescV2ToS: "Terms of Service",
     IntegratedCircuitFab: "Integrated Circuit Fab",
@@ -731,7 +723,7 @@ export const EN = {
     PlayerTradeBid: "Bid",
     PlayerTradeAsk: "Ask",
     CancelTradeConfirmDialogDescV2:
-        "Cancelling this trade will refund %{percent} of the resource/cash. Resources will be refunded to Trade Center warehouse",
+        "Cancelling this trade will refund %{percent} of the resource/cash. Resources will be refunded to the Trade Center warehouse",
     ClaimTradeSuccessV2: "Your trade has been claimed successfully: %{cashOrResource}",
     AcceptTradeSuccessV2: "This trade has been accepted by you: %{cashOrResource}",
     PlayerTradeFilterPriceV2: "Better Than Market Price",
@@ -747,7 +739,7 @@ export const EN = {
     FirstTimeReadGuide: "💡 Need a little bit of help on how to play? Tap to read the beginner's guide!",
     ReadSteamGuideV2: "Game Guides",
     ReadSteamGuideV2Desc: "You can read community created guides on Steam - and you can create your own as well",
-    ChatMessageTooLong: "Your chat message exceeded the maximum chars allowed",
+    ChatMessageTooLong: "Your chat message exceeds the maximum chars allowed",
     ChatPlaceholderV2: "Type your message: max %{length} chars",
     ShowProfitBreakdown: "Show Profit Breakdown",
     HideProfitBreakdown: "Hide Profit Breakdown",
@@ -769,7 +761,7 @@ export const EN = {
     HongKong: "Hong Kong",
     FreeTransportToTradeCenter: "International Export Trade",
     FreeTransportToTradeCenterDesc:
-        "Transportation to the trade center does not cost fuel but transportation from the trade center cost 50% more fuel",
+        "Transportation to the Trade Center does not cost fuel but transportation from the Trade Center cost 50% more fuel",
     TaiChi10xCulture: "Pearl of the Orient",
     PlayerTradeYouHave: "In Storage: %{amount}",
     PlayerTradeFillValue: "Value",
@@ -780,7 +772,7 @@ export const EN = {
     AchievementsReward: "Reward: Swiss Money +%{swiss}",
     AchievementsRewardToast: "You have claimed the reward:  Swiss Money +%{swiss}",
     AchievementsClaim: "Claim",
-    AchievementsToast: "You have achieved %{name}, claim your reward in Headquarter",
+    AchievementsToast: "You have achieved %{name}, claim your reward in the Headquarter",
     AchievementStockholm100: "Freshman Viking",
     AchievementStockholm100Desc: "Earn 100 Swiss Money in Stockholm in a single run",
     AchievementStockholm500: "Graduate Viking",
@@ -849,7 +841,7 @@ export const EN = {
     AchievementOsaka1000Desc: "Earn 1000 Swiss Money in Osaka in a single run",
     SteamAutoCloudBackup: "Steam Cloud Auto Backup",
     SteamAutoCloudBackupDesc:
-        "The game saves automatically to your local save. Your local save is synced to Steam Cloud every 10 minutes. You can force Steam cloud backup at any time.",
+        "The game saves automatically to your local save. Your local save is synced to Steam Cloud every 10 minutes. You can force a Steam Cloud backup at any time.",
     SteamAutoCloudBackupFailed: "Steam Cloud Auto Backup Failed: %{error}",
     SteamManualBackup: "Force Steam Cloud Backup",
     UILoading: "Loading...",
@@ -870,16 +862,16 @@ export const EN = {
     ElectricCar: "Nikola Tesla",
     ElectricCarDesc: "Car factories use batteries instead of petrol and only require 50% of the amount",
     HongKongBonusV2:
-        "<li>Unique market pricing algorithm - prices and stock rating follow normal distribution (bell curve)</li><li>Market updates and trade quota resets are twice as frequent (every hour)</li><li>Research can be unlocked via traded resources</li><li>Unique building: Kung-Fu Dojo</li><li>Unique building: Tai-Chi Dojo</li><li>50% increase in max numbers of active player trades allowed</li><li>Start with 1 more auto sell concurrency</li><li>Unique policy: International Export Trade</li><li>Unique policy: Pearl of the Orient</li><li>Wholesale Center only needs 4 resources to unlock</li><li>Start with 100M Cash</li>",
+        "<li>Unique market pricing algorithm - prices and stock rating follow normal distribution (bell curve)</li><li>Market updates and trade quota resets are twice as frequent (every hour)</li><li>Research can be unlocked via traded resources</li><li>Unique building: Kung-Fu Dojo</li><li>Unique building: Tai-Chi Dojo</li><li>50% increase in max number of active player trades allowed</li><li>Start with 1 more auto sell concurrency</li><li>Unique policy: International Export Trade</li><li>Unique policy: Pearl of the Orient</li><li>Wholesale Center only needs 4 resources to unlock</li><li>Start with 100M Cash</li>",
     TaiChi10xCultureDescV2:
-        "Free Kung-fu and Tai-chi transportation. Movie studios have 2x capacity but uses 50% more power",
+        "Free Kung-fu and Tai-chi transportation. Movie studios have 2x capacity but use 50% more power",
     SettingsFullScreen: "Full Screen",
     SettingsFullScreenDesc: "Run the game in fullscreen mode. Only available for Steam version",
     LeaderboardByAllPrestigeCurrency: "All Time Swiss Money Earned",
     LeaderboardByCash: "Current Cash At Hand",
     LeaderboardBySwissPerBuilding: "Current Swiss Money Per Building",
     LeaderboardTotalValuation: "Total Valuation",
-    LeaderboardDescV2: "See the where the top players are",
+    LeaderboardDescV2: "See where the top players are",
     LastUpdatedAt: "Last Updated At",
     DetroitBonusV3:
         "<li>Engine factories are unlocked</li><li>Engine factories have 2x productivity</li><li>Car factories have 2x capacity</li><li>Car factories use gas instead of petrol</li><li>Free car transportation</li><li>Nikola Tesla policy is free</li><li>Train factories have 2x capacity</li>",
@@ -888,7 +880,7 @@ export const EN = {
         "Save and exit game. This is only available on Steam version and does the same as the close button on the window bar",
     AutoSellResourceWarningShortLabel: "💡Auto Sell",
     AutoSellResourceWarningDesc:
-        "You are auto selling this resource, the amount stored in Trade Center cannot be used here",
+        "You are auto selling this resource, the amount stored in the Trade Center cannot be used here",
     PlayerTradeLocalPrice: "Local Price: %{price}",
     ChatForceScroll: "Force Scroll",
     ChatForceScrollDesc:
@@ -906,7 +898,6 @@ export const EN = {
     HighlightUnderLevel20: "...that are under level 20",
     HighlightUnderLevel30: "...that are under level 30",
     Logout: "You Are Logged Out",
-    LogoutDesc: "You have logged in on another device, this device are logged out",
     ConstructionStatusQueueingV2: "Queueing",
     ConstructionStatusPausedV2: "Paused",
     ConstructionStatusBuildingV2: "Building",
@@ -914,9 +905,8 @@ export const EN = {
     ConstructionStatus: "Construction Status",
     ConstructionStart: "Start",
     CostFree: "Free",
-    PlaceBlueprint: "Place a building blueprint is free",
+    PlaceBlueprint: "Placing a building blueprint is free",
     PlayerTradePriceNotValidV2: "Trade price must be between %{min} and %{max}",
-    PlayerTradeNowAllowed: "Player trades are not available within 24 hours after you've restored/imported a save",
     MarketNews: "Market News",
     MarketNewsApplyToYou: "Only you",
     MarketNewsApplyToGlobal: "Global",
@@ -933,21 +923,21 @@ export const EN = {
         "<li>Oil refineries are unlocked</li><li>Oil refineries have 2x capacity</li><li>Electric oil transport policy is free</li><li>Gas processing plants have 2x capacity</li><li>Free level 4 wind turbine x1</li><li>Free level 4 oil well x1</li><li>Free level 2 oil refinery x1</li><li>Free level 2 natural gas pump x1</li>",
     FreeOilTransportV2: "Electric Oil Transport",
     Tutorial4P1:
-        "Resource transportation costs fuel. There are several fuel types and now you are using <em>petrol⛽</em> as fuel. You have an <em>oil refinery</em> that transports oil from the oil well and produces petrol.<br><br>The tiny moving <em>dots</em> represent the real-time movement of resources. You should optimize your building locations to minimize the distance of travel.<br><br><em>Upgrading</em> your buildings will increase their output, but will also increase their power usage and input required.",
+        "Resource transportation costs fuel. There are several fuel types and currently you are using <em>petrol⛽</em> as fuel. You have an <em>oil refinery</em> that transports oil from the oil well and produces petrol.<br><br>The tiny moving <em>dots</em> represent the real-time movement of resources. You should optimize your building locations to minimize the distance of travel.<br><br><em>Upgrading</em> your buildings will increase their output, but will also increase their power usage and input required.",
     Tutorial4P2:
-        "You can change your fuel type in the <em>logistics department🚦</em> - on this map, you can also use <em>natural gas</em> as fuel.<br><br>The logistics department also shows your transportation routes that burns most fuel - you'll want to keep an eye on it.<br><br>Remember to <em>make sure your fuel production is above consumption</em> otherwise your production will halt when you run out of fuel.<br><br>If that happens, don't worry, you can buy some emergency fuel from the trade center or from other players",
+        "You can change your fuel type in the <em>logistics department🚦</em> - on this map, you can also use <em>natural gas</em> as fuel.<br><br>The logistics department also shows your transportation routes that burn most fuel - you'll want to keep an eye on it.<br><br>Remember to <em>make sure your fuel production is above consumption</em> otherwise your production will halt when you run out of fuel.<br><br>If that happens, don't worry, you can buy some emergency fuel from the trade center or from other players",
     Tutorial5P2:
-        "<em>The statistics bureau📊</em> provides a good overview of your production. You can see a detailed breakdown of your resource input and output.<br><br>There are also lots of useful charts📈 - you'll want to refer to them when you balance your production.<br></br>Your <em>cash💰, power surplus⚡ and fuel surplus⛽</em> numbers are also shown on the top left corner - if any of them turns red, you should investigate what's going on.",
+        "<em>The statistics bureau📊</em> provides a good overview of your production. You can see a detailed breakdown of your resource input and output.<br><br>There are also lots of useful charts📈 - you'll want to refer to them when you balance your production.<br></br>Your <em>cash💰, power surplus⚡ and fuel surplus⛽</em> numbers are also shown on the top left corner - if any of them turn red, you should investigate what's going on.",
     MusicProducer: "Music Producer",
     PlasticFiber: "Plastic Fiber",
     PlasticFiberDesc: "Fiber factories use 50% more plastics but 50% less glass",
     NewsEffectx2: "Press Conference",
-    NewsEffectx2Desc: "The effect of market news doubles, both positive and negative",
+    NewsEffectx2Desc: "The effect of market news doubles - both positive and negative",
     SellRefundPercentage: "Sell/Downgrade Refund",
     SellRefundPercentageDesc:
         "If you sell or downgrade a building, this is the percentage of cash and resources you are refunded",
     SellBuildingDescV2:
-        "Selling a building will refund you %{percent} of your investment and %{percent} of the resources will be transported to Trade Center",
+        "Selling a building will refund you %{percent} of your investment and %{percent} of the resources will be transported to the Trade Center",
     BuilderMoveSpeed: "Builder Move Speed",
     BuilderMoveSpeedDesc: "The speed that builders move to construct buildings",
     EBookInc: "eBook Inc",
@@ -975,4 +965,10 @@ export const EN = {
     ItsAllGreenDesc: "Have 50 production lines and no production deficit at all",
     DeepInRed: "Deep In Red",
     DeepInRedDesc: "Have 50 production lines that has production deficit",
+    UseScientificNotation: "Use Scientific Notation",
+    UseScientificNotationDesc: "Use scientific notation (e notation) for numbers larger than 999.9T",
+    LogoutDescV2:
+        "You have logged in on another device, this device is logged out. You can log back in but the other device will be logged out",
+    LogBackIn: "Log Back In",
+    PlayerTradeNowAllowedV2: "Player trades are not available within %{hour} hours of restoring/importing a save",
 };

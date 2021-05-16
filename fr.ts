@@ -297,8 +297,6 @@ export const FR = {
     AllowZoomMobileDesc:
         "Activez la prise en charge du zoom. Vous pouvez pincer pour zoomer. Le zoom actuel est %{zoom}",
     Settings: "Paramètres",
-    SellBuildingFullRefundDesc:
-        "La politique de recyclage des bâtiments est active, la vente d'un bâtiment vous remboursera intégralement jusqu'au %{time}",
     Sound: "Effet sonore",
     SoundDesc: "Activer les effets sonores comme le clic ou le son d'erreur",
     AutoHighlight: "Mise en évidence automatique",
@@ -366,7 +364,6 @@ export const FR = {
     WholesaleCenter: "Centre de vente en gros",
     OrderFrom: "Commande de %{name}",
     ExpireIn: "Expire dans",
-    NotMakingProfitWarning: "💡 Production non rentable, pensez à la fermer",
     TurnOnAllProductions: "Production active",
     TurnOnAllProductionsDesc:
         "Activer les productions de tous les bâtiments, ne peut pas être utilisé lorsque la politique d'économie de coûts est active",
@@ -429,9 +426,6 @@ export const FR = {
     SolarPanelAlwaysWorkDesc: "Le panneau solaire fonctionne 100% du temps mais produit 60% moins d'énergie",
     SteelScience: "La connaissance à travers l'acier",
     SteelScienceDesc: "Les aciéries utilisent 2x intrants et produisent des données scientifiques supplémentaires",
-    ShowWarehouse: "Déverrouiller l'entrepôt",
-    ShowWarehouseDesc:
-        "Un entrepôt est un bâtiment spécial qui ne transporte et stocke que des ressources et peut fournir des économies de carburant (STRATEGIE GRATUITE)",
     WholesaleCenterProducingOnly: "Partenaires du centre de vente",
     WholesaleCenterProducingOnlyDesc:
         "Les commandes des centres ne contiennent que des ressources en cours de production (vous devez également produire le nombre de ressources nécessaires pour déverrouiller le centre de vente)",
@@ -639,8 +633,6 @@ export const FR = {
     SortByStorage: "Stockage",
     SortByProduction: "Production",
     SortByName: "Nom",
-    BuildingInProgressCannotPrestige:
-        "Vous avez des travaux de construction en cours, vous ne pouvez pas commencer dans une nouvelle ville tant qu'ils ne sont pas terminés",
     PlayerTrade: "Échange de Ressources En Ligne",
     AddTradeFail: "Échec de l'ajout de votre échange",
     AddTradeExceedMaximumTrade:
@@ -941,7 +933,6 @@ export const FR = {
     HighlightUnderLevel20: "...that are under level 20",
     HighlightUnderLevel30: "...that are under level 30",
     Logout: "You Are Logged Out",
-    LogoutDesc: "You have logged in on another device, this device are logged out",
     ConstructionStatusQueueingV2: "Queueing",
     ConstructionStatusPausedV2: "Paused",
     ConstructionStatusBuildingV2: "Building",
@@ -951,7 +942,6 @@ export const FR = {
     CostFree: "Free",
     PlaceBlueprint: "Place a building blueprint is free",
     PlayerTradePriceNotValidV2: "Trade price must be between %{min} and %{max}",
-    PlayerTradeNowAllowed: "Player trades are not available within 24 hours after you've restored/imported a save",
     MarketNews: "Market News",
     MarketNewsApplyToYou: "Only you",
     MarketNewsApplyToGlobal: "Global",
@@ -1010,4 +1000,10 @@ export const FR = {
     ItsAllGreenDesc: "Have 50 production lines and no production deficit at all",
     DeepInRed: "Deep In Red",
     DeepInRedDesc: "Have 50 production lines that has production deficit",
+    UseScientificNotation: "Use Scientific Notation",
+    UseScientificNotationDesc: "Use scientific notation (e notation) for numbers larger than 999.9T",
+    LogoutDescV2:
+        "You have logged in on another device, this device is logged out. You can log back in but the other device will be logged out",
+    LogBackIn: "Log Back In",
+    PlayerTradeNowAllowedV2: "Player trades are not available within %{hour} hours of restoring/importing a save",
 };

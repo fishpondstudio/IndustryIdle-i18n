@@ -291,8 +291,6 @@ export const DE = {
     AllowZoomMobileDesc:
         "Aktivieren Sie die Zoomunterstützung. Sie können zum Zoomen kneifen. Aktueller Zoom ist %{zoom}",
     Settings: "Einstellungen",
-    SellBuildingFullRefundDesc:
-        "Die Gebäuderückgewinnungsrichtlinie ist aktiv. Wenn Sie ein Gebäude verkaufen, erhalten Sie die volle Rückerstattung bis in %{time}",
     Sound: "Sound-Effekt",
     SoundDesc: "Aktivieren Sie Soundeffekte wie Klick- oder Fehlersound",
     AutoHighlight: "Automatische Markierung",
@@ -358,7 +356,6 @@ export const DE = {
     WholesaleCenter: "Großhandelszentrum",
     OrderFrom: "Bestellung von %{name}",
     ExpireIn: "läuft aus in",
-    NotMakingProfitWarning: "💡 Die Produktion ist nicht rentabel, überlegen Sie, ob Sie es herunterfahren möchten",
     TurnOnAllProductions: "Produktion An",
     TurnOnAllProductionsDesc:
         "Produktionen aller Gebäude einschalten, kann nicht verwendet werden, wenn die Kostensparrichtlinie aktiv ist",
@@ -420,9 +417,6 @@ export const DE = {
     SolarPanelAlwaysWorkDesc: "Solarzellen arbeiten 100% der Zeit, produzieren aber 60% weniger Strom",
     SteelScience: "Wissen durch Stahl",
     SteelScienceDesc: "Stahlwerke verbrauchen 2x Ressourcen und produzieren zusätzlich Wissenschaftspunkte",
-    ShowWarehouse: "Lager freischalten",
-    ShowWarehouseDesc:
-        "Ein Lagerhaus ist ein spezielles Gebäude, das nur Ressourcen transportiert und lagert und Kraftstoff spart (KOSTENLOSE RICHTLINIEN).",
     WholesaleCenterProducingOnly: "Großhandelspartner",
     WholesaleCenterProducingOnlyDesc:
         "Großhandelszentrum-Bestellungen enthalten nur Ressourcen, deren Fabriken Sie gebaut haben (Sie müssen auch die Anzahl der erforderlichen Ressourcen produzieren, um das Großhandelszentrum freizuschalten).",
@@ -627,8 +621,6 @@ export const DE = {
     SortByStorage: "Lager",
     SortByProduction: "Produktion",
     SortByName: "Name",
-    BuildingInProgressCannotPrestige:
-        "Es laufen noch Bauarbeiten, Sie können nicht in einer neuen Stadt beginnen, bis sie fertig sind",
     PlayerTrade: "Spielerhandel",
     AddTradeFail: "Fehler beim Hinzufügen Ihres Handels",
     AddTradeExceedMaximumTrade:
@@ -933,7 +925,6 @@ export const DE = {
     HighlightUnderLevel20: "...that are under level 20",
     HighlightUnderLevel30: "...that are under level 30",
     Logout: "You Are Logged Out",
-    LogoutDesc: "You have logged in on another device, this device are logged out",
     ConstructionStatusQueueingV2: "Queueing",
     ConstructionStatusPausedV2: "Paused",
     ConstructionStatusBuildingV2: "Building",
@@ -943,7 +934,6 @@ export const DE = {
     CostFree: "Free",
     PlaceBlueprint: "Place a building blueprint is free",
     PlayerTradePriceNotValidV2: "Trade price must be between %{min} and %{max}",
-    PlayerTradeNowAllowed: "Player trades are not available within 24 hours after you've restored/imported a save",
     MarketNews: "Market News",
     MarketNewsApplyToYou: "Only you",
     MarketNewsApplyToGlobal: "Global",
@@ -1002,4 +992,10 @@ export const DE = {
     ItsAllGreenDesc: "Have 50 production lines and no production deficit at all",
     DeepInRed: "Deep In Red",
     DeepInRedDesc: "Have 50 production lines that has production deficit",
+    UseScientificNotation: "Use Scientific Notation",
+    UseScientificNotationDesc: "Use scientific notation (e notation) for numbers larger than 999.9T",
+    LogoutDescV2:
+        "You have logged in on another device, this device is logged out. You can log back in but the other device will be logged out",
+    LogBackIn: "Log Back In",
+    PlayerTradeNowAllowedV2: "Player trades are not available within %{hour} hours of restoring/importing a save",
 };

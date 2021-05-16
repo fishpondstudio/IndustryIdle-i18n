@@ -292,8 +292,6 @@ export const RU = {
     AllowZoomMobileDesc:
         "Включите поддержку масштабирования. Вы можете нажать, чтобы увеличить масштаб. Текущий масштаб %{zoom}",
     Settings: "Настройки",
-    SellBuildingFullRefundDesc:
-        "Политика Утилизация зданий активна, продавая здание, вы получаете полный возврат средств в течение %{time}",
     Sound: "Звуковой эффект",
     SoundDesc: "Включите звуковой эффект, как например, щелчок или звук ошибки",
     AutoHighlight: "Автоматическое выделение",
@@ -358,7 +356,6 @@ export const RU = {
     WholesaleCenter: "Центр оптовых продаж",
     OrderFrom: "Заказ от %{name}",
     ExpireIn: "Срок действия",
-    NotMakingProfitWarning: "💡 Производство не рентабельно, рассмотрите возможность его закрытия",
     TurnOnAllProductions: "Производство включено",
     TurnOnAllProductionsDesc:
         "Включить производство во всех зданиях, нельзя использовать при активной политике Экономия затрат",
@@ -419,9 +416,6 @@ export const RU = {
     SolarPanelAlwaysWorkDesc: "Солнечные панели работает 100% времени, но производят на 60% меньше энергии",
     SteelScience: "Знания благодаря стали",
     SteelScienceDesc: "Сталелитейные заводы используют в 2 раза больше сырья и производят дополнительную науку",
-    ShowWarehouse: "Разблокировать склад",
-    ShowWarehouseDesc:
-        "Склад - это специальное здание, которое обеспечивает только перевозку и хранение ресурсов, а также экономию топлива (БЕСПЛАТНАЯ ПОЛИТИКА)",
     WholesaleCenterProducingOnly: "Оптовые партнеры",
     WholesaleCenterProducingOnlyDesc:
         "Заказы оптового центра содержат только те ресурсы, которые производятся в данный момент (вам также необходимо производить необходимое количество ресурсов, чтобы разблокировать Центр оптовых продаж)",
@@ -624,8 +618,6 @@ export const RU = {
     SortByStorage: "Месту хранения",
     SortByProduction: "Продукции",
     SortByName: "Имени",
-    BuildingInProgressCannotPrestige:
-        "У вас идет строительство зданий, вы не можете начать строительство в новом городе, пока строительство не будет закончено",
     PlayerTrade: "Торговля между игроками",
     AddTradeFail: "Не удалось добавить вашу сделку",
     AddTradeExceedMaximumTrade:
@@ -930,7 +922,6 @@ export const RU = {
     HighlightUnderLevel20: "...которые ниже 20-го уровня",
     HighlightUnderLevel30: "...которые ниже 30-го уровня",
     Logout: "Выход из системы",
-    LogoutDesc: "Вы уже выполнили вход на другом устройстве. Данная сессия завершена",
     ConstructionStatusQueueingV2: "В очереди",
     ConstructionStatusPausedV2: "На паузе",
     ConstructionStatusBuildingV2: "Строится",
@@ -940,7 +931,6 @@ export const RU = {
     CostFree: "Бесплатно",
     PlaceBlueprint: "Place a building blueprint is free",
     PlayerTradePriceNotValidV2: "Trade price must be between %{min} and %{max}",
-    PlayerTradeNowAllowed: "Player trades are not available within 24 hours after you've restored/imported a save",
     MarketNews: "Market News",
     MarketNewsApplyToYou: "Only you",
     MarketNewsApplyToGlobal: "Global",
@@ -999,4 +989,10 @@ export const RU = {
     ItsAllGreenDesc: "Have 50 production lines and no production deficit at all",
     DeepInRed: "Deep In Red",
     DeepInRedDesc: "Have 50 production lines that has production deficit",
+    UseScientificNotation: "Use Scientific Notation",
+    UseScientificNotationDesc: "Use scientific notation (e notation) for numbers larger than 999.9T",
+    LogoutDescV2:
+        "You have logged in on another device, this device is logged out. You can log back in but the other device will be logged out",
+    LogBackIn: "Log Back In",
+    PlayerTradeNowAllowedV2: "Player trades are not available within %{hour} hours of restoring/importing a save",
 };
