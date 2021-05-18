@@ -976,7 +976,6 @@ export const RU = {
     BuildingResourceConversion: "%{resource} конвертировано",
     AllTimeSwissMoneyEarned: "Заработанные за все время Индустриальные кредиты: %{number}",
     BuildingUpgradeCostDivider: "Делитель стоимости модернизации здания",
-    BuildingUpgradeCostDividerDesc: "Разделите стоимость строительства и модернизации здания на этот делитель",
     AchievementSoftwareGiant: "Гигант программного обеспечения",
     AchievementSoftwareGiantDesc:
         "Постройте на одной карте Компанию 'Программное обеспечение' 10 уровня, Компанию 'Операционная система' 10 уровня, Компанию 'База данных' 10 уровня и Веб-браузер 10 уровня",
@@ -997,4 +996,9 @@ export const RU = {
     LogBackIn: "Войти снова",
     PlayerTradeNowAllowedV2:
         "Торговля между игроками недоступна в течение %{hour} часов после восстановления/импорта сохранения",
+    ServerDisconnected:
+        "You are disconnected from the server, please check your internet connection and restart the game",
+    BuildingUpgradeCostDividerDescV2: "Divide building upgrade cost by this divider",
+    ResourceBoosterBannerDesc:
+        "💡 You currently have %{number} resource boosters - the power and science input of each is scaled to the number of resource boosters you currently have",
 };

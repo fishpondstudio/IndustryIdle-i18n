@@ -973,12 +973,12 @@ export const DE = {
     BuildWarningTitleDesc: "%{reason}. Sind Sie sicher, dass Sie auf dieser Zelle zu bauen wollen?",
     BuildWarningBuildAnyway: "Trotzdem bauen",
     ResourceBoosterNotWorking: "⛔ Ressourcen-Verstärker funktionieren nur in der Nähe von Lagerstätten",
-    ResourceBoosterPercentage: "💡 Dieses Gebäude bekommt %{percent} Austragserhörhung von benachbarten Ressourcen-Verstärkern",
+    ResourceBoosterPercentage:
+        "💡 Dieses Gebäude bekommt %{percent} Austragserhörhung von benachbarten Ressourcen-Verstärkern",
     ResourceBoosterBuildings: "Gebäude werden verstärkt",
     BuildingResourceConversion: "%{resource} Umwandlung",
     AllTimeSwissMoneyEarned: "Gesamstmenge Schweizer Franken: %{number}",
     BuildingUpgradeCostDivider: "Gebäude-Upgrade-Kostenteiler",
-    BuildingUpgradeCostDividerDesc: "Teilen Sie die Bau- und Aufrüstungskosten durch diesen Teiler",
     AchievementSoftwareGiant: "Software Gigant",
     AchievementSoftwareGiantDesc:
         "Erstellen Sie auf derselben Karte ein Softwareunternehmen der Stufe 10, ein Betriebssystemunternehmen der Stufe 10, ein Datenbankunternehmen der Stufe 10 und einen Webbrowser der Stufe 10",
@@ -986,15 +986,23 @@ export const DE = {
     AchievementSpaceRaceDesc:
         "Baue auf derselben Karte eine Raketenfabrik der Stufe 10, eine Satellitenfabrik der Stufe 10, eine Raumschifffabrik der Stufe 10 und eine Raumstationsfabrik der Stufe 10",
     AchievementToTheMoon: "Zum Mond",
-    AchievementToTheMoonDesc: "Baue eine Bitcoin-Farm der Stufe 40 und eine Dogecoin-Farm der Stufe 40. Besitze 1B Bitcoin und 1B Dogecoin",
+    AchievementToTheMoonDesc:
+        "Baue eine Bitcoin-Farm der Stufe 40 und eine Dogecoin-Farm der Stufe 40. Besitze 1B Bitcoin und 1B Dogecoin",
     ItsAllGreen: "Alles ist grün",
     ItsAllGreenDesc: "Haben Sie 50 Produktionslinien und überhaupt kein Produktionsdefizit",
     DeepInRed: "Tiefrot",
     DeepInRedDesc: "Haben Sie 50 Produktionslinien mit Produktionsdefizit",
     UseScientificNotation: "Verwenden Sie die wissenschaftliche Zahlen",
-    UseScientificNotationDesc: "Verwenden Sie die wissenschaftliche Zahlen (e Nummernsystem) für Zahlen größer als 999,9T",
+    UseScientificNotationDesc:
+        "Verwenden Sie die wissenschaftliche Zahlen (e Nummernsystem) für Zahlen größer als 999,9T",
     LogoutDescV2:
         "Sie haben sich auf einem anderen Gerät angemeldet, dieses Gerät ist abgemeldet. Sie können sich wieder anmelden, aber das andere Gerät wird abgemeldet ",
-     LogBackIn: "Anmelden",
-    PlayerTradeNowAllowedV2: "Spieler-Trades sind innerhalb von %{hour} nicht verfügbar, nach of Wiederherstellen / Importieren eines Spielstandes",
+    LogBackIn: "Anmelden",
+    PlayerTradeNowAllowedV2:
+        "Spieler-Trades sind innerhalb von %{hour} nicht verfügbar, nach of Wiederherstellen / Importieren eines Spielstandes",
+    ServerDisconnected:
+        "You are disconnected from the server, please check your internet connection and restart the game",
+    BuildingUpgradeCostDividerDescV2: "Divide building upgrade cost by this divider",
+    ResourceBoosterBannerDesc:
+        "💡 You currently have %{number} resource boosters - the power and science input of each is scaled to the number of resource boosters you currently have",
 };
