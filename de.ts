@@ -111,7 +111,7 @@ export const DE = {
     SellAll: "verkaufe ALLES",
     Change: "ändern",
     StatisticsBureau: "Statistik Agentur",
-    LogisticsDepartment: "Logistik Insitut",
+    LogisticsDepartment: "Logistik Institut",
     From: "Von",
     Top20FuelCost: "Top 20 Treibstoffverbraucher",
     To: "Zu",
@@ -796,7 +796,7 @@ export const DE = {
     Fiber: "Glasfaser",
     Achievements: "Errungenschaften",
     AchievementsDesc: "Du hast %{number} von %{total} Errungenschaften erreicht",
-    AchievementsReward: "Belhonung: Schweizer Franken +%{swiss}",
+    AchievementsReward: "Belohnung: Schweizer Franken +%{swiss}",
     AchievementsRewardToast: "Sie haben die Belohnung beansprucht:  Schweizer Franken +%{swiss}",
     AchievementsClaim: "Einsammeln",
     AchievementsToast: "Du hast %{name} erreicht, fordern Sie Ihre Belohnung im Hauptquartier an",
@@ -952,7 +952,7 @@ export const DE = {
     Tutorial4P1:
         "Der Transport von Ressourcen kostet Kraftstoff. Es gibt verschiedene Kraftstoffarten, momentan verwenden Sie <em>petrol⛽</em> als Kraftstoff. Sie haben eine <em>Ölraffinerie</em> welche das Öl auf der Ölquelle verbraucht und Benzin herstellt.<br><br>Die kleinen bewegenden <em>Punkte</em> stellen den Transport der Ressourcen dar. Sie sollten Ihre Gebäudestandorte optimieren, um die Distanz zu minimieren.<br><br><em>Aufwerten</em> deiner Gebäude erhöht deren Produktion, aber erhöht ebenfalls deren Stromverbrauch, sowie die benötigten Ressourcen.",
     Tutorial4P2:
-        "Sie können Ihren Kraftstofftyp im <em>Logitik Insitut🚦</em> ändern- auf dieser Karte, können Sie auch <em>Erdgas</em> als Kraftstoff verwenden.<br><br>Das Logitik Institut zeigt auch Ihre Transportwege an, auf denen der meiste Kraftstoff verbraucht wird - Sie sollten es im Auge behalten.<br><br>Denken Sie daran, <em> sicherzustellen, dass Ihre Kraftstoffproduktion über dem Verbrauch liegt </em>, da sonst Ihre Produktion stoppt, wenn Ihnen der Kraftstoff ausgeht.<br><br>Machen Sie sich in diesem Fall keine Sorgen, Sie können notfalls Treibstoff im Handelszentrum oder bei anderen Spielern kaufen",
+        "Sie können Ihren Kraftstofftyp im <em>Logitik Institut🚦</em> ändern- auf dieser Karte, können Sie auch <em>Erdgas</em> als Kraftstoff verwenden.<br><br>Das Logitik Institut zeigt auch Ihre Transportwege an, auf denen der meiste Kraftstoff verbraucht wird - Sie sollten es im Auge behalten.<br><br>Denken Sie daran, <em> sicherzustellen, dass Ihre Kraftstoffproduktion über dem Verbrauch liegt </em>, da sonst Ihre Produktion stoppt, wenn Ihnen der Kraftstoff ausgeht.<br><br>Machen Sie sich in diesem Fall keine Sorgen, Sie können notfalls Treibstoff im Handelszentrum oder bei anderen Spielern kaufen",
     Tutorial5P2:
         "<em>Die Statistik Agentur📊</em> bietet einen guten Überblick deiner Produktion. Sie können eine detaillierte Aufschlüsselung Ihrer Ressourcenein- und -ausgabe sehen.<br><br>Es gibt auch viele nützliche Diagramme📈 - Sie sollten sich auf diese beziehen, wenn Sie Ihre Produktion ausbalancieren.<br></br>Dein <em>Geld💰, Stromüberschuss⚡ und Kraftstoffüberschuss⛽</em> -zahlen werden auch in der oberen linken Ecke angezeigt. Wenn eine davon rot wird, sollten Sie untersuchen, was los ist.",
     MusicProducer: "Musikproduzent",
