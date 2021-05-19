@@ -912,7 +912,6 @@ export const ZH_TW = {
     BuildingResourceConversion: "%{resource} Conversion",
     AllTimeSwissMoneyEarned: "All time Swiss Money earned: %{number}",
     BuildingUpgradeCostDivider: "Building Upgrade Cost Divider",
-    BuildingUpgradeCostDividerDesc: "Divide building construction and upgrade cost by this divider",
     AchievementSoftwareGiant: "Software Giant",
     AchievementSoftwareGiantDesc:
         "Build a level 10 Software Company, level 10 Operating System Inc, level 10 Database Company and level 10 Web Browser on the same map",
@@ -932,4 +931,10 @@ export const ZH_TW = {
         "You have logged in on another device, this device is logged out. You can log back in but the other device will be logged out",
     LogBackIn: "Log Back In",
     PlayerTradeNowAllowedV2: "Player trades are not available within %{hour} hours of restoring/importing a save",
+    ServerDisconnected:
+        "You are disconnected from the server, please check your internet connection and restart the game",
+    BuildingUpgradeCostDividerDescV2: "Divide building upgrade cost by this divider",
+    ResourceBoosterBannerDesc:
+        "💡 You currently have %{number} resource boosters - the power and science input of each is scaled to the number of resource boosters you currently have",
+    ResourceBoosterDesc: "Boost the output of adjacent mines",
 };
