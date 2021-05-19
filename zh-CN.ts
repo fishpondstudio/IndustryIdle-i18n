@@ -935,4 +935,5 @@ export const ZH_CN = {
     BuildingUpgradeCostDividerDescV2: "Divide building upgrade cost by this divider",
     ResourceBoosterBannerDesc:
         "💡 You currently have %{number} resource boosters - the power and science input of each is scaled to the number of resource boosters you currently have",
+    ResourceBoosterDesc: "Boost the output of adjacent mines",
 };

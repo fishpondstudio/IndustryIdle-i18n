@@ -131,7 +131,8 @@ export const PT_BR = {
     CarFactory: "Fábrica de Carros",
     Ship: "Navio",
     SolarPanel: "Painel Solar",
-    SolarPanelDesc: "💡 Painéis Solares trabalham apenas 5 segundos em cada 10 segundos - todos os ciclos estão alinhados",
+    SolarPanelDesc:
+        "💡 Painéis Solares trabalham apenas 5 segundos em cada 10 segundos - todos os ciclos estão alinhados",
     WindTurbineDesc: "💡 Turbinas eólicas trabalham apenas 8 segundos em cada 10 segundos - ciclos não estão alinhados",
     Movie: "Filme",
     MovieStudio: "Estúdio de filmagem",
@@ -152,7 +153,8 @@ export const PT_BR = {
     ResourceOutput: "Saída",
     ResourceStorage: "Armazém",
     ResourceChange: "Mudança",
-    ResourceInOutDesc: "💡 Clique nos números de Entrada-Saída acima para realçar as correspondentes construções de saída e entrada",
+    ResourceInOutDesc:
+        "💡 Clique nos números de Entrada-Saída acima para realçar as correspondentes construções de saída e entrada",
     ResourceChart: "Gráfico de Recursos",
     MarketUpdateIn: "Atualização de mercado em %{time}",
     Income: "Renda",
@@ -190,7 +192,8 @@ export const PT_BR = {
     ChromiumAlloyPlant: "Planta de Liga de Cromo",
     Input: "Entrada",
     PanelPosition: "Posição do painel",
-    PanelPositionDesc: "Mostrar painel lateral à esquerda, direita ou automático (depende do bloco selecionado atualmente)",
+    PanelPositionDesc:
+        "Mostrar painel lateral à esquerda, direita ou automático (depende do bloco selecionado atualmente)",
     InputCapacity: "Capacidade de entrada",
     InputCapacityPerCycle: "Capacidade de entrada por Ciclo",
     Output: "Saída",
@@ -205,7 +208,8 @@ export const PT_BR = {
     AlwaysTransportInputTradeCenter: "Sempre exportar",
     AlwaysTransportInputTradeCenterDesc:
         "Sempre transportar recursos ao centro comercial, mesmo se a venda automática estiver desabiltada para este recurso",
-    AlwaysTransportInputDesc: "Sempre transporte recursos de entrada, mesmo se eles estiverem acima do requisito mínimo de produção",
+    AlwaysTransportInputDesc:
+        "Sempre transporte recursos de entrada, mesmo se eles estiverem acima do requisito mínimo de produção",
     ProductionCycleLength: "Ciclo de produção",
     ProductionCycleLengthDesc:
         "Duração de um ciclo de produção, mensurado em segundos. Prolongar o clico irá aumentar a entrada/saída por ciclo consequentemente diminuindo sua prioridade ao buscar recursos de entrada",
@@ -213,7 +217,8 @@ export const PT_BR = {
     MaxInputDistanceDesc:
         "A distância máxima a partir da qual este edifício pode buscar recursos de entrada, medida em número de blocos",
     AutoSellCapacity: "Capacidade de Venda Automática",
-    AutoSellCapacityDesc: "Quantidade máxima de recursos que a venda automática pode manipular por segundo, por recurso",
+    AutoSellCapacityDesc:
+        "Quantidade máxima de recursos que a venda automática pode manipular por segundo, por recurso",
     CurrentAutoSellCapacityMultiplier: "Multiplicador atual: x%{n}",
     AutoSellConcurrency: "Simultaneidade de venda automática",
     AutoSellConcurrencyDesc: "Número máximo de recursos que a venda automática pode gerenciar ao mesmo tempo",
@@ -278,7 +283,8 @@ export const PT_BR = {
     OfflineEarningTime: "Tempo de ganho offline",
     OfflineEarningTimeDesc: "Você ganhará ganhos off-line por até esse limite",
     BuyPermit: "Comprar permissão",
-    NotEnoughBuildingPermit: "Não há licenças de construção suficientes. Por favor, compre mais para construir novos edifícios",
+    NotEnoughBuildingPermit:
+        "Não há licenças de construção suficientes. Por favor, compre mais para construir novos edifícios",
     MovingAverage: "Média Móvel",
     MovingAverageDesc: "Mostra a média móvel de mudança de recursos em vez de mudança em tempo real",
     AllowZoom: "Zoom",
@@ -350,7 +356,8 @@ export const PT_BR = {
     OrderFrom: "Ordem de %{name}",
     ExpireIn: "Expira em",
     TurnOnAllProductions: "Produção Ligada",
-    TurnOnAllProductionsDesc: "Ligue as produções de todos os edifícios, não pode ser usado quando a política de economia de custos está ativa",
+    TurnOnAllProductionsDesc:
+        "Ligue as produções de todos os edifícios, não pode ser usado quando a política de economia de custos está ativa",
     OperationSuccessful: "Essa operação foi concluída com sucesso",
     TurnOn: "Ligar",
     Reward: "Recompensa",
@@ -373,7 +380,8 @@ export const PT_BR = {
     PolicyNotEnoughTime: "Você não tem pontos de política suficientes para esta política",
     TimeLeft: "%{time} Restante",
     WholesaleCenterOrderFaster: "Feira mundial",
-    WholesaleCenterOrderFasterDesc: "A Central de atacado recebe pedidos 2x mais rápido e o tamanho do pedido é 2x maior",
+    WholesaleCenterOrderFasterDesc:
+        "A Central de atacado recebe pedidos 2x mais rápido e o tamanho do pedido é 2x maior",
     PolicyOilWellPowerx2: "Sobrecarregar Poço de Petróleo",
     PolicyOilWellPowerx2Desc: "Poços de petróleo produzem 2x mais óleo e usam 2x mais energia",
     HalfTransportSpeed: "Diminua A Velocidade Para Economizar",
@@ -394,7 +402,8 @@ export const PT_BR = {
     CostSaverDesc: "Se a entrada de um edifício custar mais do que sua produção, desligue a produção",
     CostSaverBuildingDesc:
         "A política de redução de custos está ativa, a produção será ligada / desligada automaticamente com base em sua lucratividade",
-    CostSaverBuildingWarning: "A política de redução de custos está ativa, você não pode alterar manualmente a produção",
+    CostSaverBuildingWarning:
+        "A política de redução de custos está ativa, você não pode alterar manualmente a produção",
     GlassUseCoal: "Vidro Negro",
     GlassUseCoalDesc: "As fábricas de vidro usam 50% mais carvão e 50% menos silício",
     AdjacentBonusOnlyOutput: "Bônus Adjacente Plus",
@@ -975,4 +984,5 @@ export const PT_BR = {
     BuildingUpgradeCostDividerDescV2: "Divide building upgrade cost by this divider",
     ResourceBoosterBannerDesc:
         "💡 You currently have %{number} resource boosters - the power and science input of each is scaled to the number of resource boosters you currently have",
+    ResourceBoosterDesc: "Boost the output of adjacent mines",
 };
