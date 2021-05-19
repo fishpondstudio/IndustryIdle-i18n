@@ -997,8 +997,8 @@ export const RU = {
     PlayerTradeNowAllowedV2:
         "Торговля между игроками недоступна в течение %{hour} часов после восстановления/импорта сохранения",
     ServerDisconnected:
-        "You are disconnected from the server, please check your internet connection and restart the game",
-    BuildingUpgradeCostDividerDescV2: "Divide building upgrade cost by this divider",
+        "Вы отключены от сервера, пожалуйста, проверьте подключение к интернету и перезапустите игру",
+    BuildingUpgradeCostDividerDescV2: "Разделите стоимость модернизации здания на этот делитель",
     ResourceBoosterBannerDesc:
-        "💡 You currently have %{number} resource boosters - the power and science input of each is scaled to the number of resource boosters you currently have",
+        "💡 У вас есть %{number} ускорителей ресрсов - мощность и научный вклад каждого из них зависят от количества имеющихся у вас ускорителей ресурсов",
 };
