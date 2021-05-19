@@ -913,7 +913,6 @@ export const ZH_CN = {
     BuildingResourceConversion: "%{resource}转换",
     AllTimeSwissMoneyEarned: "总共赚取的瑞士货币%{number}",
     BuildingUpgradeCostDivider: "建筑升级成本除数",
-    BuildingUpgradeCostDividerDesc: "建造和升级建筑的成本将除以该除数",
     AchievementSoftwareGiant: "软件巨头",
     AchievementSoftwareGiantDesc:
         "在一张地图上建造了10级软件公司，10级操作系统公司，10级数据库公司和10级网络浏览器各一座",
@@ -931,4 +930,10 @@ export const ZH_CN = {
         "You have logged in on another device, this device is logged out. You can log back in but the other device will be logged out",
     LogBackIn: "Log Back In",
     PlayerTradeNowAllowedV2: "Player trades are not available within %{hour} hours of restoring/importing a save",
+    ServerDisconnected:
+        "You are disconnected from the server, please check your internet connection and restart the game",
+    BuildingUpgradeCostDividerDescV2: "Divide building upgrade cost by this divider",
+    ResourceBoosterBannerDesc:
+        "💡 You currently have %{number} resource boosters - the power and science input of each is scaled to the number of resource boosters you currently have",
+    ResourceBoosterDesc: "Boost the output of adjacent mines",
 };
