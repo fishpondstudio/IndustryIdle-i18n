@@ -976,4 +976,14 @@ export const JP = {
     ResourceBoosterBannerDesc:
         "💡 You currently have %{number} resource boosters - the power and science input of each is scaled to the number of resource boosters you currently have",
     ResourceBoosterDesc: "Boost the output of adjacent mines",
+    BlockUserChatTitle: "Block %{user}",
+    BlockUserChatAction: "Block",
+    BlockUserChatDesc:
+        "The block will be in effect during this game session and you cannot undo this unless you restart the game",
+    AtomicBombFactory: "Atomic Bomb Factory",
+    AtomicBomb: "Atomic Bomb",
+    DynamiteFactory: "Dynamite Factory",
+    Dynamite: "Dynamite",
+    NuclearMissileFactory: "Nuclear Missile Factory",
+    NuclearMissile: "Nuclear Missile",
 };

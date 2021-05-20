@@ -1001,4 +1001,14 @@ export const RU = {
     ResourceBoosterBannerDesc:
         "💡 У вас есть %{number} ускорителей ресрсов - мощность и научный вклад каждого из них зависят от количества имеющихся у вас ускорителей ресурсов",
     ResourceBoosterDesc: "Boost the output of adjacent mines",
+    BlockUserChatTitle: "Block %{user}",
+    BlockUserChatAction: "Block",
+    BlockUserChatDesc:
+        "The block will be in effect during this game session and you cannot undo this unless you restart the game",
+    AtomicBombFactory: "Atomic Bomb Factory",
+    AtomicBomb: "Atomic Bomb",
+    DynamiteFactory: "Dynamite Factory",
+    Dynamite: "Dynamite",
+    NuclearMissileFactory: "Nuclear Missile Factory",
+    NuclearMissile: "Nuclear Missile",
 };
