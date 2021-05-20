@@ -1,6 +1,6 @@
 export const ZH_TW = {
     Translator: "譯者",
-    TranslatorName: "LazySu, snewpeap, Orange233",
+    TranslatorName: "LazySu, snewpeap, Orange233, stm66666",
     Language: "語言",
     ThisLanguage: "繁體中文",
     OK: "好的",
@@ -589,7 +589,7 @@ export const ZH_TW = {
     AcceptTradeFail: "無法接受此交易，請稍後再試",
     PlayerTradeBanner: "與其他玩家交易資源",
     PlayerTradeResource: "資源",
-    PlayerTradeAmount: "金額",
+    PlayerTradeAmount: "交易數量",
     PlayerTradePrice: "價格 $",
     PlayerTradeValue: "價值 $",
     PlayerTradeWaiting: "正在等待...",
@@ -844,7 +844,7 @@ export const ZH_TW = {
         "<li>發動機工廠已預先解鎖</li><li>發動機工廠的產出量是原來的2倍</li><li>汽車工廠的生產能力是原來的2倍</li><li >汽車工廠使用天然氣替代汽油</li><li>汽車運輸免費</li><li>尼古拉.特斯拉政策免政策點</li><li>火車工廠的生產能力是原來的2倍</li>",
     SaveAndExit: "保存並退出遊戲",
     SaveAndExitDesc: "保存並退出遊戲。 這僅在Steam版本上可用，並且與窗口欄上的關閉按鈕相同",
-    AutoSellResourceWarningShortLabel: "💡汽車銷售",
+    AutoSellResourceWarningShortLabel: "💡自動銷售",
     AutoSellResourceWarningDesc: "您正在自動出售此資源，此處無法使用貿易中心中存儲的金額",
     PlayerTradeLocalPrice: "當地價格: %{price}",
     ChatForceScroll: "強制滾動",
@@ -881,7 +881,7 @@ export const ZH_TW = {
     MarketNewsDecrease: "減少了 %{percent}",
     MarketNewsBuilding: "該建築物受到%{num}條新聞的影響",
     StockholmBonusV2:
-        "<li>Unique building: music producer</li><li>Logging camps have 2x output</li><li>Paper mills are unlocked</li><li>Circuit foundries have 2x productivity</li><li>Science Literature policy is free</li>",
+        "<li>獨特建築:音樂作坊</li><li>伐木場的產量是原來的2倍</li><li>開局即解鎖造紙廠</li><li>電路板廠的產能是原來的2倍</li><li>科學文獻政策免費</li>",
     OsloBonusV2:
         "<li>Oil refineries are unlocked</li><li>Oil refineries have 2x capacity</li><li>Electric oil transport policy is free</li><li>Gas processing plants have 2x capacity</li><li>Free level 4 wind turbine x1</li><li>Free level 4 oil well x1</li><li>Free level 2 oil refinery x1</li><li>Free level 2 natural gas pump x1</li>",
     FreeOilTransportV2: "Electric Oil Transport",
@@ -891,7 +891,7 @@ export const ZH_TW = {
         "You can change your fuel type in the <em>logistics department🚦</em> - on this map, you can also use <em>natural gas</em> as fuel.<br><br>The logistics department also shows your transportation routes that burns most fuel - you'll want to keep an eye on it.<br><br>Remember to <em>make sure your fuel production is above consumption</em> otherwise your production will halt when you run out of fuel.<br><br>If that happens, don't worry, you can buy some emergency fuel from the trade center or from other players",
     Tutorial5P2:
         "<em>The statistics bureau📊</em> provides a good overview of your production. You can see a detailed breakdown of your resource input and output.<br><br>There are also lots of useful charts📈 - you'll want to refer to them when you balance your production.<br></br>Your <em>cash💰, power surplus⚡ and fuel surplus⛽</em> numbers are also shown on the top left corner - if any of them turns red, you should investigate what's going on.",
-    MusicProducer: "Music Producer",
+    MusicProducer: "音樂作坊",
     PlasticFiber: "塑膠光纖",
     PlasticFiberDesc: "光纖工廠使用的塑膠增加50％，玻璃減少50％",
     NewsEffectx2: "新聞發布會",
@@ -901,7 +901,7 @@ export const ZH_TW = {
     SellBuildingDescV2: "出售建築物將退還您投資的%{percent}，並且%{percent}的資源將被運送到貿易中心",
     BuilderMoveSpeed: "建造者移動速度",
     BuilderMoveSpeedDesc: "建造者建造建築的速度",
-    EBookInc: "eBook Inc",
+    EBookInc: "電子書公司",
     ResourceBooster: "Resource Booster",
     BuildWarningTitle: "Building Might Not Work",
     BuildWarningTitleDesc: "%{reason}. Are you sure to build on this tile?",
@@ -925,11 +925,11 @@ export const ZH_TW = {
     ItsAllGreenDesc: "Have 50 production lines and no production deficit at all",
     DeepInRed: "Deep In Red",
     DeepInRedDesc: "Have 50 production lines that has production deficit",
-    UseScientificNotation: "Use Scientific Notation",
-    UseScientificNotationDesc: "Use scientific notation (e notation) for numbers larger than 999.9T",
+    UseScientificNotation: "使用科學記號",
+    UseScientificNotationDesc: "使用科學記號 (e 記號) 以表示大於 999.9T 的數值",
     LogoutDescV2:
-        "You have logged in on another device, this device is logged out. You can log back in but the other device will be logged out",
-    LogBackIn: "Log Back In",
+        "你已在其他裝置上登入, 此裝置將被登出. 你可以重新登入此裝置, 但另一裝置將被登出",
+    LogBackIn: "重新登入",
     PlayerTradeNowAllowedV2: "Player trades are not available within %{hour} hours of restoring/importing a save",
     ServerDisconnected:
         "You are disconnected from the server, please check your internet connection and restart the game",
