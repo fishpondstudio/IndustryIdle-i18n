@@ -939,7 +939,7 @@ export const RU = {
     MarketNewsFilterOutput: "Весь выход %{res} ",
     MarketNewsFilterBoth: "Весь вход и выход %{res} ",
     MarketNewsIncrease: "увеличился на %{percent}",
-    MarketNewsDecrease: "уменшился на %{percent}",
+    MarketNewsDecrease: "уменьшился на %{percent}",
     MarketNewsBuilding: "На это здание влияет %{num} новостей",
     StockholmBonusV2:
         "<li>Уникальное здание: Музыкальный продюсер</li><li>Лесозаготовки имеют 2Х производительность</li><li>Бумажные комбинаты разблокированы</li><li>Литейные цеха имеют 2Х производительность</li><li>Бесплатная политика Научная литература</li>",
