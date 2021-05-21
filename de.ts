@@ -392,7 +392,7 @@ export const DE = {
     RefineryMoreOilDesc: "Ölraffinerien produzieren 50% mehr Benzin und 50% weniger Kunststoff",
     StickyInput: "Sticky Input",
     StickyInputDesc:
-        "Gebäude bevorzugen den Transport aus nahen Quellen, anstatt in jedem Zyklus nach der besten Quelle zu suchen (KOSTENLOSE RICHTLINIE)",
+        "Gebäude bevorzugen den Transport aus der vorherigen Quelle(n), anstatt in jedem Zyklus nach der besten Quelle zu suchen (KOSTENLOSE RICHTLINIE)",
     RefineryMorePlastic: "Mehr Plastic Mehr Probleme",
     RefineryMorePlasticDesc: "Ölraffinerien produzieren 50% weniger Benzin und 50% mehr Kunststoff",
     FreeOilTransportDesc: "Der Öltransport kostet keinen Kraftstoff, aber Ölquellen verbrauchen 2x Strom",
