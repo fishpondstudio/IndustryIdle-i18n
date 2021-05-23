@@ -1020,4 +1020,6 @@ export const NL = {
     IronSteelZone: "Iron Steel Zone",
     IronSteelZoneDesc:
         "Resource booster provide a %{percent} output bonus to adjacent steel mills or stainless steel plants for each working iron mine it is boosting",
+    FuelDynamite: "Fuel Dynamite",
+    FuelDynamiteDesc: "Dynamite factories use your current fuel instead of oil",
 };
