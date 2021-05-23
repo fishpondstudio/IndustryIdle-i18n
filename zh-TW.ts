@@ -84,7 +84,8 @@ export const ZH_TW = {
     Rocket: "火箭",
     RocketFactory: "火箭工廠",
     BuildingPermit: "建築許可證",
-    BuildingPermitDesc: "您總共可以建造 %{amount} 座建築物，您已經建造了 %{amountBuilt} 座，還可以建造 %{amountLeft} 座",
+    BuildingPermitDesc:
+        "您總共可以建造 %{amount} 座建築物，您已經建造了 %{amountBuilt} 座，還可以建造 %{amountLeft} 座",
     BuildingLocked: "該建築物不可用，您需要先在研究室解鎖它",
     BuildQueue: "建造隊列",
     BuildQueueDesc: "目前在建造隊列中的建築數量",
@@ -928,8 +929,7 @@ export const ZH_TW = {
     ResourceBoosterDesc: "Boost the output of adjacent mines",
     BlockUserChatTitle: "封鎖 %{user}",
     BlockUserChatAction: "封鎖",
-    BlockUserChatDesc:
-        "封鎖會在本次遊戲中持續且無法解除 ,除非重啟遊戲",
+    BlockUserChatDesc: "封鎖會在本次遊戲中持續且無法解除 ,除非重啟遊戲",
     ChangeNameCooldown: "你每次更換名稱需間隔 %{hour} 小時",
     AtomicBombFactory: "原子彈工廠",
     AtomicBomb: "原子彈",

@@ -994,7 +994,7 @@ export const EN = {
     SteamAutoCloudBackupDescV2:
         "Your latest progress is saved to Steam Cloud and synced across devices. The game also backs up your save every 10 minutes automatically to Steam Cloud. You can force a backup at any time",
     SpaceColony: "Space Colony",
-    SpaceColonyInc: "Space Colony",
+    SpaceColonyInc: "Space Colony Inc",
     ProjectVostok: "Project Vostok",
     AdjacentBonusSquare: "Adjacent Bonus Square",
     AdjacentBonusSquareDesc: "Adjacent bonus is 50% more effective, but tile modifiers scale from -15% to +15%",
