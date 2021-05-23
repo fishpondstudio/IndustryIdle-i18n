@@ -238,8 +238,8 @@ export const PT_BR = {
     RatingSell: "Vender",
     SwissShop: "Loja Suíça",
     RatingHold: "Segurar",
-    RatingOutperform: "Exceder", // produtivo
-    RatingUnderperform: "Underperform", // improdutivo
+    RatingOutperform: "Exceder",
+    RatingUnderperform: "Underperform",
     StockRating: "Avaliação de ações",
     JetEngine: "Motor de jato",
     Helicopter: "Helicóptero",
@@ -849,8 +849,6 @@ export const PT_BR = {
     AchievementOsaka1000: "Kōshaku",
     AchievementOsaka1000Desc: "Earn 1000 Swiss Money in Osaka in a single run",
     SteamAutoCloudBackup: "Steam Cloud Auto Backup",
-    SteamAutoCloudBackupDesc:
-        "The game saves automatically to your local save. Your local save is synced to Steam Cloud every 10 minutes. You can force Steam cloud sync at any time.",
     SteamAutoCloudBackupFailed: "Steam Cloud Auto Backup Failed: %{error}",
     SteamManualBackup: "Forçar sincronização na nuvem do Steam",
     UILoading: "Carregando...",
@@ -987,4 +985,40 @@ export const PT_BR = {
     ResourceBoosterBannerDesc:
         "💡 Atualmente você possui %{number} impulsionadores de recursos - a energia e ciência de cada entrada é escalada junto ao número de impulsionadores de recursos que você possui atualmente",
     ResourceBoosterDesc: "Impulsiona a saída de minas adjacentes",
+    BlockUserChatTitle: "Block %{user}",
+    BlockUserChatAction: "Block",
+    BlockUserChatDesc:
+        "The block will be in effect during this game session and you cannot undo this unless you restart the game",
+    ChangeNameCooldown: "You can only change your name once every %{hour} hours",
+    AtomicBombFactory: "Atomic Bomb Factory",
+    AtomicBomb: "Atomic Bomb",
+    DynamiteFactory: "Dynamite Factory",
+    Dynamite: "Dynamite",
+    NuclearMissileFactory: "Nuclear Missile Factory",
+    NuclearMissile: "Nuclear Missile",
+    LiquidPropellantFactory: "Liquid Propellant Factory",
+    GasPropellantFactory: "Gas Propellant Factory",
+    Propellant: "Propellant",
+    ProjectV2: "Project V-2",
+    ICBMFactory: "ICBM Factory",
+    ICBM: "ICBM",
+    RadarFactory: "Radar Factory",
+    Radar: "Radar",
+    SpaceForceCommand: "Space Force Command",
+    SpaceForce: "Space Force",
+    SteamAutoCloudBackupDescV2:
+        "Your latest progress is saved to Steam Cloud and synced across devices. The game also backs up your save every 10 minutes automatically to Steam Cloud. You can force a backup at any time",
+    SpaceColony: "Space Colony",
+    SpaceColonyInc: "Space Colony",
+    ProjectVostok: "Project Vostok",
+    AdjacentBonusSquare: "Adjacent Bonus Square",
+    AdjacentBonusSquareDesc: "Adjacent bonus is 50% more effective, but tile modifiers scale from -15% to +15%",
+    ResourceBoosterSquare: "Resource Booster Square",
+    ResourceBoosterSquareDesc:
+        "Resource boosters provide 25% more boost but their science input and power usage also increase by 25%",
+    SteelMillx2: "Steel Furnace Modernization",
+    SteelMillx2Desc: "Steel mills and stainless steel plants have 2x capacity but uses 2x power",
+    IronSteelZone: "Iron Steel Zone",
+    IronSteelZoneDesc:
+        "Resource booster provide a %{percent} output bonus to adjacent steel mills or stainless steel plants for each working iron mine it is boosting",
 };

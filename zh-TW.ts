@@ -808,8 +808,6 @@ export const ZH_TW = {
     AchievementOsaka1000: "日本公爵",
     AchievementOsaka1000Desc: "在大阪一次性賺取1000瑞士貨幣",
     SteamAutoCloudBackup: "Steam雲 自動備份",
-    SteamAutoCloudBackupDesc:
-        "遊戲會自動保存到您的本地保存。您的本地保存每10分鐘同步到Steam Cloud。您可以隨時強制Steam雲同步。",
     SteamAutoCloudBackupFailed: "Steam雲 自動備份失敗: %{error}",
     SteamManualBackup: "強制Steam同步雲",
     UILoading: "載入中...",
@@ -913,26 +911,21 @@ export const ZH_TW = {
     AllTimeSwissMoneyEarned: "總體賺取的瑞士貨幣: %{number}",
     BuildingUpgradeCostDivider: "建築升級成本除數r",
     AchievementSoftwareGiant: "軟件巨人",
-    AchievementSoftwareGiantDesc:
-        "在同一地圖上建立10級軟件公司，10級操作系統公司，10級數據庫公司和10級網頁瀏覽器",
+    AchievementSoftwareGiantDesc: "在同一地圖上建立10級軟件公司，10級操作系統公司，10級數據庫公司和10級網頁瀏覽器",
     AchievementSpaceRace: "太空競賽",
-    AchievementSpaceRaceDesc:
-        "在同一地圖上建立10級火箭工廠，10級衛星工廠，10級太空船工廠和10級太空站工廠",
+    AchievementSpaceRaceDesc: "在同一地圖上建立10級火箭工廠，10級衛星工廠，10級太空船工廠和10級太空站工廠",
     AchievementToTheMoon: "去月球",
-    AchievementToTheMoonDesc:
-        "建立40級的比特幣農場和40級的狗狗幣農場。擁有1B比特幣和1B狗狗幣",
+    AchievementToTheMoonDesc: "建立40級的比特幣農場和40級的狗狗幣農場。擁有1B比特幣和1B狗狗幣",
     ItsAllGreen: "全是綠色",
     ItsAllGreenDesc: "擁有50條生產線，完全沒有生產赤字",
     DeepInRed: "深陷赤字",
     DeepInRedDesc: "有50條生產線出現生產赤字",
     UseScientificNotation: "使用科學計數法",
     UseScientificNotationDesc: "對大於999.9T的數字使用科學計數法（e計數法）",
-    LogoutDescV2:
-        "您已經在另一台設備上登錄，該設備已註銷。 您可以重新登錄，但另一台設備將被註銷",
+    LogoutDescV2: "您已經在另一台設備上登錄，該設備已註銷。 您可以重新登錄，但另一台設備將被註銷",
     LogBackIn: "重新登錄",
     PlayerTradeNowAllowedV2: "恢復/導入保存後的％{hour}小時內無法進行玩家交易",
-    ServerDisconnected:
-        "您已與服務器斷開連接，請檢查您的互聯網連接並重新啟動遊戲",
+    ServerDisconnected: "您已與服務器斷開連接，請檢查您的互聯網連接並重新啟動遊戲",
     BuildingUpgradeCostDividerDescV2: "Divide building upgrade cost by this divider",
     ResourceBoosterBannerDesc:
         "💡 You currently have %{number} resource boosters - the power and science input of each is scaled to the number of resource boosters you currently have",
@@ -941,10 +934,36 @@ export const ZH_TW = {
     BlockUserChatAction: "Block",
     BlockUserChatDesc:
         "The block will be in effect during this game session and you cannot undo this unless you restart the game",
+    ChangeNameCooldown: "You can only change your name once every %{hour} hours",
     AtomicBombFactory: "Atomic Bomb Factory",
     AtomicBomb: "Atomic Bomb",
     DynamiteFactory: "Dynamite Factory",
     Dynamite: "Dynamite",
     NuclearMissileFactory: "Nuclear Missile Factory",
     NuclearMissile: "Nuclear Missile",
+    LiquidPropellantFactory: "Liquid Propellant Factory",
+    GasPropellantFactory: "Gas Propellant Factory",
+    Propellant: "Propellant",
+    ProjectV2: "Project V-2",
+    ICBMFactory: "ICBM Factory",
+    ICBM: "ICBM",
+    RadarFactory: "Radar Factory",
+    Radar: "Radar",
+    SpaceForceCommand: "Space Force Command",
+    SpaceForce: "Space Force",
+    SteamAutoCloudBackupDescV2:
+        "Your latest progress is saved to Steam Cloud and synced across devices. The game also backs up your save every 10 minutes automatically to Steam Cloud. You can force a backup at any time",
+    SpaceColony: "Space Colony",
+    SpaceColonyInc: "Space Colony",
+    ProjectVostok: "Project Vostok",
+    AdjacentBonusSquare: "Adjacent Bonus Square",
+    AdjacentBonusSquareDesc: "Adjacent bonus is 50% more effective, but tile modifiers scale from -15% to +15%",
+    ResourceBoosterSquare: "Resource Booster Square",
+    ResourceBoosterSquareDesc:
+        "Resource boosters provide 25% more boost but their science input and power usage also increase by 25%",
+    SteelMillx2: "Steel Furnace Modernization",
+    SteelMillx2Desc: "Steel mills and stainless steel plants have 2x capacity but uses 2x power",
+    IronSteelZone: "Iron Steel Zone",
+    IronSteelZoneDesc:
+        "Resource booster provide a %{percent} output bonus to adjacent steel mills or stainless steel plants for each working iron mine it is boosting",
 };
