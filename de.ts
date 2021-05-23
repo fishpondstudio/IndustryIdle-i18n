@@ -392,7 +392,7 @@ export const DE = {
     RefineryMoreOilDesc: "Ölraffinerien produzieren 50% mehr Benzin und 50% weniger Kunststoff",
     StickyInput: "Sticky Input",
     StickyInputDesc:
-        "Gebäude bevorzugen den Transport aus nahen Quellen, anstatt in jedem Zyklus nach der besten Quelle zu suchen (KOSTENLOSE RICHTLINIE)",
+        "Gebäude bevorzugen den Transport aus der vorherigen Quelle(n), anstatt in jedem Zyklus nach der besten Quelle zu suchen (KOSTENLOSE RICHTLINIE)",
     RefineryMorePlastic: "Mehr Plastic Mehr Probleme",
     RefineryMorePlasticDesc: "Ölraffinerien produzieren 50% weniger Benzin und 50% mehr Kunststoff",
     FreeOilTransportDesc: "Der Öltransport kostet keinen Kraftstoff, aber Ölquellen verbrauchen 2x Strom",
@@ -941,8 +941,8 @@ export const DE = {
     MarketNewsFilterInput: "Alle %{res} Verbraucher",
     MarketNewsFilterOutput: "Alle %{res} Erzeuger",
     MarketNewsFilterBoth: "Alle %{res} Verbraucher und Erzeuger",
-    MarketNewsIncrease: "erhöht um %{percent}",
-    MarketNewsDecrease: "verringert um %{percent}",
+    MarketNewsIncrease: " erhöht um %{percent}",
+    MarketNewsDecrease: " verringert um %{percent}",
     MarketNewsBuilding: "Dieses Gebäude wird betroffen von %{num} Neuigkeiten",
     StockholmBonusV2:
         "<li>Einzigartiges Gebäude: Musikproduzent</li><li>Forstbetriebe haben 2x Absatz</li><li>Papierfabriken sind entsperrt</li><li>Schaltungsgießereien haben 2x Produktivität</li><li>Die Politik der Wissenschaft Richtlinie ist kostenlos</li>",
@@ -1001,19 +1001,19 @@ export const DE = {
     PlayerTradeNowAllowedV2:
         "Spieler-Trades sind innerhalb von %{hour} nicht verfügbar, nach of Wiederherstellen / Importieren eines Spielstandes",
     ServerDisconnected:
-        "You are disconnected from the server, please check your internet connection and restart the game",
-    BuildingUpgradeCostDividerDescV2: "Divide building upgrade cost by this divider",
+        "Sie sind vom Server getrennt sind, überprüfen Sie bitte Ihre Internetverbindung und starten Sie das Spiel neu",
+    BuildingUpgradeCostDividerDescV2: "Teilen Sie die Kosten für die Gebäudeerweiterung durch diesen Teiler",
     ResourceBoosterBannerDesc:
-        "💡 You currently have %{number} resource boosters - the power and science input of each is scaled to the number of resource boosters you currently have",
-    ResourceBoosterDesc: "Boost the output of adjacent mines",
-    BlockUserChatTitle: "Block %{user}",
-    BlockUserChatAction: "Block",
+        "💡 Sie haben derzeit %{number} Ressourcen-Verstärker - Der Strom- und Wissenschaftpunkteverbrauch jedes Verstärkers erhöht sich mit jedem Verstärker den die besitzen.",
+    ResourceBoosterDesc: "Steigern Sie die Leistung benachbarter Minen",
+    BlockUserChatTitle: "Blockiere %{user}",
+    BlockUserChatAction: "Blockieren",
     BlockUserChatDesc:
-        "The block will be in effect during this game session and you cannot undo this unless you restart the game",
-    AtomicBombFactory: "Atomic Bomb Factory",
-    AtomicBomb: "Atomic Bomb",
-    DynamiteFactory: "Dynamite Factory",
-    Dynamite: "Dynamite",
-    NuclearMissileFactory: "Nuclear Missile Factory",
-    NuclearMissile: "Nuclear Missile",
+        "Der Block wird während dieser Spielsitzung wirksam sein und Sie können dies nicht rückgängig machen, es sei denn, Sie starten das Spiel neu",
+    AtomicBombFactory: "Atombombenfabrik",
+    AtomicBomb: "Atombombe",
+    DynamiteFactory: "Dynamit Fabrik",
+    Dynamite: "Dynamit",
+    NuclearMissileFactory: "Atomraketenfabrik",
+    NuclearMissile: "Atomrakete",
 };
