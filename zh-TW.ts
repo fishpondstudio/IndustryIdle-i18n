@@ -948,7 +948,7 @@ export const ZH_TW = {
     SpaceForceCommand: "太空司令部",
     SpaceForce: "太空軍",
     SteamAutoCloudBackupDescV2:
-        "你的進度以保存至Steam雲端存檔 並供跨裝置使用. 遊戲也會每10分鐘自動存檔至Steam雲端. 你可以隨時強制存檔",
+        "你的進度已保存至Steam雲端存檔 並供跨裝置使用. 遊戲也會每10分鐘自動存檔至Steam雲端. 你可以隨時強制存檔",
     SpaceColony: "太空殖民",
     SpaceColonyInc: "太空殖民局",
     ProjectVostok: "東方計畫",
