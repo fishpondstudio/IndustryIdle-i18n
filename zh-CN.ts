@@ -952,17 +952,15 @@ export const ZH_CN = {
         "你的最新进度已经保存到Steam Cloud并在设备间同步。同时游戏每10分钟都会自动备份到Steam Cloud。你可以随时强制备份",
     SpaceColony: "太空殖民地",
     SpaceColonyInc: "太空殖民地",
-    ProjectVostok: "Vostok计划",
+    ProjectVostok: "东方计划",
     AdjacentBonusSquare: "相邻加成方格版",
     AdjacentBonusSquareDesc: "相邻加成的效果增加50%，但地块修正的范围变为-15%到+15%",
     ResourceBoosterSquare: "资源加速器方格版",
-    ResourceBoosterSquareDesc:
-        "资源加速器多提供25%加速效果但科学点和电力消耗也增加25%",
+    ResourceBoosterSquareDesc: "资源加速器多提供25%加速效果但科学点和电力消耗也增加25%",
     SteelMillx2: "炼钢炉现代化改造",
     SteelMillx2Desc: "轧钢厂和不锈钢厂的生产能力翻倍，用电量也翻倍",
     IronSteelZone: "钢铁专区",
-    IronSteelZoneDesc:
-        "资源加速器每加速一座工作中的铁矿厂，就为相邻轧钢厂和不锈钢厂提供%{percent}产出量加成",
+    IronSteelZoneDesc: "资源加速器每加速一座工作中的铁矿厂，就为相邻轧钢厂和不锈钢厂提供%{percent}产出量加成",
     FuelDynamite: "燃料炸药",
     FuelDynamiteDesc: "炸药工厂消耗当前使用的燃料而非石油",
     StPetersburgBonusV2:
