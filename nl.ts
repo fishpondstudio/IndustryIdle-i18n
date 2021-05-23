@@ -594,14 +594,10 @@ export const NL = {
         "<li>Staalfabrieken hebben 2x capaciteit</li><li>Roestvrij Staalfabrieken hebben 2x capaciteit</li><li>Gratis ijzertransport</li><li>Staal transport kost 50% minder brandstof</li><li>Start met 2x auto verkoop capaciteit</li><li>Geen tegel modificators</li>",
     Oslo: "Oslo",
     StPetersburg: "St. Petersburg",
-    StPetersburgBonus:
-        "<li>Uranium mijnen hebben 2x uitvoer</li><li>Uranium verrijkingscentrales hebben 2x capaciteit</li><li>Uranium transport kost 50% minder brandstof</li><li>Gratis wapen transport</li><li>Missile fabrieken gebruiken verrijkt uranium in de plaats van titanium en uranium</li>",
     Hamburg: "Hamburg",
     HamburgBonus:
         "<li>Zeppelin fabrieken zijn vrijgespeeld</li><li>Halfgeleiderfabrieken hebben 2x productiviteit</li><li>Scheepswerven hebben 2x capaciteit</li><li>Autofabrieken hebben 2x capaciteit</li><li>Li-ion batterijfabrieken zijn vrijgespeeld</li>",
     Toulouse: "Toulouse",
-    ToulouseBonus:
-        "<li>Titanium mijnen hebben 2x uitvoer</li><li>Uranium verrijkingscentrales hebben 2x productiviteit</li><li>Straalmotorenfabrieken hebben 2x capaciteit</li><li>Vliegtuigfabrieken hebben 2x productiviteit</li><li>Raketfabrieken gebruiken uranium in plaats van verrijkt uranium</li>",
     Rome: "Rome",
     RomeBonus:
         "<li>Colosseums zijn vrijgespeeld</li><li>Colosseums hebben 2x productiviteit</li><li>Start met een niveau 5 beleidscentrum</li><li>Opera huizen hebben 2x capaciteit</li><li>Opnamestudios produceren ook cultuur</li>",
@@ -1022,4 +1018,8 @@ export const NL = {
         "Resource booster provide a %{percent} output bonus to adjacent steel mills or stainless steel plants for each working iron mine it is boosting",
     FuelDynamite: "Fuel Dynamite",
     FuelDynamiteDesc: "Dynamite factories use your current fuel instead of oil",
+    StPetersburgBonusV2:
+        "<li>Uranium mines have 2x output</li><li>Uranium enrichment plants have 2x capacity</li><li>Uranium transportation costs 50% less fuel</li><li>Free gun transportation</li><li>Project Vostok has 2x capacity</li>",
+    ToulouseBonusV2:
+        "<li>Titanium mines have 2x output</li><li>Uranium enrichment plants have 2x productivity</li><li>Jet engine factories have 2x capacity</li><li>Aircraft factories have 2x productivity</li><li>Rocket factories have 2x capacity</li>",
 };

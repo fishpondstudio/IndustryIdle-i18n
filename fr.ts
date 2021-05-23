@@ -614,14 +614,10 @@ export const FR = {
         "<li>Les aciéries ont une capacité 2x</li><li>Les usines en acier inoxydable ont une capacité 2x</li><li>Transport de fer gratuit</li><li>Le transport de l'acier coûte 50% de carburant en moins</li><li>Commencez avec une capacité de vente automatique 2x</li><li>Aucun modificateur de tuile</li>",
     Oslo: "Oslo",
     StPetersburg: "Saint-Pétersbourg",
-    StPetersburgBonus:
-        "<li>Les mines d'uranium ont une production 2x</li><li>Les usines d'enrichissement d'uranium ont une capacité 2x</li><li>Le transport de l'uranium coûte 50% de carburant en moins</li><li>Le transport gratuit des armes</li><li>Les usines de missiles utilisent de l'uranium enrichi au lieu du titane et de l'uranium</li>",
     Hamburg: "Hambourg",
     HamburgBonus:
         "<li>Les usines Zeppelin sont déverrouillées</li><li>Les usines de semi-conducteurs ont une productivité 2x</li><li>Les chantiers navals ont une capacité 2x</li><li>Les usines automobiles ont une capacité 2x</li><li>Les usines de batteries Li-ion sont déverrouillées</li>",
     Toulouse: "Toulouse",
-    ToulouseBonus:
-        "<li>Les mines de titane ont une production 2x</li><li>Les usines d'enrichissement d'uranium ont une productivité 2x</li><li>Les usines de moteurs à réaction ont une capacité 2x</li><li>Les usines aéronautiques ont une productivité 2x</li><li>Les usines de fusées utilisent de l'uranium au lieu de l'uranium enrichi</li>",
     Rome: "Rome",
     RomeBonus:
         "<li>Les Colisée sont déverrouillés</li><li>Les Colisée ont une productivité 2x</li><li>Commencez avec le centre de politique de niveau 5</li><li>Les opéras ont une capacité 2x</li><li>Enregistrement les studios produisent également de la culture</li>",
@@ -1047,4 +1043,8 @@ export const FR = {
         "Resource booster provide a %{percent} output bonus to adjacent steel mills or stainless steel plants for each working iron mine it is boosting",
     FuelDynamite: "Fuel Dynamite",
     FuelDynamiteDesc: "Dynamite factories use your current fuel instead of oil",
+    StPetersburgBonusV2:
+        "<li>Uranium mines have 2x output</li><li>Uranium enrichment plants have 2x capacity</li><li>Uranium transportation costs 50% less fuel</li><li>Free gun transportation</li><li>Project Vostok has 2x capacity</li>",
+    ToulouseBonusV2:
+        "<li>Titanium mines have 2x output</li><li>Uranium enrichment plants have 2x productivity</li><li>Jet engine factories have 2x capacity</li><li>Aircraft factories have 2x productivity</li><li>Rocket factories have 2x capacity</li>",
 };

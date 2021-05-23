@@ -584,14 +584,10 @@ export const EL = {
         "<li>Steel Mills have 2x capacity</li><li>Stainless Steel Plants have 2x capacity</li><li>Free iron transportation</li><li>Steel transportation costs 50% less fuel</li><li>Start with 2x auto sell capacity</li><li>No tile modifiers</li>",
     Oslo: "Oslo",
     StPetersburg: "St. Petersburg",
-    StPetersburgBonus:
-        "<li>Uranium mines have 2x output</li><li>Uranium enrichment plants have 2x capacity</li><li>Uranium transportation costs 50% less fuel</li><li>Free gun transportation</li><li>Missile factories use enriched uranium instead of titanium and uranium</li>",
     Hamburg: "Hamburg",
     HamburgBonus:
         "<li>Zeppelin factories are unlocked</li><li>Semiconductor factories have 2x productivity</li><li>Shipyards have 2x capacity</li><li>Car factories have 2x capacity</li><li>Li-ion battery factories are unlocked</li>",
     Toulouse: "Toulouse",
-    ToulouseBonus:
-        "<li>Titanium mines have 2x output</li><li>Uranium enrichment plants have 2x productivity</li><li>Jet engine factories have 2x capacity</li><li>Aircraft factories have 2x productivity</li><li>Rocket factories use uranium instead of enriched uranium</li>",
     Rome: "Rome",
     RomeBonus:
         "<li>Colosseums are unlocked</li><li>Colosseums have 2x productivity</li><li>Start with level 5 policy center</li><li>Opera houses have 2x capacity</li><li>Recording studios also produce culture</li>",
@@ -1012,4 +1008,8 @@ export const EL = {
         "Resource booster provide a %{percent} output bonus to adjacent steel mills or stainless steel plants for each working iron mine it is boosting",
     FuelDynamite: "Fuel Dynamite",
     FuelDynamiteDesc: "Dynamite factories use your current fuel instead of oil",
+    StPetersburgBonusV2:
+        "<li>Uranium mines have 2x output</li><li>Uranium enrichment plants have 2x capacity</li><li>Uranium transportation costs 50% less fuel</li><li>Free gun transportation</li><li>Project Vostok has 2x capacity</li>",
+    ToulouseBonusV2:
+        "<li>Titanium mines have 2x output</li><li>Uranium enrichment plants have 2x productivity</li><li>Jet engine factories have 2x capacity</li><li>Aircraft factories have 2x productivity</li><li>Rocket factories have 2x capacity</li>",
 };

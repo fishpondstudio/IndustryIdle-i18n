@@ -604,14 +604,10 @@ export const ES = {
         "<li> Las acerías tienen el doble de capacidad </li> <li> Las plantas de acero inoxidable tienen el doble de capacidad </li> <li> Transporte gratuito de hierro </li> <li> El transporte de acero cuesta un 50% menos de combustible </li> <li> Comience con el doble de capacidad de venta automática </li> <li> Sin modificadores de mosaicos </li> ",
     Oslo: "Oslo",
     StPetersburg: "San Petersburgo",
-    StPetersburgBonus:
-        "<li> Las minas de uranio tienen el doble de producción </li> <li> Las plantas de enriquecimiento de uranio tienen el doble de capacidad </li> <li> El transporte de uranio cuesta 50% menos de combustible </li> <li> Transporte de armas gratis </li> <li> Las fábricas de misiles utilizan uranio enriquecido en lugar de titanio y uranio </li> ",
     Hamburg: "Hamburgo",
     HamburgBonus:
         "<li> Las fábricas de Zeppelin están desbloqueadas </li> <li> Las fábricas de semiconductores tienen el doble de productividad </li> <li> Los astilleros tienen el doble de capacidad </li> <li> Las fábricas de automóviles tienen el doble de capacidad </li> <li> Las fábricas de baterías de iones de litio están desbloqueadas </li> ",
     Toulouse: "Toulouse",
-    ToulouseBonus:
-        "<li> Las minas de titanio tienen el doble de rendimiento </li> <li> Las plantas de enriquecimiento de uranio tienen el doble de productividad </li> <li> Las fábricas de motores a reacción tienen el doble de capacidad </li> <li> Las fábricas de aviones tienen el doble de productividad </ li > <li> Las fábricas de cohetes utilizan uranio en lugar de uranio enriquecido </li> ",
     Rome: "Roma",
     RomeBonus:
         "<li> Los coliseos están desbloqueados </li> <li> Los coliseos tienen el doble de productividad </li> <li> Comience con el centro de políticas de nivel 5 </li> <li> Los teatros de ópera tienen el doble de capacidad </li> <li> Los estudios de grabación también producen cultura </li> ",
@@ -1032,4 +1028,8 @@ export const ES = {
         "Resource booster provide a %{percent} output bonus to adjacent steel mills or stainless steel plants for each working iron mine it is boosting",
     FuelDynamite: "Fuel Dynamite",
     FuelDynamiteDesc: "Dynamite factories use your current fuel instead of oil",
+    StPetersburgBonusV2:
+        "<li>Uranium mines have 2x output</li><li>Uranium enrichment plants have 2x capacity</li><li>Uranium transportation costs 50% less fuel</li><li>Free gun transportation</li><li>Project Vostok has 2x capacity</li>",
+    ToulouseBonusV2:
+        "<li>Titanium mines have 2x output</li><li>Uranium enrichment plants have 2x productivity</li><li>Jet engine factories have 2x capacity</li><li>Aircraft factories have 2x productivity</li><li>Rocket factories have 2x capacity</li>",
 };

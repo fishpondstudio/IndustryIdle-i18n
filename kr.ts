@@ -574,14 +574,10 @@ export const KR = {
         "<li>제철소 용량 2배</li><li>스테인리스 공장 용량 2배</li><li>무료 철 수송</li><li>강철 수송 연료비 50% 절감</li><li>자동 판매 용량 2배로 시작</li><li>타일 보정 없음</li>",
     Oslo: "오슬로",
     StPetersburg: "상트 페테르부르크",
-    StPetersburgBonus:
-        "<li>우라늄 광산 생산량 2배</li><li>우라늄 농축 시설 용량 2배</li><li>우라늄 수송 연료비 50% 절감</li><li>무료 총기 수송</li><li>미사일 공장은 티타늄과 우라늄 대신 농축 우라늄을 사용합니다</li>",
     Hamburg: "함부르크",
     HamburgBonus:
         "<li>비행선 공장 잠금 해제</li><li>반도체 공장 생산성 2배</li><li>조선소 용량 2배</li><li>자동차 공장 용량 2배</li><li>리튬 이온 배터리 공장 잠금 해제</li>",
     Toulouse: "툴루즈",
-    ToulouseBonus:
-        "<li>티타늄 광산 생산량 2배</li><li>우라늄 농축 시설 생산성 2배</li><li>제트 엔진 공장 용량 2배</li><li>항공기 공장 생산성 2 배</ li ><li>로켓 공장은 농축 우라늄 대신 우라늄을 사용합니다</li>",
     Rome: "로마",
     RomeBonus:
         "<li>콜로세움 잠금 해제</li><li>콜로세움 생산성 2배</li><li>레벨5 정책 센터에서 시작</li><li>오페라 하우스 용량 2배</li><li>녹음 스튜디오도 문화를 만들어냅니다</li>",
@@ -1000,4 +996,8 @@ export const KR = {
         "Resource booster provide a %{percent} output bonus to adjacent steel mills or stainless steel plants for each working iron mine it is boosting",
     FuelDynamite: "Fuel Dynamite",
     FuelDynamiteDesc: "Dynamite factories use your current fuel instead of oil",
+    StPetersburgBonusV2:
+        "<li>Uranium mines have 2x output</li><li>Uranium enrichment plants have 2x capacity</li><li>Uranium transportation costs 50% less fuel</li><li>Free gun transportation</li><li>Project Vostok has 2x capacity</li>",
+    ToulouseBonusV2:
+        "<li>Titanium mines have 2x output</li><li>Uranium enrichment plants have 2x productivity</li><li>Jet engine factories have 2x capacity</li><li>Aircraft factories have 2x productivity</li><li>Rocket factories have 2x capacity</li>",
 };

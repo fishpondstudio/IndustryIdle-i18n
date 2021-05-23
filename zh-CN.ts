@@ -559,14 +559,10 @@ export const ZH_CN = {
         "<li>钢厂的生产能力是原来的2倍</li><li>不锈钢厂的生产能力是原来的2倍</li><li>铁运输免费</li><li>钢运输的燃料成本降低50％</li><li>初始自动销售量是原来的2倍</li><li>没有地块修正</li>",
     Oslo: "奥斯陆",
     StPetersburg: "圣彼得堡",
-    StPetersburgBonus:
-        "<li>铀矿场的产出量是原来的2倍</li><li>浓缩铀加工厂的生产能力是原来的2倍</li><li>铀运输的燃料成本降低50％</li><li>枪械运输免费</li><li>导弹工厂使用浓缩铀替代钛和铀</li>",
     Hamburg: "汉堡",
     HamburgBonus:
         "<li>齐柏林飞艇工厂已预先解锁</li><li>半导体工厂的产出量是原来的2倍</li><li>造船厂的生产能力是原来的2倍</li><li>汽车工厂的生产能力是原来的2倍</li><li>锂离子电池工厂已预先解锁</li>",
     Toulouse: "图卢兹",
-    ToulouseBonus:
-        "<li>钛矿场的产出量是原来的2倍</li><li>浓缩铀加工厂的产出量是原来的2倍</li><li>喷气发动机工厂的生产能力是原来的2倍</li><li>飞机工厂的产出量是原来的2倍</li><li>火箭工厂使用铀替代浓缩铀</li>",
     Rome: "罗马",
     RomeBonus:
         "<li>竞技场已预先解锁</li><li>竞技场的产出量是原来的2倍</li><li>开局即有5级政策中心</li><li>歌剧院的生产能力是原来的2倍</li><li>录音室也产生文化点</li>",
@@ -969,4 +965,8 @@ export const ZH_CN = {
         "Resource booster provide a %{percent} output bonus to adjacent steel mills or stainless steel plants for each working iron mine it is boosting",
     FuelDynamite: "Fuel Dynamite",
     FuelDynamiteDesc: "Dynamite factories use your current fuel instead of oil",
+    StPetersburgBonusV2:
+        "<li>Uranium mines have 2x output</li><li>Uranium enrichment plants have 2x capacity</li><li>Uranium transportation costs 50% less fuel</li><li>Free gun transportation</li><li>Project Vostok has 2x capacity</li>",
+    ToulouseBonusV2:
+        "<li>Titanium mines have 2x output</li><li>Uranium enrichment plants have 2x productivity</li><li>Jet engine factories have 2x capacity</li><li>Aircraft factories have 2x productivity</li><li>Rocket factories have 2x capacity</li>",
 };

@@ -586,14 +586,10 @@ export const VN = {
         "<li>Nhà máy thép sản lượng x2</li><li>Nhà máy thép không gỉ sản lượng x2</li><li>Vận chuyển sắt miễn phí</li><li>Vận chuyển thép giảm 50% nhiên liệu</li><li>Số lượng Tự động Bán hàng x2</li><li>Không có hiệu suất trên ô</li>",
     Oslo: "Oslo",
     StPetersburg: "St. Petersburg",
-    StPetersburgBonus:
-        "<li>Mỏ Uranium sản lượng x2</li><li>Nhà máy làm giàu Uranium sản lượng x2</li><li>Vận chuyển Uranium giảm 50% nhiên liệu</li><li>Vận chuyển súng miễn phí</li><li>Xưởng tên lửa sử dụng Uranium giàu thay vì Titan và Uranium</li>",
     Hamburg: "Hamburg",
     HamburgBonus:
         "<li>Xưởng khinh khí cầu đã được mở khóa</li><li>Xưởng bán dẫn sản lượng x2</li><li>Xưởng đóng tàu sản lượng x2</li><li>Xưởng ô tô sản lượng x2</li><li>Xưởng pin Li-ti i-ông đã được mở khóa</li>",
     Toulouse: "Toulouse",
-    ToulouseBonus:
-        "<li>Mỏ titan sản lượng x2</li><li>Nhà máy làm giàu Uranium hiệu suất x2</li><li>Xưởng động cơ phản lực sản lượng x2</li><li>Xưởng lắp ráp máy bay hiệu suất x2</li><li>Xưởng rocket sử dụng Uranium thay vì Uranium giàu</li>",
     Rome: "Rome",
     RomeBonus:
         "<li>Đấu trường đã được mở khóa</li><li>Đấu trường hiệu suất x2</li><li>Khởi đầu với Trung tâm Chính sách cấp 5</li><li>Nhà hát lớn sản lượng x2</li><li>Phòng thu thanh cũng sản xuất điểm văn hóa</li>",
@@ -1023,4 +1019,8 @@ export const VN = {
         "Resource booster provide a %{percent} output bonus to adjacent steel mills or stainless steel plants for each working iron mine it is boosting",
     FuelDynamite: "Fuel Dynamite",
     FuelDynamiteDesc: "Dynamite factories use your current fuel instead of oil",
+    StPetersburgBonusV2:
+        "<li>Uranium mines have 2x output</li><li>Uranium enrichment plants have 2x capacity</li><li>Uranium transportation costs 50% less fuel</li><li>Free gun transportation</li><li>Project Vostok has 2x capacity</li>",
+    ToulouseBonusV2:
+        "<li>Titanium mines have 2x output</li><li>Uranium enrichment plants have 2x productivity</li><li>Jet engine factories have 2x capacity</li><li>Aircraft factories have 2x productivity</li><li>Rocket factories have 2x capacity</li>",
 };

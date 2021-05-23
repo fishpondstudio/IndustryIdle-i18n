@@ -599,14 +599,10 @@ export const RU = {
         "<li>Сталелитейные заводы имеют мощность 2Х</li><li>Заводы по производству нержавеющей стали имеют мощность 2Х</li><li>Бесплатная перевозка железа</li><li>Перевозка стали на 50% дешевле</li><li>2-x кратная автоматическая продажа</li><li>Никаких модификаторов плитки</li>",
     Oslo: "Осло",
     StPetersburg: "Санкт-Петербург",
-    StPetersburgBonus:
-        "<li>Урановые шахты имеют производительность 2Х</li><li>Заводы по обогащению урана имеют мощность 2Х</li><li>Перевозка урана на 50% дешевле</li><li>Бесплатная перевозка оружия</li><li>Ракетные заводы используют обогащенный уран вместо титана и урана</li>",
     Hamburg: "Гамбург",
     HamburgBonus:
         "<li>Завод дирижаблей разблокирован</li><li>Полупроводниковые заводы имеют производительность 2Х</li><li>Верфи имеют мощность 2Х</li><li>Автомобильные заводы имеют мощность 2Х</li><li>Фабрика литий-ионных аккумуляторов разблокирована</li>",
     Toulouse: "Тулуза",
-    ToulouseBonus:
-        "<li>Титановые рудники имеют производительность 2Х</li><li>Заводы по обогащению урана имеют производительность 2Х</li><li>Заводы реактивных двигателей имеют мощность 2Х</li><li>Авиационные заводы имеют производительность 2Х</li><li>Ракетные заводы используют уран вместо обогащенного урана</li>",
     Rome: "Рим",
     RomeBonus:
         "<li>Колизей разблокирован</li><li>Колизеи имеют производительность 2Х</li><li>Политический центр 5 уровня</li><li>Оперные театры имеют мощность 2Х</li><li>Студии звукозаписи также производят культуру</li>",
@@ -1037,4 +1033,8 @@ export const RU = {
         "Resource booster provide a %{percent} output bonus to adjacent steel mills or stainless steel plants for each working iron mine it is boosting",
     FuelDynamite: "Fuel Dynamite",
     FuelDynamiteDesc: "Dynamite factories use your current fuel instead of oil",
+    StPetersburgBonusV2:
+        "<li>Uranium mines have 2x output</li><li>Uranium enrichment plants have 2x capacity</li><li>Uranium transportation costs 50% less fuel</li><li>Free gun transportation</li><li>Project Vostok has 2x capacity</li>",
+    ToulouseBonusV2:
+        "<li>Titanium mines have 2x output</li><li>Uranium enrichment plants have 2x productivity</li><li>Jet engine factories have 2x capacity</li><li>Aircraft factories have 2x productivity</li><li>Rocket factories have 2x capacity</li>",
 };

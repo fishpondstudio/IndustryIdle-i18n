@@ -559,14 +559,10 @@ export const ZH_TW = {
         "<li>煉鋼廠的產能是原來的2倍</li> <li>不鏽鋼廠的產能是原來的2倍</li> <li>免費鐵運輸</li> <li>鋼運輸的燃料成本降低了50％</li> <li>以2倍的自動銷售容量開始</li> <li>沒有建築增益</li>",
     Oslo: "奧斯陸",
     StPetersburg: "聖彼得堡",
-    StPetersburgBonus:
-        "<li>鈾礦場的產量是2倍</li> <li>鈾濃縮廠的能力是原來的2倍</li> <li>鈾的運輸成本降低了50％的燃料</li> <li>免費的槍支運輸</li> <li>導彈工廠使用濃縮鈾代替鈦和鈾</li>",
     Hamburg: "漢堡",
     HamburgBonus:
         "<li>齊柏林飛艇工廠解鎖</li> <li>半導體工廠的產能是原來的2倍</li> <li>造船廠的產能是原來的2倍</li> <li>汽車工廠的產能是原來的2倍 </li> <li>鋰離子電池工廠已解鎖</li>",
     Toulouse: "圖盧茲",
-    ToulouseBonus:
-        "鈦礦場的產量是原來的2倍</li> <li>鈾濃縮工廠的產量是原來的2倍</li> <li>噴氣發動機工廠的產能是原來的2倍</li> <li>飛機工廠的產能是原來的2倍</ li > <li>火箭工廠使用鈾代替濃縮鈾</li>",
     Rome: "羅馬",
     RomeBonus:
         "<li>大競技場解鎖</li> <li>大競技場的生產率是原來的2倍</li> <li>從5級政策中心開始</li> <li>歌劇院的能力是原來的2倍</li> <li>錄音室也產生文化</li>",
@@ -968,4 +964,8 @@ export const ZH_TW = {
         "Resource booster provide a %{percent} output bonus to adjacent steel mills or stainless steel plants for each working iron mine it is boosting",
     FuelDynamite: "Fuel Dynamite",
     FuelDynamiteDesc: "Dynamite factories use your current fuel instead of oil",
+    StPetersburgBonusV2:
+        "<li>Uranium mines have 2x output</li><li>Uranium enrichment plants have 2x capacity</li><li>Uranium transportation costs 50% less fuel</li><li>Free gun transportation</li><li>Project Vostok has 2x capacity</li>",
+    ToulouseBonusV2:
+        "<li>Titanium mines have 2x output</li><li>Uranium enrichment plants have 2x productivity</li><li>Jet engine factories have 2x capacity</li><li>Aircraft factories have 2x productivity</li><li>Rocket factories have 2x capacity</li>",
 };
