@@ -967,4 +967,11 @@ export const ZH_CN = {
         "<li>铀矿场的产出量是原来的2倍</li><li>浓缩铀加工厂的生产能力是原来的2倍</li><li>铀运输的燃料成本降低50％</li><li>枪械运输免费</li><li>Vostok计划的生产能力是原来的2倍</li>",
     ToulouseBonusV2:
         "<li>钛矿场的产出量是原来的2倍</li><li>浓缩铀加工厂的产出量是原来的2倍</li><li>喷气发动机工厂的生产能力是原来的2倍</li><li>飞机工厂的产出量是原来的2倍</li><li>火箭工厂的生产能力是原来的2倍</li>",
+    BuildingPermitsNeededDesc: "This building is not working because you don't have enough building permits",
+    BuildingPermitsNeeded: "Building Permits Needed",
+    BuyMissingPermits: "Buy Missing Permits",
+    GPUIsBusy: "Your GPU is Busy",
+    GPUIsBusyDesc:
+        "Your operating system has paused the game's graphics because the GPU is busy with other tasks. You can reload the game to resume. If it doesn't work, try restarting the game",
+    SaveAndReloadGame: "Save And Reload Game",
 };

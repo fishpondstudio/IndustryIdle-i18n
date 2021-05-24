@@ -924,8 +924,7 @@ export const ZH_TW = {
     PlayerTradeNowAllowedV2: "恢復/導入保存後的％{hour}小時內無法進行玩家交易",
     ServerDisconnected: "您已與服務器斷開連接，請檢查您的網路連接並重新啟動遊戲",
     BuildingUpgradeCostDividerDescV2: "降低升級建築物所需費用",
-    ResourceBoosterBannerDesc:
-        "💡 你目前擁有%{number}座資源加速器 - 電力與科學點的消耗將隨你擁有的數量增加",
+    ResourceBoosterBannerDesc: "💡 你目前擁有%{number}座資源加速器 - 電力與科學點的消耗將隨你擁有的數量增加",
     ResourceBoosterDesc: "增加相鄰礦場的產出量",
     BlockUserChatTitle: "封鎖 %{user}",
     BlockUserChatAction: "封鎖",
@@ -955,17 +954,22 @@ export const ZH_TW = {
     AdjacentBonusSquare: "相鄰加成二次方",
     AdjacentBonusSquareDesc: "相鄰加成提升50%效能，但建築增益改為-15%到+15%之間",
     ResourceBoosterSquare: "資源加速器二次方",
-    ResourceBoosterSquareDesc:
-        "資源加速器提供25%額外加成，但科學點消耗量增加25%，用電量增加25%",
+    ResourceBoosterSquareDesc: "資源加速器提供25%額外加成，但科學點消耗量增加25%，用電量增加25%",
     SteelMillx2: "鋼爐現代化",
     SteelMillx2Desc: "煉鋼廠與不鏽鋼廠的容量提高2倍，並使用2倍電力",
     IronSteelZone: "鐵鋼領域",
-    IronSteelZoneDesc:
-        "資源加速器每加速1個運作中的鐵礦廠，就能額外提升與加速器相鄰的煉鋼廠與不鏽鋼廠%{percent}輸出",
+    IronSteelZoneDesc: "資源加速器每加速1個運作中的鐵礦廠，就能額外提升與加速器相鄰的煉鋼廠與不鏽鋼廠%{percent}輸出",
     FuelDynamite: "燃料炸藥",
     FuelDynamiteDesc: "炸藥工廠不使用石油，而是選擇使用中的燃料",
     StPetersburgBonusV2:
         "<li>鈾礦場的產量是原來的2倍</li><li>濃縮鈾工廠的容量是原來的2倍</li><li>鈾運輸的燃料成本降低了50％</li><li>槍運輸免費</li><li>東方計畫的容量是原來的2倍</li>",
     ToulouseBonusV2:
         "<li>鈦礦場的產量是原來的2倍</li><li>濃縮鈾工廠的產能是原來的2倍</li><li>噴氣發動機工廠的容量日原來的2倍</li><li>飛機工廠的產能是原來的2倍</li><li>火箭工廠的產能是原來的2倍y</li>",
+    BuildingPermitsNeededDesc: "This building is not working because you don't have enough building permits",
+    BuildingPermitsNeeded: "Building Permits Needed",
+    BuyMissingPermits: "Buy Missing Permits",
+    GPUIsBusy: "Your GPU is Busy",
+    GPUIsBusyDesc:
+        "Your operating system has paused the game's graphics because the GPU is busy with other tasks. You can reload the game to resume. If it doesn't work, try restarting the game",
+    SaveAndReloadGame: "Save And Reload Game",
 };

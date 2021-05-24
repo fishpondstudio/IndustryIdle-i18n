@@ -1012,4 +1012,11 @@ export const EL = {
         "<li>Uranium mines have 2x output</li><li>Uranium enrichment plants have 2x capacity</li><li>Uranium transportation costs 50% less fuel</li><li>Free gun transportation</li><li>Project Vostok has 2x capacity</li>",
     ToulouseBonusV2:
         "<li>Titanium mines have 2x output</li><li>Uranium enrichment plants have 2x productivity</li><li>Jet engine factories have 2x capacity</li><li>Aircraft factories have 2x productivity</li><li>Rocket factories have 2x capacity</li>",
+    BuildingPermitsNeededDesc: "This building is not working because you don't have enough building permits",
+    BuildingPermitsNeeded: "Building Permits Needed",
+    BuyMissingPermits: "Buy Missing Permits",
+    GPUIsBusy: "Your GPU is Busy",
+    GPUIsBusyDesc:
+        "Your operating system has paused the game's graphics because the GPU is busy with other tasks. You can reload the game to resume. If it doesn't work, try restarting the game",
+    SaveAndReloadGame: "Save And Reload Game",
 };

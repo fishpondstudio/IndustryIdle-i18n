@@ -695,7 +695,8 @@ export const FR = {
         "Cela masquera le mouvement des ressources (ces petits points) par défaut et n'affichera le mouvement que lorsque vous sélectionnez un bâtiment",
     PowerBankLeft: "Stockage d'énergie",
     ColorThemeEditor: "Editeur de la couleur du thème",
-    ColorThemeEditorDesc: "Vous pouvez remplacer des couleurs dans le thème actuel. Vous avez actuellement %{num} changement(s).",
+    ColorThemeEditorDesc:
+        "Vous pouvez remplacer des couleurs dans le thème actuel. Vous avez actuellement %{num} changement(s).",
     ColorThemeEditorSave: "Sauvegarder",
     ColorThemeEditorReset: "Réinitialiser",
     ColorThemeEditorResetAll: "Tout réinitialiser",
@@ -759,16 +760,21 @@ export const FR = {
     PlayerTradeFilterPriceV2: "Meilleur que le prix du marché",
     ResourceExplorer: "Explorateur de ressources",
     ResourceExplorerDesc: "Permet d'extraire des ressources d'un carreau de carte vide.",
-    ResourceExplorerDescLong: "💡 Les explorateurs de ressources ne bénéficient pas du bonus adjacent. L'utilisation de l'énergie diffère selon la ressource",
+    ResourceExplorerDescLong:
+        "💡 Les explorateurs de ressources ne bénéficient pas du bonus adjacent. L'utilisation de l'énergie diffère selon la ressource",
     ResourceExplorerSelectResource: "Explorez",
     ProductionSettings: "Paramètres de production",
-    PlayerTradeQuotaDesc: "💡 Le quota d'échange des joueurs est de %{percent} de votre plafond de marché, il est réinitialisé lors des mises à jour du marché.",
+    PlayerTradeQuotaDesc:
+        "💡 Le quota d'échange des joueurs est de %{percent} de votre plafond de marché, il est réinitialisé lors des mises à jour du marché.",
     PlayerTradePartialFillTitle: "Choisissez le pourcentage de remplissage",
     PlayerTradeAmountNotValidV2: "Le montant minimum de transaction autorisé est de 1",
-    PlayerTradeOptOut: "Vous avez choisi de ne pas figurer au classement, vous ne pouvez pas échanger avec d'autres joueurs",
-    FirstTimeReadGuide: "💡 Vous avez besoin d'un peu d'aide pour savoir comment jouer ? Cliquez pour lire le guide du débutant !",
+    PlayerTradeOptOut:
+        "Vous avez choisi de ne pas figurer au classement, vous ne pouvez pas échanger avec d'autres joueurs",
+    FirstTimeReadGuide:
+        "💡 Vous avez besoin d'un peu d'aide pour savoir comment jouer ? Cliquez pour lire le guide du débutant !",
     ReadSteamGuideV2: "Guides de jeu",
-    ReadSteamGuideV2Desc: "Vous pouvez lire les guides créés par la communauté sur Steam - et vous pouvez également créer les vôtres",
+    ReadSteamGuideV2Desc:
+        "Vous pouvez lire les guides créés par la communauté sur Steam - et vous pouvez également créer les vôtres",
     ChatMessageTooLong: "Votre message de chat a dépassé le nombre maximal de caractères autorisé",
     ChatPlaceholderV2: "Tapez votre message: max %{length} chars",
     ShowProfitBreakdown: "Afficher l'améilloration des bénéfices",
@@ -889,7 +895,8 @@ export const FR = {
     AircraftCarrier: "Porte-avions",
     MapExclusive: "Exclusif à la carte",
     ElectricCar: "Nikola Tesla",
-    ElectricCarDesc: "Les usines de fabrication de voitures utilisent des batteries à la place de l'essence et ne nécessitent que 50 % de la quantité.",
+    ElectricCarDesc:
+        "Les usines de fabrication de voitures utilisent des batteries à la place de l'essence et ne nécessitent que 50 % de la quantité.",
     HongKongBonusV2:
         "<li>Algorithme unique d'évaluation du marché - les prix et la cote des actions suivent une distribution normale (courbe en cloche)</li><li>Les mises à jour du marché et les réinitialisations des quotas commerciaux sont deux fois plus fréquentes (toutes les heures).</li><li>Les recherches peuvent être débloquées via les ressources échangées</li><li>Bâtiment unique : Dojo de kung-fu</li><li>Bâtiment unique : Tai-Chi Dojo</li><li>Augmentation de 50 % du nombre maximal de transactions autorisées pour les joueurs actifs</li><li>Commencez avec une vente automatique de plus</li><li>Politique unique : Commerce international d'exportation</li><li>Politique unique : Perle de l'Orient</li><li>Le centre de vente en gros ne nécessite que 4 ressources pour être déverrouillé</li><li>Débutez avec 100M d'argent liquide.</li>",
     TaiChi10xCultureDescV2:
@@ -915,7 +922,8 @@ export const FR = {
     ChatForceScrollDesc:
         "Si le défilement auto est activé, le chat défilera chaque fois qu'il y aura un nouveau message. Sinon, il ne défilera que si vous êtes déjà en bas de la page.",
     ResourceExplorer2: "Explorateur de ressources 2.0",
-    ResourceExplorer2Desc: "Les explorateurs de ressources produisent deux fois plus mais utilisent deux fois plus d'énergie.",
+    ResourceExplorer2Desc:
+        "Les explorateurs de ressources produisent deux fois plus mais utilisent deux fois plus d'énergie.",
     ConstructionCancel: "Annuler la construction",
     ConstructionPause: "Pause",
     ConstructionResume: "Reprendre",
@@ -975,7 +983,8 @@ export const FR = {
     BuildWarningTitleDesc: "%{reason}. Vous êtes sûr de vouloir construire sur cette tuile?",
     BuildWarningBuildAnyway: "Construire quand même",
     ResourceBoosterNotWorking: "⛔ Les boosters de ressources ne fonctionnent qu'à côté des mines de dépôt",
-    ResourceBoosterPercentage: "💡 Ce bâtiment reçoit %{percent} d'augmentation de rendement des boosters de ressources adjacents.",
+    ResourceBoosterPercentage:
+        "💡 Ce bâtiment reçoit %{percent} d'augmentation de rendement des boosters de ressources adjacents.",
     ResourceBoosterBuildings: "Buildings Being Boosted",
     BuildingResourceConversion: "%{resource} Conversion",
     AllTimeSwissMoneyEarned: "Franc Suisse gagné depuis le début: %{number}",
@@ -998,7 +1007,8 @@ export const FR = {
     LogoutDescV2:
         "Vous vous êtes connecté sur un autre appareil, cet appareil est déconnecté. Vous pouvez vous reconnecter mais l'autre appareil sera déconnecté.",
     LogBackIn: "Se reconnecter",
-    PlayerTradeNowAllowedV2: "Les échanges de joueurs ne sont pas disponibles dans les %{hour} heures qui suivent la restauration/importation d'une sauvegarde.",
+    PlayerTradeNowAllowedV2:
+        "Les échanges de joueurs ne sont pas disponibles dans les %{hour} heures qui suivent la restauration/importation d'une sauvegarde.",
     ServerDisconnected:
         "Vous êtes déconnecté du serveur, veuillez vérifier votre connexion Internet et redémarrer le jeu.",
     BuildingUpgradeCostDividerDescV2: "Divisez le coût d'amélioration du bâtiment par ce diviseur",
@@ -1032,12 +1042,14 @@ export const FR = {
     SpaceColonyInc: "Centre de colonie spatiale",
     ProjectVostok: "Projet Vostok",
     AdjacentBonusSquare: "Bonus de tuille adjacente",
-    AdjacentBonusSquareDesc: "Le bonus adjacent est 50 % plus efficace, mais les modificateurs de tuiles vont de -15 % à +15 %.",
+    AdjacentBonusSquareDesc:
+        "Le bonus adjacent est 50 % plus efficace, mais les modificateurs de tuiles vont de -15 % à +15 %.",
     ResourceBoosterSquare: "Boosters de ressources amélioré",
     ResourceBoosterSquareDesc:
         "Les boosters de ressources fournissent 25% de boost en plus, mais leur apport scientifique et leur consommation d'énergie augmentent également de 25%.",
     SteelMillx2: "Modernisation des fours à acier",
-    SteelMillx2Desc: "Les aciéries et les usines d'acier inoxydable ont une capacité multipliée par deux mais consomment deux fois plus d'énergie.",
+    SteelMillx2Desc:
+        "Les aciéries et les usines d'acier inoxydable ont une capacité multipliée par deux mais consomment deux fois plus d'énergie.",
     IronSteelZone: "Zone ferro-acier",
     IronSteelZoneDesc:
         "Le booster de ressources offre un bonus de production de %{percent} aux aciéries ou aux usines d'acier inoxydable adjacentes pour chaque mine de fer en activité qu'il booste.",
@@ -1047,4 +1059,11 @@ export const FR = {
         "<li>Les mines d'uranium ont une production multipliée par 2</li><li>Les usines d'enrichissement de l'uranium ont une capacité multipliée par 2</li><li>Le transport de l'uranium coûte 50 % de carburant en moins</li><li>Le transport des armes gratuite</li><li>Le projet Vostok a une capacité multipliée par 2</li>",
     ToulouseBonusV2:
         "<li>Les mines de titane ont une production 2x</li><li>Les usines d'enrichissement de l'uranium ont une productivité 2x</li><li>Les usines de moteurs à réaction ont une capacité 2x</li><li>Les usines d'avions ont une productivité 2x</li><li>Les usines de fusées ont une capacité 2x</li>",
-} ;
+    BuildingPermitsNeededDesc: "This building is not working because you don't have enough building permits",
+    BuildingPermitsNeeded: "Building Permits Needed",
+    BuyMissingPermits: "Buy Missing Permits",
+    GPUIsBusy: "Your GPU is Busy",
+    GPUIsBusyDesc:
+        "Your operating system has paused the game's graphics because the GPU is busy with other tasks. You can reload the game to resume. If it doesn't work, try restarting the game",
+    SaveAndReloadGame: "Save And Reload Game",
+};
