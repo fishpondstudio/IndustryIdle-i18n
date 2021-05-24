@@ -806,7 +806,7 @@ export const ZH_TW = {
     AchievementOsaka1000Desc: "在大阪一次性賺取1000瑞士貨幣",
     SteamAutoCloudBackup: "Steam雲端 自動備份",
     SteamAutoCloudBackupFailed: "Steam雲端存檔 自動備份失敗: %{error}",
-    SteamManualBackup: "強制Steam同步雲端",
+    SteamManualBackup: "強制同步Steam雲端",
     UILoading: "載入中...",
     UserAuthenticated: "您已通過身份驗證",
     BuildingResourceBreakdown: "閒置金額明細",
