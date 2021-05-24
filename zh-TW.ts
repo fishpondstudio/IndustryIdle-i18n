@@ -698,7 +698,7 @@ export const ZH_TW = {
     ResourceExplorerDescLong: "💡 資源勘探者建築沒有相鄰加成。其電力消耗視資源而不同",
     ResourceExplorerSelectResource: "探勘",
     ProductionSettings: "生產設置",
-    PlayerTradeQuotaDesc: "💡 你的玩家交易配额是你的市值的%{percent}, 會在市场更新後重置",
+    PlayerTradeQuotaDesc: "💡 你的玩家交易配額是你的市值的%{percent}, 會在市場更新後重置",
     PlayerTradePartialFillTitle: "選擇成交百分比",
     PlayerTradeAmountNotValidV2: "交易數量至少為1",
     PlayerTradeOptOut: "你已經選擇退出排行榜, 不能和其他玩家交易",
