@@ -359,7 +359,7 @@ export const FR = {
     EarningPerMinute: "Taux de gain",
     EffectiveTime: "Temps effectif",
     EffectiveTimeDesc: "La durée effective de vos gains hors connexion est plafonnée à %{time}min.",
-    BuildSearchPlaceholder: "Sélectionner le bâtiment ou la rechercher",
+    BuildSearchPlaceholder: "🔎 Rechercher le bâtiment",
     MineOverlayWarning: "%{building} n'est pas affecté par le modificateur de tuile",
     WholesaleCenter: "Centre de vente en gros",
     OrderFrom: "Commande de %{name}",
@@ -460,7 +460,7 @@ export const FR = {
     Tutorial2:
         "Tous les bâtiments ont besoin d'électricité ⚡,you have une <em>éolienne</em> qui génère de l'énergie. Vous pouvez voir votre alimentation électrique actuelle en haut a gauche.<br><br> Vous avez peut-être remarqué que les éoliennes ne fonctionnent que <em>80%</em> du temps. Vous pouvez envisager de construire d'autres types de centrales électriques qui génèrent une énergie stable.",
     Tutorial3:
-        "Vous avez beaucoup de <em>gisements de ressources</em> sur la carte. Pour extraire des ressources, ⛏️ il faut construire des mines <em>au dessus de</em> le dépôt correspondant.<br><br>Par exemple, vous avez un <em>puits de pétrole🛢️</em> qui extrait de <em>huile</em> d'un gisement de pétrole.<br></br>Les dépôts de ressources sont illimités - pas besoin de s'inquiéter de leur épuisement. En dehors des mines, d'autres bâtiments peuvent être construits sur n'importe quelle tuile vide.",
+        "Vous avez beaucoup de <em>gisements de ressources</em> sur la carte. Pour extraire des ressources, ⛏️ il faut construire des mines <em>au dessus de</em> le dépôt correspondant.<br><br>Par exemple, vous avez un <em>puits de pétrole🛢️</em> qui extrait du <em>pétrole brut</em> d'un gisement de pétrole.<br></br>Les dépôts de ressources sont illimités - pas besoin de s'inquiéter de leur épuisement. En dehors des mines, d'autres bâtiments peuvent être construits sur n'importe quelle tuile vide.",
     Tutorial5:
         "Pour gagner de l'argent, vous devez exporter vos ressources via le centre d'échange. Pour ce faire, activez simplement <em>vente auto</em> pour cette ressource.<br></br>Vous pouvez également acheter des ressources au centre commercial. Se souvenir <em>si vous achetez une ressource, vous augmenterez le prix</em> et si vous vendez une ressource, vous réduirez le prix.<br><br>Le marché est <em>changant</em> et le prix📈 change régulièrement.",
     Tutorial6:
