@@ -127,7 +127,7 @@ export const FR = {
     Clothes: "Vêtements",
     Fashion: "Mode",
     FashionFactory: "Fabrique de mode",
-    VideoFarm: "Ferme a vidéo",
+    VideoFarm: "Studio de vidéo",
     SantaFactory: "Usine du Père Noël",
     Santa: "Père Noël",
     Car: "Voiture",
