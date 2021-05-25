@@ -245,7 +245,7 @@ export const FR = {
     RatingOutperform: "Surpasser",
     RatingUnderperform: "Sous-performance",
     StockRating: "Évaluation du stock",
-    JetEngine: "Moteur d'avion",
+    JetEngine: "Moteur à réaction",
     Helicopter: "Hélicoptère",
     Lithium: "Lithium",
     LithiumMine: "Mine de lithium",
@@ -276,7 +276,7 @@ export const FR = {
     Robot: "Robot",
     SpaceshipFactory: "Usine de vaisseaux spatiaux",
     SatelliteFactory: "Usine de satellites",
-    JetEngineFactory: "Usine d'avions",
+    JetEngineFactory: "Usine de moteurs à réactions",
     StockRatingDesc:
         "Le consensus de notation des actions des analystes de Wall Street, qui affecte votre capitalisation boursière est mis à jour avec le marché",
     InterestRate: "Taux d'intérêt par jour",
