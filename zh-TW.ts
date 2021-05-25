@@ -965,11 +965,11 @@ export const ZH_TW = {
         "<li>鈾礦場的產量是原來的2倍</li><li>濃縮鈾工廠的容量是原來的2倍</li><li>鈾運輸的燃料成本降低了50％</li><li>槍運輸免費</li><li>東方計畫的容量是原來的2倍</li>",
     ToulouseBonusV2:
         "<li>鈦礦場的產量是原來的2倍</li><li>濃縮鈾工廠的產能是原來的2倍</li><li>噴氣發動機工廠的容量日原來的2倍</li><li>飛機工廠的產能是原來的2倍</li><li>火箭工廠的產能是原來的2倍y</li>",
-    BuildingPermitsNeededDesc: "This building is not working because you don't have enough building permits",
-    BuildingPermitsNeeded: "Building Permits Needed",
-    BuyMissingPermits: "Buy Missing Permits",
-    GPUIsBusy: "Your GPU is Busy",
+    BuildingPermitsNeededDesc: "此建築已停止運作 因您所持有的建築許可證不足",
+    BuildingPermitsNeeded: "需要建築許可證",
+    BuyMissingPermits: "購齊不足的許可證",
+    GPUIsBusy: "您的GPU正處於忙碌中",
     GPUIsBusyDesc:
-        "Your operating system has paused the game's graphics because the GPU is busy with other tasks. You can reload the game to resume. If it doesn't work, try restarting the game",
-    SaveAndReloadGame: "Save And Reload Game",
+        "您的GPU因其他程式而處於高負載 您的作業系統已將遊戲畫面暫停. 您可重整以回到遊戲. 若無效, 請重啟遊戲",
+    SaveAndReloadGame: "儲存並重整遊戲",
 };
