@@ -805,7 +805,7 @@ export const FR = {
     FiberFactory: "Usine de fibres",
     Fiber: "Fibre",
     Achievements: "Succès",
-    AchievementsDesc: "Vous avez réalisé %{number} de %{total} réalisations",
+    AchievementsDesc: "Vous avez réalisé %{number}/%{total} succès",
     AchievementsReward: "Récompense : +%{swiss} CHF 💵",
     AchievementsRewardToast: "Vous avez réclamé la récompense : +%{swiss} CHF 💵",
     AchievementsClaim: "Réclamer",
