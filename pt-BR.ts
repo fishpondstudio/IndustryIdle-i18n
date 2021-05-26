@@ -393,9 +393,9 @@ export const PT_BR = {
         "Os edifícios irão preferir o transporte da fonte anterior, em vez de procurar a melhor fonte a cada ciclo (POLÍTICA GRATUITA)",
     RefineryMorePlastic: "Mais Plásticos Mais Problemas",
     RefineryMorePlasticDesc: "Refinarias de petróleo produzem 50% menos gasolina e 50% mais plástico",
-    FreeOilTransportDesc: "O transporte de petróleo não custa combustível, mas os poços de petróleo usam 2x a potência",
+    FreeOilTransportDesc: "O transporte de petróleo não custa combustível, mas os poços de petróleo usam 2x mais energia",
     SuperSteelMill: "Corações de Ferro",
-    SuperSteelMillDesc: "As siderúrgicas usam 50% menos carvão e 25% mais ferro e 25% mais energia",
+    SuperSteelMillDesc: "As siderúrgicas usam 50% menos carvão, 25% mais ferro e 25% mais energia",
     AlSemiconductor: "Circuito de IA",
     AlSemiconductorDesc: "As fundições de circuito usam alumínio em vez de cobre",
     CostSaver: "Economia de Custos",
@@ -701,8 +701,8 @@ export const PT_BR = {
     PlayerCountryChooseFlag: "In Alphabetical Order of Country Code",
     WindTurbineAlwaysWork: "The Wind Rises",
     WindTurbineAlwaysWorkDesc: "Wind turbines work 100% of the time but produces 30% less power",
-    BookPublisherScience: "Science Literature",
-    BookPublisherScienceDesc: "Book publishers produce science instead of culture",
+    BookPublisherScience: "Literatura Científica",
+    BookPublisherScienceDesc: "Editoras de livros produzem ciência em vez de cultura",
     WarehouseOutwardFuelSave: "Free Delivery",
     WarehouseOutwardFuelSaveDesc: "Warehouses provide the same fuel save on outward transportation as well",
     ImportSaveVersionTooNew:
@@ -759,15 +759,15 @@ export const PT_BR = {
     SteamLoginDesc: "If you own expansion packs on Steam, you can play with expansion packs on web after signing in",
     SteamLoginYes: "Entrar",
     SteamLoginNo: "Erase & Start Over",
-    KungFuDojo: "Kung-Fu Dojo",
+    KungFuDojo: "Dojo de Kung-Fu",
     KungFu: "Kung-Fu",
     TaiChi: "Tai-Chi",
-    TaiChiDojo: "Tai-Chi Dojo",
+    TaiChiDojo: "Dojo de Tai-Chi",
     HongKong: "Hong Kong",
-    FreeTransportToTradeCenter: "International Export Trade",
+    FreeTransportToTradeCenter: "Comércio Internacional de Exportação",
     FreeTransportToTradeCenterDesc:
         "Transportation to the trade center does not cost fuel but transportation from the trade center cost 50% more fuel",
-    TaiChi10xCulture: "Pearl of the Orient",
+    TaiChi10xCulture: "Pérola do Oriente",
     PlayerTradeYouHave: "Armazenado: %{amount}",
     PlayerTradeFillValue: "Valor",
     FiberFactory: "Fábrica de fibra",
@@ -865,7 +865,7 @@ export const PT_BR = {
     ElectricCar: "Nikola Tesla",
     ElectricCarDesc: "Car factories use batteries instead of petrol and only require 50% of the amount",
     HongKongBonusV2:
-        "<li>Unique market pricing algorithm - prices and stock rating follow normal distribution (bell curve)</li><li>Market updates and trade quota resets are twice as frequent (every hour)</li><li>Research can be unlocked via traded resources</li><li>Unique building: Kung-Fu Dojo</li><li>Unique building: Tai-Chi Dojo</li><li>50% increase in max numbers of active player trades allowed</li><li>Start with 1 more auto sell concurrency</li><li>Unique policy: International Export Trade</li><li>Unique policy: Pearl of the Orient</li><li>Wholesale Center only needs 4 resources to unlock</li><li>Start with 100M Cash</li>",
+        "<li>Algoritmo de preços do mercado único - preços e a avaliação das ações seguem uma distribuição normal (curva em sino)</li><li>Atualizações de mercado e redefinições de cotas comerciais são duas vezes mais frequentes (toda hora)</li><li>Pesquisas podem ser desbloqueadas via troca de recursos</li><li>Construção única: Dojo de Kung-Fu</li><li>Construção única: Dojo de Tai-Chi</li><li>Aumento de 50% no número máximo de negociações com jogadores permitidas</li><li>Começa com mais 1 simultaneidade de venda automática</li><li>Política única: Comércio Internacional de Exportação</li><li>Política única: Pérola do Oriente</li><li>O centro de atacado só precisa de 4 recursos para ser desbloqueado</li><li>Começa com 100M de dinheiro</li>",
     TaiChi10xCultureDescV2:
         "Free Kung-fu and Tai-chi transportation. Movie studios have 2x capacity but uses 50% more power",
     SettingsFullScreen: "Full Screen",
@@ -877,7 +877,7 @@ export const PT_BR = {
     LeaderboardDescV2: "See the where the top players are",
     LastUpdatedAt: "Last Updated At",
     DetroitBonusV3:
-        "<li>Engine factories are unlocked</li><li>Engine factories have 2x productivity</li><li>Car factories have 2x capacity</li><li>Car factories use gas instead of petrol</li><li>Free car transportation</li><li>Nikola Tesla policy is free</li><li>Train factories have 2x capacity</li>",
+        "<li>Fábricas de motor são desbloqueadas de início</li><li>Fábricas de motor têm 2x de produtividade</li><li>Fábricas de carro têm 2x de capacidade</li><li>Fábricas de carro utilizam gás natural em vez de petróleo</li><li>Carros são transportados gratuitamente</li><li>A política Nikola Tesla é gratuita</li><li>Fábricas de trem têm 2x de capacidade</li>",
     SaveAndExit: "Salvar e Sair do Jogo",
     SaveAndExitDesc:
         "Salvar e Sair do Jogo. Só está disponível na versão da Steam and does the same as the close button on the window bar",
@@ -921,17 +921,17 @@ export const PT_BR = {
     MarketNewsDecrease: "decreased by %{percent}",
     MarketNewsBuilding: "This building is affected by %{num} news",
     StockholmBonusV2:
-        "<li>Unique building: music producer</li><li>Logging camps have 2x output</li><li>Paper mills are unlocked</li><li>Circuit foundries have 2x productivity</li><li>Science Literature policy is free</li>",
+        "<li>Construção única: Produtoras musicais</li><li>Madeireiras têm 2x de saída</li><li>Fábricas de papel são desbloqueadas de início</li><li>Fundições de circuito têm 2x de produtividade</li><li>A política Literatura Científica é gratuita</li>",
     OsloBonusV2:
-        "<li>Oil refineries are unlocked</li><li>Oil refineries have 2x capacity</li><li>Electric oil transport policy is free</li><li>Gas processing plants have 2x capacity</li><li>Free level 4 wind turbine x1</li><li>Free level 4 oil well x1</li><li>Free level 2 oil refinery x1</li><li>Free level 2 natural gas pump x1</li>",
-    FreeOilTransportV2: "Electric Oil Transport",
+        "<li>Refinarias de petróleo são desbloqueadas de início</li><li>Refinarias de petróleo têm 2x de capacidade</li><li>A política Transporte Elétrico de Petróleo é gratuita</li><li>Plantas de processamento de gás têm 2x de capacidade</li><li>1x turbina eólica nível 4 gratuita</li><li>1x poço petrolífero nível 4 gratuito</li><li>1x refinaria de petróleo nível 2 gratuita</li><li>1x bomba de gás natural nível 2 gratuita</li>",
+    FreeOilTransportV2: "Transporte Elétrico de Petróleo",
     Tutorial4P1:
         "Resource transportation costs fuel. There are several fuel types and now you are using <em>petrol⛽</em> as fuel. You have an <em>oil refinery</em> that transports oil from the oil well and produces petrol.<br><br>The tiny moving <em>dots</em> represent the real-time movement of resources. You should optimize your building locations to minimize the distance of travel.<br><br><em>Upgrading</em> your buildings will increase their output, but will also increase their power usage and input required.",
     Tutorial4P2:
         "You can change your fuel type in the <em>logistics department🚦</em> - on this map, you can also use <em>natural gas</em> as fuel.<br><br>The logistics department also shows your transportation routes that burns most fuel - you'll want to keep an eye on it.<br><br>Remember to <em>make sure your fuel production is above consumption</em> otherwise your production will halt when you run out of fuel.<br><br>If that happens, don't worry, you can buy some emergency fuel from the trade center or from other players",
     Tutorial5P2:
         "<em>The statistics bureau📊</em> provides a good overview of your production. You can see a detailed breakdown of your resource input and output.<br><br>There are also lots of useful charts📈 - you'll want to refer to them when you balance your production.<br></br>Your <em>cash💰, power surplus⚡ and fuel surplus⛽</em> numbers are also shown on the top left corner - if any of them turns red, you should investigate what's going on.",
-    MusicProducer: "Music Producer",
+    MusicProducer: "Produtora Musical",
     PlasticFiber: "Plastic Fiber",
     PlasticFiberDesc: "Fiber factories use 50% more plastics but 50% less glass",
     NewsEffectx2: "Press Conference",
@@ -1006,7 +1006,7 @@ export const PT_BR = {
         "Your latest progress is saved to Steam Cloud and synced across devices. The game also backs up your save every 10 minutes automatically to Steam Cloud. You can force a backup at any time",
     SpaceColony: "Space Colony",
     SpaceColonyInc: "Space Colony",
-    ProjectVostok: "Project Vostok",
+    ProjectVostok: "Projeto Vostok",
     AdjacentBonusSquare: "Adjacent Bonus Square",
     AdjacentBonusSquareDesc: "Adjacent bonus is 50% more effective, but tile modifiers scale from -15% to +15%",
     ResourceBoosterSquare: "Resource Booster Square",
@@ -1020,9 +1020,9 @@ export const PT_BR = {
     FuelDynamite: "Fuel Dynamite",
     FuelDynamiteDesc: "Dynamite factories use your current fuel instead of oil",
     StPetersburgBonusV2:
-        "<li>Uranium mines have 2x output</li><li>Uranium enrichment plants have 2x capacity</li><li>Uranium transportation costs 50% less fuel</li><li>Free gun transportation</li><li>Project Vostok has 2x capacity</li>",
+        "<li>Minas de urânio têm 2x de saída</li><li>Plantas de enriquecimento de urânio têm 2x de capacidade</li><li>Transportar urânio utiliza 50% menos combustível</li><li>Armas são transportadas gratuitamente</li><li>Projeto Vostok têm 2x de capacidade</li>",
     ToulouseBonusV2:
-        "<li>Titanium mines have 2x output</li><li>Uranium enrichment plants have 2x productivity</li><li>Jet engine factories have 2x capacity</li><li>Aircraft factories have 2x productivity</li><li>Rocket factories have 2x capacity</li>",
+        "<li>Minas de titânio têm 2x de saída</li><li>Plantas de enriquecimento de urânio têm 2x de produtividade</li><li>Fábricas de motor de jato têm 2x de capacidade</li><li>Fábricas de aeronave têm 2x de produtividade</li><li>Fábricas de foguete têm 2x de capacidade</li>",
     BuildingPermitsNeededDesc: "This building is not working because you don't have enough building permits",
     BuildingPermitsNeeded: "Building Permits Needed",
     BuyMissingPermits: "Buy Missing Permits",
