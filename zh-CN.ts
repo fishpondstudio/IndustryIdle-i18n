@@ -964,14 +964,14 @@ export const ZH_CN = {
     FuelDynamite: "燃料炸药",
     FuelDynamiteDesc: "炸药工厂消耗当前使用的燃料而非石油",
     StPetersburgBonusV2:
-        "<li>铀矿场的产出量是原来的2倍</li><li>浓缩铀加工厂的生产能力是原来的2倍</li><li>铀运输的燃料成本降低50％</li><li>枪械运输免费</li><li>Vostok计划的生产能力是原来的2倍</li>",
+        "<li>铀矿场的产出量是原来的2倍</li><li>浓缩铀加工厂的生产能力是原来的2倍</li><li>铀运输的燃料成本降低50％</li><li>枪械运输免费</li><li>东方计划的生产能力是原来的2倍</li>",
     ToulouseBonusV2:
         "<li>钛矿场的产出量是原来的2倍</li><li>浓缩铀加工厂的产出量是原来的2倍</li><li>喷气发动机工厂的生产能力是原来的2倍</li><li>飞机工厂的产出量是原来的2倍</li><li>火箭工厂的生产能力是原来的2倍</li>",
-    BuildingPermitsNeededDesc: "This building is not working because you don't have enough building permits",
-    BuildingPermitsNeeded: "Building Permits Needed",
-    BuyMissingPermits: "Buy Missing Permits",
-    GPUIsBusy: "Your GPU is Busy",
+    BuildingPermitsNeededDesc: "由于你持有的建筑许可证不足，此建筑无法运行",
+    BuildingPermitsNeeded: "需要建筑许可证",
+    BuyMissingPermits: "购买不足的许可证",
+    GPUIsBusy: "你的GPU正忙",
     GPUIsBusyDesc:
-        "Your operating system has paused the game's graphics because the GPU is busy with other tasks. You can reload the game to resume. If it doesn't work, try restarting the game",
-    SaveAndReloadGame: "Save And Reload Game",
+        "由于你的GPU正忙于其他任务，你的操作系统已将游戏画面暂停。你可以重新加载来恢复游戏。若无效，请尝试重启游戏",
+    SaveAndReloadGame: "保存并重载游戏",
 };
