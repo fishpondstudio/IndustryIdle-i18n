@@ -831,7 +831,6 @@ export const ZH_TW = {
     SettingsFullScreenDesc: "以全螢幕模式運行遊戲。 僅適用於Steam版本",
     LeaderboardByAllPrestigeCurrency: "有史以來賺取的瑞士貨幣",
     LeaderboardByCash: "當前持有的現金",
-    LeaderboardBySwissPerBuilding: "當前每幢建築物的瑞士貨幣",
     LeaderboardTotalValuation: "總市值",
     LeaderboardDescV2: "看看那些頂尖玩家在哪裡",
     LastUpdatedAt: "上次更新時間",
@@ -876,9 +875,7 @@ export const ZH_TW = {
     MarketNewsDecrease: "減少了 %{percent}",
     MarketNewsBuilding: "該建築物受到%{num}條新聞的影響",
     StockholmBonusV2:
-        "<li>獨特的建築：音樂製作人</li> <li>伐木場有2倍的產量</li> <li>造紙廠已解鎖</li> <li>電路廠的產出是原本的2倍</li> <li> 科學文獻政策是免費的</li>",
-    OsloBonusV2:
-        "<li>煉油廠已解鎖</li><li>煉油廠的產能是原來的2倍</li> <li>電動石油運輸政策是免費的</li> <li>天然氣加工廠的產能是原來的2倍 </li><li>一座免費4級風力發電機</li> <li>一座免費4級石油井</li> <li>一座免費2級煉油廠</li> <li>一座免費2級天然氣泵</li>",
+        "<li>獨特的建築：音樂製作人</li> <li>伐木場有2倍的產量</li> <li>造紙廠已解鎖</li> <li>電路鑄造廠的生產率是2倍</li> <li> 科學文獻政策是免費的</li>",
     FreeOilTransportV2: "電動石油運輸",
     Tutorial4P1:
         "資源運輸消耗燃料。有幾種燃料類型，現在您正在使用<em>汽油⛽</em>作為燃料。 您有一個<em>煉油廠</em>，該煉油廠從油井運出石油並生產汽油。<br> <br>微小的移動點<em>點</em>表示資源的實時移動。 您應該優化建築物的位置，以最大程度地減少行進距離。<br> <br> <em>升級</em>您的建築物將增加其輸出，但同時也會增加其用電量和所需的輸入。",
@@ -902,7 +899,6 @@ export const ZH_TW = {
     BuildWarningTitleDesc: "%{reason}.您確定要在此地塊上進行構建嗎？",
     BuildWarningBuildAnyway: "扔要建造",
     ResourceBoosterNotWorking: "⛔ 資源加速器僅能在礦山旁邊工作",
-    ResourceBoosterPercentage: "💡該建築物從相鄰的資源加速器中獲得％{percent}的輸出提升",
     ResourceBoosterBuildings: "建築正在加速",
     BuildingResourceConversion: "%{resource} 轉換",
     AllTimeSwissMoneyEarned: "總體賺取的瑞士貨幣: %{number}",
@@ -957,8 +953,6 @@ export const ZH_TW = {
     ResourceBoosterSquareDesc: "資源加速器提供25%額外加成，但科學點消耗量增加25%，用電量增加25%",
     SteelMillx2: "鋼爐現代化",
     SteelMillx2Desc: "煉鋼廠與不鏽鋼廠的容量提高2倍，並使用2倍電力",
-    IronSteelZone: "鐵鋼領域",
-    IronSteelZoneDesc: "資源加速器每加速1個運作中的鐵礦廠，就能額外提升與加速器相鄰的煉鋼廠及不鏽鋼廠%{percent}輸出",
     FuelDynamite: "燃料炸藥",
     FuelDynamiteDesc: "炸藥工廠不使用石油，而是選擇使用中的燃料",
     StPetersburgBonusV2:
@@ -969,7 +963,33 @@ export const ZH_TW = {
     BuildingPermitsNeeded: "需要建築許可證",
     BuyMissingPermits: "購齊不足的許可證",
     GPUIsBusy: "您的GPU正處於忙碌中",
-    GPUIsBusyDesc:
-        "您的GPU因其他程式而處於高負載 您的作業系統已將遊戲畫面暫停. 您可重整以回到遊戲. 若無效, 請重啟遊戲",
+    GPUIsBusyDesc: "您的GPU因其他程式而處於高負載 您的作業系統已將遊戲畫面暫停. 您可重整以回到遊戲. 若無效, 請重啟遊戲",
     SaveAndReloadGame: "儲存並重整遊戲",
+    ResearchLabCultureInput: "The Renaissance",
+    ResearchLabCultureInputDesc: "Research Lab has 2x capacity but takes culture as the extra input",
+    GasPumpx2Output: "High Pressure Gas Pump",
+    GasPumpx2OutputDesc: "Natural gas pumps have 2x output but use 2x power",
+    LeaderboardValuationPerHour: "Total Valuation Per Hour",
+    LeaderboardValuationPerHourPerSwiss: "Total Valuation Per Hour Per Swiss",
+    LeaderboardValuationPerHourNewPlayers: "Total Valuation Per Hour (< 1000 Swiss)",
+    LeaderboardValuationPerBuilding: "Building Valuation Per Building",
+    BuildingCustomColor: "Building Color",
+    BuildingCustomColorReset: "Reset",
+    Vancouver: "Vancouver",
+    VancouverBonus:
+        "<li>Every 4 different types of buildings give 1 free building permit</li><li>Unique policy: Production Diversification</li><li>Unique building: Maple Syrup Factory</li><li>Free maple syrup transport</li><li>Unique fuel type: Maple Syrup</li><li>2x player trade quota when trading Uranium and Enriched Uranium</li><li>Unique free policy: Syrup Plastic</li><li>Toy factories have 2x productivity</li><li>Game studios have 2x capacity</li>",
+    MapExtraPermitDesc: "You get %{number} free building permits from the map's unique bonus",
+    OsloBonusV3:
+        "<li>Oil refineries are unlocked</li><li>Oil refineries have 2x capacity</li><li>Electric oil transport policy is free</li><li>Gas processing plants have 2x capacity</li><li>Free level 4 wind turbine x1</li><li>Free level 8 oil well x1</li><li>Free level 2 oil refinery x1</li><li>Free level 2 natural gas pump x1</li>",
+    ResourceBoosterPercentageV2: "💡 This amount includes %{percent} boost from adjacent resource boosters",
+    MapleSyrup: "Maple Syrup",
+    MapleSyrupFactory: "Maple Syrup Factory",
+    SyrupPlastic: "Syrup Plastic",
+    SyrupPlasticDesc: "All buildings that input plastic use maple syrup instead",
+    ResourceBoosterSupplyChain: "Supply Chain Booster",
+    ResourceBoosterSupplyChainDesc:
+        "Resource boosters use 2x power and science, but for each working mine a resource booster is boosting, it also provides capacity boost to adjacent factories that consume the mine's output (the factory should only consume deposits)",
+    MapProductionBonusDesc: "This building gets %{percent} extra capacity from the map's unique bonus",
+    ProductionDiversification: "Production Diversification",
+    ProductionDiversificationDesc: "Each different type of building gives 1% extra capacity to all buildings",
 };
