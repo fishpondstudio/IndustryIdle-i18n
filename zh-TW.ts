@@ -897,7 +897,7 @@ export const ZH_TW = {
     ResourceBooster: "資源加速器",
     BuildWarningTitle: "建築可能無法正常工作",
     BuildWarningTitleDesc: "%{reason}.您確定要在此地塊上進行構建嗎？",
-    BuildWarningBuildAnyway: "扔要建造",
+    BuildWarningBuildAnyway: "確定要建造",
     ResourceBoosterNotWorking: "⛔ 資源加速器僅能在礦山旁邊工作",
     ResourceBoosterBuildings: "建築正在加速",
     BuildingResourceConversion: "%{resource} 轉換",
