@@ -557,20 +557,20 @@ export const ZH_TW = {
     Stockholm: "斯德哥爾摩",
     Rotterdam: "鹿特丹",
     RotterdamBonus:
-        "<li>煉鋼廠的產能是原來的2倍</li> <li>不鏽鋼廠的產能是原來的2倍</li> <li>免費鐵運輸</li> <li>鋼運輸的燃料成本降低了50％</li> <li>以2倍的自動銷售容量開始</li> <li>沒有建築增益</li>",
+        "<li>煉鋼廠的產能是原來的2倍</li><li>不鏽鋼廠的產能是原來的2倍</li><li>免費鐵運輸</li><li>鋼運輸的燃料成本降低了50％</li><li>以2倍的自動銷售容量開始</li><li>沒有建築增益</li>",
     Oslo: "奧斯陸",
     StPetersburg: "聖彼得堡",
     Hamburg: "漢堡",
     HamburgBonus:
-        "<li>齊柏林飛艇工廠解鎖</li> <li>半導體工廠的產能是原來的2倍</li> <li>造船廠的產能是原來的2倍</li> <li>汽車工廠的產能是原來的2倍 </li> <li>鋰離子電池工廠已解鎖</li>",
+        "<li>齊柏林飛艇工廠解鎖</li><li>半導體工廠的產出是原來的2倍</li><li>造船廠的產能是原來的2倍</li><li>汽車工廠的產能是原來的2倍 </li><li>鋰離子電池工廠已解鎖</li>",
     Toulouse: "圖盧茲",
     Rome: "羅馬",
     RomeBonus:
-        "<li>大競技場解鎖</li> <li>大競技場的生產率是原來的2倍</li> <li>從5級政策中心開始</li> <li>歌劇院的能力是原來的2倍</li> <li>錄音室也產生文化</li>",
+        "<li>大競技場解鎖</li><li>大競技場的產出是原來的2倍</li><li>從5級政策中心開始</li><li>歌劇院的產能是原來的2倍</li><li>錄音室也產生文化</li>",
     Detroit: "底特律",
     Boston: "波士頓",
     BostonBonus:
-        "<li>從5級研究實驗室開始</li><li>理工學院被解鎖</li><li>理工學院的能力是原來的2倍</li><li>學校具有2倍的容量</li><li>大學生產力提高了2倍</li>",
+        "<li>從5級研究實驗室開始</li><li>理工學院被解鎖</li><li>理工學院的產能是原來的2倍</li><li>學校的產能是原來的2倍</li><li>大學的產出是原來的2倍</li>",
     HideNotProducing: "隱藏未生產的資源",
     SortByStorage: "庫存",
     SortByProduction: "產量",
@@ -825,8 +825,8 @@ export const ZH_TW = {
     ElectricCar: "尼古拉·特斯拉",
     ElectricCarDesc: "汽車製造廠使用電池代替汽油，只需要使用50％的電量",
     HongKongBonusV2:
-        "<li>獨特的市場定價算法-價格符合正態分佈(即鐘形曲線)</li><li>市場更新和交易配額重置頻率是原來的2倍(即每小時)</li><li>可以用已經交易的資源解鎖研究</li><li>獨特建築：功夫館</li><li>獨特建築：太極館</li><li>允許同時進行的玩家交易數量增加50 %</li><li>開局即多1個自動銷售並發數</li><li>獨特政策：國際出口貿易</li><li>獨特政策：東方之珠</li><li>解鎖批發中心只需4種資源</li><li>開局即有100M現金</li>",
-    TaiChi10xCultureDescV2: "功夫和太極運輸免費。電影工作室的生產能力是原來的2倍，但耗電量增加50%",
+        "<li>獨特的市場定價算法-價格符合常態分佈(即鐘形曲線)</li><li>市場更新和交易配額重置頻率是原來的2倍(即每小時)</li><li>可以用已經交易的資源解鎖研究</li><li>獨特建築：功夫館</li><li>獨特建築：太極館</li><li>允許同時進行的玩家交易數量增加50 %</li><li>開局即多1個同時自動銷售數量</li><li>獨特政策：國際出口貿易</li><li>獨特政策：東方之珠</li><li>解鎖批發中心只需4種資源</li><li>開局即有100M現金</li>",
+    TaiChi10xCultureDescV2: "功夫和太極運輸免費。電影工作室的產能是原來的2倍，但耗電量增加50%",
     SettingsFullScreen: "全螢幕",
     SettingsFullScreenDesc: "以全螢幕模式運行遊戲。 僅適用於Steam版本",
     LeaderboardByAllPrestigeCurrency: "有史以來賺取的瑞士貨幣",
@@ -835,7 +835,7 @@ export const ZH_TW = {
     LeaderboardDescV2: "看看那些頂尖玩家在哪裡",
     LastUpdatedAt: "上次更新時間",
     DetroitBonusV3:
-        "<li>發動機工廠已預先解鎖</li><li>發動機工廠的產出量是原來的2倍</li><li>汽車工廠的生產能力是原來的2倍</li><li >汽車工廠使用天然氣替代汽油</li><li>汽車運輸免費</li><li>尼古拉.特斯拉政策免政策點</li><li>火車工廠的生產能力是原來的2倍</li>",
+        "<li>引擎工廠已解鎖</li><li>引擎工廠的產出是原來的2倍</li><li>汽車工廠的產能是原來的2倍</li><li >汽車工廠使用天然氣替代汽油</li><li>汽車運輸免費</li><li>尼古拉.特斯拉政策免費</li><li>火車工廠的產能是原來的2倍</li>",
     SaveAndExit: "保存並退出遊戲",
     SaveAndExitDesc: "保存並退出遊戲。 這僅在Steam版本上可用，並且與視窗欄上的關閉按鈕相同",
     AutoSellResourceWarningShortLabel: "💡自動銷售",
@@ -949,7 +949,7 @@ export const ZH_TW = {
     ProjectVostok: "東方計畫",
     AdjacentBonusSquare: "相鄰加成二次方",
     AdjacentBonusSquareDesc: "相鄰加成提升50%效能，但建築增益改為-15%到+15%之間",
-    ResourceBoosterSquare: "資源加速器二次方",
+    ResourceBoosterSquare: "資源加速二次方",
     ResourceBoosterSquareDesc: "資源加速器提供25%額外加成，但科學點消耗量增加25%，用電量增加25%",
     SteelMillx2: "鋼爐現代化",
     SteelMillx2Desc: "煉鋼廠與不鏽鋼廠的容量提高2倍，並使用2倍電力",
@@ -958,7 +958,7 @@ export const ZH_TW = {
     StPetersburgBonusV2:
         "<li>鈾礦場的產量是原來的2倍</li><li>濃縮鈾工廠的容量是原來的2倍</li><li>鈾運輸的燃料成本降低了50％</li><li>槍運輸免費</li><li>東方計畫的容量是原來的2倍</li>",
     ToulouseBonusV2:
-        "<li>鈦礦場的產量是原來的2倍</li><li>濃縮鈾工廠的產能是原來的2倍</li><li>噴氣發動機工廠的容量日原來的2倍</li><li>飛機工廠的產能是原來的2倍</li><li>火箭工廠的產能是原來的2倍y</li>",
+        "<li>鈦礦場的產量是原來的2倍</li><li>濃縮鈾工廠的產能是原來的2倍</li><li>噴氣發動機工廠的容量是原來的2倍</li><li>飛機工廠的產能是原來的2倍</li><li>火箭工廠的產能是原來的2倍</li>",
     BuildingPermitsNeededDesc: "此建築已停止運作 因您所持有的建築許可證不足",
     BuildingPermitsNeeded: "需要建築許可證",
     BuyMissingPermits: "購齊不足的許可證",
