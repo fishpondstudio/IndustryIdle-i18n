@@ -886,7 +886,6 @@ export const RU = {
     SettingsFullScreenDesc: "Запуск игры в полноэкранном режиме возможен только для Steam версии",
     LeaderboardByAllPrestigeCurrency: "Всего заработано Индустриальных кредитов",
     LeaderboardByCash: "Текущая сумма наличных денег",
-    LeaderboardBySwissPerBuilding: "Текущее количество Индустриальных кредитов/здание",
     LeaderboardTotalValuation: "Общая стоимость активов",
     LeaderboardDescV2: "Посмотрите, на каких позициях находятся ведущие игроки",
     LastUpdatedAt: "Последнее обновление",
@@ -937,8 +936,6 @@ export const RU = {
     MarketNewsBuilding: "На это здание влияет %{num} новостей",
     StockholmBonusV2:
         "<li>Уникальное здание: Музыкальный продюсер</li><li>Лесозаготовки имеют 2Х производительность</li><li>Бумажные комбинаты разблокированы</li><li>Литейные цеха имеют 2Х производительность</li><li>Бесплатная политика Научная литература</li>",
-    OsloBonusV2:
-        "<li>Нефтеперерабатывающие заводы разблокированы</li><li>Нефтеперерабатывающие заводы имеют 2Х производительность</li><li>Бесплатная политика Перевозка нефти</li><li>Газоперерабатывающие заводы имеют 2Х производительность</li><li>Бесплатный Ветрогенератор 4 уровня x1</li><li>Бесплатная Нефтяная скважина 4 уровня x1</li><li>Бесплатный нефтеперерабатывающий завод 2 уровня x1</li><li>Бесплатный насос природного газа 2 уровня x1</li>",
     FreeOilTransportV2: "Электрический транспорт нефти",
     Tutorial4P1:
         "Перевозка ресурсов расходует топливо. Существует несколько видов топлива, и сейчас вы используете <em>бензин⛽</em> в качестве топлива. У вас есть <em>нефтеперерабатывающий завод</em>, который перевозит нефть из нефтяной скважины и производит бензин.<br><br> Крошечные движущиеся <em>точки</em> представляют собой перемещение ресурсов в реальном времени. Вы должны оптимизировать расположение зданий, чтобы минимизировать расстояние перемещения.<br><br><em>Усовершенствование</em> ваших зданий увеличит их производительность, но также увеличит их энергопотребление и потребление ресурсов.",
@@ -964,8 +961,6 @@ export const RU = {
     BuildWarningTitleDesc: "%{reason}. Вы уверены, что хотите строить на этой плитке?",
     BuildWarningBuildAnyway: "Строить в любом случае",
     ResourceBoosterNotWorking: "⛔ Ускорители ресурсов работают только рядом с шахтами",
-    ResourceBoosterPercentage:
-        "💡 Это здание получает %{percent} прироста производительности от соседних ускорителей ресурсов",
     ResourceBoosterBuildings: "Здания, получающие прирост",
     BuildingResourceConversion: "%{resource} конвертировано",
     AllTimeSwissMoneyEarned: "Заработанные за все время Индустриальные кредиты: %{number}",
@@ -1028,9 +1023,6 @@ export const RU = {
         "Resource boosters provide 25% more boost but their science input and power usage also increase by 25%",
     SteelMillx2: "Steel Furnace Modernization",
     SteelMillx2Desc: "Steel mills and stainless steel plants have 2x capacity but uses 2x power",
-    IronSteelZone: "Iron Steel Zone",
-    IronSteelZoneDesc:
-        "Resource booster provide a %{percent} output bonus to adjacent steel mills or stainless steel plants for each working iron mine it is boosting",
     FuelDynamite: "Fuel Dynamite",
     FuelDynamiteDesc: "Dynamite factories use your current fuel instead of oil",
     StPetersburgBonusV2:
@@ -1044,4 +1036,31 @@ export const RU = {
     GPUIsBusyDesc:
         "Your operating system has paused the game's graphics because the GPU is busy with other tasks. You can reload the game to resume. If it doesn't work, try restarting the game",
     SaveAndReloadGame: "Save And Reload Game",
+    ResearchLabCultureInput: "The Renaissance",
+    ResearchLabCultureInputDesc: "Research Lab has 2x capacity but takes culture as the extra input",
+    GasPumpx2Output: "High Pressure Gas Pump",
+    GasPumpx2OutputDesc: "Natural gas pumps have 2x output but use 2x power",
+    LeaderboardValuationPerHour: "Total Valuation Per Hour",
+    LeaderboardValuationPerHourPerSwiss: "Total Valuation Per Hour Per Swiss",
+    LeaderboardValuationPerHourNewPlayers: "Total Valuation Per Hour (< 1000 Swiss)",
+    LeaderboardValuationPerBuilding: "Building Valuation Per Building",
+    BuildingCustomColor: "Building Color",
+    BuildingCustomColorReset: "Reset",
+    Vancouver: "Vancouver",
+    VancouverBonus:
+        "<li>Every 4 different types of buildings give 1 free building permit</li><li>Unique policy: Production Diversification</li><li>Unique building: Maple Syrup Factory</li><li>Free maple syrup transport</li><li>Unique fuel type: Maple Syrup</li><li>2x player trade quota when trading Uranium and Enriched Uranium</li><li>Unique free policy: Syrup Plastic</li><li>Toy factories have 2x productivity</li><li>Game studios have 2x capacity</li>",
+    MapExtraPermitDesc: "You get %{number} free building permits from the map's unique bonus",
+    OsloBonusV3:
+        "<li>Oil refineries are unlocked</li><li>Oil refineries have 2x capacity</li><li>Electric oil transport policy is free</li><li>Gas processing plants have 2x capacity</li><li>Free level 4 wind turbine x1</li><li>Free level 8 oil well x1</li><li>Free level 2 oil refinery x1</li><li>Free level 2 natural gas pump x1</li>",
+    ResourceBoosterPercentageV2: "💡 This amount includes %{percent} boost from adjacent resource boosters",
+    MapleSyrup: "Maple Syrup",
+    MapleSyrupFactory: "Maple Syrup Factory",
+    SyrupPlastic: "Syrup Plastic",
+    SyrupPlasticDesc: "All buildings that input plastic use maple syrup instead",
+    ResourceBoosterSupplyChain: "Supply Chain Booster",
+    ResourceBoosterSupplyChainDesc:
+        "Resource boosters use 2x power and science, but for each working mine a resource booster is boosting, it also provides capacity boost to adjacent factories that consume the mine's output (the factory should only consume deposits)",
+    MapProductionBonusDesc: "This building gets %{percent} extra capacity from the map's unique bonus",
+    ProductionDiversification: "Production Diversification",
+    ProductionDiversificationDesc: "Each different type of building gives 1% extra capacity to all buildings",
 };

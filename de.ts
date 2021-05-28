@@ -890,7 +890,6 @@ export const DE = {
     SettingsFullScreenDesc: "Führen Sie das Spiel im Vollbildmodus aus. Nur für die Steam-Version verfügbar",
     LeaderboardByAllPrestigeCurrency: "Summe verdienter Schweizer Franken",
     LeaderboardByCash: "Aktuelles Bargeld",
-    LeaderboardBySwissPerBuilding: "Aktuelle Schweizer Franken pro Gebäude",
     LeaderboardTotalValuation: "Gesamtwert",
     LeaderboardDescV2: "Sehen Sie, wo die Top-Spieler sind",
     LastUpdatedAt: "Zuletzt aktualisiert um",
@@ -940,8 +939,6 @@ export const DE = {
     MarketNewsBuilding: "Dieses Gebäude wird betroffen von %{num} Neuigkeiten",
     StockholmBonusV2:
         "<li>Einzigartiges Gebäude: Musikproduzent</li><li>Forstbetriebe haben 2x Absatz</li><li>Papierfabriken sind entsperrt</li><li>Schaltungsgießereien haben 2x Produktivität</li><li>Die Politik der Wissenschaft Richtlinie ist kostenlos</li>",
-    OsloBonusV2:
-        "<li>Ölraffinerien sind freigeschaltet</li><li>Ölraffinerien haben 2x Kapazität</li><li>Die Richtlinie Elektronischer Öltransport ist kostenlos</li><li>Gasaufbereitungsanlagen haben 2x Kapazität</li><li>Kostenlose Windkraftanlage der Stufe 4 x1</li><li>Kostenlose Ölquelle der Stufe 4 x1</li><li>Kostenlose Ölraffinerie der Stufe 2 x1</li><li>Kostenlose Erdgaspumpe der Stufe 2 x1</li>",
     FreeOilTransportV2: "Elektronischer Öltransport",
     Tutorial4P1:
         "Der Transport von Ressourcen kostet Kraftstoff. Es gibt verschiedene Kraftstoffarten, momentan verwenden Sie <em>petrol⛽</em> als Kraftstoff. Sie haben eine <em>Ölraffinerie</em> welche das Öl auf der Ölquelle verbraucht und Benzin herstellt.<br><br>Die kleinen bewegenden <em>Punkte</em> stellen den Transport der Ressourcen dar. Sie sollten Ihre Gebäudestandorte optimieren, um die Distanz zu minimieren.<br><br><em>Aufwerten</em> deiner Gebäude erhöht deren Produktion, aber erhöht ebenfalls deren Stromverbrauch, sowie die benötigten Ressourcen.",
@@ -967,8 +964,6 @@ export const DE = {
     BuildWarningTitleDesc: "%{reason}. Sind Sie sicher, dass Sie auf dieser Zelle zu bauen wollen?",
     BuildWarningBuildAnyway: "Trotzdem bauen",
     ResourceBoosterNotWorking: "⛔ Ressourcen-Verstärker funktionieren nur in der Nähe von Lagerstätten",
-    ResourceBoosterPercentage:
-        "💡 Dieses Gebäude bekommt %{percent} Austragserhörhung von benachbarten Ressourcen-Verstärkern",
     ResourceBoosterBuildings: "Gebäude werden verstärkt",
     BuildingResourceConversion: "%{resource} Umwandlung",
     AllTimeSwissMoneyEarned: "Gesamstmenge Schweizer Franken: %{number}",
@@ -1027,15 +1022,14 @@ export const DE = {
     SpaceColonyInc: "Weltraumkolonieagentur",
     ProjectVostok: "Projekt Wostok",
     AdjacentBonusSquare: "Angrenzendes Bonusfeld",
-    AdjacentBonusSquareDesc: "Der angrenzende Bonus ist 50% effektiver, aber die Zellenmodifikatoren skalieren von -15% bis + 15%.",
+    AdjacentBonusSquareDesc:
+        "Der angrenzende Bonus ist 50% effektiver, aber die Zellenmodifikatoren skalieren von -15% bis + 15%.",
     ResourceBoosterSquare: "Ressourcen-Verstärker Quadrat",
     ResourceBoosterSquareDesc:
         "Ressourcen-Verstärker sorgen für 25% mehr Boost, aber ihr Wissenschaftspunkte- und Stromverbrauch steigt um 25%",
     SteelMillx2: "Stahlofenmodernisierung",
-    SteelMillx2Desc: "Stahlwerke und Edelstahlwerke haben eine doppelte Kapazität, verbrauchen jedoch die doppelte Menge Strom",
-    IronSteelZone: "Eisenstahlzone",
-    IronSteelZoneDesc:
-        "Resourcen-Verstärker bieten benachbarten Stahlwerken oder Edelstahlwerken einen Produktionsbonus von %{percent} für jede arbeitende angrenzende Eisenmine",
+    SteelMillx2Desc:
+        "Stahlwerke und Edelstahlwerke haben eine doppelte Kapazität, verbrauchen jedoch die doppelte Menge Strom",
     FuelDynamite: "Kraftstoff Dynamit",
     FuelDynamiteDesc: "Dynamitfabriken verwenden Ihren aktuellen Kraftstoff anstelle von Öl",
     StPetersburgBonusV2:
@@ -1049,4 +1043,31 @@ export const DE = {
     GPUIsBusyDesc:
         "Ihr Betriebssystem hat die Grafik des Spiels angehalten, da die GPU mit anderen Aufgaben beschäftigt ist. Sie können das Spiel neu laden, um fortzufahren. Wenn es nicht funktioniert, starte das Spiel neu",
     SaveAndReloadGame: "Spiel speichern und neu laden",
+    ResearchLabCultureInput: "The Renaissance",
+    ResearchLabCultureInputDesc: "Research Lab has 2x capacity but takes culture as the extra input",
+    GasPumpx2Output: "High Pressure Gas Pump",
+    GasPumpx2OutputDesc: "Natural gas pumps have 2x output but use 2x power",
+    LeaderboardValuationPerHour: "Total Valuation Per Hour",
+    LeaderboardValuationPerHourPerSwiss: "Total Valuation Per Hour Per Swiss",
+    LeaderboardValuationPerHourNewPlayers: "Total Valuation Per Hour (< 1000 Swiss)",
+    LeaderboardValuationPerBuilding: "Building Valuation Per Building",
+    BuildingCustomColor: "Building Color",
+    BuildingCustomColorReset: "Reset",
+    Vancouver: "Vancouver",
+    VancouverBonus:
+        "<li>Every 4 different types of buildings give 1 free building permit</li><li>Unique policy: Production Diversification</li><li>Unique building: Maple Syrup Factory</li><li>Free maple syrup transport</li><li>Unique fuel type: Maple Syrup</li><li>2x player trade quota when trading Uranium and Enriched Uranium</li><li>Unique free policy: Syrup Plastic</li><li>Toy factories have 2x productivity</li><li>Game studios have 2x capacity</li>",
+    MapExtraPermitDesc: "You get %{number} free building permits from the map's unique bonus",
+    OsloBonusV3:
+        "<li>Oil refineries are unlocked</li><li>Oil refineries have 2x capacity</li><li>Electric oil transport policy is free</li><li>Gas processing plants have 2x capacity</li><li>Free level 4 wind turbine x1</li><li>Free level 8 oil well x1</li><li>Free level 2 oil refinery x1</li><li>Free level 2 natural gas pump x1</li>",
+    ResourceBoosterPercentageV2: "💡 This amount includes %{percent} boost from adjacent resource boosters",
+    MapleSyrup: "Maple Syrup",
+    MapleSyrupFactory: "Maple Syrup Factory",
+    SyrupPlastic: "Syrup Plastic",
+    SyrupPlasticDesc: "All buildings that input plastic use maple syrup instead",
+    ResourceBoosterSupplyChain: "Supply Chain Booster",
+    ResourceBoosterSupplyChainDesc:
+        "Resource boosters use 2x power and science, but for each working mine a resource booster is boosting, it also provides capacity boost to adjacent factories that consume the mine's output (the factory should only consume deposits)",
+    MapProductionBonusDesc: "This building gets %{percent} extra capacity from the map's unique bonus",
+    ProductionDiversification: "Production Diversification",
+    ProductionDiversificationDesc: "Each different type of building gives 1% extra capacity to all buildings",
 };
