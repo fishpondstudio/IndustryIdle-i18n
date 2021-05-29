@@ -845,8 +845,7 @@ export const KR = {
     ElectricCarDesc: "자동차 공장은 휘발유 대신 배터리를 사용하며 50%의 양만 필요합니다",
     HongKongBonusV2:
         "<li>고유한 시장가격 산정 알고리즘 - 가격과 주가는 정규 분포(종 모양 곡선)를 따릅니다</li><li>시장 업데이트 및 거래 할당량 재설정이 두 배 자주 발생합니다 (매시간)</li><li>거래된 자원을 통해 연구 잠금 해제 가능</li><li>고유 건물: 쿵푸 도장</li><li>고유 건물: 태극권 도장</li><li>허용되는 최대 활성 플레이어 거래수 50% 증가</li><li>시작 시, 자동 판매 종류 +1개</li><li>고유 정책: 국제 수출 무역</li><li>고유 정책: 동양의 진주</li><li>도매 센터는 잠금 해제에 4개의 자원만 필요합니다</li><li>100M의 자금으로 시작</li>",
-    TaiChi10xCultureDescV2:
-        "무료 쿵푸 및 태극권 운송. 영화 스튜디오의 용량은 2배이지만 전력을 50% 더 많이 사용합니다",
+    TaiChi10xCultureDescV2: "무료 쿵푸 및 태극권 운송. 영화 스튜디오의 용량은 2배이지만 전력을 50% 더 많이 사용합니다",
     SettingsFullScreen: "전체화면",
     SettingsFullScreenDesc: "스팀 사용자만 전체화면모드를 사용할 수 있습니다",
     LeaderboardByAllPrestigeCurrency: "지금까지 벌어들인 스위스 돈",
@@ -860,8 +859,7 @@ export const KR = {
     SaveAndExitDesc:
         "게임을 저장하고 종료합니다. 이것은 Steam 버전에서만 사용할 수 있으며 창 표시 줄의 닫기 버튼과 같습니다",
     AutoSellResourceWarningShortLabel: "💡자동 판매",
-    AutoSellResourceWarningDesc:
-        "이 자원을 자동 판매하고 있습니다. 무역 센터에 저장된 양은 여기에 사용할 수 없습니다",
+    AutoSellResourceWarningDesc: "이 자원을 자동 판매하고 있습니다. 무역 센터에 저장된 양은 여기에 사용할 수 없습니다",
     PlayerTradeLocalPrice: "현지 가격: %{price}",
     ChatForceScroll: "강제 스크롤",
     ChatForceScrollDesc:
@@ -872,8 +870,7 @@ export const KR = {
     ConstructionPause: "일시 중지",
     ConstructionResume: "다시 시작",
     PolicyBlueprint: "청사진",
-    PolicyBlueprintDesc:
-        "건물 건설이 자동으로 시작되지 않습니다. 수동으로 시작해야 합니다 (무료 정책)",
+    PolicyBlueprintDesc: "건물 건설이 자동으로 시작되지 않습니다. 수동으로 시작해야 합니다 (무료 정책)",
     HighlightUnderConstruction: "...건설되지 않은 것",
     HighlightUnderLevel10: "...레벨 10 미만",
     HighlightUnderLevel20: "...레벨 20 미만",
@@ -913,10 +910,8 @@ export const KR = {
     NewsEffectx2: "기자 회견",
     NewsEffectx2Desc: "시장 뉴스의 긍정적, 부정적인 영향이 두 배로 증가합니다",
     SellRefundPercentage: "판매/다운그레이드 환불",
-    SellRefundPercentageDesc:
-        "건물을 매각하거나 다운그레이드하는 경우 환불되는 현금 및 자원의 비율입니다",
-    SellBuildingDescV2:
-        "건물을 팔면 투자 금액의 %{percent}이 환불되고 자원의 %{percent}는 무역 센터로 운송됩니다",
+    SellRefundPercentageDesc: "건물을 매각하거나 다운그레이드하는 경우 환불되는 현금 및 자원의 비율입니다",
+    SellBuildingDescV2: "건물을 팔면 투자 금액의 %{percent}이 환불되고 자원의 %{percent}는 무역 센터로 운송됩니다",
     BuilderMoveSpeed: "건축업자 이동 속도",
     BuilderMoveSpeedDesc: "건축업자가 건물을 짓기 위해 이동하는 속도",
     EBookInc: "전자책 회사",
@@ -936,8 +931,7 @@ export const KR = {
     AchievementSpaceRaceDesc:
         "같은 맵에 레벨10 로켓 공장, 레벨10 인공위성 공장, 레벨10 우주선 공장, 레벨10 우주 정거장 공장 건설",
     AchievementToTheMoon: "가즈아!",
-    AchievementToTheMoonDesc:
-        "레벨40 비트코인 채굴장, 레벨40 도지코인 채굴장 건설. 1B의 비트코인과 1B의 도지코인 보유",
+    AchievementToTheMoonDesc: "레벨40 비트코인 채굴장, 레벨40 도지코인 채굴장 건설. 1B의 비트코인과 1B의 도지코인 보유",
     ItsAllGreen: "문제 없습니다",
     ItsAllGreenDesc: "50개의 생산라인이 있고, 생산 적자가 전혀 없음",
     DeepInRed: "Deep In Red",
@@ -948,16 +942,14 @@ export const KR = {
         "다른 장치에 로그인했습니다. 이 장치는 로그 아웃되었습니다. 다시 로그인 할 수 있지만 다른 장치는 로그 아웃됩니다.",
     LogBackIn: "다시 로그인",
     PlayerTradeNowAllowedV2: "저장을 복원/가져오기 후 %{hour}시간 이내에는 플레이어 거래를 사용할 수 없습니다",
-    ServerDisconnected:
-        "서버 연결이 끊어졌습니다. 인터넷 연결을 확인하고 게임을 다시 시작하세요",
+    ServerDisconnected: "서버 연결이 끊어졌습니다. 인터넷 연결을 확인하고 게임을 다시 시작하세요",
     BuildingUpgradeCostDividerDescV2: "건물 업그레이드 비용을 이 숫자로 나눕니다",
     ResourceBoosterBannerDesc:
         "💡 현재 %{number}개의 자원 촉진기를 가지고 있습니다 - 전력과 과학의 입력은 현재 가지고 있는 자원 촉진기의 수에 따라 조정됩니다",
     ResourceBoosterDesc: "인접 광산의 생산량 증가",
     BlockUserChatTitle: "%{user} 차단",
     BlockUserChatAction: "차단",
-    BlockUserChatDesc:
-        "차단은 이 게임 세션 동안 적용되며 게임을 다시 시작하지 않으면 취소할 수 없습니다",
+    BlockUserChatDesc: "차단은 이 게임 세션 동안 적용되며 게임을 다시 시작하지 않으면 취소할 수 없습니다",
     ChangeNameCooldown: "%{hour}시간에 한 번만 이름을 변경할 수 있습니다",
     AtomicBombFactory: "원자폭탄 공장",
     AtomicBomb: "원자폭탄",
@@ -983,8 +975,7 @@ export const KR = {
     AdjacentBonusSquare: "사각형 인접 보너스",
     AdjacentBonusSquareDesc: "인접 보너스가 50% 더 효과적이지만, 타일 보정은 -15%에서 +15%로 확장됩니다",
     ResourceBoosterSquare: "사각형 자원 촉진기",
-    ResourceBoosterSquareDesc:
-        "자원 촉진기는 25% 많은 효과를 제공하지만, 과학과 전력 사용량도 25% 증가합니다",
+    ResourceBoosterSquareDesc: "자원 촉진기는 25% 많은 효과를 제공하지만, 과학과 전력 사용량도 25% 증가합니다",
     SteelMillx2: "용광로 현대화",
     SteelMillx2Desc: "제철소 및 스테인리스 공장은 용량이 2배가 되지만, 전력을 2배 사용합니다",
     FuelDynamite: "연료 다이너마이트",
