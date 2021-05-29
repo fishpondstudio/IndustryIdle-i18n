@@ -980,8 +980,7 @@ export const ES = {
         "You have logged in on another device, this device is logged out. You can log back in but the other device will be logged out",
     LogBackIn: "Log Back In",
     PlayerTradeNowAllowedV2: "Player trades are not available within %{hour} hours of restoring/importing a save",
-    ServerDisconnected:
-        "Estas desconectado del servidor, comprueba tu conexión a internet y reinicia el juego",
+    ServerDisconnected: "Estas desconectado del servidor, comprueba tu conexión a internet y reinicia el juego",
     BuildingUpgradeCostDividerDescV2: "Divide building upgrade cost by this divider",
     ResourceBoosterBannerDesc:
         "💡 You currently have %{number} resource boosters - the power and science input of each is scaled to the number of resource boosters you currently have",
