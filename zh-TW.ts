@@ -173,8 +173,8 @@ export const ZH_TW = {
     GasProcessingPlant: "天然氣加工廠",
     Music: "音樂",
     Glass: "玻璃",
-    PhoneFactory: "電話工廠",
-    Phone: "電話",
+    PhoneFactory: "手機工廠",
+    Phone: "手機",
     GlassFactory: "玻璃工廠",
     Oil: "石油",
     Chromium: "鉻",
@@ -233,7 +233,7 @@ export const ZH_TW = {
     RatingOutperform: "表現優異",
     RatingUnderperform: "表現不佳",
     StockRating: "股票評級",
-    JetEngine: "噴氣發動機",
+    JetEngine: "噴射引擎",
     Helicopter: "直升機",
     Lithium: "鋰",
     LithiumMine: "鋰礦場",
@@ -264,7 +264,7 @@ export const ZH_TW = {
     Robot: "機器人",
     SpaceshipFactory: "太空船工廠",
     SatelliteFactory: "衛星工廠",
-    JetEngineFactory: "噴氣發動機工廠",
+    JetEngineFactory: "噴射引擎工廠",
     StockRatingDesc: "來自華爾街分析師的股票評級共識，它會影響你的市值，並隨市場一起更新",
     InterestRate: "過夜利率",
     InterestRateDesc: "您在離線時通過市值賺取的利息",
@@ -328,7 +328,7 @@ export const ZH_TW = {
     Software: "軟體",
     ScreenFactory: "螢幕工廠",
     Screen: "螢幕",
-    JoinDiscord: "加入我們的Discord服務器以獲取最新更新、技巧和討論",
+    JoinDiscord: "加入我們的Discord伺服器以獲取最新更新、技巧和討論",
     ClaimOfflineEarning: "獲取離線收益",
     OfflineTime: "離線時間",
     Minutes: "%{time}分鐘",
@@ -403,6 +403,7 @@ export const ZH_TW = {
     ShoppingSpreeDesc: "如果資源的輸出量不足，從貿易中心自動購買短缺量（如果該資源已自動出售，則將被忽略）",
     ShoppingSpreeTradeCenterDesc: "💡 瘋狂購物政策已啟用，貿易中心將自動購買短缺的資源",
     ExtraPolicyPoints: "政治說客",
+    ExtraPolicyPointsDesc: "將政策點的生產能力提高50%",
     CrAlloyUseFe: "鐵鉻合金",
     CrAlloyUseFeDesc: "鉻合金工廠不使用鋰，而是2倍於鋰用量的鐵",
     DoubleTileModifier: "自然的力量",
@@ -874,7 +875,7 @@ export const ZH_TW = {
     MarketNewsDecrease: "減少了 %{percent}",
     MarketNewsBuilding: "該建築物受到%{num}條新聞的影響",
     StockholmBonusV2:
-        "<li>獨特的建築：音樂製作人</li> <li>伐木場有2倍的產量</li> <li>造紙廠已解鎖</li> <li>電路鑄造廠的生產率是2倍</li> <li> 科學文獻政策是免費的</li>",
+        "<li>獨特的建築：音樂製作室</li> <li>伐木場有2倍的產量</li> <li>造紙廠已解鎖</li> <li>電路鑄造廠的生產率是2倍</li> <li> 科學文獻政策是免費的</li>",
     FreeOilTransportV2: "電動石油運輸",
     Tutorial4P1:
         "資源運輸消耗燃料。有幾種燃料類型，現在您正在使用<em>汽油⛽</em>作為燃料。 您有一個<em>煉油廠</em>，該煉油廠從油井運出石油並生產汽油。<br> <br>微小的移動點<em>點</em>表示資源的實時移動。 您應該優化建築物的位置，以最大程度地減少行進距離。<br> <br> <em>升級</em>您的建築物將增加其輸出，但同時也會增加其用電量和所需的輸入。",
@@ -882,7 +883,7 @@ export const ZH_TW = {
         "您可以在<em>物流部門🚦</em>中更改燃料類型-在此地圖上，您還可以使用<em>天然氣</em>作為燃料。<br> <br>物流部門還會顯示 您消耗最多燃料的運輸路線-您需要隨時注意。<br> <br>請記住<em>確保燃料產量高於消耗量</em>，否則運行時生產會停止 沒油了。<br> <br>如果發生這種情況，請放心，您可以從貿易中心或其他參與者那裡購買一些緊急燃料。",
     Tutorial5P2:
         "<em>統計局📊</em>為您的生產提供了很好的概覽。 您可以看到資源輸入和輸出的詳細分類。<br> <br>還有很多有用的圖表📈-在平衡生產時，您將希望參考它們。<br> </br>您的 左上角還會顯示<em>現金💰，剩餘電量和燃料剩餘⛽</em>編號-如果其中任何一個變為紅色，則應調查情況。",
-    MusicProducer: "音樂製作人",
+    MusicProducer: "音樂製作室",
     PlasticFiber: "塑膠光纖",
     PlasticFiberDesc: "光纖工廠使用的塑膠增加50％，玻璃減少50％",
     NewsEffectx2: "新聞發布會",
@@ -957,7 +958,7 @@ export const ZH_TW = {
     StPetersburgBonusV2:
         "<li>鈾礦場的產量是原來的2倍</li><li>濃縮鈾工廠的容量是原來的2倍</li><li>鈾運輸的燃料成本降低了50％</li><li>槍運輸免費</li><li>東方計畫的容量是原來的2倍</li>",
     ToulouseBonusV2:
-        "<li>鈦礦場的產量是原來的2倍</li><li>濃縮鈾工廠的產能是原來的2倍</li><li>噴氣發動機工廠的容量是原來的2倍</li><li>飛機工廠的產能是原來的2倍</li><li>火箭工廠的產能是原來的2倍</li>",
+        "<li>鈦礦場的產量是原來的2倍</li><li>濃縮鈾工廠的產能是原來的2倍</li><li>噴射引擎工廠的產能是原來的2倍</li><li>飛機工廠的產能是原來的2倍</li><li>火箭工廠的產能是原來的2倍</li>",
     BuildingPermitsNeededDesc: "此建築已停止運作 因您所持有的建築許可證不足",
     BuildingPermitsNeeded: "需要建築許可證",
     BuyMissingPermits: "購齊不足的許可證",
@@ -976,7 +977,7 @@ export const ZH_TW = {
     BuildingCustomColorReset: "重置",
     Vancouver: "溫哥華",
     VancouverBonus:
-        "<li>每4棟不同類型的建築將額外提供1個免費的建築許可證</li><li>獨特政策：Production Diversification</li><li>獨特建築：楓糖漿工廠</li><li>楓糖漿運輸免費</li><li>獨特燃料：楓糖漿</li><li>交易鈾與濃縮鈾時能有2倍的玩家交易額度</li><li>獨特政策：塑化糖漿</li><li>玩具工廠的產出是原有的2倍</li><li>遊戲工作室的產能是原有的2倍</li>",
+        "<li>每4棟不同類型的建築將額外提供1個免費的建築許可證</li><li>獨特政策：多角化經營</li><li>獨特建築：楓糖漿工廠</li><li>楓糖漿運輸免費</li><li>獨特燃料：楓糖漿</li><li>交易鈾與濃縮鈾時能有2倍的玩家交易額度</li><li>獨特政策：塑化糖漿</li><li>玩具工廠的產出是原有的2倍</li><li>遊戲工作室的產能是原有的2倍</li>",
     MapExtraPermitDesc: "由於地圖獨有的加成，你額外獲得了 %{number} 個免費的建築許可證",
     OsloBonusV3:
         "<li>煉油廠已解鎖</li><li>煉油廠的產能是原來的2倍</li><li>ㄇ免費的電動石油運輸政策</li><li>天然氣加工廠的產能是原來的2倍</li><li>1座免費的風力發電機</li><li>1座免費的8級鑽油井</li><li>1座免費的2級煉油廠</li><li>1座免費的2級天然氣泵</li>",
@@ -987,9 +988,8 @@ export const ZH_TW = {
     SyrupPlasticDesc: "所有輸入塑膠的建築物將改為使用楓糖漿",
     ResourceBoosterSupplyChain: "供應鏈加速器",
     ResourceBoosterSupplyChainDesc:
-        "資源加速器將使用2倍的電力與科學，但每加速一座運作中的礦場，鄰近的工廠(只輸入基礎資源)也將提高同樣加速器倍率的產能",
+        "資源加速器除了鄰近的礦場外 也會根據影響中的礦場數 強化鄰近工廠的產能，但工廠的第一項輸入必須與加速中的礦場一致(只輸入庫存資源)，且加速器會消耗2倍電力與科學",
     MapProductionBonusDesc: "由於地圖獨有的加成，這座建築額外獲得 %{percent} 的產能提升",
     ProductionDiversification: "生產多樣化",
     ProductionDiversificationDesc: "每一種不同類型的建築物將使所有建築物提高1%產能",
-    ExtraPolicyPointsDesc: "將政策點的生產能力提高50%",
 };
