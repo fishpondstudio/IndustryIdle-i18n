@@ -996,7 +996,7 @@ export const KR = {
     GasPumpx2Output: "고압 가스 펌프",
     GasPumpx2OutputDesc: "천연가스 펌프의 생산량이 2배지만 전력도 2배로 사용합니다",
     LeaderboardValuationPerHour: "시간당 총 평가",
-    LeaderboardValuationPerHourPerSwiss: "Total Valuation Per Hour Per Swiss",
+    LeaderboardValuationPerHourPerSwiss: "스위스 돈으로 나눈 시간당 총 평가",
     LeaderboardValuationPerHourNewPlayers: "시간당 총 평가 (1000 스위스 돈 미만)",
     LeaderboardValuationPerBuilding: "건물 갯수당 건물 평가",
     BuildingCustomColor: "건물 색",
@@ -1014,7 +1014,7 @@ export const KR = {
     SyrupPlasticDesc: "플라스틱이 들어가는 모든 건물은 메이플 시럽을 대신 사용합니다",
     ResourceBoosterSupplyChain: "공급망 촉진기",
     ResourceBoosterSupplyChainDesc:
-        "Resource boosters use 2x power and science, but for each working mine a resource booster is boosting, it also provides capacity boost to adjacent factories that consume the mine's output (the factory should only consume deposits)",
+        "자원 촉진기는 2배의 전력과 과학을 사용하고, 광산에 대한 생산을 촉진할 뿐 아니라 광산 생산품을 소모하는 인접 공장에도 용량 부스팅을 제공합니다. (해당 공장은 광산 생산품만을 소모해야 합니다)",
     MapProductionBonusDesc: "이 건물은 지도의 고유 보너스로 %{percent}의 추가 용량을 얻습니다",
     ProductionDiversification: "생산 다각화",
     ProductionDiversificationDesc: "각자 다른 유형의 건물은 모든 건물에 1% 추가 용량을 제공합니다",
