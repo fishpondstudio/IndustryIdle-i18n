@@ -103,7 +103,7 @@ export const ZH_CN = {
     NotEnoughPower: "💡 电力不足，考虑增加供电",
     NotEnoughFuel: "没有足够的 %{fuel} 进行此操作",
     NotEnoughCash: "没有足够的现金进行此操作",
-    NotEnoughSwissMoney: "没有足够的瑞士资金进行此操作",
+    NotEnoughSwissMoney: "没有足够的瑞士货币进行此操作",
     BuildingNotEnoughFuel: "💡 %{fuel} 不足",
     AutoSell: "自动出售",
     SellAll: "全部出售",
@@ -991,7 +991,7 @@ export const ZH_CN = {
     SyrupPlasticDesc: "所有消耗塑料的建筑改为消耗枫糖浆",
     ResourceBoosterSupplyChain: "供应链加速器",
     ResourceBoosterSupplyChainDesc:
-        "资源加速器消耗2倍电力和科学点，但对一座资源加速器所加速的每座工作中矿场而言，消耗该矿场所产出资源且与此资源加速器也相邻的工厂同样获得生产能力扩增（该工厂只应消耗矿藏资源）",
+        "资源加速器消耗2倍电力和科学点，但加速一座工作中矿场的同时也为相邻且消耗该矿场所产出资源的工厂提供加速（工厂只应消耗矿藏资源）",
     MapProductionBonusDesc: "此建筑从本地图的独特加成中获得%{percent}的额外生产能力",
     ProductionDiversification: "生产多样化",
     ProductionDiversificationDesc: "每种不同类型建筑为所有建筑提供1%额外生产能力",
