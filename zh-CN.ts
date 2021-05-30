@@ -994,5 +994,5 @@ export const ZH_CN = {
     MapProductionBonusDesc: "此建筑从本地图的独特加成中获得%{percent}的额外生产能力",
     ProductionDiversification: "生产多样化",
     ProductionDiversificationDesc: "每种不同类型建筑为所有建筑提供1%额外生产能力",
-    ExtraPolicyPointsDesc: "将政策点的生产能力提高50%",
+    ExtraPolicyPointsDescV2: "Policy center has 2x policy points conversion capacity",
 };

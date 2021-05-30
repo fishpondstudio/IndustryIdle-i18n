@@ -1017,5 +1017,5 @@ export const KR = {
     MapProductionBonusDesc: "이 건물은 지도의 고유 보너스로 %{percent}의 추가 용량을 얻습니다",
     ProductionDiversification: "생산 다각화",
     ProductionDiversificationDesc: "각자 다른 유형의 건물은 모든 건물에 1% 추가 용량을 제공합니다",
-    ExtraPolicyPointsDesc: "정책 포인트 생산 능력을 50% 증가",
+    ExtraPolicyPointsDescV2: "Policy center has 2x policy points conversion capacity",
 };

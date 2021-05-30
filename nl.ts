@@ -1048,5 +1048,5 @@ export const NL = {
     MapProductionBonusDesc: "This building gets %{percent} extra capacity from the map's unique bonus",
     ProductionDiversification: "Production Diversification",
     ProductionDiversificationDesc: "Each different type of building gives 1% extra capacity to all buildings",
-    ExtraPolicyPointsDesc: "Verhoog beleidspunten productie capaciteit met 50%",
+    ExtraPolicyPointsDescV2: "Policy center has 2x policy points conversion capacity",
 };

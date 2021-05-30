@@ -991,5 +991,5 @@ export const ZH_TW = {
     MapProductionBonusDesc: "由於地圖獨有的加成，這座建築額外獲得 %{percent} 的產能提升",
     ProductionDiversification: "生產多樣化",
     ProductionDiversificationDesc: "每一種不同類型的建築物將使所有建築物提高1%產能",
-    ExtraPolicyPointsDesc: "將政策點的生產能力提高50%",
+    ExtraPolicyPointsDescV2: "Policy center has 2x policy points conversion capacity",
 };
