@@ -402,7 +402,6 @@ export const ZH_CN = {
     ShoppingSpreeDesc: "如果资源的产出量不足，从贸易中心自动购买短缺量（如果该资源已自动出售，则将被忽略）",
     ShoppingSpreeTradeCenterDesc: "💡 疯狂购物政策已启用，贸易中心将自动购买短缺的资源",
     ExtraPolicyPoints: "政治说客",
-    ExtraPolicyPointsDesc: "将政策点的生产能力提高50%",
     CrAlloyUseFe: "铬",
     CrAlloyUseFeDesc: "铬合金工厂不使用锂，而是2倍于锂用量的铁",
     DoubleTileModifier: "自然的力量",
@@ -995,4 +994,5 @@ export const ZH_CN = {
     MapProductionBonusDesc: "此建筑从本地图的独特加成中获得%{percent}的额外生产能力",
     ProductionDiversification: "生产多样化",
     ProductionDiversificationDesc: "每种不同类型建筑为所有建筑提供1%额外生产能力",
+    ExtraPolicyPointsDesc: "将政策点的生产能力提高50%",
 };

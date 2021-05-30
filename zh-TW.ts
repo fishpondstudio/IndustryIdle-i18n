@@ -403,7 +403,6 @@ export const ZH_TW = {
     ShoppingSpreeDesc: "如果資源的輸出量不足，從貿易中心自動購買短缺量（如果該資源已自動出售，則將被忽略）",
     ShoppingSpreeTradeCenterDesc: "💡 瘋狂購物政策已啟用，貿易中心將自動購買短缺的資源",
     ExtraPolicyPoints: "政治說客",
-    ExtraPolicyPointsDesc: "將政策點的生產能力提高50%",
     CrAlloyUseFe: "鐵鉻合金",
     CrAlloyUseFeDesc: "鉻合金工廠不使用鋰，而是2倍於鋰用量的鐵",
     DoubleTileModifier: "自然的力量",
@@ -992,4 +991,5 @@ export const ZH_TW = {
     MapProductionBonusDesc: "由於地圖獨有的加成，這座建築額外獲得 %{percent} 的產能提升",
     ProductionDiversification: "生產多樣化",
     ProductionDiversificationDesc: "每一種不同類型的建築物將使所有建築物提高1%產能",
+    ExtraPolicyPointsDesc: "將政策點的生產能力提高50%",
 };

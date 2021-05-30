@@ -425,7 +425,6 @@ export const RU = {
     ShoppingSpreeTradeCenterDesc:
         "💡 Политика шопинга включена, Торговый центр будет автоматически закупать ресурсы в условиях дефицита",
     ExtraPolicyPoints: "Политический лоббист",
-    ExtraPolicyPointsDesc: "Увеличение производства политической единицы на 50%",
     CrAlloyUseFe: "Хромированное железо",
     CrAlloyUseFeDesc: "Заводы по производству хромовых сплавов используют 2Х железо вместо лития",
     DoubleTileModifier: "Сила природы",
@@ -1064,4 +1063,5 @@ export const RU = {
     MapProductionBonusDesc: "This building gets %{percent} extra capacity from the map's unique bonus",
     ProductionDiversification: "Production Diversification",
     ProductionDiversificationDesc: "Each different type of building gives 1% extra capacity to all buildings",
+    ExtraPolicyPointsDesc: "Увеличение производства политической единицы на 50%",
 };

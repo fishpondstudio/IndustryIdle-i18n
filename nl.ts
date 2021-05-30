@@ -420,7 +420,6 @@ export const NL = {
     ShoppingSpreeTradeCenterDesc:
         "💡 Volop Shoppen Beleid is geactiveerd, handelscentrum zal automatisch het tekort aan goederen kopen",
     ExtraPolicyPoints: "Politieke Lobbyist",
-    ExtraPolicyPointsDesc: "Verhoog beleidspunten productie capaciteit met 50%",
     CrAlloyUseFe: "Chromijzer",
     CrAlloyUseFeDesc: "Chroom legeringsfabrieken gebruiken geen Lithium maar 2 ijzer ter vervanging",
     DoubleTileModifier: "Kracht Van De Natuur",
@@ -1049,4 +1048,5 @@ export const NL = {
     MapProductionBonusDesc: "This building gets %{percent} extra capacity from the map's unique bonus",
     ProductionDiversification: "Production Diversification",
     ProductionDiversificationDesc: "Each different type of building gives 1% extra capacity to all buildings",
+    ExtraPolicyPointsDesc: "Verhoog beleidspunten productie capaciteit met 50%",
 };

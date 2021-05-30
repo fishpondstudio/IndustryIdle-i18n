@@ -411,7 +411,6 @@ export const KR = {
     ShoppingSpreeTradeCenterDesc:
         "💡 Shopping Spree 정책이 켜져 있습니다. 무역 센터는 부족한 자원을 자동으로 구매합니다",
     ExtraPolicyPoints: "정치 로비스트",
-    ExtraPolicyPointsDesc: "정책 포인트 생산 능력을 50% 증가",
     CrAlloyUseFe: "Chroiron",
     CrAlloyUseFeDesc: "크롬 합금 공장은 리튬을 사용하지 않고 대신 철을 2배로 사용합니다",
     DoubleTileModifier: "자연의 힘",
@@ -1018,4 +1017,5 @@ export const KR = {
     MapProductionBonusDesc: "이 건물은 지도의 고유 보너스로 %{percent}의 추가 용량을 얻습니다",
     ProductionDiversification: "생산 다각화",
     ProductionDiversificationDesc: "각자 다른 유형의 건물은 모든 건물에 1% 추가 용량을 제공합니다",
+    ExtraPolicyPointsDesc: "정책 포인트 생산 능력을 50% 증가",
 };

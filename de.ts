@@ -426,7 +426,6 @@ export const DE = {
     ShoppingSpreeTradeCenterDesc:
         "💡 Wenn die Einkaufsbummel Richtlinie aktiviert ist, kauft der Marktplatz automatisch Ressourcen, die knapp sind",
     ExtraPolicyPoints: "Politischer Lobbyist",
-    ExtraPolicyPointsDesc: "Erhöhen Sie die Produktionsmenge für Richtlinienpunkte um 50%",
     CrAlloyUseFe: "Chroiron",
     CrAlloyUseFeDesc: "Chromlegierungsanlagen verwenden kein Lithium, sondern 2x Eisen",
     DoubleTileModifier: "Die Kraft der Natur",
@@ -1070,4 +1069,5 @@ export const DE = {
     MapProductionBonusDesc: "This building gets %{percent} extra capacity from the map's unique bonus",
     ProductionDiversification: "Production Diversification",
     ProductionDiversificationDesc: "Each different type of building gives 1% extra capacity to all buildings",
+    ExtraPolicyPointsDesc: "Erhöhen Sie die Produktionsmenge für Richtlinienpunkte um 50%",
 };

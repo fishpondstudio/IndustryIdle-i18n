@@ -417,7 +417,6 @@ export const VN = {
     ShoppingSpreeTradeCenterDesc:
         "💡 Mua sắm điên cuồng đang bật, Trung tâm Thương mại sẽ tự động mua tài nguyên bị thiếu hụt",
     ExtraPolicyPoints: "Vận động hành lang",
-    ExtraPolicyPointsDesc: "Tăng sản lượng điểm chính sách thêm 50%",
     CrAlloyUseFe: "Crô-sắt",
     CrAlloyUseFeDesc: "Xưởng hợp kim crôm không sử dụng Li-ti nhưng thay bằng x2 Sắt",
     DoubleTileModifier: "Sức mạnh của Thiên nhiên",
@@ -1050,4 +1049,5 @@ export const VN = {
     MapProductionBonusDesc: "This building gets %{percent} extra capacity from the map's unique bonus",
     ProductionDiversification: "Production Diversification",
     ProductionDiversificationDesc: "Each different type of building gives 1% extra capacity to all buildings",
+    ExtraPolicyPointsDesc: "Tăng sản lượng điểm chính sách thêm 50%",
 };

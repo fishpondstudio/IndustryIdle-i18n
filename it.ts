@@ -415,7 +415,6 @@ export const IT = {
     ShoppingSpreeTradeCenterDesc:
         "💡 Shopping Spree policy is on, Trade Center will automatically buy resources in shortage",
     ExtraPolicyPoints: "Political Lobbyist",
-    ExtraPolicyPointsDesc: "Increase policy point production capacity by 50%",
     CrAlloyUseFe: "Chroiron",
     CrAlloyUseFeDesc: "Chromium alloy plants do not use Lithium but use 2x Iron instead",
     DoubleTileModifier: "Nature's Power",
@@ -1039,4 +1038,5 @@ export const IT = {
     MapProductionBonusDesc: "This building gets %{percent} extra capacity from the map's unique bonus",
     ProductionDiversification: "Production Diversification",
     ProductionDiversificationDesc: "Each different type of building gives 1% extra capacity to all buildings",
+    ExtraPolicyPointsDesc: "Increase policy point production capacity by 50%",
 };

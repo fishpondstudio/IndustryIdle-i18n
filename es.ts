@@ -429,7 +429,6 @@ export const ES = {
     ShoppingSpreeTradeCenterDesc:
         "💡 La política Shopping Spree está activada, Trade Center comprará automáticamente los recursos en escasez",
     ExtraPolicyPoints: "Cabildero político",
-    ExtraPolicyPointsDesc: "Aumentar la capacidad de producción de pólizas en un 50%",
     CrAlloyUseFe: "Cromo",
     CrAlloyUseFeDesc: "Las plantas de aleación de cromo no usan litio, sino que usan 2x hierro en su lugar",
     DoubleTileModifier: "Poder de la naturaleza",
@@ -1058,4 +1057,5 @@ export const ES = {
     MapProductionBonusDesc: "This building gets %{percent} extra capacity from the map's unique bonus",
     ProductionDiversification: "Production Diversification",
     ProductionDiversificationDesc: "Each different type of building gives 1% extra capacity to all buildings",
+    ExtraPolicyPointsDesc: "Aumentar la capacidad de producción de pólizas en un 50%",
 };

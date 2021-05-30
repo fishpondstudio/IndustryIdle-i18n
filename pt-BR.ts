@@ -425,7 +425,6 @@ export const PT_BR = {
     ShoppingSpreeTradeCenterDesc:
         "💡 A política da Maratona de Compras está ativada, o Centro Comercial comprará automaticamente os recursos em falta",
     ExtraPolicyPoints: "Lobista Político",
-    ExtraPolicyPointsDesc: "Aumenta a capacidade de produção de pontos de política em 50%",
     CrAlloyUseFe: "Chroiron",
     CrAlloyUseFeDesc: "As fábricas de liga de cromo não usam lítio, mas usam 2x ferro em vez disso",
     DoubleTileModifier: "Poder da Natureza",
@@ -1050,4 +1049,5 @@ export const PT_BR = {
     MapProductionBonusDesc: "This building gets %{percent} extra capacity from the map's unique bonus",
     ProductionDiversification: "Production Diversification",
     ProductionDiversificationDesc: "Each different type of building gives 1% extra capacity to all buildings",
+    ExtraPolicyPointsDesc: "Aumenta a capacidade de produção de pontos de política em 50%",
 };

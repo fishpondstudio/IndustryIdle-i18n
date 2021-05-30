@@ -435,7 +435,6 @@ export const FR = {
     ShoppingSpreeTradeCenterDesc:
         "💡 La politique virée shopping est activée, Le centre d'échange achètera automatiquement les ressources en pénurie",
     ExtraPolicyPoints: "Lobbyiste stratégique",
-    ExtraPolicyPointsDesc: "Augmenter de 50% la capacité de production des points stratégiques",
     CrAlloyUseFe: "Chroiron",
     CrAlloyUseFeDesc: "Les usines d'alliage de chrome n'utilisent pas de lithium mais utilisent plutôt 2x fer",
     DoubleTileModifier: "Le pouvoir de la nature",
@@ -1085,4 +1084,5 @@ export const FR = {
     MapProductionBonusDesc: "This building gets %{percent} extra capacity from the map's unique bonus",
     ProductionDiversification: "Production Diversification",
     ProductionDiversificationDesc: "Each different type of building gives 1% extra capacity to all buildings",
+    ExtraPolicyPointsDesc: "Augmenter de 50% la capacité de production des points stratégiques",
 };
