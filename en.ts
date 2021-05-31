@@ -1046,4 +1046,10 @@ export const EN = {
     AchievementVancouver500Desc: "Earn 500 Swiss Money in Vancouver in a single run",
     AchievementVancouver1000: "Canuck Conqueror",
     AchievementVancouver1000Desc: "Earn 1000 Swiss Money in Vancouver in a single run",
+    BarbariansAtTheGate: "Barbarians At The Gate",
+    BarbariansAtTheGateDesc: "Use 1 trillion worth of player trade quota between market updates",
+    DiversifiedProductions: "Diversified Productions",
+    DiversifiedProductionsDesc: "Build 100 different types of buildings on a single map",
+    RealEstateTycoon: "Real Estate Tycoon",
+    RealEstateTycoonDesc: "Have 400 buildings on a single map",
 };
