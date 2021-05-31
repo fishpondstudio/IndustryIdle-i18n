@@ -992,4 +992,11 @@ export const ZH_TW = {
     ProductionDiversification: "生產多樣化",
     ProductionDiversificationDesc: "每一種不同類型的建築物將使所有建築物提高1%產能",
     ExtraPolicyPointsDescV2: "政策中心的輸入及輸出是原來的2倍",
+    PowerRequired: "Power Required",
+    AchievementVancouver100: "Sap Seller",
+    AchievementVancouver100Desc: "Earn 100 Swiss Money in Vancouver in a single run",
+    AchievementVancouver500: "Syrup Savant",
+    AchievementVancouver500Desc: "Earn 500 Swiss Money in Vancouver in a single run",
+    AchievementVancouver1000: "Canuck Conqueror",
+    AchievementVancouver1000Desc: "Earn 1000 Swiss Money in Vancouver in a single run",
 };
