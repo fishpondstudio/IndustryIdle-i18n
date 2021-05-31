@@ -1,6 +1,6 @@
 export const ZH_TW = {
     Translator: "翻譯者",
-    TranslatorName: "snewpeap, Orange233, heartA, Bencheung0422, stm66666",
+    TranslatorName: "snewpeap, Orange233, heartA, Bencheung0422, stm66666,2879AFeOil2X ",
     Language: "語言",
     ThisLanguage: "繁體中文",
     OK: "好的",
@@ -991,5 +991,5 @@ export const ZH_TW = {
     MapProductionBonusDesc: "由於地圖獨有的加成，這座建築額外獲得 %{percent} 的產能提升",
     ProductionDiversification: "生產多樣化",
     ProductionDiversificationDesc: "每一種不同類型的建築物將使所有建築物提高1%產能",
-    ExtraPolicyPointsDescV2: "Policy center has 2x policy points conversion capacity",
+    ExtraPolicyPointsDescV2: "政策中心的輸入及輸出是原來的2倍",
 };
