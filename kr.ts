@@ -864,7 +864,6 @@ export const KR = {
     ChatForceScrollDesc:
         "강제 스크롤이 켜져 있으면 새 메시지가 있을 때마다 채팅이 스크롤됩니다. 꺼져있으면 맨 밑에 있을 때만 스크롤됩니다",
     ResourceExplorer2: "자원 탐색기 2.0",
-    ResourceExplorer2Desc: "자원 탐색기는 2배로 생산하지만, 전력을 2배 사용합니다",
     ConstructionCancel: "건설 취소",
     ConstructionPause: "일시 중지",
     ConstructionResume: "다시 시작",
@@ -1025,4 +1024,12 @@ export const KR = {
     AchievementVancouver500Desc: "Earn 500 Swiss Money in Vancouver in a single run",
     AchievementVancouver1000: "Canuck Conqueror",
     AchievementVancouver1000Desc: "Earn 1000 Swiss Money in Vancouver in a single run",
+    BarbariansAtTheGate: "Barbarians At The Gate",
+    BarbariansAtTheGateDesc: "Use 1 trillion worth of player trade quota between market updates",
+    DiversifiedProductions: "Diversified Productions",
+    DiversifiedProductionsDesc: "Build 100 different types of buildings on a single map",
+    RealEstateTycoon: "Real Estate Tycoon",
+    RealEstateTycoonDesc: "Have 400 buildings on a single map",
+    ResourceExplorer2DescV2:
+        "Resource explorers produce 2x output but use 2x power. Resource explorers can be boosted by resource boosters if Supply Chain Booster policy is active and the booster has an adjacent mine of the same output",
 };

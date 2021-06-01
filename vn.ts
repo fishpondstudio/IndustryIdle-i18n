@@ -889,7 +889,6 @@ export const VN = {
     ChatForceScrollDesc:
         "Nếu bạn bật ép cuộn cửa sổ, cửa sổ chat sẽ tự động cuộn khi có tin mới. Ngược lại, cửa sổ sẽ chỉ cuộn khi bạn xuống đến dòng dưới cùng",
     ResourceExplorer2: "Khai khẩn tài nguyên 2.0",
-    ResourceExplorer2Desc: "Các ô khai khẩn sản lượng x2 nhưng sử dụng x2 điện năng",
     ConstructionCancel: "Hủy",
     ConstructionPause: "Tạm ngưng",
     ConstructionResume: "Tiếp tục",
@@ -1057,4 +1056,12 @@ export const VN = {
     AchievementVancouver500Desc: "Earn 500 Swiss Money in Vancouver in a single run",
     AchievementVancouver1000: "Canuck Conqueror",
     AchievementVancouver1000Desc: "Earn 1000 Swiss Money in Vancouver in a single run",
+    BarbariansAtTheGate: "Barbarians At The Gate",
+    BarbariansAtTheGateDesc: "Use 1 trillion worth of player trade quota between market updates",
+    DiversifiedProductions: "Diversified Productions",
+    DiversifiedProductionsDesc: "Build 100 different types of buildings on a single map",
+    RealEstateTycoon: "Real Estate Tycoon",
+    RealEstateTycoonDesc: "Have 400 buildings on a single map",
+    ResourceExplorer2DescV2:
+        "Resource explorers produce 2x output but use 2x power. Resource explorers can be boosted by resource boosters if Supply Chain Booster policy is active and the booster has an adjacent mine of the same output",
 };

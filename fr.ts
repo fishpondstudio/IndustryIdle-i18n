@@ -920,8 +920,6 @@ export const FR = {
     ChatForceScrollDesc:
         "Si le défilement auto est activé, le chat défilera chaque fois qu'il y aura un nouveau message. Sinon, il ne défilera que si vous êtes déjà en bas de la page.",
     ResourceExplorer2: "Explorateur de ressources 2.0",
-    ResourceExplorer2Desc:
-        "Les explorateurs de ressources produisent deux fois plus mais utilisent deux fois plus d'énergie.",
     ConstructionCancel: "Annuler la construction",
     ConstructionPause: "Pause",
     ConstructionResume: "Reprendre",
@@ -1092,4 +1090,12 @@ export const FR = {
     AchievementVancouver500Desc: "Earn 500 Swiss Money in Vancouver in a single run",
     AchievementVancouver1000: "Canuck Conqueror",
     AchievementVancouver1000Desc: "Earn 1000 Swiss Money in Vancouver in a single run",
+    BarbariansAtTheGate: "Barbarians At The Gate",
+    BarbariansAtTheGateDesc: "Use 1 trillion worth of player trade quota between market updates",
+    DiversifiedProductions: "Diversified Productions",
+    DiversifiedProductionsDesc: "Build 100 different types of buildings on a single map",
+    RealEstateTycoon: "Real Estate Tycoon",
+    RealEstateTycoonDesc: "Have 400 buildings on a single map",
+    ResourceExplorer2DescV2:
+        "Resource explorers produce 2x output but use 2x power. Resource explorers can be boosted by resource boosters if Supply Chain Booster policy is active and the booster has an adjacent mine of the same output",
 };

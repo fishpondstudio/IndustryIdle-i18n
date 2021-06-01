@@ -905,7 +905,6 @@ export const DE = {
     ChatForceScrollDesc:
         "Wenn das Scrollen erzwingen aktiviert ist, wird der Chat immer dann gescrollt, wenn eine neue Nachricht eingeht. Andernfalls wird nur gescrollt, wenn Sie sich bereits unten befinden",
     ResourceExplorer2: "Ressourcen-Finder 2.0",
-    ResourceExplorer2Desc: "Ressourcen-Finder erzeugen 2x Austrag, verbrauchen aber 2x Strom",
     ConstructionCancel: "Bau abbrechen",
     ConstructionPause: "Pause",
     ConstructionResume: "Fortsetzen",
@@ -1066,8 +1065,25 @@ export const DE = {
     ResourceBoosterSupplyChain: "Lieferkettenbonus",
     ResourceBoosterSupplyChainDesc:
         "Ressourcen-Booster verbrauchen 2x Strom und Wissenschaftspunkte, aber für jede arbeitende Mine erhöht ein Ressourcen-Booster die Kapazität benachbarter Fabriken, die die Produktion der Mine verbrauchen (die Fabrik sollte nur Lagerbestaände verbrauchen).",
-    MapProductionBonusDesc: "Dieses Gebäude bekommt %{percent} zusätzliche Kapazität durch den einzigartigen Kartenbonus",
+    MapProductionBonusDesc:
+        "Dieses Gebäude bekommt %{percent} zusätzliche Kapazität durch den einzigartigen Kartenbonus",
     ProductionDiversification: "Produktionsdiversifizierung",
     ProductionDiversificationDesc: "Jeder Gebäudetyp gibt allen Gebäuden 1% zusätzliche Kapazität",
-    ExtraPolicyPointsDescV2: "Das Policy Center verfügt über die doppelte Konvertierungskapazität von Richtlinienpunkten",
+    ExtraPolicyPointsDescV2:
+        "Das Policy Center verfügt über die doppelte Konvertierungskapazität von Richtlinienpunkten",
+    PowerRequired: "Power Required",
+    AchievementVancouver100: "Sap Seller",
+    AchievementVancouver100Desc: "Earn 100 Swiss Money in Vancouver in a single run",
+    AchievementVancouver500: "Syrup Savant",
+    AchievementVancouver500Desc: "Earn 500 Swiss Money in Vancouver in a single run",
+    AchievementVancouver1000: "Canuck Conqueror",
+    AchievementVancouver1000Desc: "Earn 1000 Swiss Money in Vancouver in a single run",
+    BarbariansAtTheGate: "Barbarians At The Gate",
+    BarbariansAtTheGateDesc: "Use 1 trillion worth of player trade quota between market updates",
+    DiversifiedProductions: "Diversified Productions",
+    DiversifiedProductionsDesc: "Build 100 different types of buildings on a single map",
+    RealEstateTycoon: "Real Estate Tycoon",
+    RealEstateTycoonDesc: "Have 400 buildings on a single map",
+    ResourceExplorer2DescV2:
+        "Resource explorers produce 2x output but use 2x power. Resource explorers can be boosted by resource boosters if Supply Chain Booster policy is active and the booster has an adjacent mine of the same output",
 };

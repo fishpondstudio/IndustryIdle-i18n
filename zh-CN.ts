@@ -843,7 +843,6 @@ export const ZH_CN = {
     ChatForceScroll: "强制滚动",
     ChatForceScrollDesc: "如果开启了强制滚动，聊天窗口每收到一条新消息都会滚动。否则其只在处于最近消息时才会滚动。",
     ResourceExplorer2: "资源勘探者 2.0",
-    ResourceExplorer2Desc: "资源勘探者有2倍产出，但使用2倍电力",
     ConstructionCancel: "取消建造",
     ConstructionPause: "暂停",
     ConstructionResume: "恢复",
@@ -1002,4 +1001,12 @@ export const ZH_CN = {
     AchievementVancouver500Desc: "Earn 500 Swiss Money in Vancouver in a single run",
     AchievementVancouver1000: "Canuck Conqueror",
     AchievementVancouver1000Desc: "Earn 1000 Swiss Money in Vancouver in a single run",
+    BarbariansAtTheGate: "Barbarians At The Gate",
+    BarbariansAtTheGateDesc: "Use 1 trillion worth of player trade quota between market updates",
+    DiversifiedProductions: "Diversified Productions",
+    DiversifiedProductionsDesc: "Build 100 different types of buildings on a single map",
+    RealEstateTycoon: "Real Estate Tycoon",
+    RealEstateTycoonDesc: "Have 400 buildings on a single map",
+    ResourceExplorer2DescV2:
+        "Resource explorers produce 2x output but use 2x power. Resource explorers can be boosted by resource boosters if Supply Chain Booster policy is active and the booster has an adjacent mine of the same output",
 };
