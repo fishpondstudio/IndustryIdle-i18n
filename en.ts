@@ -878,7 +878,6 @@ export const EN = {
     ChatForceScrollDesc:
         "If force scroll is on, the chat will scroll whenever there's a new message. Otherwise it will only scroll when you are already at the bottom",
     ResourceExplorer2: "Resource Explorer 2.0",
-    ResourceExplorer2Desc: "Resource explorers produce 2x output but use 2x power",
     ConstructionCancel: "Cancel",
     ConstructionPause: "Pause",
     ConstructionResume: "Resume",
@@ -1052,4 +1051,6 @@ export const EN = {
     DiversifiedProductionsDesc: "Build 100 different types of buildings on a single map",
     RealEstateTycoon: "Real Estate Tycoon",
     RealEstateTycoonDesc: "Have 400 buildings on a single map",
+    ResourceExplorer2DescV2:
+        "Resource explorers produce 2x output but use 2x power. Resource explorers can be boosted by resource boosters if Supply Chain Booster policy is active and the booster has an adjacent mine of the same output",
 };
