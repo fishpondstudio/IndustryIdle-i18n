@@ -428,10 +428,7 @@ export const PT_BR = {
     CrAlloyUseFe: "Chroiron",
     CrAlloyUseFeDesc: "As fábricas de liga de cromo não usam lítio, mas usam 2x ferro em vez disso",
     DoubleTileModifier: "Poder da Natureza",
-    DoubleTileModifierDesc: "Todos os modificadores de blocos afetam x2 - tanto positivo quanto negativo",
     TileModifierOutputOnly: "Modificador de Bloco Plus",
-    TileModifierOutputOnlyDesc:
-        "Os modificadores de bloco afetam apenas a saída, em vez de entrada e saída, mas são apenas 50% eficazes",
     GasPlantPetrol: "Liquidificador de Gás",
     GasPlantPetrolDesc: "Usinas a gás usam gás extra para produzir gasolina",
     BuildingRecycle: "Reciclagem de Edifícios",
@@ -589,8 +586,6 @@ export const PT_BR = {
     MapHexGrid: "Hexagonal",
     Stockholm: "Estocolmo",
     Rotterdam: "Roterdã",
-    RotterdamBonus:
-        "<li>Fábricas de aço têm 2x de capacidade</li><li>Fábrica de aço inoxidável têm 2x de capacidade</li><li>Ferro é transportado gratuitamente</li><li>Transporte de Aço custa 50% menos combustível</li><li>Começa com 2x a Capacidade de Venda Automática</li><li>Sem modificadores de blocos </li>",
     Oslo: "Oslo",
     StPetersburg: "São Petersburgo",
     Hamburg: "Hamburgo",
@@ -1064,4 +1059,21 @@ export const PT_BR = {
     RealEstateTycoonDesc: "Have 400 buildings on a single map",
     ResourceExplorer2DescV2:
         "Resource explorers produce 2x output but use 2x power. Resource explorers can be boosted by resource boosters if Supply Chain Booster policy is active and the booster has an adjacent mine of the same output",
+    NoTileModifier: "Earth Is Flat",
+    NoTileModifierDesc:
+        "All tile modifiers are zero. This policy will deactivate Nature's Power and Tile Modifier Plus policies",
+    DoubleTileModifierDescV2:
+        "All tile modifiers' effect x2 - both positive and negative. This policy will deactivate Earth Is Flat policy",
+    TileModifierOutputOnlyDesc:
+        "Os modificadores de bloco afetam apenas a saída, em vez de entrada e saída, mas são apenas 50% eficazes",
+    RotterdamBonus:
+        "<li>Fábricas de aço têm 2x de capacidade</li><li>Fábrica de aço inoxidável têm 2x de capacidade</li><li>Ferro é transportado gratuitamente</li><li>Transporte de Aço custa 50% menos combustível</li><li>Começa com 2x a Capacidade de Venda Automática</li><li>Sem modificadores de blocos </li>",
+    QuickLinks: "Quick Links",
+    GetHelp: "Get Help",
+    GetHelpBeginnerGuides: "Beginner's Guide",
+    GetHelpSteamGuides: "Other Steam Guides",
+    GetHelpInGameChat: "Ask In-Game Chat",
+    GetHelpDiscord: "Join Our Discord Server",
+    GetHelpWiki: "Community Wiki",
+    SelectATile: "Select a Tile",
 };

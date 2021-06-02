@@ -428,10 +428,7 @@ export const RU = {
     CrAlloyUseFe: "Хромированное железо",
     CrAlloyUseFeDesc: "Заводы по производству хромовых сплавов используют 2Х железо вместо лития",
     DoubleTileModifier: "Сила природы",
-    DoubleTileModifierDesc: "Эффект модификаторов всех плиток 2Х - как положительный, так и отрицательный",
     TileModifierOutputOnly: "Модификатор плитки плюс",
-    TileModifierOutputOnlyDesc:
-        "Модификаторы плитки влияют только на выход, а не на вход и выход, но эффективны только на 50%",
     GasPlantPetrol: "Газовый ликвидатор",
     GasPlantPetrolDesc: "Газовые электростанции используют дополнительный газ для производства бензина",
     BuildingRecycle: "Утилизация зданий",
@@ -594,8 +591,6 @@ export const RU = {
     MapHexGrid: "Шестигранник",
     Stockholm: "Стокгольм",
     Rotterdam: "Роттердам",
-    RotterdamBonus:
-        "<li>Сталелитейные заводы имеют мощность 2Х</li><li>Заводы по производству нержавеющей стали имеют мощность 2Х</li><li>Бесплатная перевозка железа</li><li>Перевозка стали на 50% дешевле</li><li>2-x кратная автоматическая продажа</li><li>Никаких модификаторов плитки</li>",
     Oslo: "Осло",
     StPetersburg: "Санкт-Петербург",
     Hamburg: "Гамбург",
@@ -1077,4 +1072,21 @@ export const RU = {
     RealEstateTycoonDesc: "Have 400 buildings on a single map",
     ResourceExplorer2DescV2:
         "Resource explorers produce 2x output but use 2x power. Resource explorers can be boosted by resource boosters if Supply Chain Booster policy is active and the booster has an adjacent mine of the same output",
+    NoTileModifier: "Earth Is Flat",
+    NoTileModifierDesc:
+        "All tile modifiers are zero. This policy will deactivate Nature's Power and Tile Modifier Plus policies",
+    DoubleTileModifierDescV2:
+        "All tile modifiers' effect x2 - both positive and negative. This policy will deactivate Earth Is Flat policy",
+    TileModifierOutputOnlyDesc:
+        "Модификаторы плитки влияют только на выход, а не на вход и выход, но эффективны только на 50%",
+    RotterdamBonus:
+        "<li>Сталелитейные заводы имеют мощность 2Х</li><li>Заводы по производству нержавеющей стали имеют мощность 2Х</li><li>Бесплатная перевозка железа</li><li>Перевозка стали на 50% дешевле</li><li>2-x кратная автоматическая продажа</li><li>Никаких модификаторов плитки</li>",
+    QuickLinks: "Quick Links",
+    GetHelp: "Get Help",
+    GetHelpBeginnerGuides: "Beginner's Guide",
+    GetHelpSteamGuides: "Other Steam Guides",
+    GetHelpInGameChat: "Ask In-Game Chat",
+    GetHelpDiscord: "Join Our Discord Server",
+    GetHelpWiki: "Community Wiki",
+    SelectATile: "Select a Tile",
 };

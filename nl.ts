@@ -423,10 +423,7 @@ export const NL = {
     CrAlloyUseFe: "Chromijzer",
     CrAlloyUseFeDesc: "Chroom legeringsfabrieken gebruiken geen Lithium maar 2 ijzer ter vervanging",
     DoubleTileModifier: "Kracht Van De Natuur",
-    DoubleTileModifierDesc: "Alle tegel modificatoren effect x2 - zowel de positieve als de negatieve",
     TileModifierOutputOnly: "Tegel Modificator Plus",
-    TileModifierOutputOnlyDesc:
-        "Tegel modificatoren hebben enkel effect op de opbrengst in plaats van invoer en opbrengst, maar zijn maar 50% effectief",
     GasPlantPetrol: "Gas Liquisatie",
     GasPlantPetrolDesc: "Aardgas energiecentrales gebruiken extra aardgas om petroleum te produceren",
     BuildingRecycle: "Gebouw Recyclage",
@@ -589,8 +586,6 @@ export const NL = {
     MapHexGrid: "Hex",
     Stockholm: "Stockholm",
     Rotterdam: "Rotterdam",
-    RotterdamBonus:
-        "<li>Staalfabrieken hebben 2x capaciteit</li><li>Roestvrij Staalfabrieken hebben 2x capaciteit</li><li>Gratis ijzertransport</li><li>Staal transport kost 50% minder brandstof</li><li>Start met 2x auto verkoop capaciteit</li><li>Geen tegel modificators</li>",
     Oslo: "Oslo",
     StPetersburg: "St. Petersburg",
     Hamburg: "Hamburg",
@@ -1063,4 +1058,21 @@ export const NL = {
     RealEstateTycoonDesc: "Have 400 buildings on a single map",
     ResourceExplorer2DescV2:
         "Resource explorers produce 2x output but use 2x power. Resource explorers can be boosted by resource boosters if Supply Chain Booster policy is active and the booster has an adjacent mine of the same output",
+    NoTileModifier: "Earth Is Flat",
+    NoTileModifierDesc:
+        "All tile modifiers are zero. This policy will deactivate Nature's Power and Tile Modifier Plus policies",
+    DoubleTileModifierDescV2:
+        "All tile modifiers' effect x2 - both positive and negative. This policy will deactivate Earth Is Flat policy",
+    TileModifierOutputOnlyDesc:
+        "Tegel modificatoren hebben enkel effect op de opbrengst in plaats van invoer en opbrengst, maar zijn maar 50% effectief",
+    RotterdamBonus:
+        "<li>Staalfabrieken hebben 2x capaciteit</li><li>Roestvrij Staalfabrieken hebben 2x capaciteit</li><li>Gratis ijzertransport</li><li>Staal transport kost 50% minder brandstof</li><li>Start met 2x auto verkoop capaciteit</li><li>Geen tegel modificators</li>",
+    QuickLinks: "Quick Links",
+    GetHelp: "Get Help",
+    GetHelpBeginnerGuides: "Beginner's Guide",
+    GetHelpSteamGuides: "Other Steam Guides",
+    GetHelpInGameChat: "Ask In-Game Chat",
+    GetHelpDiscord: "Join Our Discord Server",
+    GetHelpWiki: "Community Wiki",
+    SelectATile: "Select a Tile",
 };

@@ -432,10 +432,7 @@ export const ES = {
     CrAlloyUseFe: "Cromo",
     CrAlloyUseFeDesc: "Las plantas de aleación de cromo no usan litio, sino que usan 2x hierro en su lugar",
     DoubleTileModifier: "Poder de la naturaleza",
-    DoubleTileModifierDesc: "El efecto del modificador de todas las fichas x2, tanto positivo como negativo",
     TileModifierOutputOnly: "Editar mosaico plus",
-    TileModifierOutputOnlyDesc:
-        "Los modificadores de mosaicos solo afectan la salida en lugar de la entrada y la salida, pero solo son efectivos en un 50%",
     GasPlantPetrol: "Licuadora de gas",
     GasPlantPetrolDesc: "Las centrales eléctricas de gas utilizan gas extra para producir gasolina",
     BuildingRecycle: "Reciclaje de edificios",
@@ -599,8 +596,6 @@ export const ES = {
     MapHexGrid: "Hex",
     Stockholm: "Estocolmo",
     Rotterdam: "Rotterdam",
-    RotterdamBonus:
-        "<li> Las acerías tienen el doble de capacidad </li> <li> Las plantas de acero inoxidable tienen el doble de capacidad </li> <li> Transporte gratuito de hierro </li> <li> El transporte de acero cuesta un 50% menos de combustible </li> <li> Comience con el doble de capacidad de venta automática </li> <li> Sin modificadores de mosaicos </li> ",
     Oslo: "Oslo",
     StPetersburg: "San Petersburgo",
     Hamburg: "Hamburgo",
@@ -1072,4 +1067,21 @@ export const ES = {
     RealEstateTycoonDesc: "Have 400 buildings on a single map",
     ResourceExplorer2DescV2:
         "Resource explorers produce 2x output but use 2x power. Resource explorers can be boosted by resource boosters if Supply Chain Booster policy is active and the booster has an adjacent mine of the same output",
+    NoTileModifier: "Earth Is Flat",
+    NoTileModifierDesc:
+        "All tile modifiers are zero. This policy will deactivate Nature's Power and Tile Modifier Plus policies",
+    DoubleTileModifierDescV2:
+        "All tile modifiers' effect x2 - both positive and negative. This policy will deactivate Earth Is Flat policy",
+    TileModifierOutputOnlyDesc:
+        "Los modificadores de mosaicos solo afectan la salida en lugar de la entrada y la salida, pero solo son efectivos en un 50%",
+    RotterdamBonus:
+        "<li> Las acerías tienen el doble de capacidad </li> <li> Las plantas de acero inoxidable tienen el doble de capacidad </li> <li> Transporte gratuito de hierro </li> <li> El transporte de acero cuesta un 50% menos de combustible </li> <li> Comience con el doble de capacidad de venta automática </li> <li> Sin modificadores de mosaicos </li> ",
+    QuickLinks: "Quick Links",
+    GetHelp: "Get Help",
+    GetHelpBeginnerGuides: "Beginner's Guide",
+    GetHelpSteamGuides: "Other Steam Guides",
+    GetHelpInGameChat: "Ask In-Game Chat",
+    GetHelpDiscord: "Join Our Discord Server",
+    GetHelpWiki: "Community Wiki",
+    SelectATile: "Select a Tile",
 };

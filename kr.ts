@@ -414,9 +414,7 @@ export const KR = {
     CrAlloyUseFe: "Chroiron",
     CrAlloyUseFeDesc: "크롬 합금 공장은 리튬을 사용하지 않고 대신 철을 2배로 사용합니다",
     DoubleTileModifier: "자연의 힘",
-    DoubleTileModifierDesc: "모든 타일 보정 효과를 2배로 합니다 - 양수 및 음수 모두",
     TileModifierOutputOnly: "타일 보정 플러스",
-    TileModifierOutputOnlyDesc: "타일 보정은 입력과 출력이 아닌 출력에만 영향을 주지만 50% 만 효과적입니다",
     GasPlantPetrol: "가스 액화기",
     GasPlantPetrolDesc: "가스 발전소는 추가 가스를 사용하여 휘발유를 생산합니다",
     BuildingRecycle: "건물 재활용",
@@ -569,8 +567,6 @@ export const KR = {
     MapHexGrid: "6각형",
     Stockholm: "스톡홀름",
     Rotterdam: "로테르담",
-    RotterdamBonus:
-        "<li>제철소 용량 2배</li><li>스테인리스 공장 용량 2배</li><li>무료 철 수송</li><li>강철 수송 연료비 50% 절감</li><li>자동 판매 용량 2배로 시작</li><li>타일 보정 없음</li>",
     Oslo: "오슬로",
     StPetersburg: "상트 페테르부르크",
     Hamburg: "함부르크",
@@ -1032,4 +1028,20 @@ export const KR = {
     RealEstateTycoonDesc: "Have 400 buildings on a single map",
     ResourceExplorer2DescV2:
         "Resource explorers produce 2x output but use 2x power. Resource explorers can be boosted by resource boosters if Supply Chain Booster policy is active and the booster has an adjacent mine of the same output",
+    NoTileModifier: "Earth Is Flat",
+    NoTileModifierDesc:
+        "All tile modifiers are zero. This policy will deactivate Nature's Power and Tile Modifier Plus policies",
+    DoubleTileModifierDescV2:
+        "All tile modifiers' effect x2 - both positive and negative. This policy will deactivate Earth Is Flat policy",
+    TileModifierOutputOnlyDesc: "타일 보정은 입력과 출력이 아닌 출력에만 영향을 주지만 50% 만 효과적입니다",
+    RotterdamBonus:
+        "<li>제철소 용량 2배</li><li>스테인리스 공장 용량 2배</li><li>무료 철 수송</li><li>강철 수송 연료비 50% 절감</li><li>자동 판매 용량 2배로 시작</li><li>타일 보정 없음</li>",
+    QuickLinks: "Quick Links",
+    GetHelp: "Get Help",
+    GetHelpBeginnerGuides: "Beginner's Guide",
+    GetHelpSteamGuides: "Other Steam Guides",
+    GetHelpInGameChat: "Ask In-Game Chat",
+    GetHelpDiscord: "Join Our Discord Server",
+    GetHelpWiki: "Community Wiki",
+    SelectATile: "Select a Tile",
 };

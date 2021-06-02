@@ -438,10 +438,7 @@ export const FR = {
     CrAlloyUseFe: "Chroiron",
     CrAlloyUseFeDesc: "Les usines d'alliage de chrome n'utilisent pas de lithium mais utilisent plutôt 2x fer",
     DoubleTileModifier: "Le pouvoir de la nature",
-    DoubleTileModifierDesc: "Effet du modificateur de toutes les tuiles x2 - à la fois positif et négatif",
     TileModifierOutputOnly: "Modificateur de tuile Plus",
-    TileModifierOutputOnlyDesc:
-        "Les modificateurs n'affectent que la sortie au lieu de l'entrée et de la sortie, mais ne sont efficaces qu'à 50%",
     GasPlantPetrol: "Liquificateur de gaz",
     GasPlantPetrolDesc: "Les centrales au gaz utilisent du gaz supplémentaire pour produire de l'essence",
     BuildingRecycle: "Recyclage du bâtiment",
@@ -609,8 +606,6 @@ export const FR = {
     MapHexGrid: "Hex",
     Stockholm: "Stockholm",
     Rotterdam: "Rotterdam",
-    RotterdamBonus:
-        "<li>Les aciéries ont une capacité 2x</li><li>Les usines en acier inoxydable ont une capacité 2x</li><li>Transport de fer gratuit</li><li>Le transport de l'acier coûte 50% de carburant en moins</li><li>Commencez avec une capacité de vente automatique 2x</li><li>Aucun modificateur de tuile</li>",
     Oslo: "Oslo",
     StPetersburg: "Saint-Pétersbourg",
     Hamburg: "Hambourg",
@@ -1098,4 +1093,21 @@ export const FR = {
     RealEstateTycoonDesc: "Have 400 buildings on a single map",
     ResourceExplorer2DescV2:
         "Resource explorers produce 2x output but use 2x power. Resource explorers can be boosted by resource boosters if Supply Chain Booster policy is active and the booster has an adjacent mine of the same output",
+    NoTileModifier: "Earth Is Flat",
+    NoTileModifierDesc:
+        "All tile modifiers are zero. This policy will deactivate Nature's Power and Tile Modifier Plus policies",
+    DoubleTileModifierDescV2:
+        "All tile modifiers' effect x2 - both positive and negative. This policy will deactivate Earth Is Flat policy",
+    TileModifierOutputOnlyDesc:
+        "Les modificateurs n'affectent que la sortie au lieu de l'entrée et de la sortie, mais ne sont efficaces qu'à 50%",
+    RotterdamBonus:
+        "<li>Les aciéries ont une capacité 2x</li><li>Les usines en acier inoxydable ont une capacité 2x</li><li>Transport de fer gratuit</li><li>Le transport de l'acier coûte 50% de carburant en moins</li><li>Commencez avec une capacité de vente automatique 2x</li><li>Aucun modificateur de tuile</li>",
+    QuickLinks: "Quick Links",
+    GetHelp: "Get Help",
+    GetHelpBeginnerGuides: "Beginner's Guide",
+    GetHelpSteamGuides: "Other Steam Guides",
+    GetHelpInGameChat: "Ask In-Game Chat",
+    GetHelpDiscord: "Join Our Discord Server",
+    GetHelpWiki: "Community Wiki",
+    SelectATile: "Select a Tile",
 };

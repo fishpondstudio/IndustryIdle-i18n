@@ -418,10 +418,7 @@ export const EN = {
     CrAlloyUseFe: "Chroiron",
     CrAlloyUseFeDesc: "Chromium alloy plants do not use Lithium but use 2x Iron instead",
     DoubleTileModifier: "Nature's Power",
-    DoubleTileModifierDesc: "All tile modifiers' effect x2 - both positive and negative",
     TileModifierOutputOnly: "Tile Modifier Plus",
-    TileModifierOutputOnlyDesc:
-        "Tile modifiers only affect output instead of both input and output but are only 50% effective",
     GasPlantPetrol: "Gas Liquidizer",
     GasPlantPetrolDesc: "Gas power plants use extra gas to produce petrol",
     BuildingRecycle: "Building Recycle",
@@ -579,8 +576,6 @@ export const EN = {
     MapHexGrid: "Hex",
     Stockholm: "Stockholm",
     Rotterdam: "Rotterdam",
-    RotterdamBonus:
-        "<li>Steel Mills have 2x capacity</li><li>Stainless Steel Plants have 2x capacity</li><li>Free iron transportation</li><li>Steel transportation costs 50% less fuel</li><li>Start with 2x auto sell capacity</li><li>No tile modifiers</li>",
     Oslo: "Oslo",
     StPetersburg: "St. Petersburg",
     Hamburg: "Hamburg",
@@ -690,7 +685,7 @@ export const EN = {
     PlayerCountryFlag: "Player Flag",
     PlayerCountryChooseFlag: "In Alphabetical Order of Country Code",
     WindTurbineAlwaysWork: "The Wind Rises",
-    WindTurbineAlwaysWorkDesc: "Wind turbines work 100% of the time but produces 30% less power",
+    WindTurbineAlwaysWorkDesc: "Wind turbines work 100% of the time but produce 30% less power",
     BookPublisherScience: "Science Literature",
     BookPublisherScienceDesc: "Book publishers produce science instead of culture",
     WarehouseOutwardFuelSave: "Free Delivery",
@@ -1053,4 +1048,21 @@ export const EN = {
     RealEstateTycoonDesc: "Have 400 buildings on a single map",
     ResourceExplorer2DescV2:
         "Resource explorers produce 2x output but use 2x power. Resource explorers can be boosted by resource boosters if Supply Chain Booster policy is active and the booster has an adjacent mine of the same output",
+    NoTileModifier: "Earth Is Flat",
+    NoTileModifierDesc:
+        "All tile modifiers are zero. This policy will deactivate Nature's Power and Tile Modifier Plus policies",
+    DoubleTileModifierDescV2:
+        "All tile modifiers' effect x2 - both positive and negative. This policy will deactivate Earth Is Flat policy",
+    TileModifierOutputOnlyDesc:
+        "Tile modifiers only affect output instead of both input and output but are only 50% effective. This policy will deactivate Earth Is Flat policy",
+    RotterdamBonus:
+        "<li>Steel Mills have 2x capacity</li><li>Stainless Steel Plants have 2x capacity</li><li>Free iron transportation</li><li>Steel transportation costs 50% less fuel</li><li>Start with 2x auto sell capacity</li><li>Earth Is Flat policy is free</li>",
+    QuickLinks: "Quick Links",
+    GetHelp: "Get Help",
+    GetHelpBeginnerGuides: "Beginner's Guide",
+    GetHelpSteamGuides: "Other Steam Guides",
+    GetHelpInGameChat: "Ask In-Game Chat",
+    GetHelpDiscord: "Join Our Discord Server",
+    GetHelpWiki: "Community Wiki",
+    SelectATile: "Select a Tile",
 };

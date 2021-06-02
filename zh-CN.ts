@@ -405,9 +405,7 @@ export const ZH_CN = {
     CrAlloyUseFe: "铬",
     CrAlloyUseFeDesc: "铬合金工厂不使用锂，而是2倍于锂用量的铁",
     DoubleTileModifier: "自然的力量",
-    DoubleTileModifierDesc: "所有地块修正的效果x2(包括正数修正和负数修正)",
     TileModifierOutputOnly: "地块修正Plus",
-    TileModifierOutputOnlyDesc: "地块修正只影响产出，不影响投入，但仅有原来的50％有效",
     GasPlantPetrol: "天然气液化",
     GasPlantPetrolDesc: "天然气发电厂使用额外的天然气生产汽油",
     BuildingRecycle: "建筑回收",
@@ -554,8 +552,6 @@ export const ZH_CN = {
     MapHexGrid: "六边形",
     Stockholm: "斯德哥尔摩",
     Rotterdam: "鹿特丹",
-    RotterdamBonus:
-        "<li>钢厂的生产能力是原来的2倍</li><li>不锈钢厂的生产能力是原来的2倍</li><li>铁运输免费</li><li>钢运输的燃料成本降低50％</li><li>初始自动销售量是原来的2倍</li><li>没有地块修正</li>",
     Oslo: "奥斯陆",
     StPetersburg: "圣彼得堡",
     Hamburg: "汉堡",
@@ -1009,4 +1005,20 @@ export const ZH_CN = {
     RealEstateTycoonDesc: "Have 400 buildings on a single map",
     ResourceExplorer2DescV2:
         "Resource explorers produce 2x output but use 2x power. Resource explorers can be boosted by resource boosters if Supply Chain Booster policy is active and the booster has an adjacent mine of the same output",
+    NoTileModifier: "Earth Is Flat",
+    NoTileModifierDesc:
+        "All tile modifiers are zero. This policy will deactivate Nature's Power and Tile Modifier Plus policies",
+    DoubleTileModifierDescV2:
+        "All tile modifiers' effect x2 - both positive and negative. This policy will deactivate Earth Is Flat policy",
+    TileModifierOutputOnlyDesc: "地块修正只影响产出，不影响投入，但仅有原来的50％有效",
+    RotterdamBonus:
+        "<li>钢厂的生产能力是原来的2倍</li><li>不锈钢厂的生产能力是原来的2倍</li><li>铁运输免费</li><li>钢运输的燃料成本降低50％</li><li>初始自动销售量是原来的2倍</li><li>没有地块修正</li>",
+    QuickLinks: "Quick Links",
+    GetHelp: "Get Help",
+    GetHelpBeginnerGuides: "Beginner's Guide",
+    GetHelpSteamGuides: "Other Steam Guides",
+    GetHelpInGameChat: "Ask In-Game Chat",
+    GetHelpDiscord: "Join Our Discord Server",
+    GetHelpWiki: "Community Wiki",
+    SelectATile: "Select a Tile",
 };

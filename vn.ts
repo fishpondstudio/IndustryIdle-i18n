@@ -420,9 +420,7 @@ export const VN = {
     CrAlloyUseFe: "Crô-sắt",
     CrAlloyUseFeDesc: "Xưởng hợp kim crôm không sử dụng Li-ti nhưng thay bằng x2 Sắt",
     DoubleTileModifier: "Sức mạnh của Thiên nhiên",
-    DoubleTileModifierDesc: "Hiệu ứng trên ô x2 - cả tích cực lẫn tiêu cực",
     TileModifierOutputOnly: "Hiệu ứng ô cộng",
-    TileModifierOutputOnlyDesc: "Hiệu ứng trên ô chỉ tác động lên sản lượng thành phẩm, nhưng giảm 50% hiệu quả",
     GasPlantPetrol: "Khí hóa lỏng",
     GasPlantPetrolDesc: "Nhà máy điện khí sử dụng thêm khí hóa lỏng và sản xuất xăng",
     BuildingRecycle: "Tái cơ cấu công trình",
@@ -581,8 +579,6 @@ export const VN = {
     MapHexGrid: "Lục giác",
     Stockholm: "Stockholm",
     Rotterdam: "Rotterdam",
-    RotterdamBonus:
-        "<li>Nhà máy thép sản lượng x2</li><li>Nhà máy thép không gỉ sản lượng x2</li><li>Vận chuyển sắt miễn phí</li><li>Vận chuyển thép giảm 50% nhiên liệu</li><li>Số lượng Tự động Bán hàng x2</li><li>Không có hiệu suất trên ô</li>",
     Oslo: "Oslo",
     StPetersburg: "St. Petersburg",
     Hamburg: "Hamburg",
@@ -1064,4 +1060,20 @@ export const VN = {
     RealEstateTycoonDesc: "Have 400 buildings on a single map",
     ResourceExplorer2DescV2:
         "Resource explorers produce 2x output but use 2x power. Resource explorers can be boosted by resource boosters if Supply Chain Booster policy is active and the booster has an adjacent mine of the same output",
+    NoTileModifier: "Earth Is Flat",
+    NoTileModifierDesc:
+        "All tile modifiers are zero. This policy will deactivate Nature's Power and Tile Modifier Plus policies",
+    DoubleTileModifierDescV2:
+        "All tile modifiers' effect x2 - both positive and negative. This policy will deactivate Earth Is Flat policy",
+    TileModifierOutputOnlyDesc: "Hiệu ứng trên ô chỉ tác động lên sản lượng thành phẩm, nhưng giảm 50% hiệu quả",
+    RotterdamBonus:
+        "<li>Nhà máy thép sản lượng x2</li><li>Nhà máy thép không gỉ sản lượng x2</li><li>Vận chuyển sắt miễn phí</li><li>Vận chuyển thép giảm 50% nhiên liệu</li><li>Số lượng Tự động Bán hàng x2</li><li>Không có hiệu suất trên ô</li>",
+    QuickLinks: "Quick Links",
+    GetHelp: "Get Help",
+    GetHelpBeginnerGuides: "Beginner's Guide",
+    GetHelpSteamGuides: "Other Steam Guides",
+    GetHelpInGameChat: "Ask In-Game Chat",
+    GetHelpDiscord: "Join Our Discord Server",
+    GetHelpWiki: "Community Wiki",
+    SelectATile: "Select a Tile",
 };
