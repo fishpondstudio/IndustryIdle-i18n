@@ -420,7 +420,6 @@ export const NL = {
     ShoppingSpreeTradeCenterDesc:
         "💡 Volop Shoppen Beleid is geactiveerd, handelscentrum zal automatisch het tekort aan goederen kopen",
     ExtraPolicyPoints: "Politieke Lobbyist",
-    ExtraPolicyPointsDesc: "Verhoog beleidspunten productie capaciteit met 50%",
     CrAlloyUseFe: "Chromijzer",
     CrAlloyUseFeDesc: "Chroom legeringsfabrieken gebruiken geen Lithium maar 2 ijzer ter vervanging",
     DoubleTileModifier: "Kracht Van De Natuur",
@@ -889,7 +888,6 @@ export const NL = {
     ChatForceScrollDesc:
         "If force scroll is on, the chat will scroll whenever there's a new message. Otherwise it will only scroll when you are already at the bottom",
     ResourceExplorer2: "Resource Explorer 2.0",
-    ResourceExplorer2Desc: "Resource explorers produce 2x output but use 2x power",
     ConstructionCancel: "Cancel Construction",
     ConstructionPause: "Pause",
     ConstructionResume: "Resume",
@@ -1049,4 +1047,20 @@ export const NL = {
     MapProductionBonusDesc: "This building gets %{percent} extra capacity from the map's unique bonus",
     ProductionDiversification: "Production Diversification",
     ProductionDiversificationDesc: "Each different type of building gives 1% extra capacity to all buildings",
+    ExtraPolicyPointsDescV2: "Policy center has 2x policy points conversion capacity",
+    PowerRequired: "Power Required",
+    AchievementVancouver100: "Sap Seller",
+    AchievementVancouver100Desc: "Earn 100 Swiss Money in Vancouver in a single run",
+    AchievementVancouver500: "Syrup Savant",
+    AchievementVancouver500Desc: "Earn 500 Swiss Money in Vancouver in a single run",
+    AchievementVancouver1000: "Canuck Conqueror",
+    AchievementVancouver1000Desc: "Earn 1000 Swiss Money in Vancouver in a single run",
+    BarbariansAtTheGate: "Barbarians At The Gate",
+    BarbariansAtTheGateDesc: "Use 1 trillion worth of player trade quota between market updates",
+    DiversifiedProductions: "Diversified Productions",
+    DiversifiedProductionsDesc: "Build 100 different types of buildings on a single map",
+    RealEstateTycoon: "Real Estate Tycoon",
+    RealEstateTycoonDesc: "Have 400 buildings on a single map",
+    ResourceExplorer2DescV2:
+        "Resource explorers produce 2x output but use 2x power. Resource explorers can be boosted by resource boosters if Supply Chain Booster policy is active and the booster has an adjacent mine of the same output",
 };
