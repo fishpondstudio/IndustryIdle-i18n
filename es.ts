@@ -1072,10 +1072,10 @@ export const ES = {
         "All tile modifiers are zero. This policy will deactivate Nature's Power and Tile Modifier Plus policies",
     DoubleTileModifierDescV2:
         "All tile modifiers' effect x2 - both positive and negative. This policy will deactivate Earth Is Flat policy",
-    TileModifierOutputOnlyDesc:
-        "Los modificadores de mosaicos solo afectan la salida en lugar de la entrada y la salida, pero solo son efectivos en un 50%",
-    RotterdamBonus:
-        "<li> Las acerías tienen el doble de capacidad </li> <li> Las plantas de acero inoxidable tienen el doble de capacidad </li> <li> Transporte gratuito de hierro </li> <li> El transporte de acero cuesta un 50% menos de combustible </li> <li> Comience con el doble de capacidad de venta automática </li> <li> Sin modificadores de mosaicos </li> ",
+    TileModifierOutputOnlyDescV2:
+        "Tile modifiers only affect output instead of both input and output but are only 50% effective. This policy will deactivate Earth Is Flat policy",
+    RotterdamBonusV2:
+        "<li>Steel Mills have 2x capacity</li><li>Stainless Steel Plants have 2x capacity</li><li>Free iron transportation</li><li>Steel transportation costs 50% less fuel</li><li>Start with 2x auto sell capacity</li><li>Earth Is Flat policy is free</li>",
     QuickLinks: "Quick Links",
     GetHelp: "Get Help",
     GetHelpBeginnerGuides: "Beginner's Guide",

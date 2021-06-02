@@ -1053,9 +1053,9 @@ export const EN = {
         "All tile modifiers are zero. This policy will deactivate Nature's Power and Tile Modifier Plus policies",
     DoubleTileModifierDescV2:
         "All tile modifiers' effect x2 - both positive and negative. This policy will deactivate Earth Is Flat policy",
-    TileModifierOutputOnlyDesc:
+    TileModifierOutputOnlyDescV2:
         "Tile modifiers only affect output instead of both input and output but are only 50% effective. This policy will deactivate Earth Is Flat policy",
-    RotterdamBonus:
+    RotterdamBonusV2:
         "<li>Steel Mills have 2x capacity</li><li>Stainless Steel Plants have 2x capacity</li><li>Free iron transportation</li><li>Steel transportation costs 50% less fuel</li><li>Start with 2x auto sell capacity</li><li>Earth Is Flat policy is free</li>",
     QuickLinks: "Quick Links",
     GetHelp: "Get Help",

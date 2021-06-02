@@ -1007,9 +1007,10 @@ export const ZH_TW = {
         "All tile modifiers are zero. This policy will deactivate Nature's Power and Tile Modifier Plus policies",
     DoubleTileModifierDescV2:
         "All tile modifiers' effect x2 - both positive and negative. This policy will deactivate Earth Is Flat policy",
-    TileModifierOutputOnlyDesc: "建築增益僅影響輸出，而非輸入和輸出，但僅有原來的50％效果",
-    RotterdamBonus:
-        "<li>煉鋼廠的產能是原來的2倍</li><li>不鏽鋼廠的產能是原來的2倍</li><li>免費鐵運輸</li><li>鋼運輸的燃料成本降低了50％</li><li>以2倍的自動銷售容量開始</li><li>沒有建築增益</li>",
+    TileModifierOutputOnlyDescV2:
+        "Tile modifiers only affect output instead of both input and output but are only 50% effective. This policy will deactivate Earth Is Flat policy",
+    RotterdamBonusV2:
+        "<li>Steel Mills have 2x capacity</li><li>Stainless Steel Plants have 2x capacity</li><li>Free iron transportation</li><li>Steel transportation costs 50% less fuel</li><li>Start with 2x auto sell capacity</li><li>Earth Is Flat policy is free</li>",
     QuickLinks: "Quick Links",
     GetHelp: "Get Help",
     GetHelpBeginnerGuides: "Beginner's Guide",

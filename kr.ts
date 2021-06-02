@@ -1033,9 +1033,10 @@ export const KR = {
         "All tile modifiers are zero. This policy will deactivate Nature's Power and Tile Modifier Plus policies",
     DoubleTileModifierDescV2:
         "All tile modifiers' effect x2 - both positive and negative. This policy will deactivate Earth Is Flat policy",
-    TileModifierOutputOnlyDesc: "타일 보정은 입력과 출력이 아닌 출력에만 영향을 주지만 50% 만 효과적입니다",
-    RotterdamBonus:
-        "<li>제철소 용량 2배</li><li>스테인리스 공장 용량 2배</li><li>무료 철 수송</li><li>강철 수송 연료비 50% 절감</li><li>자동 판매 용량 2배로 시작</li><li>타일 보정 없음</li>",
+    TileModifierOutputOnlyDescV2:
+        "Tile modifiers only affect output instead of both input and output but are only 50% effective. This policy will deactivate Earth Is Flat policy",
+    RotterdamBonusV2:
+        "<li>Steel Mills have 2x capacity</li><li>Stainless Steel Plants have 2x capacity</li><li>Free iron transportation</li><li>Steel transportation costs 50% less fuel</li><li>Start with 2x auto sell capacity</li><li>Earth Is Flat policy is free</li>",
     QuickLinks: "Quick Links",
     GetHelp: "Get Help",
     GetHelpBeginnerGuides: "Beginner's Guide",
