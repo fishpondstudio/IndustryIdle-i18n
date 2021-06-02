@@ -1005,5 +1005,5 @@ export const ZH_TW = {
     RealEstateTycoon: "Real Estate Tycoon",
     RealEstateTycoonDesc: "Have 400 buildings on a single map",
     ResourceExplorer2DescV2:
-        "Resource explorers produce 2x output but use 2x power. Resource explorers can be boosted by resource boosters if Supply Chain Booster policy is active and the booster has an adjacent mine of the same output",
+        "資源探勘者輸出提升為2倍，但消耗2倍電力。若是探勘者與加速器相鄰，且探勘者產出的礦產與加速器加速中的礦產是相同類型的話，資源探勘者也能獲得同樣的提升倍率",
 };
