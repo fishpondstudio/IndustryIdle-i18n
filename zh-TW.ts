@@ -1010,13 +1010,13 @@ export const ZH_TW = {
     TileModifierOutputOnlyDescV2:
         "板塊增益只影響輸出而不增加輸入 但板塊增益降低50%效果. 開啟此政策將關閉土地穩定化政策",
     RotterdamBonusV2:
-        "<li>Steel Mills have 2x capacity</li><li>Stainless Steel Plants have 2x capacity</li><li>Free iron transportation</li><li>Steel transportation costs 50% less fuel</li><li>Start with 2x auto sell capacity</li><li>Earth Is Flat policy is free</li>",
-    QuickLinks: "Quick Links",
-    GetHelp: "Get Help",
-    GetHelpBeginnerGuides: "Beginner's Guide",
-    GetHelpSteamGuides: "Other Steam Guides",
-    GetHelpInGameChat: "Ask In-Game Chat",
-    GetHelpDiscord: "Join Our Discord Server",
-    GetHelpWiki: "Community Wiki",
-    SelectATile: "Select a Tile",
+        "<li>煉鋼廠的產能是原來的2倍</li><li>不鏽鋼廠的產能是原來的2倍</li><li>鐵運輸免費</li><li>鋼材運輸燃料消耗減少50%</li><li>開局的自動銷售數量是原來的兩倍</li><li>地球是平的政策免費</li>",
+    QuickLinks: "快速連結",
+    GetHelp: "尋求幫助",
+    GetHelpBeginnerGuides: "新手指南",
+    GetHelpSteamGuides: "其他的steam指南",
+    GetHelpInGameChat: "在遊戲的聊天視窗中詢問",
+    GetHelpDiscord: "加入我們的Discord伺服器",
+    GetHelpWiki: "社群維基",
+    SelectATile: "選擇一個板塊",
 };
