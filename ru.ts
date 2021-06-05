@@ -416,9 +416,6 @@ export const RU = {
     SolarPanelAlwaysWorkDesc: "Солнечные панели работает 100% времени, но производят на 60% меньше энергии",
     SteelScience: "Знания благодаря стали",
     SteelScienceDesc: "Сталелитейные заводы используют в 2 раза больше сырья и производят дополнительную науку",
-    WholesaleCenterProducingOnly: "Оптовые партнеры",
-    WholesaleCenterProducingOnlyDesc:
-        "Заказы оптового центра содержат только те ресурсы, которые производятся в данный момент (вам также необходимо производить необходимое количество ресурсов, чтобы разблокировать Центр оптовых продаж)",
     ShoppingSpree: "Поход по магазинам",
     ShoppingSpreeDesc:
         "Если ресурса не хватает, автоматически покупается недостающее количество в Торговом центре (если включена автоматическая продажа такого ресурса, она будет проигнорирована).",
@@ -1030,7 +1027,8 @@ export const RU = {
         "Ваша операционная система приостановила графику игры, потому что графический процессор занят другими задачами. Вы можете перезагрузить игру, чтобы продолжить. Если это не сработает, попробуйте перезапустить игру",
     SaveAndReloadGame: "Сохранить и перезагрузить игру",
     ResearchLabCultureInput: "Возрождение",
-    ResearchLabCultureInputDesc: "Исследовательская лаборатория имеет 2Х мощность, но принимает культуру как дополнительный вход",
+    ResearchLabCultureInputDesc:
+        "Исследовательская лаборатория имеет 2Х мощность, но принимает культуру как дополнительный вход",
     GasPumpx2Output: "Газовый насос высокого давления",
     GasPumpx2OutputDesc: "Газовые насосы имеют 2Х производительность, но потребляют 2Х энергии",
     LeaderboardValuationPerHour: "Общая стоиомсть за час",
@@ -1089,4 +1087,32 @@ export const RU = {
     GetHelpDiscord: "Присоединяйться к нашему серверу Discord",
     GetHelpWiki: "Сообщество Wiki",
     SelectATile: "Выберите плитку",
+    CrowdfundingFrom: "Crowdfunding From %{name}",
+    PledgeAmount: "Pledge %{amount}",
+    PledgeValue: "Value $%{amount}",
+    TotalPledgedValue: "Total Pledged Value",
+    TotalPledgedValueDesc:
+        "Your first pledge counts towards the crowdfunding goal. Subsequent pledges increase total pledged value but do not count towards the goal",
+    ReturnOnPledge: "Return On Pledge",
+    ReturnOnPledgeDesc:
+        "This is your return if this crowdfunding is successful. It is calculated based on total pledged value and the percentage depends on how many different resources you've pledged",
+    CrowdfundingEndIn: "End in %{time}",
+    ClaimCrowdfundingReward: "Claim Reward %{amount}",
+    ClaimCrowdfundingRefund: "Claim Refund %{amount}",
+    CrowdfundingUnsuccessful: "This crowdfunding is not successful and your total pledged value will be refunded",
+    PledgeSuccessful: "You have pledged %{amount} to this crowdfunding",
+    CrowdfundingClaimSuccessful: "You have claimed %{amount} cash",
+    CrowdfundingAlreadyPledged: "You've Already Pledged",
+    CrowdfundingAlreadyPledgedDesc:
+        "You can pledge more resources, which will increase your total pledged value (and potential return), but won't count towards crowdfunding goal",
+    WholesaleCenterProducingOnly: "Оптовые партнеры",
+    WholesaleCenterProducingOnlyDesc:
+        "Заказы оптового центра содержат только те ресурсы, которые производятся в данный момент (вам также необходимо производить необходимое количество ресурсов, чтобы разблокировать Центр оптовых продаж)",
+    SoftwareCompiler: "Software Compiler",
+    SearchEngine: "Search Engine",
+    SearchEngineCompany: "Search Engine Company",
+    Navy: "Navy",
+    NavyCommand: "Navy Command",
+    Battleship: "Battleship",
+    BattleshipFactory: "Battleship Factory",
 };

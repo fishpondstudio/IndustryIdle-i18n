@@ -411,9 +411,6 @@ export const NL = {
     SolarPanelAlwaysWorkDesc: "Zonnepanelen werken 100% van de tijd, maar produceren maar 60% energie",
     SteelScience: "Kennis Door Staal",
     SteelScienceDesc: "Staalfabrieken gebruiken 2x invoer en produceren extra wetenschap",
-    WholesaleCenterProducingOnly: "Groothandelspartners",
-    WholesaleCenterProducingOnlyDesc:
-        "Groothandelsbestellingen bevatten enkel goederen die momenteel geproduceert worden ( Je moet ook het aantal vereiste goederen produceren om de groothandel vrij te spelen)",
     ShoppingSpree: "Volop Shoppen",
     ShoppingSpreeDesc:
         "Als product zijn capaciteit tekort komt, pas het tekort dan automatisch bij door aankopen in het handelscentrum (Als de goederen een auto verkoop op hebben staan, zal het dit negeren)",
@@ -1075,4 +1072,32 @@ export const NL = {
     GetHelpDiscord: "Join Our Discord Server",
     GetHelpWiki: "Community Wiki",
     SelectATile: "Select a Tile",
+    CrowdfundingFrom: "Crowdfunding From %{name}",
+    PledgeAmount: "Pledge %{amount}",
+    PledgeValue: "Value $%{amount}",
+    TotalPledgedValue: "Total Pledged Value",
+    TotalPledgedValueDesc:
+        "Your first pledge counts towards the crowdfunding goal. Subsequent pledges increase total pledged value but do not count towards the goal",
+    ReturnOnPledge: "Return On Pledge",
+    ReturnOnPledgeDesc:
+        "This is your return if this crowdfunding is successful. It is calculated based on total pledged value and the percentage depends on how many different resources you've pledged",
+    CrowdfundingEndIn: "End in %{time}",
+    ClaimCrowdfundingReward: "Claim Reward %{amount}",
+    ClaimCrowdfundingRefund: "Claim Refund %{amount}",
+    CrowdfundingUnsuccessful: "This crowdfunding is not successful and your total pledged value will be refunded",
+    PledgeSuccessful: "You have pledged %{amount} to this crowdfunding",
+    CrowdfundingClaimSuccessful: "You have claimed %{amount} cash",
+    CrowdfundingAlreadyPledged: "You've Already Pledged",
+    CrowdfundingAlreadyPledgedDesc:
+        "You can pledge more resources, which will increase your total pledged value (and potential return), but won't count towards crowdfunding goal",
+    WholesaleCenterProducingOnly: "Groothandelspartners",
+    WholesaleCenterProducingOnlyDesc:
+        "Groothandelsbestellingen bevatten enkel goederen die momenteel geproduceert worden ( Je moet ook het aantal vereiste goederen produceren om de groothandel vrij te spelen)",
+    SoftwareCompiler: "Software Compiler",
+    SearchEngine: "Search Engine",
+    SearchEngineCompany: "Search Engine Company",
+    Navy: "Navy",
+    NavyCommand: "Navy Command",
+    Battleship: "Battleship",
+    BattleshipFactory: "Battleship Factory",
 };

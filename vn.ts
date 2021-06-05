@@ -408,9 +408,6 @@ export const VN = {
     SolarPanelAlwaysWorkDesc: "Tấm năng lượng mặt trời hoạt động 100% thời gian nhưng giảm 60% sản lượng",
     SteelScience: "Kiến thức từ Thép",
     SteelScienceDesc: "Nhà máy thép dùng x2 nguyên liệu và sản xuất thêm điểm khoa học",
-    WholesaleCenterProducingOnly: "Đối tác Bán Sỉ",
-    WholesaleCenterProducingOnlyDesc:
-        "Đơn hàng của Trung tâm Bán sỉ chỉ bao gồm các tài nguyên mà bạn đang sản xuất (bạn vẫn cần sản xuất đủ số loại tài nguyên để mở khóa Trung tâm Bán sỉ)",
     ShoppingSpree: "Mua sắm điên cuồng",
     ShoppingSpreeDesc:
         "Nếu sản lượng tài nguyên không đủ nhu cầu, tự động mua số lượng cần thiết từ Trung tâm Thương Mại (nếu Tự động Bán hàng đang bật cho tài nguyên này thì hệ thống sẽ bỏ qua)",
@@ -1077,4 +1074,32 @@ export const VN = {
     GetHelpDiscord: "Join Our Discord Server",
     GetHelpWiki: "Community Wiki",
     SelectATile: "Select a Tile",
+    CrowdfundingFrom: "Crowdfunding From %{name}",
+    PledgeAmount: "Pledge %{amount}",
+    PledgeValue: "Value $%{amount}",
+    TotalPledgedValue: "Total Pledged Value",
+    TotalPledgedValueDesc:
+        "Your first pledge counts towards the crowdfunding goal. Subsequent pledges increase total pledged value but do not count towards the goal",
+    ReturnOnPledge: "Return On Pledge",
+    ReturnOnPledgeDesc:
+        "This is your return if this crowdfunding is successful. It is calculated based on total pledged value and the percentage depends on how many different resources you've pledged",
+    CrowdfundingEndIn: "End in %{time}",
+    ClaimCrowdfundingReward: "Claim Reward %{amount}",
+    ClaimCrowdfundingRefund: "Claim Refund %{amount}",
+    CrowdfundingUnsuccessful: "This crowdfunding is not successful and your total pledged value will be refunded",
+    PledgeSuccessful: "You have pledged %{amount} to this crowdfunding",
+    CrowdfundingClaimSuccessful: "You have claimed %{amount} cash",
+    CrowdfundingAlreadyPledged: "You've Already Pledged",
+    CrowdfundingAlreadyPledgedDesc:
+        "You can pledge more resources, which will increase your total pledged value (and potential return), but won't count towards crowdfunding goal",
+    WholesaleCenterProducingOnly: "Đối tác Bán Sỉ",
+    WholesaleCenterProducingOnlyDesc:
+        "Đơn hàng của Trung tâm Bán sỉ chỉ bao gồm các tài nguyên mà bạn đang sản xuất (bạn vẫn cần sản xuất đủ số loại tài nguyên để mở khóa Trung tâm Bán sỉ)",
+    SoftwareCompiler: "Software Compiler",
+    SearchEngine: "Search Engine",
+    SearchEngineCompany: "Search Engine Company",
+    Navy: "Navy",
+    NavyCommand: "Navy Command",
+    Battleship: "Battleship",
+    BattleshipFactory: "Battleship Factory",
 };

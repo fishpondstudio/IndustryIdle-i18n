@@ -417,9 +417,6 @@ export const DE = {
     SolarPanelAlwaysWorkDesc: "Solarzellen arbeiten 100% der Zeit, produzieren aber 60% weniger Strom",
     SteelScience: "Wissen durch Stahl",
     SteelScienceDesc: "Stahlwerke verbrauchen 2x Ressourcen und produzieren zusätzlich Wissenschaftspunkte",
-    WholesaleCenterProducingOnly: "Großhandelspartner",
-    WholesaleCenterProducingOnlyDesc:
-        "Großhandelszentrum-Bestellungen enthalten nur Ressourcen, deren Fabriken Sie gebaut haben (Sie müssen auch die Anzahl der erforderlichen Ressourcen produzieren, um das Großhandelszentrum freizuschalten).",
     ShoppingSpree: "Einkaufsbummel",
     ShoppingSpreeDesc:
         "Wenn die Prdouktion einer Ressource nicht ausreicht, kaufen Sie den Mangelbetrag automatisch am Marktplatz (wenn die Ressource automatisch weiterverkauft wird, wird Sie ignoriert).",
@@ -1079,7 +1076,8 @@ export const DE = {
     DiversifiedProductionsDesc: "Baue 100 verschiedene Gebäudetypen auf einer einzigen Karte",
     RealEstateTycoon: "Immobilien-Tycoon",
     RealEstateTycoonDesc: "Habe 400 Gebäude auf einer einzigen Karte",
-    ResourceExplorer2DescV2: "Ressourcen-Explorer produzieren 2x Ertrag, verbrauchen aber 2x Strom. Ressourcen-Explorer können durch Ressourcen-Booster verstärkt werden, wenn die Lieferketten-Richtlinie aktiv ist und der Booster eine benachbarte Mine mit der gleichen Ressource hat",
+    ResourceExplorer2DescV2:
+        "Ressourcen-Explorer produzieren 2x Ertrag, verbrauchen aber 2x Strom. Ressourcen-Explorer können durch Ressourcen-Booster verstärkt werden, wenn die Lieferketten-Richtlinie aktiv ist und der Booster eine benachbarte Mine mit der gleichen Ressource hat",
     NoTileModifier: "Die Erde ist Flach",
     NoTileModifierDesc:
         "Alle Zellenmodifikatoren werden 0. Diese Richtlinie wird die Richtlinien (Kraft der Natur) und (Zellenmodifikator Plus) deaktivieren.",
@@ -1097,4 +1095,32 @@ export const DE = {
     GetHelpDiscord: "Trete unserem Discord Server bei!",
     GetHelpWiki: "Community Wiki",
     SelectATile: "Wähle eine Zelle",
+    CrowdfundingFrom: "Crowdfunding From %{name}",
+    PledgeAmount: "Pledge %{amount}",
+    PledgeValue: "Value $%{amount}",
+    TotalPledgedValue: "Total Pledged Value",
+    TotalPledgedValueDesc:
+        "Your first pledge counts towards the crowdfunding goal. Subsequent pledges increase total pledged value but do not count towards the goal",
+    ReturnOnPledge: "Return On Pledge",
+    ReturnOnPledgeDesc:
+        "This is your return if this crowdfunding is successful. It is calculated based on total pledged value and the percentage depends on how many different resources you've pledged",
+    CrowdfundingEndIn: "End in %{time}",
+    ClaimCrowdfundingReward: "Claim Reward %{amount}",
+    ClaimCrowdfundingRefund: "Claim Refund %{amount}",
+    CrowdfundingUnsuccessful: "This crowdfunding is not successful and your total pledged value will be refunded",
+    PledgeSuccessful: "You have pledged %{amount} to this crowdfunding",
+    CrowdfundingClaimSuccessful: "You have claimed %{amount} cash",
+    CrowdfundingAlreadyPledged: "You've Already Pledged",
+    CrowdfundingAlreadyPledgedDesc:
+        "You can pledge more resources, which will increase your total pledged value (and potential return), but won't count towards crowdfunding goal",
+    WholesaleCenterProducingOnly: "Großhandelspartner",
+    WholesaleCenterProducingOnlyDesc:
+        "Großhandelszentrum-Bestellungen enthalten nur Ressourcen, deren Fabriken Sie gebaut haben (Sie müssen auch die Anzahl der erforderlichen Ressourcen produzieren, um das Großhandelszentrum freizuschalten).",
+    SoftwareCompiler: "Software Compiler",
+    SearchEngine: "Search Engine",
+    SearchEngineCompany: "Search Engine Company",
+    Navy: "Navy",
+    NavyCommand: "Navy Command",
+    Battleship: "Battleship",
+    BattleshipFactory: "Battleship Factory",
 };

@@ -395,9 +395,6 @@ export const ZH_CN = {
     SolarPanelAlwaysWorkDesc: "太阳能板在100％的时间工作，但产出的电力少60％",
     SteelScience: "钢铁知识",
     SteelScienceDesc: "钢厂使用2倍的投入并产生额外的科学点",
-    WholesaleCenterProducingOnly: "批发合作伙伴",
-    WholesaleCenterProducingOnlyDesc:
-        "批发中心订单仅包含当前正在生产的资源（您还需要提供一定数量的资源才能解锁批发中心）",
     ShoppingSpree: "疯狂购物",
     ShoppingSpreeDesc: "如果资源的产出量不足，从贸易中心自动购买短缺量（如果该资源已自动出售，则将被忽略）",
     ShoppingSpreeTradeCenterDesc: "💡 疯狂购物政策已启用，贸易中心将自动购买短缺的资源",
@@ -1006,10 +1003,8 @@ export const ZH_CN = {
     ResourceExplorer2DescV2:
         "资源勘探者产出量加倍，电力消耗也加倍。如果开启了供应链加速器政策，资源勘探者可以被有同类产出矿场相邻的资源加速器加速",
     NoTileModifier: "地球是平的",
-    NoTileModifierDesc:
-        "所有地块修正归零。开启此政策会停用“自然的力量”和“地块修正Plus”政策",
-    DoubleTileModifierDescV2:
-        "所有地块修正翻倍-包括正面和负面效果。开启此政策会停用“地球是平的”政策",
+    NoTileModifierDesc: "所有地块修正归零。开启此政策会停用“自然的力量”和“地块修正Plus”政策",
+    DoubleTileModifierDescV2: "所有地块修正翻倍-包括正面和负面效果。开启此政策会停用“地球是平的”政策",
     TileModifierOutputOnlyDescV2:
         "地块修正不再同时影响消耗和产出，而是只对产出有效，但仅有原来50％的效果。开启此政策会停用“地球是平的”政策",
     RotterdamBonusV2:
@@ -1022,4 +1017,32 @@ export const ZH_CN = {
     GetHelpDiscord: "加入我们的Discord服务器",
     GetHelpWiki: "社区Wiki",
     SelectATile: "选择一个地块",
+    CrowdfundingFrom: "Crowdfunding From %{name}",
+    PledgeAmount: "Pledge %{amount}",
+    PledgeValue: "Value $%{amount}",
+    TotalPledgedValue: "Total Pledged Value",
+    TotalPledgedValueDesc:
+        "Your first pledge counts towards the crowdfunding goal. Subsequent pledges increase total pledged value but do not count towards the goal",
+    ReturnOnPledge: "Return On Pledge",
+    ReturnOnPledgeDesc:
+        "This is your return if this crowdfunding is successful. It is calculated based on total pledged value and the percentage depends on how many different resources you've pledged",
+    CrowdfundingEndIn: "End in %{time}",
+    ClaimCrowdfundingReward: "Claim Reward %{amount}",
+    ClaimCrowdfundingRefund: "Claim Refund %{amount}",
+    CrowdfundingUnsuccessful: "This crowdfunding is not successful and your total pledged value will be refunded",
+    PledgeSuccessful: "You have pledged %{amount} to this crowdfunding",
+    CrowdfundingClaimSuccessful: "You have claimed %{amount} cash",
+    CrowdfundingAlreadyPledged: "You've Already Pledged",
+    CrowdfundingAlreadyPledgedDesc:
+        "You can pledge more resources, which will increase your total pledged value (and potential return), but won't count towards crowdfunding goal",
+    WholesaleCenterProducingOnly: "批发合作伙伴",
+    WholesaleCenterProducingOnlyDesc:
+        "批发中心订单仅包含当前正在生产的资源（您还需要提供一定数量的资源才能解锁批发中心）",
+    SoftwareCompiler: "Software Compiler",
+    SearchEngine: "Search Engine",
+    SearchEngineCompany: "Search Engine Company",
+    Navy: "Navy",
+    NavyCommand: "Navy Command",
+    Battleship: "Battleship",
+    BattleshipFactory: "Battleship Factory",
 };

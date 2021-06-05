@@ -402,9 +402,6 @@ export const KR = {
     SolarPanelAlwaysWorkDesc: "태양 전지판은 항상 작동하지만 전력을 60% 적게 생산합니다",
     SteelScience: "강철을 통한 지식",
     SteelScienceDesc: "제철소는 2배의 입력을 사용하고 추가 과학을 생산합니다",
-    WholesaleCenterProducingOnly: "도매 파트너",
-    WholesaleCenterProducingOnlyDesc:
-        "도매 센터 주문에는 현재 생산중인 자원만 포함됩니다 (도매 센터를 잠금 해제하려면 필요한 자원을 생산해야 함)",
     ShoppingSpree: "Shopping Spree",
     ShoppingSpreeDesc:
         "자원의 생산 능력이 부족하면 무역 센터에서 자동으로 부족량을 구매합니다. (자원이 자동 판매가 되면 무시됩니다)",
@@ -1029,8 +1026,7 @@ export const KR = {
     ResourceExplorer2DescV2:
         "자원 탐색가는 2배로 생산하지만, 2배의 전력을 사용합니다. 공급망 촉진기 정책이 활성화되어 있고, 자원 촉진기에 동일한 출력의 인접한 광산이 있는 경우 자원 탐색가는 자원 촉진기에 의해 촉진효과를 받을 수 있습니다",
     NoTileModifier: "지구는 평평하다",
-    NoTileModifierDesc:
-        "모든 타일 보정은 0입니다. 이 정책은 자연의 힘, 타일 보정 플러스 정책을 비활성화합니다",
+    NoTileModifierDesc: "모든 타일 보정은 0입니다. 이 정책은 자연의 힘, 타일 보정 플러스 정책을 비활성화합니다",
     DoubleTileModifierDescV2:
         "모든 타일 보정 효과 2배 - 양수, 음수 모두. 이 정책은 지구는 평평하다 정책을 비활성화합니다",
     TileModifierOutputOnlyDescV2:
@@ -1045,4 +1041,32 @@ export const KR = {
     GetHelpDiscord: "우리 Discord 서버에 가입",
     GetHelpWiki: "커뮤니티 위키",
     SelectATile: "타일 선택",
+    CrowdfundingFrom: "Crowdfunding From %{name}",
+    PledgeAmount: "Pledge %{amount}",
+    PledgeValue: "Value $%{amount}",
+    TotalPledgedValue: "Total Pledged Value",
+    TotalPledgedValueDesc:
+        "Your first pledge counts towards the crowdfunding goal. Subsequent pledges increase total pledged value but do not count towards the goal",
+    ReturnOnPledge: "Return On Pledge",
+    ReturnOnPledgeDesc:
+        "This is your return if this crowdfunding is successful. It is calculated based on total pledged value and the percentage depends on how many different resources you've pledged",
+    CrowdfundingEndIn: "End in %{time}",
+    ClaimCrowdfundingReward: "Claim Reward %{amount}",
+    ClaimCrowdfundingRefund: "Claim Refund %{amount}",
+    CrowdfundingUnsuccessful: "This crowdfunding is not successful and your total pledged value will be refunded",
+    PledgeSuccessful: "You have pledged %{amount} to this crowdfunding",
+    CrowdfundingClaimSuccessful: "You have claimed %{amount} cash",
+    CrowdfundingAlreadyPledged: "You've Already Pledged",
+    CrowdfundingAlreadyPledgedDesc:
+        "You can pledge more resources, which will increase your total pledged value (and potential return), but won't count towards crowdfunding goal",
+    WholesaleCenterProducingOnly: "도매 파트너",
+    WholesaleCenterProducingOnlyDesc:
+        "도매 센터 주문에는 현재 생산중인 자원만 포함됩니다 (도매 센터를 잠금 해제하려면 필요한 자원을 생산해야 함)",
+    SoftwareCompiler: "Software Compiler",
+    SearchEngine: "Search Engine",
+    SearchEngineCompany: "Search Engine Company",
+    Navy: "Navy",
+    NavyCommand: "Navy Command",
+    Battleship: "Battleship",
+    BattleshipFactory: "Battleship Factory",
 };

@@ -405,9 +405,6 @@ export const TR = {
     SolarPanelAlwaysWorkDesc: "Solar panel works 100% of the time but produces 60% less power",
     SteelScience: "Knowledge Through Steel",
     SteelScienceDesc: "Steel mills use 2x input and produce extra science",
-    WholesaleCenterProducingOnly: "Wholesale Partners",
-    WholesaleCenterProducingOnlyDesc:
-        "Wholesale center orders only contain resources that are currently being produced (you also need to be producing the number of required resources to unlock wholesale center)",
     ShoppingSpree: "Shopping Spree",
     ShoppingSpreeDesc:
         "If a resource's output capacity falls short, buy the shortage amount from Trade Center automatically (If the resource has auto sell on, it will be ignored)",
@@ -1064,4 +1061,32 @@ export const TR = {
     GetHelpDiscord: "Join Our Discord Server",
     GetHelpWiki: "Community Wiki",
     SelectATile: "Select a Tile",
+    CrowdfundingFrom: "Crowdfunding From %{name}",
+    PledgeAmount: "Pledge %{amount}",
+    PledgeValue: "Value $%{amount}",
+    TotalPledgedValue: "Total Pledged Value",
+    TotalPledgedValueDesc:
+        "Your first pledge counts towards the crowdfunding goal. Subsequent pledges increase total pledged value but do not count towards the goal",
+    ReturnOnPledge: "Return On Pledge",
+    ReturnOnPledgeDesc:
+        "This is your return if this crowdfunding is successful. It is calculated based on total pledged value and the percentage depends on how many different resources you've pledged",
+    CrowdfundingEndIn: "End in %{time}",
+    ClaimCrowdfundingReward: "Claim Reward %{amount}",
+    ClaimCrowdfundingRefund: "Claim Refund %{amount}",
+    CrowdfundingUnsuccessful: "This crowdfunding is not successful and your total pledged value will be refunded",
+    PledgeSuccessful: "You have pledged %{amount} to this crowdfunding",
+    CrowdfundingClaimSuccessful: "You have claimed %{amount} cash",
+    CrowdfundingAlreadyPledged: "You've Already Pledged",
+    CrowdfundingAlreadyPledgedDesc:
+        "You can pledge more resources, which will increase your total pledged value (and potential return), but won't count towards crowdfunding goal",
+    WholesaleCenterProducingOnly: "Wholesale Partners",
+    WholesaleCenterProducingOnlyDesc:
+        "Wholesale center orders only contain resources that are currently being produced (you also need to be producing the number of required resources to unlock wholesale center)",
+    SoftwareCompiler: "Software Compiler",
+    SearchEngine: "Search Engine",
+    SearchEngineCompany: "Search Engine Company",
+    Navy: "Navy",
+    NavyCommand: "Navy Command",
+    Battleship: "Battleship",
+    BattleshipFactory: "Battleship Factory",
 };
