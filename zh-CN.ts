@@ -132,7 +132,7 @@ export const ZH_CN = {
     SolarPanel: "太阳能电池板",
     SolarPanelDesc: "💡 太阳能电池板每10秒只能工作5秒-所有的循环都是一致的",
     WindTurbineDesc: "💡 风力发电机每10秒只工作8秒-循环不一致",
-    Movie: "影片",
+    Movie: "电影",
     MovieStudio: "电影工作室",
     Sitcom: "电视剧",
     TVStudio: "电视台",
