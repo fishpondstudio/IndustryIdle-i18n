@@ -1005,21 +1005,21 @@ export const ZH_CN = {
     RealEstateTycoonDesc: "在一张地图上拥有400栋建筑",
     ResourceExplorer2DescV2:
         "资源勘探者产出量加倍，电力消耗也加倍。如果开启了供应链加速器政策，资源勘探者可以被有同类产出矿场相邻的资源加速器加速",
-    NoTileModifier: "Earth Is Flat",
+    NoTileModifier: "地球是平的",
     NoTileModifierDesc:
-        "All tile modifiers are zero. This policy will deactivate Nature's Power and Tile Modifier Plus policies",
+        "所有地块修正归零。开启此政策会停用“自然的力量”和“地块修正Plus”政策",
     DoubleTileModifierDescV2:
-        "All tile modifiers' effect x2 - both positive and negative. This policy will deactivate Earth Is Flat policy",
+        "所有地块修正翻倍-包括正面和负面效果。开启此政策会停用“地球是平的”政策",
     TileModifierOutputOnlyDescV2:
-        "Tile modifiers only affect output instead of both input and output but are only 50% effective. This policy will deactivate Earth Is Flat policy",
+        "地块修正不再同时影响消耗和产出，而是只对产出有效，但仅有原来50％的效果。开启此政策会停用“地球是平的”政策",
     RotterdamBonusV2:
-        "<li>Steel Mills have 2x capacity</li><li>Stainless Steel Plants have 2x capacity</li><li>Free iron transportation</li><li>Steel transportation costs 50% less fuel</li><li>Start with 2x auto sell capacity</li><li>Earth Is Flat policy is free</li>",
-    QuickLinks: "Quick Links",
-    GetHelp: "Get Help",
-    GetHelpBeginnerGuides: "Beginner's Guide",
-    GetHelpSteamGuides: "Other Steam Guides",
-    GetHelpInGameChat: "Ask In-Game Chat",
-    GetHelpDiscord: "Join Our Discord Server",
-    GetHelpWiki: "Community Wiki",
-    SelectATile: "Select a Tile",
+        "<li>钢厂的生产能力是原来的2倍</li><li>不锈钢厂的生产能力是原来的2倍</li><li>铁运输免费</li><li>钢运输的燃料成本降低50％</li><li>初始自动销售量是原来的2倍</li><li>“地球是平的”政策免政策点</li>",
+    QuickLinks: "快捷链接",
+    GetHelp: "寻求帮助",
+    GetHelpBeginnerGuides: "新手指南",
+    GetHelpSteamGuides: "其他的Steam指南",
+    GetHelpInGameChat: "在游戏聊天中询问",
+    GetHelpDiscord: "加入我们的Discord服务器",
+    GetHelpWiki: "社区Wiki",
+    SelectATile: "选择一个地块",
 };
