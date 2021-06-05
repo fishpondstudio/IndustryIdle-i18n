@@ -406,7 +406,7 @@ export const ZH_TW = {
     CrAlloyUseFe: "鐵鉻合金",
     CrAlloyUseFeDesc: "鉻合金工廠不使用鋰，而是2倍於鋰用量的鐵",
     DoubleTileModifier: "自然的力量",
-    TileModifierOutputOnly: "強化板塊增益",
+    TileModifierOutputOnly: "板塊增益Plus",
     GasPlantPetrol: "天然氣液化",
     GasPlantPetrolDesc: "天然氣發電廠使用額外的天然氣，並產出汽油",
     BuildingRecycle: "建築回收",
@@ -1002,13 +1002,13 @@ export const ZH_TW = {
     RealEstateTycoonDesc: "單張地圖內擁有400棟建築物",
     ResourceExplorer2DescV2:
         "資源探勘者輸出提升為2倍，但消耗2倍電力。但同時啟動供應鏈加速器政策的情況下，若是探勘者與加速器相鄰，且探勘者產出的礦產與加速器加速中的礦產是相同類型的話，資源探勘者也能獲得同樣的提升倍率",
-    NoTileModifier: "土地穩定化",
+    NoTileModifier: "地球是平的",
     NoTileModifierDesc:
-        "板塊加成全變為0%. 開啟此政策將關閉自然之力與板塊加成強化政策",
+        "板塊加成全變為0%. 開啟此政策將關閉自然之力與板塊增益Plus政策",
     DoubleTileModifierDescV2:
-        "所有板塊加成和減益都會變為2倍. 開啟此政策將關閉土地穩定化政策",
+        "所有板塊增益和減益都會變為2倍. 開啟此政策將關閉地球是平的政策",
     TileModifierOutputOnlyDescV2:
-        "板塊增益只影響輸出而不增加輸入 但板塊增益降低50%效果. 開啟此政策將關閉土地穩定化政策",
+        "板塊增益只影響輸出而不增加輸入 但板塊增益降低50%效果. 開啟此政策將關閉地球是平的政策",
     RotterdamBonusV2:
         "<li>煉鋼廠的產能是原來的2倍</li><li>不鏽鋼廠的產能是原來的2倍</li><li>鐵運輸免費</li><li>鋼材運輸燃料消耗減少50%</li><li>開局的自動銷售數量是原來的兩倍</li><li>地球是平的政策免費</li>",
     QuickLinks: "快速連結",
