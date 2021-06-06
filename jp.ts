@@ -635,8 +635,6 @@ export const JP = {
     AlMine2xOutputDesc: "アルミ採掘場は、2倍のアルミを生産し、2倍の電力を使用します",
     LoggingCamp2xOutput: "森林破壊",
     LoggingCamp2xOutputDesc: "伐採キャンプは2倍の木材を生産し、木材輸送は2倍の燃料を消費します",
-    HideResourceMovement: "資源の移動を隠す",
-    HideResourceMovementDesc: "デフォルトでは資源の動き（小さな点）を隠し、施設を選択したときのみ動きを表示します",
     PowerBankLeft: "パワーバンク",
     ColorThemeEditor: "カラーテーマエディター",
     ColorThemeEditorDesc: "現在のカラーテーマの色を上書きできます。現在のオーバーライド数は%{num}です",
@@ -1067,4 +1065,11 @@ export const JP = {
     NavyCommand: "海軍司令部",
     Battleship: "戦艦",
     BattleshipFactory: "戦艦工場",
+    ResourceMovementHide: "Always Hide",
+    ResourceMovementShow: "Always Show",
+    ResourceMovementHighlight: "On Highlight",
+    ResourceMovementLine: "Line Only",
+    ResourceMovement: "Resource Movement",
+    ResourceMovementDesc:
+        "You can choose when to show the resource movement (dots). Hiding it can improvement performance",
 };

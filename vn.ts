@@ -654,9 +654,6 @@ export const VN = {
     AlMine2xOutputDesc: "Mỏ nhôm sản xuất x2 Nhôm và sử dụng x2 điện năng",
     LoggingCamp2xOutput: "Phá rừng",
     LoggingCamp2xOutputDesc: "Xưởng đốn gỗ sản xuất 2x Gỗ và vận chuyển Gỗ tốn x2 nhiên liệu",
-    HideResourceMovement: "Giấu vận chuyển tài nguyên",
-    HideResourceMovementDesc:
-        "Tính năng này sẽ giấu di chuyển tài nguyên (mấy dấu chấm nhỏ xíu) trên bản đồ và chỉ hiển thị tương ứng khi bạn chọn một công trình",
     PowerBankLeft: "Trữ lượng",
     ColorThemeEditor: "Thay đổi bảng màu",
     ColorThemeEditorDesc: "Bạn có thể chọn màu đè lên bảng màu hiện tại. Bạn đã có %{num} màu đè",
@@ -1102,4 +1099,11 @@ export const VN = {
     NavyCommand: "Navy Command",
     Battleship: "Battleship",
     BattleshipFactory: "Battleship Factory",
+    ResourceMovementHide: "Always Hide",
+    ResourceMovementShow: "Always Show",
+    ResourceMovementHighlight: "On Highlight",
+    ResourceMovementLine: "Line Only",
+    ResourceMovement: "Resource Movement",
+    ResourceMovementDesc:
+        "You can choose when to show the resource movement (dots). Hiding it can improvement performance",
 };

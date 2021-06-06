@@ -639,8 +639,6 @@ export const KR = {
     AlMine2xOutputDesc: "알루미늄 광산은 2배의 알루미늄을 생산하고 2배 더 많은 전력을 사용합니다",
     LoggingCamp2xOutput: "삼림 벌채",
     LoggingCamp2xOutputDesc: "벌목소는 2배의 나무를 생산하고 나무 운송 비용이 2배가 됩니다",
-    HideResourceMovement: "자원 이동 숨기기",
-    HideResourceMovementDesc: "기본적으로 자원 이동(작은 점)을 숨기고 건물을 선택할 때만 이동을 표시합니다",
     PowerBankLeft: "보조 배터리",
     ColorThemeEditor: "색상 테마 편집기",
     ColorThemeEditorDesc: "현재 테마의 색상을 재정의 할 수 있습니다. 현재 %{num}개의 재정의가 있습니다",
@@ -1069,4 +1067,11 @@ export const KR = {
     NavyCommand: "Navy Command",
     Battleship: "Battleship",
     BattleshipFactory: "Battleship Factory",
+    ResourceMovementHide: "Always Hide",
+    ResourceMovementShow: "Always Show",
+    ResourceMovementHighlight: "On Highlight",
+    ResourceMovementLine: "Line Only",
+    ResourceMovement: "Resource Movement",
+    ResourceMovementDesc:
+        "You can choose when to show the resource movement (dots). Hiding it can improvement performance",
 };

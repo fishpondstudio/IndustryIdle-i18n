@@ -665,9 +665,6 @@ export const RU = {
     AlMine2xOutputDesc: "Алюминиевые шахты производят 2Х алюминия и потребляют 2Х энергии",
     LoggingCamp2xOutput: "Вырубка лесов",
     LoggingCamp2xOutputDesc: "Лесозаготовки производят 2Х древесины, но потребляют 2Х топлива при перевозке",
-    HideResourceMovement: "Скрыть движение ресурсов",
-    HideResourceMovementDesc:
-        "Это позволит скрыть движение ресурсов (крошечные точки) по умолчанию и показывать движение только при выборе здания",
     PowerBankLeft: "Аккумулятор",
     ColorThemeEditor: "Редактор цветовых тем",
     ColorThemeEditorDesc: "Вы можете переопределить цвета в текущей цветовой теме. Вы имеете %{num} переопределений",
@@ -1115,4 +1112,11 @@ export const RU = {
     NavyCommand: "Navy Command",
     Battleship: "Battleship",
     BattleshipFactory: "Battleship Factory",
+    ResourceMovementHide: "Always Hide",
+    ResourceMovementShow: "Always Show",
+    ResourceMovementHighlight: "On Highlight",
+    ResourceMovementLine: "Line Only",
+    ResourceMovement: "Resource Movement",
+    ResourceMovementDesc:
+        "You can choose when to show the resource movement (dots). Hiding it can improvement performance",
 };

@@ -622,8 +622,6 @@ export const ZH_CN = {
     AlMine2xOutputDesc: "铝矿场产生2倍的铝，但消耗2倍的电力",
     LoggingCamp2xOutput: "毁林",
     LoggingCamp2xOutputDesc: "伐木场产生2倍的原木，但运输原木消耗2倍的燃料",
-    HideResourceMovement: "隐藏资源移动",
-    HideResourceMovementDesc: "这将默认隐藏资源移动（那些小点），仅在选择建筑时显示相关资源移动",
     PowerBankLeft: "电池组",
     ColorThemeEditor: "颜色主题编辑器",
     ColorThemeEditorDesc: "你可以替换当前颜色主题中的颜色。你已经替换了%{num}个颜色",
@@ -1045,4 +1043,11 @@ export const ZH_CN = {
     NavyCommand: "Navy Command",
     Battleship: "Battleship",
     BattleshipFactory: "Battleship Factory",
+    ResourceMovementHide: "Always Hide",
+    ResourceMovementShow: "Always Show",
+    ResourceMovementHighlight: "On Highlight",
+    ResourceMovementLine: "Line Only",
+    ResourceMovement: "Resource Movement",
+    ResourceMovementDesc:
+        "You can choose when to show the resource movement (dots). Hiding it can improvement performance",
 };

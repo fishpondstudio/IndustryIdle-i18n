@@ -681,9 +681,6 @@ export const FR = {
     AlMine2xOutputDesc: "Les mines d'aluminium produisent 2x aluminium mais utilisent 2x plus d'électricité",
     LoggingCamp2xOutput: "Chantier forestier",
     LoggingCamp2xOutputDesc: "Les camps forestiers produisent 2x bois mais utilisent 2x plus de carburant",
-    HideResourceMovement: "Hide Resource Movement",
-    HideResourceMovementDesc:
-        "Cela masquera le mouvement des ressources (ces petits points) par défaut et n'affichera le mouvement que lorsque vous sélectionnez un bâtiment",
     PowerBankLeft: "Stockage d'énergie",
     ColorThemeEditor: "Editeur de la couleur du thème",
     ColorThemeEditorDesc:
@@ -1135,4 +1132,11 @@ export const FR = {
     NavyCommand: "Navy Command",
     Battleship: "Battleship",
     BattleshipFactory: "Battleship Factory",
+    ResourceMovementHide: "Always Hide",
+    ResourceMovementShow: "Always Show",
+    ResourceMovementHighlight: "On Highlight",
+    ResourceMovementLine: "Line Only",
+    ResourceMovement: "Resource Movement",
+    ResourceMovementDesc:
+        "You can choose when to show the resource movement (dots). Hiding it can improvement performance",
 };

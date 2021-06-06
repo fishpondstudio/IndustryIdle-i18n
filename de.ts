@@ -668,9 +668,6 @@ export const DE = {
     AlMine2xOutputDesc: "Aluminumminem produzieren 2x soviel Aluminium und verbrauchen 2x soviel Strom.",
     LoggingCamp2xOutput: "Abholzung",
     LoggingCamp2xOutputDesc: "Forstbetriebe produzieren 2x soviel Holz und die Transportkosten werden verdoppelt.",
-    HideResourceMovement: "Ressourcenbewegungen ausblenden",
-    HideResourceMovementDesc:
-        "Die Ressourcenbewegungen werden standartmäßig ausgeblendet (die kleinen Punkte) und nur angezeigt wenn ein Gebäude angewählt ist.",
     PowerBankLeft: "Energiespeicher",
     ColorThemeEditor: "Farbschemen Editor",
     ColorThemeEditorDesc: "Du kannst im aktuellen Schema Farben überschreiben. Du hast aktuell %{num} überschrieben.",
@@ -1123,4 +1120,11 @@ export const DE = {
     NavyCommand: "Navy Command",
     Battleship: "Battleship",
     BattleshipFactory: "Battleship Factory",
+    ResourceMovementHide: "Always Hide",
+    ResourceMovementShow: "Always Show",
+    ResourceMovementHighlight: "On Highlight",
+    ResourceMovementLine: "Line Only",
+    ResourceMovement: "Resource Movement",
+    ResourceMovementDesc:
+        "You can choose when to show the resource movement (dots). Hiding it can improvement performance",
 };

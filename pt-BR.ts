@@ -659,9 +659,6 @@ export const PT_BR = {
     AlMine2xOutputDesc: "Aluminum mines produce 2x aluminum and use 2x more power",
     LoggingCamp2xOutput: "Desmatamento",
     LoggingCamp2xOutputDesc: "Logging camps produce 2x wood and wood transport costs 2x fuel",
-    HideResourceMovement: "Hide Resource Movement",
-    HideResourceMovementDesc:
-        "This will hide resource movement (those tiny dots) by default and only show the movement when you select a building",
     PowerBankLeft: "Armazenamento de energia restante",
     ColorThemeEditor: "Editor de Esquema de Cor",
     ColorThemeEditorDesc: "You can override colors in the current color theme. You currently have %{num} overrides",
@@ -1101,4 +1098,11 @@ export const PT_BR = {
     NavyCommand: "Navy Command",
     Battleship: "Battleship",
     BattleshipFactory: "Battleship Factory",
+    ResourceMovementHide: "Always Hide",
+    ResourceMovementShow: "Always Show",
+    ResourceMovementHighlight: "On Highlight",
+    ResourceMovementLine: "Line Only",
+    ResourceMovement: "Resource Movement",
+    ResourceMovementDesc:
+        "You can choose when to show the resource movement (dots). Hiding it can improvement performance",
 };
