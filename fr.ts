@@ -993,8 +993,6 @@ export const FR = {
     ServerDisconnected:
         "Vous êtes déconnecté du serveur, veuillez vérifier votre connexion Internet et redémarrer le jeu.",
     BuildingUpgradeCostDividerDescV2: "Divisez le coût d'amélioration du bâtiment par ce diviseur",
-    ResourceBoosterBannerDesc:
-        "💡 Vous avez actuellement %{number} boosters de ressources - la puissance et l'apport scientifique de chacun sont mis à l'échelle du nombre de boosters de ressources dont vous disposez actuellement.",
     ResourceBoosterDesc: "Augmenter la production des mines adjacentes",
     BlockUserChatTitle: "Bloquer %{user}",
     BlockUserChatAction: "Bloquer",
@@ -1139,4 +1137,7 @@ export const FR = {
     ResourceMovement: "Resource Movement",
     ResourceMovementDesc:
         "You can choose when to show the resource movement (dots). Hiding it can improvement performance",
+    CrowdfundingCashInWarning: "You have pending crowdfunding pledges - starting in a new city will forfeit them",
+    ResourceBoosterBannerDescV2:
+        "💡 You currently have %{number} resource boosters - the science input of each is scaled to the number of resource boosters you currently have",
 };

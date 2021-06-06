@@ -933,8 +933,6 @@ export const KR = {
     PlayerTradeNowAllowedV2: "저장을 복원/가져오기 후 %{hour}시간 이내에는 플레이어 거래를 사용할 수 없습니다",
     ServerDisconnected: "서버 연결이 끊어졌습니다. 인터넷 연결을 확인하고 게임을 다시 시작하세요",
     BuildingUpgradeCostDividerDescV2: "건물 업그레이드 비용을 이 숫자로 나눕니다",
-    ResourceBoosterBannerDesc:
-        "💡 현재 %{number}개의 자원 촉진기를 가지고 있습니다 - 전력과 과학의 입력은 현재 가지고 있는 자원 촉진기의 수에 따라 조정됩니다",
     ResourceBoosterDesc: "인접 광산의 생산량 증가",
     BlockUserChatTitle: "%{user} 차단",
     BlockUserChatAction: "차단",
@@ -1074,4 +1072,7 @@ export const KR = {
     ResourceMovement: "Resource Movement",
     ResourceMovementDesc:
         "You can choose when to show the resource movement (dots). Hiding it can improvement performance",
+    CrowdfundingCashInWarning: "You have pending crowdfunding pledges - starting in a new city will forfeit them",
+    ResourceBoosterBannerDescV2:
+        "💡 You currently have %{number} resource boosters - the science input of each is scaled to the number of resource boosters you currently have",
 };

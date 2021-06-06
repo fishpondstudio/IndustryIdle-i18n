@@ -910,8 +910,6 @@ export const ZH_CN = {
     PlayerTradeNowAllowedV2: "在恢复/导入存档的%{hour}小时内不可进行玩家交易",
     ServerDisconnected: "你已断开与服务器的连接，请检查你的互联网连接或重启游戏",
     BuildingUpgradeCostDividerDescV2: "建筑升级成本将除以该除数",
-    ResourceBoosterBannerDesc:
-        "💡 你当前有%{number}座资源加速器-该数值也是每一座资源加速器的电力和科学点消耗的放大倍数",
     ResourceBoosterDesc: "增加相邻矿场的产出量",
     BlockUserChatTitle: "屏蔽%{user}",
     BlockUserChatAction: "屏蔽",
@@ -1047,4 +1045,7 @@ export const ZH_CN = {
     ResourceMovementLine: "只显示连线",
     ResourceMovement: "资源移动",
     ResourceMovementDesc: "你可以选择何时显示资源移动（点）。隐藏资源移动可以提升性能",
+    CrowdfundingCashInWarning: "You have pending crowdfunding pledges - starting in a new city will forfeit them",
+    ResourceBoosterBannerDescV2:
+        "💡 You currently have %{number} resource boosters - the science input of each is scaled to the number of resource boosters you currently have",
 };

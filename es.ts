@@ -969,8 +969,6 @@ export const ES = {
     PlayerTradeNowAllowedV2: "Player trades are not available within %{hour} hours of restoring/importing a save",
     ServerDisconnected: "Estas desconectado del servidor, comprueba tu conexión a internet y reinicia el juego",
     BuildingUpgradeCostDividerDescV2: "Divide building upgrade cost by this divider",
-    ResourceBoosterBannerDesc:
-        "💡 You currently have %{number} resource boosters - the power and science input of each is scaled to the number of resource boosters you currently have",
     ResourceBoosterDesc: "Boost the output of adjacent mines",
     BlockUserChatTitle: "Bloquear %{user}",
     BlockUserChatAction: "Bloquear",
@@ -1113,4 +1111,7 @@ export const ES = {
     ResourceMovement: "Resource Movement",
     ResourceMovementDesc:
         "You can choose when to show the resource movement (dots). Hiding it can improvement performance",
+    CrowdfundingCashInWarning: "You have pending crowdfunding pledges - starting in a new city will forfeit them",
+    ResourceBoosterBannerDescV2:
+        "💡 You currently have %{number} resource boosters - the science input of each is scaled to the number of resource boosters you currently have",
 };

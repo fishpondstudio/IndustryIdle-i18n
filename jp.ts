@@ -931,8 +931,6 @@ export const JP = {
     PlayerTradeNowAllowedV2: "セーブを復元/インポートしてから%{hour}時間以内は、プレイヤー間トレードができません",
     ServerDisconnected: "サーバーから切断されています。インターネット接続を確認して、ゲームを再起動してください",
     BuildingUpgradeCostDividerDescV2: "施設のアップグレード費用は、この除数で割る",
-    ResourceBoosterBannerDesc:
-        "💡現在%{number}個のリソースブースターを持っています。それぞれのパワーと科学の入力は、現在持っているリソースブースターの数に応じて変動します",
     ResourceBoosterDesc: "隣接する採掘場の出力を上げる",
     BlockUserChatTitle: "%{user}をブロック",
     BlockUserChatAction: "ブロック",
@@ -1072,4 +1070,7 @@ export const JP = {
     ResourceMovement: "Resource Movement",
     ResourceMovementDesc:
         "You can choose when to show the resource movement (dots). Hiding it can improvement performance",
+    CrowdfundingCashInWarning: "You have pending crowdfunding pledges - starting in a new city will forfeit them",
+    ResourceBoosterBannerDescV2:
+        "💡 You currently have %{number} resource boosters - the science input of each is scaled to the number of resource boosters you currently have",
 };
