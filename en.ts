@@ -1092,6 +1092,5 @@ export const EN = {
     ResourceMovementHighlight: "On Highlight",
     ResourceMovementLine: "Line Only",
     ResourceMovement: "Resource Movement",
-    ResourceMovementDesc:
-        "You can choose when to show the resource movement (dots). Hiding it can improvement performance",
+    ResourceMovementDesc: "You can choose when to show the resource movement (dots). Hiding it can improve performance",
 };
