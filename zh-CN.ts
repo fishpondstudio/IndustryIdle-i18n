@@ -1019,8 +1019,7 @@ export const ZH_CN = {
     PledgeAmount: "认捐 %{amount}",
     PledgeValue: "金额 $%{amount}",
     TotalPledgedValue: "总认捐金额",
-    TotalPledgedValueDesc:
-        "你的第一笔认捐会计入众筹目标中。后续认捐会提升总认捐金额，但不会计入众筹目标中",
+    TotalPledgedValueDesc: "你的第一笔认捐会计入众筹目标中。后续认捐会提升总认捐金额，但不会计入众筹目标中",
     ReturnOnPledge: "众筹回馈",
     ReturnOnPledgeDesc:
         "若众筹成功，这将会是你能获得的回馈。回馈金额根据总认捐金额和基于你已认捐的不同资源种类数换算出的百分比来计算",
@@ -1031,8 +1030,7 @@ export const ZH_CN = {
     PledgeSuccessful: "你已为本次众筹认捐了%{amount}",
     CrowdfundingClaimSuccessful: "你领取了%{amount}现金",
     CrowdfundingAlreadyPledged: "你已经认捐过了",
-    CrowdfundingAlreadyPledgedDesc:
-        "你可以认捐更多资源，这将提高你的总认捐金额（和潜在回馈），但不会计入众筹目标",
+    CrowdfundingAlreadyPledgedDesc: "你可以认捐更多资源，这将提高你的总认捐金额（和潜在回馈），但不会计入众筹目标",
     WholesaleCenterProducingOnly: "批发合作伙伴",
     WholesaleCenterProducingOnlyDesc:
         "批发中心订单仅包含当前正在生产的资源（您还需要提供一定数量的资源才能解锁批发中心）",
@@ -1048,6 +1046,5 @@ export const ZH_CN = {
     ResourceMovementHighlight: "高亮显示",
     ResourceMovementLine: "只显示连线",
     ResourceMovement: "资源移动",
-    ResourceMovementDesc:
-        "你可以选择何时显示资源移动（点）。隐藏资源移动可以提升性能",
+    ResourceMovementDesc: "你可以选择何时显示资源移动（点）。隐藏资源移动可以提升性能",
 };

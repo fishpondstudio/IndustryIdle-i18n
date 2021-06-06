@@ -1096,7 +1096,8 @@ export const RU = {
     CrowdfundingEndIn: "Закончится в %{time}",
     ClaimCrowdfundingReward: "Получить награду %{amount}",
     ClaimCrowdfundingRefund: "Получить возмещение %{amount}",
-    CrowdfundingUnsuccessful: "Это совместное финансирование не является успешным, и ваша общая заложенная стоимость будет возвращена",
+    CrowdfundingUnsuccessful:
+        "Это совместное финансирование не является успешным, и ваша общая заложенная стоимость будет возвращена",
     PledgeSuccessful: "Вы заложили %{amount} на совместное финансирование",
     CrowdfundingClaimSuccessful: "Вы получили %{amount} наличными",
     CrowdfundingAlreadyPledged: "Вы уже внесли залог",

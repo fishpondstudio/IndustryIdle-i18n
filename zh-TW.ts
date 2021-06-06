@@ -1045,6 +1045,5 @@ export const ZH_TW = {
     ResourceMovementHighlight: "高亮顯示",
     ResourceMovementLine: "只有線段",
     ResourceMovement: "資源移動",
-    ResourceMovementDesc:
-        "你可以選擇何時顯示資源(點)移動，隱藏起來有助於效能提升",
+    ResourceMovementDesc: "你可以選擇何時顯示資源(點)移動，隱藏起來有助於效能提升",
 };
