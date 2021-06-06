@@ -283,7 +283,8 @@ export const JP = {
     SoundDesc: "クリック音やエラー音などの効果音をオンにする",
     AutoHighlight: "自動ハイライト",
     AutoHighlightDesc: "施設を選択すると、同じ種類の施設が自動的にハイライトされます",
-    MusicDesc: "BGMをオンにする。曲名 : It's Not Over 'Til The Bossa Nova アーティスト : Shane Ivers (https://www.silvermansound.com)",
+    MusicDesc:
+        "BGMをオンにする。曲名 : It's Not Over 'Til The Bossa Nova アーティスト : Shane Ivers (https://www.silvermansound.com)",
     Credits: "クレジット",
     Icons: "アイコンの表示",
     MisplacedBuilding: "⛔この%{building}は、正しい資源タイルに置かれていません",
@@ -356,7 +357,8 @@ export const JP = {
     NextOrderIn: "次の注文まで",
     FillOrder: "納品",
     RejectOrder: "パス",
-    WholesaleCenterLocked: "卸売センターのロックを解除するには、最低でも%{required}種類の資源が必要です。現在の資源は%{current}しかありません。",
+    WholesaleCenterLocked:
+        "卸売センターのロックを解除するには、最低でも%{required}種類の資源が必要です。現在の資源は%{current}しかありません。",
     OrderFilled: "%{from}のオーダーが正常に処理されました",
     PolicyCenter: "ポリシーセンター",
     NewOrder: "%{from}から新しい注文が届きました",
@@ -372,7 +374,8 @@ export const JP = {
     RefineryMoreOil: "もっとガソリンを",
     RefineryMoreOilDesc: "製油所のガソリン生産量が50%増え、プラスチック生産量が50%減ります",
     StickyInput: "Sticky Input",
-    StickyInputDesc: "施設がサイクルごとにより最適な供給元を探す機能を止めて、最後に供給を受けたところから供給を受け続けるようになります(無料)",
+    StickyInputDesc:
+        "施設がサイクルごとにより最適な供給元を探す機能を止めて、最後に供給を受けたところから供給を受け続けるようになります(無料)",
     RefineryMorePlastic: "もっとプラスチックを",
     RefineryMorePlasticDesc: "製油所のプラスチック生産量が50%増え、ガソリン生産量が50%減ります",
     FreeOilTransportDesc: "原油の輸送が無料になり、油井の消費電力が2倍になります",
@@ -387,7 +390,8 @@ export const JP = {
     GlassUseCoal: "黒いガラス",
     GlassUseCoalDesc: "ガラス工場の石炭消費量が50%増え、シリコンの消費量が50%減ります",
     AdjacentBonusOnlyOutput: "隣接ボーナス・プラス",
-    AdjacentBonusOnlyOutputDesc: "隣接ボーナスが発生してる施設で、材料の消費量は増やさず消費電力だけを増やし、50%効率化します",
+    AdjacentBonusOnlyOutputDesc:
+        "隣接ボーナスが発生してる施設で、材料の消費量は増やさず消費電力だけを増やし、50%効率化します",
     IronMine2xOutput: "重い鉄",
     IronMine2xOutputDesc: "鉄採掘場の生産量を2倍に増やし、鉄の輸送コストを2倍にします",
     SolarPanelAlwaysWork: "太陽は沈まない",
@@ -395,8 +399,10 @@ export const JP = {
     SteelScience: "鋼の知識",
     SteelScienceDesc: "製鋼所が材料を2倍消費して、科学も生産するようになります",
     ShoppingSpree: "自動購入",
-    ShoppingSpreeDesc: "資源の生産量が不足している場合、トレードセンターから不足分を自動的に購入します（資源が自動売却されている場合は無効）",
-    ShoppingSpreeTradeCenterDesc: "💡ポリシーの「自動購入」が有効なのでトレードセンターは不足している資源を自動的に購入します",
+    ShoppingSpreeDesc:
+        "資源の生産量が不足している場合、トレードセンターから不足分を自動的に購入します（資源が自動売却されている場合は無効）",
+    ShoppingSpreeTradeCenterDesc:
+        "💡ポリシーの「自動購入」が有効なのでトレードセンターは不足している資源を自動的に購入します",
     ExtraPolicyPoints: "Political Lobbyist",
     CrAlloyUseFe: "クロム鉄",
     CrAlloyUseFeDesc: "クロム合金工場がリチウムを使用せず、2倍の鉄を使用するようになります",
@@ -413,11 +419,16 @@ export const JP = {
     HelpTranslateTheGame: "翻訳にご協力お願いします",
     SkipTutorial: "チュートリアルをスキップ",
     NextTutorial: "次のページ",
-    Tutorial1: "Industry Idleは、工場🏭を建てて、製品📦を生産し、資産を増やす<em>資源管理</em>ゲームです。 <br><br>まず、基本的なコンセプトを紹介しましょう",
-    Tutorial2: "すべての施設には電力⚡が必要ですあなたは<em>風力発電</em>で発電しています。<br><br>風力発電は10秒中8秒しか動きません",
-    Tutorial3: "地図上にはたくさんの<em>資源の鉱脈</em>があります。<br><br>例えば、原油の鉱脈から<em>原油</em>を取り出す<em>油井</em>があります。<br></br>資源の鉱脈は無制限なので、なくなる心配はありません。鉱山以外の施設は、空いているタイルに建てることができます",
-    Tutorial5: "また、トレードセンターから資源を購入することもできます。<br><br>市場は<em>流動的</em>で、価格📈は定期的に変化します",
-    Tutorial6: "新しい施設を建てるには、まず<em>リサーチラボ🧪</em>でアンロックする必要があります。リサーチラボでは、科学を研究ポイントに変換することもできます。<br><br>風力発電（およびその他の発電所）は、稼働すると少量の科学を生み出します。<br><br>風力発電(やその他の発電所)は、運転中に少量の科学を生成します。ここでは、<em>現金💸</em>と<em>ガソリン⛽</em>を使って、スタートダッシュを決めましょう",
+    Tutorial1:
+        "Industry Idleは、工場🏭を建てて、製品📦を生産し、資産を増やす<em>資源管理</em>ゲームです。 <br><br>まず、基本的なコンセプトを紹介しましょう",
+    Tutorial2:
+        "すべての施設には電力⚡が必要ですあなたは<em>風力発電</em>で発電しています。<br><br>風力発電は10秒中8秒しか動きません",
+    Tutorial3:
+        "地図上にはたくさんの<em>資源の鉱脈</em>があります。<br><br>例えば、原油の鉱脈から<em>原油</em>を取り出す<em>油井</em>があります。<br></br>資源の鉱脈は無制限なので、なくなる心配はありません。鉱山以外の施設は、空いているタイルに建てることができます",
+    Tutorial5:
+        "また、トレードセンターから資源を購入することもできます。<br><br>市場は<em>流動的</em>で、価格📈は定期的に変化します",
+    Tutorial6:
+        "新しい施設を建てるには、まず<em>リサーチラボ🧪</em>でアンロックする必要があります。リサーチラボでは、科学を研究ポイントに変換することもできます。<br><br>風力発電（およびその他の発電所）は、稼働すると少量の科学を生み出します。<br><br>風力発電(やその他の発電所)は、運転中に少量の科学を生成します。ここでは、<em>現金💸</em>と<em>ガソリン⛽</em>を使って、スタートダッシュを決めましょう",
     WelcomePlay: "ゲーム開始",
     WelcomePlayMuted: "ゲーム開始(🔇BGM OFF)",
     Changelog: "変更履歴",
@@ -430,7 +441,8 @@ export const JP = {
     RestoreFromBackup: "バックアップから復元",
     RestoreFromBackupFail: "Steam Cloudからのバックアップの復元に失敗しました : 本当にバックアップがありますか？",
     RestoreFromBackupTitle: "よろしいですか？",
-    RestoreFromBackupDesc: "通常、ローカルでの保存が失われない限り、クラウドバックアップからの復元は必要ありません。クラウドバックアップはローカルセーブより少し古いです",
+    RestoreFromBackupDesc:
+        "通常、ローカルでの保存が失われない限り、クラウドバックアップからの復元は必要ありません。クラウドバックアップはローカルセーブより少し古いです",
     ChatMessages: "チャットメッセージ",
     ChangeName: "変更",
     SaveName: "保存方法",
@@ -458,13 +470,15 @@ export const JP = {
     OptOut: "Opt Out",
     OptIn: "リセットして有効にする",
     LeaderboardOptOut: "リーダーボードのオプトアウト",
-    LeaderboardOptOutDesc: "これにより、リーダーボードのスコアが送信されなくなります。注意 : 後でリーダーボードを有効にしたい場合は、データをリセットする必要があります",
+    LeaderboardOptOutDesc:
+        "これにより、リーダーボードのスコアが送信されなくなります。注意 : 後でリーダーボードを有効にしたい場合は、データをリセットする必要があります",
     LeaderboardOptIn: "リーダーボードのリセットと有効化",
     LeaderboardOptInDesc: "リーダーボードを有効にするには、データをリセットする必要がありますが、間違いありませんか？",
     RewardAdsFailed: "特典映像の再生が完了しない",
     RewardAdsNotAvailable: "特典映像が配信されていません（現在、iOS/Androidのみ対応しています）",
     OfflineEarningDoubleSuccess: "オフラインでの稼ぎが2倍になりました",
-    FPS30Desc: "省エネモードをオンにすると、60FPSではなく30FPSでゲームが動作します。これにより、バッテリーが長持ちします",
+    FPS30Desc:
+        "省エネモードをオンにすると、60FPSではなく30FPSでゲームが動作します。これにより、バッテリーが長持ちします",
     HighlightAll: "🔍%{type}をハイライト",
     HighlightInput: "🔍%{type}を要求する施設をハイライト",
     HighlightOutput: "🔍%{type}を生産する施設をハイライト",
@@ -488,7 +502,8 @@ export const JP = {
     RequireAnyExpansionPack: "拡張パック専用",
     RequireAnyExpansionPackDesc: "この機能を利用するには、少なくとも1つの拡張パックを所有している必要があります",
     HideRewardAd: "リワード広告を隠す",
-    HideRewardAdDesc: "ゲーム内の広告はすべてオプションのリワード広告です。これにより、ゲーム内のリワード広告オプションがすべて非表示になります",
+    HideRewardAdDesc:
+        "ゲーム内の広告はすべてオプションのリワード広告です。これにより、ゲーム内のリワード広告オプションがすべて非表示になります",
     HideDiscordBanner: "ディスコードバナーを隠す",
     HideDiscordBannerDesc: "本部でDiscordとストアフロントのバナーを隠す",
     HideChat: "チャットメッセージを隠す",
@@ -521,15 +536,19 @@ export const JP = {
     CheatDetected: "セーブファイルが古いため読み取ることができません。新しいセーブファイルで開始してください",
     LoadGameError: "ゲームの読み込みに失敗しました",
     LoadGameErrorMessage: "Error message : %{message}",
-    LoadGameErrorDesc: "インターネット接続環境をご確認ください。それでも問題が解決しない場合は、サポートにお問い合わせください",
+    LoadGameErrorDesc:
+        "インターネット接続環境をご確認ください。それでも問題が解決しない場合は、サポートにお問い合わせください",
     ExpansionPackIncompatible: "拡張パックを含むセーブをインポートしていますが、ゲームに必要な拡張パックがありません",
     SaveFileMigrated: "新しい時代へ。ベータ版が登場",
-    SaveFileMigratedDesc: "アルファ版でのプレイテストにご協力いただきありがとうございました。あなたの古いマップは互換性がありませんが、あなたのデータを移行し、いくつかのボーナスを提供しています",
+    SaveFileMigratedDesc:
+        "アルファ版でのプレイテストにご協力いただきありがとうございました。あなたの古いマップは互換性がありませんが、あなたのデータを移行し、いくつかのボーナスを提供しています",
     ClaimSwissMoney: "%{amount}のスイスマネーを受け取る",
-    SaveFileMigratedFinePrint: "時価総額がスイスマネーに変換され、未使用のスイスマネーが繰り越されます。アルファ版でプレイすると、50%のボーナススイスマネーがもらえます。繰り越し可能なスイスマネーの上限は200です",
+    SaveFileMigratedFinePrint:
+        "時価総額がスイスマネーに変換され、未使用のスイスマネーが繰り越されます。アルファ版でプレイすると、50%のボーナススイスマネーがもらえます。繰り越し可能なスイスマネーの上限は200です",
     CashIn: "Cash In",
     CurrentCity: "現在の都市",
-    CashInDesc: "新しい都市でスタートした場合、スイス銀行の口座にこの金額が振り込まれます。スイスマネーを獲得するには、時価総額が%{amount}に達する必要があります",
+    CashInDesc:
+        "新しい都市でスタートした場合、スイス銀行の口座にこの金額が振り込まれます。スイスマネーを獲得するには、時価総額が%{amount}に達する必要があります",
     MoveToNewMap: "新しい都市で始める",
     CityName: "都市名",
     CitySize: "マップサイズ",
@@ -544,13 +563,16 @@ export const JP = {
     Oslo: "オスロ",
     StPetersburg: "サンクトペテルブルク",
     Hamburg: "ハンブルグ",
-    HamburgBonus: "<li>アンロック済み施設 : 飛行船工場</li><li>出力2倍 : 半導体工場</li><li>入出力2倍 : 造船所</li><li>入出力2倍 : 自動車工場</li><li>アンロック済み施設 : リチウムイオンバッテリー工場</li>",
+    HamburgBonus:
+        "<li>アンロック済み施設 : 飛行船工場</li><li>出力2倍 : 半導体工場</li><li>入出力2倍 : 造船所</li><li>入出力2倍 : 自動車工場</li><li>アンロック済み施設 : リチウムイオンバッテリー工場</li>",
     Toulouse: "トゥールーズ",
     Rome: "ローマ",
-    RomeBonus: "<li>アンロック済み施設 : コロッセオ</li><li>出力2倍 : コロッセオ</li><li>開始時にポリシーセンターがLv5</li><li>入出力2倍 : オペラハウス</li><li>レコーディングスタジオがカルチャーも生産</li>",
+    RomeBonus:
+        "<li>アンロック済み施設 : コロッセオ</li><li>出力2倍 : コロッセオ</li><li>開始時にポリシーセンターがLv5</li><li>入出力2倍 : オペラハウス</li><li>レコーディングスタジオがカルチャーも生産</li>",
     Detroit: "デトロイト",
     Boston: "ボストン",
-    BostonBonus: "<li>開始時にリサーチラボがLv5</li><li>アンロック済み施設 : ポリテク</li><li>入出力2倍 : ポリテク</li><li>入出力2倍 : 学校</li><li>出力2倍 : 大学</li>",
+    BostonBonus:
+        "<li>開始時にリサーチラボがLv5</li><li>アンロック済み施設 : ポリテク</li><li>入出力2倍 : ポリテク</li><li>入出力2倍 : 学校</li><li>出力2倍 : 大学</li>",
     HideNotProducing: "生産されていない資源を隠す",
     SortByStorage: "ストレージ",
     SortByProduction: "製作",
@@ -590,7 +612,8 @@ export const JP = {
     PlayerTradeValidRange: "Range : %{min}~%{max}",
     PlayerTradeFilterCanAfford: "お金がない",
     PlayerTradeQuota: "取引枠残り : %{value}",
-    PlayerTradeUnavailable: "プレイヤー間トレードを行うには、少なくとも1つのリソースが生産され、保管されている必要があります",
+    PlayerTradeUnavailable:
+        "プレイヤー間トレードを行うには、少なくとも1つのリソースが生産され、保管されている必要があります",
     PlayerTradeToClaim: "あと%{num}回プレイヤー間トレードが可能です",
     PowerBank: "パワーバンク",
     PowerBankBuildDesc: "余剰電力を蓄え、電力不足の際に電力を供給する",
@@ -604,7 +627,8 @@ export const JP = {
     ColorTheme: "カラーテーマ",
     ColorThemeDesc: "ゲームアイコン、ハイライト、グリッド、背景のカラーテーマ。リロードが必要",
     SiliconMine2xOutput: "シリコンバレー",
-    SiliconMine2xOutputDesc: "シリコン採掘場では、2倍のシリコンを生産しますが、電力消費量は50%増加し、シリコンの輸送コストは50%増加します",
+    SiliconMine2xOutputDesc:
+        "シリコン採掘場では、2倍のシリコンを生産しますが、電力消費量は50%増加し、シリコンの輸送コストは50%増加します",
     CoalMine2xOutput: "産業革命",
     CoalMine2xOutputDesc: "石炭採掘場の石炭生産量は2倍ですが、電力使用量は50%、石炭輸送の燃料費は50%増加します",
     AlMine2xOutput: "アルミの製錬",
@@ -648,15 +672,18 @@ export const JP = {
     BookPublisherScienceDesc: "出版社がカルチャーの代わりに科学を生産するようになる",
     WarehouseOutwardFuelSave: "無料宅配",
     WarehouseOutwardFuelSaveDesc: "倉庫からの輸送でも燃料を節約できる",
-    ImportSaveVersionTooNew: "お使いのゲームは%{gameVersion}ですが、%{saveVersion}のセーブをインポートしています。まずゲームをアップグレードしてください",
+    ImportSaveVersionTooNew:
+        "お使いのゲームは%{gameVersion}ですが、%{saveVersion}のセーブをインポートしています。まずゲームをアップグレードしてください",
     BatteryFuelEconomy: "充電バッテリー",
     BatteryFuelEconomyDesc: "バッテリーの燃費効率が100%向上する（つまり燃料費が50%になる）",
     ShowTheoreticalInputOutputCapacity: "理論上の入出力容量を表示する",
     SpecialTransportCost: "輸送コストが特別な資源",
     FreeTransportCost: "無料で輸送できる資源",
     Osaka: "大阪",
-    OsakaBonus: "<li>資源タイルが塊になりやすい</li><li>倉庫で50%の燃料節約が可能</li><li>ユニーク施設 : 漫画出版社</li><li>ユニーク施設 : アニメスタジオ</li><li>出力2倍 : 半導体工場</li><li>入出力2倍 : リチウムイオンバッテリー工場</li><li>アンロック済み施設 : バッテリー工場</li><li>入出力2倍 : バッテリー工場</li><li>バッテリーの燃費が100％向上</li><li>バッテリー工場が石炭を要求しない</li><li>開始時に100Kのバッテリーを持っている</li>",
-    HideChatDescV2: "下のツールバーからチャットメッセージを隠すことができます。チャットメッセージを表示することで、私たちのサービスに同意したことになります",
+    OsakaBonus:
+        "<li>資源タイルが塊になりやすい</li><li>倉庫で50%の燃料節約が可能</li><li>ユニーク施設 : 漫画出版社</li><li>ユニーク施設 : アニメスタジオ</li><li>出力2倍 : 半導体工場</li><li>入出力2倍 : リチウムイオンバッテリー工場</li><li>アンロック済み施設 : バッテリー工場</li><li>入出力2倍 : バッテリー工場</li><li>バッテリーの燃費が100％向上</li><li>バッテリー工場が石炭を要求しない</li><li>開始時に100Kのバッテリーを持っている</li>",
+    HideChatDescV2:
+        "下のツールバーからチャットメッセージを隠すことができます。チャットメッセージを表示することで、私たちのサービスに同意したことになります",
     HideChatDescV2ToS: "サービス規約",
     IntegratedCircuitFab: "集積回路工場",
     MangaPublisher: "漫画出版社",
@@ -668,7 +695,8 @@ export const JP = {
     PlayerTradeSell: "売却",
     PlayerTradeBid: "要求",
     PlayerTradeAsk: "提供",
-    CancelTradeConfirmDialogDescV2: "このトレードをキャンセルすると、資源/キャッシュの%{percent}が返金されます。資源はトレードセンターの倉庫に返還されます",
+    CancelTradeConfirmDialogDescV2:
+        "このトレードをキャンセルすると、資源/キャッシュの%{percent}が返金されます。資源はトレードセンターの倉庫に返還されます",
     ClaimTradeSuccessV2: "%{cashOrResource}のトレードが成立しました",
     AcceptTradeSuccessV2: "%{cashOrResource}のトレードを行いました",
     PlayerTradeFilterPriceV2: "市場価格より有利な取引だけ表示",
@@ -694,7 +722,8 @@ export const JP = {
     BuildingProfit: "利益",
     RestoreBackup: "リストア",
     SteamLogin: "蒸気によるサインイン",
-    SteamLoginDialogDesc: "ローカルセーブで拡張パックが有効になっているため、続行するにはSteamでサインインする必要があります。または、ローカルセーブを消去して最初からやり直してください",
+    SteamLoginDialogDesc:
+        "ローカルセーブで拡張パックが有効になっているため、続行するにはSteamでサインインする必要があります。または、ローカルセーブを消去して最初からやり直してください",
     SteamLoginDesc: "Steamで拡張パックを所有している場合、サインイン後にウェブ上で拡張パックを使って遊ぶことができます",
     SteamLoginYes: "サインイン",
     SteamLoginNo: "消去してやり直す",
@@ -802,7 +831,8 @@ export const JP = {
     MapExclusive: "地図専用",
     ElectricCar: "ニコラ・テスラ",
     ElectricCarDesc: "自動車工場ではガソリンの代わりにバッテリーを使用し、必要な量は50%で済みます",
-    HongKongBonusV2: "<li>独自の市場価格 : 市場価格と株価は正規分布に従う</li><li>市場の更新と取引枠のリセットが2倍の頻度で行われる（1時間ごと）</li><li>研究は取引された資源によってアンロックされる</li><li>ユニーク施設 : クンフー道場</li><li>ユニーク施設 : 太極拳道場</li><li>アクティブプレイヤーの最大トレード数を50％増加</li><li>自動売却枠が+1</li><li>ユニークポリシー : 国際輸出貿易</li><li>ユニークポリシー : Pearl of the Orient</li><li>卸売センターが4種のリソースでアンロック</li><li>開始時に100Mの現金を持っている</li>",
+    HongKongBonusV2:
+        "<li>独自の市場価格 : 市場価格と株価は正規分布に従う</li><li>市場の更新と取引枠のリセットが2倍の頻度で行われる（1時間ごと）</li><li>研究は取引された資源によってアンロックされる</li><li>ユニーク施設 : クンフー道場</li><li>ユニーク施設 : 太極拳道場</li><li>アクティブプレイヤーの最大トレード数を50％増加</li><li>自動売却枠が+1</li><li>ユニークポリシー : 国際輸出貿易</li><li>ユニークポリシー : Pearl of the Orient</li><li>卸売センターが4種のリソースでアンロック</li><li>開始時に100Mの現金を持っている</li>",
     TaiChi10xCultureDescV2: "カンフーと太極拳の輸送が無料。映画スタジオの入出力が2倍。映画スタジオの消費電力が+50%",
     SettingsFullScreen: "フルスクリーン",
     SettingsFullScreenDesc: "フルスクリーンモードでゲームを実行してください。Steamバージョンでのみ利用可能",
@@ -811,14 +841,18 @@ export const JP = {
     LeaderboardTotalValuation: "評価額",
     LeaderboardDescV2: "トッププレイヤーの位置を確認",
     LastUpdatedAt: "最終更新日",
-    DetroitBonusV3: "<li>アンロック済み施設 : エンジン工場</li><li>出力2倍 : エンジン工場</li><li>入出力2倍 : 自動車工場</li><li>自動車工場がガソリンの代わりに天然ガスを使用</li><li>輸送無料 : 自動車</li><li>ポリシー無料化 : ニコラ・テスラ</li><li>入出力2倍 : 列車工場</li>",
+    DetroitBonusV3:
+        "<li>アンロック済み施設 : エンジン工場</li><li>出力2倍 : エンジン工場</li><li>入出力2倍 : 自動車工場</li><li>自動車工場がガソリンの代わりに天然ガスを使用</li><li>輸送無料 : 自動車</li><li>ポリシー無料化 : ニコラ・テスラ</li><li>入出力2倍 : 列車工場</li>",
     SaveAndExit: "ゲームの保存と終了",
-    SaveAndExitDesc: "ゲームの保存と終了。これはSteam版でのみ可能で、ウィンドウバーの閉じるボタンと同じ役割を果たします",
+    SaveAndExitDesc:
+        "ゲームの保存と終了。これはSteam版でのみ可能で、ウィンドウバーの閉じるボタンと同じ役割を果たします",
     AutoSellResourceWarningShortLabel: "💡自動売却",
-    AutoSellResourceWarningDesc: "このリソースは自動売却されます。トレードセンターに保管されている分はここでは使用できません",
+    AutoSellResourceWarningDesc:
+        "このリソースは自動売却されます。トレードセンターに保管されている分はここでは使用できません",
     PlayerTradeLocalPrice: "LocalPrice : %{price}",
     ChatForceScroll: "強制スクロール",
-    ChatForceScrollDesc: "強制スクロールがオンになっていると、新しいメッセージがあるたびにチャットがスクロールします。それ以外の場合は、すでに下にいるときにのみスクロールします",
+    ChatForceScrollDesc:
+        "強制スクロールがオンになっていると、新しいメッセージがあるたびにチャットがスクロールします。それ以外の場合は、すでに下にいるときにのみスクロールします",
     ResourceExplorer2: "リソースエクスプローラー2.0",
     ConstructionCancel: "キャンセル",
     ConstructionPause: "一時停止",
@@ -849,11 +883,15 @@ export const JP = {
     MarketNewsIncrease: "%{percent}増加",
     MarketNewsDecrease: "%{percent}減少",
     MarketNewsBuilding: "この建物は%{num}ニュースの影響を受けます",
-    StockholmBonusV2: "<li>ユニーク施設 : 音楽プロデューサー</li><li>出力2倍 : 伐採場</li><li>アンロック済み施設 : 製紙工場</li><li>出力2倍 : 半導体工場</li><li>ポリシー無料化 : 科学出版</li>",
+    StockholmBonusV2:
+        "<li>ユニーク施設 : 音楽プロデューサー</li><li>出力2倍 : 伐採場</li><li>アンロック済み施設 : 製紙工場</li><li>出力2倍 : 半導体工場</li><li>ポリシー無料化 : 科学出版</li>",
     FreeOilTransportV2: "電気で原油輸送",
-    Tutorial4P1: "資源の輸送には燃料が必要です。燃料は数種類から好きなものを選べます。現在あなたは燃料として<em>ガソリン⛽</em>を使用しています。<br><br>小さな動く<em>点</em>は、資源のリアルタイムの動きを表しています",
-    Tutorial4P2: "物流センターでは、燃料の種類を変更することができます。このマップでは、燃料として<em>天然ガス</em>を使用することもできます。<br><br>物流センターでは、最も燃料を消費する輸送ルートも表示されますので、参考にするといいでしょう。<br><br>燃料の生産量が消費量を上回っていないと、燃料切れで生産が止まってしまいます。<br><br>もしそうなっても、トレードセンターや他のプレイヤーから燃料を購入することができますのでご安心を",
-    Tutorial5P2: "<em>統計局📊</em>では、この都市の生産状況を知ることができます。<br><br>資源の入力と出力の詳細な内訳を見ることができます。<br><br>また、便利なチャート📈もたくさんあるので、生産のバランスを取るときに参考にするといいでしょう。<br></br>左上には<em>現金💰、余剰電力⚡、余剰燃料⛽</em>の数字も表示されているので、どれかが赤くなっていたら、何が起きているのか調べてみるといいでしょう",
+    Tutorial4P1:
+        "資源の輸送には燃料が必要です。燃料は数種類から好きなものを選べます。現在あなたは燃料として<em>ガソリン⛽</em>を使用しています。<br><br>小さな動く<em>点</em>は、資源のリアルタイムの動きを表しています",
+    Tutorial4P2:
+        "物流センターでは、燃料の種類を変更することができます。このマップでは、燃料として<em>天然ガス</em>を使用することもできます。<br><br>物流センターでは、最も燃料を消費する輸送ルートも表示されますので、参考にするといいでしょう。<br><br>燃料の生産量が消費量を上回っていないと、燃料切れで生産が止まってしまいます。<br><br>もしそうなっても、トレードセンターや他のプレイヤーから燃料を購入することができますのでご安心を",
+    Tutorial5P2:
+        "<em>統計局📊</em>では、この都市の生産状況を知ることができます。<br><br>資源の入力と出力の詳細な内訳を見ることができます。<br><br>また、便利なチャート📈もたくさんあるので、生産のバランスを取るときに参考にするといいでしょう。<br></br>左上には<em>現金💰、余剰電力⚡、余剰燃料⛽</em>の数字も表示されているので、どれかが赤くなっていたら、何が起きているのか調べてみるといいでしょう",
     MusicProducer: "音楽プロデューサー",
     PlasticFiber: "安価な光ファイバー",
     PlasticFiberDesc: "光ファイバー工場がプラスチックの使用量を50%増やし、ガラスの使用量を50%減らします",
@@ -861,7 +899,8 @@ export const JP = {
     NewsEffectx2Desc: "市場ニュースの効果が良いものも悪いものも2倍になります",
     SellRefundPercentage: "売却返金率",
     SellRefundPercentageDesc: "施設を売却/ダウングレードした際に、戻ってくる現金と資源の割合です",
-    SellBuildingDescV2: "施設を売却すると、投資額の%{percent}が返金され、貯蔵資源の%{percent}がトレードセンターに輸送されます",
+    SellBuildingDescV2:
+        "施設を売却すると、投資額の%{percent}が返金され、貯蔵資源の%{percent}がトレードセンターに輸送されます",
     BuilderMoveSpeed: "ビルダー移動速度",
     BuilderMoveSpeedDesc: "施設を建てるビルダーが移動する速度",
     EBookInc: "科学出版社",
@@ -875,23 +914,27 @@ export const JP = {
     AllTimeSwissMoneyEarned: "総獲得スイスマネー : %{number}",
     BuildingUpgradeCostDivider: "建物のアップグレードコスト割引",
     AchievementSoftwareGiant: "Software Giant",
-    AchievementSoftwareGiantDesc: "同じマップにレベル10のソフトウェアメーカー、OSメーカー、データベースメーカー、Webブラウザを建てる",
+    AchievementSoftwareGiantDesc:
+        "同じマップにレベル10のソフトウェアメーカー、OSメーカー、データベースメーカー、Webブラウザを建てる",
     AchievementSpaceRace: "Space Race",
     AchievementSpaceRaceDesc: "同じマップにレベル10のロケット工場、衛星工場、宇宙船工場、宇宙ステーション工場を建てる",
     AchievementToTheMoon: "To The Moon",
-    AchievementToTheMoonDesc: "レベル40のビットコインファームとドージコインファームを建てて、1Bのビットコインとドージコインを所有する",
+    AchievementToTheMoonDesc:
+        "レベル40のビットコインファームとドージコインファームを建てて、1Bのビットコインとドージコインを所有する",
     ItsAllGreen: "It's All Green",
     ItsAllGreenDesc: "生産ラインが50本あり、生産量の赤字が全く出ない",
     DeepInRed: "Deep In Red",
     DeepInRedDesc: "生産ラインが50本あり、赤字生産を行っている",
     UseScientificNotation: "科学的記数法の使用",
     UseScientificNotationDesc: "999.9T以上の数値にはe表記法を使用",
-    LogoutDescV2: "他の端末でログインしたところ、その端末がログアウトしてしまいました。再度ログインすることはできますが、他の端末はログアウトされてしまいます",
+    LogoutDescV2:
+        "他の端末でログインしたところ、その端末がログアウトしてしまいました。再度ログインすることはできますが、他の端末はログアウトされてしまいます",
     LogBackIn: "ログインし直す",
     PlayerTradeNowAllowedV2: "セーブを復元/インポートしてから%{hour}時間以内は、プレイヤー間トレードができません",
     ServerDisconnected: "サーバーから切断されています。インターネット接続を確認して、ゲームを再起動してください",
     BuildingUpgradeCostDividerDescV2: "施設のアップグレード費用は、この除数で割る",
-    ResourceBoosterBannerDesc: "💡現在%{number}個のリソースブースターを持っています。それぞれのパワーと科学の入力は、現在持っているリソースブースターの数に応じて変動します",
+    ResourceBoosterBannerDesc:
+        "💡現在%{number}個のリソースブースターを持っています。それぞれのパワーと科学の入力は、現在持っているリソースブースターの数に応じて変動します",
     ResourceBoosterDesc: "隣接する採掘場の出力を上げる",
     BlockUserChatTitle: "%{user}をブロック",
     BlockUserChatAction: "ブロック",
@@ -913,7 +956,8 @@ export const JP = {
     Radar: "レーダー",
     SpaceForceCommand: "宇宙軍司令部",
     SpaceForce: "宇宙軍",
-    SteamAutoCloudBackupDescV2: "ゲームの進行状況はSteamCloudに保存され、デバイス間で同期されます。また、ゲーム内のセーブデータは10分ごとにSteamCloudに自動的にバックアップされます。バックアップはいつでも強制的に行うことができます",
+    SteamAutoCloudBackupDescV2:
+        "ゲームの進行状況はSteamCloudに保存され、デバイス間で同期されます。また、ゲーム内のセーブデータは10分ごとにSteamCloudに自動的にバックアップされます。バックアップはいつでも強制的に行うことができます",
     SpaceColony: "スペースコロニー",
     SpaceColonyInc: "スペースコロニー社",
     ProjectVostok: "ボストーク計画",
@@ -925,13 +969,16 @@ export const JP = {
     SteelMillx2Desc: "製鋼所とステンレス合金プラントの処理能力を2倍にする。消費電力も2倍になる",
     FuelDynamite: "燃料ダイナマイト",
     FuelDynamiteDesc: "ダイナマイト工場が原油の代わりに現在の燃料を使用する",
-    StPetersburgBonusV2: "<li>出力2倍 : ウラン採掘場</li><li>入出力2倍 : ウラン濃縮プラント</li><li>ウランの輸送コストが-50%</li><li>輸送無料 : 銃</li><li>入出力2倍 : ボストーク計画</li>",
-    ToulouseBonusV2: "<li>出力2倍 : チタン採掘場</li><li>出力2倍 : ウラン濃縮プラント</li><li>入出力2倍 : ジェットエンジン工場</li><li>出力2倍 : 飛行機工場</li><li>入出力2倍 : ロケット工場</li>",
+    StPetersburgBonusV2:
+        "<li>出力2倍 : ウラン採掘場</li><li>入出力2倍 : ウラン濃縮プラント</li><li>ウランの輸送コストが-50%</li><li>輸送無料 : 銃</li><li>入出力2倍 : ボストーク計画</li>",
+    ToulouseBonusV2:
+        "<li>出力2倍 : チタン採掘場</li><li>出力2倍 : ウラン濃縮プラント</li><li>入出力2倍 : ジェットエンジン工場</li><li>出力2倍 : 飛行機工場</li><li>入出力2倍 : ロケット工場</li>",
     BuildingPermitsNeededDesc: "建築許可が不足しているため、この施設は使用できません",
     BuildingPermitsNeeded: "建築許可が必要",
     BuyMissingPermits: "不足している許可証を購入する",
     GPUIsBusy: "あなたのGPUは多忙です",
-    GPUIsBusyDesc: "GPUが他のタスクで忙しくなっているため、オペレーティング・システムがゲームのグラフィックを一時停止しています。ゲームを再読み込みすると再開できます。うまくいかない場合は、ゲームを再起動してみてください",
+    GPUIsBusyDesc:
+        "GPUが他のタスクで忙しくなっているため、オペレーティング・システムがゲームのグラフィックを一時停止しています。ゲームを再読み込みすると再開できます。うまくいかない場合は、ゲームを再起動してみてください",
     SaveAndReloadGame: "セーブ＆リロード",
     ResearchLabCultureInput: "ルネッサンス",
     ResearchLabCultureInputDesc: "リサーチラボの収容人数は2倍ですが、追加のインプットとしてカルチャーが必要です",
@@ -944,16 +991,19 @@ export const JP = {
     BuildingCustomColor: "建物の色",
     BuildingCustomColorReset: "リセット",
     Vancouver: "バンクーバー",
-    VancouverBonus: "<li>4種類の建物を建てるごとに、建築許可証を1個無料で獲得</li><li>ユニークポリシー : 生産の多様性</li><li>ユニーク施設 : メープルシロップ工場</li><li>輸送無料 : メープルシロップ</li><li>ユニーク燃料 : メープルシロップ</li><li>プレイヤー間トレードでウランと濃縮ウランを2倍多く取引できる</li><li>ユニークポリシー : メープルプラスチック(無料)</li><li>出力2倍 : おもちゃ工場</li><li>入出力2倍 : ゲームスタジオ</li>",
+    VancouverBonus:
+        "<li>4種類の建物を建てるごとに、建築許可証を1個無料で獲得</li><li>ユニークポリシー : 生産の多様性</li><li>ユニーク施設 : メープルシロップ工場</li><li>輸送無料 : メープルシロップ</li><li>ユニーク燃料 : メープルシロップ</li><li>プレイヤー間トレードでウランと濃縮ウランを2倍多く取引できる</li><li>ユニークポリシー : メープルプラスチック(無料)</li><li>出力2倍 : おもちゃ工場</li><li>入出力2倍 : ゲームスタジオ</li>",
     MapExtraPermitDesc: "マップのユニークボーナスで、建築許可証を%{number}だけ無料で取得できます",
-    OsloBonusV3: "<li>アンロック済み施設 : 製油所</li><li>入出力2倍 : 製油所</li><li>ポリシー無料化 : 電気で原油輸送</li><li>入出力2倍 : ガス処理プラント</li><li>Lv4の風力発電が1個設置済み</li><li>Lv8の油井が1個設置済み</li><li>Lv2の製油所が1個設置済み</li><li>Lv2の天然ガス採掘場が1個設置済み</li>",
+    OsloBonusV3:
+        "<li>アンロック済み施設 : 製油所</li><li>入出力2倍 : 製油所</li><li>ポリシー無料化 : 電気で原油輸送</li><li>入出力2倍 : ガス処理プラント</li><li>Lv4の風力発電が1個設置済み</li><li>Lv8の油井が1個設置済み</li><li>Lv2の製油所が1個設置済み</li><li>Lv2の天然ガス採掘場が1個設置済み</li>",
     ResourceBoosterPercentageV2: "💡この量には、隣接するリソースブースターからの%{percent}のブーストが含まれています",
     MapleSyrup: "メープルシロップ",
     MapleSyrupFactory: "メープルシロップ工場",
     SyrupPlastic: "メープルプラスチック",
     SyrupPlasticDesc: "プラスチックを投入するすべての施設は、代わりにメープルシロップを使用します",
     ResourceBoosterSupplyChain: "サプライチェーンブースター",
-    ResourceBoosterSupplyChainDesc: "資源ブースターは2倍のパワーと科学を使用しますが、資源ブースターがブーストしている採掘場1つにつき、その採掘場の出力を消費する隣接する工場の容量もブーストされます（工場は預金のみを消費する必要があります）",
+    ResourceBoosterSupplyChainDesc:
+        "資源ブースターは2倍のパワーと科学を使用しますが、資源ブースターがブーストしている採掘場1つにつき、その採掘場の出力を消費する隣接する工場の容量もブーストされます（工場は預金のみを消費する必要があります）",
     MapProductionBonusDesc: "この施設は、都市のユニークボーナスにより、容量が%{percent}増加します",
     ProductionDiversification: "生産の多様化",
     ProductionDiversificationDesc: "施設の種類が増えるごとに、すべての施設に1%の容量が追加される",
@@ -971,12 +1021,17 @@ export const JP = {
     DiversifiedProductionsDesc: "1つのマップで100種類の施設を建てる",
     RealEstateTycoon: "RealEstateTycoon",
     RealEstateTycoonDesc: "1つのマップに400個の施設を建てる",
-    ResourceExplorer2DescV2: "資源探査機の生産量と消費電力が2倍。ポリシー「SupplyChainBooster」が有効で、ブースターに同じ出力の採掘場が隣接している場合、資源探査機は資源ブースターによってブーストされます",
+    ResourceExplorer2DescV2:
+        "資源探査機の生産量と消費電力が2倍。ポリシー「SupplyChainBooster」が有効で、ブースターに同じ出力の採掘場が隣接している場合、資源探査機は資源ブースターによってブーストされます",
     NoTileModifier: "地球は平ら",
-    NoTileModifierDesc: "すべてのタイル補正が0になります。このポリシーにより、「自然の力」と「タイル補正プラス」のポリシーが無効になります",
-    DoubleTileModifierDescV2: "すべてのタイル補正をプラスもマイナスも2倍にする。このポリシーは「地球は平ら」のポリシーを無効にします",
-    TileModifierOutputOnlyDescV2: "タイル補正が出力のみに影響を与えるようになる(最大50%)このポリシーは「地球は平ら」のポリシーを無効にします",
-    RotterdamBonusV2: "<li>入出力2倍 : 製鋼所</li><li>入出力2倍 : ステンレス工場</li><li>輸送無料 : 鉄</li><li>輸送半額 : 鋼材</li><li>入出力2倍 : 自動売却</li><li>ポリシー無料化 : 地球は平ら</li>",
+    NoTileModifierDesc:
+        "すべてのタイル補正が0になります。このポリシーにより、「自然の力」と「タイル補正プラス」のポリシーが無効になります",
+    DoubleTileModifierDescV2:
+        "すべてのタイル補正をプラスもマイナスも2倍にする。このポリシーは「地球は平ら」のポリシーを無効にします",
+    TileModifierOutputOnlyDescV2:
+        "タイル補正が出力のみに影響を与えるようになる(最大50%)このポリシーは「地球は平ら」のポリシーを無効にします",
+    RotterdamBonusV2:
+        "<li>入出力2倍 : 製鋼所</li><li>入出力2倍 : ステンレス工場</li><li>輸送無料 : 鉄</li><li>輸送半額 : 鋼材</li><li>入出力2倍 : 自動売却</li><li>ポリシー無料化 : 地球は平ら</li>",
     QuickLinks: "クイックリンク",
     GetHelp: "ヘルプ",
     GetHelpBeginnerGuides: "ビギナーズガイド",
@@ -989,9 +1044,11 @@ export const JP = {
     PledgeAmount: "支援額%{amount}",
     PledgeValue: "Value $%{amount} (バリュー)",
     TotalPledgedValue: "支援額合計",
-    TotalPledgedValueDesc: "最初の支援は、クラウドファンディングのゴールにカウントされます。その後の支援は、支援総額を増やしますが、ゴールにカウントされません。",
+    TotalPledgedValueDesc:
+        "最初の支援は、クラウドファンディングのゴールにカウントされます。その後の支援は、支援総額を増やしますが、ゴールにカウントされません。",
     ReturnOnPledge: "リターン",
-    ReturnOnPledgeDesc: "このクラウドファンディングが成功した場合のリターンです。これは、支援された合計金額に基づいて計算され、そのパーセンテージは支援された様々な資源の数によって異なります。",
+    ReturnOnPledgeDesc:
+        "このクラウドファンディングが成功した場合のリターンです。これは、支援された合計金額に基づいて計算され、そのパーセンテージは支援された様々な資源の数によって異なります。",
     CrowdfundingEndIn: "終了時刻は %{time} です。",
     ClaimCrowdfundingReward: "%{amount}の報酬を受け取る",
     ClaimCrowdfundingRefund: "%{amount}の払い戻しを受け取る",
@@ -999,7 +1056,8 @@ export const JP = {
     PledgeSuccessful: "このクラウドファンディングに %{amount} を支援しました。",
     CrowdfundingClaimSuccessful: "%{amount} の現金を受け取りました",
     CrowdfundingAlreadyPledged: "すでに支援をしています",
-    CrowdfundingAlreadyPledgedDesc: "より多くの支援を提供することができます。その場合、提供した支援の合計額とリターンは増加しますが、クラウドファンディングの目標額にはカウントされません。",
+    CrowdfundingAlreadyPledgedDesc:
+        "より多くの支援を提供することができます。その場合、提供した支援の合計額とリターンは増加しますが、クラウドファンディングの目標額にはカウントされません。",
     WholesaleCenterProducingOnly: "卸売パートナー",
     WholesaleCenterProducingOnlyDesc: "卸売センターの注文が、アンロック済みかつ上級の製品だけになります",
     SoftwareCompiler: "ソフトウェアコンパイラ",
