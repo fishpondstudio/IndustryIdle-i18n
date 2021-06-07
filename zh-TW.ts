@@ -1046,6 +1046,5 @@ export const ZH_TW = {
     ResourceMovement: "資源移動",
     ResourceMovementDesc: "你可以選擇何時顯示資源(點)移動，隱藏起來有助於效能提升",
     CrowdfundingCashInWarning: "您尚有未結算的募資贊助 - 從新城市開始將會喪失它們",
-    ResourceBoosterBannerDescV2:
-        "💡 您目前傭有 %{number}座資源加速器 - 所費科學輸入量將隨著加速器數量逐步增加",
+    ResourceBoosterBannerDescV2: "💡 您目前傭有 %{number}座資源加速器 - 所費科學輸入量將隨著加速器數量逐步增加",
 };
