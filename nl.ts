@@ -445,8 +445,6 @@ export const NL = {
         "Om nieuwe gebouwen te bouwen, moet je deze eerst vrijspelen in het <em>onderzoeks laboratorium🧪</em>. Het onderzoeks laboratorium converteert ook wetenschapspunten naar onderzoekspunten.<br><br>Je wind turbine (en andere energie centrales) produceren een klein aantal wetenschap wanneer ze aan staan. En je kan een school bouwen🏫 en andere toegewijde gebouwen om je wetenschap later te verhogen.<br><br>Nu dat je al de basics hebt geleerd, start je met je economie op te bouwen.! Hier is wat <em>cash💸</em> en <em>petroleum⛽</em> om je een goede start te geven.",
     WelcomePlay: "Afspelen",
     WelcomePlayMuted: "Afspelen (🔇Muziek)",
-    Changelog: "Changelog",
-    ChangelogGotIt: "Ik snap het",
     Chat: "Chat",
     Send: "Versturen",
     Import: "Importeren",
@@ -1067,7 +1065,6 @@ export const NL = {
     GetHelpDiscord: "Join Our Discord Server",
     GetHelpWiki: "Community Wiki",
     SelectATile: "Select a Tile",
-    CrowdfundingFrom: "Crowdfunding From %{name}",
     PledgeAmount: "Pledge %{amount}",
     PledgeValue: "Value $%{amount}",
     TotalPledgedValue: "Total Pledged Value",
@@ -1105,4 +1102,7 @@ export const NL = {
     CrowdfundingCashInWarning: "You have pending crowdfunding pledges - starting in a new city will forfeit them",
     ResourceBoosterBannerDescV2:
         "💡 You currently have %{number} resource boosters - the science input of each is scaled to the number of resource boosters you currently have",
+    CrowdfundingId: "Crowdfunding %{id}",
+    PatchNotes: "Patch Notes",
+    PatchNotesDesc: "Read what's new in this update",
 };

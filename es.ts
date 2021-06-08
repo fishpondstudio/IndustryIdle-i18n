@@ -454,8 +454,6 @@ export const ES = {
         "Para construir nuevos edificios, primero debes desbloquearlo en el <em> laboratorio de investigación🧪 </em>. El laboratorio de investigación también convierte la ciencia en puntos de investigación. <br> <br> Su turbina eólica (y otras plantas de energía) produce una pequeña cantidad de ciencia cuando está en funcionamiento. Y puede construir escuelas🏫 y otros edificios dedicados para impulsar la ciencia más adelante. <br> <br> ¡Ahora que ha aprendido todos los conceptos básicos, comience a desarrollar su economía! Aquí hay algo de <em> efectivo💸 </em> y <em> gasolina⛽ </em> para comenzar.",
     WelcomePlay: "Jugar",
     WelcomePlayMuted: "Reproducir (🔇Music)",
-    Changelog: "Registro de cambios",
-    ChangelogGotIt: "Entendido",
     Chat: "Chat",
     Send: "Enviar",
     Import: "Importar",
@@ -1076,7 +1074,6 @@ export const ES = {
     GetHelpDiscord: "Join Our Discord Server",
     GetHelpWiki: "Community Wiki",
     SelectATile: "Select a Tile",
-    CrowdfundingFrom: "Crowdfunding From %{name}",
     PledgeAmount: "Pledge %{amount}",
     PledgeValue: "Value $%{amount}",
     TotalPledgedValue: "Total Pledged Value",
@@ -1114,4 +1111,7 @@ export const ES = {
     CrowdfundingCashInWarning: "You have pending crowdfunding pledges - starting in a new city will forfeit them",
     ResourceBoosterBannerDescV2:
         "💡 You currently have %{number} resource boosters - the science input of each is scaled to the number of resource boosters you currently have",
+    CrowdfundingId: "Crowdfunding %{id}",
+    PatchNotes: "Patch Notes",
+    PatchNotesDesc: "Read what's new in this update",
 };

@@ -451,8 +451,6 @@ export const DE = {
         "Um neue Gebäude zu bauen, müssen Sie diese zuerst im <em> Forschungslabor🧪 </em> freischalten. Das Forschungslabor wandelt auch Wissenschaft in Forschungspunkte um. <br> <br> Ihre Windkraftanlage (und andere Kraftwerke) produziert beim Betrieb eine kleine Menge Wissenschaft. Und Sie können eine Schule und andere spezielle Gebäude bauen, um die Wissenschaft später anzukurbeln. <br> <br> Jetzt haben Sie alle Grundlagen gelernt und beginnen, Ihre Wirtschaft aufzubauen! Hier sind einige <em> Geld💸 </em> und <em> Benzin </em>, um Ihnen einen Starthilfe zu geben.",
     WelcomePlay: "Spielen",
     WelcomePlayMuted: "Spiel (🔇Musik)",
-    Changelog: "Neuerungen",
-    ChangelogGotIt: "Verstanden",
     Chat: "Chat",
     Send: "Senden",
     Import: "Import",
@@ -1090,7 +1088,6 @@ export const DE = {
     GetHelpDiscord: "Trete unserem Discord Server bei!",
     GetHelpWiki: "Community Wiki",
     SelectATile: "Wähle eine Zelle",
-    CrowdfundingFrom: "Crowdfunding From %{name}",
     PledgeAmount: "Pledge %{amount}",
     PledgeValue: "Value $%{amount}",
     TotalPledgedValue: "Total Pledged Value",
@@ -1128,4 +1125,7 @@ export const DE = {
     CrowdfundingCashInWarning: "You have pending crowdfunding pledges - starting in a new city will forfeit them",
     ResourceBoosterBannerDescV2:
         "💡 You currently have %{number} resource boosters - the science input of each is scaled to the number of resource boosters you currently have",
+    CrowdfundingId: "Crowdfunding %{id}",
+    PatchNotes: "Patch Notes",
+    PatchNotesDesc: "Read what's new in this update",
 };

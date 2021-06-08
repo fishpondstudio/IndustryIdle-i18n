@@ -441,8 +441,6 @@ export const VN = {
         "Để xây các loại công trình mới, bạn cần mở khóa chúng trong <em>Viện nghiên cứu🧪</em>. Viện nghiên cứu cũng chuyển đổi điểm khoa học thành điểm nghiên cứu.<br><br>Điện gió của bạn (cũng như các dạng phát điện khác) liên tục sản sinh ra một lượng nhỏ điểm khoa học trong lúc vận hành. Về sau, bạn có thể xây trường học🏫 và các công trình chuyên môn khác để nâng sản lượng điểm khoa học.<br><br>Giờ bạn đã học được những điều cơ bản, hãy bắt đầu gây dựng nền kinh tế của bạn đi thôi! Đây là chút <em>tiền mặt💸</em> và <em>xăng⛽</em> để giúp bản khởi nghiệp.",
     WelcomePlay: "Chơi",
     WelcomePlayMuted: "Chơi (🔇Tắt nhạc)",
-    Changelog: "Thay đổi gần đây",
-    ChangelogGotIt: "Đã rõ",
     Chat: "Chat",
     Send: "Gửi",
     Import: "Nhập dữ liệu",
@@ -1069,7 +1067,6 @@ export const VN = {
     GetHelpDiscord: "Join Our Discord Server",
     GetHelpWiki: "Community Wiki",
     SelectATile: "Select a Tile",
-    CrowdfundingFrom: "Crowdfunding From %{name}",
     PledgeAmount: "Pledge %{amount}",
     PledgeValue: "Value $%{amount}",
     TotalPledgedValue: "Total Pledged Value",
@@ -1107,4 +1104,7 @@ export const VN = {
     CrowdfundingCashInWarning: "You have pending crowdfunding pledges - starting in a new city will forfeit them",
     ResourceBoosterBannerDescV2:
         "💡 You currently have %{number} resource boosters - the science input of each is scaled to the number of resource boosters you currently have",
+    CrowdfundingId: "Crowdfunding %{id}",
+    PatchNotes: "Patch Notes",
+    PatchNotesDesc: "Read what's new in this update",
 };

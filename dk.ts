@@ -439,8 +439,6 @@ export const DK = {
         "To build new buildings, you need to unlock it first in the <em>research lab🧪</em>. The research lab also converts science to research points.<br><br>Your wind turbine (and other power plants) produces a small amount of science when running. And you can build school🏫 and other dedicated buildings to boost science later.<br><br>Now you have learned all the basics, start to build up your economy! Here are some <em>cash💸</em> and <em>petrol⛽</em> to give you a jump start.",
     WelcomePlay: "Play",
     WelcomePlayMuted: "Play (🔇Music)",
-    Changelog: "Changelog",
-    ChangelogGotIt: "Got It",
     Chat: "Chat",
     Send: "Send",
     Import: "Import",
@@ -1057,7 +1055,6 @@ export const DK = {
     GetHelpDiscord: "Join Our Discord Server",
     GetHelpWiki: "Community Wiki",
     SelectATile: "Select a Tile",
-    CrowdfundingFrom: "Crowdfunding From %{name}",
     PledgeAmount: "Pledge %{amount}",
     PledgeValue: "Value $%{amount}",
     TotalPledgedValue: "Total Pledged Value",
@@ -1095,4 +1092,7 @@ export const DK = {
     CrowdfundingCashInWarning: "You have pending crowdfunding pledges - starting in a new city will forfeit them",
     ResourceBoosterBannerDescV2:
         "💡 You currently have %{number} resource boosters - the science input of each is scaled to the number of resource boosters you currently have",
+    CrowdfundingId: "Crowdfunding %{id}",
+    PatchNotes: "Patch Notes",
+    PatchNotesDesc: "Read what's new in this update",
 };

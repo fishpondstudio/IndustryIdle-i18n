@@ -426,8 +426,6 @@ export const ZH_CN = {
         "要建造新建筑物，您需要先在<em>研究实验室🧪</em>中将其解锁. 研究实验室还将科学点转换为研究点。<br><br>您的风力发电机（和其他发电厂）在运行时会产生少量科学点。 你可以建造学校🏫 和其他专用建筑物来促进科学发展.<br><br>现在您已经了解到所有基础知识，开始建立您的产业！这里有一些<em>现金💸</em>和 <em>汽油⛽</em> 满足您启动的需要。",
     WelcomePlay: "开始游戏",
     WelcomePlayMuted: "开始游戏 (🔇静音)",
-    Changelog: "变更日志",
-    ChangelogGotIt: "知道",
     Chat: "聊天",
     Send: "发送",
     Import: "导入",
@@ -1013,7 +1011,6 @@ export const ZH_CN = {
     GetHelpDiscord: "加入我们的Discord服务器",
     GetHelpWiki: "社区Wiki",
     SelectATile: "选择一个地块",
-    CrowdfundingFrom: "来自%{name}的众筹",
     PledgeAmount: "认捐 %{amount}",
     PledgeValue: "金额 $%{amount}",
     TotalPledgedValue: "总认捐金额",
@@ -1048,4 +1045,7 @@ export const ZH_CN = {
     CrowdfundingCashInWarning: "You have pending crowdfunding pledges - starting in a new city will forfeit them",
     ResourceBoosterBannerDescV2:
         "💡 You currently have %{number} resource boosters - the science input of each is scaled to the number of resource boosters you currently have",
+    CrowdfundingId: "Crowdfunding %{id}",
+    PatchNotes: "Patch Notes",
+    PatchNotesDesc: "Read what's new in this update",
 };

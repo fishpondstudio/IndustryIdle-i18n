@@ -431,8 +431,6 @@ export const JP = {
         "新しい施設を建てるには、まず<em>リサーチラボ🧪</em>でアンロックする必要があります。リサーチラボでは、科学を研究ポイントに変換することもできます。<br><br>風力発電（およびその他の発電所）は、稼働すると少量の科学を生み出します。<br><br>風力発電(やその他の発電所)は、運転中に少量の科学を生成します。ここでは、<em>現金💸</em>と<em>ガソリン⛽</em>を使って、スタートダッシュを決めましょう",
     WelcomePlay: "ゲーム開始",
     WelcomePlayMuted: "ゲーム開始(🔇BGM OFF)",
-    Changelog: "変更履歴",
-    ChangelogGotIt: "Got It",
     Chat: "チャット",
     Send: "送信",
     Import: "インポート",
@@ -1036,7 +1034,6 @@ export const JP = {
     GetHelpDiscord: "Discordサーバーに参加する",
     GetHelpWiki: "コミュニティWiki",
     SelectATile: "タイルの選択",
-    CrowdfundingFrom: "%{name}からのクラウドファンディング",
     PledgeAmount: "支援額%{amount}",
     PledgeValue: "Value $%{amount} (バリュー)",
     TotalPledgedValue: "支援額合計",
@@ -1073,4 +1070,7 @@ export const JP = {
     CrowdfundingCashInWarning: "You have pending crowdfunding pledges - starting in a new city will forfeit them",
     ResourceBoosterBannerDescV2:
         "💡 You currently have %{number} resource boosters - the science input of each is scaled to the number of resource boosters you currently have",
+    CrowdfundingId: "Crowdfunding %{id}",
+    PatchNotes: "Patch Notes",
+    PatchNotesDesc: "Read what's new in this update",
 };

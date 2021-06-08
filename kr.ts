@@ -435,8 +435,6 @@ export const KR = {
         "새 건물을 건설하려면 먼저 <em>연구실🧪</em>에서 잠금을 해제해야 합니다. 연구실은 과학을 연구 점수로 전환합니다. <br><br>풍력 터빈(및 기타 발전소)은 동작 중일 때 소량의 과학을 생산합니다. 그리고 나중에 과학을 늘리기 위해 학교🏫 및 기타 전용 건물을 지을 수 있습니다. <br><br> 이제 모든 기본 사항을 배웠고 경제를 구축하기 시작하세요! 여기 약간의 <em>돈💸 </em>과 <em>휘발유⛽</em>로 시작해보세요.",
     WelcomePlay: "재생",
     WelcomePlayMuted: "재생 (🔇음악)",
-    Changelog: "변경 내역",
-    ChangelogGotIt: "알았다",
     Chat: "채팅",
     Send: "보내기",
     Import: "가져오기",
@@ -1037,7 +1035,6 @@ export const KR = {
     GetHelpDiscord: "우리 Discord 서버에 가입",
     GetHelpWiki: "커뮤니티 위키",
     SelectATile: "타일 선택",
-    CrowdfundingFrom: "Crowdfunding From %{name}",
     PledgeAmount: "Pledge %{amount}",
     PledgeValue: "Value $%{amount}",
     TotalPledgedValue: "Total Pledged Value",
@@ -1075,4 +1072,7 @@ export const KR = {
     CrowdfundingCashInWarning: "You have pending crowdfunding pledges - starting in a new city will forfeit them",
     ResourceBoosterBannerDescV2:
         "💡 You currently have %{number} resource boosters - the science input of each is scaled to the number of resource boosters you currently have",
+    CrowdfundingId: "Crowdfunding %{id}",
+    PatchNotes: "Patch Notes",
+    PatchNotesDesc: "Read what's new in this update",
 };
