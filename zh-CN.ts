@@ -1040,8 +1040,7 @@ export const ZH_CN = {
     ResourceMovement: "资源移动",
     ResourceMovementDesc: "你可以选择何时显示资源移动（点）。隐藏资源移动可以提升性能",
     CrowdfundingCashInWarning: "你有未完成的众筹认捐-在新城市开局会将它们没收",
-    ResourceBoosterBannerDescV2:
-        "💡 你当前有%{number}座资源加速器-每一座的科学点消耗根据该总数按比例增大",
+    ResourceBoosterBannerDescV2: "💡 你当前有%{number}座资源加速器-每一座的科学点消耗根据该总数按比例增大",
     CrowdfundingId: "众筹%{id}",
     PatchNotes: "补丁说明",
     PatchNotesDesc: "看看这次更新了什么新东西",

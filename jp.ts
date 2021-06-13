@@ -1062,8 +1062,7 @@ export const JP = {
     ResourceMovementHighlight: "ハイライトのみ",
     ResourceMovementLine: "線だけ表示",
     ResourceMovement: "資源移動の表示",
-    ResourceMovementDesc:
-        "資源が移動する様子の表示方法を選択できます。非表示にするとパフォーマンスが向上します",
+    ResourceMovementDesc: "資源が移動する様子の表示方法を選択できます。非表示にするとパフォーマンスが向上します",
     CrowdfundingCashInWarning: "⚠新しい都市に移ると終了前のクラウドファンディングへの投資は没収されます",
     ResourceBoosterBannerDescV2:
         "💡 %{number}個のリソースブースターを持っています。それぞれの科学消費は、現在持っているリソースブースターの数に比例します",
