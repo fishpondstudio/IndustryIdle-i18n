@@ -1039,7 +1039,7 @@ export const JP = {
     ReturnOnPledge: "リターン",
     ReturnOnPledgeDesc:
         "このクラウドファンディングが成功した場合のリターンです。「あなたの支援額合計」に%を上乗せした現金が得られます。%は提供した資源の数と種類が増えると上がります",
-    CrowdfundingEndIn: "終了まであと%{time}",
+    CrowdfundingEndIn: "終了-%{time}",
     ClaimCrowdfundingReward: "%{amount}の報酬を受け取る",
     ClaimCrowdfundingRefund: "%{amount}の払い戻しを受け取る",
     CrowdfundingUnsuccessful: "このクラウドファンディングは成功しませんでした。あなたの支援は返却されます。",
@@ -1066,7 +1066,7 @@ export const JP = {
     CrowdfundingCashInWarning: "⚠新しい都市に移ると終了前のクラウドファンディングへの投資は没収されます",
     ResourceBoosterBannerDescV2:
         "💡 %{number}個のリソースブースターを持っています。それぞれの科学消費は、現在持っているリソースブースターの数に比例します",
-    CrowdfundingId: "%{id}からのクラウドファンディング",
+    CrowdfundingId: "Crowdfunding %{id}",
     PatchNotes: "更新履歴",
     PatchNotesDesc: "Read what's new in this update",
     PanelPositionLeft: "左(ドック)",
