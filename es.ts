@@ -1116,4 +1116,8 @@ export const ES = {
     PanelPositionRight: "Right (Docked)",
     PanelPositionRightFloat: "Right (Float)",
     PanelPositionAuto: "Auto",
+    TimePlayed: "Time Played",
+    ValuationPerHour: "Valuation Per Hour",
+    HighPowerPriority: "High Power Priority",
+    HighPowerPriorityDesc: "Switching this on will make the building draw power before other buildings",
 };

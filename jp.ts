@@ -1074,4 +1074,8 @@ export const JP = {
     PanelPositionRight: "右(ドック)",
     PanelPositionRightFloat: "右(フロート)",
     PanelPositionAuto: "自動",
+    TimePlayed: "Time Played",
+    ValuationPerHour: "Valuation Per Hour",
+    HighPowerPriority: "High Power Priority",
+    HighPowerPriorityDesc: "Switching this on will make the building draw power before other buildings",
 };

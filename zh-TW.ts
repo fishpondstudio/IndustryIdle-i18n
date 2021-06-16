@@ -1049,4 +1049,8 @@ export const ZH_TW = {
     PanelPositionRight: "靠右 (滯留)",
     PanelPositionRightFloat: "靠右 (浮動)",
     PanelPositionAuto: "自動",
+    TimePlayed: "Time Played",
+    ValuationPerHour: "Valuation Per Hour",
+    HighPowerPriority: "High Power Priority",
+    HighPowerPriorityDesc: "Switching this on will make the building draw power before other buildings",
 };
