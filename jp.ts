@@ -379,7 +379,8 @@ export const JP = {
     SuperSteelMill: "鉄のハート",
     SuperSteelMillDesc: "製鋼所の石炭消費が50%減り、鉄と電力の消費が25%増えます",
     AlSemiconductor: "Al半導体",
-    AlSemiconductorDesc: "半導体製IC工場が銅の代わりにアルミを使用するようになります。また、銅が出ないマップでこの施設がリサーチ可能になります",
+    AlSemiconductorDesc:
+        "半導体製IC工場が銅の代わりにアルミを使用するようになります。また、銅が出ないマップでこの施設がリサーチ可能になります",
     CostSaver: "コストセーバー",
     CostSaverDesc: "施設が赤字生産を行っている場合、自動で生産を停止します",
     CostSaverBuildingDesc: "ポリシー「コストセーバー」が有効なため、収益性に応じて生産が自動的にオン/オフされます",
@@ -910,7 +911,8 @@ export const JP = {
     AchievementSoftwareGiantDesc:
         "同じマップにレベル10のソフトウェアメーカー、OSメーカー、データベースメーカー、Web企業を建てる",
     AchievementSpaceRace: "Space Race",
-    AchievementSpaceRaceDesc: "同じマップにレベル10のロケット工場、人工衛星工場、スペースシップ工場、宇宙ステーション工場を建てる",
+    AchievementSpaceRaceDesc:
+        "同じマップにレベル10のロケット工場、人工衛星工場、スペースシップ工場、宇宙ステーション工場を建てる",
     AchievementToTheMoon: "To The Moon",
     AchievementToTheMoonDesc:
         "レベル40のビットコインファームとドージコインファームを建てて、1Bのビットコインとドージコインを所有する",
@@ -959,7 +961,8 @@ export const JP = {
     SteelMillx2: "鉄鋼炉の近代化",
     SteelMillx2Desc: "製鋼所とクロム製鋼材プラントの入出力と消費電力が2倍になります",
     FuelDynamite: "燃料ダイナマイト",
-    FuelDynamiteDesc: "ダイナマイト工場が原油の代わりに現在の物流燃料を消費します。また、原油が出ないマップでこの施設がリサーチ可能になります",
+    FuelDynamiteDesc:
+        "ダイナマイト工場が原油の代わりに現在の物流燃料を消費します。また、原油が出ないマップでこの施設がリサーチ可能になります",
     StPetersburgBonusV2:
         "<li>出力2倍 : ウラン採掘場</li><li>入出力2倍 : ウラン濃縮プラント</li><li>ウランの輸送コストが-50%</li><li>輸送無料 : 銃</li><li>入出力2倍 : ボストーク計画</li>",
     ToulouseBonusV2:
