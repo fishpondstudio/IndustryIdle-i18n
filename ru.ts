@@ -1124,8 +1124,8 @@ export const RU = {
     PanelPositionRight: "Справа (закрепленная)",
     PanelPositionRightFloat: "Справа (плавающая)",
     PanelPositionAuto: "Авто",
-    TimePlayed: "Time Played",
-    ValuationPerHour: "Valuation Per Hour",
-    HighPowerPriority: "High Power Priority",
-    HighPowerPriorityDesc: "Switching this on will make the building draw power before other buildings",
+    TimePlayed: "Время в игре",
+    ValuationPerHour: "Оценка за час",
+    HighPowerPriority: "Приоритет высокой мощности",
+    HighPowerPriorityDesc: "Включение этого параметра заставит здание потреблять электроэнергию раньше, чем другие здания",
 };
