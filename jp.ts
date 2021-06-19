@@ -1081,4 +1081,5 @@ export const JP = {
     ValuationPerHour: "1時間あたりの評価額",
     HighPowerPriority: "優先施設",
     HighPowerPriorityDesc: "オンにすると、他の施設よりも優先的に電力が供給されます",
+    IndustryZone: "Industry Zone",
 };

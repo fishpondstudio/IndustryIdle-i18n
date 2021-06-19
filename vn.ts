@@ -1113,4 +1113,5 @@ export const VN = {
     ValuationPerHour: "Valuation Per Hour",
     HighPowerPriority: "High Power Priority",
     HighPowerPriorityDesc: "Switching this on will make the building draw power before other buildings",
+    IndustryZone: "Industry Zone",
 };

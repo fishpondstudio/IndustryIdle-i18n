@@ -1127,5 +1127,7 @@ export const RU = {
     TimePlayed: "Время в игре",
     ValuationPerHour: "Оценка за час",
     HighPowerPriority: "Приоритет высокой мощности",
-    HighPowerPriorityDesc: "Включение этого параметра заставит здание потреблять электроэнергию раньше, чем другие здания",
+    HighPowerPriorityDesc:
+        "Включение этого параметра заставит здание потреблять электроэнергию раньше, чем другие здания",
+    IndustryZone: "Industry Zone",
 };
