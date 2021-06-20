@@ -1131,6 +1131,7 @@ export const RU = {
         "Включение этого параметра заставит здание потреблять электроэнергию раньше, чем другие здания",
     IndustryZone: "Industry Zone",
     IndustryZoneDesc: "Combine adjacent buildings that forms a supply chain and save building permits",
+    IndustryZoneMaxBuildingLevel: "Max Building Level",
     IndustryZoneNotWorkingDesc:
         "All of its adjacent buildings should form a supply chain and are not part of other industry zones",
     IndustryZoneNoAdjacentBonus: "This building is part of an industry zone and does not have adjacent bonus",
