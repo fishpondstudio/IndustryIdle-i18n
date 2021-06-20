@@ -1113,4 +1113,8 @@ export const PT_BR = {
     HighPowerPriority: "High Power Priority",
     HighPowerPriorityDesc: "Switching this on will make the building draw power before other buildings",
     IndustryZone: "Industry Zone",
+    IndustryZoneDesc: "Combine adjacent buildings that forms a supply chain and save building permits",
+    IndustryZoneNotWorkingDesc:
+        "All of its adjacent buildings should form a supply chain and are not part of other industry zones",
+    IndustryZoneNoAdjacentBonus: "This building is part of an industry zone and does not have adjacent bonus",
 };

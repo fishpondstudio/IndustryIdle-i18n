@@ -1064,9 +1064,9 @@ export const KR = {
     ResourceMovementHighlight: "강조 표시",
     ResourceMovementLine: "줄만 보이기",
     ResourceMovement: "자원 이동",
-    ResourceMovementDesc:
-        "자원 이동(점)을 언제 표시할 지 선택할 수 있습니다. 숨기면 성능이 향상될 수 있습니다",
-    CrowdfundingCashInWarning: "대기중인 크라우드 펀딩 담보가 있습니다. 새로운 도시에서 시작하면 해당 담보를 상실하게 됩니다",
+    ResourceMovementDesc: "자원 이동(점)을 언제 표시할 지 선택할 수 있습니다. 숨기면 성능이 향상될 수 있습니다",
+    CrowdfundingCashInWarning:
+        "대기중인 크라우드 펀딩 담보가 있습니다. 새로운 도시에서 시작하면 해당 담보를 상실하게 됩니다",
     ResourceBoosterBannerDescV2:
         "💡 당신은 현재 %{number}개의 자원 촉진기를 가지고 있습니다 - 각 과학 입력은 현재 가지고 있는 자원 촉진기의 수에 따라 조정됩니다",
     CrowdfundingId: "크라우드 펀딩 %{id}",
@@ -1082,4 +1082,8 @@ export const KR = {
     HighPowerPriority: "높은 전력 우선 순위",
     HighPowerPriorityDesc: "이 기능을 켜면 다른 건물보다 먼저 전력을 끌어옵니다",
     IndustryZone: "산업 지역",
+    IndustryZoneDesc: "Combine adjacent buildings that forms a supply chain and save building permits",
+    IndustryZoneNotWorkingDesc:
+        "All of its adjacent buildings should form a supply chain and are not part of other industry zones",
+    IndustryZoneNoAdjacentBonus: "This building is part of an industry zone and does not have adjacent bonus",
 };

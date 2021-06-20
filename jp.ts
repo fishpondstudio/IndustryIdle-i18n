@@ -1082,4 +1082,8 @@ export const JP = {
     HighPowerPriority: "優先施設",
     HighPowerPriorityDesc: "オンにすると、他の施設よりも優先的に電力が供給されます",
     IndustryZone: "Industry Zone",
+    IndustryZoneDesc: "Combine adjacent buildings that forms a supply chain and save building permits",
+    IndustryZoneNotWorkingDesc:
+        "All of its adjacent buildings should form a supply chain and are not part of other industry zones",
+    IndustryZoneNoAdjacentBonus: "This building is part of an industry zone and does not have adjacent bonus",
 };
