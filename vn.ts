@@ -1115,6 +1115,7 @@ export const VN = {
     HighPowerPriorityDesc: "Bật lên sẽ đảm bảo công trình này được cung cấp điện trước các công trình khác",
     IndustryZone: "Khu Công nghiệp",
     IndustryZoneDesc: "Tổ hợp các công trình liên kết chuỗi cung ứng để tiết kiệm giấy phép xây dựng",
+    IndustryZoneMaxBuildingLevel: "Cấp công trình tối đa",
     IndustryZoneNotWorkingDesc:
         "Tất cả các công trình liền kề cần tổ hợp thành một chuỗi cung ứng liên tiếp và không phải là một phần của 1 khu công nghiệp khác",
     IndustryZoneNoAdjacentBonus: "Công trình này là một phần của khu công nghiệp và không nhận được hiệu ứng liền kề",
