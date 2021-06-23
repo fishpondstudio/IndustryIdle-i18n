@@ -209,7 +209,7 @@ export const ZH_HK = {
     ProductionCycleLengthDesc:
         "一個生產周期的持續時間，以秒為單位。延長周期將相應增加每個周期的投入/產出，從而降低獲取輸入資源時的優先級",
     MaxInputDistance: "最大輸入距離",
-    MaxInputDistanceDesc: "這棟建築以區塊數量計算的輸入資源的最大距離",
+    MaxInputDistanceDesc: "呢棟建築以區塊數量計算輸入資源嘅最大距離",
     AutoSellCapacity: "自動銷售數量",
     AutoSellCapacityDesc: "自動銷售每秒能夠處理每種資源的最大數量",
     CurrentAutoSellCapacityMultiplier: "當前乘數: x%{n}",
