@@ -1129,10 +1129,10 @@ export const RU = {
     HighPowerPriority: "Приоритет высокой мощности",
     HighPowerPriorityDesc:
         "Включение этого параметра заставит здание потреблять электроэнергию раньше, чем другие здания",
-    IndustryZone: "Industry Zone",
-    IndustryZoneDesc: "Combine adjacent buildings that forms a supply chain and save building permits",
-    IndustryZoneMaxBuildingLevel: "Max Building Level",
+    IndustryZone: "Промышленная зона",
+    IndustryZoneDesc: "Объединение соседних зданий, образующее цепочку поставок, и уменьшающее количество разрешений на строительство",
+    IndustryZoneMaxBuildingLevel: "Максимальный уровень зданий",
     IndustryZoneNotWorkingDesc:
-        "All of its adjacent buildings should form a supply chain and are not part of other industry zones",
-    IndustryZoneNoAdjacentBonus: "This building is part of an industry zone and does not have adjacent bonus",
+        "Все соседние здания должны образовывать цепочку поставок и не являться частью других промышленных зон",
+    IndustryZoneNoAdjacentBonus: "Это здание является частью промышленной зоны и не имеет смежных бонусов.",
 };
