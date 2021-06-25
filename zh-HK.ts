@@ -152,7 +152,7 @@ export const ZH_HK = {
     ResourceOutput: "輸出",
     ResourceStorage: "庫存",
     ResourceChange: "變化",
-    ResourceInOutDesc: "💡 撳上面\"輸出-輸入\"嘅數字，嚟顯示同輸出/輸入有關嘅建築物",
+    ResourceInOutDesc: '💡 撳上面"輸出-輸入"嘅數字，嚟顯示同輸出/輸入有關嘅建築物',
     ResourceChart: "資源圖表",
     MarketUpdateIn: "市場喺 %{time}之後會更新",
     Income: "收入",
