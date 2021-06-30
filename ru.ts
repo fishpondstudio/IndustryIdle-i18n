@@ -718,8 +718,8 @@ export const RU = {
     PlayerTradeAction: "Действие",
     PlayerTradeBuy: "Купить",
     PlayerTradeSell: "Продать",
-    PlayerTradeBid: "Цена продажи",
-    PlayerTradeAsk: "Цена покупки",
+    PlayerTradeBid: "Продать",
+    PlayerTradeAsk: "Купить",
     CancelTradeConfirmDialogDescV2:
         "Отмена этой сделки вернет %{percent} ресурсов/денег. Ресурсы будут возвращены на склад Торгового центра",
     ClaimTradeSuccessV2: "Ваша сделка была успешно подтверждена: %{cashOrResource}",
