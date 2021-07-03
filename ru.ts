@@ -1147,4 +1147,7 @@ export const RU = {
     SkyNet: "СкайНет",
     RobocarFactory: "Фабрика робокаров",
     Robocar: "Робокар",
+    WarehouseBuildingPermitSave: "Warehouse Permit Act",
+    WarehouseBuildingPermitSaveDesc: "Every two warehouses provide one free building permit",
+    PolicySearchPlaceholder: "Type a policy name to search",
 };

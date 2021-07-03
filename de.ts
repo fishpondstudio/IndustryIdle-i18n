@@ -1153,4 +1153,7 @@ export const DE = {
     SkyNet: "SkyNet",
     RobocarFactory: "Robocar Factory",
     Robocar: "Robocar",
+    WarehouseBuildingPermitSave: "Warehouse Permit Act",
+    WarehouseBuildingPermitSaveDesc: "Every two warehouses provide one free building permit",
+    PolicySearchPlaceholder: "Type a policy name to search",
 };

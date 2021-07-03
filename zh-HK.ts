@@ -1070,4 +1070,7 @@ export const ZH_HK = {
     SkyNet: "天網(SkyNet)",
     RobocarFactory: "機器人汽車工廠",
     Robocar: "機器人汽車",
+    WarehouseBuildingPermitSave: "Warehouse Permit Act",
+    WarehouseBuildingPermitSaveDesc: "Every two warehouses provide one free building permit",
+    PolicySearchPlaceholder: "Type a policy name to search",
 };
