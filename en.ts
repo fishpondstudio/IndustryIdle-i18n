@@ -1109,7 +1109,7 @@ export const EN = {
     PlayerTradeAutoClaim: "Automatically claim filled trades",
     MusifyInc: "Musify Inc",
     WebflixInc: "Webflix Inc",
-    CloudStreaming: "Cloud Steaming",
+    CloudStreaming: "Cloud Streaming",
     GameCloudInc: "GameCloud Inc",
     SuperComputerLab: "Super Computer Lab",
     SuperComputer: "Super Computer",
