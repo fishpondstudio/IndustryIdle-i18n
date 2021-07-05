@@ -1072,5 +1072,5 @@ export const ZH_CN = {
     Robocar: "自动驾驶车",
     WarehouseBuildingPermitSave: "仓库许可证法案",
     WarehouseBuildingPermitSaveDesc: "每两个仓库提供一个免费的建筑许可证",
-    PolicySearchPlaceholder: "輸入要搜索的政策名稱",
+    PolicySearchPlaceholder: "输入要搜索的政策名称",
 };
