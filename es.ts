@@ -537,7 +537,6 @@ export const ES = {
     PrestigeCurrency: "Dinero suizo 💵",
     RestartDesc: "💡 Solo quiero reiniciar? Puede tocar Comenzar en una nueva ciudad arriba y elegir su ciudad actual",
     PrestigeGoBack: "Regresar",
-    PermanentUpgradeDesc: "Esta actualización se transferirá si comienzas en una nueva ciudad.",
     ProductionMultiplier: "Multiplicador de producción",
     ProductionMultiplierDesc:
         "Un impulso a la capacidad de producción de todos sus edificios (incluidas minas, fábricas, centrales eléctricas, edificios científicos y culturales)",
@@ -1140,4 +1139,8 @@ export const ES = {
     WarehouseBuildingPermitSave: "Warehouse Permit Act",
     WarehouseBuildingPermitSaveDesc: "Every two warehouses provide one free building permit",
     PolicySearchPlaceholder: "Type a policy name to search",
+    SwissUpgrade: "Swiss Upgrade",
+    SwissUpgradeDesc: "Swiss upgrades are permanent and will carry over if you start in a new city",
+    SwissBoost: "Swiss Boost",
+    SwissBoostDesc: "Swiss boosts only affect your current run - and will reset if you start in a new city",
 };

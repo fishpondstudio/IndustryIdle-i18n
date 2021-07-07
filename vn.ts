@@ -521,7 +521,6 @@ export const VN = {
     PrestigeCurrency: "Tiền Thụy Sĩ 💵",
     RestartDesc: "💡 Chỉ muốn làm lại từ đầu? Bạn có thể dùng Khởi đầu ở một Thành phố mới và chọn thành phố hiện tại",
     PrestigeGoBack: "Quay lại",
-    PermanentUpgradeDesc: "Nâng cấp này sẽ đi theo bạn khi bạn Khởi đầu ở một Thành phố mới",
     ProductionMultiplier: "Bội số sản xuất",
     ProductionMultiplierDesc:
         "Nâng cấp sản lượng cho các công trình của bạn (bao gồm các công trình mỏ, nhà xưởng, nhà máy điện, khoa học và văn hóa)",
@@ -1134,4 +1133,8 @@ export const VN = {
     WarehouseBuildingPermitSave: "Warehouse Permit Act",
     WarehouseBuildingPermitSaveDesc: "Every two warehouses provide one free building permit",
     PolicySearchPlaceholder: "Type a policy name to search",
+    SwissUpgrade: "Swiss Upgrade",
+    SwissUpgradeDesc: "Swiss upgrades are permanent and will carry over if you start in a new city",
+    SwissBoost: "Swiss Boost",
+    SwissBoostDesc: "Swiss boosts only affect your current run - and will reset if you start in a new city",
 };

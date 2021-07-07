@@ -500,7 +500,6 @@ export const ZH_CN = {
     PrestigeCurrency: "瑞士货币 💵",
     RestartDesc: "💡 想要重启？您可以点击上方的在新城市开始并选择您的新城市",
     PrestigeGoBack: "返回",
-    PermanentUpgradeDesc: "如果您从新城市开始，此项升级将会保持",
     ProductionMultiplier: "生产乘数",
     ProductionMultiplierDesc: "提高您所有建筑物的生产能力（包括矿山，工厂，发电厂，科学和文化建筑物）",
     FuelCostDiscount: "燃料成本折扣",
@@ -1056,8 +1055,7 @@ export const ZH_CN = {
     IndustryZone: "工业园",
     IndustryZoneDesc: "合并相邻的建筑物，形成供应链并节省建筑许可证。",
     IndustryZoneMaxBuildingLevel: "Max Building Level",
-    IndustryZoneNotWorkingDesc:
-        "其所有相邻建筑物应形成供应链，而不是其他工业区的一部分",
+    IndustryZoneNotWorkingDesc: "其所有相邻建筑物应形成供应链，而不是其他工业区的一部分",
     IndustryZoneNoAdjacentBonus: "该建筑是工业区的一部分，没有相邻的奖励",
     PlayerTradeAutoClaim: "自动领取目前已完成的交易",
     MusifyInc: "Musify Inc",
@@ -1073,4 +1071,8 @@ export const ZH_CN = {
     WarehouseBuildingPermitSave: "仓库许可证法案",
     WarehouseBuildingPermitSaveDesc: "每两个仓库提供一个免费的建筑许可证",
     PolicySearchPlaceholder: "输入要搜索的政策名称",
+    SwissUpgrade: "Swiss Upgrade",
+    SwissUpgradeDesc: "Swiss upgrades are permanent and will carry over if you start in a new city",
+    SwissBoost: "Swiss Boost",
+    SwissBoostDesc: "Swiss boosts only affect your current run - and will reset if you start in a new city",
 };

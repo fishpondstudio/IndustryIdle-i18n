@@ -512,7 +512,6 @@ export const KR = {
     PrestigeCurrency: "스위스 돈💵",
     RestartDesc: "💡 다시 시작 하시겠습니까? 위의 새로운 도시에서 시작을 누르고 현재 도시를 선택할 수 있습니다",
     PrestigeGoBack: "돌아가기",
-    PermanentUpgradeDesc: "이 업그레이드는 새로운 도시에서 시작해도 이어집니다",
     ProductionMultiplier: "생산 승수",
     ProductionMultiplierDesc: "모든 건물의 생산 능력 향상 (광산, 공장, 발전소, 과학 및 문화 건물 포함)",
     FuelCostDiscount: "연료비 절약",
@@ -1101,4 +1100,8 @@ export const KR = {
     WarehouseBuildingPermitSave: "Warehouse Permit Act",
     WarehouseBuildingPermitSaveDesc: "Every two warehouses provide one free building permit",
     PolicySearchPlaceholder: "Type a policy name to search",
+    SwissUpgrade: "Swiss Upgrade",
+    SwissUpgradeDesc: "Swiss upgrades are permanent and will carry over if you start in a new city",
+    SwissBoost: "Swiss Boost",
+    SwissBoostDesc: "Swiss boosts only affect your current run - and will reset if you start in a new city",
 };

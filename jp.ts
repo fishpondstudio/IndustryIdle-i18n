@@ -403,7 +403,8 @@ export const JP = {
         "💡ポリシーの「買い物三昧」が有効なのでトレードセンターは不足している資源を自動的に購入します",
     ExtraPolicyPoints: "ロビー活動",
     CrAlloyUseFe: "クロム鉄",
-    CrAlloyUseFeDesc: "クロム合金工場が、鉄x2+アルミx1を素材にクロムを生産します。また、リチウムが出ないマップでこの施設がリサーチ可能になります",
+    CrAlloyUseFeDesc:
+        "クロム合金工場が、鉄x2+アルミx1を素材にクロムを生産します。また、リチウムが出ないマップでこの施設がリサーチ可能になります",
     DoubleTileModifier: "自然の力",
     TileModifierOutputOnly: "タイル補正プラス",
     GasPlantPetrol: "ガス液化",
@@ -510,7 +511,6 @@ export const JP = {
     PrestigeCurrency: "スイスマネー💵",
     RestartDesc: "💡現在の都市を選択すると続きから再開できます",
     PrestigeGoBack: "戻る",
-    PermanentUpgradeDesc: "このアップグレードは、新しい街でスタートしても引き継がれます",
     ProductionMultiplier: "生産能力",
     ProductionMultiplierDesc: "すべての施設の生産能力が向上します",
     FuelCostDiscount: "燃料 割引率",
@@ -1101,4 +1101,8 @@ export const JP = {
     WarehouseBuildingPermitSave: "倉庫優遇制度",
     WarehouseBuildingPermitSaveDesc: "倉庫を2つ建てる度に、建築許可証を無料で入手できます",
     PolicySearchPlaceholder: "ポリシー検索",
+    SwissUpgrade: "Swiss Upgrade",
+    SwissUpgradeDesc: "Swiss upgrades are permanent and will carry over if you start in a new city",
+    SwissBoost: "Swiss Boost",
+    SwissBoostDesc: "Swiss boosts only affect your current run - and will reset if you start in a new city",
 };

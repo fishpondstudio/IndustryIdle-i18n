@@ -501,7 +501,6 @@ export const ZH_HK = {
     PrestigeCurrency: "瑞士錢 💵",
     RestartDesc: "💡 想重新嚟過？您可以撳上面嘅「喺新城市開始」同埋揀好您嘅新城市",
     PrestigeGoBack: "返轉頭",
-    PermanentUpgradeDesc: "如果您喺新城市開始，呢個升級會保留",
     ProductionMultiplier: "生產增益",
     ProductionMultiplierDesc: "提高您全部建築物嘅生產能力 (包括礦場、工廠、發電廠、科學同文化建築物)",
     FuelCostDiscount: "燃料成本折扣",
@@ -1073,4 +1072,8 @@ export const ZH_HK = {
     WarehouseBuildingPermitSave: "Warehouse Permit Act",
     WarehouseBuildingPermitSaveDesc: "Every two warehouses provide one free building permit",
     PolicySearchPlaceholder: "Type a policy name to search",
+    SwissUpgrade: "Swiss Upgrade",
+    SwissUpgradeDesc: "Swiss upgrades are permanent and will carry over if you start in a new city",
+    SwissBoost: "Swiss Boost",
+    SwissBoostDesc: "Swiss boosts only affect your current run - and will reset if you start in a new city",
 };

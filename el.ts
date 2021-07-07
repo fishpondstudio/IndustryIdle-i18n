@@ -518,7 +518,6 @@ export const EL = {
     PrestigeCurrency: "Swiss Money 💵",
     RestartDesc: "💡 Just want to restart? You can tap on Start In A New City above and choose your current city",
     PrestigeGoBack: "Go Back",
-    PermanentUpgradeDesc: "This upgrade will carry over if you start in a new city",
     ProductionMultiplier: "Production Multiplier",
     ProductionMultiplierDesc:
         "A boost to all your buildings' production capacity (including mines, factories, power plants, science and culture buildings)",
@@ -1121,4 +1120,8 @@ export const EL = {
     WarehouseBuildingPermitSave: "Warehouse Permit Act",
     WarehouseBuildingPermitSaveDesc: "Every two warehouses provide one free building permit",
     PolicySearchPlaceholder: "Type a policy name to search",
+    SwissUpgrade: "Swiss Upgrade",
+    SwissUpgradeDesc: "Swiss upgrades are permanent and will carry over if you start in a new city",
+    SwissBoost: "Swiss Boost",
+    SwissBoostDesc: "Swiss boosts only affect your current run - and will reset if you start in a new city",
 };

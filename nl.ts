@@ -526,7 +526,6 @@ export const NL = {
     RestartDesc:
         "💡 Wil je enkel herstarten? Je kan op start klikken in Start In Een Nieuwe Stad en je huidige stad kiezen",
     PrestigeGoBack: "Ga Terug",
-    PermanentUpgradeDesc: "Deze opwaardering wordt overgedragen naar de volgende stad",
     ProductionMultiplier: "Productie Vermedigvuldiger",
     ProductionMultiplierDesc:
         "Een boost aan al je gebouwen productie capaciteiten (inclusief mijnen, fabrieken, energie centrales, wetenschap en cultuur gebouwen)",
@@ -1131,4 +1130,8 @@ export const NL = {
     WarehouseBuildingPermitSave: "Warehouse Permit Act",
     WarehouseBuildingPermitSaveDesc: "Every two warehouses provide one free building permit",
     PolicySearchPlaceholder: "Type a policy name to search",
+    SwissUpgrade: "Swiss Upgrade",
+    SwissUpgradeDesc: "Swiss upgrades are permanent and will carry over if you start in a new city",
+    SwissBoost: "Swiss Boost",
+    SwissBoostDesc: "Swiss boosts only affect your current run - and will reset if you start in a new city",
 };

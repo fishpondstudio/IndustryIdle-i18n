@@ -531,7 +531,6 @@ export const RU = {
     PrestigeCurrency: "Индустриальные кредиты 💵",
     RestartDesc: "💡 Хотите начать заново? Вы можете нажать на Начать в Новом Городе выше и выбрать ваш текущий город",
     PrestigeGoBack: "Вернуться",
-    PermanentUpgradeDesc: "Это обновление будет перенесено, если вы начнете в новом городе",
     ProductionMultiplier: "Множитель производства",
     ProductionMultiplierDesc:
         "Повышение производственных мощностей всех ваших зданий (включая шахты, заводы, электростанции, научные и культурные здания).",
@@ -1150,4 +1149,8 @@ export const RU = {
     WarehouseBuildingPermitSave: "Закон о разрешении на складирование",
     WarehouseBuildingPermitSaveDesc: "Каждые два склада дают одно бесплатное разрешение на строительство",
     PolicySearchPlaceholder: "Введите название политики для поиска",
+    SwissUpgrade: "Swiss Upgrade",
+    SwissUpgradeDesc: "Swiss upgrades are permanent and will carry over if you start in a new city",
+    SwissBoost: "Swiss Boost",
+    SwissBoostDesc: "Swiss boosts only affect your current run - and will reset if you start in a new city",
 };
