@@ -1149,8 +1149,8 @@ export const RU = {
     WarehouseBuildingPermitSave: "Закон о разрешении на складирование",
     WarehouseBuildingPermitSaveDesc: "Каждые два склада дают одно бесплатное разрешение на строительство",
     PolicySearchPlaceholder: "Введите название политики для поиска",
-    SwissUpgrade: "Swiss Upgrade",
-    SwissUpgradeDesc: "Swiss upgrades are permanent and will carry over if you start in a new city",
-    SwissBoost: "Swiss Boost",
-    SwissBoostDesc: "Swiss boosts only affect your current run - and will reset if you start in a new city",
+    SwissUpgrade: "Улучшение Индустриальных кредитов",
+    SwissUpgradeDesc: "Улучшения Индустриальных кредитов сохраняются и переносятся, если вы начинаете в новом городе",
+    SwissBoost: "Ускорение Индустриальных кредитов",
+    SwissBoostDesc: "Ускорения Индустриальных кредитов действуют только в текущем городе и обнуляются при старте в новом городе",
 };
