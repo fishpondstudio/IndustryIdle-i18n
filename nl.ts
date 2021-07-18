@@ -1025,7 +1025,6 @@ export const NL = {
     ResourceBoosterSupplyChain: "Supply Chain Booster",
     ResourceBoosterSupplyChainDesc:
         "Resource boosters use 2x power and science, but for each working mine a resource booster is boosting, it also provides capacity boost to adjacent factories that consume the mine's output (the factory should only consume deposits)",
-    MapProductionBonusDesc: "This building gets %{percent} extra capacity from the map's unique bonus",
     ProductionDiversification: "Production Diversification",
     ProductionDiversificationDesc: "Each different type of building gives 1% extra capacity to all buildings",
     ExtraPolicyPointsDescV2: "Policy center has 2x policy points conversion capacity",
@@ -1134,4 +1133,10 @@ export const NL = {
     SwissUpgradeDesc: "Swiss upgrades are permanent and will carry over if you start in a new city",
     SwissBoost: "Swiss Boost",
     SwissBoostDesc: "Swiss boosts only affect your current run - and will reset if you start in a new city",
+    ProductionMultipliers: "Production Multipliers",
+    MultiplierMapUniqueBonus: "Map Unique Bonus",
+    MultiplierSwissUpgrade: "Swiss Upgrade (Permanent)",
+    MultiplierSwissBoost: "Swiss Boost (This Run)",
+    SwissBoostCostDivider: "Swiss Boost Cost Divider",
+    SwissBoostCostDividerDesc: "Divide Swiss boost cost by this divider - only applies to multiplier/divider upgrades",
 };

@@ -973,7 +973,6 @@ export const ZH_CN = {
     ResourceBoosterSupplyChain: "供应链加速器",
     ResourceBoosterSupplyChainDesc:
         "资源加速器消耗2倍电力和科学点，但加速一座工作中矿场的同时也为相邻且消耗该矿场所产出资源的工厂提供加速（工厂只应消耗矿藏资源）",
-    MapProductionBonusDesc: "此建筑从本地图的独特加成中获得%{percent}的额外生产能力",
     ProductionDiversification: "生产多样化",
     ProductionDiversificationDesc: "每种不同类型建筑为所有建筑提供1%额外生产能力",
     ExtraPolicyPointsDescV2: "政策中心的政策点转化能力翻倍",
@@ -1075,4 +1074,10 @@ export const ZH_CN = {
     SwissUpgradeDesc: "Swiss upgrades are permanent and will carry over if you start in a new city",
     SwissBoost: "Swiss Boost",
     SwissBoostDesc: "Swiss boosts only affect your current run - and will reset if you start in a new city",
+    ProductionMultipliers: "Production Multipliers",
+    MultiplierMapUniqueBonus: "Map Unique Bonus",
+    MultiplierSwissUpgrade: "Swiss Upgrade (Permanent)",
+    MultiplierSwissBoost: "Swiss Boost (This Run)",
+    SwissBoostCostDivider: "Swiss Boost Cost Divider",
+    SwissBoostCostDividerDesc: "Divide Swiss boost cost by this divider - only applies to multiplier/divider upgrades",
 };

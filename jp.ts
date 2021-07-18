@@ -998,7 +998,6 @@ export const JP = {
     ResourceBoosterSupplyChain: "サプライチェーンブースター",
     ResourceBoosterSupplyChainDesc:
         "リソースブースターの効果が、採掘場のサプライチェーンにも付与されます。リソースブースターの科学と電力消費が2倍になります",
-    MapProductionBonusDesc: "この施設は、都市のユニークボーナスにより、容量が%{percent}増加します",
     ProductionDiversification: "生産の多様化",
     ProductionDiversificationDesc: "施設の種類が増えるごとに、すべての施設に1%の容量が追加されます",
     ExtraPolicyPointsDescV2: "ポリシーセンターのポリシーポイント変換能力が2倍になります",
@@ -1105,4 +1104,10 @@ export const JP = {
     SwissUpgradeDesc: "スイスアップグレードの効果は永続的なもので、新しい都市にも引き継がれます",
     SwissBoost: "スイスブースト",
     SwissBoostDesc: "スイスブーストの効果は現在プレイ中の都市でのみ有効で、新しい都市には引き継がれません",
+    ProductionMultipliers: "Production Multipliers",
+    MultiplierMapUniqueBonus: "Map Unique Bonus",
+    MultiplierSwissUpgrade: "Swiss Upgrade (Permanent)",
+    MultiplierSwissBoost: "Swiss Boost (This Run)",
+    SwissBoostCostDivider: "Swiss Boost Cost Divider",
+    SwissBoostCostDividerDesc: "Divide Swiss boost cost by this divider - only applies to multiplier/divider upgrades",
 };

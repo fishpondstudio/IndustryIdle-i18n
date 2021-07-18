@@ -996,7 +996,6 @@ export const KR = {
     ResourceBoosterSupplyChain: "공급망 촉진기",
     ResourceBoosterSupplyChainDesc:
         "자원 촉진기는 2배의 전력과 과학을 사용하고, 광산에 대한 생산을 촉진할 뿐 아니라 광산 생산품을 소모하는 인접 공장에도 용량 부스팅을 제공합니다. (해당 공장은 광산 생산품만을 소모해야 합니다)",
-    MapProductionBonusDesc: "이 건물은 지도의 고유 보너스로 %{percent}의 추가 용량을 얻습니다",
     ProductionDiversification: "생산 다각화",
     ProductionDiversificationDesc: "각자 다른 유형의 건물은 모든 건물에 1% 추가 용량을 제공합니다",
     ExtraPolicyPointsDescV2: "정책 센터는 2 배의 정책 포인트 전환 능력을 가지고 있습니다",
@@ -1104,4 +1103,10 @@ export const KR = {
     SwissUpgradeDesc: "Swiss upgrades are permanent and will carry over if you start in a new city",
     SwissBoost: "Swiss Boost",
     SwissBoostDesc: "Swiss boosts only affect your current run - and will reset if you start in a new city",
+    ProductionMultipliers: "Production Multipliers",
+    MultiplierMapUniqueBonus: "Map Unique Bonus",
+    MultiplierSwissUpgrade: "Swiss Upgrade (Permanent)",
+    MultiplierSwissBoost: "Swiss Boost (This Run)",
+    SwissBoostCostDivider: "Swiss Boost Cost Divider",
+    SwissBoostCostDividerDesc: "Divide Swiss boost cost by this divider - only applies to multiplier/divider upgrades",
 };

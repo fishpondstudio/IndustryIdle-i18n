@@ -1040,7 +1040,6 @@ export const RU = {
     ResourceBoosterSupplyChain: "Усилитель цепочки поставок",
     ResourceBoosterSupplyChainDesc:
         "Ресурсные усилители используют 2Х энергии и науки, но за каждую работающую шахту, которую усиливает ресурсный усилитель, он также дает прирост мощности соседним фабрикам, которые потребляют продукцию шахты (фабрика должна потреблять только месторождения)",
-    MapProductionBonusDesc: "Это здание получает %{percent} дополнительной мощности от уникального бонуса карты",
     ProductionDiversification: "Диверсификация производства",
     ProductionDiversificationDesc: "Каждый отдельный тип здания дает 1% дополнительной мощности всем зданиям",
     ExtraPolicyPointsDescV2: "Центр политики имеет 2-х кратную способность преобразования очков политики",
@@ -1152,5 +1151,12 @@ export const RU = {
     SwissUpgrade: "Улучшение Индустриальных кредитов",
     SwissUpgradeDesc: "Улучшения Индустриальных кредитов сохраняются и переносятся, если вы начинаете в новом городе",
     SwissBoost: "Ускорение Индустриальных кредитов",
-    SwissBoostDesc: "Ускорения Индустриальных кредитов действуют только в текущем городе и обнуляются при старте в новом городе",
+    SwissBoostDesc:
+        "Ускорения Индустриальных кредитов действуют только в текущем городе и обнуляются при старте в новом городе",
+    ProductionMultipliers: "Production Multipliers",
+    MultiplierMapUniqueBonus: "Map Unique Bonus",
+    MultiplierSwissUpgrade: "Swiss Upgrade (Permanent)",
+    MultiplierSwissBoost: "Swiss Boost (This Run)",
+    SwissBoostCostDivider: "Swiss Boost Cost Divider",
+    SwissBoostCostDividerDesc: "Divide Swiss boost cost by this divider - only applies to multiplier/divider upgrades",
 };

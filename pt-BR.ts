@@ -1026,7 +1026,6 @@ export const PT_BR = {
     ResourceBoosterSupplyChain: "Supply Chain Booster",
     ResourceBoosterSupplyChainDesc:
         "Resource boosters use 2x power and science, but for each working mine a resource booster is boosting, it also provides capacity boost to adjacent factories that consume the mine's output (the factory should only consume deposits)",
-    MapProductionBonusDesc: "This building gets %{percent} extra capacity from the map's unique bonus",
     ProductionDiversification: "Production Diversification",
     ProductionDiversificationDesc: "Each different type of building gives 1% extra capacity to all buildings",
     ExtraPolicyPointsDescV2: "Policy center has 2x policy points conversion capacity",
@@ -1134,5 +1133,12 @@ export const PT_BR = {
     SwissUpgrade: "Upgrade suíço",
     SwissUpgradeDesc: "As atualizações suíças são permanentes e serão aplicadas se você começar em uma nova cidade",
     SwissBoost: "Boost suíço",
-    SwissBoostDesc: "Os impulsos suíços afetam apenas sua corrida atual - e serão redefinidos se você começar em uma nova cidade",
+    SwissBoostDesc:
+        "Os impulsos suíços afetam apenas sua corrida atual - e serão redefinidos se você começar em uma nova cidade",
+    ProductionMultipliers: "Production Multipliers",
+    MultiplierMapUniqueBonus: "Map Unique Bonus",
+    MultiplierSwissUpgrade: "Swiss Upgrade (Permanent)",
+    MultiplierSwissBoost: "Swiss Boost (This Run)",
+    SwissBoostCostDivider: "Swiss Boost Cost Divider",
+    SwissBoostCostDividerDesc: "Divide Swiss boost cost by this divider - only applies to multiplier/divider upgrades",
 };

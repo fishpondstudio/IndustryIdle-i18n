@@ -1028,7 +1028,6 @@ export const VN = {
     ResourceBoosterSupplyChain: "Kích thích chuỗi cung ứng",
     ResourceBoosterSupplyChainDesc:
         "Trạm kích thích tài nguyên sử dụng x2 điểm khoa học và điện năng, nhưng đồng thời cho mỗi mỏ nguyên liệu được kích thích, nó cũng kích thích sản lượng của xưởng liền kề tiêu thụ nguyên liệu từ mỏ đó (chỉ kích thích xưởng sử dụng hoàn toàn nguyên liệu thô)",
-    MapProductionBonusDesc: "Công trình này nhận được thêm %{percent} sản lượng từ tính năng đặc trưng của bản đồ này",
     ProductionDiversification: "Đa dạng hóa sản xuất",
     ProductionDiversificationDesc: "Mỗi loại công trình khác nhau tăng thêm 1% sản lượng cho tất cả các công trình",
     ExtraPolicyPointsDescV2: "Sản lượng chuyển đổi điểm chính sách của Trung tâm chính sách x2",
@@ -1137,4 +1136,10 @@ export const VN = {
     SwissUpgradeDesc: "Swiss upgrades are permanent and will carry over if you start in a new city",
     SwissBoost: "Swiss Boost",
     SwissBoostDesc: "Swiss boosts only affect your current run - and will reset if you start in a new city",
+    ProductionMultipliers: "Production Multipliers",
+    MultiplierMapUniqueBonus: "Map Unique Bonus",
+    MultiplierSwissUpgrade: "Swiss Upgrade (Permanent)",
+    MultiplierSwissBoost: "Swiss Boost (This Run)",
+    SwissBoostCostDivider: "Swiss Boost Cost Divider",
+    SwissBoostCostDividerDesc: "Divide Swiss boost cost by this divider - only applies to multiplier/divider upgrades",
 };

@@ -971,7 +971,6 @@ export const ZH_HK = {
     ResourceBoosterSupplyChain: "供應鏈加速器",
     ResourceBoosterSupplyChainDesc:
         "資源加速器用2倍電同科學，但會加速每個郁緊嘅礦場，佢都會強化用嗰啲礦場輸出嘅工廠產量 (嗰啲工廠應該淨係用庫存嘅)",
-    MapProductionBonusDesc: "呢個建築喺地圖獨有加成度攞到額外 %{percent}嘅產量",
     ProductionDiversification: "生產多元化",
     ProductionDiversificationDesc: "每種唔同類型嘅建築會俾全部建築多1%產量",
     ExtraPolicyPointsDescV2: "政策中心有2倍政策點轉換產量",
@@ -1076,4 +1075,10 @@ export const ZH_HK = {
     SwissUpgradeDesc: "Swiss upgrades are permanent and will carry over if you start in a new city",
     SwissBoost: "Swiss Boost",
     SwissBoostDesc: "Swiss boosts only affect your current run - and will reset if you start in a new city",
+    ProductionMultipliers: "Production Multipliers",
+    MultiplierMapUniqueBonus: "Map Unique Bonus",
+    MultiplierSwissUpgrade: "Swiss Upgrade (Permanent)",
+    MultiplierSwissBoost: "Swiss Boost (This Run)",
+    SwissBoostCostDivider: "Swiss Boost Cost Divider",
+    SwissBoostCostDividerDesc: "Divide Swiss boost cost by this divider - only applies to multiplier/divider upgrades",
 };
