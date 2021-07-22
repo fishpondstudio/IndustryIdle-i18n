@@ -526,7 +526,8 @@ export const PT_BR = {
     PurchaseSteamContinue: "Conclua sua compra no Steam",
     PurchaseSuccess: "A compra foi concluída, obrigado pelo seu apoio",
     PrestigeCurrency: "Dinheiro Suíço 💵",
-    RestartDesc: "💡 Quer apenas reiniciar? Você pode tocar em Começar em uma nova cidade acima e escolher sua cidade atual",
+    RestartDesc:
+        "💡 Quer apenas reiniciar? Você pode tocar em Começar em uma nova cidade acima e escolher sua cidade atual",
     PrestigeGoBack: "Voltar",
     ProductionMultiplier: "Multiplicador de Produção",
     ProductionMultiplierDesc:
@@ -1141,4 +1142,10 @@ export const PT_BR = {
     MultiplierSwissBoost: "Swiss Boost (This Run)",
     SwissBoostCostDivider: "Swiss Boost Cost Divider",
     SwissBoostCostDividerDesc: "Divide Swiss boost cost by this divider - only applies to multiplier/divider upgrades",
+    AirForceCommand: "Air Force Command",
+    AirForce: "Air Force",
+    StealthFighterFactory: "Stealth Fighter Factory",
+    StealthFighter: "Stealth Fighter",
+    ArmyCommand: "Army Command",
+    Army: "Army",
 };

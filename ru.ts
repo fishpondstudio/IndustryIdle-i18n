@@ -1149,7 +1149,8 @@ export const RU = {
     WarehouseBuildingPermitSaveDesc: "Каждые два склада дают одно бесплатное разрешение на строительство",
     PolicySearchPlaceholder: "Введите название политики для поиска",
     SwissUpgrade: "Усовершенствование Индустриальных кредитов",
-    SwissUpgradeDesc: "Усовершенствования Индустриальных кредитов сохраняются и переносятся, если вы начинаете в новом городе",
+    SwissUpgradeDesc:
+        "Усовершенствования Индустриальных кредитов сохраняются и переносятся, если вы начинаете в новом городе",
     SwissBoost: "Ускорение Индустриальных кредитов",
     SwissBoostDesc:
         "Ускорения Индустриальных кредитов действуют только в текущем городе и обнуляются при старте в новом городе",
@@ -1158,5 +1159,12 @@ export const RU = {
     MultiplierSwissUpgrade: "Усовершенствование Индустриальных кредитов (Постоянно)",
     MultiplierSwissBoost: "Усилитель Индустриальных кредитов (Текущая сессия)",
     SwissBoostCostDivider: "Делитель стоимости усиления Индустриальных кредитов",
-    SwissBoostCostDividerDesc: "Уменьшите стоимость усиления Индустриальных кредитов на этот коэффициент - применяется только к обновлениям с множителями/делителями",
+    SwissBoostCostDividerDesc:
+        "Уменьшите стоимость усиления Индустриальных кредитов на этот коэффициент - применяется только к обновлениям с множителями/делителями",
+    AirForceCommand: "Air Force Command",
+    AirForce: "Air Force",
+    StealthFighterFactory: "Stealth Fighter Factory",
+    StealthFighter: "Stealth Fighter",
+    ArmyCommand: "Army Command",
+    Army: "Army",
 };

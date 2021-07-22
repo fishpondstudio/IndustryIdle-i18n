@@ -992,8 +992,7 @@ export const ZH_HK = {
     NoTileModifier: "地球係平嘅",
     NoTileModifierDesc: "全部板塊加成都係0%。呢個政策會閂自然之力同板塊加成+政策",
     DoubleTileModifierDescV2: "全部板塊加成都係2倍 — 好同唔好都係。開呢個政策會閂地球係平嘅政策",
-    TileModifierOutputOnlyDescV2:
-        "板塊加成淨係影響輸出取代輸出入，但係得50%效果。開呢個政策會閂地球係平嘅政策",
+    TileModifierOutputOnlyDescV2: "板塊加成淨係影響輸出取代輸出入，但係得50%效果。開呢個政策會閂地球係平嘅政策",
     RotterdamBonusV2:
         "<li>煉鋼廠有2倍產量</li><li>不鏽鋼廠有2倍產量</li><li>免費運鐵</li><li>運鋼用少50%燃料</li><li>一開始有2倍自動賣出量</li><li>地球係平嘅政策係免費</li>",
     QuickLinks: "快速鏈接",
@@ -1007,11 +1006,9 @@ export const ZH_HK = {
     PledgeAmount: "贊助 %{amount}",
     PledgeValue: "值 $%{amount}",
     TotalPledgedValue: "總贊助值",
-    TotalPledgedValueDesc:
-        "您嘅第一單贊助會計入眾籌目標。之後其他贊助會加落您嘅總贊助值，但唔會計入眾籌目標。",
+    TotalPledgedValueDesc: "您嘅第一單贊助會計入眾籌目標。之後其他贊助會加落您嘅總贊助值，但唔會計入眾籌目標。",
     ReturnOnPledge: "募資報酬",
-    ReturnOnPledgeDesc:
-        "眾籌募資成功嘅話，呢個會係您嘅報酬。報酬額係您嘅總贊助值同您贊助嘅種類數目%計出嚟。",
+    ReturnOnPledgeDesc: "眾籌募資成功嘅話，呢個會係您嘅報酬。報酬額係您嘅總贊助值同您贊助嘅種類數目%計出嚟。",
     CrowdfundingEndIn: "喺%{time}完",
     ClaimCrowdfundingReward: "攞報酬 %{amount}",
     ClaimCrowdfundingRefund: "攞退款 %{amount}",
@@ -1019,8 +1016,7 @@ export const ZH_HK = {
     PledgeSuccessful: "您喺呢次眾籌募資度贊助咗 %{amount}",
     CrowdfundingClaimSuccessful: "您攞咗 %{amount}錢",
     CrowdfundingAlreadyPledged: "您贊助過",
-    CrowdfundingAlreadyPledgedDesc:
-        "您可以贊助多啲資源，會加落您嘅總贊助值(同潛在報酬)，但唔會計入眾籌目標。",
+    CrowdfundingAlreadyPledgedDesc: "您可以贊助多啲資源，會加落您嘅總贊助值(同潛在報酬)，但唔會計入眾籌目標。",
     WholesaleCenterProducingOnly: "批發合作拍檔",
     WholesaleCenterProducingOnlyDesc:
         "批發市場訂單僅包含目前正在生產的資源（您還需要提供一定數量的資源才能解鎖批發市場）",
@@ -1081,4 +1077,10 @@ export const ZH_HK = {
     MultiplierSwissBoost: "Swiss Boost (This Run)",
     SwissBoostCostDivider: "Swiss Boost Cost Divider",
     SwissBoostCostDividerDesc: "Divide Swiss boost cost by this divider - only applies to multiplier/divider upgrades",
+    AirForceCommand: "Air Force Command",
+    AirForce: "Air Force",
+    StealthFighterFactory: "Stealth Fighter Factory",
+    StealthFighter: "Stealth Fighter",
+    ArmyCommand: "Army Command",
+    Army: "Army",
 };

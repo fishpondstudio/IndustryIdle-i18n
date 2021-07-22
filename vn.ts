@@ -1142,4 +1142,10 @@ export const VN = {
     MultiplierSwissBoost: "Swiss Boost (This Run)",
     SwissBoostCostDivider: "Swiss Boost Cost Divider",
     SwissBoostCostDividerDesc: "Divide Swiss boost cost by this divider - only applies to multiplier/divider upgrades",
+    AirForceCommand: "Air Force Command",
+    AirForce: "Air Force",
+    StealthFighterFactory: "Stealth Fighter Factory",
+    StealthFighter: "Stealth Fighter",
+    ArmyCommand: "Army Command",
+    Army: "Army",
 };
