@@ -1018,8 +1018,7 @@ export const ZH_HK = {
     CrowdfundingAlreadyPledged: "您贊助過",
     CrowdfundingAlreadyPledgedDesc: "您可以贊助多啲資源，會加落您嘅總贊助值(同潛在報酬)，但唔會計入眾籌目標。",
     WholesaleCenterProducingOnly: "批發合作拍檔",
-    WholesaleCenterProducingOnlyDesc:
-        "批發所訂單淨係包含研究過上半先進嘅資源 (而且要滿足一定量嘅資源)",
+    WholesaleCenterProducingOnlyDesc: "批發所訂單淨係包含研究過上半先進嘅資源 (而且要滿足一定量嘅資源)",
     SoftwareCompiler: "軟體編譯器",
     SearchEngine: "搜尋引擎",
     SearchEngineCompany: "搜尋引擎公司",
@@ -1083,4 +1082,9 @@ export const ZH_HK = {
     StealthFighter: "Stealth Fighter",
     ArmyCommand: "Army Command",
     Army: "Army",
+    GreenPeacekeeper: "Green Peacekeeper",
+    GreenPeacekeeperDesc: "Make army, navy, air force or space force with only renewable power plants (wind/solar)",
+    DotComTycoon: "DotCom Tycoon",
+    DotComTycoonDesc:
+        "Build a level 10 Social Network Inc, level 10 Search Engine Company, level 10 SkyNet Inc and level 10 Musify Inc on the same map",
 };

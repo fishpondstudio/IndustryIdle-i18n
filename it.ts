@@ -1135,4 +1135,9 @@ export const IT = {
     StealthFighter: "Stealth Fighter",
     ArmyCommand: "Army Command",
     Army: "Army",
+    GreenPeacekeeper: "Green Peacekeeper",
+    GreenPeacekeeperDesc: "Make army, navy, air force or space force with only renewable power plants (wind/solar)",
+    DotComTycoon: "DotCom Tycoon",
+    DotComTycoonDesc:
+        "Build a level 10 Social Network Inc, level 10 Search Engine Company, level 10 SkyNet Inc and level 10 Musify Inc on the same map",
 };
