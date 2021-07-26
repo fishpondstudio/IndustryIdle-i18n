@@ -1049,8 +1049,7 @@ export const ZH_HK = {
     IndustryZone: "工業區",
     IndustryZoneDesc: "合併隔離嘅建築，形成供應鏈嚟慳建築許可證。",
     IndustryZoneMaxBuildingLevel: "最高建築等級",
-    IndustryZoneNotWorkingDesc:
-        "全部喺佢隔離嘅建築都應該搞條供應鏈而且都唔喺其他工業區度",
+    IndustryZoneNotWorkingDesc: "全部喺佢隔離嘅建築都應該搞條供應鏈而且都唔喺其他工業區度",
     IndustryZoneNoAdjacentBonus: "呢個建築一個工業區度而且冇相鄰加成",
     PlayerTradeAutoClaim: "自動攞搞掂嘅交易",
     MusifyInc: "Musify 公司",
@@ -1085,6 +1084,5 @@ export const ZH_HK = {
     GreenPeacekeeper: "綠色維和者Green Peacekeeper",
     GreenPeacekeeperDesc: "俾陸軍、海軍、空軍或者太空軍得可再生發電廠用 (風力/太陽能)",
     DotComTycoon: "互聯網(DotCom)大亨",
-    DotComTycoonDesc:
-        "喺同一張地圖度起10級社交網絡公司、10級搜索引擎公司、10級天網(SkyNet)公司同10級 Musify 公司",
+    DotComTycoonDesc: "喺同一張地圖度起10級社交網絡公司、10級搜索引擎公司、10級天網(SkyNet)公司同10級 Musify 公司",
 };
