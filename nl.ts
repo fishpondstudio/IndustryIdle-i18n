@@ -276,7 +276,6 @@ export const NL = {
     InterestRate: "Nachtelijke Rente",
     InterestRateDesc: "Rente die je verdient op je markt kapitalisatie terwijl je offline bent",
     OfflineEarning: "Offline inkomsten",
-    OfflineEarningDesc: "Offline inkomsten zijn afhankelijk van je markt kapitalisatie en rente",
     PerMin: "%{amount}/min",
     OfflineEarningTime: "Offline inkomsten Tijdsduratie",
     OfflineEarningTimeDesc: "Gedurende deze tijd kan je inkomsten verdienen terwijl je offline bent",
@@ -1150,4 +1149,6 @@ export const NL = {
     DotComTycoon: "DotCom Tycoon",
     DotComTycoonDesc:
         "Build a level 10 Social Network Inc, level 10 Search Engine Company, level 10 SkyNet Inc and level 10 Musify Inc on the same map",
+    ConstructionNotResearched: "Not Researched",
+    OfflineEarningDescV2: "Offline earning depends on your current research, production and auto sell",
 };

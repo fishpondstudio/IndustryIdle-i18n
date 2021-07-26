@@ -273,7 +273,6 @@ export const EL = {
     InterestRate: "Overnight Interest Rate",
     InterestRateDesc: "Interest you earn on your market capitalization while you are offline",
     OfflineEarning: "Offline Earning",
-    OfflineEarningDesc: "Offline Earning depends on your market cap and interest rate",
     PerMin: "%{amount}/min",
     OfflineEarningTime: "Offline Earning Time",
     OfflineEarningTimeDesc: "You will earn offline earning for up to this threshold",
@@ -1140,4 +1139,6 @@ export const EL = {
     DotComTycoon: "DotCom Tycoon",
     DotComTycoonDesc:
         "Build a level 10 Social Network Inc, level 10 Search Engine Company, level 10 SkyNet Inc and level 10 Musify Inc on the same map",
+    ConstructionNotResearched: "Not Researched",
+    OfflineEarningDescV2: "Offline earning depends on your current research, production and auto sell",
 };

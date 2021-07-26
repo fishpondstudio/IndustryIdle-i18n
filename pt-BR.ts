@@ -278,7 +278,6 @@ export const PT_BR = {
     InterestRate: "Taxa de juros noturna",
     InterestRateDesc: "Juros que você ganha sobre sua capitalização de mercado enquanto está offline",
     OfflineEarning: "Ganhos offline",
-    OfflineEarningDesc: "Os ganhos off-line dependem de sua capitalização de mercado e taxa de juros",
     PerMin: "%{amount}/min",
     OfflineEarningTime: "Tempo de ganho offline",
     OfflineEarningTimeDesc: "Você ganhará ganhos off-line por até esse limite",
@@ -1153,4 +1152,6 @@ export const PT_BR = {
     DotComTycoon: "DotCom Tycoon",
     DotComTycoonDesc:
         "Build a level 10 Social Network Inc, level 10 Search Engine Company, level 10 SkyNet Inc and level 10 Musify Inc on the same map",
+    ConstructionNotResearched: "Not Researched",
+    OfflineEarningDescV2: "Offline earning depends on your current research, production and auto sell",
 };

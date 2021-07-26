@@ -281,7 +281,6 @@ export const ES = {
     InterestRate: "Tasa de interés a un día",
     InterestRateDesc: "Intereses que gana sobre su capitalización de mercado mientras está desconectado",
     OfflineEarning: "Ganancia sin conexión",
-    OfflineEarningDesc: "Las ganancias sin conexión dependen de su capitalización de mercado y tasa de interés",
     PerMin: "%{amount}/mínimo",
     OfflineEarningTime: "Tiempo de ganancia sin conexión",
     OfflineEarningTimeDesc: "Obtendrá ingresos fuera de línea hasta este umbral",
@@ -1159,4 +1158,6 @@ export const ES = {
     DotComTycoon: "DotCom Tycoon",
     DotComTycoonDesc:
         "Build a level 10 Social Network Inc, level 10 Search Engine Company, level 10 SkyNet Inc and level 10 Musify Inc on the same map",
+    ConstructionNotResearched: "Not Researched",
+    OfflineEarningDescV2: "Offline earning depends on your current research, production and auto sell",
 };

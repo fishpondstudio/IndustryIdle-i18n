@@ -277,7 +277,6 @@ export const RU = {
     InterestRateDesc:
         "Проценты, которые вы зарабатываете на своей рыночной капитализации, пока вы находитесь в оффлайне",
     OfflineEarning: "Оффлайн доход",
-    OfflineEarningDesc: "Доход в оффлайн режиме зависит от вашего рыночного капитала и процентной ставки",
     PerMin: "%{amount}/мин",
     OfflineEarningTime: "Время заработка в оффлайне",
     OfflineEarningTimeDesc: "Вы будете получать оффлайн доход в пределах этого времени",
@@ -1173,4 +1172,6 @@ export const RU = {
     DotComTycoon: "DotCom магнат",
     DotComTycoonDesc:
         "Постройте здания 10 уровня на одной карте: Корпорация 'Социальная сеть', Компания 'Поисковая система', Корпорация 'СкайНет'и Корпорация 'Musify'",
+    ConstructionNotResearched: "Not Researched",
+    OfflineEarningDescV2: "Offline earning depends on your current research, production and auto sell",
 };

@@ -268,7 +268,6 @@ export const ZH_CN = {
     InterestRate: "过夜利率",
     InterestRateDesc: "您在离线时通过市值赚取的利息",
     OfflineEarning: "离线收益",
-    OfflineEarningDesc: "离线收益取决于您的市值和利率",
     PerMin: "%{amount}/分钟",
     OfflineEarningTime: "离线赚取时间",
     OfflineEarningTimeDesc: "您能够获取离线收益的时长",
@@ -1091,4 +1090,6 @@ export const ZH_CN = {
     DotComTycoon: "DotCom Tycoon",
     DotComTycoonDesc:
         "Build a level 10 Social Network Inc, level 10 Search Engine Company, level 10 SkyNet Inc and level 10 Musify Inc on the same map",
+    ConstructionNotResearched: "Not Researched",
+    OfflineEarningDescV2: "Offline earning depends on your current research, production and auto sell",
 };

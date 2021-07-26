@@ -272,7 +272,6 @@ export const VN = {
     InterestRate: "Lãi suất qua đêm",
     InterestRateDesc: "Lãi suất bạn nhận được dựa trên giá trị vốn hóa trong khi bạn nghỉ chơi",
     OfflineEarning: "Tiền lãi nghỉ chơi",
-    OfflineEarningDesc: "Tiền lãi nghỉ chơi phụ thuộc vào giá trị vốn hóa và lãi suất",
     PerMin: "%{amount} mỗi phút",
     OfflineEarningTime: "Thời gian tính lãi nghỉ chơi",
     OfflineEarningTimeDesc: "Bạn sẽ nhận được tiền lãi nghỉ chơi cho đến thời gian này",
@@ -1153,4 +1152,6 @@ export const VN = {
     DotComTycoon: "DotCom Tycoon",
     DotComTycoonDesc:
         "Build a level 10 Social Network Inc, level 10 Search Engine Company, level 10 SkyNet Inc and level 10 Musify Inc on the same map",
+    ConstructionNotResearched: "Not Researched",
+    OfflineEarningDescV2: "Offline earning depends on your current research, production and auto sell",
 };

@@ -277,7 +277,6 @@ export const DE = {
     InterestRate: "Übernacht Anteil",
     InterestRateDesc: "Diesen Anteil erwirtschaftest du auf dem Markt während du Offline bist",
     OfflineEarning: "Offline Einkommen",
-    OfflineEarningDesc: "Offline Einkommen ist abhängig von der Marktobergrenze und der Zinsrate",
     PerMin: "%{amount}/min",
     OfflineEarningTime: "Offline Erwerbszeit",
     OfflineEarningTimeDesc: "Du erhältst Offline Einkommen bis zu diesem Schwellenwert",
@@ -1174,4 +1173,6 @@ export const DE = {
     DotComTycoon: "DotCom Tycoon",
     DotComTycoonDesc:
         "Build a level 10 Social Network Inc, level 10 Search Engine Company, level 10 SkyNet Inc and level 10 Musify Inc on the same map",
+    ConstructionNotResearched: "Not Researched",
+    OfflineEarningDescV2: "Offline earning depends on your current research, production and auto sell",
 };

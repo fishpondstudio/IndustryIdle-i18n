@@ -282,7 +282,6 @@ export const FR = {
     InterestRate: "Taux d'intérêt par jour",
     InterestRateDesc: "L'intérêt que vous gagnez sur votre capital en bourse lorsque vous êtes hors ligne",
     OfflineEarning: "Gains hors ligne",
-    OfflineEarningDesc: "Les gains hors ligne dépendent de votre capital en bourse et de votre taux d'intérêt",
     PerMin: "%{amount}/min",
     OfflineEarningTime: "Temps de gain hors ligne",
     OfflineEarningTimeDesc: "Vous gagnerez des revenus hors ligne jusqu'à avoir atteind ce seuil",
@@ -1185,4 +1184,6 @@ export const FR = {
     DotComTycoon: "DotCom Tycoon",
     DotComTycoonDesc:
         "Build a level 10 Social Network Inc, level 10 Search Engine Company, level 10 SkyNet Inc and level 10 Musify Inc on the same map",
+    ConstructionNotResearched: "Not Researched",
+    OfflineEarningDescV2: "Offline earning depends on your current research, production and auto sell",
 };

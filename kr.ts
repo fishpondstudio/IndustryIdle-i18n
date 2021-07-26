@@ -271,7 +271,6 @@ export const KR = {
     InterestRate: "야간 이자율",
     InterestRateDesc: "오프라인 상태에서 시가 총액에 대한 이자",
     OfflineEarning: "오프라인 수입",
-    OfflineEarningDesc: "오프라인 수입은 시가 총액과 이자율에 따라 다릅니다",
     PerMin: "%{amount}/분",
     OfflineEarningTime: "오프라인 수입 시간",
     OfflineEarningTimeDesc: "이 시간까지 오프라인 수입을 얻을 수 있습니다",
@@ -1120,4 +1119,6 @@ export const KR = {
     DotComTycoon: "DotCom Tycoon",
     DotComTycoonDesc:
         "Build a level 10 Social Network Inc, level 10 Search Engine Company, level 10 SkyNet Inc and level 10 Musify Inc on the same map",
+    ConstructionNotResearched: "Not Researched",
+    OfflineEarningDescV2: "Offline earning depends on your current research, production and auto sell",
 };

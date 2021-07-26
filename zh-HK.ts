@@ -269,7 +269,6 @@ export const ZH_HK = {
     InterestRate: "過夜利率",
     InterestRateDesc: "您喺離線嗰陣透過市值賺到嘅利息",
     OfflineEarning: "離線收入",
-    OfflineEarningDesc: "離線收入取決於您的市值和利率",
     PerMin: "%{amount}/分鐘",
     OfflineEarningTime: "離線賺取時間",
     OfflineEarningTimeDesc: "您可以攞到離線收入嘅時間",
@@ -1085,4 +1084,6 @@ export const ZH_HK = {
     GreenPeacekeeperDesc: "俾陸軍、海軍、空軍或者太空軍得可再生發電廠用 (風力/太陽能)",
     DotComTycoon: "互聯網(DotCom)大亨",
     DotComTycoonDesc: "喺同一張地圖度起10級社交網絡公司、10級搜索引擎公司、10級天網(SkyNet)公司同10級 Musify 公司",
+    ConstructionNotResearched: "Not Researched",
+    OfflineEarningDescV2: "Offline earning depends on your current research, production and auto sell",
 };

@@ -267,7 +267,6 @@ export const JP = {
     InterestRate: "金利",
     InterestRateDesc: "オフラインの間、時価総額に応じて得られる利息",
     OfflineEarning: "オフライン収入",
-    OfflineEarningDesc: "オフライン収入は、時価総額と金利に依存します",
     PerMin: "%{amount}/min",
     OfflineEarningTime: "オフライン収益時間",
     OfflineEarningTimeDesc: "この時間までオフライン収入が得られます",
@@ -1121,4 +1120,6 @@ export const JP = {
     DotComTycoon: "DotCom Tycoon",
     DotComTycoonDesc:
         "Build a level 10 Social Network Inc, level 10 Search Engine Company, level 10 SkyNet Inc and level 10 Musify Inc on the same map",
+    ConstructionNotResearched: "Not Researched",
+    OfflineEarningDescV2: "Offline earning depends on your current research, production and auto sell",
 };
