@@ -437,7 +437,7 @@ export const PT_BR = {
     Tutorial1:
         "Industry Idle é um <em> jogo </em> de gestão de recursos em que você constrói fábricas🏭, produz bens📦 e faz dinheiro💸.<br><br>Vamos repassar alguns conceitos básicos para você começar - não vai demorar muito, eu prometo.",
     Tutorial2:
-        "Todas as construções precisão de energia⚡, você tem a <em>turbina eólica</em> que gera energia. Você pode ver sua produção de energia atual no lado esquerdo da barra superior.<br><br>Você deve ter notado que as turbinas eólicas só funcionam <em>80%</em> do tempo. Você pode considerar a construção de outros tipos de usinas de energia que geram energia estável.",
+        "Todas as construções precisam de energia⚡, você tem a <em>turbina eólica</em> que gera energia. Você pode ver sua produção de energia atual no lado esquerdo da barra superior.<br><br>Você deve ter notado que as turbinas eólicas só funcionam <em>80%</em> do tempo. Você pode considerar a construção de outros tipos de usinas de energia que geram energia estável.",
     Tutorial3:
         "Vo~e tem um monte de <em>depositos de recursos</em> no mapa. Para extrair recursos, você deve construir minas⛏️ <em>em cima</em> do depósito correspondente.<br><br>por exemplo, você tem um <em>poço de petróleo🛢️</em> que extrái <em>petróleo</em> De um depósito.<br></br>Os depósitos de recursos são ilimitados - não há necessidade de se preocupar com o esgotamento. Além das minas, outros edifícios podem ser construídos em qualquer blco vazio.",
     Tutorial5:
