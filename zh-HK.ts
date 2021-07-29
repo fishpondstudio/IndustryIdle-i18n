@@ -84,8 +84,7 @@ export const ZH_HK = {
     Rocket: "火箭",
     RocketFactory: "火箭工廠",
     BuildingPermit: "建築許可證",
-    BuildingPermitDesc:
-        "您一共有 %{amount}份許可證可以用喺建築物，您已經起咗%{amountBuilt}間，仲可以起%{amountLeft}座",
+    BuildingPermitDesc: "您一共有 %{amount}份許可證可以用喺建築物，您已經起咗%{amountBuilt}間，仲可以起%{amountLeft}座",
     BuildingLocked: "呢個建築仲未用得，您要喺研究實驗室度解鎖先",
     BuildQueue: "建築隊",
     BuildQueueDesc: "而家排緊隊嘅建築量",
@@ -206,8 +205,7 @@ export const ZH_HK = {
     AlwaysTransportInputTradeCenterDesc: "一直將資源送到交易所，就算嗰個資源冇開自動賣出",
     AlwaysTransportInputDesc: "一直入資源，就算佢哋高過最低生產要求",
     ProductionCycleLength: "生產周期",
-    ProductionCycleLengthDesc:
-        "一個生產周期嘅時間，用秒計。加長周期會加每個周期嘅輸出入嚟到降低攞資源輸入嘅優先度",
+    ProductionCycleLengthDesc: "一個生產周期嘅時間，用秒計。加長周期會加每個周期嘅輸出入嚟到降低攞資源輸入嘅優先度",
     MaxInputDistance: "最大輸入距離",
     MaxInputDistanceDesc: "呢棟建築以區塊數量計算輸入資源嘅最大距離",
     AutoSellCapacity: "自動賣出數量",
