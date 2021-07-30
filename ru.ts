@@ -1172,6 +1172,6 @@ export const RU = {
     DotComTycoon: "DotCom магнат",
     DotComTycoonDesc:
         "Постройте здания 10 уровня на одной карте: Корпорация 'Социальная сеть', Компания 'Поисковая система', Корпорация 'СкайНет'и Корпорация 'Musify'",
-    ConstructionNotResearched: "Not Researched",
-    OfflineEarningDescV2: "Offline earning depends on your current research, production and auto sell",
+    ConstructionNotResearched: "Не исследовано",
+    OfflineEarningDescV2: "Заработок в оффлайне зависит от ваших текущих исследований, производства и автопродаж",
 };
