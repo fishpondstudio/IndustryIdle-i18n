@@ -1174,4 +1174,11 @@ export const RU = {
         "Постройте здания 10 уровня на одной карте: Корпорация 'Социальная сеть', Компания 'Поисковая система', Корпорация 'СкайНет'и Корпорация 'Musify'",
     ConstructionNotResearched: "Не исследовано",
     OfflineEarningDescV2: "Заработок в оффлайне зависит от ваших текущих исследований, производства и автопродаж",
+    HighSpeedWarehouse: "High Speed Warehouse",
+    HighSpeedWarehouseDesc:
+        "Warehouses have 2x capacity and 50% faster inward and outward transport speed, but use 2x power",
+    IndustryZoneMultiplierDesc: "Industry Zone Bonus",
+    IndustryZoneMultiplierSwissBoost: "Industry Zone Capacity Booster",
+    IndustryZoneMultiplierSwissBoostDesc:
+        "Each building inside an industry zone provides this capacity boost to all the buildings in the same zone",
 };

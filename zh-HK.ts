@@ -1084,4 +1084,11 @@ export const ZH_HK = {
     DotComTycoonDesc: "喺同一張地圖度起10級社交網絡公司、10級搜索引擎公司、10級天網(SkyNet)公司同10級 Musify 公司",
     ConstructionNotResearched: "Not Researched",
     OfflineEarningDescV2: "Offline earning depends on your current research, production and auto sell",
+    HighSpeedWarehouse: "High Speed Warehouse",
+    HighSpeedWarehouseDesc:
+        "Warehouses have 2x capacity and 50% faster inward and outward transport speed, but use 2x power",
+    IndustryZoneMultiplierDesc: "Industry Zone Bonus",
+    IndustryZoneMultiplierSwissBoost: "Industry Zone Capacity Booster",
+    IndustryZoneMultiplierSwissBoostDesc:
+        "Each building inside an industry zone provides this capacity boost to all the buildings in the same zone",
 };
