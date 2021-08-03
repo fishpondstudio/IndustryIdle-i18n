@@ -1091,12 +1091,12 @@ export const ZH_TW = {
     DotComTycoonDesc:
         "Build a level 10 Social Network Inc, level 10 Search Engine Company, level 10 SkyNet Inc and level 10 Musify Inc on the same map",
     ConstructionNotResearched: "Not Researched",
-    OfflineEarningDescV2: "Offline earning depends on your current research, production and auto sell",
-    HighSpeedWarehouse: "High Speed Warehouse",
+    OfflineEarningDescV2: "離線收入取決於您當前的研究、生產力和銷售能力",
+    HighSpeedWarehouse: " 快速倉庫",
     HighSpeedWarehouseDesc:
-        "Warehouses have 2x capacity and 50% faster inward and outward transport speed, but use 2x power",
-    IndustryZoneMultiplierDesc: "Industry Zone Bonus",
-    IndustryZoneMultiplierSwissBoost: "Industry Zone Capacity Booster",
+        "倉庫運輸的容量提高2倍，進出運輸的速度提高50%，但使用2倍的電力",
+    IndustryZoneMultiplierDesc: "工業區獎金",
+    IndustryZoneMultiplierSwissBoost: "工業區容量助推器",
     IndustryZoneMultiplierSwissBoostDesc:
-        "Each building inside an industry zone provides this capacity boost to all the buildings in the same zone",
+        "工業區內的每座建築物都為同一區內的所有建築物提供這種容量提升",
 };
