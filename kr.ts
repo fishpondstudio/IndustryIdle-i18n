@@ -810,7 +810,7 @@ export const KR = {
     UILoading: "로드 중...",
     UserAuthenticated: "인증되었습니다",
     BuildingResourceBreakdown: "건설 자원 분석",
-    SortByDeficit: "적자",
+    SortByDeficit: "증감",
     SortByRunOut: "고갈",
     SocialNetworkInc: "소셜 네트워크 주식회사",
     SocialNetwork: "소셜 네트워크",
