@@ -1095,9 +1095,9 @@ export const ZH_TW = {
     IndustryZoneMultiplierDesc: "工業區獎金",
     IndustryZoneMultiplierSwissBoost: "工業區容量助推器",
     IndustryZoneMultiplierSwissBoostDesc: "工業區內的每座建築物都為同一區內的所有建築物提供這種容量提升",
-    EarningPerMinute: "收益率",
+    EarningPerMinuteV2: "Offline Earning Rate",
     OfflineResearchPoint: "Offline Research Point",
-    WholesaleCenterOrderFaster: "世界博覽會",
+    WholesaleCenterOrderFasterV2: "Bigger Faster Wholesale",
     OfflineResearchSwissBoost: "Offline Research",
     OfflineResearchSwissBoostDesc:
         "Research points are generated while you are offline (according to your Research Lab level, Science in your warehouse and offline earning time)",

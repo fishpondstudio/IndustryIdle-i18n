@@ -1124,9 +1124,9 @@ export const JP = {
     IndustryZoneMultiplierDesc: "産業ゾーンボーナス",
     IndustryZoneMultiplierSwissBoost: "産業ゾーン容量ブースター",
     IndustryZoneMultiplierSwissBoostDesc: "同じ産業ゾーン内の全施設がブースト効果を受けます",
-    EarningPerMinute: "獲得レート",
+    EarningPerMinuteV2: "Offline Earning Rate",
     OfflineResearchPoint: "Offline Research Point",
-    WholesaleCenterOrderFaster: "ワールド・フェア",
+    WholesaleCenterOrderFasterV2: "Bigger Faster Wholesale",
     OfflineResearchSwissBoost: "Offline Research",
     OfflineResearchSwissBoostDesc:
         "Research points are generated while you are offline (according to your Research Lab level, Science in your warehouse and offline earning time)",
