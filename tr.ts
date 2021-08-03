@@ -336,7 +336,6 @@ export const TR = {
     MaxUpgrade: "Max Upgrade",
     MaxUpgradeDesc: "You have reached maximum upgrade",
     ClaimAmount: "Cash +%{amount}",
-    EarningPerMinute: "Earning Rate",
     EffectiveTime: "Effective Time",
     EffectiveTimeDesc: "Your effective offline earning time is capped at %{time}min.",
     BuildSearchPlaceholder: "Type building or resource to search",
@@ -367,7 +366,6 @@ export const TR = {
     Policies: "Policies",
     PolicyNotEnoughTime: "You don't have enough policy points for this policy",
     TimeLeft: "%{time} Left",
-    WholesaleCenterOrderFaster: "World's Fair",
     WholesaleCenterOrderFasterDesc: "Wholesale Center receives orders 2x faster and the order size is 2x bigger",
     PolicyOilWellPowerx2: "Supercharge Oil Well",
     PolicyOilWellPowerx2Desc: "Oil wells produce 2x oil and use 2x power",
@@ -1147,4 +1145,10 @@ export const TR = {
     IndustryZoneMultiplierSwissBoost: "Industry Zone Capacity Booster",
     IndustryZoneMultiplierSwissBoostDesc:
         "Each building inside an industry zone provides this capacity boost to all the buildings in the same zone",
+    EarningPerMinute: "Earning Rate",
+    OfflineResearchPoint: "Offline Research Point",
+    WholesaleCenterOrderFaster: "World's Fair",
+    OfflineResearchSwissBoost: "Offline Research",
+    OfflineResearchSwissBoostDesc:
+        "Research points are generated while you are offline (according to your Research Lab level, Science in your warehouse and offline earning time)",
 };

@@ -338,7 +338,6 @@ export const VN = {
     MaxUpgrade: "Nâng cấp tối đa",
     MaxUpgradeDesc: "Bạn đã lên tới cấp tối đa",
     ClaimAmount: "Tiền mặt +%{amount}",
-    EarningPerMinute: "Tỉ lệ lợi nhuận",
     EffectiveTime: "Thời gian tối đa",
     EffectiveTimeDesc: "Thời gian nhận lãi nghỉ chơi tối đa của bạn bằng %{time} phút.",
     BuildSearchPlaceholder: "Gõ tên công trình hoặc tài nguyên để tìm",
@@ -370,7 +369,6 @@ export const VN = {
     Policies: "Chính sách",
     PolicyNotEnoughTime: "Bạn không có đủ điểm chính sách",
     TimeLeft: "Còn lại %{time}",
-    WholesaleCenterOrderFaster: "Hội chợ Toàn cầu",
     WholesaleCenterOrderFasterDesc:
         "Trung tâm Bán sỉ nhận được đơn hàng nhanh gấp đôi và số lượng hàng hóa tăng gấp đôi",
     PolicyOilWellPowerx2: "Mỏ dầu siêu cấp",
@@ -1161,4 +1159,10 @@ export const VN = {
     IndustryZoneMultiplierSwissBoost: "Industry Zone Capacity Booster",
     IndustryZoneMultiplierSwissBoostDesc:
         "Each building inside an industry zone provides this capacity boost to all the buildings in the same zone",
+    EarningPerMinute: "Tỉ lệ lợi nhuận",
+    OfflineResearchPoint: "Offline Research Point",
+    WholesaleCenterOrderFaster: "Hội chợ Toàn cầu",
+    OfflineResearchSwissBoost: "Offline Research",
+    OfflineResearchSwissBoostDesc:
+        "Research points are generated while you are offline (according to your Research Lab level, Science in your warehouse and offline earning time)",
 };

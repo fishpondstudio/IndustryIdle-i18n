@@ -334,7 +334,6 @@ export const KR = {
     MaxUpgrade: "최대 업그레이드",
     MaxUpgradeDesc: "최대 업그레이드에 도달했습니다",
     ClaimAmount: "현금 +%{amount}",
-    EarningPerMinute: "수익률",
     EffectiveTime: "유효 시간",
     EffectiveTimeDesc: "유효 오프라인 수입 시간은 %{time}분으로 제한됩니다.",
     BuildSearchPlaceholder: "검색할 건물 또는 자원 입력",
@@ -365,7 +364,6 @@ export const KR = {
     Policies: "정책",
     PolicyNotEnoughTime: "이 정책에 대한 정책 점수가 충분하지 않습니다",
     TimeLeft: "%{time} 남음",
-    WholesaleCenterOrderFaster: "세계 박람회",
     WholesaleCenterOrderFasterDesc: "도매 센터는 주문을 2배 더 빨리 받고 주문량이 2배 더 많습니다",
     PolicyOilWellPowerx2: "과급 유정",
     PolicyOilWellPowerx2Desc: "유정은 2배의 원유를 생산하고 2배의 전력을 사용합니다",
@@ -1128,4 +1126,10 @@ export const KR = {
     IndustryZoneMultiplierSwissBoost: "Industry Zone Capacity Booster",
     IndustryZoneMultiplierSwissBoostDesc:
         "Each building inside an industry zone provides this capacity boost to all the buildings in the same zone",
+    EarningPerMinute: "수익률",
+    OfflineResearchPoint: "Offline Research Point",
+    WholesaleCenterOrderFaster: "세계 박람회",
+    OfflineResearchSwissBoost: "Offline Research",
+    OfflineResearchSwissBoostDesc:
+        "Research points are generated while you are offline (according to your Research Lab level, Science in your warehouse and offline earning time)",
 };

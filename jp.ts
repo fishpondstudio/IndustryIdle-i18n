@@ -330,7 +330,6 @@ export const JP = {
     MaxUpgrade: "最大アップグレード",
     MaxUpgradeDesc: "最大アップグレード数に達しています",
     ClaimAmount: "現金+%{amount}",
-    EarningPerMinute: "獲得レート",
     EffectiveTime: "有効時間",
     EffectiveTimeDesc: "オフライン収入が獲得できるのは%{time}分までです",
     BuildSearchPlaceholder: "検索する建物またはリソースを入力してください",
@@ -361,7 +360,6 @@ export const JP = {
     Policies: "ポリシー",
     PolicyNotEnoughTime: "このポリシーに対する十分なポリシーポイントがありません",
     TimeLeft: "残り%{time}",
-    WholesaleCenterOrderFaster: "ワールド・フェア",
     WholesaleCenterOrderFasterDesc: "卸売センターの発注間隔が2倍早くなり、2倍の発注が入ります",
     PolicyOilWellPowerx2: "油井スーパーチャージ",
     PolicyOilWellPowerx2Desc: "油井の生産量が2倍になり、消費電力が2倍になります",
@@ -1118,16 +1116,18 @@ export const JP = {
     GreenPeacekeeper: "Green Peacekeeper",
     GreenPeacekeeperDesc: "風力か太陽光だけで陸軍、海軍、空軍、宇宙軍を建てる",
     DotComTycoon: "DotCom Tycoon",
-    DotComTycoonDesc:
-        "同じマップにレベル10のSNS運営、検索エンジン会社、SkyNet Inc、Musify Incを建てる",
-
+    DotComTycoonDesc: "同じマップにレベル10のSNS運営、検索エンジン会社、SkyNet Inc、Musify Incを建てる",
     ConstructionNotResearched: "Not Researched",
     OfflineEarningDescV2: "オフライン収入額は、研究・生産量・自動売却に依存します",
     HighSpeedWarehouse: "特急便",
-    HighSpeedWarehouseDesc:
-        "倉庫の物流量が2倍になり、輸送速度が1.5倍になります。消費電力が2倍になります",
+    HighSpeedWarehouseDesc: "倉庫の物流量が2倍になり、輸送速度が1.5倍になります。消費電力が2倍になります",
     IndustryZoneMultiplierDesc: "産業ゾーンボーナス",
     IndustryZoneMultiplierSwissBoost: "産業ゾーン容量ブースター",
-    IndustryZoneMultiplierSwissBoostDesc:
-        "同じ産業ゾーン内の全施設がブースト効果を受けます",
+    IndustryZoneMultiplierSwissBoostDesc: "同じ産業ゾーン内の全施設がブースト効果を受けます",
+    EarningPerMinute: "獲得レート",
+    OfflineResearchPoint: "Offline Research Point",
+    WholesaleCenterOrderFaster: "ワールド・フェア",
+    OfflineResearchSwissBoost: "Offline Research",
+    OfflineResearchSwissBoostDesc:
+        "Research points are generated while you are offline (according to your Research Lab level, Science in your warehouse and offline earning time)",
 };

@@ -331,7 +331,6 @@ export const ZH_TW = {
     MaxUpgrade: "最大升級",
     MaxUpgradeDesc: "您已達到最大升級",
     ClaimAmount: "現金 +%{amount}",
-    EarningPerMinute: "收益率",
     EffectiveTime: "有效時間",
     EffectiveTimeDesc: "您的有效離線收入時間不超過 %{time}min.",
     BuildSearchPlaceholder: "輸入要搜索的建築物或資源的名稱",
@@ -361,7 +360,6 @@ export const ZH_TW = {
     Policies: "政策",
     PolicyNotEnoughTime: "此政策您沒有足夠的政策點",
     TimeLeft: "剩餘 %{time}",
-    WholesaleCenterOrderFaster: "世界博覽會",
     WholesaleCenterOrderFasterDesc: "批發市場收到的訂單快2倍，訂單大2倍",
     PolicyOilWellPowerx2: "增壓油井",
     PolicyOilWellPowerx2Desc: "油井產生2倍的石油，並使用2倍的電力",
@@ -1093,10 +1091,14 @@ export const ZH_TW = {
     ConstructionNotResearched: "Not Researched",
     OfflineEarningDescV2: "離線收入取決於您當前的研究、生產力和銷售能力",
     HighSpeedWarehouse: " 快速倉庫",
-    HighSpeedWarehouseDesc:
-        "倉庫運輸的容量提高2倍，進出運輸的速度提高50%，但使用2倍的電力",
+    HighSpeedWarehouseDesc: "倉庫運輸的容量提高2倍，進出運輸的速度提高50%，但使用2倍的電力",
     IndustryZoneMultiplierDesc: "工業區獎金",
     IndustryZoneMultiplierSwissBoost: "工業區容量助推器",
-    IndustryZoneMultiplierSwissBoostDesc:
-        "工業區內的每座建築物都為同一區內的所有建築物提供這種容量提升",
+    IndustryZoneMultiplierSwissBoostDesc: "工業區內的每座建築物都為同一區內的所有建築物提供這種容量提升",
+    EarningPerMinute: "收益率",
+    OfflineResearchPoint: "Offline Research Point",
+    WholesaleCenterOrderFaster: "世界博覽會",
+    OfflineResearchSwissBoost: "Offline Research",
+    OfflineResearchSwissBoostDesc:
+        "Research points are generated while you are offline (according to your Research Lab level, Science in your warehouse and offline earning time)",
 };

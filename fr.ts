@@ -352,7 +352,6 @@ export const FR = {
     MaxUpgrade: "Mise à niveau maximale",
     MaxUpgradeDesc: "Vous améliorez au niveau maximum",
     ClaimAmount: "Espèces +%{amount}",
-    EarningPerMinute: "Taux de gain",
     EffectiveTime: "Temps effectif",
     EffectiveTimeDesc: "La durée effective de vos gains hors connexion est plafonnée à %{time}min.",
     BuildSearchPlaceholder: "🔎 Rechercher le bâtiment",
@@ -384,7 +383,6 @@ export const FR = {
     Policies: "Stratégies",
     PolicyNotEnoughTime: "Vous ne disposez pas de suffisamment de points de stratégie pour cette stratégie",
     TimeLeft: "%{time} restant",
-    WholesaleCenterOrderFaster: "Exposition mondiale",
     WholesaleCenterOrderFasterDesc:
         "Le centre de vente reçoit les commandes 2 fois plus rapidement et la taille de la commande est 2 fois plus grande",
     PolicyOilWellPowerx2: "Puits de pétrole suralimenté",
@@ -1193,4 +1191,10 @@ export const FR = {
     IndustryZoneMultiplierSwissBoost: "Industry Zone Capacity Booster",
     IndustryZoneMultiplierSwissBoostDesc:
         "Each building inside an industry zone provides this capacity boost to all the buildings in the same zone",
+    EarningPerMinute: "Taux de gain",
+    OfflineResearchPoint: "Offline Research Point",
+    WholesaleCenterOrderFaster: "Exposition mondiale",
+    OfflineResearchSwissBoost: "Offline Research",
+    OfflineResearchSwissBoostDesc:
+        "Research points are generated while you are offline (according to your Research Lab level, Science in your warehouse and offline earning time)",
 };

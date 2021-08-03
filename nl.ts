@@ -340,7 +340,6 @@ export const NL = {
     MaxUpgrade: "Maximale uitbreiding",
     MaxUpgradeDesc: "Je hebt het maximaal uitgebreid",
     ClaimAmount: "Geld +%{amount}",
-    EarningPerMinute: "Verdienste Ratio",
     EffectiveTime: "Effectieve Tijd",
     EffectiveTimeDesc: "Je effectieve offline verdienste tijd is gelimiteerd tot %{time}min.",
     BuildSearchPlaceholder: "Type gebouw of goederen om te zoeken",
@@ -372,7 +371,6 @@ export const NL = {
     Policies: "Beleid",
     PolicyNotEnoughTime: "Je hebt niet genoeg beleidspunten voor dit beleid",
     TimeLeft: "%{time} over",
-    WholesaleCenterOrderFaster: "Wereldtentoonstelling",
     WholesaleCenterOrderFasterDesc:
         "Groothandel ontvangt bestellingen 2x sneller en de bestellingsgrootte is 2x groter",
     PolicyOilWellPowerx2: "Supercharge Oliebronnen",
@@ -1158,4 +1156,10 @@ export const NL = {
     IndustryZoneMultiplierSwissBoost: "Industry Zone Capacity Booster",
     IndustryZoneMultiplierSwissBoostDesc:
         "Each building inside an industry zone provides this capacity boost to all the buildings in the same zone",
+    EarningPerMinute: "Verdienste Ratio",
+    OfflineResearchPoint: "Offline Research Point",
+    WholesaleCenterOrderFaster: "Wereldtentoonstelling",
+    OfflineResearchSwissBoost: "Offline Research",
+    OfflineResearchSwissBoostDesc:
+        "Research points are generated while you are offline (according to your Research Lab level, Science in your warehouse and offline earning time)",
 };

@@ -330,7 +330,6 @@ export const ZH_CN = {
     MaxUpgrade: "最大升级",
     MaxUpgradeDesc: "您已达到最大升级",
     ClaimAmount: "现金 +%{amount}",
-    EarningPerMinute: "收益率",
     EffectiveTime: "有效时间",
     EffectiveTimeDesc: "您的有效离线收入时间不超过 %{time}min.",
     BuildSearchPlaceholder: "输入要搜索的建筑物或资源的名称",
@@ -360,7 +359,6 @@ export const ZH_CN = {
     Policies: "政策",
     PolicyNotEnoughTime: "此政策您没有足够的政策点",
     TimeLeft: "剩余 %{time}",
-    WholesaleCenterOrderFaster: "世界博览会",
     WholesaleCenterOrderFasterDesc: "批发中心接收订单快2倍，订单大小大2倍",
     PolicyOilWellPowerx2: "增压油井",
     PolicyOilWellPowerx2Desc: "油井产生2倍的石油，并使用2倍的电力",
@@ -1099,4 +1097,10 @@ export const ZH_CN = {
     IndustryZoneMultiplierSwissBoost: "Industry Zone Capacity Booster",
     IndustryZoneMultiplierSwissBoostDesc:
         "Each building inside an industry zone provides this capacity boost to all the buildings in the same zone",
+    EarningPerMinute: "收益率",
+    OfflineResearchPoint: "Offline Research Point",
+    WholesaleCenterOrderFaster: "世界博览会",
+    OfflineResearchSwissBoost: "Offline Research",
+    OfflineResearchSwissBoostDesc:
+        "Research points are generated while you are offline (according to your Research Lab level, Science in your warehouse and offline earning time)",
 };

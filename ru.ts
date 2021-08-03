@@ -344,7 +344,6 @@ export const RU = {
     MaxUpgrade: "Максимальная модернизация",
     MaxUpgradeDesc: "Вы достигли максимального уровня модернизации",
     ClaimAmount: "Наличные +%{amount}",
-    EarningPerMinute: "Коэффициент заработка",
     EffectiveTime: "Эффективное время",
     EffectiveTimeDesc: "Ваше эффективное время заработка в оффлайн режиме ограничено %{time} мин.",
     BuildSearchPlaceholder: "Найти здание или ресурс",
@@ -376,7 +375,6 @@ export const RU = {
     Policies: "Политика",
     PolicyNotEnoughTime: "У вас недостаточно очков для этой политики",
     TimeLeft: "%{time} закончилось",
-    WholesaleCenterOrderFaster: "Всемирная выставка",
     WholesaleCenterOrderFasterDesc:
         "Центр оптовых продаж получает заказы в 2 раза быстрее и размер заказов в 2 раза больше",
     PolicyOilWellPowerx2: "Сверхнагнетательная нефтяная скважина",
@@ -1181,4 +1179,10 @@ export const RU = {
     IndustryZoneMultiplierSwissBoost: "Industry Zone Capacity Booster",
     IndustryZoneMultiplierSwissBoostDesc:
         "Each building inside an industry zone provides this capacity boost to all the buildings in the same zone",
+    EarningPerMinute: "Коэффициент заработка",
+    OfflineResearchPoint: "Offline Research Point",
+    WholesaleCenterOrderFaster: "Всемирная выставка",
+    OfflineResearchSwissBoost: "Offline Research",
+    OfflineResearchSwissBoostDesc:
+        "Research points are generated while you are offline (according to your Research Lab level, Science in your warehouse and offline earning time)",
 };
