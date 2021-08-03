@@ -569,7 +569,7 @@ export const KR = {
     BostonBonus:
         "<li>레벨5 연구실에서 시작</li><li>과학기술 전문학교 잠금 해제</li><li>과학기술 전문학교 용량 2배</li><li>학교 용량 2배</li><li>대학 생산성 2배</li>",
     HideNotProducing: "생산되지 않는 자원 숨기기",
-    SortByStorage: "저장소",
+    SortByStorage: "저장량",
     SortByProduction: "생산",
     SortByName: "이름",
     PlayerTrade: "사용자 간 거래",
