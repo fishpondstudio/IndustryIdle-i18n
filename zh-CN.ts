@@ -1089,18 +1089,15 @@ export const ZH_CN = {
     DotComTycoonDesc:
         "Build a level 10 Social Network Inc, level 10 Search Engine Company, level 10 SkyNet Inc and level 10 Musify Inc on the same map",
     ConstructionNotResearched: "Not Researched",
-    OfflineEarningDescV2: "Offline earning depends on your current research, production and auto sell",
-    HighSpeedWarehouse: "High Speed Warehouse",
-    HighSpeedWarehouseDesc:
-        "Warehouses have 2x capacity and 50% faster inward and outward transport speed, but use 2x power",
-    IndustryZoneMultiplierDesc: "Industry Zone Bonus",
-    IndustryZoneMultiplierSwissBoost: "Industry Zone Capacity Booster",
-    IndustryZoneMultiplierSwissBoostDesc:
-        "Each building inside an industry zone provides this capacity boost to all the buildings in the same zone",
-    EarningPerMinuteV2: "Offline Earning Rate",
-    OfflineResearchPoint: "Offline Research Point",
-    WholesaleCenterOrderFasterV2: "Bigger Faster Wholesale",
-    OfflineResearchSwissBoost: "Offline Research",
-    OfflineResearchSwissBoostDesc:
-        "Research points are generated while you are offline (according to your Research Lab level, Science in your warehouse and offline earning time)",
+    OfflineEarningDescV2: "离线收入取决于您当前的研究、生产力和销售能力",
+    HighSpeedWarehouse: "仓库快速",
+    HighSpeedWarehouseDesc: "仓库运输的容量提高了2倍，进出运输的速度提高了50%，但使用了2倍的电力",
+    IndustryZoneMultiplierDesc: "工业区奖金",
+    IndustryZoneMultiplierSwissBoost: "工业区产能提升",
+    IndustryZoneMultiplierSwissBoostDesc: "工业区内的每栋建筑都为同一区域内的所有建筑提供产能提升",
+    EarningPerMinuteV2: "收益率",
+    OfflineResearchPoint: "离线研究点",
+    WholesaleCenterOrderFasterV2: "更快更大的批发",
+    OfflineResearchSwissBoost: "离线研究",
+    OfflineResearchSwissBoostDesc: "离线时会产生研究点（根据你的研究实验室等级、学习中的科学点和离线时间）",
 };
