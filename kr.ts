@@ -951,7 +951,7 @@ export const KR = {
     SpaceColonyInc: "우주 식민지",
     ProjectVostok: "프로젝트 Vostok",
     AdjacentBonusSquare: "사각형 인접 보너스",
-    AdjacentBonusSquareDesc: "인접 보너스가 50% 더 효과적이지만, 타일 보정은 -15%에서 +15%로 확장됩니다",
+    AdjacentBonusSquareDesc: "인접 보너스가 50% 더 효과적이지만, 타일 보정은 -15%에서 +15%가 됩니다",
     ResourceBoosterSquare: "사각형 자원 촉진기",
     ResourceBoosterSquareDesc: "자원 촉진기는 25% 많은 효과를 제공하지만, 과학과 전력 사용량도 25% 증가합니다",
     SteelMillx2: "용광로 현대화",
