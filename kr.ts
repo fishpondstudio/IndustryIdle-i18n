@@ -1119,9 +1119,9 @@ export const KR = {
         "Build a level 10 Social Network Inc, level 10 Search Engine Company, level 10 SkyNet Inc and level 10 Musify Inc on the same map",
     ConstructionNotResearched: "Not Researched",
     OfflineEarningDescV2: "Offline earning depends on your current research, production and auto sell",
-    HighSpeedWarehouse: "High Speed Warehouse",
+    HighSpeedWarehouse: "고속창고",
     HighSpeedWarehouseDesc:
-        "Warehouses have 2x capacity and 50% faster inward and outward transport speed, but use 2x power",
+        "고속창고는 2배의 용량과 50% 더빠른 입출력속도를 갖는대신 2배의 전기를 소모합니다.",
     IndustryZoneMultiplierDesc: "Industry Zone Bonus",
     IndustryZoneMultiplierSwissBoost: "Industry Zone Capacity Booster",
     IndustryZoneMultiplierSwissBoostDesc:
