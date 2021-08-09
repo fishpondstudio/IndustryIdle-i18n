@@ -1172,17 +1172,17 @@ export const RU = {
         "Постройте здания 10 уровня на одной карте: Корпорация 'Социальная сеть', Компания 'Поисковая система', Корпорация 'СкайНет'и Корпорация 'Musify'",
     ConstructionNotResearched: "Не исследовано",
     OfflineEarningDescV2: "Заработок в оффлайне зависит от ваших текущих исследований, производства и автопродаж",
-    HighSpeedWarehouse: "High Speed Warehouse",
+    HighSpeedWarehouse: "Высокоскоростной склад",
     HighSpeedWarehouseDesc:
-        "Warehouses have 2x capacity and 50% faster inward and outward transport speed, but use 2x power",
-    IndustryZoneMultiplierDesc: "Industry Zone Bonus",
-    IndustryZoneMultiplierSwissBoost: "Industry Zone Capacity Booster",
+        "Склады имеют 2-х кратную вместимость и на 50% более высокую скорость транспортировки на/со склада, но потребляют в 2 раза больше энергии",
+    IndustryZoneMultiplierDesc: "Бонус промышленной зоны",
+    IndustryZoneMultiplierSwissBoost: "Бонус мощности промышленной зоны",
     IndustryZoneMultiplierSwissBoostDesc:
-        "Each building inside an industry zone provides this capacity boost to all the buildings in the same zone",
-    EarningPerMinuteV2: "Offline Earning Rate",
-    OfflineResearchPoint: "Offline Research Point",
-    WholesaleCenterOrderFasterV2: "Bigger Faster Wholesale",
-    OfflineResearchSwissBoost: "Offline Research",
+        "Каждое здание в промышленной зоне увеличивает мощность всех зданий в той же зоне",
+    EarningPerMinuteV2: "Коэффициент заработка в оффлайне",
+    OfflineResearchPoint: "Точка автономного исследования",
+    WholesaleCenterOrderFasterV2: "Более быстрая оптовая торговля",
+    OfflineResearchSwissBoost: "Исследование в оффлайне",
     OfflineResearchSwissBoostDesc:
-        "Research points are generated while you are offline (according to your Research Lab level, Science in your warehouse and offline earning time)",
+        "Очки исследований накапливаются, пока вы находитесь не в сети (в соответствии с уровнем вашей исследовательской лаборатории, наукой на вашем складе и временем заработка в офлайне)",
 };
