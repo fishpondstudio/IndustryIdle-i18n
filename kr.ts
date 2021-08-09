@@ -685,8 +685,8 @@ export const KR = {
     PlayerTradeAction: "행동",
     PlayerTradeBuy: "구매",
     PlayerTradeSell: "판매",
-    PlayerTradeBid: "호가",
-    PlayerTradeAsk: "요청",
+    PlayerTradeBid: "요청",
+    PlayerTradeAsk: "매물",
     CancelTradeConfirmDialogDescV2:
         "이 거래를 취소하면 자원/현금의 %{percent}가 환불됩니다. 자원은 무역 센터 창고로 환불됩니다.",
     ClaimTradeSuccessV2: "거래가 성공적으로 청구되었습니다: %{cashOrResource}",
