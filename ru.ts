@@ -737,8 +737,6 @@ export const RU = {
     ReadSteamGuideV2Desc: "Вы можете читать руководства, созданные сообществом в Steam, и создавать свои собственные",
     ChatMessageTooLong: "Ваше сообщение в чате превысило максимально допустимое количество символов",
     ChatPlaceholderV2: "Введите ваше сообщение: макс. %{length} символов",
-    ShowProfitBreakdown: "Показать распределение прибыли",
-    HideProfitBreakdown: "Скрыть распределение прибыли",
     ProfitBreakdownOutput: "%{res} выход",
     ProfitBreakdownInput: "%{res} вход",
     ProfitBreakdownFuel: "Стоимость топлива",
@@ -1062,8 +1060,6 @@ export const RU = {
         "Эффект всех модификаторов плитки 2Х - как положительный, так и отрицательный. Эта политика деактивирует политику Плоская Земля",
     TileModifierOutputOnlyDescV2:
         "Модификаторы плитки влияют только на выход, а не на вход и выход, но их эффективность составляет всего 50%. Эта политика деактивирует политику Плоская Земля",
-    RotterdamBonusV2:
-        "<li>Сталелитейные заводы имеют 2Х мощность; </li><li>Заводы нержавеющей стали имеют 2Х мощность; </li><li>Бесплатная транспортировка железа; </li><li>Транспортировка стали стоит на 50% меньше топлива; </li><li>Начните с 2х мощности автопродаж; </li><li>Бесплатная политика Плоская Земля</li>",
     QuickLinks: "Быстрые ссылки",
     GetHelp: "Получить помощь",
     GetHelpBeginnerGuides: "Руководство для новичков",
@@ -1177,12 +1173,27 @@ export const RU = {
         "Склады имеют 2-х кратную вместимость и на 50% более высокую скорость транспортировки на/со склада, но потребляют в 2 раза больше энергии",
     IndustryZoneMultiplierDesc: "Бонус промышленной зоны",
     IndustryZoneMultiplierSwissBoost: "Бонус мощности промышленной зоны",
-    IndustryZoneMultiplierSwissBoostDesc:
-        "Каждое здание в промышленной зоне увеличивает мощность всех зданий в той же зоне",
     EarningPerMinuteV2: "Коэффициент заработка в оффлайне",
     OfflineResearchPoint: "Точка автономного исследования",
     WholesaleCenterOrderFasterV2: "Более быстрая оптовая торговля",
     OfflineResearchSwissBoost: "Исследование в оффлайне",
     OfflineResearchSwissBoostDesc:
         "Очки исследований накапливаются, пока вы находитесь не в сети (в соответствии с уровнем вашей исследовательской лаборатории, наукой на вашем складе и временем заработка в офлайне)",
+    SanJose: "San Jose",
+    SanJoseBonus:
+        "<li>Unique building: chip manufacturer</li><li>Unique building: FaceApp Inc</li><li>Unique building: Bitcoin Miner</li><li>All buildings that consume silicon have max tile modifier</li><li>Solar panels generate 2x power</li><li>Silicon mines have 2x output</li>",
+    RotterdamBonusV2:
+        "<li>Сталелитейные заводы имеют 2Х мощность; </li><li>Заводы нержавеющей стали имеют 2Х мощность; </li><li>Бесплатная транспортировка железа; </li><li>Транспортировка стали стоит на 50% меньше топлива; </li><li>Начните с 2х мощности автопродаж; </li><li>Бесплатная политика Плоская Земля</li>",
+    ChipManufacturer: "Chip Manufacturer",
+    SnapTokInc: "SnapTok Inc",
+    FaceAppInc: "FaceApp Inc",
+    BitcoinMiner: "Bitcoin Miner",
+    GalvanicBatteryFactory: "Galvanic Battery Factory",
+    BaseProductionMultiplier: "Base Production",
+    ShowBreakdown: "Show Breakdown",
+    HideBreakdown: "Hide Breakdown",
+    IndustryZoneMultiplierSwissBoostDesc:
+        "Каждое здание в промышленной зоне увеличивает мощность всех зданий в той же зоне",
+    IndustryZoneBuildingPermitDesc:
+        "If an industry zone has N tiers of productions, it will provide N-2 building permits for free",
 };

@@ -727,8 +727,6 @@ export const VN = {
         "Bạn có thể đọc các bản hướng dẫn được viết bởi cộng đồng trên Steam - và bạn cũng có thể viết hướng dẫn của chính mình",
     ChatMessageTooLong: "Tin chat của bạn vượt quá số ký tự cho phép",
     ChatPlaceholderV2: "Nhập tin chat của bạn: tối đa %{length} ký tự",
-    ShowProfitBreakdown: "Hiển thị phân tích lợi nhuận",
-    HideProfitBreakdown: "Giấu phân tích lợi nhuận",
     ProfitBreakdownOutput: "Giá thành %{res}",
     ProfitBreakdownInput: "Chi phí %{res}",
     ProfitBreakdownFuel: "Chi phí nhiên liệu",
@@ -1050,8 +1048,6 @@ export const VN = {
         "Tất cả hiệu ứng ô x2, cả tích cực lẫn tiêu cực. Chính sách này sẽ tắt chính sách Trái đất phẳng",
     TileModifierOutputOnlyDescV2:
         "Hiệu ứng ô chỉ tác dụng lên thành phẩm thay vì cả nguyên liệu lẫn thành phẩm nhưng bị giảm 50% hiệu ứng. Chính sách này sẽ tắt chính sách Trái đất phẳng",
-    RotterdamBonusV2:
-        "<li>Nhà máy thép sản lượng x2</li><li>Nhà máy thép không gỉ sản lượng x2</li><li>Vận chuyển sắt miễn phí</li><li>Vận chuyển thép chỉ tốn 50% nhiên liệu</li><li>Bắt đầu với sản lượng tự động bán x2</li><li>Chính sách Trái đất phẳng miễn phí</li>",
     QuickLinks: "Liên kết nhanh",
     GetHelp: "Cần trợ giúp",
     GetHelpBeginnerGuides: "Hướng dẫn tân thủ",
@@ -1157,12 +1153,27 @@ export const VN = {
         "Warehouses have 2x capacity and 50% faster inward and outward transport speed, but use 2x power",
     IndustryZoneMultiplierDesc: "Industry Zone Bonus",
     IndustryZoneMultiplierSwissBoost: "Industry Zone Capacity Booster",
-    IndustryZoneMultiplierSwissBoostDesc:
-        "Each building inside an industry zone provides this capacity boost to all the buildings in the same zone",
     EarningPerMinuteV2: "Offline Earning Rate",
     OfflineResearchPoint: "Offline Research Point",
     WholesaleCenterOrderFasterV2: "Bigger Faster Wholesale",
     OfflineResearchSwissBoost: "Offline Research",
     OfflineResearchSwissBoostDesc:
         "Research points are generated while you are offline (according to your Research Lab level, Science in your warehouse and offline earning time)",
+    SanJose: "San Jose",
+    SanJoseBonus:
+        "<li>Unique building: chip manufacturer</li><li>Unique building: FaceApp Inc</li><li>Unique building: Bitcoin Miner</li><li>All buildings that consume silicon have max tile modifier</li><li>Solar panels generate 2x power</li><li>Silicon mines have 2x output</li>",
+    RotterdamBonusV2:
+        "<li>Nhà máy thép sản lượng x2</li><li>Nhà máy thép không gỉ sản lượng x2</li><li>Vận chuyển sắt miễn phí</li><li>Vận chuyển thép chỉ tốn 50% nhiên liệu</li><li>Bắt đầu với sản lượng tự động bán x2</li><li>Chính sách Trái đất phẳng miễn phí</li>",
+    ChipManufacturer: "Chip Manufacturer",
+    SnapTokInc: "SnapTok Inc",
+    FaceAppInc: "FaceApp Inc",
+    BitcoinMiner: "Bitcoin Miner",
+    GalvanicBatteryFactory: "Galvanic Battery Factory",
+    BaseProductionMultiplier: "Base Production",
+    ShowBreakdown: "Show Breakdown",
+    HideBreakdown: "Hide Breakdown",
+    IndustryZoneMultiplierSwissBoostDesc:
+        "Each building inside an industry zone provides this capacity boost to all the buildings in the same zone",
+    IndustryZoneBuildingPermitDesc:
+        "If an industry zone has N tiers of productions, it will provide N-2 building permits for free",
 };

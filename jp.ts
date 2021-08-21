@@ -705,8 +705,6 @@ export const JP = {
     ReadSteamGuideV2Desc: "Steamでコミュニティが作成したガイドを読むことができ、自分でも作成できます",
     ChatMessageTooLong: "チャットメッセージが最大文字数を超えています",
     ChatPlaceholderV2: "メッセージを入力 : 最大%{length}文字",
-    ShowProfitBreakdown: "利益の内訳を表示する",
-    HideProfitBreakdown: "利益の内訳を隠す",
     ProfitBreakdownOutput: "%{res}出力",
     ProfitBreakdownInput: "%{res}入力",
     ProfitBreakdownFuel: "燃料コスト",
@@ -1020,8 +1018,6 @@ export const JP = {
         "すべてのタイル補正をプラスもマイナスも2倍にします。このポリシーは「地球は平ら」のポリシーを無効にします",
     TileModifierOutputOnlyDescV2:
         "タイル補正が出力のみに影響を与えるようになります(最大50%)このポリシーは「地球は平ら」のポリシーを無効にします",
-    RotterdamBonusV2:
-        "<li>入出力2倍 : 製鋼所</li><li>入出力2倍 : クロム製鋼材プラント</li><li>輸送無料 : 鉄</li><li>輸送半額 : 鋼材</li><li>自動売却量が2倍</li><li>ポリシー無料化 : 地球は平ら</li>",
     QuickLinks: "クイックリンク",
     GetHelp: "ヘルプ",
     GetHelpBeginnerGuides: "ビギナーズガイド",
@@ -1123,11 +1119,26 @@ export const JP = {
     HighSpeedWarehouseDesc: "倉庫の物流量が2倍になり、輸送速度が1.5倍になります。消費電力が2倍になります",
     IndustryZoneMultiplierDesc: "産業ゾーンボーナス",
     IndustryZoneMultiplierSwissBoost: "産業ゾーン容量ブースター",
-    IndustryZoneMultiplierSwissBoostDesc: "同じ産業ゾーン内の全施設がブースト効果を受けます",
     EarningPerMinuteV2: "オフライン収入率",
     OfflineResearchPoint: "オフラインリサーチポイント",
     WholesaleCenterOrderFasterV2: "卸売り大セール！",
     OfflineResearchSwissBoost: "オフラインリサーチ",
     OfflineResearchSwissBoostDesc:
         "オフライン収入でリサーチポイントも得られるようになります。(リサーチラボのレベル、科学所持量、オフライン時間に依存)",
+    SanJose: "San Jose",
+    SanJoseBonus:
+        "<li>Unique building: chip manufacturer</li><li>Unique building: FaceApp Inc</li><li>Unique building: Bitcoin Miner</li><li>All buildings that consume silicon have max tile modifier</li><li>Solar panels generate 2x power</li><li>Silicon mines have 2x output</li>",
+    RotterdamBonusV2:
+        "<li>入出力2倍 : 製鋼所</li><li>入出力2倍 : クロム製鋼材プラント</li><li>輸送無料 : 鉄</li><li>輸送半額 : 鋼材</li><li>自動売却量が2倍</li><li>ポリシー無料化 : 地球は平ら</li>",
+    ChipManufacturer: "Chip Manufacturer",
+    SnapTokInc: "SnapTok Inc",
+    FaceAppInc: "FaceApp Inc",
+    BitcoinMiner: "Bitcoin Miner",
+    GalvanicBatteryFactory: "Galvanic Battery Factory",
+    BaseProductionMultiplier: "Base Production",
+    ShowBreakdown: "Show Breakdown",
+    HideBreakdown: "Hide Breakdown",
+    IndustryZoneMultiplierSwissBoostDesc: "同じ産業ゾーン内の全施設がブースト効果を受けます",
+    IndustryZoneBuildingPermitDesc:
+        "If an industry zone has N tiers of productions, it will provide N-2 building permits for free",
 };

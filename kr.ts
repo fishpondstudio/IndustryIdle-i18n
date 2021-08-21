@@ -706,8 +706,6 @@ export const KR = {
     ReadSteamGuideV2Desc: "Steam에서 커뮤니티가 만든 가이드를 읽을 수 있으며 자신만의 가이드를 만들 수도 있습니다.",
     ChatMessageTooLong: "채팅 메시지가 허용되는 최대 문자 수를 초과했습니다",
     ChatPlaceholderV2: "메시지 입력: 최대 %{length}자",
-    ShowProfitBreakdown: "이익 분석 표시",
-    HideProfitBreakdown: "이익 분석 숨기기",
     ProfitBreakdownOutput: "%{res} 출력",
     ProfitBreakdownInput: "%{res} 입력",
     ProfitBreakdownFuel: "연료 비용",
@@ -1017,8 +1015,6 @@ export const KR = {
         "모든 타일 보정 효과 2배 - 양수, 음수 모두. 이 정책은 지구는 평평하다 정책을 비활성화합니다",
     TileModifierOutputOnlyDescV2:
         "타일 보정은 입력과 출력이 아닌 출력에만 영향을 주지만 50%만 효과적입니다. 이 정책은 지구는 평평하다 정책을 비활성화합니다",
-    RotterdamBonusV2:
-        "<li>제철소 용량 2배</li><li>스테인리스 공장 용량 2배</li><li>무료 철 수송</li><li>강철 수송 연료비 50% 절감</li><li>자동 판매 용량 2배로 시작</li><li>지구는 평평하다 정책 무료</li>",
     QuickLinks: "빠른 링크",
     GetHelp: "도움 받기",
     GetHelpBeginnerGuides: "초보자 안내서",
@@ -1120,16 +1116,30 @@ export const KR = {
     ConstructionNotResearched: "Not Researched",
     OfflineEarningDescV2: "Offline earning depends on your current research, production and auto sell",
     HighSpeedWarehouse: "고속창고",
-    HighSpeedWarehouseDesc:
-        "고속창고는 2배의 용량과 50% 더빠른 입출력속도를 갖는대신 2배의 전기를 소모합니다.",
+    HighSpeedWarehouseDesc: "고속창고는 2배의 용량과 50% 더빠른 입출력속도를 갖는대신 2배의 전기를 소모합니다.",
     IndustryZoneMultiplierDesc: "Industry Zone Bonus",
     IndustryZoneMultiplierSwissBoost: "Industry Zone Capacity Booster",
-    IndustryZoneMultiplierSwissBoostDesc:
-        "Each building inside an industry zone provides this capacity boost to all the buildings in the same zone",
     EarningPerMinuteV2: "Offline Earning Rate",
     OfflineResearchPoint: "Offline Research Point",
     WholesaleCenterOrderFasterV2: "Bigger Faster Wholesale",
     OfflineResearchSwissBoost: "Offline Research",
     OfflineResearchSwissBoostDesc:
         "Research points are generated while you are offline (according to your Research Lab level, Science in your warehouse and offline earning time)",
+    SanJose: "San Jose",
+    SanJoseBonus:
+        "<li>Unique building: chip manufacturer</li><li>Unique building: FaceApp Inc</li><li>Unique building: Bitcoin Miner</li><li>All buildings that consume silicon have max tile modifier</li><li>Solar panels generate 2x power</li><li>Silicon mines have 2x output</li>",
+    RotterdamBonusV2:
+        "<li>제철소 용량 2배</li><li>스테인리스 공장 용량 2배</li><li>무료 철 수송</li><li>강철 수송 연료비 50% 절감</li><li>자동 판매 용량 2배로 시작</li><li>지구는 평평하다 정책 무료</li>",
+    ChipManufacturer: "Chip Manufacturer",
+    SnapTokInc: "SnapTok Inc",
+    FaceAppInc: "FaceApp Inc",
+    BitcoinMiner: "Bitcoin Miner",
+    GalvanicBatteryFactory: "Galvanic Battery Factory",
+    BaseProductionMultiplier: "Base Production",
+    ShowBreakdown: "Show Breakdown",
+    HideBreakdown: "Hide Breakdown",
+    IndustryZoneMultiplierSwissBoostDesc:
+        "Each building inside an industry zone provides this capacity boost to all the buildings in the same zone",
+    IndustryZoneBuildingPermitDesc:
+        "If an industry zone has N tiers of productions, it will provide N-2 building permits for free",
 };

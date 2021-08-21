@@ -756,8 +756,6 @@ export const FR = {
         "Vous pouvez lire les guides créés par la communauté sur Steam - et vous pouvez également créer les vôtres",
     ChatMessageTooLong: "Votre message de chat a dépassé le nombre maximal de caractères autorisé",
     ChatPlaceholderV2: "Tapez votre message: max %{length} chars",
-    ShowProfitBreakdown: "Afficher l'améilloration des bénéfices",
-    HideProfitBreakdown: "Masquer cassage des bénéfices",
     ProfitBreakdownOutput: "%{res} Sortie",
     ProfitBreakdownInput: "%{res} Entrée",
     ProfitBreakdownFuel: "Le coût du carburant",
@@ -1082,8 +1080,6 @@ export const FR = {
         "All tile modifiers' effect x2 - both positive and negative. This policy will deactivate Earth Is Flat policy",
     TileModifierOutputOnlyDescV2:
         "Tile modifiers only affect output instead of both input and output but are only 50% effective. This policy will deactivate Earth Is Flat policy",
-    RotterdamBonusV2:
-        "<li>Steel Mills have 2x capacity</li><li>Stainless Steel Plants have 2x capacity</li><li>Free iron transportation</li><li>Steel transportation costs 50% less fuel</li><li>Start with 2x auto sell capacity</li><li>Earth Is Flat policy is free</li>",
     QuickLinks: "Quick Links",
     GetHelp: "Get Help",
     GetHelpBeginnerGuides: "Beginner's Guide",
@@ -1189,12 +1185,27 @@ export const FR = {
         "Warehouses have 2x capacity and 50% faster inward and outward transport speed, but use 2x power",
     IndustryZoneMultiplierDesc: "Industry Zone Bonus",
     IndustryZoneMultiplierSwissBoost: "Industry Zone Capacity Booster",
-    IndustryZoneMultiplierSwissBoostDesc:
-        "Each building inside an industry zone provides this capacity boost to all the buildings in the same zone",
     EarningPerMinuteV2: "Offline Earning Rate",
     OfflineResearchPoint: "Offline Research Point",
     WholesaleCenterOrderFasterV2: "Bigger Faster Wholesale",
     OfflineResearchSwissBoost: "Offline Research",
     OfflineResearchSwissBoostDesc:
         "Research points are generated while you are offline (according to your Research Lab level, Science in your warehouse and offline earning time)",
+    SanJose: "San Jose",
+    SanJoseBonus:
+        "<li>Unique building: chip manufacturer</li><li>Unique building: FaceApp Inc</li><li>Unique building: Bitcoin Miner</li><li>All buildings that consume silicon have max tile modifier</li><li>Solar panels generate 2x power</li><li>Silicon mines have 2x output</li>",
+    RotterdamBonusV2:
+        "<li>Steel Mills have 2x capacity</li><li>Stainless Steel Plants have 2x capacity</li><li>Free iron transportation</li><li>Steel transportation costs 50% less fuel</li><li>Start with 2x auto sell capacity</li><li>Earth Is Flat policy is free</li>",
+    ChipManufacturer: "Chip Manufacturer",
+    SnapTokInc: "SnapTok Inc",
+    FaceAppInc: "FaceApp Inc",
+    BitcoinMiner: "Bitcoin Miner",
+    GalvanicBatteryFactory: "Galvanic Battery Factory",
+    BaseProductionMultiplier: "Base Production",
+    ShowBreakdown: "Show Breakdown",
+    HideBreakdown: "Hide Breakdown",
+    IndustryZoneMultiplierSwissBoostDesc:
+        "Each building inside an industry zone provides this capacity boost to all the buildings in the same zone",
+    IndustryZoneBuildingPermitDesc:
+        "If an industry zone has N tiers of productions, it will provide N-2 building permits for free",
 };

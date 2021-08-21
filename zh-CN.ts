@@ -688,8 +688,6 @@ export const ZH_CN = {
     ReadSteamGuideV2Desc: "你可以在Steam上浏览由游戏社区编写的指南-你也可以编写自己的指南",
     ChatMessageTooLong: "聊天消息长度超过了字符数上限",
     ChatPlaceholderV2: "在此键入消息: 最多%{length}个字符",
-    ShowProfitBreakdown: "显示利润细目",
-    HideProfitBreakdown: "隐藏利润细目",
     ProfitBreakdownOutput: "%{res} 产出",
     ProfitBreakdownInput: "%{res} 消耗",
     ProfitBreakdownFuel: "燃料成本",
@@ -993,8 +991,6 @@ export const ZH_CN = {
     DoubleTileModifierDescV2: "所有地块修正翻倍-包括正面和负面效果。开启此政策会停用“地球是平的”政策",
     TileModifierOutputOnlyDescV2:
         "地块修正不再同时影响消耗和产出，而是只对产出有效，但仅有原来50％的效果。开启此政策会停用“地球是平的”政策",
-    RotterdamBonusV2:
-        "<li>钢厂的生产能力是原来的2倍</li><li>不锈钢厂的生产能力是原来的2倍</li><li>铁运输免费</li><li>钢运输的燃料成本降低50％</li><li>初始自动销售量是原来的2倍</li><li>“地球是平的”政策免政策点</li>",
     QuickLinks: "快捷链接",
     GetHelp: "寻求帮助",
     GetHelpBeginnerGuides: "新手指南",
@@ -1091,16 +1087,28 @@ export const ZH_CN = {
     ConstructionNotResearched: "Not Researched",
     OfflineEarningDescV2: "离线收入取决于您当前的研究、生产力和销售能力",
     HighSpeedWarehouse: "仓库快速",
-    HighSpeedWarehouseDesc: 
-    "仓库运输的容量提高了2倍，进出运输的速度提高了50%，但使用了2倍的电力",
+    HighSpeedWarehouseDesc: "仓库运输的容量提高了2倍，进出运输的速度提高了50%，但使用了2倍的电力",
     IndustryZoneMultiplierDesc: "工业区奖金",
     IndustryZoneMultiplierSwissBoost: "工业区产能提升",
-    IndustryZoneMultiplierSwissBoostDesc: 
-    "工业区内的每栋建筑都为同一区域内的所有建筑提供产能提升",
     EarningPerMinuteV2: "收益率",
     OfflineResearchPoint: "离线研究点",
     WholesaleCenterOrderFasterV2: "更快更大的批发",
     OfflineResearchSwissBoost: "离线研究",
-    OfflineResearchSwissBoostDesc: 
-    "离线时会产生研究点（根据你的研究实验室等级、学习中的科学点和离线时间）",
+    OfflineResearchSwissBoostDesc: "离线时会产生研究点（根据你的研究实验室等级、学习中的科学点和离线时间）",
+    SanJose: "San Jose",
+    SanJoseBonus:
+        "<li>Unique building: chip manufacturer</li><li>Unique building: FaceApp Inc</li><li>Unique building: Bitcoin Miner</li><li>All buildings that consume silicon have max tile modifier</li><li>Solar panels generate 2x power</li><li>Silicon mines have 2x output</li>",
+    RotterdamBonusV2:
+        "<li>钢厂的生产能力是原来的2倍</li><li>不锈钢厂的生产能力是原来的2倍</li><li>铁运输免费</li><li>钢运输的燃料成本降低50％</li><li>初始自动销售量是原来的2倍</li><li>“地球是平的”政策免政策点</li>",
+    ChipManufacturer: "Chip Manufacturer",
+    SnapTokInc: "SnapTok Inc",
+    FaceAppInc: "FaceApp Inc",
+    BitcoinMiner: "Bitcoin Miner",
+    GalvanicBatteryFactory: "Galvanic Battery Factory",
+    BaseProductionMultiplier: "Base Production",
+    ShowBreakdown: "Show Breakdown",
+    HideBreakdown: "Hide Breakdown",
+    IndustryZoneMultiplierSwissBoostDesc: "工业区内的每栋建筑都为同一区域内的所有建筑提供产能提升",
+    IndustryZoneBuildingPermitDesc:
+        "If an industry zone has N tiers of productions, it will provide N-2 building permits for free",
 };

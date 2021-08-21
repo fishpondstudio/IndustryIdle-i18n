@@ -36,7 +36,8 @@ export const PL = {
     Petrol: "Benzyna",
     Buy: "Kup",
     NoLiquidity: "Brak płynności",
-    NoLiquidityTurnOffAutoSell: "Nie ma wystarczającej ilości produktów na rynku dla %{res}, automatyczna sprzedaż została wyłączona",
+    NoLiquidityTurnOffAutoSell:
+        "Nie ma wystarczającej ilości produktów na rynku dla %{res}, automatyczna sprzedaż została wyłączona",
     Multiplier: "Mnożnik",
     MultiplierDesc: "Każde 10 poziomów, zwieksza mnożnik o 1",
     SellBuilding: "Sprzedaj budynek",
@@ -152,7 +153,8 @@ export const PL = {
     ResourceOutput: "Produkuje",
     ResourceStorage: "Magazyn",
     ResourceChange: "Zmiana",
-    ResourceInOutDesc: "💡 Stuknij w liczby Pobiera/Produkuje powyżej, aby podświetlić odpowiednie budynki produkujące i pobierajace.",
+    ResourceInOutDesc:
+        "💡 Stuknij w liczby Pobiera/Produkuje powyżej, aby podświetlić odpowiednie budynki produkujące i pobierajace.",
     ResourceChart: "Wykres zasobów",
     MarketUpdateIn: "Aktualizacja rynku za %{time}",
     Income: "Dochód",
@@ -199,13 +201,15 @@ export const PL = {
     ResourceDeposit: "Depozyt zasobów",
     RecommendedBuilding: "💡 To pole ma  %{resource} zasobów",
     AdjacentBonus: "Premia za sąsiedztwo",
-    AdjacentBonusDesc: "Otrzymujesz %{bonus}% dodatkową premię za każdy sąsiadujacy i pracujacy budynek tego samego typu",
+    AdjacentBonusDesc:
+        "Otrzymujesz %{bonus}% dodatkową premię za każdy sąsiadujacy i pracujacy budynek tego samego typu",
     ConsiderIncreaseProduction: "💡 Rozważ zwiekszenie produkcji %{resource} ",
     AlwaysTransportInput: "Nadwyżka magazynowa",
     AlwaysTransportInputTradeCenter: "Zawsze eksportuj",
     AlwaysTransportInputTradeCenterDesc:
         "Zawsze transportuj surowce do Rynku, nawet jeżeli autosprzedaż nie jest katywna dla danego surowca",
-    AlwaysTransportInputDesc: "Zawsze transportuj surowce produkcyjne, nawet jeżeli spełnione zostały minimalne wymogi produkcji",
+    AlwaysTransportInputDesc:
+        "Zawsze transportuj surowce produkcyjne, nawet jeżeli spełnione zostały minimalne wymogi produkcji",
     ProductionCycleLength: "Cykl produkcyjny",
     ProductionCycleLengthDesc:
         "Długość cyklu produkcji mierzona jest w sekundach. Wydłużenie cyklu zwiększy zapotrzeobwanie surowców i produkcje, tym samym redukując priorytet dostarczania surowców",
@@ -716,8 +720,6 @@ export const PL = {
     ReadSteamGuideV2Desc: "You can read community created guides on Steam - and you can create your own as well",
     ChatMessageTooLong: "Your chat message exceeds the maximum chars allowed",
     ChatPlaceholderV2: "Type your message: max %{length} chars",
-    ShowProfitBreakdown: "Show Profit Breakdown",
-    HideProfitBreakdown: "Hide Profit Breakdown",
     ProfitBreakdownOutput: "%{res} Output",
     ProfitBreakdownInput: "%{res} Input",
     ProfitBreakdownFuel: "Fuel Cost",
@@ -1037,8 +1039,6 @@ export const PL = {
         "All tile modifiers' effect x2 - both positive and negative. This policy will deactivate Earth Is Flat policy",
     TileModifierOutputOnlyDescV2:
         "Tile modifiers only affect output instead of both input and output but are only 50% effective. This policy will deactivate Earth Is Flat policy",
-    RotterdamBonusV2:
-        "<li>Steel Mills have 2x capacity</li><li>Stainless Steel Plants have 2x capacity</li><li>Free iron transportation</li><li>Steel transportation costs 50% less fuel</li><li>Start with 2x auto sell capacity</li><li>Earth Is Flat policy is free</li>",
     QuickLinks: "Quick Links",
     GetHelp: "Get Help",
     GetHelpBeginnerGuides: "Beginner's Guide",
@@ -1133,7 +1133,8 @@ export const PL = {
     ArmyCommand: "Army Command",
     Army: "Armia",
     GreenPeacekeeper: "Zielony Strażnik Pokoju",
-    GreenPeacekeeperDesc: "Twórz armie, marynarkę wojenna, siły potwietrzne czy drużyny kosmiczne korzystajac tylko z odnawialnych źródeł energii (turbina, panel solarny)",
+    GreenPeacekeeperDesc:
+        "Twórz armie, marynarkę wojenna, siły potwietrzne czy drużyny kosmiczne korzystajac tylko z odnawialnych źródeł energii (turbina, panel solarny)",
     DotComTycoon: "Bańka internetowa",
     DotComTycoonDesc:
         "Build a level 10 Social Network Inc, level 10 Search Engine Company, level 10 SkyNet Inc and level 10 Musify Inc on the same map",
@@ -1144,12 +1145,27 @@ export const PL = {
         "Warehouses have 2x capacity and 50% faster inward and outward transport speed, but use 2x power",
     IndustryZoneMultiplierDesc: "Industry Zone Bonus",
     IndustryZoneMultiplierSwissBoost: "Industry Zone Capacity Booster",
-    IndustryZoneMultiplierSwissBoostDesc:
-        "Each building inside an industry zone provides this capacity boost to all the buildings in the same zone",
     EarningPerMinuteV2: "Zarobki offline",
     OfflineResearchPoint: "Punkty badań offline",
     WholesaleCenterOrderFasterV2: "Szybki rynek zbytu",
     OfflineResearchSwissBoost: "Badania offline",
     OfflineResearchSwissBoostDesc:
         "Research points are generated while you are offline (according to your Research Lab level, Science in your warehouse and offline earning time)",
+    SanJose: "San Jose",
+    SanJoseBonus:
+        "<li>Unique building: chip manufacturer</li><li>Unique building: FaceApp Inc</li><li>Unique building: Bitcoin Miner</li><li>All buildings that consume silicon have max tile modifier</li><li>Solar panels generate 2x power</li><li>Silicon mines have 2x output</li>",
+    RotterdamBonusV2:
+        "<li>Steel Mills have 2x capacity</li><li>Stainless Steel Plants have 2x capacity</li><li>Free iron transportation</li><li>Steel transportation costs 50% less fuel</li><li>Start with 2x auto sell capacity</li><li>Earth Is Flat policy is free</li>",
+    ChipManufacturer: "Chip Manufacturer",
+    SnapTokInc: "SnapTok Inc",
+    FaceAppInc: "FaceApp Inc",
+    BitcoinMiner: "Bitcoin Miner",
+    GalvanicBatteryFactory: "Galvanic Battery Factory",
+    BaseProductionMultiplier: "Base Production",
+    ShowBreakdown: "Show Breakdown",
+    HideBreakdown: "Hide Breakdown",
+    IndustryZoneMultiplierSwissBoostDesc:
+        "Each building inside an industry zone provides this capacity boost to all the buildings in the same zone",
+    IndustryZoneBuildingPermitDesc:
+        "If an industry zone has N tiers of productions, it will provide N-2 building permits for free",
 };
