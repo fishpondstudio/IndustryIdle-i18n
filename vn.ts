@@ -1062,8 +1062,6 @@ export const VN = {
     TotalPledgedValueDesc:
         "Chỉ đóng góp đầu tiên được tính vào mục tiêu quyên góp, những lần đóng góp tiếp theo sẽ nâng giá trị nhưng không tính vào mục tiêu",
     ReturnOnPledge: "Lợi nhuận trên đóng góp",
-    ReturnOnPledgeDesc:
-        "Đây là lợi nhuận của bạn nếu đợt quyên góp này thành công. Nó được tính trên tổng giá trị đóng góp và phần trăm phụ thuộc vào mỗi loại tài nguyên bạn đã góp vào",
     CrowdfundingEndIn: "Kết thúc trong %{time}",
     ClaimCrowdfundingReward: "Nhận thưởng %{amount}",
     ClaimCrowdfundingRefund: "Nhận hoàn trả %{amount}",
@@ -1176,4 +1174,9 @@ export const VN = {
         "Each building inside an industry zone provides this capacity boost to all the buildings in the same zone",
     IndustryZoneBuildingPermitDesc:
         "If an industry zone has N tiers of productions, it will provide N-2 building permits for free",
+    CrowdfundingBackersReturn: "Backers: %{backers}, Current Return: %{return}",
+    CrowdfundingBackersNeeded: "%{backers} More Backer(s)",
+    CrowdfundingReturnBonus: "+%{return} Return",
+    ReturnOnPledgeDescV2:
+        "Your total return equals to total pledged value multiplied by return rates from all resources. More backers of a resource will improve its return",
 };

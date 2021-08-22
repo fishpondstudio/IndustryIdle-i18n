@@ -1003,8 +1003,6 @@ export const ZH_TW = {
     TotalPledgedValueDesc:
         "你的第一筆贊助會被算入群眾募資中。隨後額外的贊助將提升你的總贊助金額，但不會被算入群眾募資的總目標中。",
     ReturnOnPledge: "募資回饋",
-    ReturnOnPledgeDesc:
-        "群眾募資成功的話，這將會是你獲得的回饋。回饋金額的計算方式是依據你的總贊助金額，以及依據你贊助的種類數目所換算出的百分比。",
     CrowdfundingEndIn: "將於 %{time}結束",
     ClaimCrowdfundingReward: "領取回饋 %{amount}",
     ClaimCrowdfundingRefund: "領取退款 %{amount}",
@@ -1111,4 +1109,9 @@ export const ZH_TW = {
     IndustryZoneMultiplierSwissBoostDesc: "工業區內的每座建築物都為同一區內的所有建築物提供這種容量提升",
     IndustryZoneBuildingPermitDesc:
         "If an industry zone has N tiers of productions, it will provide N-2 building permits for free",
+    CrowdfundingBackersReturn: "Backers: %{backers}, Current Return: %{return}",
+    CrowdfundingBackersNeeded: "%{backers} More Backer(s)",
+    CrowdfundingReturnBonus: "+%{return} Return",
+    ReturnOnPledgeDescV2:
+        "Your total return equals to total pledged value multiplied by return rates from all resources. More backers of a resource will improve its return",
 };

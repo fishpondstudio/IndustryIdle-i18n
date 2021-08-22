@@ -1082,8 +1082,6 @@ export const DE = {
     TotalPledgedValueDesc:
         "Dein erster Beitrag zählt für das Crowdfunding-Ziel. Nachfolgende Beiträge erhöhen den Gesamt Beitragswert, zählen aber nicht zum Ziel",
     ReturnOnPledge: "Rückgabe bei Erfolg",
-    ReturnOnPledgeDesc:
-        "Das ist die Rendite, wenn das Crowdfunding erfolgreich ist. Es wird auf der Grundlage des gesamten Beitragswertes berechnet und der Prozentsatz hängt davon ab, wie viele verschiedene Ressourcen Sie beigetragen haben",
     CrowdfundingEndIn: "Endet in %{time}",
     ClaimCrowdfundingReward: "Belohnung einfordern %{amount}",
     ClaimCrowdfundingRefund: "Rückerstattung beantragen %{amount}",
@@ -1199,4 +1197,9 @@ export const DE = {
         "Each building inside an industry zone provides this capacity boost to all the buildings in the same zone",
     IndustryZoneBuildingPermitDesc:
         "If an industry zone has N tiers of productions, it will provide N-2 building permits for free",
+    CrowdfundingBackersReturn: "Backers: %{backers}, Current Return: %{return}",
+    CrowdfundingBackersNeeded: "%{backers} More Backer(s)",
+    CrowdfundingReturnBonus: "+%{return} Return",
+    ReturnOnPledgeDescV2:
+        "Your total return equals to total pledged value multiplied by return rates from all resources. More backers of a resource will improve its return",
 };

@@ -1032,8 +1032,6 @@ export const JP = {
     TotalPledgedValueDesc:
         "最初の支援は、全体の支援物資量にカウントされます。その後の支援は、「あなたの支援額合計」だけを増やします",
     ReturnOnPledge: "リターン",
-    ReturnOnPledgeDesc:
-        "このクラウドファンディングが成功した場合のリターンです。「あなたの支援額合計」に%を上乗せした現金が得られます。%は提供した資源の種類が増えると上がります",
     CrowdfundingEndIn: "終了-%{time}",
     ClaimCrowdfundingReward: "%{amount}の報酬を受け取る",
     ClaimCrowdfundingRefund: "%{amount}の払い戻しを受け取る",
@@ -1141,4 +1139,9 @@ export const JP = {
     IndustryZoneMultiplierSwissBoostDesc: "同じ産業ゾーン内の全施設がブースト効果を受けます",
     IndustryZoneBuildingPermitDesc:
         "If an industry zone has N tiers of productions, it will provide N-2 building permits for free",
+    CrowdfundingBackersReturn: "Backers: %{backers}, Current Return: %{return}",
+    CrowdfundingBackersNeeded: "%{backers} More Backer(s)",
+    CrowdfundingReturnBonus: "+%{return} Return",
+    ReturnOnPledgeDescV2:
+        "Your total return equals to total pledged value multiplied by return rates from all resources. More backers of a resource will improve its return",
 };

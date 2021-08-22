@@ -1029,8 +1029,6 @@ export const KR = {
     TotalPledgedValueDesc:
         "당신의 첫 담보는 크라우드 펀딩 목표에 포함됩니다. 후속 담보는 총 담보 가치를 증가시키지만 목표에 포함되지는 않습니다",
     ReturnOnPledge: "담보 반환",
-    ReturnOnPledgeDesc:
-        "이 크라우드 펀딩이 성공한 경우의 수익입니다. 총 담보 가치를 기준으로 계산되며 백분율은 담보로 건 자원의 종류에 따라 다릅니다",
     CrowdfundingEndIn: "%{time}후 종료",
     ClaimCrowdfundingReward: "보상 청구 %{amount}",
     ClaimCrowdfundingRefund: "담보 환불 %{amount}",
@@ -1142,4 +1140,9 @@ export const KR = {
         "Each building inside an industry zone provides this capacity boost to all the buildings in the same zone",
     IndustryZoneBuildingPermitDesc:
         "If an industry zone has N tiers of productions, it will provide N-2 building permits for free",
+    CrowdfundingBackersReturn: "Backers: %{backers}, Current Return: %{return}",
+    CrowdfundingBackersNeeded: "%{backers} More Backer(s)",
+    CrowdfundingReturnBonus: "+%{return} Return",
+    ReturnOnPledgeDescV2:
+        "Your total return equals to total pledged value multiplied by return rates from all resources. More backers of a resource will improve its return",
 };

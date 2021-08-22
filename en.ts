@@ -1050,8 +1050,6 @@ export const EN = {
     TotalPledgedValueDesc:
         "Your first pledge counts towards the crowdfunding goal. Subsequent pledges increase total pledged value but do not count towards the goal",
     ReturnOnPledge: "Return On Pledge",
-    ReturnOnPledgeDesc:
-        "This is your return if this crowdfunding is successful. It is calculated based on total pledged value and the percentage depends on how many different resources you've pledged",
     CrowdfundingEndIn: "End in %{time}",
     ClaimCrowdfundingReward: "Claim Reward %{amount}",
     ClaimCrowdfundingRefund: "Claim Refund %{amount}",
@@ -1148,9 +1146,9 @@ export const EN = {
         "Research points are generated while you are offline (according to your Research Lab level, Science in your warehouse and offline earning time)",
     SanJose: "San Jose",
     SanJoseBonus:
-        "<li>Unique building: chip manufacturer</li><li>Unique building: FaceApp Inc</li><li>Unique building: Bitcoin Miner</li><li>All buildings that consume silicon have max tile modifier</li><li>Solar panels generate 2x power</li><li>Silicon mines have 2x output</li>",
+        "<li>Unique building: chip manufacturer</li><li>Unique building: FaceApp Inc</li><li>Unique building: Bitcoin Miner</li><li>All buildings that consume silicon have max tile modifier</li><li>Start with 100% Industry Zone Capacity Booster</li><li>Extra 25% return for crowdfunding</li><li>All buildings that consume or produce internet has 2x capacity</li><li>Solar panels generate 2x power</li><li>Silicon mines have 2x output</li>",
     RotterdamBonusV2:
-        "<li>Steel mills have 2x capacity</li><li>Wind turbines generate 2x power</li><li>Stainless Steel Plants have 2x capacity</li><li>Free iron transportation</li><li>Steel transportation costs 50% less fuel</li><li>Start with 2x auto sell capacity</li><li>Earth Is Flat policy is free</li><li>Start with 100% Industry Zone Capacity Booster</li>",
+        "<li>Steel mills have 2x capacity</li><li>Wind turbines generate 2x power</li><li>Stainless Steel Plants have 2x capacity</li><li>Free iron transportation</li><li>Steel transportation costs 50% less fuel</li><li>Start with 2x auto sell capacity</li><li>Earth Is Flat policy is free</li>",
     ChipManufacturer: "Chip Manufacturer",
     SnapTokInc: "SnapTok Inc",
     FaceAppInc: "FaceApp Inc",
@@ -1163,4 +1161,9 @@ export const EN = {
         "Each tier of production chain inside an industry zone provides this capacity boost to all the buildings in the same zone",
     IndustryZoneBuildingPermitDesc:
         "If an industry zone has N tiers of productions, it will provide N-2 building permits for free",
+    CrowdfundingBackersReturn: "Backers: %{backers}, Current Return: %{return}",
+    CrowdfundingBackersNeeded: "%{backers} More Backer(s)",
+    CrowdfundingReturnBonus: "+%{return} Return",
+    ReturnOnPledgeDescV2:
+        "Your total return equals to total pledged value multiplied by return rates from all resources. More backers of a resource will improve its return",
 };

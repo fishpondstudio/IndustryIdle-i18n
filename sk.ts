@@ -1049,8 +1049,6 @@ export const SK = {
     TotalPledgedValueDesc:
         "Your first pledge counts towards the crowdfunding goal. Subsequent pledges increase total pledged value but do not count towards the goal",
     ReturnOnPledge: "Return On Pledge",
-    ReturnOnPledgeDesc:
-        "This is your return if this crowdfunding is successful. It is calculated based on total pledged value and the percentage depends on how many different resources you've pledged",
     CrowdfundingEndIn: "End in %{time}",
     ClaimCrowdfundingReward: "Claim Reward %{amount}",
     ClaimCrowdfundingRefund: "Claim Refund %{amount}",
@@ -1162,4 +1160,9 @@ export const SK = {
         "Each building inside an industry zone provides this capacity boost to all the buildings in the same zone",
     IndustryZoneBuildingPermitDesc:
         "If an industry zone has N tiers of productions, it will provide N-2 building permits for free",
+    CrowdfundingBackersReturn: "Backers: %{backers}, Current Return: %{return}",
+    CrowdfundingBackersNeeded: "%{backers} More Backer(s)",
+    CrowdfundingReturnBonus: "+%{return} Return",
+    ReturnOnPledgeDescV2:
+        "Your total return equals to total pledged value multiplied by return rates from all resources. More backers of a resource will improve its return",
 };

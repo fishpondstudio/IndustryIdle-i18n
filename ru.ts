@@ -1074,8 +1074,6 @@ export const RU = {
     TotalPledgedValueDesc:
         "Ваш первый залог учитывается при достижении цели Совместное финансирование. Последующие взносы увеличивают общую объявленную стоимость, но не учитываются при достижении цели",
     ReturnOnPledge: "Возврат залога",
-    ReturnOnPledgeDesc:
-        "Это ваш доход в случае успешного совместного финансирования. Он рассчитывается на базе общей заложенной стоимости, а процент зависит от того, сколько различных ресурсов вы заложили",
     CrowdfundingEndIn: "Закончится в %{time}",
     ClaimCrowdfundingReward: "Получить награду %{amount}",
     ClaimCrowdfundingRefund: "Получить возмещение %{amount}",
@@ -1196,4 +1194,9 @@ export const RU = {
         "Каждое здание в промышленной зоне увеличивает мощность всех зданий в той же зоне",
     IndustryZoneBuildingPermitDesc:
         "If an industry zone has N tiers of productions, it will provide N-2 building permits for free",
+    CrowdfundingBackersReturn: "Backers: %{backers}, Current Return: %{return}",
+    CrowdfundingBackersNeeded: "%{backers} More Backer(s)",
+    CrowdfundingReturnBonus: "+%{return} Return",
+    ReturnOnPledgeDescV2:
+        "Your total return equals to total pledged value multiplied by return rates from all resources. More backers of a resource will improve its return",
 };

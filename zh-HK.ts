@@ -998,7 +998,6 @@ export const ZH_HK = {
     TotalPledgedValue: "總贊助值",
     TotalPledgedValueDesc: "您嘅第一單贊助計入眾籌目標。之後嘅贊助加落總贊助值但唔會計入眾籌目標。",
     ReturnOnPledge: "贊助報酬",
-    ReturnOnPledgeDesc: "眾籌募資成功嘅話，呢個係您嘅報酬。呢個係基於總贊助值同您贊助幾多唔同種資源嘅%計出嚟。",
     CrowdfundingEndIn: "完喺 %{time}",
     ClaimCrowdfundingReward: "攞獎勵 %{amount}",
     ClaimCrowdfundingRefund: "攞退款 %{amount}",
@@ -1105,4 +1104,9 @@ export const ZH_HK = {
         "Each building inside an industry zone provides this capacity boost to all the buildings in the same zone",
     IndustryZoneBuildingPermitDesc:
         "If an industry zone has N tiers of productions, it will provide N-2 building permits for free",
+    CrowdfundingBackersReturn: "Backers: %{backers}, Current Return: %{return}",
+    CrowdfundingBackersNeeded: "%{backers} More Backer(s)",
+    CrowdfundingReturnBonus: "+%{return} Return",
+    ReturnOnPledgeDescV2:
+        "Your total return equals to total pledged value multiplied by return rates from all resources. More backers of a resource will improve its return",
 };

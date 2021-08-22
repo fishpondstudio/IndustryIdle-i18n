@@ -1004,8 +1004,6 @@ export const ZH_CN = {
     TotalPledgedValue: "总认捐金额",
     TotalPledgedValueDesc: "你的第一笔认捐会计入众筹目标中。后续认捐会提升总认捐金额，但不会计入众筹目标中",
     ReturnOnPledge: "众筹回馈",
-    ReturnOnPledgeDesc:
-        "若众筹成功，这将会是你能获得的回馈。回馈金额根据总认捐金额和基于你已认捐的不同资源种类数换算出的百分比来计算",
     CrowdfundingEndIn: "于%{time}后结束",
     ClaimCrowdfundingReward: "领取回馈%{amount}",
     ClaimCrowdfundingRefund: "领取退款%{amount}",
@@ -1111,4 +1109,9 @@ export const ZH_CN = {
     IndustryZoneMultiplierSwissBoostDesc: "工业区内的每栋建筑都为同一区域内的所有建筑提供产能提升",
     IndustryZoneBuildingPermitDesc:
         "If an industry zone has N tiers of productions, it will provide N-2 building permits for free",
+    CrowdfundingBackersReturn: "Backers: %{backers}, Current Return: %{return}",
+    CrowdfundingBackersNeeded: "%{backers} More Backer(s)",
+    CrowdfundingReturnBonus: "+%{return} Return",
+    ReturnOnPledgeDescV2:
+        "Your total return equals to total pledged value multiplied by return rates from all resources. More backers of a resource will improve its return",
 };
