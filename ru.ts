@@ -1193,10 +1193,10 @@ export const RU = {
     IndustryZoneMultiplierSwissBoostDesc:
         "Каждое здание в промышленной зоне увеличивает мощность всех зданий в той же зоне",
     IndustryZoneBuildingPermitDesc:
-        "If an industry zone has N tiers of productions, it will provide N-2 building permits for free",
-    CrowdfundingBackersReturn: "Backers: %{backers}, Current Return: %{return}",
-    CrowdfundingBackersNeeded: "%{backers} More Backer(s)",
-    CrowdfundingReturnBonus: "+%{return} Return",
+        "Если в промышленной зоне имеется N уровней производств, то она будет бесплатно выдавать N-2 разрешений на строительство",
+    CrowdfundingBackersReturn: "Спонсоры: %{backers}, Текущий доход: %{return}",
+    CrowdfundingBackersNeeded: "%{backers} Больше спонсоров",
+    CrowdfundingReturnBonus: "+%{return} дохода",
     ReturnOnPledgeDescV2:
-        "Your total return equals to total pledged value multiplied by return rates from all resources. More backers of a resource will improve its return",
+        "Ваш общий доход равен общей заложенной стоимости, умноженной на коэффициент доходности всех ресурсов. Чем больше спонсоров у ресурса, тем выше его доходность",
 };
