@@ -727,7 +727,6 @@ export const ES = {
     ResourceExplorerDescLong: "💡 Resource Explorers do not have adjacent bonus. The power usage differs per resource",
     ResourceExplorerSelectResource: "Explorar",
     ProductionSettings: "Ajustes de producción",
-    PlayerTradeQuotaDesc: "💡 Player trade quota is %{percent} of your market cap, it resets when the market updates",
     PlayerTradePartialFillTitle: "Choose Fill Percentage",
     PlayerTradeAmountNotValidV2: "Minimum trade amount allowed is 1",
     PlayerTradeOptOut: "You have opted out of the leaderboard, you cannot trade with other players",
@@ -1185,4 +1184,6 @@ export const ES = {
     CrowdfundingReturnBonus: "+%{return} Return",
     ReturnOnPledgeDescV2:
         "Your total return equals to total pledged value multiplied by return rates from all resources. More backers of a resource will improve its return",
+    PlayerTradeQuotaDescV2:
+        "💡 Quota is the amount of the resource you can trade. The monetary value equals to %{percent} of your market cap and it resets when the market updates. The more your trade's price deviates from your trade center price, the more quota you need",
 };

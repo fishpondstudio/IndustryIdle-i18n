@@ -731,8 +731,6 @@ export const DE = {
         "💡 Ressourcen-Entdecker haben keinen Benachbarungsbonus. Der Stromverbrauch ist je nach Ressource unterschiedlich",
     ResourceExplorerSelectResource: "Erkunden",
     ProductionSettings: "Produktionseinstellungen",
-    PlayerTradeQuotaDesc:
-        "💡 Die Handelsquote der Spieler beträgt %{percent} Ihres Marktkapitals. Sie wird zurückgesetzt, wenn der Markt aktualisiert wird",
     PlayerTradePartialFillTitle: "Wählen Sie Füllprozentsatz",
     PlayerTradeAmountNotValidV2: "Der minimal zulässige Handelsbetrag beträgt 1",
     PlayerTradeOptOut: "Sie haben sich von der Rangliste abgemeldet und können nicht mit anderen Spielern handeln",
@@ -1202,4 +1200,6 @@ export const DE = {
     CrowdfundingReturnBonus: "+%{return} Return",
     ReturnOnPledgeDescV2:
         "Your total return equals to total pledged value multiplied by return rates from all resources. More backers of a resource will improve its return",
+    PlayerTradeQuotaDescV2:
+        "💡 Quota is the amount of the resource you can trade. The monetary value equals to %{percent} of your market cap and it resets when the market updates. The more your trade's price deviates from your trade center price, the more quota you need",
 };

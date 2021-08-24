@@ -743,8 +743,6 @@ export const FR = {
         "💡 Les explorateurs de ressources ne bénéficient pas du bonus adjacent. L'utilisation de l'énergie diffère selon la ressource",
     ResourceExplorerSelectResource: "Explorez",
     ProductionSettings: "Paramètres de production",
-    PlayerTradeQuotaDesc:
-        "💡 Le quota d'échange des joueurs est de %{percent} de votre plafond de marché, il est réinitialisé lors des mises à jour du marché.",
     PlayerTradePartialFillTitle: "Choisissez le pourcentage de remplissage",
     PlayerTradeAmountNotValidV2: "Le montant minimum de transaction autorisé est de 1",
     PlayerTradeOptOut:
@@ -1211,4 +1209,6 @@ export const FR = {
     CrowdfundingReturnBonus: "+%{return} Return",
     ReturnOnPledgeDescV2:
         "Your total return equals to total pledged value multiplied by return rates from all resources. More backers of a resource will improve its return",
+    PlayerTradeQuotaDescV2:
+        "💡 Quota is the amount of the resource you can trade. The monetary value equals to %{percent} of your market cap and it resets when the market updates. The more your trade's price deviates from your trade center price, the more quota you need",
 };

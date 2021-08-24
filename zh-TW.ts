@@ -679,7 +679,6 @@ export const ZH_TW = {
     ResourceExplorerDescLong: "💡 資源勘探者建築沒有相鄰加成。其電力消耗視資源而不同",
     ResourceExplorerSelectResource: "探勘",
     ProductionSettings: "生產設置",
-    PlayerTradeQuotaDesc: "💡 你的玩家交易配額是你的市值的%{percent}, 會在市場更新後重置",
     PlayerTradePartialFillTitle: "選擇成交百分比",
     PlayerTradeAmountNotValidV2: "交易數量至少為1",
     PlayerTradeOptOut: "你已經選擇退出排行榜, 不能和其他玩家交易",
@@ -1115,4 +1114,6 @@ export const ZH_TW = {
     CrowdfundingReturnBonus: "+%{return} Return",
     ReturnOnPledgeDescV2:
         "Your total return equals to total pledged value multiplied by return rates from all resources. More backers of a resource will improve its return",
+    PlayerTradeQuotaDescV2:
+        "💡 Quota is the amount of the resource you can trade. The monetary value equals to %{percent} of your market cap and it resets when the market updates. The more your trade's price deviates from your trade center price, the more quota you need",
 };

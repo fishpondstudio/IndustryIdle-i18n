@@ -696,7 +696,6 @@ export const JP = {
     ResourceExplorerDescLong: "💡リソースエクスプローラには隣接ボーナスがありません。消費電力は資源ごとに異なります",
     ResourceExplorerSelectResource: "採掘資源",
     ProductionSettings: "プロダクション設定",
-    PlayerTradeQuotaDesc: "💡プレイヤーのトレード枠は時価総額の%{percent}で、市場が更新されるとリセットされます",
     PlayerTradePartialFillTitle: "フィル・パーセンテージを選択",
     PlayerTradeAmountNotValidV2: "最小取引量は1です",
     PlayerTradeOptOut: "リーダーボードに参加していないため、他のプレイヤーとトレードできません",
@@ -1145,4 +1144,6 @@ export const JP = {
     CrowdfundingReturnBonus: "+%{return} Return",
     ReturnOnPledgeDescV2:
         "Your total return equals to total pledged value multiplied by return rates from all resources. More backers of a resource will improve its return",
+    PlayerTradeQuotaDescV2:
+        "💡 Quota is the amount of the resource you can trade. The monetary value equals to %{percent} of your market cap and it resets when the market updates. The more your trade's price deviates from your trade center price, the more quota you need",
 };

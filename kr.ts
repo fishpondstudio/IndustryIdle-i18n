@@ -697,7 +697,6 @@ export const KR = {
     ResourceExplorerDescLong: "💡 자원 탐색가는 인접 보너스가 없습니다. 전력 사용량은 자원마다 다릅니다.",
     ResourceExplorerSelectResource: "탐색",
     ProductionSettings: "생산 설정",
-    PlayerTradeQuotaDesc: "💡 플레이어 거래 한도는 시가 총액의 %{percent}이며, 시장이 업데이트되면 재설정됩니다.",
     PlayerTradePartialFillTitle: "채우기 백분율 선택",
     PlayerTradeAmountNotValidV2: "허용되는 최소 거래 금액은 1입니다",
     PlayerTradeOptOut: "리더 보드를 탈퇴했습니다. 다른 플레이어와 거래할 수 없습니다",
@@ -1145,4 +1144,6 @@ export const KR = {
     CrowdfundingReturnBonus: "+%{return} Return",
     ReturnOnPledgeDescV2:
         "Your total return equals to total pledged value multiplied by return rates from all resources. More backers of a resource will improve its return",
+    PlayerTradeQuotaDescV2:
+        "💡 Quota is the amount of the resource you can trade. The monetary value equals to %{percent} of your market cap and it resets when the market updates. The more your trade's price deviates from your trade center price, the more quota you need",
 };

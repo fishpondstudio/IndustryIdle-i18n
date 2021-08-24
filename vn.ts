@@ -716,8 +716,6 @@ export const VN = {
         "💡 Khai khuẩn tài nguyên không được hưởng hiệu ứng liền kề. Điện năng sử dụng tùy thuộc vào loại tài nguyên",
     ResourceExplorerSelectResource: "Khai khẩn",
     ProductionSettings: "Cơ cấu sản xuất",
-    PlayerTradeQuotaDesc:
-        "💡 Hạn mức giao dịch người chơi chiếm %{percent} tổng giá trị vốn hóa của bạn, nó sẽ hoàn trả khi thị trường cập nhật",
     PlayerTradePartialFillTitle: "Chọn phần trăm làm đầy",
     PlayerTradeAmountNotValidV2: "Số lượng giao dịch tối thiểu là 1",
     PlayerTradeOptOut: "Bạn đã từ chối tham dự bảng xếp hạng, bạn không thể giao dịch với người chơi khác",
@@ -1179,4 +1177,6 @@ export const VN = {
     CrowdfundingReturnBonus: "+%{return} Return",
     ReturnOnPledgeDescV2:
         "Your total return equals to total pledged value multiplied by return rates from all resources. More backers of a resource will improve its return",
+    PlayerTradeQuotaDescV2:
+        "💡 Quota is the amount of the resource you can trade. The monetary value equals to %{percent} of your market cap and it resets when the market updates. The more your trade's price deviates from your trade center price, the more quota you need",
 };
