@@ -154,7 +154,8 @@ export const DE = {
     ResourceOutput: "Ausgang",
     ResourceStorage: "Lager",
     ResourceChange: "Wechsel",
-    ResourceInOutDesc: "💡 Klicke oben auf die Out-In-Nummern, um die entsprechenden Ausgangs- und Eingangsgebäude zu markieren",
+    ResourceInOutDesc:
+        "💡 Klicke oben auf die Out-In-Nummern, um die entsprechenden Ausgangs- und Eingangsgebäude zu markieren",
     ResourceChart: "Ressourcentabelle",
     MarketUpdateIn: "Marktpreisupdate in %{time}",
     Income: "Einkommen",
@@ -742,8 +743,6 @@ export const DE = {
         "Sie können von der Community erstellte Anleitungen auf Steam lesen - und Sie können auch Ihre eigenen erstellen",
     ChatMessageTooLong: "Ihre Chat-Nachricht hat die maximal zulässigen Zeichen überschritten",
     ChatPlaceholderV2: "Geben Sie Ihre Nachricht ein: max %{length} Buchstaben",
-    ShowProfitBreakdown: "Gewinnaufschlüsselung anzeigen",
-    HideProfitBreakdown: "Gewinnaufschlüsselung ausblenden",
     ProfitBreakdownOutput: "%{res} Erzeugung",
     ProfitBreakdownInput: "%{res} Verbrauch",
     ProfitBreakdownFuel: "Kraftstoffkosten",
@@ -1069,8 +1068,6 @@ export const DE = {
         "Alle Zellenmodifikatoren x2 - positive als auch negative. Die Richtlinie wird (Die Erde ist Rund - Richtlinie) deaktivieren.",
     TileModifierOutputOnlyDescV2:
         "Zellenmodifikatoren beeinflussen nur die Produktuion, anstelle der Produktion und des Verbrauchs, sind aber nur zu 50% effektiv. Die Richtlinie wird (Die Erde ist Rund - Richtlinie) deaktivieren.",
-    RotterdamBonusV2:
-        "<li>Stahlwerke haben 2x Kapazität</li><li>Edelstahlanlagen haben 2x Kapazität</li><li>Kostenloser Eisentransport</li><li>Stahltransport kostet 50 % weniger Kraftstoff</li><li>Beginnen Sie mit 2x Auto-Verkauf-Menge</li><li>Die Richtlinie (Die Erde ist flach) ist kostenlos</li>",
     QuickLinks: "Direktlinks",
     GetHelp: "HILFE",
     GetHelpBeginnerGuides: "Anfänger Guide",
@@ -1085,8 +1082,6 @@ export const DE = {
     TotalPledgedValueDesc:
         "Dein erster Beitrag zählt für das Crowdfunding-Ziel. Nachfolgende Beiträge erhöhen den Gesamt Beitragswert, zählen aber nicht zum Ziel",
     ReturnOnPledge: "Rückgabe bei Erfolg",
-    ReturnOnPledgeDesc:
-        "Das ist die Rendite, wenn das Crowdfunding erfolgreich ist. Es wird auf der Grundlage des gesamten Beitragswertes berechnet und der Prozentsatz hängt davon ab, wie viele verschiedene Ressourcen Sie beigetragen haben",
     CrowdfundingEndIn: "Endet in %{time}",
     ClaimCrowdfundingReward: "Belohnung einfordern %{amount}",
     ClaimCrowdfundingRefund: "Rückerstattung beantragen %{amount}",
@@ -1153,7 +1148,8 @@ export const DE = {
     SwissUpgrade: "Schweizer Upgrade",
     SwissUpgradeDesc: "Schweizer Upgrades sind permanent und werden in die neue Stadt übertragen",
     SwissBoost: "Schweizer Boost",
-    SwissBoostDesc: "Schweizer Boost wirkt nur auf die jetzige Stadt - und muss nach dem Start einer neuen Stadt wieder aktiviert werden",
+    SwissBoostDesc:
+        "Schweizer Boost wirkt nur auf die jetzige Stadt - und muss nach dem Start einer neuen Stadt wieder aktiviert werden",
     ProductionMultipliers: "Produktions-Multiplikator",
     MultiplierMapUniqueBonus: "Einzigartiger Karten-Bonus",
     MultiplierSwissUpgrade: "Schweizer Upgrade (Permanent)",
@@ -1178,12 +1174,32 @@ export const DE = {
         "Warehouses have 2x capacity and 50% faster inward and outward transport speed, but use 2x power",
     IndustryZoneMultiplierDesc: "Industrie-Zonen-Bonus",
     IndustryZoneMultiplierSwissBoost: "Industrie-Zonen-Kapazitäts-Booster",
-    IndustryZoneMultiplierSwissBoostDesc:
-        "Each building inside an industry zone provides this capacity boost to all the buildings in the same zone",
     EarningPerMinuteV2: "Offline Earning Rate",
     OfflineResearchPoint: "Offline Research Point",
     WholesaleCenterOrderFasterV2: "Bigger Faster Wholesale",
     OfflineResearchSwissBoost: "Offline Research",
     OfflineResearchSwissBoostDesc:
         "Research points are generated while you are offline (according to your Research Lab level, Science in your warehouse and offline earning time)",
+    SanJose: "San Jose",
+    SanJoseBonus:
+        "<li>Unique building: chip manufacturer</li><li>Unique building: FaceApp Inc</li><li>Unique building: Bitcoin Miner</li><li>All buildings that consume silicon have max tile modifier</li><li>Solar panels generate 2x power</li><li>Silicon mines have 2x output</li>",
+    RotterdamBonusV2:
+        "<li>Stahlwerke haben 2x Kapazität</li><li>Edelstahlanlagen haben 2x Kapazität</li><li>Kostenloser Eisentransport</li><li>Stahltransport kostet 50 % weniger Kraftstoff</li><li>Beginnen Sie mit 2x Auto-Verkauf-Menge</li><li>Die Richtlinie (Die Erde ist flach) ist kostenlos</li>",
+    ChipManufacturer: "Chip Manufacturer",
+    SnapTokInc: "SnapTok Inc",
+    FaceAppInc: "FaceApp Inc",
+    BitcoinMiner: "Bitcoin Miner",
+    GalvanicBatteryFactory: "Galvanic Battery Factory",
+    BaseProductionMultiplier: "Base Production",
+    ShowBreakdown: "Show Breakdown",
+    HideBreakdown: "Hide Breakdown",
+    IndustryZoneMultiplierSwissBoostDesc:
+        "Each building inside an industry zone provides this capacity boost to all the buildings in the same zone",
+    IndustryZoneBuildingPermitDesc:
+        "If an industry zone has N tiers of productions, it will provide N-2 building permits for free",
+    CrowdfundingBackersReturn: "Backers: %{backers}, Current Return: %{return}",
+    CrowdfundingBackersNeeded: "%{backers} More Backer(s)",
+    CrowdfundingReturnBonus: "+%{return} Return",
+    ReturnOnPledgeDescV2:
+        "Your total return equals to total pledged value multiplied by return rates from all resources. More backers of a resource will improve its return",
 };

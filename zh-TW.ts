@@ -688,8 +688,6 @@ export const ZH_TW = {
     ReadSteamGuideV2Desc: "你可以在Steam上瀏覽由遊戲社區編寫的指南-你也可以編寫自己的指南",
     ChatMessageTooLong: "聊天訊息長度超過了字元數上限",
     ChatPlaceholderV2: "在此輸入訊息: 最長%{length}字元",
-    ShowProfitBreakdown: "顯示利潤明細",
-    HideProfitBreakdown: "隱藏利潤明細",
     ProfitBreakdownOutput: "%{res} 產出",
     ProfitBreakdownInput: "%{res} 消耗",
     ProfitBreakdownFuel: "燃料成本",
@@ -991,8 +989,6 @@ export const ZH_TW = {
     DoubleTileModifierDescV2: "所有板塊增益和減益都會變為2倍. 開啟此政策將關閉地球是平的政策",
     TileModifierOutputOnlyDescV2:
         "板塊增益只影響輸出而不增加輸入 但板塊增益降低50%效果. 開啟此政策將關閉地球是平的政策",
-    RotterdamBonusV2:
-        "<li>煉鋼廠的產能是原來的2倍</li><li>不鏽鋼廠的產能是原來的2倍</li><li>鐵運輸免費</li><li>鋼材運輸燃料消耗減少50%</li><li>開局的自動銷售數量是原來的兩倍</li><li>地球是平的政策免費</li>",
     QuickLinks: "快速連結",
     GetHelp: "尋求幫助",
     GetHelpBeginnerGuides: "新手指南",
@@ -1007,8 +1003,6 @@ export const ZH_TW = {
     TotalPledgedValueDesc:
         "你的第一筆贊助會被算入群眾募資中。隨後額外的贊助將提升你的總贊助金額，但不會被算入群眾募資的總目標中。",
     ReturnOnPledge: "募資回饋",
-    ReturnOnPledgeDesc:
-        "群眾募資成功的話，這將會是你獲得的回饋。回饋金額的計算方式是依據你的總贊助金額，以及依據你贊助的種類數目所換算出的百分比。",
     CrowdfundingEndIn: "將於 %{time}結束",
     ClaimCrowdfundingReward: "領取回饋 %{amount}",
     ClaimCrowdfundingRefund: "領取退款 %{amount}",
@@ -1094,11 +1088,30 @@ export const ZH_TW = {
     HighSpeedWarehouseDesc: "倉庫運輸的容量提高2倍，進出運輸的速度提高50%，但使用2倍的電力",
     IndustryZoneMultiplierDesc: "工業區獎金",
     IndustryZoneMultiplierSwissBoost: "工業區容量助推器",
-    IndustryZoneMultiplierSwissBoostDesc: "工業區內的每座建築物都為同一區內的所有建築物提供這種容量提升",
     EarningPerMinuteV2: "收益率(V2)",
     OfflineResearchPoint: "離線獲得的研究點",
     WholesaleCenterOrderFasterV2: "更大更快的批發",
     OfflineResearchSwissBoost: "離線的研究收益",
-    OfflineResearchSwissBoostDesc:
-        "離線時會產生研究點(根據你的研究實驗室等級、倉庫中的科學點和離線時間)",
+    OfflineResearchSwissBoostDesc: "離線時會產生研究點(根據你的研究實驗室等級、倉庫中的科學點和離線時間)",
+    SanJose: "San Jose",
+    SanJoseBonus:
+        "<li>Unique building: chip manufacturer</li><li>Unique building: FaceApp Inc</li><li>Unique building: Bitcoin Miner</li><li>All buildings that consume silicon have max tile modifier</li><li>Solar panels generate 2x power</li><li>Silicon mines have 2x output</li>",
+    RotterdamBonusV2:
+        "<li>煉鋼廠的產能是原來的2倍</li><li>不鏽鋼廠的產能是原來的2倍</li><li>鐵運輸免費</li><li>鋼材運輸燃料消耗減少50%</li><li>開局的自動銷售數量是原來的兩倍</li><li>地球是平的政策免費</li>",
+    ChipManufacturer: "Chip Manufacturer",
+    SnapTokInc: "SnapTok Inc",
+    FaceAppInc: "FaceApp Inc",
+    BitcoinMiner: "Bitcoin Miner",
+    GalvanicBatteryFactory: "Galvanic Battery Factory",
+    BaseProductionMultiplier: "Base Production",
+    ShowBreakdown: "Show Breakdown",
+    HideBreakdown: "Hide Breakdown",
+    IndustryZoneMultiplierSwissBoostDesc: "工業區內的每座建築物都為同一區內的所有建築物提供這種容量提升",
+    IndustryZoneBuildingPermitDesc:
+        "If an industry zone has N tiers of productions, it will provide N-2 building permits for free",
+    CrowdfundingBackersReturn: "Backers: %{backers}, Current Return: %{return}",
+    CrowdfundingBackersNeeded: "%{backers} More Backer(s)",
+    CrowdfundingReturnBonus: "+%{return} Return",
+    ReturnOnPledgeDescV2:
+        "Your total return equals to total pledged value multiplied by return rates from all resources. More backers of a resource will improve its return",
 };

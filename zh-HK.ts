@@ -686,16 +686,13 @@ export const ZH_HK = {
     ReadSteamGuideV2Desc: "您可以喺Steam度睇社群創建嘅指南 — 而且您都可以創建您自己嘅",
     ChatMessageTooLong: "您嘅傾偈訊息字數多過上限",
     ChatPlaceholderV2: "喺呢度打您嘅訊息: 最長%{length}隻字",
-    ShowProfitBreakdown: "顯示利潤細節",
-    HideProfitBreakdown: "收埋利潤細節",
     ProfitBreakdownOutput: "%{res} 輸出",
     ProfitBreakdownInput: "%{res} 輸入",
     ProfitBreakdownFuel: "燃料成本",
     BuildingProfit: "利潤",
     RestoreBackup: "恢復",
     SteamLogin: "用Steam登入",
-    SteamLoginDialogDesc:
-        "您嘅本地存檔有開咗擴展包，您要用Steam登入嚟繼續。或者您可以*刪您嘅本地存檔*同重新嚟過",
+    SteamLoginDialogDesc: "您嘅本地存檔有開咗擴展包，您要用Steam登入嚟繼續。或者您可以*刪您嘅本地存檔*同重新嚟過",
     SteamLoginDesc: "如果您喺Steam度有擴展包，登入咗之後您就可以喺Web度同擴展包玩",
     SteamLoginYes: "登入",
     SteamLoginNo: "刪&重新嚟過",
@@ -988,8 +985,6 @@ export const ZH_HK = {
     NoTileModifierDesc: "全部板塊加成係0%。呢個政策會停大自然嘅力量同板塊加成+政策",
     DoubleTileModifierDescV2: "全部板塊加成效果2倍 — 好同唔好。呢個政策會停地球係平嘅政策",
     TileModifierOutputOnlyDescV2: "板塊加成淨係影響輸出取代輸出同輸入但係得50%效果。呢個政策會停地球係平嘅政策",
-    RotterdamBonusV2:
-        "<li>煉鋼廠有2倍產量</li><li>不鏽鋼廠有2倍產量</li><li>免費運鐵</li><li>運鋼用少50%燃料</li><li>一開始有2倍自動賣出量</li><li>地球係平嘅政策係免費</li>",
     QuickLinks: "快速鏈接",
     GetHelp: "搵幫手",
     GetHelpBeginnerGuides: "新手指南",
@@ -1003,7 +998,6 @@ export const ZH_HK = {
     TotalPledgedValue: "總贊助值",
     TotalPledgedValueDesc: "您嘅第一單贊助計入眾籌目標。之後嘅贊助加落總贊助值但唔會計入眾籌目標。",
     ReturnOnPledge: "贊助報酬",
-    ReturnOnPledgeDesc: "眾籌募資成功嘅話，呢個係您嘅報酬。呢個係基於總贊助值同您贊助幾多唔同種資源嘅%計出嚟。",
     CrowdfundingEndIn: "完喺 %{time}",
     ClaimCrowdfundingReward: "攞獎勵 %{amount}",
     ClaimCrowdfundingRefund: "攞退款 %{amount}",
@@ -1095,4 +1089,34 @@ export const ZH_HK = {
     OfflineResearchSwissBoost: "離線研究",
     OfflineResearchSwissBoostDesc:
         "研究點喺您離線嗰陣生產 (跟您嘅研究實驗室等級、喺您倉庫嘅科學同離線收入時間)",
+    IndustryZoneMultiplierDesc: "Industry Zone Bonus",
+    IndustryZoneMultiplierSwissBoost: "Industry Zone Capacity Booster",
+    EarningPerMinuteV2: "Offline Earning Rate",
+    OfflineResearchPoint: "Offline Research Point",
+    WholesaleCenterOrderFasterV2: "Bigger Faster Wholesale",
+    OfflineResearchSwissBoost: "Offline Research",
+    OfflineResearchSwissBoostDesc:
+        "Research points are generated while you are offline (according to your Research Lab level, Science in your warehouse and offline earning time)",
+    SanJose: "San Jose",
+    SanJoseBonus:
+        "<li>Unique building: chip manufacturer</li><li>Unique building: FaceApp Inc</li><li>Unique building: Bitcoin Miner</li><li>All buildings that consume silicon have max tile modifier</li><li>Solar panels generate 2x power</li><li>Silicon mines have 2x output</li>",
+    RotterdamBonusV2:
+        "<li>煉鋼廠有2倍產量</li><li>不鏽鋼廠有2倍產量</li><li>免費運鐵</li><li>運鋼用少50%燃料</li><li>一開始有2倍自動賣出量</li><li>地球係平嘅政策係免費</li>",
+    ChipManufacturer: "Chip Manufacturer",
+    SnapTokInc: "SnapTok Inc",
+    FaceAppInc: "FaceApp Inc",
+    BitcoinMiner: "Bitcoin Miner",
+    GalvanicBatteryFactory: "Galvanic Battery Factory",
+    BaseProductionMultiplier: "Base Production",
+    ShowBreakdown: "Show Breakdown",
+    HideBreakdown: "Hide Breakdown",
+    IndustryZoneMultiplierSwissBoostDesc:
+        "Each building inside an industry zone provides this capacity boost to all the buildings in the same zone",
+    IndustryZoneBuildingPermitDesc:
+        "If an industry zone has N tiers of productions, it will provide N-2 building permits for free",
+    CrowdfundingBackersReturn: "Backers: %{backers}, Current Return: %{return}",
+    CrowdfundingBackersNeeded: "%{backers} More Backer(s)",
+    CrowdfundingReturnBonus: "+%{return} Return",
+    ReturnOnPledgeDescV2:
+        "Your total return equals to total pledged value multiplied by return rates from all resources. More backers of a resource will improve its return",
 };
