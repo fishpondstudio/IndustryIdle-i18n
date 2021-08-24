@@ -1157,7 +1157,7 @@ export const EN = {
     BaseProductionMultiplier: "Base Production",
     ShowBreakdown: "Show Breakdown",
     HideBreakdown: "Hide Breakdown",
-    IndustryZoneMultiplierSwissBoostDesc:
+    IndustryZoneMultiplierSwissBoostDescV2:
         "Each tier of production chain inside an industry zone provides this capacity boost to all the buildings in the same zone",
     IndustryZoneBuildingPermitDesc:
         "If an industry zone has N tiers of productions, it will provide N-2 building permits for free",

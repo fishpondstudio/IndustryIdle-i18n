@@ -1190,8 +1190,8 @@ export const RU = {
     BaseProductionMultiplier: "Base Production",
     ShowBreakdown: "Show Breakdown",
     HideBreakdown: "Hide Breakdown",
-    IndustryZoneMultiplierSwissBoostDesc:
-        "Каждое здание в промышленной зоне увеличивает мощность всех зданий в той же зоне",
+    IndustryZoneMultiplierSwissBoostDescV2:
+        "Each tier of production chain inside an industry zone provides this capacity boost to all the buildings in the same zone",
     IndustryZoneBuildingPermitDesc:
         "Если в промышленной зоне имеется N уровней производств, то она будет бесплатно выдавать N-2 разрешений на строительство",
     CrowdfundingBackersReturn: "Спонсоры: %{backers}, Текущий доход: %{return}",

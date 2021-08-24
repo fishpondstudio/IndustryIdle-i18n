@@ -1106,7 +1106,8 @@ export const ZH_CN = {
     BaseProductionMultiplier: "Base Production",
     ShowBreakdown: "Show Breakdown",
     HideBreakdown: "Hide Breakdown",
-    IndustryZoneMultiplierSwissBoostDesc: "工业区内的每栋建筑都为同一区域内的所有建筑提供产能提升",
+    IndustryZoneMultiplierSwissBoostDescV2:
+        "Each tier of production chain inside an industry zone provides this capacity boost to all the buildings in the same zone",
     IndustryZoneBuildingPermitDesc:
         "If an industry zone has N tiers of productions, it will provide N-2 building permits for free",
     CrowdfundingBackersReturn: "Backers: %{backers}, Current Return: %{return}",

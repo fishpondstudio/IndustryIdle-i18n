@@ -1077,26 +1077,14 @@ export const ZH_HK = {
     ConstructionNotResearched: "未研究",
     OfflineEarningDescV2: "離線收入取決喺您而家嘅研究、生產同自動賣出",
     HighSpeedWarehouse: "高速倉庫",
-    HighSpeedWarehouseDesc:
-        "倉庫有2x倍產量同快50%輸入同輸出運輸速度，但用2倍電",
+    HighSpeedWarehouseDesc: "倉庫有2x倍產量同快50%輸入同輸出運輸速度，但用2倍電",
     IndustryZoneMultiplierDesc: "工業區加成",
     IndustryZoneMultiplierSwissBoost: "工業區產量加成",
-    IndustryZoneMultiplierSwissBoostDesc:
-        "每座喺工業區嘅建築有呢個產量加成喺全部同一個工業區嘅建築",
     EarningPerMinuteV2: "離線收入速率",
     OfflineResearchPoint: "離線研究點",
     WholesaleCenterOrderFasterV2: "大啲快啲嘅批發",
     OfflineResearchSwissBoost: "離線研究",
-    OfflineResearchSwissBoostDesc:
-        "研究點喺您離線嗰陣生產 (跟您嘅研究實驗室等級、喺您倉庫嘅科學同離線收入時間)",
-    IndustryZoneMultiplierDesc: "Industry Zone Bonus",
-    IndustryZoneMultiplierSwissBoost: "Industry Zone Capacity Booster",
-    EarningPerMinuteV2: "Offline Earning Rate",
-    OfflineResearchPoint: "Offline Research Point",
-    WholesaleCenterOrderFasterV2: "Bigger Faster Wholesale",
-    OfflineResearchSwissBoost: "Offline Research",
-    OfflineResearchSwissBoostDesc:
-        "Research points are generated while you are offline (according to your Research Lab level, Science in your warehouse and offline earning time)",
+    OfflineResearchSwissBoostDesc: "研究點喺您離線嗰陣生產 (跟您嘅研究實驗室等級、喺您倉庫嘅科學同離線收入時間)",
     SanJose: "San Jose",
     SanJoseBonus:
         "<li>Unique building: chip manufacturer</li><li>Unique building: FaceApp Inc</li><li>Unique building: Bitcoin Miner</li><li>All buildings that consume silicon have max tile modifier</li><li>Solar panels generate 2x power</li><li>Silicon mines have 2x output</li>",
@@ -1110,8 +1098,8 @@ export const ZH_HK = {
     BaseProductionMultiplier: "Base Production",
     ShowBreakdown: "Show Breakdown",
     HideBreakdown: "Hide Breakdown",
-    IndustryZoneMultiplierSwissBoostDesc:
-        "Each building inside an industry zone provides this capacity boost to all the buildings in the same zone",
+    IndustryZoneMultiplierSwissBoostDescV2:
+        "Each tier of production chain inside an industry zone provides this capacity boost to all the buildings in the same zone",
     IndustryZoneBuildingPermitDesc:
         "If an industry zone has N tiers of productions, it will provide N-2 building permits for free",
     CrowdfundingBackersReturn: "Backers: %{backers}, Current Return: %{return}",
