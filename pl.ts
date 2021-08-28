@@ -306,8 +306,7 @@ export const PL = {
     OnlyToWarehouse: "Tylko dla magazynów",
     OnlyToWarehouseDesc: "Tylko magazyny mogą transportować surowce z tego budynku",
     TurnOffProduction: "Wyłącz",
-    TurnOffProductionDesc:
-        "Wyłącz produkcję budynku. Budynek nie będzie już transportował surowców i zużywał energii",
+    TurnOffProductionDesc: "Wyłącz produkcję budynku. Budynek nie będzie już transportował surowców i zużywał energii",
     ApplyToAll: "Zastosuj dla wszystkich %{building}",
     FuelCostNumber: "%{cost} %{fuel}",
     Unlimited: "Nielimitowany",
