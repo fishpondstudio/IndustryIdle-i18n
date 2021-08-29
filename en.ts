@@ -1173,4 +1173,10 @@ export const EN = {
     AchievementSanJose500Desc: "Earn 500 Swiss Money in San Jose in a single run",
     AchievementSanJose1000: "Venture Capitalist",
     AchievementSanJose1000Desc: "Earn 1000 Swiss Money in San Jose in a single run",
+    AchievementCrowdfundingTycoon: "Crowdfunding Tycoon",
+    AchievementCrowdfundingTycoonDesc: "Pledge 1Qa worth of resources in a single crowdfunding",
+    AchievementCashIsKing: "Cash Is King",
+    AchievementCashIsKingDesc: "Have 1Qa cash at hand in a single run",
+    AchievementPowerTycoon: "Power Tycoon",
+    AchievementPowerTycoonDesc: "Generate 1GW power in a single run",
 };

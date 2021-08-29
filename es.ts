@@ -1186,4 +1186,16 @@ export const ES = {
         "Your total return equals to total pledged value multiplied by return rates from all resources. More backers of a resource will improve its return",
     PlayerTradeQuotaDescV2:
         "💡 Quota is the amount of the resource you can trade. The monetary value equals to %{percent} of your market cap and it resets when the market updates. The more your trade's price deviates from your trade center price, the more quota you need",
+    AchievementSanJose100: "Venture Hobbyist",
+    AchievementSanJose100Desc: "Earn 100 Swiss Money in San Jose in a single run",
+    AchievementSanJose500: "Venture Enthusiast",
+    AchievementSanJose500Desc: "Earn 500 Swiss Money in San Jose in a single run",
+    AchievementSanJose1000: "Venture Capitalist",
+    AchievementSanJose1000Desc: "Earn 1000 Swiss Money in San Jose in a single run",
+    AchievementCrowdfundingTycoon: "Crowdfunding Tycoon",
+    AchievementCrowdfundingTycoonDesc: "Pledge 1Qa worth of resources in a single crowdfunding",
+    AchievementCashIsKing: "Cash Is King",
+    AchievementCashIsKingDesc: "Have 1Qa cash at hand in a single run",
+    AchievementPowerTycoon: "Power Tycoon",
+    AchievementPowerTycoonDesc: "Generate 1GW power in a single run",
 };

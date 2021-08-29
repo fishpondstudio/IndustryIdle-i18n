@@ -1199,4 +1199,16 @@ export const RU = {
         "Ваш общий доход равен общей заложенной стоимости, умноженной на коэффициент доходности всех ресурсов. Чем больше спонсоров у ресурса, тем выше его доходность",
     PlayerTradeQuotaDescV2:
         "💡 Квота - это количество ресурса, которым вы можете торговать. Денежная стоимость равна %{percent} от вашего рыночного капитала и обнуляется при обновлении рынка. Чем больше цена вашей сделки отклоняется от цены в торговом центре, тем больше квота",
+    AchievementSanJose100: "Venture Hobbyist",
+    AchievementSanJose100Desc: "Earn 100 Swiss Money in San Jose in a single run",
+    AchievementSanJose500: "Venture Enthusiast",
+    AchievementSanJose500Desc: "Earn 500 Swiss Money in San Jose in a single run",
+    AchievementSanJose1000: "Venture Capitalist",
+    AchievementSanJose1000Desc: "Earn 1000 Swiss Money in San Jose in a single run",
+    AchievementCrowdfundingTycoon: "Crowdfunding Tycoon",
+    AchievementCrowdfundingTycoonDesc: "Pledge 1Qa worth of resources in a single crowdfunding",
+    AchievementCashIsKing: "Cash Is King",
+    AchievementCashIsKingDesc: "Have 1Qa cash at hand in a single run",
+    AchievementPowerTycoon: "Power Tycoon",
+    AchievementPowerTycoonDesc: "Generate 1GW power in a single run",
 };
