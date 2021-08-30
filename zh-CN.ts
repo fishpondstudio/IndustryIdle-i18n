@@ -1128,4 +1128,6 @@ export const ZH_CN = {
     AchievementCashIsKingDesc: "Have 1Qa cash at hand in a single run",
     AchievementPowerTycoon: "Power Tycoon",
     AchievementPowerTycoonDesc: "Generate 1GW power in a single run",
+    PlayerTradeFilteringNResources: "Filtering %{n} Resource(s)",
+    PlayerTradeFilterResources: "Filter Resources",
 };
