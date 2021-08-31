@@ -1,6 +1,6 @@
 export const ZH_CN = {
     Translator: "译者",
-    TranslatorName: "LazySu, snewpeap, Orange233，YinTingChow, HagridThick",
+    TranslatorName: "LazySu, snewpeap, Orange233，YinTingChow, HagridThick, Kx1672",
     Language: "语言",
     ThisLanguage: "简体中文",
     OK: "好的",
@@ -1038,7 +1038,7 @@ export const ZH_CN = {
     PanelPositionRightFloat: "右侧（浮动）",
     PanelPositionAuto: "自动",
     TimePlayed: "游玩时数",
-    ValuationPerHour: "Valuation Per Hour",
+    ValuationPerHour: "每小时估值",
     HighPowerPriority: "优先供电",
     HighPowerPriorityDesc: "开启此功能将使建筑物在其他建筑物之前消耗电力",
     IndustryZone: "工业园",
@@ -1081,7 +1081,7 @@ export const ZH_CN = {
     DotComTycoon: "DotCom Tycoon",
     DotComTycoonDesc:
         "Build a level 10 Social Network Inc, level 10 Search Engine Company, level 10 SkyNet Inc and level 10 Musify Inc on the same map",
-    ConstructionNotResearched: "Not Researched",
+    ConstructionNotResearched: "未研究",
     OfflineEarningDescV2: "离线收入取决于您当前的研究、生产力和销售能力",
     HighSpeedWarehouse: "仓库快速",
     HighSpeedWarehouseDesc: "仓库运输的容量提高了2倍，进出运输的速度提高了50%，但使用了2倍的电力",
@@ -1092,19 +1092,19 @@ export const ZH_CN = {
     WholesaleCenterOrderFasterV2: "更快更大的批发",
     OfflineResearchSwissBoost: "离线研究",
     OfflineResearchSwissBoostDesc: "离线时会产生研究点（根据你的研究实验室等级、学习中的科学点和离线时间）",
-    SanJose: "San Jose",
+    SanJose: "圣何塞",
     SanJoseBonus:
         "<li>Unique building: chip manufacturer</li><li>Unique building: FaceApp Inc</li><li>Unique building: Bitcoin Miner</li><li>All buildings that consume silicon have max tile modifier</li><li>Solar panels generate 2x power</li><li>Silicon mines have 2x output</li>",
     RotterdamBonusV2:
         "<li>钢厂的生产能力是原来的2倍</li><li>不锈钢厂的生产能力是原来的2倍</li><li>铁运输免费</li><li>钢运输的燃料成本降低50％</li><li>初始自动销售量是原来的2倍</li><li>“地球是平的”政策免政策点</li>",
-    ChipManufacturer: "Chip Manufacturer",
+    ChipManufacturer: "芯片制造商",
     SnapTokInc: "SnapTok Inc",
     FaceAppInc: "FaceApp Inc",
-    BitcoinMiner: "Bitcoin Miner",
-    GalvanicBatteryFactory: "Galvanic Battery Factory",
-    BaseProductionMultiplier: "Base Production",
-    ShowBreakdown: "Show Breakdown",
-    HideBreakdown: "Hide Breakdown",
+    BitcoinMiner: "比特币矿机",
+    GalvanicBatteryFactory: "电化电池工厂",
+    BaseProductionMultiplier: "基础生产",
+    ShowBreakdown: "展开明细",
+    HideBreakdown: "收起明细",
     IndustryZoneMultiplierSwissBoostDescV2:
         "Each tier of production chain inside an industry zone provides this capacity boost to all the buildings in the same zone",
     IndustryZoneBuildingPermitDesc:
@@ -1115,7 +1115,7 @@ export const ZH_CN = {
     ReturnOnPledgeDescV2:
         "Your total return equals to total pledged value multiplied by return rates from all resources. More backers of a resource will improve its return",
     PlayerTradeQuotaDescV2:
-        "💡 Quota is the amount of the resource you can trade. The monetary value equals to %{percent} of your market cap and it resets when the market updates. The more your trade's price deviates from your trade center price, the more quota you need",
+        "💡 配额是您可以交易的资源数量。货币价值等于您市值的 %{percent}，并在市场更新时重置。您的交易价格偏离您的交易中心价格越多，您需要的配额就越多",
     AchievementSanJose100: "Venture Hobbyist",
     AchievementSanJose100Desc: "Earn 100 Swiss Money in San Jose in a single run",
     AchievementSanJose500: "Venture Enthusiast",
@@ -1128,6 +1128,6 @@ export const ZH_CN = {
     AchievementCashIsKingDesc: "Have 1Qa cash at hand in a single run",
     AchievementPowerTycoon: "Power Tycoon",
     AchievementPowerTycoonDesc: "Generate 1GW power in a single run",
-    PlayerTradeFilteringNResources: "Filtering %{n} Resource(s)",
-    PlayerTradeFilterResources: "Filter Resources",
+    PlayerTradeFilteringNResources: "过滤 %{n} 种资源",
+    PlayerTradeFilterResources: "过滤资源",
 };
