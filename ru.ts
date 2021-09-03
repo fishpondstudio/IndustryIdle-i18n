@@ -1213,4 +1213,5 @@ export const RU = {
     AchievementPowerTycoonDesc: "Generate 1GW power in a single run",
     PlayerTradeFilteringNResources: "Filtering %{n} Resource(s)",
     PlayerTradeFilterResources: "Filter Resources",
+    PlayerTradeFilterClear: "Clear Filters",
 };
