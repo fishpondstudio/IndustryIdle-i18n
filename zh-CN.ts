@@ -1130,4 +1130,5 @@ export const ZH_CN = {
     AchievementPowerTycoonDesc: "Generate 1GW power in a single run",
     PlayerTradeFilteringNResources: "过滤 %{n} 种资源",
     PlayerTradeFilterResources: "过滤资源",
+    PlayerTradeFilterClear: "清除过滤",
 };
