@@ -1181,4 +1181,7 @@ export const TR = {
     PlayerTradeFilteringNResources: "Filtering %{n} Resource(s)",
     PlayerTradeFilterResources: "Filter Resources",
     PlayerTradeFilterClear: "Clear Filters",
+    ResourceExplorerAll: "Explore All Resources",
+    ResourceExplorerAllDesc:
+        "Resource explorers can produce all resources, including the ones that are not on the map (this DOES NOT unlock the relevant technologies)",
 };

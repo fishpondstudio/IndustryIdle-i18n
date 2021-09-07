@@ -1072,8 +1072,7 @@ export const KR = {
     IndustryZone: "산업 구역",
     IndustryZoneDesc: "공급체인을 형성하는 인접 건물들을 결합하고 건축 허가를 절약합니다",
     IndustryZoneMaxBuildingLevel: "최대 건물 레벨",
-    IndustryZoneNotWorkingDesc:
-        "인접한 모든 건물들은 공급체인을 형성해야 하며 다른 산업 구역에 포함되지 않아야 합니다",
+    IndustryZoneNotWorkingDesc: "인접한 모든 건물들은 공급체인을 형성해야 하며 다른 산업 구역에 포함되지 않아야 합니다",
     IndustryZoneNoAdjacentBonus: "산업 구역에 포함된 건물은 인접 보너스를 받지 못합니다",
     PlayerTradeAutoClaim: "거래 자동 청구",
     MusifyInc: "Musify 주식회사",
@@ -1135,10 +1134,8 @@ export const KR = {
     BaseProductionMultiplier: "기본 생산",
     ShowBreakdown: "세부사항 보기",
     HideBreakdown: "세부사항 숨김",
-    IndustryZoneMultiplierSwissBoostDescV2:
-        "산업 구역에 포함된 건물들에 대한 용량 부스트",
-    IndustryZoneBuildingPermitDesc:
-        "산업 구역이 N 티어의 생산단계를 포함하면, N-2 개의 무료 건축 허가를 제공합니다",
+    IndustryZoneMultiplierSwissBoostDescV2: "산업 구역에 포함된 건물들에 대한 용량 부스트",
+    IndustryZoneBuildingPermitDesc: "산업 구역이 N 티어의 생산단계를 포함하면, N-2 개의 무료 건축 허가를 제공합니다",
     CrowdfundingBackersReturn: "후원자: %{backers}, 현재 환급: %{return}",
     CrowdfundingBackersNeeded: "%{backers}명 추가 후원시",
     CrowdfundingReturnBonus: "+%{return} 환급",
@@ -1161,4 +1158,7 @@ export const KR = {
     PlayerTradeFilteringNResources: "Filtering %{n} Resource(s)",
     PlayerTradeFilterResources: "Filter Resources",
     PlayerTradeFilterClear: "Clear Filters",
+    ResourceExplorerAll: "Explore All Resources",
+    ResourceExplorerAllDesc:
+        "Resource explorers can produce all resources, including the ones that are not on the map (this DOES NOT unlock the relevant technologies)",
 };

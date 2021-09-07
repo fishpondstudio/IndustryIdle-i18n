@@ -1131,4 +1131,7 @@ export const ZH_CN = {
     PlayerTradeFilteringNResources: "过滤 %{n} 种资源",
     PlayerTradeFilterResources: "过滤资源",
     PlayerTradeFilterClear: "清除过滤",
+    ResourceExplorerAll: "Explore All Resources",
+    ResourceExplorerAllDesc:
+        "Resource explorers can produce all resources, including the ones that are not on the map (this DOES NOT unlock the relevant technologies)",
 };

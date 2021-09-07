@@ -1214,4 +1214,7 @@ export const RU = {
     PlayerTradeFilteringNResources: "Отфильтровать %{n} ресурсов",
     PlayerTradeFilterResources: "Фильтр ресурсов",
     PlayerTradeFilterClear: "Очистить фильтры",
+    ResourceExplorerAll: "Explore All Resources",
+    ResourceExplorerAllDesc:
+        "Resource explorers can produce all resources, including the ones that are not on the map (this DOES NOT unlock the relevant technologies)",
 };

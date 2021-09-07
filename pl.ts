@@ -348,7 +348,8 @@ export const PL = {
     OrderFrom: "Zamów z %{name}",
     ExpireIn: "Wygasa za",
     TurnOnAllProductions: "Włącz produkcję",
-    TurnOnAllProductionsDesc: "Włącz produkcje wszystkich budynków, nie można używać, gdy aktywna jest polityka Oszczędności kosztów",
+    TurnOnAllProductionsDesc:
+        "Włącz produkcje wszystkich budynków, nie można używać, gdy aktywna jest polityka Oszczędności kosztów",
     OperationSuccessful: "Operacja została pomyślnie zakończona",
     TurnOn: "Włącz",
     Reward: "Nagroda",
@@ -1186,4 +1187,7 @@ export const PL = {
     PlayerTradeFilteringNResources: "Filtering %{n} Resource(s)",
     PlayerTradeFilterResources: "Filter Resources",
     PlayerTradeFilterClear: "Clear Filters",
+    ResourceExplorerAll: "Explore All Resources",
+    ResourceExplorerAllDesc:
+        "Resource explorers can produce all resources, including the ones that are not on the map (this DOES NOT unlock the relevant technologies)",
 };
