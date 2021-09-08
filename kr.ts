@@ -1121,7 +1121,7 @@ export const KR = {
     OfflineResearchSwissBoost: "오프라인 연구",
     OfflineResearchSwissBoostDesc:
         "오프라인일 때 연구 점수를 생성 (연구소 레벨, 창고의 과학 및 오프라인 수익 시간에 따름)",
-    SanJose: "San Jose",
+    SanJose: "산호세",
     SanJoseBonus:
         "<li>고유 빌딩: 칩 공장</li><li>고유 빌딩: 페이스앱 주식회사</li><li>고유 빌딩: 비트코인 채굴업자</li><li>규소를 소비하는 모든 건물은 최대 타일 보정을 받습니다</li><li>태양광 패널 용량 2배</li><li>규소 광산 용량 2배</li>",
     RotterdamBonusV2:
