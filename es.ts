@@ -1204,4 +1204,5 @@ export const ES = {
     ResourceExplorerAll: "Explore All Resources",
     ResourceExplorerAllDesc:
         "Resource explorers can produce all resources, including the ones that are not on the map (this DOES NOT unlock the relevant technologies)",
+    ShowResourceInTopBar: "Show In Top Bar",
 };
