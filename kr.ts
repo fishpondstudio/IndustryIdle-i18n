@@ -1159,6 +1159,6 @@ export const KR = {
     PlayerTradeFilterResources: "자원 필터링",
     PlayerTradeFilterClear: "필터링 초기화",
     ResourceExplorerAll: "모든 자원 탐색",
-    ResourceExplorerAllDesc:
-        "자원 탐색가는 지도에 없는 자원을 포함하여 모든 자원을 생산할 수 있습니다(연구 해제 필요)",
+    ResourceExplorerAllDesc: "자원 탐색가는 지도에 없는 자원을 포함하여 모든 자원을 생산할 수 있습니다(연구 해제 필요)",
+    ShowResourceInTopBar: "Show In Top Bar",
 };
