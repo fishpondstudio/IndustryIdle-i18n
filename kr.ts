@@ -466,8 +466,6 @@ export const KR = {
     OptOut: "옵트 아웃",
     OptIn: "재설정 및 활성화",
     LeaderboardOptOut: "리더 보드 옵트 아웃",
-    LeaderboardOptOutDesc:
-        "더 이상 리더 보드 점수를 전송하지 않습니다. 참고 : 나중에 리더 보드를 사용하려면 데이터를 재설정해야 합니다.",
     LeaderboardOptIn: "리더 보드 재설정 및 활성화",
     LeaderboardOptInDesc: "리더 보드를 다시 활성화하기 전에 데이터를 재설정해야합니다. 계속 하시겠습니까?",
     RewardAdsFailed: "보상 동영상이 완료되지 않았습니다",
@@ -1161,4 +1159,6 @@ export const KR = {
     ResourceExplorerAll: "모든 자원 탐색",
     ResourceExplorerAllDesc: "자원 탐색가는 지도에 없는 자원을 포함하여 모든 자원을 생산할 수 있습니다(연구 해제 필요)",
     ShowResourceInTopBar: "Show In Top Bar",
+    LeaderboardOptOutDescV2:
+        "You will no longer appear in the leaderboard. This will also disable player trade. PLEASE NOTE: if you want to enable leaderboard later, your data needs to be reset",
 };

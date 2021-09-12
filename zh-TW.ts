@@ -457,7 +457,6 @@ export const ZH_TW = {
     OptOut: "選擇退出",
     OptIn: "重置並啟用",
     LeaderboardOptOut: "退出排行榜",
-    LeaderboardOptOutDesc: "這將不再發送排行榜得分。請注意：如果以後要啟用排行榜，則需要重置數據",
     LeaderboardOptIn: "重置並啟用排行榜",
     LeaderboardOptInDesc: "您必須先重置您的數據，然後才能重新啟用排行榜，確定嗎？",
     RewardAdsFailed: "觀看廣告獎勵未完成",
@@ -1135,4 +1134,6 @@ export const ZH_TW = {
     ResourceExplorerAllDesc:
         "Resource explorers can produce all resources, including the ones that are not on the map (this DOES NOT unlock the relevant technologies)",
     ShowResourceInTopBar: "Show In Top Bar",
+    LeaderboardOptOutDescV2:
+        "You will no longer appear in the leaderboard. This will also disable player trade. PLEASE NOTE: if you want to enable leaderboard later, your data needs to be reset",
 };

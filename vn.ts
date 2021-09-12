@@ -473,8 +473,6 @@ export const VN = {
     OptOut: "Không tham gia",
     OptIn: "Làm lại và tham gia",
     LeaderboardOptOut: "Không tham gia xếp hạng",
-    LeaderboardOptOutDesc:
-        "Nếu thực thi, sẽ không gửi điểm xếp hạng nữa. CHÚ Ý: nếu bạn muốn tham gia xếp hạng lại, bạn sẽ phải làm lại từ đầu",
     LeaderboardOptIn: "Làm lại và bật xếp hạng",
     LeaderboardOptInDesc: "Dữ liệu của bạn sẽ bị XÓA trước khi bạn có thể tái tham gia xếp hạng, bạn có chắc không?",
     RewardAdsFailed: "Chưa xem hết quảng cáo nên không có thưởng",
@@ -1198,4 +1196,6 @@ export const VN = {
     ResourceExplorerAllDesc:
         "Resource explorers can produce all resources, including the ones that are not on the map (this DOES NOT unlock the relevant technologies)",
     ShowResourceInTopBar: "Show In Top Bar",
+    LeaderboardOptOutDescV2:
+        "You will no longer appear in the leaderboard. This will also disable player trade. PLEASE NOTE: if you want to enable leaderboard later, your data needs to be reset",
 };

@@ -487,8 +487,6 @@ export const ES = {
     OptOut: "Optar por no",
     OptIn: "Restablecer y habilitar",
     LeaderboardOptOut: "Exclusión de la tabla de clasificación",
-    LeaderboardOptOutDesc:
-        "Esto ya no enviará la puntuación de la tabla de clasificación. TENGA EN CUENTA: si desea habilitar la tabla de clasificación más adelante, sus datos deben restablecerse",
     LeaderboardOptIn: "Restablecer y habilitar la tabla de clasificación",
     LeaderboardOptInDesc:
         "Sus datos deben REINICIARSE antes de que pueda volver a habilitar la tabla de clasificación, ¿está seguro?",
@@ -1205,4 +1203,6 @@ export const ES = {
     ResourceExplorerAllDesc:
         "Resource explorers can produce all resources, including the ones that are not on the map (this DOES NOT unlock the relevant technologies)",
     ShowResourceInTopBar: "Show In Top Bar",
+    LeaderboardOptOutDescV2:
+        "You will no longer appear in the leaderboard. This will also disable player trade. PLEASE NOTE: if you want to enable leaderboard later, your data needs to be reset",
 };

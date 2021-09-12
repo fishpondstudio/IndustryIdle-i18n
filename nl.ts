@@ -477,8 +477,6 @@ export const NL = {
     OptOut: "Deactiveer",
     OptIn: "Reset en activeer",
     LeaderboardOptOut: "Scorebord Deactiveren",
-    LeaderboardOptOutDesc:
-        "Dit zal niet langer je score naar het scorebord versturen. LET OP: als je het scorebord later wil activeren, moet je data een reset ondergaan",
     LeaderboardOptIn: "Reset en activeer scorebord",
     LeaderboardOptInDesc: "Je data moet een RESET ondergaan voor je het scorebord terug kan activeren, ben je zeker?",
     RewardAdsFailed: "Beloningsvideo is niet beëindigd",
@@ -1196,4 +1194,6 @@ export const NL = {
     ResourceExplorerAllDesc:
         "Resource explorers can produce all resources, including the ones that are not on the map (this DOES NOT unlock the relevant technologies)",
     ShowResourceInTopBar: "Show In Top Bar",
+    LeaderboardOptOutDescV2:
+        "You will no longer appear in the leaderboard. This will also disable player trade. PLEASE NOTE: if you want to enable leaderboard later, your data needs to be reset",
 };

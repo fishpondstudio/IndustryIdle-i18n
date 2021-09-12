@@ -494,8 +494,6 @@ export const FR = {
     OptOut: "Se désengager",
     OptIn: "Réinitialiser et activer",
     LeaderboardOptOut: "Désactivation du classement",
-    LeaderboardOptOutDesc:
-        "Cela n'enverra plus le score du classement. VEUILLEZ NOTER: si vous souhaitez activer le classement plus tard, vos données doivent être réinitialisées",
     LeaderboardOptIn: "Réinitialiser et activer le classement",
     LeaderboardOptInDesc:
         "Vos données doivent être RÉINITIALISÉES avant de pouvoir réactiver le classement, êtes-vous sûr?",
@@ -1230,4 +1228,6 @@ export const FR = {
     ResourceExplorerAllDesc:
         "Resource explorers can produce all resources, including the ones that are not on the map (this DOES NOT unlock the relevant technologies)",
     ShowResourceInTopBar: "Show In Top Bar",
+    LeaderboardOptOutDescV2:
+        "You will no longer appear in the leaderboard. This will also disable player trade. PLEASE NOTE: if you want to enable leaderboard later, your data needs to be reset",
 };

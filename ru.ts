@@ -482,8 +482,6 @@ export const RU = {
     OptOut: "Отказ",
     OptIn: "Сброс и включение",
     LeaderboardOptOut: "Отказ от участия в рейтинге",
-    LeaderboardOptOutDesc:
-        "При включении результаты не будут отправляться в таблицу лидеров. !ВАЖНО!: если вы захотите включить таблицу лидеров позже, ваши данные будут обнулены",
     LeaderboardOptIn: "Сброс и включение Таблицы лидеров",
     LeaderboardOptInDesc:
         "Ваши данные должны быть сброшены, прежде чем вы сможете снова включить Таблицу лидеров, вы уверены??",
@@ -1218,4 +1216,6 @@ export const RU = {
     ResourceExplorerAllDesc:
         "Resource explorers can produce all resources, including the ones that are not on the map (this DOES NOT unlock the relevant technologies)",
     ShowResourceInTopBar: "Show In Top Bar",
+    LeaderboardOptOutDescV2:
+        "You will no longer appear in the leaderboard. This will also disable player trade. PLEASE NOTE: if you want to enable leaderboard later, your data needs to be reset",
 };

@@ -485,8 +485,6 @@ export const DE = {
     OptOut: "Abmelden",
     OptIn: "Zurücksetzen und aktivieren",
     LeaderboardOptOut: "Leaderboard-Deaktivierung",
-    LeaderboardOptOutDesc:
-        "Dadurch wird keine Ranglisten-Punktzahl mehr gesendet. BITTE BEACHTEN SIE: Wenn Sie die Bestenliste später aktivieren möchten, müssen Ihre Daten zurückgesetzt werden",
     LeaderboardOptIn: "Bestenliste zurücksetzen und aktivieren",
     LeaderboardOptInDesc:
         "Ihre Daten müssen zurückgesetzt werden, bevor Sie die Bestenliste wieder aktivieren können. Sind Sie sicher?",
@@ -1221,4 +1219,6 @@ export const DE = {
     ResourceExplorerAllDesc:
         "Resource explorers can produce all resources, including the ones that are not on the map (this DOES NOT unlock the relevant technologies)",
     ShowResourceInTopBar: "Show In Top Bar",
+    LeaderboardOptOutDescV2:
+        "You will no longer appear in the leaderboard. This will also disable player trade. PLEASE NOTE: if you want to enable leaderboard later, your data needs to be reset",
 };

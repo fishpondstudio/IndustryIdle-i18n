@@ -471,8 +471,6 @@ export const IT = {
     OptOut: "Opt Out",
     OptIn: "Reset and Enable",
     LeaderboardOptOut: "Leaderboard Opt-Out",
-    LeaderboardOptOutDesc:
-        "This will no longer send leaderboard score. PLEASE NOTE: if you want to enable leaderboard later, your data needs to be reset",
     LeaderboardOptIn: "Reset and Enable Leaderboard",
     LeaderboardOptInDesc: "Your data needs to be RESET before you can re-enable leaderboard, are you sure?",
     RewardAdsFailed: "Reward video did not complete",
@@ -1186,4 +1184,6 @@ export const IT = {
     ResourceExplorerAllDesc:
         "Resource explorers can produce all resources, including the ones that are not on the map (this DOES NOT unlock the relevant technologies)",
     ShowResourceInTopBar: "Show In Top Bar",
+    LeaderboardOptOutDescV2:
+        "You will no longer appear in the leaderboard. This will also disable player trade. PLEASE NOTE: if you want to enable leaderboard later, your data needs to be reset",
 };

@@ -464,8 +464,6 @@ export const JP = {
     OptOut: "Opt Out",
     OptIn: "リセットして有効にする",
     LeaderboardOptOut: "リーダーボードのオプトアウト",
-    LeaderboardOptOutDesc:
-        "これにより、リーダーボードのスコアが送信されなくなります。注意 : 後でリーダーボードを有効にしたい場合は、データをリセットする必要があります",
     LeaderboardOptIn: "リーダーボードのリセットと有効化",
     LeaderboardOptInDesc: "リーダーボードを有効にするには、データをリセットする必要がありますが、間違いありませんか？",
     RewardAdsFailed: "特典映像の再生が完了しない",
@@ -1165,4 +1163,6 @@ export const JP = {
     ResourceExplorerAllDesc:
         "Resource explorers can produce all resources, including the ones that are not on the map (this DOES NOT unlock the relevant technologies)",
     ShowResourceInTopBar: "Show In Top Bar",
+    LeaderboardOptOutDescV2:
+        "You will no longer appear in the leaderboard. This will also disable player trade. PLEASE NOTE: if you want to enable leaderboard later, your data needs to be reset",
 };
