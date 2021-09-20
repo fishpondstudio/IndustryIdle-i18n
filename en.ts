@@ -542,12 +542,6 @@ export const EN = {
     LoadGameErrorDesc: "Please check your internet connection. If the problem persists, please contact support",
     ExpansionPackIncompatible:
         "You are importing a save with expansion packs but your game doesn't have the required expansion packs",
-    SaveFileMigrated: "A New Era: Beta Is Here",
-    SaveFileMigratedDesc:
-        "Thank you for play testing in alpha. Your old map is not compatible but we have migrated your data and give you some bonus",
-    ClaimSwissMoney: "Claim %{amount} Swiss Money 💵",
-    SaveFileMigratedFinePrint:
-        "Your market cap is converted to Swiss Money and your unspent Swiss Money is carried forward. You will get 50% bonus Swiss Money for play testing in alpha. Max Swiss Money that can be carried forward is capped at 200",
     CashIn: "Cash In",
     CurrentCity: "Current City",
     CashInDesc:

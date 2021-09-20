@@ -521,7 +521,8 @@ export const ZH_TW = {
     LoadGameErrorDesc: "請檢查您的網路連線。如果問題仍然存在，請聯繫客服人員",
     ExpansionPackIncompatible: "您正在匯入擴充包存檔，但您的遊戲沒有所需的擴充包",
     SaveFileMigrated: "新時代：Beta 測試在此",
-    SaveFileMigratedDesc: "感謝您參與遊戲的 alpha 測試。您的舊地圖不相容，但是我們已經遷移了您的數據並為您提供了一些獎勵",
+    SaveFileMigratedDesc:
+        "感謝您參與遊戲的 alpha 測試。您的舊地圖不相容，但是我們已經遷移了您的數據並為您提供了一些獎勵",
     ClaimSwissMoney: "獲取 %{amount} 瑞士貨幣 💵",
     SaveFileMigratedFinePrint:
         "您的市值轉換為瑞士貨幣，且未使用的瑞士貨幣將一併轉移。您將獲得額外 50％ 的瑞士貨幣作為參與遊戲 alpha 測試的獎金。可轉移的瑞士貨幣上限為 200",
@@ -938,7 +939,8 @@ export const ZH_TW = {
     BuildingPermitsNeeded: "需要建築許可證",
     BuyMissingPermits: "購齊不足的許可證",
     GPUIsBusy: "您的 GPU 正處於忙碌中",
-    GPUIsBusyDesc: "您的 GPU 因其他程式而處於高負載，您的作業系統已將遊戲畫面暫停。您可以重新整理以回到遊戲。若無效, 請重啟遊戲",
+    GPUIsBusyDesc:
+        "您的 GPU 因其他程式而處於高負載，您的作業系統已將遊戲畫面暫停。您可以重新整理以回到遊戲。若無效, 請重啟遊戲",
     SaveAndReloadGame: "儲存並重整遊戲",
     ResearchLabCultureInput: "文藝復興",
     ResearchLabCultureInputDesc: "研究實驗室將有 2 倍的產能，但需要額外消耗文化點作為輸入",
@@ -1078,8 +1080,7 @@ export const ZH_TW = {
     GreenPeacekeeper: "綠能和平使者",
     GreenPeacekeeperDesc: "僅使用再生能源發電廠（風力或太陽能）打造陸軍、海軍、空軍或太空軍隊",
     DotComTycoon: "網際網路大亨",
-    DotComTycoonDesc:
-        "在同一地圖上建立 10 級社群網路公司、10 級搜尋引擎公司、10 級天網公司以及 10 級Musify公司",
+    DotComTycoonDesc: "在同一地圖上建立 10 級社群網路公司、10 級搜尋引擎公司、10 級天網公司以及 10 級Musify公司",
     ConstructionNotResearched: "尚未研究",
     OfflineEarningDescV2: "離線收入取決於您當前的研究、生產力和銷售能力",
     HighSpeedWarehouse: " 快速倉庫",
@@ -1104,15 +1105,12 @@ export const ZH_TW = {
     BaseProductionMultiplier: "基本產量",
     ShowBreakdown: "顯示詳細內容",
     HideBreakdown: "隱藏詳細內容",
-    IndustryZoneMultiplierSwissBoostDescV2:
-        "工業園區內的每一階生產鏈都會為同園區內的所有建築這項加速",
-    IndustryZoneBuildingPermitDesc:
-        "如果工業園區內有 N 階產品，將會提供 N-2 份建築許可證",
+    IndustryZoneMultiplierSwissBoostDescV2: "工業園區內的每一階生產鏈都會為同園區內的所有建築這項加速",
+    IndustryZoneBuildingPermitDesc: "如果工業園區內有 N 階產品，將會提供 N-2 份建築許可證",
     CrowdfundingBackersReturn: "支持者：%{backers}，當前回報：%{return}",
     CrowdfundingBackersNeeded: "還需要 %{backers} 位支持者",
     CrowdfundingReturnBonus: "+%{return} 回報",
-    ReturnOnPledgeDescV2:
-        "您獲得的總回報等於總質押價值乘以所有資源的回報率。對於一種資源來說，愈多支持者代表回報愈高",
+    ReturnOnPledgeDescV2: "您獲得的總回報等於總質押價值乘以所有資源的回報率。對於一種資源來說，愈多支持者代表回報愈高",
     PlayerTradeQuotaDescV2:
         "💡 配額是您能交易的資源量。貨幣價值等同您市值的 %{percent}，並且在市場更新時重置。您的交易價格偏離您貿易中心的價格愈多，您所需要的配額就愈高",
     AchievementSanJose100: "創業愛好者",
@@ -1131,8 +1129,7 @@ export const ZH_TW = {
     PlayerTradeFilterResources: "篩選資源",
     PlayerTradeFilterClear: "清除篩選",
     ResourceExplorerAll: "探索所有資源",
-    ResourceExplorerAllDesc:
-        "資源探勘者可以生產所有資源，包括不會出現在地圖上的資源（這不會解鎖相關科技）",
+    ResourceExplorerAllDesc: "資源探勘者可以生產所有資源，包括不會出現在地圖上的資源（這不會解鎖相關科技）",
     ShowResourceInTopBar: "顯示在頂部欄",
     LeaderboardOptOutDescV2:
         "您不會再出現於排行榜中。這也會導致無法使用玩家交易。請注意：如果以後要啟用排行榜，則需要重置數據",
