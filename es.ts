@@ -561,12 +561,6 @@ export const ES = {
     LoadGameErrorDesc: "Por favor revise su conexion a internet. Si el problema persiste, comuníquese con el soporte",
     ExpansionPackIncompatible:
         "Estás importando un guardado con paquetes de expansión, pero tu juego no tiene los paquetes de expansión requeridos.",
-    SaveFileMigrated: "Una nueva era: Beta está aquí",
-    SaveFileMigratedDesc:
-        "Gracias por jugar las pruebas en alfa. Su mapa anterior no es compatible, pero hemos migrado sus datos y le damos una bonificación.",
-    ClaimSwissMoney: "Afirmar %{amount} Dinero suizo 💵",
-    SaveFileMigratedFinePrint:
-        "Su capitalización de mercado se convierte en dinero suizo y su dinero suizo no gastado se traslada. Obtendrá un 50% de dinero suizo adicional para probar el juego en alfa. El dinero suizo máximo que se puede transferir tiene un límite de 200",
     CashIn: "Dinero en efectivo en",
     CurrentCity: "Ciudad actual",
     CashInDesc:
@@ -1205,4 +1199,6 @@ export const ES = {
     ShowResourceInTopBar: "Show In Top Bar",
     LeaderboardOptOutDescV2:
         "You will no longer appear in the leaderboard. This will also disable player trade. PLEASE NOTE: if you want to enable leaderboard later, your data needs to be reset",
+    PolicyPointNoCopperDesc:
+        "💡 This map doesn't have copper deposits, you can activate Al Circuit policy to unlock further technologies",
 };

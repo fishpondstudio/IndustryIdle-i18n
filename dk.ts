@@ -541,12 +541,6 @@ export const DK = {
     LoadGameErrorDesc: "Please check your Internet connection. If the problem persists, please contact support",
     ExpansionPackIncompatible:
         "You are importing a save with expansion packs but your game doesn't have the required expansion packs",
-    SaveFileMigrated: "A New Era: Beta Is Here",
-    SaveFileMigratedDesc:
-        "Thank you for play testing in alpha. Your old map is not compatible but we have migrated your data and give you some bonus",
-    ClaimSwissMoney: "Claim %{amount} Swiss Money 💵",
-    SaveFileMigratedFinePrint:
-        "Your market cap is converted to Swiss Money and your unspent Swiss money is carried forward. You will get 50% bonus Swiss money for play testing in alpha. Max Swiss money that can be carried forward is capped at 200",
     CashIn: "Cash In",
     CurrentCity: "Current City",
     CashInDesc:
@@ -1186,4 +1180,6 @@ export const DK = {
     ShowResourceInTopBar: "Show In Top Bar",
     LeaderboardOptOutDescV2:
         "You will no longer appear in the leaderboard. This will also disable player trade. PLEASE NOTE: if you want to enable leaderboard later, your data needs to be reset",
+    PolicyPointNoCopperDesc:
+        "💡 This map doesn't have copper deposits, you can activate Al Circuit policy to unlock further technologies",
 };

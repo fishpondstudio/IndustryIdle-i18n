@@ -571,12 +571,6 @@ export const FR = {
         "S'il vous plait, vérifiez votre connexion internet. Si le problème persiste, veuillez contacter le support",
     ExpansionPackIncompatible:
         "Vous importez une sauvegarde avec des packs d'extension mais votre jeu ne dispose pas des packs d'extension requis",
-    SaveFileMigrated: "Une nouvelle ère: la bêta est arrivée",
-    SaveFileMigratedDesc:
-        "Merci d'avoir joué aux tests en alpha. Votre ancienne carte n'est pas compatible mais nous avons migré vos données et vous offrons un bonus",
-    ClaimSwissMoney: "Réclamer %{amount} CHF 💵",
-    SaveFileMigratedFinePrint:
-        "Votre capital en bourse est converti en Franc suisse et est reporté si non-dépensé. Vous obtiendrez un bonus de 50% en CHF pour les tests de jeu en alpha. L'argent suisse maximal pouvant être reporté est plafonné à 200",
     CashIn: "Encaisser",
     CurrentCity: "Ville actuelle",
     CashInDesc:
@@ -1230,4 +1224,6 @@ export const FR = {
     ShowResourceInTopBar: "Show In Top Bar",
     LeaderboardOptOutDescV2:
         "You will no longer appear in the leaderboard. This will also disable player trade. PLEASE NOTE: if you want to enable leaderboard later, your data needs to be reset",
+    PolicyPointNoCopperDesc:
+        "💡 This map doesn't have copper deposits, you can activate Al Circuit policy to unlock further technologies",
 };
