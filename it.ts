@@ -665,8 +665,6 @@ export const IT = {
     WindTurbineAlwaysWorkDesc: "Wind turbines work 100% of the time but produces 30% less power",
     BookPublisherScience: "Science Literature",
     BookPublisherScienceDesc: "Book publishers produce science instead of culture",
-    WarehouseOutwardFuelSave: "Free Delivery",
-    WarehouseOutwardFuelSaveDesc: "Warehouses provide the same fuel save on outward transportation as well",
     ImportSaveVersionTooNew:
         "You are importing a save from %{saveVersion} but your game is %{gameVersion}. Please upgrade your game first",
     BatteryFuelEconomy: "Rechargeable Battery",

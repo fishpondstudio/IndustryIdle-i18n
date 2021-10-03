@@ -640,8 +640,6 @@ export const ZH_CN = {
     WindTurbineAlwaysWorkDesc: "风力发电机全时段工作，但电力产出少30%",
     BookPublisherScience: "科技文献",
     BookPublisherScienceDesc: "图书出版社产出科学点，而非文化点",
-    WarehouseOutwardFuelSave: "免费送货",
-    WarehouseOutwardFuelSaveDesc: "仓库向外运输资源时也将享有燃料节省效果",
     ImportSaveVersionTooNew:
         "您正在导入游戏版本为 %{saveVersion} 的存档，但您目前的游戏版本为 %{gameVersion}。请您先更新游戏",
     BatteryFuelEconomy: "可充电电池",

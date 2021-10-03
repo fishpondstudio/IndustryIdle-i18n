@@ -686,8 +686,6 @@ export const DE = {
     WindTurbineAlwaysWorkDesc: "Windkraftanlagen arbeiten 100% der Zeit, produzieren aber 30% weniger Strom",
     BookPublisherScience: "Wissenschaftsliteratur",
     BookPublisherScienceDesc: "Buchverlage produzieren Wissenschaft statt Kultur",
-    WarehouseOutwardFuelSave: "Gratisversand",
-    WarehouseOutwardFuelSaveDesc: "Lager bieten den gleichen Kraftstoffverbrauch, auch beim Transport nach außen",
     ImportSaveVersionTooNew:
         "Sie importieren eine Sicherung aus %{saveVersion} aber die Spielversion ist %{gameVersion}. Bitte aktualisiere zuerst dein Spiel",
     BatteryFuelEconomy: "Wiederaufladbare Batterie",

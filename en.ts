@@ -300,8 +300,6 @@ export const EN = {
     HighlightMaxInputDistanceNotDefault: "...that have max input distance < ∞",
     HighlightNotMakingProfit: "...that do not make a profit",
     NBuildingsAreHighlighted: "%{n} building(s) are highlighted",
-    OnlyToWarehouse: "Only for Warehouses",
-    OnlyToWarehouseDesc: "Only warehouses can transport resources from this building",
     TurnOffProduction: "Shutdown",
     TurnOffProductionDesc:
         "Turn off the building's production. The building will no longer transport resources and use power",
@@ -325,8 +323,8 @@ export const EN = {
     InputStrategyAmount: "Amount",
     InputStrategyAmountDesc: "Prefer the warehouse with the largest amount of the resources, regardless of distance",
     FuelCostSave: "Fuel Cost Save",
-    FuelCostSaveDesc:
-        "Warehouses save a certain percentage of fuel for transporting resources inward compared to other buildings, the higher the level, the more the save",
+    FuelCostSaveDescV2:
+        "Warehouses save a certain percentage of fuel for transporting resources compared to other buildings, the higher the level, the more the save",
     SoftwareCompany: "Software Company",
     Software: "Software",
     ScreenFactory: "Screen Factory",
@@ -666,8 +664,6 @@ export const EN = {
     WindTurbineAlwaysWorkDesc: "Wind turbines work 100% of the time but produce 30% less power",
     BookPublisherScience: "Science Literature",
     BookPublisherScienceDesc: "Book publishers produce science instead of culture",
-    WarehouseOutwardFuelSave: "Free Delivery",
-    WarehouseOutwardFuelSaveDesc: "Warehouses provide the same fuel save on outward transportation as well",
     ImportSaveVersionTooNew:
         "You are importing a save from %{saveVersion} but your game is %{gameVersion}. Please upgrade your game first",
     BatteryFuelEconomy: "Rechargeable Battery",
@@ -1125,8 +1121,7 @@ export const EN = {
     ConstructionNotResearched: "Not Researched",
     OfflineEarningDescV2: "Offline earning depends on your current research, production and auto sell",
     HighSpeedWarehouse: "High Speed Warehouse",
-    HighSpeedWarehouseDesc:
-        "Warehouses have 2x capacity and 50% faster inward and outward transport speed, but use 2x power",
+    HighSpeedWarehouseDesc: "Warehouses have 2x capacity and 50% faster transport speed, but use 2x power",
     IndustryZoneMultiplierDesc: "Industry Zone Bonus",
     IndustryZoneMultiplierSwissBoost: "Industry Zone Capacity Booster",
     EarningPerMinuteV2: "Offline Earning Rate",

@@ -671,9 +671,6 @@ export const VN = {
     WindTurbineAlwaysWorkDesc: "Điện gió hoạt động 100% thời gian nhưng sản xuất ít đi 30% điện năng",
     BookPublisherScience: "Ấn phẩm khoa học",
     BookPublisherScienceDesc: "Nhà xuất bản sản xuất điểm khoa học thay vì văn hóa",
-    WarehouseOutwardFuelSave: "Giao hàng miễn phí",
-    WarehouseOutwardFuelSaveDesc:
-        "Kho bãi cung cấp mức tiết kiệm nhiên liệu cho các tuyến xuất hàng như các tuyến nhập hàng",
     ImportSaveVersionTooNew:
         "Bạn đang đọc bản lưu từ bản %{saveVersion} nhưng trò chơi của bạn đang ở bản %{gameVersion}. Xin vui lòng nâng cấp trò chơi trước",
     BatteryFuelEconomy: "Pin sạc",

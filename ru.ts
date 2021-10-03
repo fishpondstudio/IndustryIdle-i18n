@@ -682,9 +682,6 @@ export const RU = {
     WindTurbineAlwaysWorkDesc: "Ветрогенераторы работают 100% времени, но производят на 30% меньше энергии",
     BookPublisherScience: "Научная литература",
     BookPublisherScienceDesc: "Книгоиздатели производят науку вместо культуры",
-    WarehouseOutwardFuelSave: "Бесплатная доставка",
-    WarehouseOutwardFuelSaveDesc:
-        "Склады обеспечивают такую же экономию топлива и при перевозке в обратном направлении",
     ImportSaveVersionTooNew:
         "Вы импортируете сохранение с %{saveVersion}, но ваша игра имеет версию %{gameVersion}. Пожалуйста, сначала обновите игру",
     BatteryFuelEconomy: "Аккумуляторная батарея",

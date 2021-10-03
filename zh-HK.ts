@@ -639,8 +639,6 @@ export const ZH_HK = {
     WindTurbineAlwaysWorkDesc: "風力發電機郁100%時間但發少30%電",
     BookPublisherScience: "科學文獻",
     BookPublisherScienceDesc: "圖書出版社生產科學代替文化",
-    WarehouseOutwardFuelSave: "免費送貨",
-    WarehouseOutwardFuelSaveDesc: "倉庫都會慳燃料輸出",
     ImportSaveVersionTooNew: "您匯入緊一個存檔喺 %{saveVersion}，但您嘅遊戲係 %{gameVersion}。更新咗您嘅遊戲先。",
     BatteryFuelEconomy: "充電電池",
     BatteryFuelEconomyDesc: "電池燃料效率好100% (即50%燃料成本)",

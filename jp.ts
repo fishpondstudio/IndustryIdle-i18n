@@ -653,8 +653,6 @@ export const JP = {
     WindTurbineAlwaysWorkDesc: "風力発電が発電量を30%減らして常時稼働します",
     BookPublisherScience: "科学文献",
     BookPublisherScienceDesc: "出版社がカルチャーの代わりに科学を生産するようになります",
-    WarehouseOutwardFuelSave: "無料宅配",
-    WarehouseOutwardFuelSaveDesc: "倉庫からの輸送でも燃料を節約できる",
     ImportSaveVersionTooNew:
         "お使いのゲームは%{gameVersion}ですが、%{saveVersion}のセーブをインポートしています。まずゲームをアップグレードしてください",
     BatteryFuelEconomy: "充電バッテリー",

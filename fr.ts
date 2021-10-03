@@ -698,9 +698,6 @@ export const FR = {
     WindTurbineAlwaysWorkDesc: "Les éoliennes fonctionnent 100% du temps mais produisent 30% d'énergie en moins",
     BookPublisherScience: "Littérature scientifique",
     BookPublisherScienceDesc: "Les éditeurs de livres produisent de la science au lieu de la culture",
-    WarehouseOutwardFuelSave: "Livraison gratuite",
-    WarehouseOutwardFuelSaveDesc:
-        "Les entrepôts offrent également la même économie de carburant sur le transport aller",
     ImportSaveVersionTooNew:
         "Vous importez une sauvegarde de %{saveVersion} mais votre jeu est en %{gameVersion}. Veuillez d'abord mettre à jour votre jeu",
     BatteryFuelEconomy: "Batterie rechargeable",

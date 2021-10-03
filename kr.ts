@@ -655,8 +655,6 @@ export const KR = {
     WindTurbineAlwaysWorkDesc: "풍력 터빈은 100% 동작하지만 30% 적은 전력을 생산합니다",
     BookPublisherScience: "과학 문학",
     BookPublisherScienceDesc: "출판사가 문화 대신 과학을 생산합니다",
-    WarehouseOutwardFuelSave: "무료 배송",
-    WarehouseOutwardFuelSaveDesc: "창고는 외부 운송시에도 동일하게 연료를 절약합니다",
     ImportSaveVersionTooNew:
         "%{saveVersion}에서 저장 파일을 가져 오지만 게임은 %{gameVersion}입니다. 먼저 게임을 업그레이드하세요",
     BatteryFuelEconomy: "충전식 배터리",

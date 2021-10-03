@@ -641,8 +641,6 @@ export const ZH_TW = {
     WindTurbineAlwaysWorkDesc: "風力發電機全時運作，但發電量降低30% ",
     BookPublisherScience: "科學文獻",
     BookPublisherScienceDesc: "圖書出版社貢獻科學，而非文化",
-    WarehouseOutwardFuelSave: "免運",
-    WarehouseOutwardFuelSaveDesc: "從倉庫出貨，同樣省油",
     ImportSaveVersionTooNew: "匯入的存檔版本為 %{saveVersion} ，但您的遊戲版本為 %{gameVersion}。請先更新您的遊戲。",
     BatteryFuelEconomy: "充電電池",
     BatteryFuelEconomyDesc: "電池效率提升100%（例：50%燃料消耗）",
