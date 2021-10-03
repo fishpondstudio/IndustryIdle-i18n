@@ -303,8 +303,6 @@ export const PL = {
     HighlightMaxInputDistanceNotDefault: "...z maksymalnym zasięgiem poboru surowców < ∞",
     HighlightNotMakingProfit: "...które nie zarabiają",
     NBuildingsAreHighlighted: "%{n} budynków zostało podświetlonych",
-    OnlyToWarehouse: "Tylko dla magazynów",
-    OnlyToWarehouseDesc: "Tylko magazyny mogą transportować surowce z tego budynku",
     TurnOffProduction: "Wyłącz",
     TurnOffProductionDesc: "Wyłącz produkcję budynku. Budynek nie będzie już transportował surowców i zużywał energii",
     ApplyToAll: "Zastosuj dla wszystkich %{building}",
@@ -327,8 +325,8 @@ export const PL = {
     InputStrategyAmount: "Ilość",
     InputStrategyAmountDesc: "Wybieraj magazyny posiadające największość ilość zasobów, niezależnie od dystansu",
     FuelCostSave: "Oszczędność kosztów transportu",
-    FuelCostSaveDesc:
-        "Magazyny oszczędzają pewien procent paliwa na transport surowców do wewnątrz w porównaniu do innych budynków, im wyższy poziom, tym więcej oszczędności",
+    FuelCostSaveDescV2:
+        "Warehouses save a certain percentage of fuel for transporting resources compared to other buildings, the higher the level, the more the save",
     SoftwareCompany: "Hurtownia oprogramowania",
     Software: "Oprogramowanie",
     ScreenFactory: "Fabryka wyświetlaczy",

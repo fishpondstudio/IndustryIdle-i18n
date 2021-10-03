@@ -294,8 +294,6 @@ export const JP = {
     HighlightMaxInputDistanceNotDefault: "最大入力距離が∞でない施設",
     HighlightNotMakingProfit: "利益が出ていない施設",
     NBuildingsAreHighlighted: "%{n}個の施設がハイライトされます",
-    OnlyToWarehouse: "倉庫のみ",
-    OnlyToWarehouseDesc: "この施設から資源を輸送できるのは倉庫だけです",
     TurnOffProduction: "一時停止",
     TurnOffProductionDesc: "施設を一時停止します。施設は、生産・輸送を停止し、消費電力が0になります",
     ApplyToAll: "すべての%{building}に適用",
@@ -318,7 +316,8 @@ export const JP = {
     InputStrategyAmount: "多い所から",
     InputStrategyAmountDesc: "距離に関係なく資源の量が多い施設から輸入する",
     FuelCostSave: "燃料節約率",
-    FuelCostSaveDesc: "倉庫は他の施設より安く資源を輸入できます。節約率はレベルが高くなるほど上がります",
+    FuelCostSaveDescV2:
+        "Warehouses save a certain percentage of fuel for transporting resources compared to other buildings, the higher the level, the more the save",
     SoftwareCompany: "ソフトウェアメーカー",
     Software: "ソフトウェア",
     ScreenFactory: "液晶パネル工場",

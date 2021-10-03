@@ -295,8 +295,6 @@ export const ZH_TW = {
     HighlightMaxInputDistanceNotDefault: "最大輸入距離 < ∞的……",
     HighlightNotMakingProfit: "不盈利的……",
     NBuildingsAreHighlighted: "%{n} 座建築物被強調顯示",
-    OnlyToWarehouse: "倉庫專運",
-    OnlyToWarehouseDesc: "只有倉庫才能從這座建築物運出資源",
     TurnOffProduction: "關閉",
     TurnOffProductionDesc: "關閉建築物的生產。該建築將不再運輸資源和使用電力",
     ApplyToAll: "應用於所有%{building}",
@@ -319,7 +317,8 @@ export const ZH_TW = {
     InputStrategyAmount: "較多庫存量",
     InputStrategyAmountDesc: "無論距離如何，都偏好資源量最大的倉庫",
     FuelCostSave: "節省燃料成本",
-    FuelCostSaveDesc: "與其他建築物相比，倉庫可節省運入資源所需的一定比例的燃料，等級越高，節省的燃料就越多",
+    FuelCostSaveDescV2:
+        "Warehouses save a certain percentage of fuel for transporting resources compared to other buildings, the higher the level, the more the save",
     SoftwareCompany: "軟體公司",
     Software: "軟體",
     ScreenFactory: "螢幕工廠",
@@ -873,7 +872,8 @@ export const ZH_TW = {
     AllTimeSwissMoneyEarned: "總體賺取的瑞士貨幣：%{number}",
     BuildingUpgradeCostDivider: "建築升級成本除數",
     AchievementSoftwareGiant: "軟體巨人",
-    AchievementSoftwareGiantDesc: "在同一地圖上建立 10 級軟體公司、10 級操作系統公司、10 級數據庫公司和 10 級網頁瀏覽器",
+    AchievementSoftwareGiantDesc:
+        "在同一地圖上建立 10 級軟體公司、10 級操作系統公司、10 級數據庫公司和 10 級網頁瀏覽器",
     AchievementSpaceRace: "太空競賽",
     AchievementSpaceRaceDesc: "在同一地圖上建立 10 級火箭工廠、10 級衛星工廠、10 級太空船工廠和 10 級太空站工廠",
     AchievementToTheMoon: "去月球",
@@ -1125,6 +1125,5 @@ export const ZH_TW = {
     ShowResourceInTopBar: "顯示在頂部欄",
     LeaderboardOptOutDescV2:
         "您不會再出現於排行榜中。這也會導致無法使用玩家交易。請注意：如果以後要啟用排行榜，則需要重置數據",
-    PolicyPointNoCopperDesc:
-        "💡 這張地圖沒有蘊藏銅礦，你可以透過啟動「鋁電路」政策來解鎖後續科技",
+    PolicyPointNoCopperDesc: "💡 這張地圖沒有蘊藏銅礦，你可以透過啟動「鋁電路」政策來解鎖後續科技",
 };

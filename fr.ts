@@ -313,8 +313,6 @@ export const FR = {
     HighlightMaxInputDistanceNotDefault: "...qui ont une distance d'entrée maximale < ∞",
     HighlightNotMakingProfit: "...ne fais pas de profit",
     NBuildingsAreHighlighted: "%{n} bâtiment(s) sont mis en évidence",
-    OnlyToWarehouse: "Uniquement pour les entrepôts",
-    OnlyToWarehouseDesc: "Seuls les entrepôts peuvent transporter des ressources depuis ce bâtiment",
     TurnOffProduction: "Désactiver",
     TurnOffProductionDesc:
         "Arrêtez la production du bâtiment. Le bâtiment ne transportera plus de ressources et n'utilisera plus d'électricité",
@@ -339,8 +337,8 @@ export const FR = {
     InputStrategyAmountDesc:
         "Préférez l'entrepôt avec la plus grande quantité de ressources, quelle que soit la distance",
     FuelCostSave: "Économisez sur le coût du carburant",
-    FuelCostSaveDesc:
-        "Les entrepôts économisent un certain pourcentage de carburant pour le transport des ressources vers l'intérieur par rapport aux autres bâtiments, plus le niveau est élevé, plus l'économie est importante",
+    FuelCostSaveDescV2:
+        "Warehouses save a certain percentage of fuel for transporting resources compared to other buildings, the higher the level, the more the save",
     SoftwareCompany: "Société de logiciels",
     Software: "Logiciel",
     ScreenFactory: "Usine d'écrans",

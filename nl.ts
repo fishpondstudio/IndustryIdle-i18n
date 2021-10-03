@@ -302,8 +302,6 @@ export const NL = {
     HighlightMaxInputDistanceNotDefault: "...die een max invoer afstand hebben < ∞",
     HighlightNotMakingProfit: "...die geen winst maken",
     NBuildingsAreHighlighted: "%{n} gebouw(en) is/zijn gemarkeerd",
-    OnlyToWarehouse: "Enkel voor opslagplaatsen",
-    OnlyToWarehouseDesc: "Enkel opslagplaatsen kunnen goederen transporteren van dit gebouw",
     TurnOffProduction: "Uitschakelen",
     TurnOffProductionDesc:
         "Schakel het gebouw uit. Het gebouw zal niet langer goederen ontvangen en energie verbruiken",
@@ -327,8 +325,8 @@ export const NL = {
     InputStrategyAmount: "Hoeveelheid",
     InputStrategyAmountDesc: "Prefereer de opslagplaats met grootste aantal goederen, ongeacht de afstand",
     FuelCostSave: "Brandstof kosten besparing",
-    FuelCostSaveDesc:
-        "Opslagplaatsen besparen een bepaald percentage van de brandstof voor binnekomende goederen ten opzichte van andere gebouwen. Hoe hoger het niveau, hoe meer je bespaart",
+    FuelCostSaveDescV2:
+        "Warehouses save a certain percentage of fuel for transporting resources compared to other buildings, the higher the level, the more the save",
     SoftwareCompany: "Software Bedrijf",
     Software: "Software",
     ScreenFactory: "Schermen Fabriek",

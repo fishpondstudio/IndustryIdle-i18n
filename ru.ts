@@ -306,8 +306,6 @@ export const RU = {
     HighlightMaxInputDistanceNotDefault: "...которые имеют максимальное входное расстояние < ∞",
     HighlightNotMakingProfit: "...которые не приносят прибыли",
     NBuildingsAreHighlighted: "%{n} здания(й) выделено",
-    OnlyToWarehouse: "Только для складов",
-    OnlyToWarehouseDesc: "Только склады могут перевозить ресурсы из этого здания",
     TurnOffProduction: "Выключение",
     TurnOffProductionDesc:
         "Выключить производство в здании. Здание больше не будет транспортировать ресурсы и использовать энергию",
@@ -331,8 +329,8 @@ export const RU = {
     InputStrategyAmount: "Сумма",
     InputStrategyAmountDesc: "Отдавать предпочтение складу с наибольшим количеством ресурсов, независимо от расстояния",
     FuelCostSave: "Экономия затрат на топливо",
-    FuelCostSaveDesc:
-        "Склады экономят определенный процент топлива для перевозки входных ресурсов по сравнению с другими зданиями, чем выше уровень, тем больше экономия",
+    FuelCostSaveDescV2:
+        "Warehouses save a certain percentage of fuel for transporting resources compared to other buildings, the higher the level, the more the save",
     SoftwareCompany: "Компания 'Программное Обеспечение'",
     Software: "Программное обеспечение",
     ScreenFactory: "Завод экранов",

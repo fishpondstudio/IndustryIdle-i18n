@@ -297,8 +297,6 @@ export const KR = {
     HighlightMaxInputDistanceNotDefault: "...최대 입력 거리 < ∞",
     HighlightNotMakingProfit: "...이익을 내지 못 함 ",
     NBuildingsAreHighlighted: "%{n} 개의 건물이 강조 표시되었습니다",
-    OnlyToWarehouse: "창고 전용",
-    OnlyToWarehouseDesc: "창고로만 자원을 보냅니다",
     TurnOffProduction: "꺼짐",
     TurnOffProductionDesc: "건물의 생산을 중단합니다. 건물은 더 이상 자원을 수송하거나 전력을 사용하지 않을 것입니다",
     ApplyToAll: "모든 %{building}에 적용",
@@ -321,8 +319,8 @@ export const KR = {
     InputStrategyAmount: "많은 양 우선",
     InputStrategyAmountDesc: "거리에 관계 없이 자원이 가장 많은 창고를 선호합니다",
     FuelCostSave: "연료 비용 절약",
-    FuelCostSaveDesc:
-        "창고는 내부로 자원을 운반할 때 다른 건물에 비해 일정 비율의 연료를 절약합니다. 레벨이 높을수록 절약 효과가 높습니다",
+    FuelCostSaveDescV2:
+        "Warehouses save a certain percentage of fuel for transporting resources compared to other buildings, the higher the level, the more the save",
     SoftwareCompany: "소프트웨어 회사",
     Software: "소프트웨어",
     ScreenFactory: "디스플레이 공장",

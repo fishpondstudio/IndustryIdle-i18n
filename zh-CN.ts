@@ -294,8 +294,6 @@ export const ZH_CN = {
     HighlightMaxInputDistanceNotDefault: "最大投入距离 < ∞的...",
     HighlightNotMakingProfit: "不盈利的...",
     NBuildingsAreHighlighted: "%{n} 建筑物被突出显示",
-    OnlyToWarehouse: "仓库专运",
-    OnlyToWarehouseDesc: "只有仓库才能从这座建筑物里运送资源",
     TurnOffProduction: "关闭",
     TurnOffProductionDesc: "关闭建筑物的生产。该建筑将不再投入资源和使用电力",
     ApplyToAll: "应用于所有 %{building}",
@@ -318,7 +316,8 @@ export const ZH_CN = {
     InputStrategyAmount: "数量",
     InputStrategyAmountDesc: "无论距离如何，都偏好资源量最大的仓库",
     FuelCostSave: "节省燃料成本",
-    FuelCostSaveDesc: "与其他建筑物相比，仓库可节省一定比例的燃料以用于运输资源入内，等级越高，节省的费用就越多",
+    FuelCostSaveDescV2:
+        "Warehouses save a certain percentage of fuel for transporting resources compared to other buildings, the higher the level, the more the save",
     SoftwareCompany: "软件公司",
     Software: "软件",
     ScreenFactory: "屏幕工厂",

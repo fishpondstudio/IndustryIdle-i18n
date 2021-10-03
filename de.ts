@@ -306,8 +306,6 @@ export const DE = {
     HighlightMaxInputDistanceNotDefault: "...haben die maximale Eingangsentfernung < ∞",
     HighlightNotMakingProfit: "...machen keinen Gewinn",
     NBuildingsAreHighlighted: "%{n} Gebäude sind hervorgehoben",
-    OnlyToWarehouse: "Nur für Lager",
-    OnlyToWarehouseDesc: "Nur Lager können Ressourcen von diesem Gebäude transportieren",
     TurnOffProduction: "Stilllegen",
     TurnOffProductionDesc:
         "Schalten Sie die Produktion des Gebäudes aus. Das Gebäude wird keine Ressourcen mehr transportieren und keinen Strom verbrauchen",
@@ -332,8 +330,8 @@ export const DE = {
     InputStrategyAmountDesc:
         "Bevorzugen Sie das Lager mit der größten Menge an Ressourcen, unabhängig von der Entfernung",
     FuelCostSave: "Kraftstoffkosten sparen",
-    FuelCostSaveDesc:
-        "Lagerhäuser sparen im Vergleich zu anderen Gebäuden einen bestimmten Prozentsatz an Kraftstoff für den Transport von Ressourcen. Je höher das Level, desto mehr wird gespart",
+    FuelCostSaveDescV2:
+        "Warehouses save a certain percentage of fuel for transporting resources compared to other buildings, the higher the level, the more the save",
     SoftwareCompany: "Softwareunternehmen",
     Software: "Software",
     ScreenFactory: "Bildschirmfabrik",

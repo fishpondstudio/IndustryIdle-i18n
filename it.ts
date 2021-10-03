@@ -299,8 +299,6 @@ export const IT = {
     HighlightMaxInputDistanceNotDefault: "...that have max input distance < ∞",
     HighlightNotMakingProfit: "...do not make a profit",
     NBuildingsAreHighlighted: "%{n} building(s) are highlighted",
-    OnlyToWarehouse: "Only for Warehouses",
-    OnlyToWarehouseDesc: "Only warehouses can transport resources from this building",
     TurnOffProduction: "Shutdown",
     TurnOffProductionDesc:
         "Turn off the building's production. The building will no longer transport resources and use power",
@@ -324,8 +322,8 @@ export const IT = {
     InputStrategyAmount: "Amount",
     InputStrategyAmountDesc: "Prefer the warehouse with the largest amount of the resources, regardless of distance",
     FuelCostSave: "Fuel Cost Save",
-    FuelCostSaveDesc:
-        "Warehouses save a certain percentage of fuel for transporting resources inward compared to other buildings, the higher the level, the more the save",
+    FuelCostSaveDescV2:
+        "Warehouses save a certain percentage of fuel for transporting resources compared to other buildings, the higher the level, the more the save",
     SoftwareCompany: "Software Company",
     Software: "Software",
     ScreenFactory: "Screen Factory",

@@ -293,8 +293,6 @@ export const ZH_HK = {
     HighlightMaxInputDistanceNotDefault: "..最長輸入距離 < ∞嘅",
     HighlightNotMakingProfit: "...唔盈利嘅",
     NBuildingsAreHighlighted: "%{n}個建築物被突顯",
-    OnlyToWarehouse: "淨係送到倉庫",
-    OnlyToWarehouseDesc: "得倉庫先可以喺呢座建築度送資源",
     TurnOffProduction: "閂",
     TurnOffProductionDesc: "閂建築嘅生產。佢唔會再送資源同用電",
     ApplyToAll: "套用喺全部%{building}",
@@ -317,7 +315,8 @@ export const ZH_HK = {
     InputStrategyAmount: "量",
     InputStrategyAmountDesc: "就算距離係點，都係最多資源嘅倉庫先",
     FuelCostSave: "慳燃料",
-    FuelCostSaveDesc: "同其他建築比，倉庫慳一定比例嘅燃料嚟送資源，越高級慳越多",
+    FuelCostSaveDescV2:
+        "Warehouses save a certain percentage of fuel for transporting resources compared to other buildings, the higher the level, the more the save",
     SoftwareCompany: "軟件公司",
     Software: "軟件",
     ScreenFactory: "螢幕工廠",

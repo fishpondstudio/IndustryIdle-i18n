@@ -305,8 +305,6 @@ export const PT_BR = {
     HighlightMaxInputDistanceNotDefault: "...que têm distância máxima de entrada < ∞",
     HighlightNotMakingProfit: "... que não geram lucro",
     NBuildingsAreHighlighted: "%{n} construção(ões) são destacadas",
-    OnlyToWarehouse: "Apenas para armazéns",
-    OnlyToWarehouseDesc: "Apenas armazéns podem transportar recursos deste edifício",
     TurnOffProduction: "Desativar",
     TurnOffProductionDesc:
         "Desligue a produção da construção. A construção não transportará mais recursos nem usará energia",
@@ -330,8 +328,8 @@ export const PT_BR = {
     InputStrategyAmount: "Quantidade",
     InputStrategyAmountDesc: "Prefira o armazém com maior quantidade de recursos, independente da distância",
     FuelCostSave: "Economia de combustível",
-    FuelCostSaveDesc:
-        "Os armazéns economizam uma certa porcentagem de combustível para o transporte de recursos para dentro em comparação com outros edifícios, quanto mais alto o nível, mais economia",
+    FuelCostSaveDescV2:
+        "Warehouses save a certain percentage of fuel for transporting resources compared to other buildings, the higher the level, the more the save",
     SoftwareCompany: "Empresa de programas",
     Software: "Programa",
     ScreenFactory: "Fábrica de telas",

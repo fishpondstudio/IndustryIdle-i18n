@@ -151,7 +151,8 @@ export const TR = {
     ResourceOutput: "Tüketim",
     ResourceStorage: "Depo",
     ResourceChange: "Değişimi",
-    ResourceInOutDesc: "💡 Karşılık gelen çıkış ve giriş binalarını vurgulamak için yukarıdaki Giriş-Çıkış sayılarına dokunun",
+    ResourceInOutDesc:
+        "💡 Karşılık gelen çıkış ve giriş binalarını vurgulamak için yukarıdaki Giriş-Çıkış sayılarına dokunun",
     ResourceChart: "Kaynak Şeması",
     MarketUpdateIn: "%{time} içinde bir sonraki piyasa fiyatı güncellemesi",
     Income: "Gelir",
@@ -192,6 +193,7 @@ export const TR = {
     PanelPositionDesc: "Yan paneli solda, sağda veya otomatik olarak göster (seçili döşemeye bağlıdır)",
     InputCapacity: "Üretim Kapasitesi",
     InputCapacityPerCycle: "Üretim Kapasitesi / Döngü",
+    Output: "Output",
     OutputCapacity: "Tüketim Kapasitesi",
     OutputCapacityPerCycle: "Tüketim Kapasitesi / Döngü",
     ResourceDeposit: "Kaynak Yatırımı",
@@ -297,8 +299,6 @@ export const TR = {
     HighlightMaxInputDistanceNotDefault: "...that have max input distance < ∞",
     HighlightNotMakingProfit: "...do not make a profit",
     NBuildingsAreHighlighted: "%{n} building(s) are highlighted",
-    OnlyToWarehouse: "Only for Warehouses",
-    OnlyToWarehouseDesc: "Only warehouses can transport resources from this building",
     TurnOffProduction: "Üretimi Durdur",
     TurnOffProductionDesc:
         "Turn off the building's production. The building will no longer transport resources and use power",
@@ -322,8 +322,8 @@ export const TR = {
     InputStrategyAmount: "Amount",
     InputStrategyAmountDesc: "Prefer the warehouse with the largest amount of the resources, regardless of distance",
     FuelCostSave: "Fuel Cost Save",
-    FuelCostSaveDesc:
-        "Warehouses save a certain percentage of fuel for transporting resources inward compared to other buildings, the higher the level, the more the save",
+    FuelCostSaveDescV2:
+        "Warehouses save a certain percentage of fuel for transporting resources compared to other buildings, the higher the level, the more the save",
     SoftwareCompany: "Yazılım Şirketi",
     Software: "Yazılım",
     ScreenFactory: "Ekran Fabrikası",

@@ -300,8 +300,6 @@ export const VN = {
     HighlightMaxInputDistanceNotDefault: "...có khoảng cách thu tài nguyên tối đa < ∞",
     HighlightNotMakingProfit: "...không có lãi",
     NBuildingsAreHighlighted: "%{n} công trình đã được đánh dấu",
-    OnlyToWarehouse: "Chỉ dành cho kho bãi",
-    OnlyToWarehouseDesc: "Chỉ kho bãi có thể vận chuyển thành phẩm từ công trình này",
     TurnOffProduction: "Ngừng hoạt động",
     TurnOffProductionDesc: "Ngưng sản xuất. Công trình cũng sẽ không vận chuyển tài nguyên và không sử dụng điện năng",
     ApplyToAll: "Áp dụng cho tất cả các công trình %{building}",
@@ -324,8 +322,8 @@ export const VN = {
     InputStrategyAmount: "Số lượng",
     InputStrategyAmountDesc: "Ưu tiên kho bãi có nhiều nguyên liệu nhất, bất kể khoảng cách",
     FuelCostSave: "Tiết kiệm nhiên liệu",
-    FuelCostSaveDesc:
-        "Kho bãi tiết kiệm được tỉ lệ nhiên liệu nhất định khi nhập tài nguyên vào so với các công trình khác, cấp kho bãi càng cao thì càng tiết kiệm nhiều",
+    FuelCostSaveDescV2:
+        "Warehouses save a certain percentage of fuel for transporting resources compared to other buildings, the higher the level, the more the save",
     SoftwareCompany: "Công ty phần mềm",
     Software: "Phần mềm",
     ScreenFactory: "Xưởng màn hình",

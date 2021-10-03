@@ -307,8 +307,6 @@ export const ES = {
     HighlightMaxInputDistanceNotDefault: "...que tienen una distancia máxima de entrada < ∞",
     HighlightNotMakingProfit: "...no obtengas ganancias",
     NBuildingsAreHighlighted: "%{n} edificio(s) están resaltados",
-    OnlyToWarehouse: "Solo para almacenes",
-    OnlyToWarehouseDesc: "Solo los almacenes pueden transportar recursos desde este edificio",
     TurnOffProduction: "Apagar",
     TurnOffProductionDesc:
         "Apague la producción del edificio. El edificio ya no transportará recursos ni utilizará energía.",
@@ -333,8 +331,8 @@ export const ES = {
     InputStrategyAmountDesc:
         "Prefiera el almacén con la mayor cantidad de recursos, independientemente de la distancia.",
     FuelCostSave: "Ahorro de costo de combustible",
-    FuelCostSaveDesc:
-        "Los almacenes ahorran un cierto porcentaje de combustible para transportar recursos hacia el interior en comparación con otros edificios, cuanto más alto es el nivel, más se ahorra",
+    FuelCostSaveDescV2:
+        "Warehouses save a certain percentage of fuel for transporting resources compared to other buildings, the higher the level, the more the save",
     SoftwareCompany: "Compañía de software",
     Software: "Software",
     ScreenFactory: "Fábrica de pantallas",
