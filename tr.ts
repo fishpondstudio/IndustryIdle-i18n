@@ -1178,4 +1178,7 @@ export const TR = {
         "You will no longer appear in the leaderboard. This will also disable player trade. PLEASE NOTE: if you want to enable leaderboard later, your data needs to be reset",
     PolicyPointNoCopperDesc:
         "💡 This map doesn't have copper deposits, you can activate Al Circuit policy to unlock further technologies",
+    Pumpkin: "Pumpkin",
+    PumpkinBattery: "Pumpkin Battery",
+    PumpkinBatteryDesc: "All buildings that consume battery use pumpkin instead (FREE POLICY)",
 };

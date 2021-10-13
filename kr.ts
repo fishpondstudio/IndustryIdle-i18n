@@ -1153,4 +1153,7 @@ export const KR = {
         "더 이상 리더보드 점수를 전송하지 않습니다. 플레이어 거래 역시 비활성화됩니다. 참고: 나중에 리더보드를 사용하려면 데이터를 재설정해야 합니다.",
     PolicyPointNoCopperDesc:
         "💡 This map doesn't have copper deposits, you can activate Al Circuit policy to unlock further technologies",
+    Pumpkin: "Pumpkin",
+    PumpkinBattery: "Pumpkin Battery",
+    PumpkinBatteryDesc: "All buildings that consume battery use pumpkin instead (FREE POLICY)",
 };
