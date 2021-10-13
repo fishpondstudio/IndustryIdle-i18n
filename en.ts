@@ -994,7 +994,7 @@ export const EN = {
     MapleSyrup: "Maple Syrup",
     MapleSyrupFactory: "Maple Syrup Factory",
     SyrupPlastic: "Syrup Plastic",
-    SyrupPlasticDesc: "All buildings that input plastic use maple syrup instead",
+    SyrupPlasticDesc: "All buildings that consume plastic use maple syrup instead",
     ResourceBoosterSupplyChain: "Supply Chain Booster",
     ResourceBoosterSupplyChainDesc:
         "Resource boosters use 2x power and science, but for each working mine a resource booster is boosting, it also provides capacity boost to adjacent factories that consume the mine's output (the factory should only consume deposits)",
@@ -1177,4 +1177,7 @@ export const EN = {
         "You will no longer appear in the leaderboard. This will also disable player trade. PLEASE NOTE: if you want to enable leaderboard later, your data needs to be reset",
     PolicyPointNoCopperDesc:
         "💡 This map doesn't have copper deposits, you can activate Al Circuit policy to unlock further technologies",
+    Pumpkin: "Pumpkin",
+    PumpkinBattery: "Pumpkin Battery",
+    PumpkinBatteryDesc: "All buildings that consume battery use pumpkin instead (FREE POLICY)",
 };
