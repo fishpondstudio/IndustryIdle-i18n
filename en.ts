@@ -1180,4 +1180,6 @@ export const EN = {
     Pumpkin: "Pumpkin",
     PumpkinBattery: "Pumpkin Battery",
     PumpkinBatteryDesc: "All buildings that consume battery use pumpkin instead (FREE POLICY)",
+    PumpkinSteel: "Pumpkin Steel",
+    PumpkinSteelDesc: "All buildings that consume steel use pumpkin instead (FREE POLICY)",
 };
