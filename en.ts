@@ -300,8 +300,6 @@ export const EN = {
     HighlightMaxInputDistanceNotDefault: "...that have max input distance < ∞",
     HighlightNotMakingProfit: "...that do not make a profit",
     NBuildingsAreHighlighted: "%{n} building(s) are highlighted",
-    OnlyToWarehouse: "Only for Warehouses",
-    OnlyToWarehouseDesc: "Only warehouses can transport resources from this building",
     TurnOffProduction: "Shutdown",
     TurnOffProductionDesc:
         "Turn off the building's production. The building will no longer transport resources and use power",
@@ -325,8 +323,8 @@ export const EN = {
     InputStrategyAmount: "Amount",
     InputStrategyAmountDesc: "Prefer the warehouse with the largest amount of the resources, regardless of distance",
     FuelCostSave: "Fuel Cost Save",
-    FuelCostSaveDesc:
-        "Warehouses save a certain percentage of fuel for transporting resources inward compared to other buildings, the higher the level, the more the save",
+    FuelCostSaveDescV2:
+        "Warehouses save a certain percentage of fuel for transporting resources compared to other buildings, the higher the level, the more the save",
     SoftwareCompany: "Software Company",
     Software: "Software",
     ScreenFactory: "Screen Factory",
@@ -542,12 +540,6 @@ export const EN = {
     LoadGameErrorDesc: "Please check your internet connection. If the problem persists, please contact support",
     ExpansionPackIncompatible:
         "You are importing a save with expansion packs but your game doesn't have the required expansion packs",
-    SaveFileMigrated: "A New Era: Beta Is Here",
-    SaveFileMigratedDesc:
-        "Thank you for play testing in alpha. Your old map is not compatible but we have migrated your data and give you some bonus",
-    ClaimSwissMoney: "Claim %{amount} Swiss Money 💵",
-    SaveFileMigratedFinePrint:
-        "Your market cap is converted to Swiss Money and your unspent Swiss Money is carried forward. You will get 50% bonus Swiss Money for play testing in alpha. Max Swiss Money that can be carried forward is capped at 200",
     CashIn: "Cash In",
     CurrentCity: "Current City",
     CashInDesc:
@@ -672,8 +664,6 @@ export const EN = {
     WindTurbineAlwaysWorkDesc: "Wind turbines work 100% of the time but produce 30% less power",
     BookPublisherScience: "Science Literature",
     BookPublisherScienceDesc: "Book publishers produce science instead of culture",
-    WarehouseOutwardFuelSave: "Free Delivery",
-    WarehouseOutwardFuelSaveDesc: "Warehouses provide the same fuel save on outward transportation as well",
     ImportSaveVersionTooNew:
         "You are importing a save from %{saveVersion} but your game is %{gameVersion}. Please upgrade your game first",
     BatteryFuelEconomy: "Rechargeable Battery",
@@ -1004,7 +994,7 @@ export const EN = {
     MapleSyrup: "Maple Syrup",
     MapleSyrupFactory: "Maple Syrup Factory",
     SyrupPlastic: "Syrup Plastic",
-    SyrupPlasticDesc: "All buildings that input plastic use maple syrup instead",
+    SyrupPlasticDesc: "All buildings that consume plastic use maple syrup instead",
     ResourceBoosterSupplyChain: "Supply Chain Booster",
     ResourceBoosterSupplyChainDesc:
         "Resource boosters use 2x power and science, but for each working mine a resource booster is boosting, it also provides capacity boost to adjacent factories that consume the mine's output (the factory should only consume deposits)",
@@ -1131,8 +1121,7 @@ export const EN = {
     ConstructionNotResearched: "Not Researched",
     OfflineEarningDescV2: "Offline earning depends on your current research, production and auto sell",
     HighSpeedWarehouse: "High Speed Warehouse",
-    HighSpeedWarehouseDesc:
-        "Warehouses have 2x capacity and 50% faster inward and outward transport speed, but use 2x power",
+    HighSpeedWarehouseDesc: "Warehouses have 2x capacity and 50% faster transport speed, but use 2x power",
     IndustryZoneMultiplierDesc: "Industry Zone Bonus",
     IndustryZoneMultiplierSwissBoost: "Industry Zone Capacity Booster",
     EarningPerMinuteV2: "Offline Earning Rate",
@@ -1186,4 +1175,11 @@ export const EN = {
     ShowResourceInTopBar: "Show In Top Bar",
     LeaderboardOptOutDescV2:
         "You will no longer appear in the leaderboard. This will also disable player trade. PLEASE NOTE: if you want to enable leaderboard later, your data needs to be reset",
+    PolicyPointNoCopperDesc:
+        "💡 This map doesn't have copper deposits, you can activate Al Circuit policy to unlock further technologies",
+    Pumpkin: "Pumpkin",
+    PumpkinBattery: "Pumpkin Battery",
+    PumpkinBatteryDesc: "All buildings that consume battery use pumpkin instead (FREE POLICY)",
+    PumpkinSteel: "Pumpkin Steel",
+    PumpkinSteelDesc: "All buildings that consume steel use pumpkin instead (FREE POLICY)",
 };

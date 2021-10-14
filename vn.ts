@@ -300,8 +300,6 @@ export const VN = {
     HighlightMaxInputDistanceNotDefault: "...có khoảng cách thu tài nguyên tối đa < ∞",
     HighlightNotMakingProfit: "...không có lãi",
     NBuildingsAreHighlighted: "%{n} công trình đã được đánh dấu",
-    OnlyToWarehouse: "Chỉ dành cho kho bãi",
-    OnlyToWarehouseDesc: "Chỉ kho bãi có thể vận chuyển thành phẩm từ công trình này",
     TurnOffProduction: "Ngừng hoạt động",
     TurnOffProductionDesc: "Ngưng sản xuất. Công trình cũng sẽ không vận chuyển tài nguyên và không sử dụng điện năng",
     ApplyToAll: "Áp dụng cho tất cả các công trình %{building}",
@@ -324,8 +322,8 @@ export const VN = {
     InputStrategyAmount: "Số lượng",
     InputStrategyAmountDesc: "Ưu tiên kho bãi có nhiều nguyên liệu nhất, bất kể khoảng cách",
     FuelCostSave: "Tiết kiệm nhiên liệu",
-    FuelCostSaveDesc:
-        "Kho bãi tiết kiệm được tỉ lệ nhiên liệu nhất định khi nhập tài nguyên vào so với các công trình khác, cấp kho bãi càng cao thì càng tiết kiệm nhiều",
+    FuelCostSaveDescV2:
+        "Warehouses save a certain percentage of fuel for transporting resources compared to other buildings, the higher the level, the more the save",
     SoftwareCompany: "Công ty phần mềm",
     Software: "Phần mềm",
     ScreenFactory: "Xưởng màn hình",
@@ -544,12 +542,6 @@ export const VN = {
     LoadGameErrorDesc: "Xin hãy kiểm tra đường truyền. Nếu vần đề vẫn lặp lại, xin hãy liên hệ hỗ trợ",
     ExpansionPackIncompatible:
         "Bạn đang mở một bản lưu có Bản mở rộng, nhưng phiên bản trò chơi của bạn không có Bản mở rộng nào",
-    SaveFileMigrated: "Thời đại mới: Beta đã về",
-    SaveFileMigratedDesc:
-        "Cám ơn bạn đã tham gia bản thử Alpha. Bản đồ cũ của bạn không tương thích nhưng chúng tôi đã bảo lưu dữ liệu của bạn và tặng bạn ít phần thưởng",
-    ClaimSwissMoney: "Nhận %{amount} tiền Thụy Sĩ 💵",
-    SaveFileMigratedFinePrint:
-        "Giá trị vốn hóa của bạn đã được quy đổi sang tiền Thụy Sĩ và gom vào với tiền chưa sử dụng. Bạn sẽ nhận được thêm 50% tiền Thụy Sĩ vì đã tham gia thử nghiệm Alpha. Số tiền Thụy Sĩ tối đa có thể mang theo là 200",
     CashIn: "Xèng về",
     CurrentCity: "Thành phố hiện tại",
     CashInDesc:
@@ -677,9 +669,6 @@ export const VN = {
     WindTurbineAlwaysWorkDesc: "Điện gió hoạt động 100% thời gian nhưng sản xuất ít đi 30% điện năng",
     BookPublisherScience: "Ấn phẩm khoa học",
     BookPublisherScienceDesc: "Nhà xuất bản sản xuất điểm khoa học thay vì văn hóa",
-    WarehouseOutwardFuelSave: "Giao hàng miễn phí",
-    WarehouseOutwardFuelSaveDesc:
-        "Kho bãi cung cấp mức tiết kiệm nhiên liệu cho các tuyến xuất hàng như các tuyến nhập hàng",
     ImportSaveVersionTooNew:
         "Bạn đang đọc bản lưu từ bản %{saveVersion} nhưng trò chơi của bạn đang ở bản %{gameVersion}. Xin vui lòng nâng cấp trò chơi trước",
     BatteryFuelEconomy: "Pin sạc",
@@ -1198,4 +1187,11 @@ export const VN = {
     ShowResourceInTopBar: "Show In Top Bar",
     LeaderboardOptOutDescV2:
         "You will no longer appear in the leaderboard. This will also disable player trade. PLEASE NOTE: if you want to enable leaderboard later, your data needs to be reset",
+    PolicyPointNoCopperDesc:
+        "💡 This map doesn't have copper deposits, you can activate Al Circuit policy to unlock further technologies",
+    Pumpkin: "Pumpkin",
+    PumpkinBattery: "Pumpkin Battery",
+    PumpkinBatteryDesc: "All buildings that consume battery use pumpkin instead (FREE POLICY)",
+    PumpkinSteel: "Pumpkin Steel",
+    PumpkinSteelDesc: "All buildings that consume steel use pumpkin instead (FREE POLICY)",
 };

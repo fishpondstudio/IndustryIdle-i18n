@@ -306,8 +306,6 @@ export const DE = {
     HighlightMaxInputDistanceNotDefault: "...haben die maximale Eingangsentfernung < ∞",
     HighlightNotMakingProfit: "...machen keinen Gewinn",
     NBuildingsAreHighlighted: "%{n} Gebäude sind hervorgehoben",
-    OnlyToWarehouse: "Nur für Lager",
-    OnlyToWarehouseDesc: "Nur Lager können Ressourcen von diesem Gebäude transportieren",
     TurnOffProduction: "Stilllegen",
     TurnOffProductionDesc:
         "Schalten Sie die Produktion des Gebäudes aus. Das Gebäude wird keine Ressourcen mehr transportieren und keinen Strom verbrauchen",
@@ -332,8 +330,8 @@ export const DE = {
     InputStrategyAmountDesc:
         "Bevorzugen Sie das Lager mit der größten Menge an Ressourcen, unabhängig von der Entfernung",
     FuelCostSave: "Kraftstoffkosten sparen",
-    FuelCostSaveDesc:
-        "Lagerhäuser sparen im Vergleich zu anderen Gebäuden einen bestimmten Prozentsatz an Kraftstoff für den Transport von Ressourcen. Je höher das Level, desto mehr wird gespart",
+    FuelCostSaveDescV2:
+        "Warehouses save a certain percentage of fuel for transporting resources compared to other buildings, the higher the level, the more the save",
     SoftwareCompany: "Softwareunternehmen",
     Software: "Software",
     ScreenFactory: "Bildschirmfabrik",
@@ -560,12 +558,6 @@ export const DE = {
         "Bitte überprüfe deine Internetverbindung. Wenn das Problem weiterhin besteht, wenden Sie sich an den Support",
     ExpansionPackIncompatible:
         "Sie importieren einen Speicher mit Erweiterungspaketen, aber Ihr Spiel verfügt nicht über die erforderlichen Erweiterungspakete",
-    SaveFileMigrated: "Eine neue Ära: Beta ist da",
-    SaveFileMigratedDesc:
-        "Vielen Dank für das Testen der Alphaphase. Ihre alte Karte ist nicht kompatibel, aber wir haben Ihre Daten migriert und geben Ihnen einen Bonus",
-    ClaimSwissMoney: "Erhalte %{amount} Schweizer Franken 💵",
-    SaveFileMigratedFinePrint:
-        "Ihre Marktwert wird in Schweizer Franken umgerechnet und Ihre nicht ausgegebenen Schweizer Franken werden angerechnet. Sie erhalten 50% Schweizer Bonusfranken für Spieltests in Alpha. Die maximalen Schweizer Franken, die angerechnet werden können, sind auf 200 begrenzt",
     CashIn: "Einzahlen",
     CurrentCity: "Aktuelle Stadt",
     CashInDesc:
@@ -692,8 +684,6 @@ export const DE = {
     WindTurbineAlwaysWorkDesc: "Windkraftanlagen arbeiten 100% der Zeit, produzieren aber 30% weniger Strom",
     BookPublisherScience: "Wissenschaftsliteratur",
     BookPublisherScienceDesc: "Buchverlage produzieren Wissenschaft statt Kultur",
-    WarehouseOutwardFuelSave: "Gratisversand",
-    WarehouseOutwardFuelSaveDesc: "Lager bieten den gleichen Kraftstoffverbrauch, auch beim Transport nach außen",
     ImportSaveVersionTooNew:
         "Sie importieren eine Sicherung aus %{saveVersion} aber die Spielversion ist %{gameVersion}. Bitte aktualisiere zuerst dein Spiel",
     BatteryFuelEconomy: "Wiederaufladbare Batterie",
@@ -1221,4 +1211,11 @@ export const DE = {
     ShowResourceInTopBar: "Show In Top Bar",
     LeaderboardOptOutDescV2:
         "You will no longer appear in the leaderboard. This will also disable player trade. PLEASE NOTE: if you want to enable leaderboard later, your data needs to be reset",
+    PolicyPointNoCopperDesc:
+        "💡 This map doesn't have copper deposits, you can activate Al Circuit policy to unlock further technologies",
+    Pumpkin: "Pumpkin",
+    PumpkinBattery: "Pumpkin Battery",
+    PumpkinBatteryDesc: "All buildings that consume battery use pumpkin instead (FREE POLICY)",
+    PumpkinSteel: "Pumpkin Steel",
+    PumpkinSteelDesc: "All buildings that consume steel use pumpkin instead (FREE POLICY)",
 };

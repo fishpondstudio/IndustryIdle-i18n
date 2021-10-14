@@ -302,8 +302,6 @@ export const NL = {
     HighlightMaxInputDistanceNotDefault: "...die een max invoer afstand hebben < ∞",
     HighlightNotMakingProfit: "...die geen winst maken",
     NBuildingsAreHighlighted: "%{n} gebouw(en) is/zijn gemarkeerd",
-    OnlyToWarehouse: "Enkel voor opslagplaatsen",
-    OnlyToWarehouseDesc: "Enkel opslagplaatsen kunnen goederen transporteren van dit gebouw",
     TurnOffProduction: "Uitschakelen",
     TurnOffProductionDesc:
         "Schakel het gebouw uit. Het gebouw zal niet langer goederen ontvangen en energie verbruiken",
@@ -327,8 +325,8 @@ export const NL = {
     InputStrategyAmount: "Hoeveelheid",
     InputStrategyAmountDesc: "Prefereer de opslagplaats met grootste aantal goederen, ongeacht de afstand",
     FuelCostSave: "Brandstof kosten besparing",
-    FuelCostSaveDesc:
-        "Opslagplaatsen besparen een bepaald percentage van de brandstof voor binnekomende goederen ten opzichte van andere gebouwen. Hoe hoger het niveau, hoe meer je bespaart",
+    FuelCostSaveDescV2:
+        "Warehouses save a certain percentage of fuel for transporting resources compared to other buildings, the higher the level, the more the save",
     SoftwareCompany: "Software Bedrijf",
     Software: "Software",
     ScreenFactory: "Schermen Fabriek",
@@ -551,12 +549,6 @@ export const NL = {
         "Controleer aub je internet connectie. Als het probleem aanhoudt, gelieve support te contacteren",
     ExpansionPackIncompatible:
         "Je probeert een save file te importeren met uitbreidingspakketten, maar je spel heeft niet de nodige uitbreindingspakketten",
-    SaveFileMigrated: "Een nieuwe Era: De Beta Is Hier",
-    SaveFileMigratedDesc:
-        "Bedankt om mee te testen in de alpha. Je oude map is niet compatibel, maar we hebben je data gemigreerd en je een bonus gegeven",
-    ClaimSwissMoney: "%{amount} Zwitsers geld opeisen 💵",
-    SaveFileMigratedFinePrint:
-        "Je markt Kapitalisatie is geconverteerd naar Zwitsers geld en je niet uitgegeven Zwitsers geld wordt mee overgebracht. Je zal 50% bonus Zwitsers geld ontvangen om mee te speltesten in de alpha. Max Zwitsers geld dat mee overgebracht kan worden is gelimiteerd tot 200",
     CashIn: "Uitbetalen",
     CurrentCity: "Huidige Stad",
     CashInDesc:
@@ -681,8 +673,6 @@ export const NL = {
     WindTurbineAlwaysWorkDesc: "Wind turbines work 100% of the time but produces 30% less power",
     BookPublisherScience: "Science Literature",
     BookPublisherScienceDesc: "Book publishers produce science instead of culture",
-    WarehouseOutwardFuelSave: "Free Delivery",
-    WarehouseOutwardFuelSaveDesc: "Warehouses provide the same fuel save on outward transportation as well",
     ImportSaveVersionTooNew:
         "You are importing a save from %{saveVersion} but your game is %{gameVersion}. Please upgrade your game first",
     BatteryFuelEconomy: "Rechargeable Battery",
@@ -1196,4 +1186,11 @@ export const NL = {
     ShowResourceInTopBar: "Show In Top Bar",
     LeaderboardOptOutDescV2:
         "You will no longer appear in the leaderboard. This will also disable player trade. PLEASE NOTE: if you want to enable leaderboard later, your data needs to be reset",
+    PolicyPointNoCopperDesc:
+        "💡 This map doesn't have copper deposits, you can activate Al Circuit policy to unlock further technologies",
+    Pumpkin: "Pumpkin",
+    PumpkinBattery: "Pumpkin Battery",
+    PumpkinBatteryDesc: "All buildings that consume battery use pumpkin instead (FREE POLICY)",
+    PumpkinSteel: "Pumpkin Steel",
+    PumpkinSteelDesc: "All buildings that consume steel use pumpkin instead (FREE POLICY)",
 };

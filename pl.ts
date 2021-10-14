@@ -303,8 +303,6 @@ export const PL = {
     HighlightMaxInputDistanceNotDefault: "...z maksymalnym zasięgiem poboru surowców < ∞",
     HighlightNotMakingProfit: "...które nie zarabiają",
     NBuildingsAreHighlighted: "%{n} budynków zostało podświetlonych",
-    OnlyToWarehouse: "Tylko dla magazynów",
-    OnlyToWarehouseDesc: "Tylko magazyny mogą transportować surowce z tego budynku",
     TurnOffProduction: "Wyłącz",
     TurnOffProductionDesc: "Wyłącz produkcję budynku. Budynek nie będzie już transportował surowców i zużywał energii",
     ApplyToAll: "Zastosuj dla wszystkich %{building}",
@@ -327,8 +325,8 @@ export const PL = {
     InputStrategyAmount: "Ilość",
     InputStrategyAmountDesc: "Wybieraj magazyny posiadające największość ilość zasobów, niezależnie od dystansu",
     FuelCostSave: "Oszczędność kosztów transportu",
-    FuelCostSaveDesc:
-        "Magazyny oszczędzają pewien procent paliwa na transport surowców do wewnątrz w porównaniu do innych budynków, im wyższy poziom, tym więcej oszczędności",
+    FuelCostSaveDescV2:
+        "Warehouses save a certain percentage of fuel for transporting resources compared to other buildings, the higher the level, the more the save",
     SoftwareCompany: "Hurtownia oprogramowania",
     Software: "Oprogramowanie",
     ScreenFactory: "Fabryka wyświetlaczy",
@@ -545,12 +543,6 @@ export const PL = {
     LoadGameErrorDesc: "Please check your internet connection. If the problem persists, please contact support",
     ExpansionPackIncompatible:
         "You are importing a save with expansion packs but your game doesn't have the required expansion packs",
-    SaveFileMigrated: "A New Era: Beta Is Here",
-    SaveFileMigratedDesc:
-        "Thank you for play testing in alpha. Your old map is not compatible but we have migrated your data and give you some bonus",
-    ClaimSwissMoney: "Claim %{amount} Swiss Money 💵",
-    SaveFileMigratedFinePrint:
-        "Your market cap is converted to Swiss Money and your unspent Swiss Money is carried forward. You will get 50% bonus Swiss Money for play testing in alpha. Max Swiss Money that can be carried forward is capped at 200",
     CashIn: "Cash In",
     CurrentCity: "Current City",
     CashInDesc:
@@ -675,8 +667,6 @@ export const PL = {
     WindTurbineAlwaysWorkDesc: "Wind turbines work 100% of the time but produce 30% less power",
     BookPublisherScience: "Science Literature",
     BookPublisherScienceDesc: "Book publishers produce science instead of culture",
-    WarehouseOutwardFuelSave: "Free Delivery",
-    WarehouseOutwardFuelSaveDesc: "Warehouses provide the same fuel save on outward transportation as well",
     ImportSaveVersionTooNew:
         "You are importing a save from %{saveVersion} but your game is %{gameVersion}. Please upgrade your game first",
     BatteryFuelEconomy: "Rechargeable Battery",
@@ -1191,4 +1181,11 @@ export const PL = {
     ShowResourceInTopBar: "Show In Top Bar",
     LeaderboardOptOutDescV2:
         "You will no longer appear in the leaderboard. This will also disable player trade. PLEASE NOTE: if you want to enable leaderboard later, your data needs to be reset",
+    PolicyPointNoCopperDesc:
+        "💡 This map doesn't have copper deposits, you can activate Al Circuit policy to unlock further technologies",
+    Pumpkin: "Pumpkin",
+    PumpkinBattery: "Pumpkin Battery",
+    PumpkinBatteryDesc: "All buildings that consume battery use pumpkin instead (FREE POLICY)",
+    PumpkinSteel: "Pumpkin Steel",
+    PumpkinSteelDesc: "All buildings that consume steel use pumpkin instead (FREE POLICY)",
 };

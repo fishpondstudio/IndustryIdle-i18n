@@ -294,8 +294,6 @@ export const JP = {
     HighlightMaxInputDistanceNotDefault: "最大入力距離が∞でない施設",
     HighlightNotMakingProfit: "利益が出ていない施設",
     NBuildingsAreHighlighted: "%{n}個の施設がハイライトされます",
-    OnlyToWarehouse: "倉庫のみ",
-    OnlyToWarehouseDesc: "この施設から資源を輸送できるのは倉庫だけです",
     TurnOffProduction: "一時停止",
     TurnOffProductionDesc: "施設を一時停止します。施設は、生産・輸送を停止し、消費電力が0になります",
     ApplyToAll: "すべての%{building}に適用",
@@ -318,7 +316,8 @@ export const JP = {
     InputStrategyAmount: "多い所から",
     InputStrategyAmountDesc: "距離に関係なく資源の量が多い施設から輸入する",
     FuelCostSave: "燃料節約率",
-    FuelCostSaveDesc: "倉庫は他の施設より安く資源を輸入できます。節約率はレベルが高くなるほど上がります",
+    FuelCostSaveDescV2:
+        "Warehouses save a certain percentage of fuel for transporting resources compared to other buildings, the higher the level, the more the save",
     SoftwareCompany: "ソフトウェアメーカー",
     Software: "ソフトウェア",
     ScreenFactory: "液晶パネル工場",
@@ -530,12 +529,6 @@ export const JP = {
     LoadGameErrorDesc:
         "インターネット接続環境をご確認ください。それでも問題が解決しない場合は、サポートにお問い合わせください",
     ExpansionPackIncompatible: "拡張パックを含むセーブをインポートしていますが、ゲームに必要な拡張パックがありません",
-    SaveFileMigrated: "新しい時代へ。ベータ版が登場",
-    SaveFileMigratedDesc:
-        "アルファ版でのプレイテストにご協力いただきありがとうございました。あなたの古いマップは互換性がありませんが、あなたのデータを移行し、いくつかのボーナスを提供しています",
-    ClaimSwissMoney: "%{amount}のスイスマネーを受け取る",
-    SaveFileMigratedFinePrint:
-        "時価総額がスイスマネーに変換され、未使用のスイスマネーが繰り越されます。アルファ版でプレイすると、50%のボーナススイスマネーがもらえます。繰り越し可能なスイスマネーの上限は200です",
     CashIn: "Cash In",
     CurrentCity: "現在の都市",
     CashInDesc:
@@ -659,8 +652,6 @@ export const JP = {
     WindTurbineAlwaysWorkDesc: "風力発電が発電量を30%減らして常時稼働します",
     BookPublisherScience: "科学文献",
     BookPublisherScienceDesc: "出版社がカルチャーの代わりに科学を生産するようになります",
-    WarehouseOutwardFuelSave: "無料宅配",
-    WarehouseOutwardFuelSaveDesc: "倉庫からの輸送でも燃料を節約できる",
     ImportSaveVersionTooNew:
         "お使いのゲームは%{gameVersion}ですが、%{saveVersion}のセーブをインポートしています。まずゲームをアップグレードしてください",
     BatteryFuelEconomy: "充電バッテリー",
@@ -1165,4 +1156,11 @@ export const JP = {
     ShowResourceInTopBar: "Show In Top Bar",
     LeaderboardOptOutDescV2:
         "You will no longer appear in the leaderboard. This will also disable player trade. PLEASE NOTE: if you want to enable leaderboard later, your data needs to be reset",
+    PolicyPointNoCopperDesc:
+        "💡 This map doesn't have copper deposits, you can activate Al Circuit policy to unlock further technologies",
+    Pumpkin: "Pumpkin",
+    PumpkinBattery: "Pumpkin Battery",
+    PumpkinBatteryDesc: "All buildings that consume battery use pumpkin instead (FREE POLICY)",
+    PumpkinSteel: "Pumpkin Steel",
+    PumpkinSteelDesc: "All buildings that consume steel use pumpkin instead (FREE POLICY)",
 };

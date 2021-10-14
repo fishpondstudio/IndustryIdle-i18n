@@ -297,8 +297,6 @@ export const KR = {
     HighlightMaxInputDistanceNotDefault: "...최대 입력 거리 < ∞",
     HighlightNotMakingProfit: "...이익을 내지 못 함 ",
     NBuildingsAreHighlighted: "%{n} 개의 건물이 강조 표시되었습니다",
-    OnlyToWarehouse: "창고 전용",
-    OnlyToWarehouseDesc: "창고로만 자원을 보냅니다",
     TurnOffProduction: "꺼짐",
     TurnOffProductionDesc: "건물의 생산을 중단합니다. 건물은 더 이상 자원을 수송하거나 전력을 사용하지 않을 것입니다",
     ApplyToAll: "모든 %{building}에 적용",
@@ -321,8 +319,8 @@ export const KR = {
     InputStrategyAmount: "많은 양 우선",
     InputStrategyAmountDesc: "거리에 관계 없이 자원이 가장 많은 창고를 선호합니다",
     FuelCostSave: "연료 비용 절약",
-    FuelCostSaveDesc:
-        "창고는 내부로 자원을 운반할 때 다른 건물에 비해 일정 비율의 연료를 절약합니다. 레벨이 높을수록 절약 효과가 높습니다",
+    FuelCostSaveDescV2:
+        "Warehouses save a certain percentage of fuel for transporting resources compared to other buildings, the higher the level, the more the save",
     SoftwareCompany: "소프트웨어 회사",
     Software: "소프트웨어",
     ScreenFactory: "디스플레이 공장",
@@ -532,12 +530,6 @@ export const KR = {
     LoadGameErrorMessage: "오류 메시지: %{message}",
     LoadGameErrorDesc: "인터넷 연결을 확인하십시오. 문제가 지속되면 지원팀에 문의하십시오",
     ExpansionPackIncompatible: "확장팩이 있는 저장 파일을 가져오지만, 게임에 필요한 확장팩이 없습니다",
-    SaveFileMigrated: "새로운 시대 : 베타가 여기에 있습니다",
-    SaveFileMigratedDesc:
-        "알파 테스터로 플레이 해 주셔서 감사합니다. 귀하의 이전 맵은 호환되지 않지만 귀하의 데이터를 마이그레이션하여 몇 가지 보너스를 드립니다",
-    ClaimSwissMoney: "%{amount} 스위스 돈💵 청구",
-    SaveFileMigratedFinePrint:
-        "귀하의 시가 총액은 스위스 돈으로 전환되고 사용하지 않은 스위스 돈은 이월됩니다. 알파 플레이 테스트를 위해 50% 보너스 스위스 돈을 받게 됩니다. 이월할 수 있는 최대 스위스 돈은 200으로 제한됩니다.",
     CashIn: "청산한다",
     CurrentCity: "현재 도시",
     CashInDesc:
@@ -661,8 +653,6 @@ export const KR = {
     WindTurbineAlwaysWorkDesc: "풍력 터빈은 100% 동작하지만 30% 적은 전력을 생산합니다",
     BookPublisherScience: "과학 문학",
     BookPublisherScienceDesc: "출판사가 문화 대신 과학을 생산합니다",
-    WarehouseOutwardFuelSave: "무료 배송",
-    WarehouseOutwardFuelSaveDesc: "창고는 외부 운송시에도 동일하게 연료를 절약합니다",
     ImportSaveVersionTooNew:
         "%{saveVersion}에서 저장 파일을 가져 오지만 게임은 %{gameVersion}입니다. 먼저 게임을 업그레이드하세요",
     BatteryFuelEconomy: "충전식 배터리",
@@ -1161,4 +1151,11 @@ export const KR = {
     ShowResourceInTopBar: "상단바에 표시",
     LeaderboardOptOutDescV2:
         "더 이상 리더보드 점수를 전송하지 않습니다. 플레이어 거래 역시 비활성화됩니다. 참고: 나중에 리더보드를 사용하려면 데이터를 재설정해야 합니다.",
+    PolicyPointNoCopperDesc:
+        "💡 This map doesn't have copper deposits, you can activate Al Circuit policy to unlock further technologies",
+    Pumpkin: "Pumpkin",
+    PumpkinBattery: "Pumpkin Battery",
+    PumpkinBatteryDesc: "All buildings that consume battery use pumpkin instead (FREE POLICY)",
+    PumpkinSteel: "Pumpkin Steel",
+    PumpkinSteelDesc: "All buildings that consume steel use pumpkin instead (FREE POLICY)",
 };

@@ -294,8 +294,6 @@ export const ZH_CN = {
     HighlightMaxInputDistanceNotDefault: "最大投入距离 < ∞的...",
     HighlightNotMakingProfit: "不盈利的...",
     NBuildingsAreHighlighted: "%{n} 建筑物被突出显示",
-    OnlyToWarehouse: "仓库专运",
-    OnlyToWarehouseDesc: "只有仓库才能从这座建筑物里运送资源",
     TurnOffProduction: "关闭",
     TurnOffProductionDesc: "关闭建筑物的生产。该建筑将不再投入资源和使用电力",
     ApplyToAll: "应用于所有 %{building}",
@@ -318,7 +316,8 @@ export const ZH_CN = {
     InputStrategyAmount: "数量",
     InputStrategyAmountDesc: "无论距离如何，都偏好资源量最大的仓库",
     FuelCostSave: "节省燃料成本",
-    FuelCostSaveDesc: "与其他建筑物相比，仓库可节省一定比例的燃料以用于运输资源入内，等级越高，节省的费用就越多",
+    FuelCostSaveDescV2:
+        "Warehouses save a certain percentage of fuel for transporting resources compared to other buildings, the higher the level, the more the save",
     SoftwareCompany: "软件公司",
     Software: "软件",
     ScreenFactory: "屏幕工厂",
@@ -519,11 +518,6 @@ export const ZH_CN = {
     LoadGameErrorMessage: "错误消息: %{message}",
     LoadGameErrorDesc: "请检查您的互联网连接。如果问题仍然存在，请联系支持人员",
     ExpansionPackIncompatible: "您正在使用扩展包导入保存，但您的游戏没有所需的扩展包",
-    SaveFileMigrated: "新时代：Beta测试在此",
-    SaveFileMigratedDesc: "感谢您参与游戏的alpha测试。您的旧地图不兼容，但是我们已经迁移了您的数据并为您提供了一些奖励",
-    ClaimSwissMoney: "获取 %{amount} 瑞士货币 💵",
-    SaveFileMigratedFinePrint:
-        "您的市值转换为瑞士货币，您未使用的瑞士货币将结转。您将获得额外50％的瑞士货币作为参与游戏alpha测试的奖金。可结转的瑞士货币上限为200",
     CashIn: "现金",
     CurrentCity: "当前城市",
     CashInDesc:
@@ -645,8 +639,6 @@ export const ZH_CN = {
     WindTurbineAlwaysWorkDesc: "风力发电机全时段工作，但电力产出少30%",
     BookPublisherScience: "科技文献",
     BookPublisherScienceDesc: "图书出版社产出科学点，而非文化点",
-    WarehouseOutwardFuelSave: "免费送货",
-    WarehouseOutwardFuelSaveDesc: "仓库向外运输资源时也将享有燃料节省效果",
     ImportSaveVersionTooNew:
         "您正在导入游戏版本为 %{saveVersion} 的存档，但您目前的游戏版本为 %{gameVersion}。请您先更新游戏",
     BatteryFuelEconomy: "可充电电池",
@@ -1136,4 +1128,11 @@ export const ZH_CN = {
     ShowResourceInTopBar: "Show In Top Bar",
     LeaderboardOptOutDescV2:
         "You will no longer appear in the leaderboard. This will also disable player trade. PLEASE NOTE: if you want to enable leaderboard later, your data needs to be reset",
+    PolicyPointNoCopperDesc:
+        "💡 This map doesn't have copper deposits, you can activate Al Circuit policy to unlock further technologies",
+    Pumpkin: "Pumpkin",
+    PumpkinBattery: "Pumpkin Battery",
+    PumpkinBatteryDesc: "All buildings that consume battery use pumpkin instead (FREE POLICY)",
+    PumpkinSteel: "Pumpkin Steel",
+    PumpkinSteelDesc: "All buildings that consume steel use pumpkin instead (FREE POLICY)",
 };
