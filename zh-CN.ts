@@ -317,7 +317,7 @@ export const ZH_CN = {
     InputStrategyAmountDesc: "无论距离如何，都偏好资源量最大的仓库",
     FuelCostSave: "节省燃料成本",
     FuelCostSaveDescV2:
-        "Warehouses save a certain percentage of fuel for transporting resources compared to other buildings, the higher the level, the more the save",
+        "仓库节约一定百分比的资源运输燃料消耗，等级越高，节约越高",
     SoftwareCompany: "软件公司",
     Software: "软件",
     ScreenFactory: "屏幕工厂",
@@ -1068,10 +1068,10 @@ export const ZH_CN = {
     ArmyCommand: "陆军司令部",
     Army: "陆军",
     GreenPeacekeeper: "Green Peacekeeper",
-    GreenPeacekeeperDesc: "Make army, navy, air force or space force with only renewable power plants (wind/solar)",
+    GreenPeacekeeperDesc: "用清洁能源（风能或太阳能）制造陆军，海军，空军或太空力量",
     DotComTycoon: "DotCom Tycoon",
     DotComTycoonDesc:
-        "Build a level 10 Social Network Inc, level 10 Search Engine Company, level 10 SkyNet Inc and level 10 Musify Inc on the same map",
+        "在同一张地图上，建造一个10级社交网络公司，10级搜索引擎公司，10级SkyNet公司和一个10级Musify公司",
     ConstructionNotResearched: "未研究",
     OfflineEarningDescV2: "离线收入取决于您当前的研究、生产力和销售能力",
     HighSpeedWarehouse: "仓库快速",
@@ -1085,7 +1085,7 @@ export const ZH_CN = {
     OfflineResearchSwissBoostDesc: "离线时会产生研究点（根据你的研究实验室等级、学习中的科学点和离线时间）",
     SanJose: "圣何塞",
     SanJoseBonus:
-        "<li>Unique building: chip manufacturer</li><li>Unique building: FaceApp Inc</li><li>Unique building: Bitcoin Miner</li><li>All buildings that consume silicon have max tile modifier</li><li>Solar panels generate 2x power</li><li>Silicon mines have 2x output</li>",
+        "<li>独有建筑：芯片制造厂</li><li>独有建筑：FaceApp公司</li><li>独有建筑：比特币矿场</li><li>All buildings that consume silicon have max tile modifier</li><li>太阳能发电站2x倍发电</li><li>硅矿场2x倍产能</li>",
     RotterdamBonusV2:
         "<li>钢厂的生产能力是原来的2倍</li><li>不锈钢厂的生产能力是原来的2倍</li><li>铁运输免费</li><li>钢运输的燃料成本降低50％</li><li>初始自动销售量是原来的2倍</li><li>“地球是平的”政策免政策点</li>",
     ChipManufacturer: "芯片制造商",
@@ -1108,26 +1108,31 @@ export const ZH_CN = {
     PlayerTradeQuotaDescV2:
         "💡 配额是您可以交易的资源数量。货币价值等于您市值的 %{percent}，并在市场更新时重置。您的交易价格偏离您的交易中心价格越多，您需要的配额就越多",
     AchievementSanJose100: "Venture Hobbyist",
-    AchievementSanJose100Desc: "Earn 100 Swiss Money in San Jose in a single run",
+    AchievementSanJose100Desc: "单次游戏中，在圣荷西获得100枚瑞士币",
     AchievementSanJose500: "Venture Enthusiast",
-    AchievementSanJose500Desc: "Earn 500 Swiss Money in San Jose in a single run",
+    AchievementSanJose500Desc: "单次游戏中，在圣荷西获得500枚瑞士币",
     AchievementSanJose1000: "Venture Capitalist",
-    AchievementSanJose1000Desc: "Earn 1000 Swiss Money in San Jose in a single run",
+    AchievementSanJose1000Desc: "单次游戏中，在圣荷西获得1000枚瑞士币",
     AchievementCrowdfundingTycoon: "Crowdfunding Tycoon",
     AchievementCrowdfundingTycoonDesc: "Pledge 1Qa worth of resources in a single crowdfunding",
     AchievementCashIsKing: "Cash Is King",
     AchievementCashIsKingDesc: "Have 1Qa cash at hand in a single run",
     AchievementPowerTycoon: "Power Tycoon",
-    AchievementPowerTycoonDesc: "Generate 1GW power in a single run",
+    AchievementPowerTycoonDesc: "单词游戏中，获得1GW电力",
     PlayerTradeFilteringNResources: "过滤 %{n} 种资源",
     PlayerTradeFilterResources: "过滤资源",
     PlayerTradeFilterClear: "清除过滤",
-    ResourceExplorerAll: "Explore All Resources",
+    ResourceExplorerAll: "探索所有资源",
     ResourceExplorerAllDesc:
         "Resource explorers can produce all resources, including the ones that are not on the map (this DOES NOT unlock the relevant technologies)",
-    ShowResourceInTopBar: "Show In Top Bar",
+    ShowResourceInTopBar: "在顶部资源条中显示",
     LeaderboardOptOutDescV2:
         "You will no longer appear in the leaderboard. This will also disable player trade. PLEASE NOTE: if you want to enable leaderboard later, your data needs to be reset",
     PolicyPointNoCopperDesc:
         "💡 This map doesn't have copper deposits, you can activate Al Circuit policy to unlock further technologies",
+    Pumpkin: "Pumpkin",
+    PumpkinBattery: "Pumpkin Battery",
+    PumpkinBatteryDesc: "All buildings that consume battery use pumpkin instead (FREE POLICY)",
+    PumpkinSteel: "Pumpkin Steel",
+    PumpkinSteelDesc: "All buildings that consume steel use pumpkin instead (FREE POLICY)",
 };

@@ -1158,4 +1158,9 @@ export const JP = {
         "リーダーボードにも表示されなくなります。また、プレイヤートレードもできなくなります。注意：後でリーダーボードを有効にしたい場合は、データをリセットする必要があります",
     PolicyPointNoCopperDesc:
         "💡このマップでは銅を採取できませんが、ポリシー「Al半導体」を有効にすれば、関連技術をアンロックすることができます",
+    Pumpkin: "Pumpkin",
+    PumpkinBattery: "Pumpkin Battery",
+    PumpkinBatteryDesc: "All buildings that consume battery use pumpkin instead (FREE POLICY)",
+    PumpkinSteel: "Pumpkin Steel",
+    PumpkinSteelDesc: "All buildings that consume steel use pumpkin instead (FREE POLICY)"
 };

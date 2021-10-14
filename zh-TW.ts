@@ -1126,4 +1126,9 @@ export const ZH_TW = {
     LeaderboardOptOutDescV2:
         "您不會再出現於排行榜中。這也會導致無法使用玩家交易。請注意：如果以後要啟用排行榜，則需要重置數據",
     PolicyPointNoCopperDesc: "💡 這張地圖沒有蘊藏銅礦，你可以透過啟動「鋁電路」政策來解鎖後續科技",
+    Pumpkin: "Pumpkin",
+    PumpkinBattery: "Pumpkin Battery",
+    PumpkinBatteryDesc: "All buildings that consume battery use pumpkin instead (FREE POLICY)",
+    PumpkinSteel: "Pumpkin Steel",
+    PumpkinSteelDesc: "All buildings that consume steel use pumpkin instead (FREE POLICY)",
 };
