@@ -320,7 +320,7 @@ export const KR = {
     InputStrategyAmountDesc: "거리에 관계 없이 자원이 가장 많은 창고를 선호합니다",
     FuelCostSave: "연료 비용 절약",
     FuelCostSaveDescV2:
-        "Warehouses save a certain percentage of fuel for transporting resources compared to other buildings, the higher the level, the more the save",
+        "창고는 자원을 운반할 때 다른 건물에 비해 일정 비율의 연료를 절약합니다. 레벨이 높을수록 절약 효과가 높습니다",
     SoftwareCompany: "소프트웨어 회사",
     Software: "소프트웨어",
     ScreenFactory: "디스플레이 공장",
@@ -1152,10 +1152,10 @@ export const KR = {
     LeaderboardOptOutDescV2:
         "더 이상 리더보드 점수를 전송하지 않습니다. 플레이어 거래 역시 비활성화됩니다. 참고: 나중에 리더보드를 사용하려면 데이터를 재설정해야 합니다.",
     PolicyPointNoCopperDesc:
-        "💡 This map doesn't have copper deposits, you can activate Al Circuit policy to unlock further technologies",
-    Pumpkin: "Pumpkin",
-    PumpkinBattery: "Pumpkin Battery",
-    PumpkinBatteryDesc: "All buildings that consume battery use pumpkin instead (FREE POLICY)",
-    PumpkinSteel: "Pumpkin Steel",
-    PumpkinSteelDesc: "All buildings that consume steel use pumpkin instead (FREE POLICY)",
+        "💡 이 맵에는 구리자원이 없으므로 알루미늄 회로 정책을 활성화하여 집적회로를 생산할 수 있습니다.",
+    Pumpkin: "호박",
+    PumpkinBattery: "호박 배터리",
+    PumpkinBatteryDesc: "배터리를 소비하는 모든 건물은 호박을 대신 사용합니다 (무료 정책)",
+    PumpkinSteel: "호박 강철",
+    PumpkinSteelDesc: "강철을 소비하는 모든 건물은 호박을 대신 사용합니다 (무료 정책)",
 };
