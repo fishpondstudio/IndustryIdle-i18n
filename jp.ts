@@ -1150,7 +1150,7 @@ export const JP = {
     PlayerTradeFilteringNResources: "フィルタリング中(%{n})",
     PlayerTradeFilterResources: "フィルタリング",
     PlayerTradeFilterClear: "フィルター解除",
-    ResourceExplorerAll: "Explore All Resources",
+    ResourceExplorerAll: "万能エクスプローラ",
     ResourceExplorerAllDesc:
         "リソースエクスプローラが、そのマップで採取できない資源も採取できるようになります。ただし、関連技術のロックは解除されません",
     ShowResourceInTopBar: "トップバーに表示",
@@ -1158,9 +1158,9 @@ export const JP = {
         "リーダーボードにも表示されなくなります。また、プレイヤートレードもできなくなります。注意：後でリーダーボードを有効にしたい場合は、データをリセットする必要があります",
     PolicyPointNoCopperDesc:
         "💡このマップでは銅を採取できませんが、ポリシー「Al半導体」を有効にすれば、関連技術をアンロックすることができます",
-    Pumpkin: "Pumpkin",
-    PumpkinBattery: "Pumpkin Battery",
-    PumpkinBatteryDesc: "All buildings that consume battery use pumpkin instead (FREE POLICY)",
-    PumpkinSteel: "Pumpkin Steel",
-    PumpkinSteelDesc: "All buildings that consume steel use pumpkin instead (FREE POLICY)"
+    Pumpkin: "パンプキン",
+    PumpkinBattery: "パンプキンバッテリー",
+    PumpkinBatteryDesc: "全施設がバッテリーの代わりにパンプキンを消費します(無料)",
+    PumpkinSteel: "パンプキン鋼",
+    PumpkinSteelDesc: "全施設が鋼材の代わりにパンプキンを消費します(無料)"
 };
