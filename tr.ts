@@ -831,7 +831,7 @@ export const TR = {
     LeaderboardDescV2: "See the where the top players are",
     LastUpdatedAt: "Last Updated At",
     DetroitBonusV3:
-        "<li>Engine factories are unlocked</li><li>Engine factories have 2x productivity</li><li>Car factories have 2x capacity</li><li>Car factories use gas instead of petrol</li><li>Free car transportation</li><li>Nikola Tesla policy is free</li><li>Train factories have 2x capacity</li>",
+        "<li>Motor fabrikaları açıldı,</li><li>Engine factories have 2x productivity</li><li>Car factories have 2x capacity</li><li>Car factories use gas instead of petrol</li><li>Free car transportation</li><li>Nikola Tesla policy is free</li><li>Train factories have 2x capacity</li>",
     SaveAndExit: "Save and Exit Game",
     SaveAndExitDesc:
         "Save and exit game. This is only available on Steam version and does the same as the close button on the window bar",
@@ -981,12 +981,12 @@ export const TR = {
     LeaderboardValuationPerHourPerSwiss: "Total Valuation Per Hour Per Swiss",
     LeaderboardValuationPerHourNewPlayers: "Total Valuation Per Hour (< 1000 Swiss)",
     LeaderboardValuationPerBuilding: "Building Valuation Per Building",
-    BuildingCustomColor: "Building Color",
-    BuildingCustomColorReset: "Reset",
+    BuildingCustomColor: "Yapı Rengi",
+    BuildingCustomColorReset: "Sıfırla",
     Vancouver: "Vancouver",
     VancouverBonus:
-        "<li>Every 4 different types of buildings give 1 free building permit</li><li>Unique policy: Production Diversification</li><li>Unique building: Maple Syrup Factory</li><li>Free maple syrup transport</li><li>Unique fuel type: Maple Syrup</li><li>2x player trade quota when trading Uranium and Enriched Uranium</li><li>Unique BEDAVA POLİTİKA: Syrup Plastic</li><li>Toy factories have 2x productivity</li><li>Game studios have 2x capacity</li>",
-    MapExtraPermitDesc: "You get %{number} free building permits from the map's ÖZEl bonus",
+        "<li>Every 4 different types of buildings give 1 free building permit</li><li>Unique policy: Production Diversification</li><li>Unique building: Maple Syrup Factory</li><li>Bedeva Akçaağaç şurubu transport</li><li>Unique fuel type: Maple Syrup</li><li>2x player trade quota when trading Uranium and Enriched Uranium</li><li>Özel BEDAVA POLİTİKA: Şurup Plastik</li><li>Oyuncak fabrikaları 2x kadar fazla üretir</li><li>Game studios have 2x capacity</li>",
+    MapExtraPermitDesc: " %{number} kadar bedeva yapı izni aldın,haritanın's özel bonusu nedeniyle",
     OsloBonusV3:
         "<li>Oil refineries are unlocked</li><li>Oil refineries have 2x capacity</li><li>Electric oil transport policy is free</li><li>Gas processing plants have 2x capacity</li><li>Free level 4 wind turbine x1</li><li>Free level 8 oil well x1</li><li>Free level 2 oil refinery x1</li><li>Free level 2 natural gas pump x1</li>",
     ResourceBoosterPercentageV2: "💡 This amount includes %{percent} boost from adjacent resource boosters",
