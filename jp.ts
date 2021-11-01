@@ -1124,8 +1124,7 @@ export const JP = {
     BaseProductionMultiplier: "基礎生産",
     ShowBreakdown: "内訳を表示",
     HideBreakdown: "内訳を非表示",
-    IndustryZoneMultiplierSwissBoostDescV2:
-        "産業ゾーン内のすべての施設の入出力がアップします",
+    IndustryZoneMultiplierSwissBoostDescV2: "産業ゾーン内のすべての施設の入出力がアップします",
     IndustryZoneBuildingPermitDesc:
         "産業ゾーン内の最上位製品の2段階下位の素材を生産する施設の建築許可証が無料になります",
     CrowdfundingBackersReturn: "支援: %{backers}, リターン: %{return}",
@@ -1162,5 +1161,5 @@ export const JP = {
     PumpkinBattery: "パンプキンバッテリー",
     PumpkinBatteryDesc: "全施設がバッテリーの代わりにパンプキンを消費します(無料)",
     PumpkinSteel: "パンプキン鋼",
-    PumpkinSteelDesc: "全施設が鋼材の代わりにパンプキンを消費します(無料)"
+    PumpkinSteelDesc: "全施設が鋼材の代わりにパンプキンを消費します(無料)",
 };

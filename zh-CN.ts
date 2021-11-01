@@ -316,8 +316,7 @@ export const ZH_CN = {
     InputStrategyAmount: "数量",
     InputStrategyAmountDesc: "无论距离如何，都偏好资源量最大的仓库",
     FuelCostSave: "节省燃料成本",
-    FuelCostSaveDescV2:
-        "仓库节约一定百分比的资源运输燃料消耗，等级越高，节约越高",
+    FuelCostSaveDescV2: "仓库节约一定百分比的资源运输燃料消耗，等级越高，节约越高",
     SoftwareCompany: "软件公司",
     Software: "软件",
     ScreenFactory: "屏幕工厂",
@@ -1070,8 +1069,7 @@ export const ZH_CN = {
     GreenPeacekeeper: "Green Peacekeeper",
     GreenPeacekeeperDesc: "用清洁能源（风能或太阳能）制造陆军，海军，空军或太空力量",
     DotComTycoon: "DotCom Tycoon",
-    DotComTycoonDesc:
-        "在同一张地图上，建造一个10级社交网络公司，10级搜索引擎公司，10级SkyNet公司和一个10级Musify公司",
+    DotComTycoonDesc: "在同一张地图上，建造一个10级社交网络公司，10级搜索引擎公司，10级SkyNet公司和一个10级Musify公司",
     ConstructionNotResearched: "未研究",
     OfflineEarningDescV2: "离线收入取决于您当前的研究、生产力和销售能力",
     HighSpeedWarehouse: "仓库快速",
