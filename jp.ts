@@ -1162,4 +1162,6 @@ export const JP = {
     PumpkinBatteryDesc: "全施設がバッテリーの代わりにパンプキンを消費します(無料)",
     PumpkinSteel: "パンプキン鋼",
     PumpkinSteelDesc: "全施設が鋼材の代わりにパンプキンを消費します(無料)",
+    RequireExpansionPack2: "Expansion Pack 2",
+    RequireExpansionPack2Desc: "This is only available for Expansion Pack 2",
 };

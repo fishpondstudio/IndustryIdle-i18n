@@ -1131,4 +1131,6 @@ export const ZH_TW = {
     PumpkinBatteryDesc: "All buildings that consume battery use pumpkin instead (FREE POLICY)",
     PumpkinSteel: "Pumpkin Steel",
     PumpkinSteelDesc: "All buildings that consume steel use pumpkin instead (FREE POLICY)",
+    RequireExpansionPack2: "Expansion Pack 2",
+    RequireExpansionPack2Desc: "This is only available for Expansion Pack 2",
 };
