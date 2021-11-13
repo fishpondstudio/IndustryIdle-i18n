@@ -385,7 +385,7 @@ export const JP = {
     GlassUseCoalDesc: "ガラス工場の石炭消費量が50%増え、シリコンの消費量が50%減ります",
     AdjacentBonusOnlyOutput: "隣接ボーナス・プラス",
     AdjacentBonusOnlyOutputDesc:
-        "隣接ボーナスが発生してる施設で、材料の消費量は増やさず消費電力だけを増やし、50%効率化します",
+        "隣接ボーナスが発生してる施設で、材料の消費量は増やさず消費電力だけを増やし、50%の効率で働きます",
     IronMine2xOutput: "重い鉄",
     IronMine2xOutputDesc: "鉄採掘場の生産量が2倍になり、鉄の輸送コストが2倍になります",
     SolarPanelAlwaysWork: "太陽は沈まない",
@@ -1005,7 +1005,7 @@ export const JP = {
     DoubleTileModifierDescV2:
         "すべてのタイル補正をプラスもマイナスも2倍にします。このポリシーは「地球は平ら」のポリシーを無効にします",
     TileModifierOutputOnlyDescV2:
-        "タイル補正が出力のみに影響を与えるようになります(最大50%)このポリシーは「地球は平ら」のポリシーを無効にします",
+        "タイル補正が出力のみに影響を与えるようになります(効果量50%)このポリシーは「地球は平ら」のポリシーを無効にします",
     QuickLinks: "クイックリンク",
     GetHelp: "ヘルプ",
     GetHelpBeginnerGuides: "ビギナーズガイド",
