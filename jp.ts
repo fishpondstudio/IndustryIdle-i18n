@@ -598,7 +598,7 @@ export const JP = {
     PlayerTradeQuota: "取引枠残り : %{value}",
     PlayerTradeUnavailable:
         "プレイヤー間トレードを行うには、少なくとも1つのリソースが生産され、保管されている必要があります",
-    PlayerTradeToClaim: "あと%{num}回プレイヤー間トレードが可能です",
+    PlayerTradeToClaim: "あと%{num}件受け取り可能なプレイヤー間トレードがあります",
     PowerBank: "パワーバンク",
     PowerBankBuildDesc: "余剰電力を蓄え、電力不足の際に電力を供給する",
     WarehouseBuildDesc: "選択した施設から資源をこの施設に輸送できます。この施設への輸送コストは通常より安上がりです",
