@@ -1214,6 +1214,6 @@ export const RU = {
     PumpkinBatteryDesc: "Все здания, потребляющие батарею, вместо этого используют тыкву (БЕСПЛАТНАЯ ПОЛИТИКА)",
     PumpkinSteel: "Тыквенная Сталь",
     PumpkinSteelDesc: "Все здания, потребляющие сталь, вместо этого используют тыкву (БЕСПЛАТНАЯ ПОЛИТИКА)",
-    RequireExpansionPack2: "Expansion Pack 2",
-    RequireExpansionPack2Desc: "Это доступно только для Expansion Pack 2",
+    RequireExpansionPack2: "Пакет Расширения 2",
+    RequireExpansionPack2Desc: "Это доступно только для Пакета Расширения 2",
 };
