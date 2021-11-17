@@ -1,6 +1,6 @@
 export const RU = {
     Translator: "Переводчик",
-    TranslatorName: "Чеширский Кот",
+    TranslatorName: "Чеширский Кот, WingedLeo",
     Language: "Язык",
     ThisLanguage: "Русский",
     OK: "OK",
