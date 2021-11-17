@@ -1183,4 +1183,6 @@ export const TR = {
     PumpkinBatteryDesc: "All buildings that consume battery use pumpkin instead (BEDAVA POLİTİKA)",
     PumpkinSteel: "Balkabağı Çeliği",
     PumpkinSteelDesc: "All buildings that consume steel use pumpkin instead (BEDAVA POLİTİKA)",
+    RequireExpansionPack2: "Expansion Pack 2",
+    RequireExpansionPack2Desc: "This is only available for Expansion Pack 2",
 };
