@@ -1159,5 +1159,6 @@ export const KR = {
     PumpkinSteel: "호박 강철",
     PumpkinSteelDesc: "강철을 소비하는 모든 건물은 호박을 대신 사용합니다 (무료 정책)",
     RequireExpansionPack2: "Expansion Pack 2",
+    ExpansionPack2: "Expansion Pack 2",
     RequireExpansionPack2Desc: "This is only available for Expansion Pack 2",
 };

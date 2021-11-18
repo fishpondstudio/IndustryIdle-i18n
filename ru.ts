@@ -1208,12 +1208,13 @@ export const RU = {
     LeaderboardOptOutDescV2:
         "Вы больше не будете отображаться в таблице лидеров. Это также отключит торговлю игроками. ПОЖАЛУЙСТА, ОБРАТИТЕ ВНИМАНИЕ: если вы хотите включить таблицу лидеров позже, ваши данные должны быть сброшены",
     PolicyPointNoCopperDesc:
-        "💡 На этой карте нет месторождений меди, вы можете активировать политику Переработка Алюминия, чтобы разблокировать дополнительные технологии",
-    Pumpkin: "Тыквы",
-    PumpkinBattery: "Тыквенная Батарея",
-    PumpkinBatteryDesc: "Все здания, потребляющие батарею, вместо этого используют тыкву (БЕСПЛАТНАЯ ПОЛИТИКА)",
-    PumpkinSteel: "Тыквенная Сталь",
-    PumpkinSteelDesc: "Все здания, потребляющие сталь, вместо этого используют тыкву (БЕСПЛАТНАЯ ПОЛИТИКА)",
-    RequireExpansionPack2: "Пакет Расширения 2",
-    RequireExpansionPack2Desc: "Это доступно только для Пакета Расширения 2",
+        "💡 This map doesn't have copper deposits, you can activate Al Circuit policy to unlock further technologies",
+    Pumpkin: "Pumpkin",
+    PumpkinBattery: "Pumpkin Battery",
+    PumpkinBatteryDesc: "All buildings that consume battery use pumpkin instead (FREE POLICY)",
+    PumpkinSteel: "Pumpkin Steel",
+    PumpkinSteelDesc: "All buildings that consume steel use pumpkin instead (FREE POLICY)",
+    RequireExpansionPack2: "Expansion Pack 2",
+    ExpansionPack2: "Expansion Pack 2",
+    RequireExpansionPack2Desc: "This is only available for Expansion Pack 2",
 };
