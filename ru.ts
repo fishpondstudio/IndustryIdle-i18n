@@ -26,7 +26,6 @@ export const RU = {
     FuelType: "Выберите топливо",
     FuelCost: "Стоимость топлива",
     FuelEconomy: "Экономия топлива",
-    FuelProduction: "%{fuel} производится",
     FuelInStorage: "%{fuel} в хранилище",
     Plastic: "Пластик",
     Petrol: "Бензин",
