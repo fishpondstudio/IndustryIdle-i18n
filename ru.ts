@@ -1132,4 +1132,16 @@ export const RU = {
     RequireExpansionPack2: "Пакет Расширения 2",
     ExpansionPack2: "Пакет Расширения 2",
     RequireExpansionPack2Desc: "Это доступно только для Пакета Расширения 2",
+    Reindeer: "Reindeer",
+    ReindeerSilicon: "Reindeer Silicon",
+    ReindeerSiliconDesc: "All buildings that consume silicon use reindeer instead (FREE POLICY)",
+    ReindeerAluminum: "Reindeer Aluminum",
+    ReindeerAluminumDesc: "All buildings that consume aluminum use reindeer instead (FREE POLICY)",
+    SantaClauseIsComing: "Santa Clause is Coming",
+    SantaClauseIsComingDesc:
+        "Santa factories consume reindeer and toy and produce santa, science and culture. Santa factories have max tile modifier. Toy factories produce reindeer in addition to toy (FREE POLICY)",
+    MetaRebranding: "Meta Rebranding",
+    MetaRebrandingDesc:
+        "Social Network Inc is renamed to Meta Inc and consumes internet, game, super computer, bitcoin and dogecoin instead",
+    MetaInc: "Meta Inc",
 };
