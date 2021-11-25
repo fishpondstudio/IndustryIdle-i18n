@@ -110,7 +110,7 @@ export const RU = {
     Video: "Видео",
     ClothingFactory: "Швейная фабрика",
     Clothes: "Одежда",
-    Fashion: "Модной одежды",
+    Fashion: "Модная одежда",
     FashionFactory: "Фабрика модной одежды",
     VideoFarm: "Видеоферма",
     SantaFactory: "Фабрика Санта-Клауса",
