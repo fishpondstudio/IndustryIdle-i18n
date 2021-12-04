@@ -402,8 +402,6 @@ export const DE = {
     WelcomePlay: "Spielen",
     WelcomePlayMuted: "Spiel (🔇Musik)",
     Chat: "Chat",
-    Import: "Import",
-    Export: "Export",
     RestoreFromBackup: "Sicherung wiederherstellen",
     RestoreFromBackupFail:
         "Wiederherstellung aus der Steam Cloud fehlgeschalgen: sind Sie sicher das dort eine Sicherung existiert?",
@@ -1150,4 +1148,7 @@ export const DE = {
     MetaRebrandingDesc:
         "Social Network Inc is renamed to Meta Inc and consumes internet, game, super computer, bitcoin and dogecoin instead",
     MetaInc: "Meta Inc",
+    ImportSave: "Import Save",
+    ExportSave: "Export Save",
+    ClearMyTrades: "Clear My Trades",
 };

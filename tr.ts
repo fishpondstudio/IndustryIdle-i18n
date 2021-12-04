@@ -393,8 +393,6 @@ export const TR = {
     WelcomePlay: "Oyna",
     WelcomePlayMuted: "Oyna (🔇Müzik)",
     Chat: "Sohbet",
-    Import: "İthalat",
-    Export: "İhracat",
     RestoreFromBackup: "Restore from Backup",
     RestoreFromBackupFail: "Failed to restore backup from Steam Cloud: are you sure there's a backup?",
     RestoreFromBackupTitle: "Are you sure?",
@@ -1121,4 +1119,7 @@ export const TR = {
     MetaRebrandingDesc:
         "Social Network Inc is renamed to Meta Inc and consumes internet, game, super computer, bitcoin and dogecoin instead",
     MetaInc: "Meta Inc",
+    ImportSave: "Import Save",
+    ExportSave: "Export Save",
+    ClearMyTrades: "Clear My Trades",
 };

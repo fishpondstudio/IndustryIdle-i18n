@@ -388,8 +388,6 @@ export const JP = {
     WelcomePlay: "ゲーム開始",
     WelcomePlayMuted: "ゲーム開始(🔇BGM OFF)",
     Chat: "チャット",
-    Import: "インポート",
-    Export: "エクスポート",
     RestoreFromBackup: "バックアップから復元",
     RestoreFromBackupFail: "Steam Cloudからのバックアップの復元に失敗しました : 本当にバックアップがありますか？",
     RestoreFromBackupTitle: "よろしいですか？",
@@ -1100,4 +1098,7 @@ export const JP = {
     MetaRebrandingDesc:
         "Social Network Inc is renamed to Meta Inc and consumes internet, game, super computer, bitcoin and dogecoin instead",
     MetaInc: "Meta Inc",
+    ImportSave: "Import Save",
+    ExportSave: "Export Save",
+    ClearMyTrades: "Clear My Trades",
 };

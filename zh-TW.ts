@@ -382,8 +382,6 @@ export const ZH_TW = {
     WelcomePlay: "開始遊戲",
     WelcomePlayMuted: "開始遊戲（🔇靜音）",
     Chat: "聊天",
-    Import: "匯入",
-    Export: "匯出",
     RestoreFromBackup: "從備份還原",
     RestoreFromBackupFail: "無法從 Steam 雲端恢復備份：您確定有備份嗎？",
     RestoreFromBackupTitle: "確定嗎？",
@@ -1070,4 +1068,7 @@ export const ZH_TW = {
     MetaRebrandingDesc:
         "Social Network Inc is renamed to Meta Inc and consumes internet, game, super computer, bitcoin and dogecoin instead",
     MetaInc: "Meta Inc",
+    ImportSave: "Import Save",
+    ExportSave: "Export Save",
+    ClearMyTrades: "Clear My Trades",
 };

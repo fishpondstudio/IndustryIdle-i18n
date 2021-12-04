@@ -392,8 +392,6 @@ export const VN = {
     WelcomePlay: "Chơi",
     WelcomePlayMuted: "Chơi (🔇Tắt nhạc)",
     Chat: "Chat",
-    Import: "Nhập dữ liệu",
-    Export: "Xuất dữ liệu",
     RestoreFromBackup: "Sử dụng bản bảo lưu gần nhất",
     RestoreFromBackupFail: "Khôi phục dữ liệu từ Đám mây của Steam không thành công: bạn có chắc đã lưu rồi không?",
     RestoreFromBackupTitle: "Bạn có chắc không?",
@@ -1126,4 +1124,7 @@ export const VN = {
     MetaRebrandingDesc:
         "Social Network Inc is renamed to Meta Inc and consumes internet, game, super computer, bitcoin and dogecoin instead",
     MetaInc: "Meta Inc",
+    ImportSave: "Import Save",
+    ExportSave: "Export Save",
+    ClearMyTrades: "Clear My Trades",
 };

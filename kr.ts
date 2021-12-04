@@ -389,8 +389,6 @@ export const KR = {
     WelcomePlay: "재생",
     WelcomePlayMuted: "재생 (🔇음악)",
     Chat: "채팅",
-    Import: "가져오기",
-    Export: "내보내기",
     RestoreFromBackup: "백업에서 복원",
     RestoreFromBackupFail: "Steam 클라우드에서 백업을 복원하지 못했습니다 : 백업이 있습니까?",
     RestoreFromBackupTitle: "계속 하시겠습니까?",
@@ -1096,4 +1094,7 @@ export const KR = {
     MetaRebrandingDesc:
         "소셜 네트워크 주식회사가 메타 주식회사로 변경되고 인터넷, 게임, 슈퍼컴퓨터, 비트코인, 도지코인을 소비합니다",
     MetaInc: "메타 주식회사",
+    ImportSave: "Import Save",
+    ExportSave: "Export Save",
+    ClearMyTrades: "Clear My Trades",
 };

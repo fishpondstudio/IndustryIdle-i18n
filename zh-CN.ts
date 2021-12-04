@@ -380,8 +380,6 @@ export const ZH_CN = {
     WelcomePlay: "开始游戏",
     WelcomePlayMuted: "开始游戏 (🔇静音)",
     Chat: "聊天",
-    Import: "导入",
-    Export: "导出",
     RestoreFromBackup: "从备份还原",
     RestoreFromBackupFail: "无法从Steam Cloud恢复备份：您确定有备份吗？",
     RestoreFromBackupTitle: "确定吗？",
@@ -1072,4 +1070,7 @@ export const ZH_CN = {
     MetaRebrandingDesc:
         "Social Network Inc is renamed to Meta Inc and consumes internet, game, super computer, bitcoin and dogecoin instead",
     MetaInc: "Meta Inc",
+    ImportSave: "Import Save",
+    ExportSave: "Export Save",
+    ClearMyTrades: "Clear My Trades",
 };
