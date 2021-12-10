@@ -1144,7 +1144,7 @@ export const RU = {
     MetaRebrandingDesc:
         "Корпорация 'Социальная сеть' переименовывается в Корпорацию 'Мета' и потребляет Интернет, Игры, Супер компьютер, Биткоин и Догикоин",
     MetaInc: "Корпорация 'Мета'",
-    ImportSave: "Import Save",
-    ExportSave: "Export Save",
-    ClearMyTrades: "Clear My Trades",
+    ImportSave: "Импорт сохранения",
+    ExportSave: "Экспорт сохранения",
+    ClearMyTrades: "Очистить мои сделки",
 };
