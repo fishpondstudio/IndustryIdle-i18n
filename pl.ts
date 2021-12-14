@@ -1,5 +1,5 @@
 export const PL = {
-    Translator: "Translator",
+    Translator: "Wiada",
     TranslatorName: "Tutaj Wpisz Swoje Imię!",
     Language: "Język",
     ThisLanguage: "Polski",
