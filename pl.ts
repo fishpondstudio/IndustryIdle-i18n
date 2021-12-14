@@ -1137,12 +1137,12 @@ export const PL = {
     ExportSave: "Eksportuj Zapis",
     ClearMyTrades: "Wyczyść Moje Transakcje",
     SaveVersionTooNew:
-        "Your save is from %{saveVersion} but your game is %{gameVersion}. Please update your game first",
-    InputSource: "Source",
-    LeaderboardByFlag: "Tabluation By Player Flag",
-    LeaderboardByMap: "Tabluation By Map",
-    LeaderboardByFlagPlayerFlag: "Flag",
+        "Twój zapis pochodzi z %{saveVersion}, ale Twoja gra to %{gameVersion}. Najpierw zaktualizuj swoją grę",
+    InputSource: "Źródło",
+    LeaderboardByFlag: "Tabela według flag gracza",
+    LeaderboardByMap: "Tabela według mapy",
+    LeaderboardByFlagPlayerFlag: "Flaga",
     LeaderboardByFlagPayerCount: "#",
     LeaderboardByFlagPayerValuationPerHour: "V/H",
-    LeaderboardByFlagPayerSwissMoney: "Swiss",
+    LeaderboardByFlagPayerSwissMoney: "Szwajcarskie Pieniądze",
 };
