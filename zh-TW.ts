@@ -567,7 +567,6 @@ export const ZH_TW = {
     WindTurbineAlwaysWorkDesc: "風力發電機全時運作，但發電量降低 30% ",
     BookPublisherScience: "科學文獻",
     BookPublisherScienceDesc: "圖書出版社貢獻科學，而非文化",
-    ImportSaveVersionTooNew: "匯入的存檔版本為 %{saveVersion} ，但您的遊戲版本為 %{gameVersion}。請先更新您的遊戲。",
     BatteryFuelEconomy: "充電電池",
     BatteryFuelEconomyDesc: "電池燃料效率提升 100%（即：50% 燃料消耗）",
     ShowTheoreticalInputOutputCapacity: "顯示理論消耗量和產出量",
@@ -1071,4 +1070,13 @@ export const ZH_TW = {
     ImportSave: "Import Save",
     ExportSave: "Export Save",
     ClearMyTrades: "Clear My Trades",
+    SaveVersionTooNew:
+        "Your save is from %{saveVersion} but your game is %{gameVersion}. Please update your game first",
+    InputSource: "Source",
+    LeaderboardByFlag: "Tabluation By Player Flag",
+    LeaderboardByMap: "Tabluation By Map",
+    LeaderboardByFlagPlayerFlag: "Flag",
+    LeaderboardByFlagPayerCount: "#",
+    LeaderboardByFlagPayerValuationPerHour: "V/H",
+    LeaderboardByFlagPayerSwissMoney: "Swiss",
 };

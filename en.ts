@@ -1121,4 +1121,11 @@ export const EN = {
     ClearMyTrades: "Clear My Trades",
     SaveVersionTooNew:
         "Your save is from %{saveVersion} but your game is %{gameVersion}. Please update your game first",
+    InputSource: "Source",
+    LeaderboardByFlag: "Tabluation By Player Flag",
+    LeaderboardByMap: "Tabluation By Map",
+    LeaderboardByFlagPlayerFlag: "Flag",
+    LeaderboardByFlagPayerCount: "#",
+    LeaderboardByFlagPayerValuationPerHour: "V/H",
+    LeaderboardByFlagPayerSwissMoney: "Swiss",
 };

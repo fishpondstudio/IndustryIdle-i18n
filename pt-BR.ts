@@ -599,8 +599,6 @@ export const PT_BR = {
     WindTurbineAlwaysWorkDesc: "Wind turbines work 100% of the time but produces 30% less power",
     BookPublisherScience: "Literatura Científica",
     BookPublisherScienceDesc: "Editoras de livros produzem ciência em vez de cultura",
-    ImportSaveVersionTooNew:
-        "You are importing a save from %{saveVersion} but your game is %{gameVersion}. Please upgrade your game first",
     BatteryFuelEconomy: "Bateria recarregável",
     BatteryFuelEconomyDesc: "Battery fuel economy improves by 100% (ie. 50% fuel cost)",
     ShowTheoreticalInputOutputCapacity: "Show theoretical input/output capacity",
@@ -1133,4 +1131,13 @@ export const PT_BR = {
     ImportSave: "Import Save",
     ExportSave: "Export Save",
     ClearMyTrades: "Clear My Trades",
+    SaveVersionTooNew:
+        "Your save is from %{saveVersion} but your game is %{gameVersion}. Please update your game first",
+    InputSource: "Source",
+    LeaderboardByFlag: "Tabluation By Player Flag",
+    LeaderboardByMap: "Tabluation By Map",
+    LeaderboardByFlagPlayerFlag: "Flag",
+    LeaderboardByFlagPayerCount: "#",
+    LeaderboardByFlagPayerValuationPerHour: "V/H",
+    LeaderboardByFlagPayerSwissMoney: "Swiss",
 };

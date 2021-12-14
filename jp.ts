@@ -579,8 +579,6 @@ export const JP = {
     WindTurbineAlwaysWorkDesc: "風力発電が発電量を30%減らして常時稼働します",
     BookPublisherScience: "科学文献",
     BookPublisherScienceDesc: "出版社がカルチャーの代わりに科学を生産するようになります",
-    ImportSaveVersionTooNew:
-        "お使いのゲームは%{gameVersion}ですが、%{saveVersion}のセーブをインポートしています。まずゲームをアップグレードしてください",
     BatteryFuelEconomy: "充電バッテリー",
     BatteryFuelEconomyDesc: "バッテリーの燃料効率が100%向上します（燃料消費が50%になります）",
     ShowTheoreticalInputOutputCapacity: "理論上の入出力容量を表示する",
@@ -1101,4 +1099,13 @@ export const JP = {
     ImportSave: "Import Save",
     ExportSave: "Export Save",
     ClearMyTrades: "Clear My Trades",
+    SaveVersionTooNew:
+        "Your save is from %{saveVersion} but your game is %{gameVersion}. Please update your game first",
+    InputSource: "Source",
+    LeaderboardByFlag: "Tabluation By Player Flag",
+    LeaderboardByMap: "Tabluation By Map",
+    LeaderboardByFlagPlayerFlag: "Flag",
+    LeaderboardByFlagPayerCount: "#",
+    LeaderboardByFlagPayerValuationPerHour: "V/H",
+    LeaderboardByFlagPayerSwissMoney: "Swiss",
 };

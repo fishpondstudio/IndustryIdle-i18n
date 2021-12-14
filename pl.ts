@@ -304,7 +304,8 @@ export const PL = {
     Software: "Oprogramowanie",
     ScreenFactory: "Fabryka wyświetlaczy",
     Screen: "Wyświetlacz",
-    JoinDiscord: "Dołącz do naszego serwera Discord, aby otrzymywać najnowsze aktualizacje, wskazówki i móc prowadzić dyskusje",
+    JoinDiscord:
+        "Dołącz do naszego serwera Discord, aby otrzymywać najnowsze aktualizacje, wskazówki i móc prowadzić dyskusje",
     ClaimOfflineEarning: "Odbierz zarobki offline",
     OfflineTime: "Czas bycia nieobecnym",
     Minutes: "%{time}min",
@@ -332,7 +333,8 @@ export const PL = {
     NewOrder: "Nowe zamówienie od %{from} dotarło, sprawdź w centrum hurtowym!",
     Policies: "Polityka",
     PolicyNotEnoughTime: "Nie masz wystarczającej liczby punktów za tę politykę",
-    WholesaleCenterOrderFasterDesc: "Centrum Hurtowe otrzymuje zamówienia 2x szybciej, a wielkość zamówienia jest 2x większa",
+    WholesaleCenterOrderFasterDesc:
+        "Centrum Hurtowe otrzymuje zamówienia 2x szybciej, a wielkość zamówienia jest 2x większa",
     PolicyOilWellPowerx2: "Doładowanie szybu naftowego",
     PolicyOilWellPowerx2Desc: "Szyby naftowe produkują 2x więcej ropy i zużywają 2x więcej moc",
     HalfTransportSpeed: "Zwolnij, aby zaoszczędzić",
@@ -397,7 +399,8 @@ export const PL = {
     WelcomePlayMuted: "Włącz/Wyłącz (🔇muzykę)",
     Chat: "Czat",
     RestoreFromBackup: "Przywróć z kopii zapasowej",
-    RestoreFromBackupFail: "Nie udało się przywrócić kopii zapasowej ze Steam Cloud: czy na pewno istnieje kopia zapasowa?",
+    RestoreFromBackupFail:
+        "Nie udało się przywrócić kopii zapasowej ze Steam Cloud: czy na pewno istnieje kopia zapasowa?",
     RestoreFromBackupTitle: "Jesteś pewny?",
     RestoreFromBackupDesc:
         "Zwykle nie musisz przywracać danych z kopii zapasowej w chmurze, chyba że utracisz lokalny zapis. Kopie zapasowe w chmurze są nieco starsze niż lokalne zapisy",
@@ -428,7 +431,8 @@ export const PL = {
     OptIn: "Zresetuj i włącz ponownie",
     LeaderboardOptOut: "Rezygnacja z tabeli wyników",
     LeaderboardOptIn: "Zresetuj i włącz tablicę wyników",
-    LeaderboardOptInDesc: "Twoje dane muszą zostać zresetowane, zanim będzie można ponownie włączyć tabelę wyników, czy na pewno?",
+    LeaderboardOptInDesc:
+        "Twoje dane muszą zostać zresetowane, zanim będzie można ponownie włączyć tabelę wyników, czy na pewno?",
     RewardAdsFailed: "Film z nagrodą nie został ukończony",
     OfflineEarningDoubleSuccess: "Podwoiłeś swoje zarobki offline",
     FPS30Desc:
@@ -459,7 +463,8 @@ export const PL = {
     PurchaseSteamContinue: "Dokończ zakup na Steam",
     PurchaseSuccess: "Zakup został zakończony, dziękujemy za wsparcie",
     PrestigeCurrency: "Szwajcarskie pieniądze 💵",
-    RestartDesc: "💡 Chcesz tylko zrestartować? Możesz dotknąć opcji Zacznij w nowym mieście powyżej i wybrać swoje obecne miasto",
+    RestartDesc:
+        "💡 Chcesz tylko zrestartować? Możesz dotknąć opcji Zacznij w nowym mieście powyżej i wybrać swoje obecne miasto",
     PrestigeGoBack: "Wróć",
     ProductionMultiplier: "Mnożnik produkcji",
     ProductionMultiplierDesc:
@@ -483,9 +488,9 @@ export const PL = {
     SaveFileCorrupted: "Zapisz plik uszkodzony",
     LoadGameError: "Nie udało się załadować gry",
     LoadGameErrorMessage: "Komunikat o błędzie: %{message}",
-    LoadGameErrorDesc: "Proszę sprawdzić swoje połączenie z internetem. Jeśli problem będzie się powtarzał, skontaktuj się z pomocą techniczną",
-    ExpansionPackIncompatible:
-        "Importujesz zapis z dodatkami, ale twoja gra nie ma wymaganych dodatków",
+    LoadGameErrorDesc:
+        "Proszę sprawdzić swoje połączenie z internetem. Jeśli problem będzie się powtarzał, skontaktuj się z pomocą techniczną",
+    ExpansionPackIncompatible: "Importujesz zapis z dodatkami, ale twoja gra nie ma wymaganych dodatków",
     CashIn: "Środki pieniężne w",
     CurrentCity: "Obecne miasto",
     CashInDesc:
@@ -559,7 +564,8 @@ export const PL = {
     SiliconMine2xOutputDesc:
         "Kopalnie krzemu produkują 2x więcej  krzemu, ale zużywają o 50% więcej energii, a transport krzemu kosztuje 50% więcej paliwa",
     CoalMine2xOutput: "Rewolucja przemysłowa",
-    CoalMine2xOutputDesc: "Kopalnie węgla produkują 2x więcej węgla, ale zużywają o 50% więcej energii, a transport węgla kosztuje o 50% więcej paliwa",
+    CoalMine2xOutputDesc:
+        "Kopalnie węgla produkują 2x więcej węgla, ale zużywają o 50% więcej energii, a transport węgla kosztuje o 50% więcej paliwa",
     AlMine2xOutput: "Wytop aluminium",
     AlMine2xOutputDesc: "Kopalnie aluminium produkują 2x więcej aluminium i zużywają 2x więcej mocy",
     LoggingCamp2xOutput: "Wylesianie",
@@ -593,8 +599,6 @@ export const PL = {
     WindTurbineAlwaysWorkDesc: "Turbiny wiatrowe pracują przez 100% czasu, ale wytwarzają o 30% mniej energii",
     BookPublisherScience: "Literatura naukowa",
     BookPublisherScienceDesc: "Wydawcy książek produkują naukę zamiast kultury",
-    ImportSaveVersionTooNew:
-        "Importujesz zapis z %{saveVersion} ale twoja gra jest %{gameVersion}. Najpierw uaktualnij swoją grę",
     BatteryFuelEconomy: "Bateria do ponownego ładowania",
     BatteryFuelEconomyDesc: "Zużycie paliwa w akumulatorze poprawia się o 100% (50% kosztów paliwa)",
     ShowTheoreticalInputOutputCapacity: "Pokaż teoretyczną pojemność wejściową/wyjściową",
@@ -603,7 +607,8 @@ export const PL = {
     Osaka: "Osaka",
     OsakaBonus:
         "<li>Zasoby zwykle pojawiają się w klastrach</li><li>Magazyny zapewniają 50% więcej oszczędności paliwa</li><li>Unikalny budynek: wydawca mangi</li><li>Unikalny budynek: studio anime</li><li>Fabryki półprzewodników mają 2x więcej produktywność</li><li>Fabryki akumulatorów litowo-jonowych mają 2x więcej pojemność</li><li>Fabryki baterii są odblokowane</li><li>Fabryki akumulatorów mają 2x więcej pojemność</li><li>Zużycie paliwa w akumulatorze poprawia się o 100%</li><li>Fabryki akumulatorów nie wymagają węgla</li><li>Zacznij od baterii 100K</li>",
-    HideChatDescV2: "Ukryj wiadomość czatu na dolnym pasku narzędzi. Wyświetlając wiadomości na czacie, zgadzasz się na nasze ",
+    HideChatDescV2:
+        "Ukryj wiadomość czatu na dolnym pasku narzędzi. Wyświetlając wiadomości na czacie, zgadzasz się na nasze ",
     HideChatDescV2ToS: "Warunki usługi",
     IntegratedCircuitFab: "Układ scalony Fab",
     MangaPublisher: "Wydawca mangi",
@@ -620,13 +625,15 @@ export const PL = {
     PlayerTradeFilterPriceV2: "Lepsza niż cena rynkowa",
     ResourceExplorer: "Eksplorator zasobów",
     ResourceExplorerDesc: "Pozwalają wydobywać zasoby z pustego kafelka mapy",
-    ResourceExplorerDescLong: "💡 Odkrywcy zasobów nie mają sąsiedniego bonusu. Zużycie energii różni się w zależności od zasobu",
+    ResourceExplorerDescLong:
+        "💡 Odkrywcy zasobów nie mają sąsiedniego bonusu. Zużycie energii różni się w zależności od zasobu",
     ResourceExplorerSelectResource: "Badać",
     ProductionSettings: "Ustawienia produkcji",
     PlayerTradePartialFillTitle: "Wybierz procent wypełnienia",
     PlayerTradeAmountNotValidV2: "Minimalna dozwolona kwota transakcji to 1",
     PlayerTradeOptOut: "Zrezygnowałeś z tabeli liderów, nie możesz handlować z innymi graczami",
-    FirstTimeReadGuide: "💡 Potrzebujesz trochę pomocy, jak grać? Dotknij, aby przeczytać przewodnik dla początkujących!",
+    FirstTimeReadGuide:
+        "💡 Potrzebujesz trochę pomocy, jak grać? Dotknij, aby przeczytać przewodnik dla początkujących!",
     ReadSteamGuideV2: "Przewodnik Gry",
     ReadSteamGuideV2Desc: "Możesz czytać poradniki stworzone przez społeczność na Steamie - możesz też tworzyć własne",
     ChatMessageTooLong: "Twoja wiadomość na czacie przekracza maksymalną dozwoloną liczbę znaków",
@@ -638,7 +645,7 @@ export const PL = {
     RestoreBackup: "Przywrócić",
     SteamLogin: "Zaloguj się przez Steam",
     SteamLoginDialogDesc:
-       "Twój lokalny zapis ma włączony Expansion Pack, musisz zalogować się przez Steam, aby kontynuować. Możesz też USUNĄĆ LOKALNY ZAPIS i zacząć od nowa",
+        "Twój lokalny zapis ma włączony Expansion Pack, musisz zalogować się przez Steam, aby kontynuować. Możesz też USUNĄĆ LOKALNY ZAPIS i zacząć od nowa",
     SteamLoginDesc: "Jeśli posiadasz dodatki na Steam, możesz grać z dodatkami w sieci po zalogowaniu",
     SteamLoginYes: "Zaloguj",
     SteamLoginNo: "Wymaż i zacznij od nowa",
@@ -773,8 +780,7 @@ export const PL = {
     ResourceExplorer2: "Eksplorator zasobów 2.0",
     ConstructionCancel: "Anuluj",
     PolicyBlueprint: "Projekt",
-    PolicyBlueprintDesc:
-        "Budowa budynku nie rozpocznie się automatycznie - trzeba ją uruchomić ręcznie",
+    PolicyBlueprintDesc: "Budowa budynku nie rozpocznie się automatycznie - trzeba ją uruchomić ręcznie",
     HighlightUnderConstruction: "...które nie zostały skonstruowane",
     HighlightUnderLevel10: "...które są poniżej poziomu 10",
     HighlightUnderLevel20: "...które są poniżej poziomu 20",
@@ -848,9 +854,9 @@ export const PL = {
     LogoutDescV2:
         "Zalogowałeś się na innym urządzeniu, to urządzenie jest wylogowane. Możesz się ponownie zalogować, ale drugie urządzenie zostanie wylogowane",
     LogBackIn: "Zaloguj się ponownie",
-    PlayerTradeNowAllowedV2: "Transakcje graczy nie są dostępne w ciągu %{hour} godzin od przywrócenia/zaimportowania zapisu",
-    ServerDisconnected:
-        "Nie masz połączenia z serwerem, sprawdź połączenie z internetem i spróbój ponownie",
+    PlayerTradeNowAllowedV2:
+        "Transakcje graczy nie są dostępne w ciągu %{hour} godzin od przywrócenia/zaimportowania zapisu",
+    ServerDisconnected: "Nie masz połączenia z serwerem, sprawdź połączenie z internetem i spróbój ponownie",
     BuildingUpgradeCostDividerDescV2: "Podziel koszt ulepszenia budynku przez ten dzielnik",
     ResourceBoosterDesc: "Zwiększ wydajność sąsiednich kopalń",
     BlockUserChatTitle: "Blok %{user}",
@@ -880,7 +886,8 @@ export const PL = {
     SpaceColonyInc: "Kosmiczna Kolonia Inc",
     ProjectVostok: "Projekt Wostok",
     AdjacentBonusSquare: "Przyległy plac bonusowy",
-    AdjacentBonusSquareDesc: "Sąsiednia premia jest o 50% skuteczniejsza, ale modyfikatory płytek skalują się od -15% do +15%",
+    AdjacentBonusSquareDesc:
+        "Sąsiednia premia jest o 50% skuteczniejsza, ale modyfikatory płytek skalują się od -15% do +15%",
     ResourceBoosterSquare: "Plac Wzmacniacza Zasobów",
     ResourceBoosterSquareDesc:
         "Wzmacniacze zasobów zapewniają 25% więcej wzmocnienia, ale ich wkład naukowy i zużycie energii również wzrastają o 25%",
@@ -900,7 +907,8 @@ export const PL = {
         "Twój system operacyjny wstrzymał grafikę gry, ponieważ GPU jest zajęty innymi zadaniami. Możesz ponownie załadować grę, aby wznowić. Jeśli to nie zadziała, spróbuj ponownie uruchomić grę",
     SaveAndReloadGame: "Zapisz i odśwież grę",
     ResearchLabCultureInput: "Renesans",
-    ResearchLabCultureInputDesc: "Laboratorium Badawcze ma dwukrotnie większą pojemność, ale wykorzystuje kulturę jako dodatkowy wkład",
+    ResearchLabCultureInputDesc:
+        "Laboratorium Badawcze ma dwukrotnie większą pojemność, ale wykorzystuje kulturę jako dodatkowy wkład",
     GasPumpx2Output: "Pompa gazowa wysokiego ciśnienia",
     GasPumpx2OutputDesc: "Pompy gazu ziemnego mają 2x więcej  mocy, ale zużywają 2x więcej mocy",
     LeaderboardValuationPerHour: "Całkowita wycena na godzinę",
@@ -984,9 +992,9 @@ export const PL = {
     ResourceMovementHighlight: "Na wyróżnienie",
     ResourceMovementLine: "Tylko linia",
     ResourceMovement: "Ruch surowców",
-    ResourceMovementDesc:
-        "Możesz wybrać, kiedy pokazać ruch zasobów (kropki). Ukrycie go może poprawić wydajność",
-    CrowdfundingCashInWarning: "Masz oczekujące zobowiązania dotyczące finansowania społecznościowego – rozpoczęcie w nowym mieście spowoduje ich utratę",
+    ResourceMovementDesc: "Możesz wybrać, kiedy pokazać ruch zasobów (kropki). Ukrycie go może poprawić wydajność",
+    CrowdfundingCashInWarning:
+        "Masz oczekujące zobowiązania dotyczące finansowania społecznościowego – rozpoczęcie w nowym mieście spowoduje ich utratę",
     ResourceBoosterBannerDescV2:
         "💡 Masz obecnie %{number} wzmacniaczy zasobów - wkład naukowy każdego z nich jest skalowany do liczby wzmacniaczy zasobów, które aktualnie posiadasz",
     CrowdfundingId: "Finansowanie społecznościowe %{id}",
@@ -1024,13 +1032,15 @@ export const PL = {
     SwissUpgrade: "Szwajcarskie Ulepszenia",
     SwissUpgradeDesc: "Szwajcarskie aktualizacje są stałe i zostaną przeniesione, jeśli zaczniesz w nowym mieście",
     SwissBoost: "Szwajcarska premia",
-    SwissBoostDesc: "Szwajcarskie doładowania mają wpływ tylko na bieżący bieg – i zostaną zresetowane, jeśli zaczniesz w nowym mieście",
+    SwissBoostDesc:
+        "Szwajcarskie doładowania mają wpływ tylko na bieżący bieg – i zostaną zresetowane, jeśli zaczniesz w nowym mieście",
     ProductionMultipliers: "Mnożniki produkcji",
     MultiplierMapUniqueBonus: "Unikalna premia za mapę",
     MultiplierSwissUpgrade: "Szwajcarska aktualizacja (stała)",
     MultiplierSwissBoost: "Szwajcarski dopalacz (ten bieg)",
     SwissBoostCostDivider: "Szwajcarski dzielnik kosztów doładowania",
-    SwissBoostCostDividerDesc: "Podziel szwajcarski koszt doładowania przez ten dzielnik - dotyczy tylko ulepszeń mnożnika/dzielnika",
+    SwissBoostCostDividerDesc:
+        "Podziel szwajcarski koszt doładowania przez ten dzielnik - dotyczy tylko ulepszeń mnożnika/dzielnika",
     AirForceCommand: "Siedziba sił powietrznych",
     AirForce: "Siły powietrzne",
     StealthFighterFactory: "Fabryka myśliwców",
@@ -1126,4 +1136,13 @@ export const PL = {
     ImportSave: "Importuj Zapis",
     ExportSave: "Eksportuj Zapis",
     ClearMyTrades: "Wyczyść Moje Transakcje",
+    SaveVersionTooNew:
+        "Your save is from %{saveVersion} but your game is %{gameVersion}. Please update your game first",
+    InputSource: "Source",
+    LeaderboardByFlag: "Tabluation By Player Flag",
+    LeaderboardByMap: "Tabluation By Map",
+    LeaderboardByFlagPlayerFlag: "Flag",
+    LeaderboardByFlagPayerCount: "#",
+    LeaderboardByFlagPayerValuationPerHour: "V/H",
+    LeaderboardByFlagPayerSwissMoney: "Swiss",
 };

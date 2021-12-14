@@ -600,8 +600,6 @@ export const RU = {
     WindTurbineAlwaysWorkDesc: "Ветрогенераторы работают 100% времени, но производят на 30% меньше энергии",
     BookPublisherScience: "Научная литература",
     BookPublisherScienceDesc: "Книгоиздатели производят науку вместо культуры",
-    ImportSaveVersionTooNew:
-        "Вы импортируете сохранение с %{saveVersion}, но ваша игра имеет версию %{gameVersion}. Пожалуйста, сначала обновите игру",
     BatteryFuelEconomy: "Аккумуляторное топливо",
     BatteryFuelEconomyDesc: "Экономия заряда аккумулятора улучшается на 100% (т.е. 50% затрат на топливо)",
     ShowTheoreticalInputOutputCapacity: "Показывать теоретическую входную/выходную мощность",
@@ -1147,4 +1145,13 @@ export const RU = {
     ImportSave: "Импорт сохранения",
     ExportSave: "Экспорт сохранения",
     ClearMyTrades: "Очистить мои сделки",
+    SaveVersionTooNew:
+        "Your save is from %{saveVersion} but your game is %{gameVersion}. Please update your game first",
+    InputSource: "Source",
+    LeaderboardByFlag: "Tabluation By Player Flag",
+    LeaderboardByMap: "Tabluation By Map",
+    LeaderboardByFlagPlayerFlag: "Flag",
+    LeaderboardByFlagPayerCount: "#",
+    LeaderboardByFlagPayerValuationPerHour: "V/H",
+    LeaderboardByFlagPayerSwissMoney: "Swiss",
 };

@@ -580,8 +580,6 @@ export const KR = {
     WindTurbineAlwaysWorkDesc: "풍력 터빈은 100% 동작하지만 30% 적은 전력을 생산합니다",
     BookPublisherScience: "과학 문학",
     BookPublisherScienceDesc: "출판사가 문화 대신 과학을 생산합니다",
-    ImportSaveVersionTooNew:
-        "%{saveVersion}에서 저장 파일을 가져 오지만 게임은 %{gameVersion}입니다. 먼저 게임을 업그레이드하세요",
     BatteryFuelEconomy: "충전식 배터리",
     BatteryFuelEconomyDesc: "배터리 연비가 100% 향상됩니다 (즉, 연료비 50%)",
     ShowTheoreticalInputOutputCapacity: "이론적 입력/출력 용량 표시",
@@ -1097,4 +1095,13 @@ export const KR = {
     ImportSave: "Import Save",
     ExportSave: "Export Save",
     ClearMyTrades: "Clear My Trades",
+    SaveVersionTooNew:
+        "Your save is from %{saveVersion} but your game is %{gameVersion}. Please update your game first",
+    InputSource: "Source",
+    LeaderboardByFlag: "Tabluation By Player Flag",
+    LeaderboardByMap: "Tabluation By Map",
+    LeaderboardByFlagPlayerFlag: "Flag",
+    LeaderboardByFlagPayerCount: "#",
+    LeaderboardByFlagPayerValuationPerHour: "V/H",
+    LeaderboardByFlagPayerSwissMoney: "Swiss",
 };

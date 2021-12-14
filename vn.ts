@@ -590,8 +590,6 @@ export const VN = {
     WindTurbineAlwaysWorkDesc: "Điện gió hoạt động 100% thời gian nhưng sản xuất ít đi 30% điện năng",
     BookPublisherScience: "Ấn phẩm khoa học",
     BookPublisherScienceDesc: "Nhà xuất bản sản xuất điểm khoa học thay vì văn hóa",
-    ImportSaveVersionTooNew:
-        "Bạn đang đọc bản lưu từ bản %{saveVersion} nhưng trò chơi của bạn đang ở bản %{gameVersion}. Xin vui lòng nâng cấp trò chơi trước",
     BatteryFuelEconomy: "Pin sạc",
     BatteryFuelEconomyDesc: "Nhiên liệu từ pin tăng 100% hiệu suất (tức là giảm 50% chi phí nhiên liệu)",
     ShowTheoreticalInputOutputCapacity: "Hiển thị dung lượng nguyên liệu/thành phẩm trên lý thuyết",
@@ -1127,4 +1125,13 @@ export const VN = {
     ImportSave: "Import Save",
     ExportSave: "Export Save",
     ClearMyTrades: "Clear My Trades",
+    SaveVersionTooNew:
+        "Your save is from %{saveVersion} but your game is %{gameVersion}. Please update your game first",
+    InputSource: "Source",
+    LeaderboardByFlag: "Tabluation By Player Flag",
+    LeaderboardByMap: "Tabluation By Map",
+    LeaderboardByFlagPlayerFlag: "Flag",
+    LeaderboardByFlagPayerCount: "#",
+    LeaderboardByFlagPayerValuationPerHour: "V/H",
+    LeaderboardByFlagPayerSwissMoney: "Swiss",
 };
