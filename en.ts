@@ -613,7 +613,6 @@ export const EN = {
     PlayerTradeAsk: "Ask",
     ClaimTradeSuccessV2: "Your trade has been claimed successfully: %{cashOrResource}",
     AcceptTradeSuccessV2: "This trade has been accepted by you: %{cashOrResource}",
-    PlayerTradeFilterPriceV2: "Better Than Market Price",
     ResourceExplorer: "Resource Explorer",
     ResourceExplorerDesc: "Allow you to extract resources from an empty map tile",
     ResourceExplorerDescLong: "💡 Resource Explorers do not have adjacent bonus. The power usage differs per resource",
@@ -1128,4 +1127,8 @@ export const EN = {
     LeaderboardByFlagPayerCount: "#",
     LeaderboardByFlagPayerValuationPerHour: "V/H",
     LeaderboardByFlagPayerSwissMoney: "Swiss",
+    PlayerTradePriceFilter: "Price Filter",
+    PlayerTradeFilterBetterThanMarket: "Better than Market",
+    PlayerTradeFilterAll: "All",
+    PlayerTradeFilterBestPrice: "Best Price",
 };
