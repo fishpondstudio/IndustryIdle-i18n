@@ -589,7 +589,6 @@ export const ZH_TW = {
     PlayerTradeAsk: "出售",
     ClaimTradeSuccessV2: "您發起的交易已成功完成：%{cashOrResource}",
     AcceptTradeSuccessV2: "您已經達成了這筆交易：%{cashOrResource}",
-    PlayerTradeFilterPriceV2: "優於市場價格",
     ResourceExplorer: "資源探勘者",
     ResourceExplorerDesc: "您可以從空白地塊中獲取資源",
     ResourceExplorerDescLong: "💡 資源探勘者建築沒有相鄰加成。其電力消耗視資源而不同",
@@ -1079,4 +1078,12 @@ export const ZH_TW = {
     LeaderboardByFlagPayerCount: "#",
     LeaderboardByFlagPayerValuationPerHour: "V/H",
     LeaderboardByFlagPayerSwissMoney: "Swiss",
+    PlayerTradePriceFilter: "Price Filter",
+    PlayerTradeFilterBetterThanMarket: "Better than Market",
+    PlayerTradeFilterAll: "All",
+    PlayerTradeFilterBestPrice: "Best Price",
+    BuildingAutoSource: "Auto Source",
+    BuildingManualSource: "Manual Source",
+    CrowdfundingTotalPledgdeValueTooLarge:
+        "Your Total Pledged Value for a crowdfunding cannot exceed your current Market Cap",
 };
