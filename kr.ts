@@ -602,7 +602,6 @@ export const KR = {
     PlayerTradeAsk: "매물",
     ClaimTradeSuccessV2: "거래가 성공적으로 청구되었습니다: %{cashOrResource}",
     AcceptTradeSuccessV2: "거래를 수락했습니다: %{cashOrResource}",
-    PlayerTradeFilterPriceV2: "시장 가격보다 좋음",
     ResourceExplorer: "자원 탐색가",
     ResourceExplorerDesc: "빈 타일에서 자원을 추출할 수 있습니다",
     ResourceExplorerDescLong: "💡 자원 탐색가는 인접 보너스가 없습니다. 전력 사용량은 자원마다 다릅니다.",
@@ -1104,4 +1103,12 @@ export const KR = {
     LeaderboardByFlagPayerCount: "#",
     LeaderboardByFlagPayerValuationPerHour: "V/H",
     LeaderboardByFlagPayerSwissMoney: "Swiss",
+    PlayerTradePriceFilter: "Price Filter",
+    PlayerTradeFilterBetterThanMarket: "Better than Market",
+    PlayerTradeFilterAll: "All",
+    PlayerTradeFilterBestPrice: "Best Price",
+    BuildingAutoSource: "Auto Source",
+    BuildingManualSource: "Manual Source",
+    CrowdfundingTotalPledgdeValueTooLarge:
+        "Your Total Pledged Value for a crowdfunding cannot exceed your current Market Cap",
 };
