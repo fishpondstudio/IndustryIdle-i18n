@@ -1138,7 +1138,7 @@ export const PL = {
     SaveVersionTooNew:
         "Twój zapis pochodzi z %{saveVersion}, ale Twoja gra to %{gameVersion}. Najpierw zaktualizuj swoją grę",
     InputSource: "Źródło",
-    LeaderboardByFlag: "Tabela według flag gracza",
+    LeaderboardByFlag: "Tabela według flagi gracza",
     LeaderboardByMap: "Tabela według mapy",
     LeaderboardByFlagPlayerFlag: "Flaga",
     LeaderboardByFlagPayerCount: "#",
