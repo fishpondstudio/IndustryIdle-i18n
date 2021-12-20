@@ -1,3 +1,3 @@
 根据Steam的翻译，将Steam cloud翻译为Steam云。
 修正部分标点符号
-Leaderboard里的沙宣器翻译并未奏效
+Leaderboard里的筛选器翻译并未奏效
