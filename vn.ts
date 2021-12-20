@@ -613,7 +613,6 @@ export const VN = {
     PlayerTradeAsk: "Hỏi",
     ClaimTradeSuccessV2: "Giao dịch của bạn đã được kết toán thành công: %{cashOrResource}",
     AcceptTradeSuccessV2: "Bạn đã chấp nhận giao dịch này: %{cashOrResource}",
-    PlayerTradeFilterPriceV2: "Tốt hơn giá thị trường",
     ResourceExplorer: "Khai khẩn tài nguyên",
     ResourceExplorerDesc: "Cho phép bạn khai thác tài nguyên từ ô trống trên bản đồ",
     ResourceExplorerDescLong:
@@ -1134,4 +1133,12 @@ export const VN = {
     LeaderboardByFlagPayerCount: "#",
     LeaderboardByFlagPayerValuationPerHour: "V/H",
     LeaderboardByFlagPayerSwissMoney: "Swiss",
+    PlayerTradePriceFilter: "Price Filter",
+    PlayerTradeFilterBetterThanMarket: "Better than Market",
+    PlayerTradeFilterAll: "All",
+    PlayerTradeFilterBestPrice: "Best Price",
+    BuildingAutoSource: "Auto Source",
+    BuildingManualSource: "Manual Source",
+    CrowdfundingTotalPledgdeValueTooLarge:
+        "Your Total Pledged Value for a crowdfunding cannot exceed your current Market Cap",
 };
