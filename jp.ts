@@ -602,7 +602,6 @@ export const JP = {
     PlayerTradeAsk: "提供",
     ClaimTradeSuccessV2: "%{cashOrResource}のトレードが成立しました",
     AcceptTradeSuccessV2: "%{cashOrResource}のトレードを行いました",
-    PlayerTradeFilterPriceV2: "市場価格より有利な取引だけ表示",
     ResourceExplorer: "リソースエクスプローラ",
     ResourceExplorerDesc: "何もないタイルから資源を採掘できるようになります",
     ResourceExplorerDescLong: "💡リソースエクスプローラには隣接ボーナスがありません。消費電力は資源ごとに異なります",
@@ -1108,4 +1107,12 @@ export const JP = {
     LeaderboardByFlagPayerCount: "#",
     LeaderboardByFlagPayerValuationPerHour: "V/H",
     LeaderboardByFlagPayerSwissMoney: "Swiss",
+    PlayerTradePriceFilter: "Price Filter",
+    PlayerTradeFilterBetterThanMarket: "Better than Market",
+    PlayerTradeFilterAll: "All",
+    PlayerTradeFilterBestPrice: "Best Price",
+    BuildingAutoSource: "Auto Source",
+    BuildingManualSource: "Manual Source",
+    CrowdfundingTotalPledgdeValueTooLarge:
+        "Your Total Pledged Value for a crowdfunding cannot exceed your current Market Cap",
 };

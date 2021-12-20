@@ -629,7 +629,6 @@ export const DE = {
     PlayerTradeAsk: "Anfragen",
     ClaimTradeSuccessV2: "Ihr Handel wurde erfolgreich angenommen: %{cashOrResource}",
     AcceptTradeSuccessV2: "Dieser Handel wurde von dir abgeschlossen: %{cashOrResource}",
-    PlayerTradeFilterPriceV2: "Besser als der Marktpreis",
     ResourceExplorer: "Ressourcen-Explorer",
     ResourceExplorerDesc: "Ermöglicht das Extrahieren von Ressourcen aus einer leeren Kartenkachel",
     ResourceExplorerDescLong:
@@ -1158,4 +1157,12 @@ export const DE = {
     LeaderboardByFlagPayerCount: "#",
     LeaderboardByFlagPayerValuationPerHour: "V/H",
     LeaderboardByFlagPayerSwissMoney: "Swiss",
+    PlayerTradePriceFilter: "Price Filter",
+    PlayerTradeFilterBetterThanMarket: "Better than Market",
+    PlayerTradeFilterAll: "All",
+    PlayerTradeFilterBestPrice: "Best Price",
+    BuildingAutoSource: "Auto Source",
+    BuildingManualSource: "Manual Source",
+    CrowdfundingTotalPledgdeValueTooLarge:
+        "Your Total Pledged Value for a crowdfunding cannot exceed your current Market Cap",
 };

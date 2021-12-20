@@ -621,7 +621,6 @@ export const PT_BR = {
     PlayerTradeAsk: "Pedir",
     ClaimTradeSuccessV2: "Sua negociação foi reivindicada com sucesso: %{cashOrResource}",
     AcceptTradeSuccessV2: "Esse acordo foi aceito por você: %{cashOrResource}",
-    PlayerTradeFilterPriceV2: "Melhor que o preço de mercado",
     ResourceExplorer: "Explorador de recursos",
     ResourceExplorerDesc: "Allow you to extract resources from an empty map tile",
     ResourceExplorerDescLong: "💡 Resource Explorers do not have adjacent bonus. The power usage differs per resource",
@@ -1140,4 +1139,12 @@ export const PT_BR = {
     LeaderboardByFlagPayerCount: "#",
     LeaderboardByFlagPayerValuationPerHour: "V/H",
     LeaderboardByFlagPayerSwissMoney: "Swiss",
+    PlayerTradePriceFilter: "Price Filter",
+    PlayerTradeFilterBetterThanMarket: "Better than Market",
+    PlayerTradeFilterAll: "All",
+    PlayerTradeFilterBestPrice: "Best Price",
+    BuildingAutoSource: "Auto Source",
+    BuildingManualSource: "Manual Source",
+    CrowdfundingTotalPledgdeValueTooLarge:
+        "Your Total Pledged Value for a crowdfunding cannot exceed your current Market Cap",
 };
