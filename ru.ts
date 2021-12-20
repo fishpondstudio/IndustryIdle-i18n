@@ -623,7 +623,6 @@ export const RU = {
     PlayerTradeAsk: "Купить",
     ClaimTradeSuccessV2: "Ваша сделка была успешно подтверждена: %{cashOrResource}",
     AcceptTradeSuccessV2: "Эта сделка была принята вами: %{cashOrResource}",
-    PlayerTradeFilterPriceV2: "Лучше рыночной цены",
     ResourceExplorer: "Исследователь ресурсов",
     ResourceExplorerDesc: "Позволяет добывать ресурсы на пустой плитке карты",
     ResourceExplorerDescLong:
@@ -1154,4 +1153,12 @@ export const RU = {
     LeaderboardByFlagPayerCount: "#",
     LeaderboardByFlagPayerValuationPerHour: "О/Ч",
     LeaderboardByFlagPayerSwissMoney: "ИК",
+    PlayerTradePriceFilter: "Price Filter",
+    PlayerTradeFilterBetterThanMarket: "Better than Market",
+    PlayerTradeFilterAll: "All",
+    PlayerTradeFilterBestPrice: "Best Price",
+    BuildingAutoSource: "Auto Source",
+    BuildingManualSource: "Manual Source",
+    CrowdfundingTotalPledgdeValueTooLarge:
+        "Your Total Pledged Value for a crowdfunding cannot exceed your current Market Cap",
 };
