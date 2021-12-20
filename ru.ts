@@ -1154,7 +1154,7 @@ export const RU = {
     LeaderboardByFlagPayerValuationPerHour: "О/Ч",
     LeaderboardByFlagPayerSwissMoney: "ИК",
     PlayerTradePriceFilter: "Фильтр цены",
-    PlayerTradeFilterBetterThanMarket: "Лучше рыночной цены",
+    PlayerTradeFilterBetterThanMarket: "Лучше рынка",
     PlayerTradeFilterAll: "Все",
     PlayerTradeFilterBestPrice: "Лучшая цена",
     BuildingAutoSource: "Автоматический источник",
