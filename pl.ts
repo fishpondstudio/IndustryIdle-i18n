@@ -1,6 +1,6 @@
 export const PL = {
     Translator: "Wiada",
-    TranslatorName: "Tutaj Wpisz Swoje Imię!",
+    TranslatorName: "Wiada!",
     Language: "Język",
     ThisLanguage: "Polski",
     OK: "OK",
@@ -189,7 +189,7 @@ export const PL = {
     AlwaysTransportInput: "Nadwyżka magazynowa",
     AlwaysTransportInputTradeCenter: "Zawsze eksportuj",
     AlwaysTransportInputTradeCenterDesc:
-        "Zawsze transportuj surowce do Rynku, nawet jeżeli autosprzedaż nie jest katywna dla danego surowca",
+        "Zawsze transportuj surowce do Rynku, nawet jeżeli autosprzedaż nie jest aktywna dla danego surowca",
     AlwaysTransportInputDesc:
         "Zawsze transportuj surowce produkcyjne, nawet jeżeli spełnione zostały minimalne wymogi produkcji",
     ProductionCycleLength: "Cykl produkcyjny",
@@ -199,7 +199,7 @@ export const PL = {
     MaxInputDistanceDesc:
         "Maksymalna odległość z jakiej budynek jest w stanie pobierać surowce do produkcji, liczone w polach.",
     AutoSellCapacity: "Przepustowość automatycznej sprzedaży",
-    AutoSellCapacityDesc: "Maksymalna ilość produktu jaki może być sprzedawany automatycznie w sekundach/ilość",
+    AutoSellCapacityDesc: "Maksymalne ilości  produktów  jake mogą  być sprzedawane automatycznie w sekundach/ilość",    
     CurrentAutoSellCapacityMultiplier: "Bieżacy mnożnik: x%{n}",
     AutoSellConcurrency: "Limit rodzajów sprzedawanych towarów",
     AutoSellConcurrencyDesc: "Maksymalna liczba rodzajów produktów jakie można sprzedawać w tym samamy czasie",
@@ -1136,9 +1136,9 @@ export const PL = {
     ExportSave: "Eksportuj Zapis",
     ClearMyTrades: "Wyczyść Moje Transakcje",
     SaveVersionTooNew:
-        "Twój zapis pochodzi z %{saveVersion}, ale Twoja gra to %{gameVersion}. Najpierw zaktualizuj swoją grę",
+        "Twój zapis pochodzi z %{saveVersion}, ale Twoja gra to %{gameVersion}. Najpierw zaktualizuj swoją grę!",
     InputSource: "Źródło",
-    LeaderboardByFlag: "Tabela według flagi gracza",
+    LeaderboardByFlag: "Tabela według flag graczy",
     LeaderboardByMap: "Tabela według mapy",
     LeaderboardByFlagPlayerFlag: "Flaga",
     LeaderboardByFlagPayerCount: "#",
