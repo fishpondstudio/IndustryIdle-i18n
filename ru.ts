@@ -340,9 +340,6 @@ export const RU = {
     HalfTransportSpeedDesc: "Скорость перевозки снижается на 25%, но и затраты на топливо уменьшаются на 25%",
     RefineryMoreOil: "Больше бензина, больше проблем",
     RefineryMoreOilDesc: "Нефтеперерабатывающие заводы производят на 50% больше бензина и на 50% меньше пластика",
-    StickyInput: "Привязка ввода",
-    StickyInputDesc:
-        "Здания предпочтут осуществлять перевозки из предыдущего источника, вместо того чтобы каждый цикл искать лучший источник (БЕСПЛАТНАЯ ПОЛИТИКА)",
     RefineryMorePlastic: "Больше пластика, больше проблем",
     RefineryMorePlasticDesc: "Нефтеперерабатывающие заводы производят на 50% меньше бензина и на 50% больше пластика",
     FreeOilTransportDesc: "Перевозка нефти бесплатная, но нефтяные скважины потребляют в 2 раза больше энергии",
@@ -1146,7 +1143,6 @@ export const RU = {
     ClearMyTrades: "Очистить мои сделки",
     SaveVersionTooNew:
         "Ваше сохранение %{saveVersion}, но ваша игра %{gameVersion}. Пожалуйста, сначала обновите свою игру",
-    InputSource: "Источник",
     LeaderboardByFlag: "Сортировка по флагам игроков",
     LeaderboardByMap: "Сортировка по карте",
     LeaderboardByFlagPlayerFlag: "Флаг",
@@ -1157,8 +1153,17 @@ export const RU = {
     PlayerTradeFilterBetterThanMarket: "Лучше рынка",
     PlayerTradeFilterAll: "Все",
     PlayerTradeFilterBestPrice: "Лучшая цена",
-    BuildingAutoSource: "Автоматический источник",
-    BuildingManualSource: "Ручной источник",
     CrowdfundingTotalPledgdeValueTooLarge:
         "Ваша общая залоговая стоимость для финансирования не может превышать вашу текущую рыночную стоимость",
+    BuildingSourceAuto: "Auto Source",
+    BuildingSourceManual: "🔍 Manual Source",
+    BuildingSourceReset: "Reset",
+    BuildingSourceSelecting: "Tap On Map...",
+    BuildingSourceSetOverride: "Override",
+    BuildingSourceFallback: "Manual Source Fallback",
+    BuildingSourceFallbackDesc:
+        "How should the building transport its input if the manual source doesn't have enough? Skip - do not transport; drain - transport what's left; new - use auto source to find a new source",
+    BuildingSourceFallbackSkip: "Skip",
+    BuildingSourceFallbackDrain: "Drain",
+    BuildingSourceFallbackAuto: "New",
 };

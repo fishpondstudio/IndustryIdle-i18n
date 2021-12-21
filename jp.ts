@@ -330,9 +330,6 @@ export const JP = {
     HalfTransportSpeedDesc: "物流速度と物流燃料費が-25%になります",
     RefineryMoreOil: "もっとガソリンを",
     RefineryMoreOilDesc: "製油所のガソリン生産量が50%増え、プラスチック生産量が50%減ります",
-    StickyInput: "Sticky Input",
-    StickyInputDesc:
-        "施設がサイクルごとにより最適な供給元を探す機能を止めて、最後に供給を受けたところから供給を受け続けるようになります(無料)",
     RefineryMorePlastic: "もっとプラスチックを",
     RefineryMorePlasticDesc: "製油所のプラスチック生産量が50%増え、ガソリン生産量が50%減ります",
     FreeOilTransportDesc: "原油の輸送が無料になり、油井の消費電力が2倍になります",
@@ -1100,7 +1097,6 @@ export const JP = {
     ClearMyTrades: "Clear My Trades",
     SaveVersionTooNew:
         "Your save is from %{saveVersion} but your game is %{gameVersion}. Please update your game first",
-    InputSource: "Source",
     LeaderboardByFlag: "Tabluation By Player Flag",
     LeaderboardByMap: "Tabluation By Map",
     LeaderboardByFlagPlayerFlag: "Flag",
@@ -1111,8 +1107,17 @@ export const JP = {
     PlayerTradeFilterBetterThanMarket: "Better than Market",
     PlayerTradeFilterAll: "All",
     PlayerTradeFilterBestPrice: "Best Price",
-    BuildingAutoSource: "Auto Source",
-    BuildingManualSource: "Manual Source",
     CrowdfundingTotalPledgdeValueTooLarge:
         "Your Total Pledged Value for a crowdfunding cannot exceed your current Market Cap",
+    BuildingSourceAuto: "Auto Source",
+    BuildingSourceManual: "🔍 Manual Source",
+    BuildingSourceReset: "Reset",
+    BuildingSourceSelecting: "Tap On Map...",
+    BuildingSourceSetOverride: "Override",
+    BuildingSourceFallback: "Manual Source Fallback",
+    BuildingSourceFallbackDesc:
+        "How should the building transport its input if the manual source doesn't have enough? Skip - do not transport; drain - transport what's left; new - use auto source to find a new source",
+    BuildingSourceFallbackSkip: "Skip",
+    BuildingSourceFallbackDrain: "Drain",
+    BuildingSourceFallbackAuto: "New",
 };

@@ -342,9 +342,6 @@ export const PT_BR = {
     HalfTransportSpeedDesc: "A velocidade de transporte é reduzida em 25% e o custo do combustível é reduzido em 25%",
     RefineryMoreOil: "Mais Petróleo Mais Problemas",
     RefineryMoreOilDesc: "Refinarias de petróleo produzem 50% mais gasolina e 50% menos plástico",
-    StickyInput: "Entrada Pegajosa",
-    StickyInputDesc:
-        "Os edifícios irão preferir o transporte da fonte anterior, em vez de procurar a melhor fonte a cada ciclo (POLÍTICA GRATUITA)",
     RefineryMorePlastic: "Mais Plásticos Mais Problemas",
     RefineryMorePlasticDesc: "Refinarias de petróleo produzem 50% menos gasolina e 50% mais plástico",
     FreeOilTransportDesc:
@@ -1132,7 +1129,6 @@ export const PT_BR = {
     ClearMyTrades: "Clear My Trades",
     SaveVersionTooNew:
         "Your save is from %{saveVersion} but your game is %{gameVersion}. Please update your game first",
-    InputSource: "Source",
     LeaderboardByFlag: "Tabluation By Player Flag",
     LeaderboardByMap: "Tabluation By Map",
     LeaderboardByFlagPlayerFlag: "Flag",
@@ -1143,8 +1139,17 @@ export const PT_BR = {
     PlayerTradeFilterBetterThanMarket: "Better than Market",
     PlayerTradeFilterAll: "All",
     PlayerTradeFilterBestPrice: "Best Price",
-    BuildingAutoSource: "Auto Source",
-    BuildingManualSource: "Manual Source",
     CrowdfundingTotalPledgdeValueTooLarge:
         "Your Total Pledged Value for a crowdfunding cannot exceed your current Market Cap",
+    BuildingSourceAuto: "Auto Source",
+    BuildingSourceManual: "🔍 Manual Source",
+    BuildingSourceReset: "Reset",
+    BuildingSourceSelecting: "Tap On Map...",
+    BuildingSourceSetOverride: "Override",
+    BuildingSourceFallback: "Manual Source Fallback",
+    BuildingSourceFallbackDesc:
+        "How should the building transport its input if the manual source doesn't have enough? Skip - do not transport; drain - transport what's left; new - use auto source to find a new source",
+    BuildingSourceFallbackSkip: "Skip",
+    BuildingSourceFallbackDrain: "Drain",
+    BuildingSourceFallbackAuto: "New",
 };

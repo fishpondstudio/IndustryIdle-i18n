@@ -330,8 +330,6 @@ export const ZH_TW = {
     HalfTransportSpeedDesc: "運輸速度降低 25%，燃料成本降低 25%",
     RefineryMoreOil: "更多汽油，更多問題",
     RefineryMoreOilDesc: "煉油廠的汽油產出增加 50%，塑膠產出減少 50%",
-    StickyInput: "忠實顧客",
-    StickyInputDesc: "建築物將傾向於沿用以前的來源，而不是每個週期都尋找最佳的來源（免費政策）",
     RefineryMorePlastic: "更多塑膠，更多問題",
     RefineryMorePlasticDesc: "煉油廠的汽油產出減少 50％，塑膠產出增加 50％",
     FreeOilTransportDesc: "石油運輸無需花費燃料，但油井的用電量是原來的 2 倍",
@@ -1071,7 +1069,6 @@ export const ZH_TW = {
     ClearMyTrades: "Clear My Trades",
     SaveVersionTooNew:
         "Your save is from %{saveVersion} but your game is %{gameVersion}. Please update your game first",
-    InputSource: "Source",
     LeaderboardByFlag: "Tabluation By Player Flag",
     LeaderboardByMap: "Tabluation By Map",
     LeaderboardByFlagPlayerFlag: "Flag",
@@ -1082,8 +1079,17 @@ export const ZH_TW = {
     PlayerTradeFilterBetterThanMarket: "Better than Market",
     PlayerTradeFilterAll: "All",
     PlayerTradeFilterBestPrice: "Best Price",
-    BuildingAutoSource: "Auto Source",
-    BuildingManualSource: "Manual Source",
     CrowdfundingTotalPledgdeValueTooLarge:
         "Your Total Pledged Value for a crowdfunding cannot exceed your current Market Cap",
+    BuildingSourceAuto: "Auto Source",
+    BuildingSourceManual: "🔍 Manual Source",
+    BuildingSourceReset: "Reset",
+    BuildingSourceSelecting: "Tap On Map...",
+    BuildingSourceSetOverride: "Override",
+    BuildingSourceFallback: "Manual Source Fallback",
+    BuildingSourceFallbackDesc:
+        "How should the building transport its input if the manual source doesn't have enough? Skip - do not transport; drain - transport what's left; new - use auto source to find a new source",
+    BuildingSourceFallbackSkip: "Skip",
+    BuildingSourceFallbackDrain: "Drain",
+    BuildingSourceFallbackAuto: "New",
 };

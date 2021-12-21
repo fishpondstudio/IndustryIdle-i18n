@@ -336,9 +336,6 @@ export const IT = {
     HalfTransportSpeedDesc: "Transportation speed is slowed down by 25% and fuel cost is reduced by 25%",
     RefineryMoreOil: "Mo Petrol Mo Problems",
     RefineryMoreOilDesc: "Oil Refineries produce 50% more petrol and 50% less plastic",
-    StickyInput: "Sticky Input",
-    StickyInputDesc:
-        "Buildings will prefer to transport from previous source, instead of searching for the best source every cycle (FREE POLICY)",
     RefineryMorePlastic: "Mo Plastics Mo Problems",
     RefineryMorePlasticDesc: "Oil Refineries produce 50% less petrol and 50% more plastic",
     FreeOilTransportDesc: "Oil transport doesn't cost fuel but oil wells use 2x power",
@@ -1121,7 +1118,6 @@ export const IT = {
     ClearMyTrades: "Clear My Trades",
     SaveVersionTooNew:
         "Your save is from %{saveVersion} but your game is %{gameVersion}. Please update your game first",
-    InputSource: "Source",
     LeaderboardByFlag: "Tabluation By Player Flag",
     LeaderboardByMap: "Tabluation By Map",
     LeaderboardByFlagPlayerFlag: "Flag",
@@ -1132,8 +1128,17 @@ export const IT = {
     PlayerTradeFilterBetterThanMarket: "Better than Market",
     PlayerTradeFilterAll: "All",
     PlayerTradeFilterBestPrice: "Best Price",
-    BuildingAutoSource: "Auto Source",
-    BuildingManualSource: "Manual Source",
     CrowdfundingTotalPledgdeValueTooLarge:
         "Your Total Pledged Value for a crowdfunding cannot exceed your current Market Cap",
+    BuildingSourceAuto: "Auto Source",
+    BuildingSourceManual: "🔍 Manual Source",
+    BuildingSourceReset: "Reset",
+    BuildingSourceSelecting: "Tap On Map...",
+    BuildingSourceSetOverride: "Override",
+    BuildingSourceFallback: "Manual Source Fallback",
+    BuildingSourceFallbackDesc:
+        "How should the building transport its input if the manual source doesn't have enough? Skip - do not transport; drain - transport what's left; new - use auto source to find a new source",
+    BuildingSourceFallbackSkip: "Skip",
+    BuildingSourceFallbackDrain: "Drain",
+    BuildingSourceFallbackAuto: "New",
 };

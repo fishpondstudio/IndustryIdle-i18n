@@ -336,9 +336,6 @@ export const VN = {
     HalfTransportSpeedDesc: "Tốc độ vận chuyển giảm 25% và nhiên liệu tiêu thụ giảm 25%",
     RefineryMoreOil: "Thêm xăng thêm vấn đề",
     RefineryMoreOilDesc: "Xưởng lọc dầu sản xuất thêm 50% xăng và bớt đi 50% nhựa",
-    StickyInput: "Đầu vào cố định",
-    StickyInputDesc:
-        "Công trình sẽ ưu tiên vận chuyển từ nguồn cung cũ thay vì liên tục tìm nguồn cung tốt nhất mỗi chu kỳ (Chính sách MIỄN PHÍ)",
     RefineryMorePlastic: "Thêm nhựa thêm vấn đề",
     RefineryMorePlasticDesc: "Xưởng lọc dầu sản xuất bớt đi 50% xăng và thêm 50% nhựa",
     FreeOilTransportDesc: "Vận chuyển dầu thô không cần nhiên liệu nhưng mỏ dầu sử dụng x2 điện năng",
@@ -1126,7 +1123,6 @@ export const VN = {
     ClearMyTrades: "Clear My Trades",
     SaveVersionTooNew:
         "Your save is from %{saveVersion} but your game is %{gameVersion}. Please update your game first",
-    InputSource: "Source",
     LeaderboardByFlag: "Tabluation By Player Flag",
     LeaderboardByMap: "Tabluation By Map",
     LeaderboardByFlagPlayerFlag: "Flag",
@@ -1137,8 +1133,17 @@ export const VN = {
     PlayerTradeFilterBetterThanMarket: "Better than Market",
     PlayerTradeFilterAll: "All",
     PlayerTradeFilterBestPrice: "Best Price",
-    BuildingAutoSource: "Auto Source",
-    BuildingManualSource: "Manual Source",
     CrowdfundingTotalPledgdeValueTooLarge:
         "Your Total Pledged Value for a crowdfunding cannot exceed your current Market Cap",
+    BuildingSourceAuto: "Auto Source",
+    BuildingSourceManual: "🔍 Manual Source",
+    BuildingSourceReset: "Reset",
+    BuildingSourceSelecting: "Tap On Map...",
+    BuildingSourceSetOverride: "Override",
+    BuildingSourceFallback: "Manual Source Fallback",
+    BuildingSourceFallbackDesc:
+        "How should the building transport its input if the manual source doesn't have enough? Skip - do not transport; drain - transport what's left; new - use auto source to find a new source",
+    BuildingSourceFallbackSkip: "Skip",
+    BuildingSourceFallbackDrain: "Drain",
+    BuildingSourceFallbackAuto: "New",
 };

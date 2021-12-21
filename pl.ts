@@ -199,7 +199,7 @@ export const PL = {
     MaxInputDistanceDesc:
         "Maksymalna odległość z jakiej budynek jest w stanie pobierać surowce do produkcji, liczone w polach.",
     AutoSellCapacity: "Przepustowość automatycznej sprzedaży",
-    AutoSellCapacityDesc: "Maksymalne ilości  produktów  jake mogą  być sprzedawane automatycznie w sekundach/ilość",    
+    AutoSellCapacityDesc: "Maksymalne ilości  produktów  jake mogą  być sprzedawane automatycznie w sekundach/ilość",
     CurrentAutoSellCapacityMultiplier: "Bieżacy mnożnik: x%{n}",
     AutoSellConcurrency: "Limit rodzajów sprzedawanych towarów",
     AutoSellConcurrencyDesc: "Maksymalna liczba rodzajów produktów jakie można sprzedawać w tym samamy czasie",
@@ -341,9 +341,6 @@ export const PL = {
     HalfTransportSpeedDesc: "Prędkość transportu zostaje zmniejszona o 25%, a koszt paliwa zmniejszony o 25%",
     RefineryMoreOil: "Rafineria Potrzebuje Więcej ropy",
     RefineryMoreOilDesc: "Rafinerie ropy naftowej produkują o 50% więcej benzyny i 50% mniej plastiku",
-    StickyInput: "Dane wejściowe",
-    StickyInputDesc:
-        "Budynki wolą transportować z poprzedniego źródła, zamiast szukać najlepszego źródła w każdym cyklu",
     RefineryMorePlastic: "Rafineria Potrzebuje Więcej plastiku",
     RefineryMorePlasticDesc: "Rafinerie ropy naftowej produkują o 50% mniej benzyny i 50% więcej plastiku",
     FreeOilTransportDesc: "Transport ropy nie zużywa paliwa, ale szyby naftowe zużywają 2x moc",
@@ -1137,7 +1134,6 @@ export const PL = {
     ClearMyTrades: "Wyczyść Moje Transakcje",
     SaveVersionTooNew:
         "Twój zapis pochodzi z %{saveVersion}, ale Twoja gra to %{gameVersion}. Najpierw zaktualizuj swoją grę!",
-    InputSource: "Źródło",
     LeaderboardByFlag: "Tabela według flag graczy",
     LeaderboardByMap: "Tabela według mapy",
     LeaderboardByFlagPlayerFlag: "Flaga",
@@ -1148,8 +1144,17 @@ export const PL = {
     PlayerTradeFilterBetterThanMarket: "Better than Market",
     PlayerTradeFilterAll: "All",
     PlayerTradeFilterBestPrice: "Best Price",
-    BuildingAutoSource: "Auto Source",
-    BuildingManualSource: "Manual Source",
     CrowdfundingTotalPledgdeValueTooLarge:
         "Your Total Pledged Value for a crowdfunding cannot exceed your current Market Cap",
+    BuildingSourceAuto: "Auto Source",
+    BuildingSourceManual: "🔍 Manual Source",
+    BuildingSourceReset: "Reset",
+    BuildingSourceSelecting: "Tap On Map...",
+    BuildingSourceSetOverride: "Override",
+    BuildingSourceFallback: "Manual Source Fallback",
+    BuildingSourceFallbackDesc:
+        "How should the building transport its input if the manual source doesn't have enough? Skip - do not transport; drain - transport what's left; new - use auto source to find a new source",
+    BuildingSourceFallbackSkip: "Skip",
+    BuildingSourceFallbackDrain: "Drain",
+    BuildingSourceFallbackAuto: "New",
 };

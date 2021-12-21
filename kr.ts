@@ -333,9 +333,6 @@ export const KR = {
     HalfTransportSpeedDesc: "운송 속도가 25% 감소하고 연료비가 25% 감소합니다",
     RefineryMoreOil: "휘발유가 부족해",
     RefineryMoreOilDesc: "정유 공장은 휘발유를 50% 더 생산하고 플라스틱을 50% 더 적게 생산합니다",
-    StickyInput: "고정 입력",
-    StickyInputDesc:
-        "건물은 매 주기마다 최상의 입력을 검색하는 대신 이전 입력에서 전송하는 것을 선호합니다 (무료 정책)",
     RefineryMorePlastic: "플라스틱이 부족해",
     RefineryMorePlasticDesc: "정유 공장은 휘발유를 50% 덜 생산하고 플라스틱을 50% 더 생산합니다",
     FreeOilTransportDesc: "원유 운송은 비용이 들지 않지만 유정은 2배의 전력을 사용합니다",
@@ -1096,7 +1093,6 @@ export const KR = {
     ClearMyTrades: "Clear My Trades",
     SaveVersionTooNew:
         "Your save is from %{saveVersion} but your game is %{gameVersion}. Please update your game first",
-    InputSource: "Source",
     LeaderboardByFlag: "Tabluation By Player Flag",
     LeaderboardByMap: "Tabluation By Map",
     LeaderboardByFlagPlayerFlag: "Flag",
@@ -1107,8 +1103,17 @@ export const KR = {
     PlayerTradeFilterBetterThanMarket: "Better than Market",
     PlayerTradeFilterAll: "All",
     PlayerTradeFilterBestPrice: "Best Price",
-    BuildingAutoSource: "Auto Source",
-    BuildingManualSource: "Manual Source",
     CrowdfundingTotalPledgdeValueTooLarge:
         "Your Total Pledged Value for a crowdfunding cannot exceed your current Market Cap",
+    BuildingSourceAuto: "Auto Source",
+    BuildingSourceManual: "🔍 Manual Source",
+    BuildingSourceReset: "Reset",
+    BuildingSourceSelecting: "Tap On Map...",
+    BuildingSourceSetOverride: "Override",
+    BuildingSourceFallback: "Manual Source Fallback",
+    BuildingSourceFallbackDesc:
+        "How should the building transport its input if the manual source doesn't have enough? Skip - do not transport; drain - transport what's left; new - use auto source to find a new source",
+    BuildingSourceFallbackSkip: "Skip",
+    BuildingSourceFallbackDrain: "Drain",
+    BuildingSourceFallbackAuto: "New",
 };

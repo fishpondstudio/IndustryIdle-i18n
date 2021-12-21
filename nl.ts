@@ -340,9 +340,6 @@ export const NL = {
     HalfTransportSpeedDesc: "transport snelheid is vertraagd met 25% en de brandstof prijs is gereduceerd met 25%",
     RefineryMoreOil: "Meer brandstof, meer problemen",
     RefineryMoreOilDesc: "Olie raffinaderijen produceren 50% meer brandstof en 50% minder plastic",
-    StickyInput: "Plakkende Invoer",
-    StickyInputDesc:
-        "Gebouwen zullen transport van voorgaande bron prefereren, in plaats van te zoeken naar de beste bron elke cyclus (GRATIS BELEID)",
     RefineryMorePlastic: "Meer Plastic Meer Problemen",
     RefineryMorePlasticDesc: "Olie Raffinaderijen produceren 50% minder brandstof and 50% meer plastic",
     FreeOilTransportDesc: "Olie transport kost geen brandstof meer maar oliebronnen verbruiken 2x meer energie",
@@ -1127,7 +1124,6 @@ export const NL = {
     ClearMyTrades: "Clear My Trades",
     SaveVersionTooNew:
         "Your save is from %{saveVersion} but your game is %{gameVersion}. Please update your game first",
-    InputSource: "Source",
     LeaderboardByFlag: "Tabluation By Player Flag",
     LeaderboardByMap: "Tabluation By Map",
     LeaderboardByFlagPlayerFlag: "Flag",
@@ -1138,8 +1134,17 @@ export const NL = {
     PlayerTradeFilterBetterThanMarket: "Better than Market",
     PlayerTradeFilterAll: "All",
     PlayerTradeFilterBestPrice: "Best Price",
-    BuildingAutoSource: "Auto Source",
-    BuildingManualSource: "Manual Source",
     CrowdfundingTotalPledgdeValueTooLarge:
         "Your Total Pledged Value for a crowdfunding cannot exceed your current Market Cap",
+    BuildingSourceAuto: "Auto Source",
+    BuildingSourceManual: "🔍 Manual Source",
+    BuildingSourceReset: "Reset",
+    BuildingSourceSelecting: "Tap On Map...",
+    BuildingSourceSetOverride: "Override",
+    BuildingSourceFallback: "Manual Source Fallback",
+    BuildingSourceFallbackDesc:
+        "How should the building transport its input if the manual source doesn't have enough? Skip - do not transport; drain - transport what's left; new - use auto source to find a new source",
+    BuildingSourceFallbackSkip: "Skip",
+    BuildingSourceFallbackDrain: "Drain",
+    BuildingSourceFallbackAuto: "New",
 };

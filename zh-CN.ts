@@ -78,8 +78,7 @@ export const ZH_CN = {
     Rocket: "火箭",
     RocketFactory: "火箭工厂",
     BuildingPermit: "建筑许可证",
-    BuildingPermitDesc:
-		"您总共可以建造 %{amount} 座建筑物，您已经建造了 %{amountBuilt} 座，还能建造 %{amountLeft} 座",
+    BuildingPermitDesc: "您总共可以建造 %{amount} 座建筑物，您已经建造了 %{amountBuilt} 座，还能建造 %{amountLeft} 座",
     BuildingLocked: "建筑物不可用，您需要先在研究室解锁它",
     MaxBuilders: "最大工程队数量",
     MaxBuildersDesc: "您可以同时建造的建筑物数量",
@@ -185,22 +184,19 @@ export const ZH_CN = {
     ConsiderIncreaseProduction: "💡 考虑增加 %{resource} 生产",
     AlwaysTransportInput: "库存模式",
     AlwaysTransportInputTradeCenter: "始终出口",
-    AlwaysTransportInputTradeCenterDesc:
-		"始终将资源运送到贸易中心，即使该资源无法启用自动销售",
+    AlwaysTransportInputTradeCenterDesc: "始终将资源运送到贸易中心，即使该资源无法启用自动销售",
     AlwaysTransportInputDesc: "始终运输投入资源，即使它们高于最低生产要求",
     ProductionCycleLength: "生产周期",
     ProductionCycleLengthDesc:
         "一个生产周期的持续时间，以秒为单位。延长周期将相应增加每个周期的投入/产出，从而降低获取投入资源时的优先级",
     MaxInputDistance: "最大投入距离",
-    MaxInputDistanceDesc:
-		"这栋建筑以地块数量计算的投入资源的最大距离",
+    MaxInputDistanceDesc: "这栋建筑以地块数量计算的投入资源的最大距离",
     AutoSellCapacity: "自动销售数量",
     AutoSellCapacityDesc: "自动销售每秒能够处理每种资源的最大数量",
     CurrentAutoSellCapacityMultiplier: "当前乘数: x%{n}",
     AutoSellConcurrency: "自动销售并发数量",
     AutoSellConcurrencyDesc: "自动销售可以同时处理的最大资源数量",
-    MaxAutoSellConcurrencyReached:
-		"您已达到最大自动销售并发，请关闭另一个自动销售以启用此自动销售",
+    MaxAutoSellConcurrencyReached: "您已达到最大自动销售并发，请关闭另一个自动销售以启用此自动销售",
     WallStreet: "华尔街",
     MarketCap: "市值",
     MarketCapDesc: "市场价值",
@@ -249,8 +245,7 @@ export const ZH_CN = {
     SpaceshipFactory: "宇宙飞船工厂",
     SatelliteFactory: "卫星工厂",
     JetEngineFactory: "喷气发动机工厂",
-    StockRatingDesc:
-		"来自华尔街分析师的股票评级共识，它会影响你的市值，并随市场一起更新",
+    StockRatingDesc: "来自华尔街分析师的股票评级共识，它会影响你的市值，并随市场一起更新",
     OfflineEarning: "离线收益",
     PerMin: "%{amount}/分钟",
     OfflineEarningTime: "离线赚取时间",
@@ -273,8 +268,7 @@ export const ZH_CN = {
     HighlightNotMakingProfit: "不盈利的...",
     NBuildingsAreHighlighted: "%{n} 建筑物被突出显示",
     TurnOffProduction: "关闭",
-    TurnOffProductionDesc:
-		"关闭建筑物的生产。该建筑将不再投入资源和使用电力",
+    TurnOffProductionDesc: "关闭建筑物的生产。该建筑将不再投入资源和使用电力",
     ApplyToAll: "应用于所有 %{building}",
     FuelCostNumber: "%{cost} %{fuel}",
     Unlimited: "无限",
@@ -295,8 +289,7 @@ export const ZH_CN = {
     InputStrategyAmount: "数量",
     InputStrategyAmountDesc: "无论距离如何，都偏好资源量最大的仓库",
     FuelCostSave: "节省燃料成本",
-    FuelCostSaveDescV2:
-		"仓库节约一定百分比的资源运输燃料消耗，等级越高，节约越高",
+    FuelCostSaveDescV2: "仓库节约一定百分比的资源运输燃料消耗，等级越高，节约越高",
     SoftwareCompany: "软件公司",
     Software: "软件",
     ScreenFactory: "屏幕工厂",
@@ -322,8 +315,7 @@ export const ZH_CN = {
     NextOrderIn: "下一个订单还需",
     FillOrder: "成交订单",
     RejectOrder: "跳过",
-    WholesaleCenterLocked:
-		"您至少需要%{required}种不同资源解锁批发中心。您只有%{current}种资源",
+    WholesaleCenterLocked: "您至少需要%{required}种不同资源解锁批发中心。您只有%{current}种资源",
     OrderFilled: "来自 %{from} 的订单已成功成交！",
     PolicyCenter: "政策中心",
     NewOrder: "来自 %{from} 的新订单已到，请在批发中心查看",
@@ -336,9 +328,6 @@ export const ZH_CN = {
     HalfTransportSpeedDesc: "运输速度降低25%，燃料成本降低25%",
     RefineryMoreOil: "更多汽油，更多问题",
     RefineryMoreOilDesc: "炼油厂的汽油产量增加50%，塑料的产量减少50%",
-    StickyInput: "粘性输入",
-    StickyInputDesc:
-		"建筑物将倾向于从以前的来源进行运输，而不是每个周期都寻找最佳的来源（免费政策）",
     RefineryMorePlastic: "更多塑料，更多问题",
     RefineryMorePlasticDesc: "炼油厂的汽油产量减少50％，塑料的产量增加50％",
     FreeOilTransportDesc: "石油运输无需花费燃料，但油井使用的电力是原来的2倍",
@@ -348,14 +337,12 @@ export const ZH_CN = {
     AlSemiconductorDesc: "电路代工厂使用铝代替铜",
     CostSaver: "节约成本",
     CostSaverDesc: "如果建筑物的投入成本大于产出，则停止生产",
-    CostSaverBuildingDesc:
-		"节约成本政策已生效，生产将根据其获利能力自动打开/关闭",
+    CostSaverBuildingDesc: "节约成本政策已生效，生产将根据其获利能力自动打开/关闭",
     CostSaverBuildingWarning: "节约成本政策处于打开状态，您不能手动更改生产",
     GlassUseCoal: "黑玻璃",
     GlassUseCoalDesc: "玻璃工厂使用的煤炭多50％，硅减少50％",
     AdjacentBonusOnlyOutput: "相邻加成Plus",
-    AdjacentBonusOnlyOutputDesc:
-		"相邻的加成不需要更多的投入，但是会消耗更多的电力，并且只有50％的效率",
+    AdjacentBonusOnlyOutputDesc: "相邻的加成不需要更多的投入，但是会消耗更多的电力，并且只有50％的效率",
     IronMine2xOutput: "镀锌铁皮",
     IronMine2xOutputDesc: "铁矿场产出2倍的铁，但运输铁消耗2倍的燃料",
     SolarPanelAlwaysWork: "太阳永不落山",
@@ -363,10 +350,8 @@ export const ZH_CN = {
     SteelScience: "钢铁知识",
     SteelScienceDesc: "钢厂使用2倍的投入并产生额外的科学点",
     ShoppingSpree: "疯狂购物",
-    ShoppingSpreeDesc:
-		"如果资源的产出量不足，从贸易中心自动购买短缺量（如果该资源已自动出售，则将被忽略）",
-    ShoppingSpreeTradeCenterDesc:
-		"💡 疯狂购物政策已启用，贸易中心将自动购买短缺的资源",
+    ShoppingSpreeDesc: "如果资源的产出量不足，从贸易中心自动购买短缺量（如果该资源已自动出售，则将被忽略）",
+    ShoppingSpreeTradeCenterDesc: "💡 疯狂购物政策已启用，贸易中心将自动购买短缺的资源",
     ExtraPolicyPoints: "政治说客",
     CrAlloyUseFe: "铬",
     CrAlloyUseFeDesc: "铬合金工厂不使用锂，而是2倍于锂用量的铁",
@@ -396,8 +381,7 @@ export const ZH_CN = {
     RestoreFromBackup: "从备份还原",
     RestoreFromBackupFail: "无法从Steam云恢复备份：您确定有备份吗？",
     RestoreFromBackupTitle: "确定吗？",
-    RestoreFromBackupDesc:
-		"通常，您不需要从云备份中进行还原，除非丢失了本地保存。云备份比本地保存要早一些",
+    RestoreFromBackupDesc: "通常，您不需要从云备份中进行还原，除非丢失了本地保存。云备份比本地保存要早一些",
     ChangeName: "更改",
     SaveName: "保存",
     NameValidationRule: "您的姓名只能包含字母和数字，且长度为5至15个字符",
@@ -419,8 +403,7 @@ export const ZH_CN = {
     Tips10: "不同的资源在市场中的定价不同-随时为市场波动做好准备",
     Tips11: "在扩大生产之前，始终检查电力和燃料供应是一个好主意",
     FPS30: "节能",
-    OfflineModeDesc:
-		"无法连接到服务器：将不会产生离线收入。请检查您的互联网连接",
+    OfflineModeDesc: "无法连接到服务器：将不会产生离线收入。请检查您的互联网连接",
     OptOut: "选择退出",
     OptIn: "重置并启用",
     LeaderboardOptOut: "退出排行榜",
@@ -428,13 +411,11 @@ export const ZH_CN = {
     LeaderboardOptInDesc: "您必须先重置您的数据，然后才能重新启用排行榜，确定吗？",
     RewardAdsFailed: "奖励视频未完成",
     OfflineEarningDoubleSuccess: "您的离线收入已增加了一倍",
-    FPS30Desc:
-		"打开节能模式将使游戏以30FPS而非60FPS的帧率运行。这将延长您的电池续航时间",
+    FPS30Desc: "打开节能模式将使游戏以30FPS而非60FPS的帧率运行。这将延长您的电池续航时间",
     HighlightAll: '高亮显示 "%{type}"',
     HighlightInput: "🔍 高亮显示 %{type} 输入",
     HighlightOutput: "🔍 高亮显示 %{type} 输出",
     RunOutIn: "在 %{time}内用完",
-	
     SwissBank: "瑞士银行",
     SwissMoney: "%{money} 💵",
     PrestigeDesc: "如果您从一个新城市开始，您将获得 %{money} 💵",
@@ -448,8 +429,7 @@ export const ZH_CN = {
     RequireAnyExpansionPack: "独家拓展包",
     RequireAnyExpansionPackDesc: "此功能要求您至少拥有一个扩展包",
     HideRewardAd: "隐藏奖励广告",
-    HideRewardAdDesc:
-		"所有游戏内广告都是可选的奖励广告。这将从游戏中隐藏所有奖励广告选项。",
+    HideRewardAdDesc: "所有游戏内广告都是可选的奖励广告。这将从游戏中隐藏所有奖励广告选项。",
     HideDiscordBanner: "隐藏Discord横幅",
     HideDiscordBannerDesc: "隐藏总部的Discord和商店横幅",
     HideChat: "隐藏聊天消息",
@@ -460,30 +440,25 @@ export const ZH_CN = {
     RestartDesc: "💡 想要重启？您可以点击上方的在新城市开始并选择您的新城市",
     PrestigeGoBack: "返回",
     ProductionMultiplier: "生产乘数",
-    ProductionMultiplierDesc:
-		"提高您所有建筑物的生产能力（包括矿山，工厂，发电厂，科学和文化建筑物）",
+    ProductionMultiplierDesc: "提高您所有建筑物的生产能力（包括矿山，工厂，发电厂，科学和文化建筑物）",
     FuelCostDiscount: "燃料成本折扣",
     FuelCostDiscountDesc: "在运输资源时为燃料成本提供折扣",
     AutoSellCapacityMultiplier: "自动销售能力乘数",
-    AutoSellCapacityMultiplierDesc:
-		"不管当前容量如何，都将应用于您的自动销售容量的乘数",
+    AutoSellCapacityMultiplierDesc: "不管当前容量如何，都将应用于您的自动销售容量的乘数",
     BuildingPermitCostDivider: "建筑许可证成本除数",
     BuildingPermitCostDividerDesc: "建筑许可成本除以该除数",
     ExtraAdjacentBonus: "额外相邻加成",
     ExtraAdjacentBonusDesc: "每个相邻的相同类型的工作中建筑物的额外加成量",
     PrestigeAlertTitle: "确定吗?",
-    PrestigeAlertContent:
-		"您的公司将被清算。您将以 %{amount} 瑞士货币兑现并以 %{city}成立新公司",
-    PrestigeCurrencyDesc:
-		"这是您在秘密瑞士银行帐户的钱，您可以带上它在一个新的城市重新开始",
+    PrestigeAlertContent: "您的公司将被清算。您将以 %{amount} 瑞士货币兑现并以 %{city}成立新公司",
+    PrestigeCurrencyDesc: "这是您在秘密瑞士银行帐户的钱，您可以带上它在一个新的城市重新开始",
     Prestige: "现金到位",
     Cancel: "取消",
     SaveFileCorrupted: "存档文件损坏",
     LoadGameError: "无法加载游戏",
     LoadGameErrorMessage: "错误消息: %{message}",
     LoadGameErrorDesc: "请检查您的互联网连接。如果问题仍然存在，请联系支持人员",
-    ExpansionPackIncompatible:
-		"您正在使用扩展包导入保存，但您的游戏没有所需的扩展包",
+    ExpansionPackIncompatible: "您正在使用扩展包导入保存，但您的游戏没有所需的扩展包",
     CashIn: "现金",
     CurrentCity: "当前城市",
     CashInDesc:
@@ -515,8 +490,7 @@ export const ZH_CN = {
     SortByName: "名称",
     PlayerTrade: "玩家交易",
     AddTradeFail: "添加交易失败",
-    AddTradeExceedMaximumTrade:
-		"您最多只能有 %{number} 个进行中交易，请先领取或者取消其中之一",
+    AddTradeExceedMaximumTrade: "您最多只能有 %{number} 个进行中交易，请先领取或者取消其中之一",
     AddTradeSuccess: "您的交易已成功添加",
     ClaimTradeFail: "无法领取此交易，请稍后再试",
     CancelTradeSuccess: "您的交易已成功取消",
@@ -540,8 +514,7 @@ export const ZH_CN = {
     PlayerTradeQuotaExceed: "该交易已超过您的配额",
     PlayerTradeValidRange: "范围: %{min} ~ %{max}",
     PlayerTradeQuota: "剩余配额: %{value}",
-    PlayerTradeUnavailable:
-		"在与玩家进行交易之前，你需要在生产和存储中至少有一个资源",
+    PlayerTradeUnavailable: "在与玩家进行交易之前，你需要在生产和存储中至少有一个资源",
     PlayerTradeToClaim: "您有 %{num} 宗玩家交易待领取",
     PowerBank: "电池组",
     PowerBankBuildDesc: "存储过剩的电力，在电力短缺时提供电能",
@@ -554,8 +527,7 @@ export const ZH_CN = {
     ColorTheme: "游戏颜色主题",
     ColorThemeDesc: "颜色主题应用于游戏图标，高亮，网格和背景。需要重启生效",
     SiliconMine2xOutput: "硅谷",
-    SiliconMine2xOutputDesc:
-		"硅矿场生产2倍的硅，但用电量增加50%，运输硅的燃料消耗增加50%",
+    SiliconMine2xOutputDesc: "硅矿场生产2倍的硅，但用电量增加50%，运输硅的燃料消耗增加50%",
     CoalMine2xOutput: "工业革命",
     CoalMine2xOutputDesc: "煤矿场生产2倍的煤，但用电量增加50%，运输煤的燃料消耗增加50%",
     AlMine2xOutput: "铝电解",
@@ -643,8 +615,7 @@ export const ZH_CN = {
     TaiChiDojo: "太极馆",
     HongKong: "香港",
     FreeTransportToTradeCenter: "国际出口贸易",
-    FreeTransportToTradeCenterDesc:
-		"运输到贸易中心不消耗燃料，但从贸易中心运出资源多消耗50%燃料",
+    FreeTransportToTradeCenterDesc: "运输到贸易中心不消耗燃料，但从贸易中心运出资源多消耗50%燃料",
     TaiChi10xCulture: "东方之珠",
     PlayerTradeYouHave: "库存: %{amount}",
     PlayerTradeFillValue: "价值",
@@ -744,8 +715,7 @@ export const ZH_CN = {
     ElectricCarDesc: "汽车工厂用电池代替汽油，且只需要其50%的数量",
     HongKongBonusV2:
         "<li>独特的市场定价算法-价格符合正态分布(即钟形曲线)</li><li>市场更新和交易配额重置频率是原来的2倍(即每小时)</li><li>可以用已经交易的资源解锁研究</li><li>独特建筑：功夫馆</li><li>独特建筑：太极馆</li><li>允许同时进行的玩家交易数量增加50%</li><li>开局即多1个自动销售并发数</li><li>独特政策：国际出口贸易</li><li>独特政策：东方之珠</li><li>解锁批发中心只需4种资源</li><li>开局即有100M现金</li>",
-    TaiChi10xCultureDescV2:
-		"功夫和太极运输免费。电影工作室的生产能力是原来的2倍，但耗电量增加50%",
+    TaiChi10xCultureDescV2: "功夫和太极运输免费。电影工作室的生产能力是原来的2倍，但耗电量增加50%",
     SettingsFullScreen: "全屏",
     SettingsFullScreenDesc: "在全屏模式下运行游戏。只对Steam版本有效",
     LeaderboardByAllPrestigeCurrency: "有史以来赚取的瑞士货币",
@@ -756,20 +726,16 @@ export const ZH_CN = {
     DetroitBonusV3:
         "<li>发动机工厂已预先解锁</li><li>发动机工厂的产出量是原来的2倍</li><li>汽车工厂的生产能力是原来的2倍</li><li>汽车工厂使用天然气替代汽油</li><li>汽车运输免费</li><li>尼古拉.特斯拉政策免政策点</li><li>火车工厂的生产能力是原来的2倍</li>",
     SaveAndExit: "保存并退出游戏",
-    SaveAndExitDesc:
-		"保存并退出游戏。此功能只在steam版本游戏内可用，且与直接点击窗口栏的关闭按钮作用相同。",
+    SaveAndExitDesc: "保存并退出游戏。此功能只在steam版本游戏内可用，且与直接点击窗口栏的关闭按钮作用相同。",
     AutoSellResourceWarningShortLabel: "💡自动销售",
-    AutoSellResourceWarningDesc:
-		"你正在自动销售该资源, 保存在贸易中心的该资源不能用于此处。",
+    AutoSellResourceWarningDesc: "你正在自动销售该资源, 保存在贸易中心的该资源不能用于此处。",
     PlayerTradeLocalPrice: "本地价格: %{price}",
     ChatForceScroll: "强制滚动",
-    ChatForceScrollDesc:
-		"如果开启了强制滚动，聊天窗口每收到一条新消息都会滚动。否则其只在处于最近消息时才会滚动。",
+    ChatForceScrollDesc: "如果开启了强制滚动，聊天窗口每收到一条新消息都会滚动。否则其只在处于最近消息时才会滚动。",
     ResourceExplorer2: "资源勘探者 2.0",
     ConstructionCancel: "取消建造",
     PolicyBlueprint: "蓝图模式",
-    PolicyBlueprintDesc:
-		"建筑的建造不会自动开始 - 必须手动开始 (免费政策)",
+    PolicyBlueprintDesc: "建筑的建造不会自动开始 - 必须手动开始 (免费政策)",
     HighlightUnderConstruction: "未建造完成的...",
     HighlightUnderLevel10: "低于10级的...",
     HighlightUnderLevel20: "低于20级的...",
@@ -809,10 +775,8 @@ export const ZH_CN = {
     NewsEffectx2: "新闻发布会",
     NewsEffectx2Desc: "所有市场消息的正面和负面效果翻倍",
     SellRefundPercentage: "出售/降级退款",
-    SellRefundPercentageDesc:
-		"每当你出售或降级建筑，该数值是退还的现金和资源的比例",
-    SellBuildingDescV2:
-		"出售建筑将返还你%{percent}的投资且%{percent}的资源将会运送到贸易中心",
+    SellRefundPercentageDesc: "每当你出售或降级建筑，该数值是退还的现金和资源的比例",
+    SellBuildingDescV2: "出售建筑将返还你%{percent}的投资且%{percent}的资源将会运送到贸易中心",
     BuilderMoveSpeed: "工程队移速",
     BuilderMoveSpeedDesc: "工程队前往施工建筑的速度",
     EBookInc: "电子书公司",
@@ -829,29 +793,24 @@ export const ZH_CN = {
     AchievementSoftwareGiantDesc:
         "在一张地图上建造了10级软件公司，10级操作系统公司，10级数据库公司和10级网络浏览器各一座",
     AchievementSpaceRace: "太空竞赛",
-    AchievementSpaceRaceDesc:
-		"在一张地图上建造了10级火箭工厂，10级卫星工厂，10级宇宙飞船工厂和10级空间站工厂各一座",
+    AchievementSpaceRaceDesc: "在一张地图上建造了10级火箭工厂，10级卫星工厂，10级宇宙飞船工厂和10级空间站工厂各一座",
     AchievementToTheMoon: "直指月球",
-    AchievementToTheMoonDesc:
-		"建造一座40级比特币农场和一座40级狗狗币农场。持有1B比特币和1B狗狗币",
+    AchievementToTheMoonDesc: "建造一座40级比特币农场和一座40级狗狗币农场。持有1B比特币和1B狗狗币",
     ItsAllGreen: "全是绿色",
     ItsAllGreenDesc: "拥有50条生产线且没有任何生产赤字",
     DeepInRed: "深陷赤字",
     DeepInRedDesc: "拥有50条有生产赤字的生产线",
     UseScientificNotation: "使用科学记数法",
     UseScientificNotationDesc: "使用科学计数法(e表示法)来表示大于999.9T的数字",
-    LogoutDescV2:
-		"你已在其他设备上登录，该设备将下线。你可以重新登录但这将导致其他设备下线",
+    LogoutDescV2: "你已在其他设备上登录，该设备将下线。你可以重新登录但这将导致其他设备下线",
     LogBackIn: "重新登录",
     PlayerTradeNowAllowedV2: "在恢复/导入存档的%{hour}小时内不可进行玩家交易",
-    ServerDisconnected:
-		"你已断开与服务器的连接，请检查你的互联网连接或重启游戏",
+    ServerDisconnected: "你已断开与服务器的连接，请检查你的互联网连接或重启游戏",
     BuildingUpgradeCostDividerDescV2: "建筑升级成本将除以该除数",
     ResourceBoosterDesc: "增加相邻矿场的产出量",
     BlockUserChatTitle: "屏蔽%{user}",
     BlockUserChatAction: "屏蔽",
-    BlockUserChatDesc:
-		"屏蔽将在本次游戏运行期间生效，且除非重启游戏屏蔽无法撤销",
+    BlockUserChatDesc: "屏蔽将在本次游戏运行期间生效，且除非重启游戏屏蔽无法撤销",
     ChangeNameCooldown: "你只能每隔%{hour}小时改名一次",
     AtomicBombFactory: "原子弹工厂",
     AtomicBomb: "原子弹",
@@ -877,8 +836,7 @@ export const ZH_CN = {
     AdjacentBonusSquare: "相邻加成方格版",
     AdjacentBonusSquareDesc: "相邻加成的效果增加50%，但地块修正的范围变为-15%到+15%",
     ResourceBoosterSquare: "资源加速器方格版",
-    ResourceBoosterSquareDesc:
-		"资源加速器多提供25%加速效果但科学点和电力消耗也增加25%",
+    ResourceBoosterSquareDesc: "资源加速器多提供25%加速效果但科学点和电力消耗也增加25%",
     SteelMillx2: "炼钢炉现代化改造",
     SteelMillx2Desc: "轧钢厂和不锈钢厂的生产能力翻倍，用电量也翻倍",
     FuelDynamite: "燃料炸药",
@@ -937,10 +895,8 @@ export const ZH_CN = {
     ResourceExplorer2DescV2:
         "资源探勘者输出提升为2倍，但消耗2倍电力。但同时启动供应链加速器政策的情况下，若是探勘者与加速器相邻，且探勘者产出的矿产与加速器加速中的矿产是相同类型的话，每一个加速中的矿场，能额外提供一个该类型资源探勘者同样的提升倍率。",
     NoTileModifier: "地球是平的",
-    NoTileModifierDesc:
-		"所有地块修正归零。开启此政策会停用“自然的力量”和“地块修正Plus”政策",
-    DoubleTileModifierDescV2:
-		"所有地块修正翻倍-包括正面和负面效果。开启此政策会停用“地球是平的”政策",
+    NoTileModifierDesc: "所有地块修正归零。开启此政策会停用“自然的力量”和“地块修正Plus”政策",
+    DoubleTileModifierDescV2: "所有地块修正翻倍-包括正面和负面效果。开启此政策会停用“地球是平的”政策",
     TileModifierOutputOnlyDescV2:
         "地块修正不再同时影响消耗和产出，而是只对产出有效，但仅有原来50％的效果。开启此政策会停用“地球是平的”政策",
     QuickLinks: "快捷链接",
@@ -954,16 +910,14 @@ export const ZH_CN = {
     PledgeAmount: "认捐 %{amount}",
     PledgeValue: "金额 $%{amount}",
     TotalPledgedValue: "总认捐金额",
-    TotalPledgedValueDesc:
-		"你的第一笔认捐会计入众筹目标中。后续认捐会提升总认捐金额，但不会计入众筹目标中",
+    TotalPledgedValueDesc: "你的第一笔认捐会计入众筹目标中。后续认捐会提升总认捐金额，但不会计入众筹目标中",
     ReturnOnPledge: "众筹回馈",
     CrowdfundingEndIn: "于%{time}后结束",
     ClaimCrowdfundingReward: "领取回馈%{amount}",
     PledgeSuccessful: "你已为本次众筹认捐了%{amount}",
     CrowdfundingClaimSuccessful: "你领取了%{amount}现金",
     CrowdfundingAlreadyPledged: "你已经认捐过了",
-    CrowdfundingAlreadyPledgedDesc:
-		"你可以认捐更多资源，这将提高你的总认捐金额（和潜在回馈），但不会计入众筹目标",
+    CrowdfundingAlreadyPledgedDesc: "你可以认捐更多资源，这将提高你的总认捐金额（和潜在回馈），但不会计入众筹目标",
     WholesaleCenterProducingOnly: "批发合作伙伴",
     WholesaleCenterProducingOnlyDesc:
         "批发中心订单仅包含当前正在生产的资源（您还需要提供一定数量的资源才能解锁批发中心）",
@@ -981,8 +935,7 @@ export const ZH_CN = {
     ResourceMovement: "资源移动",
     ResourceMovementDesc: "你可以选择何时显示资源移动（点）。隐藏资源移动可以提升性能",
     CrowdfundingCashInWarning: "你有未完成的众筹认捐-在新城市开局会将它们没收",
-    ResourceBoosterBannerDescV2:
-		"💡 你当前有%{number}座资源加速器-每一座的科学点消耗根据该总数按比例增大",
+    ResourceBoosterBannerDescV2: "💡 你当前有%{number}座资源加速器-每一座的科学点消耗根据该总数按比例增大",
     CrowdfundingId: "众筹%{id}",
     PatchNotes: "补丁说明",
     PatchNotesDesc: "看看这次更新了什么新东西",
@@ -998,8 +951,7 @@ export const ZH_CN = {
     IndustryZone: "工业园",
     IndustryZoneDesc: "合并相邻的建筑物，形成供应链并节省建筑许可证。",
     IndustryZoneMaxBuildingLevel: "最大建筑等级",
-    IndustryZoneNotWorkingDesc:
-		"其所有相邻建筑物应形成供应链，而不是其他工业区的一部分",
+    IndustryZoneNotWorkingDesc: "其所有相邻建筑物应形成供应链，而不是其他工业区的一部分",
     IndustryZoneNoAdjacentBonus: "该建筑是工业区的一部分，没有相邻的奖励",
     PlayerTradeAutoClaim: "自动领取目前已完成的交易",
     MusifyInc: "Musify Inc",
@@ -1034,8 +986,7 @@ export const ZH_CN = {
     GreenPeacekeeper: "绿色和平卫士",
     GreenPeacekeeperDesc: "用清洁能源（风能或太阳能）制造陆军，海军，空军或太空力量",
     DotComTycoon: "网络巨头",
-    DotComTycoonDesc:
-		"在同一张地图上，建造一个10级社交网络公司、10级搜索引擎公司、10级SkyNet公司和一个10级Musify公司",
+    DotComTycoonDesc: "在同一张地图上，建造一个10级社交网络公司、10级搜索引擎公司、10级SkyNet公司和一个10级Musify公司",
     ConstructionNotResearched: "未研究",
     OfflineEarningDescV2: "离线收入取决于您当前的研究、生产力和销售能力",
     HighSpeedWarehouse: "仓库快速",
@@ -1046,8 +997,7 @@ export const ZH_CN = {
     OfflineResearchPoint: "离线研究点",
     WholesaleCenterOrderFasterV2: "更快更大的批发",
     OfflineResearchSwissBoost: "离线研究",
-    OfflineResearchSwissBoostDesc:
-		"离线时会产生研究点（根据你的研究实验室等级、学习中的科学点和离线时间）",
+    OfflineResearchSwissBoostDesc: "离线时会产生研究点（根据你的研究实验室等级、学习中的科学点和离线时间）",
     SanJose: "圣何塞",
     SanJoseBonus:
         "<li>独有建筑：芯片制造厂</li><li>独有建筑：FaceApp公司</li><li>独有建筑：比特币矿场</li><li>所有消耗硅的建筑拥有最大效益的地块修正</li><li>太阳能发电站2x倍发电</li><li>硅矿场2x倍产能</li>",
@@ -1061,15 +1011,12 @@ export const ZH_CN = {
     BaseProductionMultiplier: "基础生产",
     ShowBreakdown: "展开明细",
     HideBreakdown: "收起明细",
-    IndustryZoneMultiplierSwissBoostDescV2:
-        "工业园内的每一层生产链都为本工业园内的所有建筑提供这个产能提升",
-    IndustryZoneBuildingPermitDesc:
-        "如果一个工业园有N个生产层级，它将免费提供N-2个建筑许可证",
+    IndustryZoneMultiplierSwissBoostDescV2: "工业园内的每一层生产链都为本工业园内的所有建筑提供这个产能提升",
+    IndustryZoneBuildingPermitDesc: "如果一个工业园有N个生产层级，它将免费提供N-2个建筑许可证",
     CrowdfundingBackersReturn: "捐助者：%{backers}，当前的回报率：%{return}",
     CrowdfundingBackersNeeded: "再有%{backers}位捐助者",
     CrowdfundingReturnBonus: "+%{return}回报",
-    ReturnOnPledgeDescV2:
-        "您的总回报等于总认捐价值乘以所有资源的回报率。更多的捐助者将会提高其回报率",
+    ReturnOnPledgeDescV2: "您的总回报等于总认捐价值乘以所有资源的回报率。更多的捐助者将会提高其回报率",
     PlayerTradeQuotaDescV2:
         "💡 配额是您可以交易的资源数量。货币价值等于您市值的 %{percent}，并在市场更新时重置。您的交易价格偏离您的交易中心价格越多，您需要的配额就越多",
     AchievementSanJose100: "投资爱好者",
@@ -1088,13 +1035,11 @@ export const ZH_CN = {
     PlayerTradeFilterResources: "过滤资源",
     PlayerTradeFilterClear: "清除过滤",
     ResourceExplorerAll: "探索所有资源",
-    ResourceExplorerAllDesc:
-        "资源勘探者可以生产所有资源，包括地图上没有的资源（但是这不会解锁其相关技术）",
+    ResourceExplorerAllDesc: "资源勘探者可以生产所有资源，包括地图上没有的资源（但是这不会解锁其相关技术）",
     ShowResourceInTopBar: "在顶部资源条中显示",
     LeaderboardOptOutDescV2:
         "您将不再出现在排行榜中。这也将禁用您与其他玩家之间的交易。请注意：如果您稍后想再启用排行榜，您的数据就需要重置。",
-    PolicyPointNoCopperDesc:
-        "💡 这个地图没有铜矿床，您可以通过激活铝电路政策来解锁更多技术",
+    PolicyPointNoCopperDesc: "💡 这个地图没有铜矿床，您可以通过激活铝电路政策来解锁更多技术",
     Pumpkin: "南瓜",
     PumpkinBattery: "南瓜电池",
     PumpkinBatteryDesc: "所有消耗电池的建筑使用南瓜作为替代品（免费政策）",
@@ -1112,15 +1057,12 @@ export const ZH_CN = {
     SantaClauseIsComingDesc:
         "圣诞老人工厂通过消耗驯鹿与玩具生产圣诞老人、科学点和文化点。圣诞老人工厂拥有最大效益的地块修正。玩具工厂除了会生成玩具外，还会增产驯鹿（免费政策）",
     MetaRebranding: "重命名为元宇宙",
-    MetaRebrandingDesc:
-        "社交网络公司更名为元宇宙(Meta)公司并且消耗互联网、游戏、超级计算机、比特币和狗狗币",
+    MetaRebrandingDesc: "社交网络公司更名为元宇宙(Meta)公司并且消耗互联网、游戏、超级计算机、比特币和狗狗币",
     MetaInc: "元宇宙(Meta)公司",
     ImportSave: "导入存档",
     ExportSave: "导出存档",
     ClearMyTrades: "清除我的交易",
-    SaveVersionTooNew:
-        "你的存档保存自%{saveVersion}，但你的游戏是%{gameVersion}。请先更新你的游戏",
-    InputSource: "源",
+    SaveVersionTooNew: "你的存档保存自%{saveVersion}，但你的游戏是%{gameVersion}。请先更新你的游戏",
     LeaderboardByFlag: "根据玩家旗帜制表",
     LeaderboardByMap: "根据地图制表",
     LeaderboardByFlagPlayerFlag: "旗帜",
@@ -1131,8 +1073,16 @@ export const ZH_CN = {
     PlayerTradeFilterBetterThanMarket: "优于市场价",
     PlayerTradeFilterAll: "全部",
     PlayerTradeFilterBestPrice: "最高价",
-    BuildingAutoSource: "自动择源",
-    BuildingManualSource: "手动择源",
-    CrowdfundingTotalPledgdeValueTooLarge:
-        "您的众筹总认捐额不能超过您当前的市值",
+    CrowdfundingTotalPledgdeValueTooLarge: "您的众筹总认捐额不能超过您当前的市值",
+    BuildingSourceAuto: "Auto Source",
+    BuildingSourceManual: "🔍 Manual Source",
+    BuildingSourceReset: "Reset",
+    BuildingSourceSelecting: "Tap On Map...",
+    BuildingSourceSetOverride: "Override",
+    BuildingSourceFallback: "Manual Source Fallback",
+    BuildingSourceFallbackDesc:
+        "How should the building transport its input if the manual source doesn't have enough? Skip - do not transport; drain - transport what's left; new - use auto source to find a new source",
+    BuildingSourceFallbackSkip: "Skip",
+    BuildingSourceFallbackDrain: "Drain",
+    BuildingSourceFallbackAuto: "New",
 };
