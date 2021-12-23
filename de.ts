@@ -1170,4 +1170,6 @@ export const DE = {
     BuildingSourceFallbackSkip: "Skip",
     BuildingSourceFallbackDrain: "Drain",
     BuildingSourceFallbackAuto: "New",
+    BuildingSourceFallbackMarker: "(Fallback)",
+    BuildingSourceFallbackMarkerDesc: "The manual source doesn't have enough resource, fallback strategy is active",
 };
