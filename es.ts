@@ -1157,4 +1157,5 @@ export const ES = {
     BuildingSourceFallbackAuto: "New",
     BuildingSourceFallbackMarker: "(Fallback)",
     BuildingSourceFallbackMarkerDesc: "The manual source doesn't have enough resource, fallback strategy is active",
+    BuildingSourceInvalid: "Your selected source is invalid, please select a valid tile",
 };

@@ -1159,4 +1159,5 @@ export const PL = {
     BuildingSourceFallbackAuto: "Nowy",
     BuildingSourceFallbackMarker: "(Awaria)",
     BuildingSourceFallbackMarkerDesc: "Ręczne źródło nie ma wystarczających zasobów, strategia awaryjna jest aktywna",
+    BuildingSourceInvalid: "Your selected source is invalid, please select a valid tile",
 };
