@@ -1068,7 +1068,7 @@ export const ZH_TW = {
     ExportSave: "導出存檔",
     ClearMyTrades: "清除我的交易",
     SaveVersionTooNew:
-        "你的存檔保存於 %{saveVersion} 但你的遊戲是 %{gameVersion}. 請更新你的遊戲",
+        "你的存檔保存於 %{saveVersion}版本 但你的遊戲是 %{gameVersion}版本. 請更新你的遊戲",
     LeaderboardByFlag: "根據玩家旗幟製表",
     LeaderboardByMap: "根據地圖製表",
     LeaderboardByFlagPlayerFlag: "旗幟",
