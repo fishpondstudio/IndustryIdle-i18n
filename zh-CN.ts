@@ -1085,7 +1085,7 @@ export const ZH_CN = {
     BuildingSourceFallbackSkip: "跳过",
     BuildingSourceFallbackDrain: "清空",
     BuildingSourceFallbackAuto: "自动",
-    BuildingSourceFallbackMarker: "(选择策略)",
-    BuildingSourceFallbackMarkerDesc: "手动来源没有足够的资源，备用策略已启用",
+    BuildingSourceFallbackMarker: "(选择了策略)",
+    BuildingSourceFallbackMarkerDesc: "由于手动来源没有足够的资源，备用策略已启用",
     BuildingSourceInvalid: "您选择的来源地无效，请选择有效的格子",
 };
