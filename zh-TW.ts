@@ -1059,7 +1059,7 @@ export const ZH_TW = {
     ReindeerAluminumDesc: "所有消耗鋁的建築使用馴鹿作為代替品（免費政策）",
     SantaClauseIsComing: "聖誕老人來了～",
     SantaClauseIsComingDesc:
-        "聖誕老人工廠通過消耗馴鹿與玩具來生產聖誕老人、科學點和，聖誕老人工廠擁有最大效應的地塊修正。玩具工廠除了會生成玩具外，還會增產馴鹿（免費政策）",
+        "聖誕老人工廠通過消耗馴鹿與玩具來生產聖誕老人、科學點和文化點，聖誕老人工廠擁有最大效應的地塊加成。玩具工廠除了會生成玩具外，還會增產馴鹿（免費政策）",
     MetaRebranding: "重命名為元宇宙（Meta）",
     MetaRebrandingDesc:
         "將社群網路公司更名為元宇宙（Meta）公司並消耗網際網路、遊戲、超級電腦、比特幣和狗狗幣",
