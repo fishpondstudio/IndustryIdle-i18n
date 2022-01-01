@@ -1283,4 +1283,9 @@ export const TR = {
   RandomIsland: "Random Island",
   RandomIslandBonus:
     "<li>The map is randomized every time you start</li><li>Map size, grid type, resource deposits and unique bonuses are all randomly rolled</li><li>There is a 5-minute cool down - the reroll only happens minimum 5 minutes apart</li>",
+  RandomIslandBonusDesc:
+    "The unique bonus on Random Island is rerolled every time you start on the map",
+  RandomIslandBonusCapacity: "%{building} has %{multiplier}x capacity",
+  RandomIslandBonusProductivity: "%{building} has %{multiplier}x productivity",
+  RandomIslandBonusResources: "Resource deposits on this map: %{deposits}",
 };
