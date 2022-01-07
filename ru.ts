@@ -1335,4 +1335,5 @@ export const RU = {
   RandomIslandBonusCapacity: "%{building} имеет %{multiplier}x мощность",
   RandomIslandBonusProductivity: "%{building} имеет %{multiplier}x производительность",
   RandomIslandBonusResources: "Месторождения ресурсов на этой карте: %{deposits}",
+  ValuationPerActiveMinute: "Valuation Per Active Minute",
 };

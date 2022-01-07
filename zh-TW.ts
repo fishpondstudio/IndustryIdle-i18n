@@ -1169,4 +1169,5 @@ export const ZH_TW = {
   RandomIslandBonusCapacity: "%{building} has %{multiplier}x capacity",
   RandomIslandBonusProductivity: "%{building} has %{multiplier}x productivity",
   RandomIslandBonusResources: "Resource deposits on this map: %{deposits}",
+  ValuationPerActiveMinute: "Valuation Per Active Minute",
 };
