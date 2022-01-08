@@ -1333,8 +1333,10 @@ export const RU = {
   RandomIslandBonusDesc:
     "Уникальный бонус на Острове Рандом меняется каждый раз, когда вы начинаете игру на карте",
   RandomIslandBonusCapacity: "%{building} имеет %{multiplier}x мощность",
-  RandomIslandBonusProductivity: "%{building} имеет %{multiplier}x производительность",
-  RandomIslandBonusResources: "Месторождения ресурсов на этой карте: %{deposits}",
+  RandomIslandBonusProductivity:
+    "%{building} имеет %{multiplier}x производительность",
+  RandomIslandBonusResources:
+    "Месторождения ресурсов на этой карте: %{deposits}",
   ValuationPerActiveMinute: "Valuation Per Active Minute",
   Perth: "Perth",
   PerthBonus:
