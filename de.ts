@@ -1338,4 +1338,17 @@ export const DE = {
   RandomIslandBonusProductivity: "%{building} has %{multiplier}x productivity",
   RandomIslandBonusResources: "Resource deposits on this map: %{deposits}",
   ValuationPerActiveMinute: "Valuation Per Active Minute",
+  Perth: "Perth",
+  PerthBonus:
+    "<li>Building spinners rotate clockwise, which is opposite to other cities</li><li>Unique deposit: Geothermal vent</li><li>Unique building: Geothermal Power Plant</li><li>Unique policies: Adjacent Explorer (FREE), Factory Mining (FREE)</li>",
+  GV: "Geothermal Vent",
+  GeothermalPowerPlant: "Geothermal Power Plant",
+  AdjacentExplorer: "Adjacent Explorer",
+  AdjacentExplorerDesc:
+    "A resource explorer produce 2x output if it's adjacent to the resource it's producing (FREE POLICY)",
+  FactoryMining: "Factory Mining",
+  FactoryMiningDesc:
+    "A factory can mine the deposit directly from the tile if it consumes the same deposit (FREE POLICY)",
+  FactoryMiningBanner:
+    "This building is mining %{resource} directly from this tile",
 };
