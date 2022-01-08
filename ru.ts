@@ -568,7 +568,7 @@ export const RU = {
   Rome: "Рим",
   RomeBonus:
     "<li>Колизей разблокирован</li><li>Колизеи имеют производительность 2Х</li><li>Политический центр 5 уровня</li><li>Оперные театры имеют мощность 2Х</li><li>Студии звукозаписи также производят культуру</li>",
-  Detroit: "Детроит",
+  Detroit: "Детройт",
   Boston: "Бостон",
   BostonBonus:
     "<li>Исследовательская лаборатория 5 уровня</li><li>Политехнический институт разблокирован</li><li>Политехнические институты имеют мощность 2Х</li><li>Школы имеют мощность 2Х</li><li>Университеты имеют производительность 2Х</li>",
@@ -1044,7 +1044,7 @@ export const RU = {
   GasPumpx2Output: "Газовый насос высокого давления",
   GasPumpx2OutputDesc:
     "Газовые насосы имеют 2Х производительность, но потребляют 2Х энергии",
-  LeaderboardValuationPerHour: "Общая стоиомсть за час",
+  LeaderboardValuationPerHour: "Общая стоимость за час",
   LeaderboardValuationPerHourPerSwiss:
     "Общая стоимость в час в пересчете на Индустриальный кредит",
   LeaderboardValuationPerHourNewPlayers:
@@ -1115,7 +1115,7 @@ export const RU = {
   TotalPledgedValueDesc:
     "Ваш первый залог учитывается при достижении цели Совместное финансирование. Последующие взносы увеличивают общую объявленную стоимость, но не учитываются при достижении цели",
   ReturnOnPledge: "Возврат залога",
-  CrowdfundingEndIn: "Закончится в %{time}",
+  CrowdfundingEndIn: "Закончится через %{time}",
   ClaimCrowdfundingReward: "Получить награду %{amount}",
   PledgeSuccessful: "Вы заложили %{amount} на совместное финансирование",
   CrowdfundingClaimSuccessful: "Вы получили %{amount} наличными",
@@ -1298,7 +1298,7 @@ export const RU = {
   ExportSave: "Экспорт сохранения",
   ClearMyTrades: "Очистить мои сделки",
   SaveVersionTooNew:
-    "Ваше сохранение %{saveVersion}, но ваша игра %{gameVersion}. Пожалуйста, сначала обновите свою игру",
+    "Ваше сохранение - для версии %{saveVersion}, но версия вашей игры %{gameVersion}. Пожалуйста, сначала обновите свою игру",
   LeaderboardByFlag: "Сортировка по флагам игроков",
   LeaderboardByMap: "Сортировка по карте",
   LeaderboardByFlagPlayerFlag: "Флаг",
@@ -1311,30 +1311,30 @@ export const RU = {
   PlayerTradeFilterBestPrice: "Лучшая цена",
   CrowdfundingTotalPledgdeValueTooLarge:
     "Ваша общая залоговая стоимость для финансирования не может превышать вашу текущую рыночную стоимость",
-  BuildingSourceAuto: "Auto Source",
-  BuildingSourceManual: "🔍 Manual Source",
-  BuildingSourceReset: "Reset",
-  BuildingSourceSelecting: "Tap On Map...",
-  BuildingSourceSetOverride: "Override",
-  BuildingSourceFallback: "Manual Source Fallback",
+  BuildingSourceAuto: "Автоматический источник",
+  BuildingSourceManual: "🔍 Ручной источник",
+  BuildingSourceReset: "Сбросить",
+  BuildingSourceSelecting: "Нажмите на карте...",
+  BuildingSourceSetOverride: "Переопределение",
+  BuildingSourceFallback: "Резервный вариант",
   BuildingSourceFallbackDesc:
-    "How should the building transport its input if the manual source doesn't have enough? Skip - do not transport; drain - transport what's left; new - use auto source to find a new source",
-  BuildingSourceFallbackSkip: "Skip",
-  BuildingSourceFallbackDrain: "Drain",
-  BuildingSourceFallbackAuto: "New",
-  BuildingSourceFallbackMarker: "(Fallback)",
+    "Как здание должно транспортировать вводные ресурсы, если источник, назначенный вручную, не справляется? Пропустить - не транспортировать; Изъять - транспортировать то, что осталось; Новый - применить автоматический выбор источника для нахождения нового",
+  BuildingSourceFallbackSkip: "Пропустить",
+  BuildingSourceFallbackDrain: "Изъять",
+  BuildingSourceFallbackAuto: "Новый",
+  BuildingSourceFallbackMarker: "(Резерв. вар.)",
   BuildingSourceFallbackMarkerDesc:
-    "The manual source doesn't have enough resource, fallback strategy is active",
+    "Источник, назначенный вручную, не имеет достаточного количества ресурсов, активирован резервный вариант",
   BuildingSourceInvalid:
-    "Your selected source is invalid, please select a valid tile",
-  RandomIsland: "Random Island",
+    "Выбранный вами источник неправильный, пожалуйста, выберите правильную плитку",
+  RandomIsland: "Остров Рандом",
   RandomIslandBonus:
-    "<li>The map is randomized every time you start</li><li>Map size, grid type, resource deposits and unique bonuses are all randomly rolled</li><li>There is a 5-minute cool down - the reroll only happens minimum 5 minutes apart</li>",
+    "<li>Карта случайная каждый раз, когда вы начинаете</li><li>Размер карты, тип сетки, состав и расположение ресурсов, уникальные бонусы выпадают случайным образом</li><li>Существует 5-минутная задержка - повторный !бросок! происходит только с минимальной разницей в 5 минут</li>",
   RandomIslandBonusDesc:
-    "The unique bonus on Random Island is rerolled every time you start on the map",
-  RandomIslandBonusCapacity: "%{building} has %{multiplier}x capacity",
-  RandomIslandBonusProductivity: "%{building} has %{multiplier}x productivity",
-  RandomIslandBonusResources: "Resource deposits on this map: %{deposits}",
+    "Уникальный бонус на Острове Рандом меняется каждый раз, когда вы начинаете игру на карте",
+  RandomIslandBonusCapacity: "%{building} имеет %{multiplier}x мощность",
+  RandomIslandBonusProductivity: "%{building} имеет %{multiplier}x производительность",
+  RandomIslandBonusResources: "Месторождения ресурсов на этой карте: %{deposits}",
   ValuationPerActiveMinute: "Valuation Per Active Minute",
   Perth: "Perth",
   PerthBonus:
