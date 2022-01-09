@@ -627,7 +627,6 @@ export const KR = {
   Consumption: "소비",
   WarehouseInputCapacityDescV2:
     "모든 경로에 균등하게 나눠진, 내부 운송의 총 용량",
-  WarehouseInputCapacityPerRoute: "경로별: ",
   PlayerCountryFlag: "플레이어 국기",
   PlayerCountryChooseFlag: "국가 코드의 알파벳 순서",
   WindTurbineAlwaysWork: "바람이 분다",
@@ -1263,4 +1262,5 @@ export const KR = {
     "A factory can mine the deposit directly from the tile if it consumes the same deposit (FREE POLICY)",
   FactoryMiningBanner:
     "This building is mining %{resource} directly from this tile",
+  WarehouseSourceWeight: "Weight: %{weight}",
 };

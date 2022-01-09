@@ -588,7 +588,6 @@ export const ZH_TW = {
   Production: "生產",
   Consumption: "消耗",
   WarehouseInputCapacityDescV2: "總進貨量：平均分配到每條進貨途徑",
-  WarehouseInputCapacityPerRoute: "進貨配額：",
   PlayerCountryFlag: "玩家旗幟",
   PlayerCountryChooseFlag: "按照國家地區代碼排列",
   WindTurbineAlwaysWork: "起風了",
@@ -1183,4 +1182,5 @@ export const ZH_TW = {
     "A factory can mine the deposit directly from the tile if it consumes the same deposit (FREE POLICY)",
   FactoryMiningBanner:
     "This building is mining %{resource} directly from this tile",
+  WarehouseSourceWeight: "Weight: %{weight}",
 };

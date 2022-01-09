@@ -667,7 +667,6 @@ export const DE = {
   Consumption: "Verbrauch",
   WarehouseInputCapacityDescV2:
     "Gesamtkapazität des Eingangsstransports, gleichmäßig auf alle Strecken verteilt",
-  WarehouseInputCapacityPerRoute: "Pro Route: ",
   PlayerCountryFlag: "Spielerflagge",
   PlayerCountryChooseFlag: "In alphabetischer Reihenfolge des Länderkürzels",
   WindTurbineAlwaysWork: "Der Wind wird stärker",
@@ -1351,4 +1350,5 @@ export const DE = {
     "A factory can mine the deposit directly from the tile if it consumes the same deposit (FREE POLICY)",
   FactoryMiningBanner:
     "This building is mining %{resource} directly from this tile",
+  WarehouseSourceWeight: "Weight: %{weight}",
 };

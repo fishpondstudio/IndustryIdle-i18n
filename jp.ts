@@ -624,7 +624,6 @@ export const JP = {
   Consumption: "消費",
   WarehouseInputCapacityDescV2:
     "この倉庫の輸入速度。すべてのルートで均等になります",
-  WarehouseInputCapacityPerRoute: "各ルート : ",
   PlayerCountryFlag: "プレイヤーフラグ",
   PlayerCountryChooseFlag: "国名コードのアルファベット順",
   WindTurbineAlwaysWork: "風立ちぬ",
@@ -1266,4 +1265,5 @@ export const JP = {
     "A factory can mine the deposit directly from the tile if it consumes the same deposit (FREE POLICY)",
   FactoryMiningBanner:
     "This building is mining %{resource} directly from this tile",
+  WarehouseSourceWeight: "Weight: %{weight}",
 };

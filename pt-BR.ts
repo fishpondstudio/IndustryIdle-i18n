@@ -658,7 +658,6 @@ export const PT_BR = {
   Consumption: "Consumo",
   WarehouseInputCapacityDescV2:
     "Total capacity of inward transportation, divided equally among all routes",
-  WarehouseInputCapacityPerRoute: "Por rota: ",
   PlayerCountryFlag: "Bandeira do Jogador",
   PlayerCountryChooseFlag: "In Alphabetical Order of Country Code",
   WindTurbineAlwaysWork: "The Wind Rises",
@@ -1313,4 +1312,5 @@ export const PT_BR = {
     "A factory can mine the deposit directly from the tile if it consumes the same deposit (FREE POLICY)",
   FactoryMiningBanner:
     "This building is mining %{resource} directly from this tile",
+  WarehouseSourceWeight: "Weight: %{weight}",
 };

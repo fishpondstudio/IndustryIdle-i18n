@@ -663,7 +663,6 @@ export const RU = {
   Consumption: "Потребление",
   WarehouseInputCapacityDescV2:
     "Общая пропускная способность входящих перевозок, распределена равномерно между всеми маршрутами",
-  WarehouseInputCapacityPerRoute: "На маршрут: ",
   PlayerCountryFlag: "Флаг игрока",
   PlayerCountryChooseFlag: "В алфавитном порядке по коду страны",
   WindTurbineAlwaysWork: "Ветер усиливается",
@@ -1351,4 +1350,5 @@ export const RU = {
     "A factory can mine the deposit directly from the tile if it consumes the same deposit (FREE POLICY)",
   FactoryMiningBanner:
     "This building is mining %{resource} directly from this tile",
+  WarehouseSourceWeight: "Weight: %{weight}",
 };

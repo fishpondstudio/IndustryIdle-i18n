@@ -648,7 +648,6 @@ export const VN = {
   Consumption: "Tiêu thụ",
   WarehouseInputCapacityDescV2:
     "Tổng lưu lượng nhập hàng, chia đều cho số nguồn cung",
-  WarehouseInputCapacityPerRoute: "Lưu lượng cho mỗi nguồn: ",
   PlayerCountryFlag: "Quốc kỳ cho người chơi",
   PlayerCountryChooseFlag: "Theo thứ tự bảng chữ cái cho mã quốc gia",
   WindTurbineAlwaysWork: "Nổi gió",
@@ -1325,4 +1324,5 @@ export const VN = {
     "A factory can mine the deposit directly from the tile if it consumes the same deposit (FREE POLICY)",
   FactoryMiningBanner:
     "This building is mining %{resource} directly from this tile",
+  WarehouseSourceWeight: "Weight: %{weight}",
 };
