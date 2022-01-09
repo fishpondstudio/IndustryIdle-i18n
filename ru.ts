@@ -1336,19 +1336,19 @@ export const RU = {
     "%{building} имеет %{multiplier}x производительность",
   RandomIslandBonusResources:
     "Месторождения ресурсов на этой карте: %{deposits}",
-  ValuationPerActiveMinute: "Valuation Per Active Minute",
-  Perth: "Perth",
+  ValuationPerActiveMinute: "Оценка за активную минуту",
+  Perth: "Перт",
   PerthBonus:
-    "<li>Building spinners rotate clockwise, which is opposite to other cities</li><li>Unique deposit: Geothermal vent</li><li>Unique building: Geothermal Power Plant</li><li>Unique policies: Adjacent Explorer (FREE), Factory Mining (FREE)</li>",
-  GV: "Geothermal Vent",
-  GeothermalPowerPlant: "Geothermal Power Plant",
-  AdjacentExplorer: "Adjacent Explorer",
+    "<li>Вращение зданий по часовой стрелке, что противоположно другим городам</li><li>Уникальное месторождение: Геотермальный источник</li><li>Уникальное здание: Геотермальная электростанция</li><li>Уникальные политики: Прилегающий исследователь (БЕСПЛАТНО), Добывающая фабрика (БЕСПЛАТНО)</li>",
+  GV: "Геотермальный источник",
+  GeothermalPowerPlant: "Геотермальная электростанция",
+  AdjacentExplorer: "Прилегающий исследователь",
   AdjacentExplorerDesc:
-    "A resource explorer produce 2x output if it's adjacent to the resource it's producing (FREE POLICY)",
-  FactoryMining: "Factory Mining",
+    "Исследователь ресурсов производит в 2 раза больше продукции, если он прилегает к добываемому ресурсу (БЕСПЛАТНАЯ ПОЛИТИКА)",
+  FactoryMining: "Добывающая фабрика",
   FactoryMiningDesc:
-    "A factory can mine the deposit directly from the tile if it consumes the same deposit (FREE POLICY)",
+    "Фабрика может добывать месторождение непосредственно из плитки, если она потребляет такое же месторождение (БЕСПЛАТНАЯ ПОЛИТИКА)",
   FactoryMiningBanner:
-    "This building is mining %{resource} directly from this tile",
-  WarehouseSourceWeight: "Weight: %{weight}",
+    "Это здание добывает %{resource} прямо из этой плитки",
+  WarehouseSourceWeight: "Вес: %{weight}",
 };
