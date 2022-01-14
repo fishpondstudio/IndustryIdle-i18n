@@ -183,7 +183,6 @@ export const IT = {
   PanelPosition: "Panel Position",
   PanelPositionDesc:
     "Show side panel on left, right or auto (depends on current selected tile)",
-  InputCapacity: "Input Capacity",
   Output: "Output",
   OutputCapacity: "Output Capacity",
   ResourceDeposit: "Resource Deposit",
@@ -634,7 +633,6 @@ export const IT = {
   AcceptTradeFailRateLimit:
     "You can only accept one trade every %{time} seconds",
   DowngradeBuilding: "Downgrade",
-  WarehouseInputRoutes: "Input Routes",
   WarehouseAddInput: "Add Route",
   WarehouseTapToSelect: "Tap on Map to Select...",
   WarehouseFindOnMap: "🔍 Find on Map",
@@ -1302,4 +1300,13 @@ export const IT = {
   FactoryMiningBanner:
     "This building is mining %{resource} directly from this tile",
   WarehouseSourceWeight: "Weight: %{weight}",
+  YAxisStartsFromZero: "Y Axis From 0",
+  YAxisStartsFromZeroDesc:
+    "All graphs' Y axis will always start from 0 instead of being auto adjusted",
+  OwnDLC: "Own %{number}x Expansion(s)",
+  GeneralServerSuccessMessage: "Your request has completely successfully",
+  GeneralServerErrorMessage: "Error from the server: %{error}",
+  WarehouseInputRoutes: "Input Routes",
+  WarehouseOutputRoutes: "Output Routes",
+  InputCapacity: "Input Capacity",
 };

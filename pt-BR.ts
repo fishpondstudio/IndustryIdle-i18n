@@ -183,7 +183,6 @@ export const PT_BR = {
   PanelPosition: "Posição do painel",
   PanelPositionDesc:
     "Mostrar painel lateral à esquerda, direita ou automático (depende do bloco selecionado atualmente)",
-  InputCapacity: "Capacidade de entrada",
   Output: "Saída",
   OutputCapacity: "Capacidade de saída",
   ResourceDeposit: "Depósito de recursos",
@@ -645,7 +644,6 @@ export const PT_BR = {
   AcceptTradeFailRateLimit:
     "Você só pode aceitar um acordo a cada %{time} segundos",
   DowngradeBuilding: "Rebaixar",
-  WarehouseInputRoutes: "Input Routes",
   WarehouseAddInput: "Adicionar rota",
   WarehouseTapToSelect: "Toque no mapa para selecionar...",
   WarehouseFindOnMap: "🔍 Mostrar no Mapa",
@@ -1313,4 +1311,13 @@ export const PT_BR = {
   FactoryMiningBanner:
     "This building is mining %{resource} directly from this tile",
   WarehouseSourceWeight: "Weight: %{weight}",
+  YAxisStartsFromZero: "Y Axis From 0",
+  YAxisStartsFromZeroDesc:
+    "All graphs' Y axis will always start from 0 instead of being auto adjusted",
+  OwnDLC: "Own %{number}x Expansion(s)",
+  GeneralServerSuccessMessage: "Your request has completely successfully",
+  GeneralServerErrorMessage: "Error from the server: %{error}",
+  WarehouseInputRoutes: "Input Routes",
+  WarehouseOutputRoutes: "Output Routes",
+  InputCapacity: "Capacidade de entrada",
 };

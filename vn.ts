@@ -183,7 +183,6 @@ export const VN = {
   PanelPosition: "Vị trí bảng thông tin",
   PanelPositionDesc:
     "Hiển thị bảng thông tin bên trái, phải hoặc tự động (tùy vào ô được chọn trên bản đồ)",
-  InputCapacity: "Dung lượng nguyên liệu",
   Output: "Thành phẩm",
   OutputCapacity: "Dung lượng thành phẩm",
   ResourceDeposit: "Trữ lượng",
@@ -636,7 +635,6 @@ export const VN = {
   AcceptTradeFailRateLimit:
     "Bạn chỉ có thể chấp nhận một giao dịch trong mỗi %{time} giây",
   DowngradeBuilding: "Hạ cấp",
-  WarehouseInputRoutes: "Các nguồn cung cấp",
   WarehouseAddInput: "Thêm nguồn cung cấp",
   WarehouseTapToSelect: "Nhấp vào bản đồ để chọn...",
   WarehouseFindOnMap: "🔍 Tìm trên bản đồ",
@@ -1325,4 +1323,13 @@ export const VN = {
   FactoryMiningBanner:
     "This building is mining %{resource} directly from this tile",
   WarehouseSourceWeight: "Weight: %{weight}",
+  YAxisStartsFromZero: "Y Axis From 0",
+  YAxisStartsFromZeroDesc:
+    "All graphs' Y axis will always start from 0 instead of being auto adjusted",
+  OwnDLC: "Own %{number}x Expansion(s)",
+  GeneralServerSuccessMessage: "Your request has completely successfully",
+  GeneralServerErrorMessage: "Error from the server: %{error}",
+  WarehouseInputRoutes: "Các nguồn cung cấp",
+  WarehouseOutputRoutes: "Output Routes",
+  InputCapacity: "Dung lượng nguyên liệu",
 };

@@ -184,7 +184,6 @@ export const FR = {
   PanelPosition: "Position du panneau",
   PanelPositionDesc:
     "Afficher le panneau latéral à gauche, à droite ou automatique (dépend de la vignette actuellement sélectionnée)",
-  InputCapacity: "Capacité d'entrée",
   Output: "Sortie",
   OutputCapacity: "Capacité de sortie",
   ResourceDeposit: "Dépôt de ressources",
@@ -655,7 +654,6 @@ export const FR = {
   AcceptTradeFailRateLimit:
     "Vous pouvez seulement accepter un échange toutes les %{time} secondes",
   DowngradeBuilding: "Rétrograder",
-  WarehouseInputRoutes: "Routes d'entrée",
   WarehouseAddInput: "Ajouter Route",
   WarehouseTapToSelect: "Cliquez sur la carte pour sélectionner...",
   WarehouseFindOnMap: "🔍 Trouver sur la carte",
@@ -1348,4 +1346,13 @@ export const FR = {
   FactoryMiningBanner:
     "This building is mining %{resource} directly from this tile",
   WarehouseSourceWeight: "Weight: %{weight}",
+  YAxisStartsFromZero: "Y Axis From 0",
+  YAxisStartsFromZeroDesc:
+    "All graphs' Y axis will always start from 0 instead of being auto adjusted",
+  OwnDLC: "Own %{number}x Expansion(s)",
+  GeneralServerSuccessMessage: "Your request has completely successfully",
+  GeneralServerErrorMessage: "Error from the server: %{error}",
+  WarehouseInputRoutes: "Routes d'entrée",
+  WarehouseOutputRoutes: "Output Routes",
+  InputCapacity: "Capacité d'entrée",
 };

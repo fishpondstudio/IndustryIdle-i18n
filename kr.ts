@@ -182,7 +182,6 @@ export const KR = {
   PanelPosition: "패널 위치",
   PanelPositionDesc:
     "왼쪽, 오른쪽 또는 자동에 측면 패널 표시 (현재 선택한 타일에 따라 다름)",
-  InputCapacity: "입력 용량",
   Output: "출력",
   OutputCapacity: "출력 용량",
   ResourceDeposit: "자원 매장층",
@@ -615,7 +614,6 @@ export const KR = {
     "채팅 메시지에서 나를 언급할 때 소리 및 토스트 알림 숨기기,",
   AcceptTradeFailRateLimit: "%{time}초마다 하나의 거래만 수락 할 수 있습니다",
   DowngradeBuilding: "다운 그레이드",
-  WarehouseInputRoutes: "입력 경로",
   WarehouseAddInput: "경로 추가",
   WarehouseTapToSelect: "고를 지도를 누르세요...",
   WarehouseFindOnMap: "🔍 지도에서 찾기",
@@ -1263,4 +1261,13 @@ export const KR = {
   FactoryMiningBanner:
     "This building is mining %{resource} directly from this tile",
   WarehouseSourceWeight: "Weight: %{weight}",
+  YAxisStartsFromZero: "Y Axis From 0",
+  YAxisStartsFromZeroDesc:
+    "All graphs' Y axis will always start from 0 instead of being auto adjusted",
+  OwnDLC: "Own %{number}x Expansion(s)",
+  GeneralServerSuccessMessage: "Your request has completely successfully",
+  GeneralServerErrorMessage: "Error from the server: %{error}",
+  WarehouseInputRoutes: "입력 경로",
+  WarehouseOutputRoutes: "Output Routes",
+  InputCapacity: "입력 용량",
 };

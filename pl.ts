@@ -184,7 +184,6 @@ export const PL = {
   PanelPosition: "Pozycja wyświetlacza",
   PanelPositionDesc:
     "Pokaż panel boczny z lewej, prawej lub automatycznie (zależne od zaznaczonego pola)",
-  InputCapacity: "Pojemność wejściowa",
   Output: "Produkuje",
   OutputCapacity: "Pojemność wyjściowa",
   ResourceDeposit: "Depozyt zasobów",
@@ -646,7 +645,6 @@ export const PL = {
   AcceptTradeFailRateLimit:
     "Możesz zaakceptować tylko jedną transakcję co %{time} sekund",
   DowngradeBuilding: "Obniżenie poziomu",
-  WarehouseInputRoutes: "Trasy wejściowe",
   WarehouseAddInput: "Dodaj trasę",
   WarehouseTapToSelect: "Stuknij w wybraną mapę...",
   WarehouseFindOnMap: "🔍 Znajdź na mapie",
@@ -1349,4 +1347,13 @@ export const PL = {
   FactoryMiningBanner:
     "This building is mining %{resource} directly from this tile",
   WarehouseSourceWeight: "Weight: %{weight}",
+  YAxisStartsFromZero: "Y Axis From 0",
+  YAxisStartsFromZeroDesc:
+    "All graphs' Y axis will always start from 0 instead of being auto adjusted",
+  OwnDLC: "Own %{number}x Expansion(s)",
+  GeneralServerSuccessMessage: "Your request has completely successfully",
+  GeneralServerErrorMessage: "Error from the server: %{error}",
+  WarehouseInputRoutes: "Trasy wejściowe",
+  WarehouseOutputRoutes: "Output Routes",
+  InputCapacity: "Pojemność wejściowa",
 };

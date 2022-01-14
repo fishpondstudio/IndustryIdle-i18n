@@ -179,7 +179,6 @@ export const ZH_TW = {
   PanelPosition: "面板位置",
   PanelPositionDesc:
     "將控制面板顯示在左側、右側或自動（取決於目前的選擇的區塊）",
-  InputCapacity: "消耗量",
   Output: "產出",
   OutputCapacity: "產出量",
   ResourceDeposit: "資源礦藏",
@@ -577,7 +576,6 @@ export const ZH_TW = {
   HideChatMentionsDesc: "訊息標記我的時候，不播放音效或彈出提醒",
   AcceptTradeFailRateLimit: "每隔 %{time} 秒才能接受一筆交易",
   DowngradeBuilding: "降級",
-  WarehouseInputRoutes: "進貨途徑",
   WarehouseAddInput: "新增進貨",
   WarehouseTapToSelect: "在地圖上選取…",
   WarehouseFindOnMap: "🔍 在地圖上搜尋",
@@ -1183,4 +1181,13 @@ export const ZH_TW = {
   FactoryMiningBanner:
     "This building is mining %{resource} directly from this tile",
   WarehouseSourceWeight: "Weight: %{weight}",
+  YAxisStartsFromZero: "Y Axis From 0",
+  YAxisStartsFromZeroDesc:
+    "All graphs' Y axis will always start from 0 instead of being auto adjusted",
+  OwnDLC: "Own %{number}x Expansion(s)",
+  GeneralServerSuccessMessage: "Your request has completely successfully",
+  GeneralServerErrorMessage: "Error from the server: %{error}",
+  WarehouseInputRoutes: "進貨途徑",
+  WarehouseOutputRoutes: "Output Routes",
+  InputCapacity: "消耗量",
 };

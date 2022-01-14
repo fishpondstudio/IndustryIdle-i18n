@@ -184,7 +184,6 @@ export const RU = {
   PanelPosition: "Положение панели",
   PanelPositionDesc:
     "Показать боковую панель слева, справа или автоматически (зависит от текущей выбранной плитки)",
-  InputCapacity: "Входная мощность",
   Output: "Вывод",
   OutputCapacity: "Выходная мощность",
   ResourceDeposit: "Месторождение ресурсов",
@@ -650,7 +649,6 @@ export const RU = {
   AcceptTradeFailRateLimit:
     "Вы можете акцептовать только одну сделку каждые %{time} секунд",
   DowngradeBuilding: "Понизить",
-  WarehouseInputRoutes: "Входные маршруты",
   WarehouseAddInput: "Добавить маршрут",
   WarehouseTapToSelect: "Нажмите на карту, чтобы выбрать...",
   WarehouseFindOnMap: "🔍 Найти на карте",
@@ -1349,6 +1347,16 @@ export const RU = {
   FactoryMiningDesc:
     "Фабрика может добывать ресурс непосредственно из плитки, если она потребляет такое же месторождение (БЕСПЛАТНАЯ ПОЛИТИКА)",
   FactoryMiningBanner:
+
     "Это здание добывает %{resource} прямо из этой плитки",
   WarehouseSourceWeight: "Вес: %{weight}",
+  YAxisStartsFromZero: "Y Axis From 0",
+  YAxisStartsFromZeroDesc:
+    "All graphs' Y axis will always start from 0 instead of being auto adjusted",
+  OwnDLC: "Own %{number}x Expansion(s)",
+  GeneralServerSuccessMessage: "Your request has completely successfully",
+  GeneralServerErrorMessage: "Error from the server: %{error}",
+  WarehouseInputRoutes: "Входные маршруты",
+  WarehouseOutputRoutes: "Output Routes",
+  InputCapacity: "Входная мощность",
 };
