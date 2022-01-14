@@ -183,7 +183,6 @@ export const DE = {
   PanelPosition: "Panel Position",
   PanelPositionDesc:
     "Anzeige des Seitenpaneels links, rechts oder automatisch (entsprechend des aktuell ausgewählten Feldes)",
-  InputCapacity: "benötigte Materialien",
   Output: "Produktion",
   OutputCapacity: "produzierte Materialien",
   ResourceDeposit: "Ressourcen Absatz",
@@ -654,7 +653,6 @@ export const DE = {
   AcceptTradeFailRateLimit:
     "Sie können nur einen Trade alle %{time} Sekunden akzeptieren",
   DowngradeBuilding: "Herabstufen",
-  WarehouseInputRoutes: "Eingaberouten",
   WarehouseAddInput: "Route hinzufügen",
   WarehouseTapToSelect: "Tippen Sie zur Auswahl auf die Karte...",
   WarehouseFindOnMap: "🔍 auf der Karte finden",
@@ -1357,4 +1355,7 @@ export const DE = {
   OwnDLC: "Own %{number}x Expansion(s)",
   GeneralServerSuccessMessage: "Your request has completely successfully",
   GeneralServerErrorMessage: "Error from the server: %{error}",
+  WarehouseInputRoutes: "Eingaberouten",
+  WarehouseOutputRoutes: "Output Routes",
+  InputCapacity: "benötigte Materialien",
 };

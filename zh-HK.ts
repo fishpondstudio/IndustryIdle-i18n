@@ -177,7 +177,6 @@ export const ZH_HK = {
   Input: "輸入",
   PanelPosition: "面板位",
   PanelPositionDesc: "將控制面板擺喺左右邊或者自動 (取決喺揀嘅位)",
-  InputCapacity: "輸入量",
   Output: "輸出",
   OutputCapacity: "輸出量",
   ResourceDeposit: "資源床",
@@ -563,7 +562,6 @@ export const ZH_HK = {
   HideChatMentionsDesc: "喺一個傾計訊息提到我嗰陣，收埋聲同彈出提醒",
   AcceptTradeFailRateLimit: "每%{time}秒先可以接受一單交易",
   DowngradeBuilding: "降級",
-  WarehouseInputRoutes: "輸入線",
   WarehouseAddInput: "加線",
   WarehouseTapToSelect: "喺地圖度揀...",
   WarehouseFindOnMap: "🔍 喺地圖度搵",
@@ -1170,4 +1168,7 @@ export const ZH_HK = {
   OwnDLC: "Own %{number}x Expansion(s)",
   GeneralServerSuccessMessage: "Your request has completely successfully",
   GeneralServerErrorMessage: "Error from the server: %{error}",
+  WarehouseInputRoutes: "輸入線",
+  WarehouseOutputRoutes: "Output Routes",
+  InputCapacity: "輸入量",
 };

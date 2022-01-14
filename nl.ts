@@ -183,7 +183,6 @@ export const NL = {
   PanelPosition: "Paneel Positie",
   PanelPositionDesc:
     "Toon zijpaneel aan de linkerkant, rechterkant of automatisch (afhankelijk van de geselecteerde tegel)",
-  InputCapacity: "Invoer Capaciteit",
   Output: "Productie",
   OutputCapacity: "Productie Capaciteit",
   ResourceDeposit: "Grondstoffen Bron",
@@ -647,7 +646,6 @@ export const NL = {
   AcceptTradeFailRateLimit:
     "You can only accept one trade every %{time} seconds",
   DowngradeBuilding: "Downgrade",
-  WarehouseInputRoutes: "Input Routes",
   WarehouseAddInput: "Add Route",
   WarehouseTapToSelect: "Tap on Map to Select...",
   WarehouseFindOnMap: "🔍 Find on Map",
@@ -1321,4 +1319,7 @@ export const NL = {
   OwnDLC: "Own %{number}x Expansion(s)",
   GeneralServerSuccessMessage: "Your request has completely successfully",
   GeneralServerErrorMessage: "Error from the server: %{error}",
+  WarehouseInputRoutes: "Input Routes",
+  WarehouseOutputRoutes: "Output Routes",
+  InputCapacity: "Invoer Capaciteit",
 };

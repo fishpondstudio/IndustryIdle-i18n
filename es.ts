@@ -184,7 +184,6 @@ export const ES = {
   PanelPosition: "Panel Position",
   PanelPositionDesc:
     "Mostrar panel lateral a la izquierda, derecha o automático (depende del mosaico seleccionado actualmente)",
-  InputCapacity: "Capacidad de entrada",
   Output: "Salida",
   OutputCapacity: "Capacidad de salida",
   ResourceDeposit: "Depósito de recursos",
@@ -646,7 +645,6 @@ export const ES = {
   AcceptTradeFailRateLimit:
     "Solo puedes aceptar un intercambio cada %{time} segundos",
   DowngradeBuilding: "Degradar",
-  WarehouseInputRoutes: "Input Routes",
   WarehouseAddInput: "Agregar Ruta",
   WarehouseTapToSelect: "Tap on Map to Select...",
   WarehouseFindOnMap: "🔍 Encontrar en el Mapa",
@@ -1322,4 +1320,7 @@ export const ES = {
   OwnDLC: "Own %{number}x Expansion(s)",
   GeneralServerSuccessMessage: "Your request has completely successfully",
   GeneralServerErrorMessage: "Error from the server: %{error}",
+  WarehouseInputRoutes: "Input Routes",
+  WarehouseOutputRoutes: "Output Routes",
+  InputCapacity: "Capacidad de entrada",
 };

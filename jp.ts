@@ -180,7 +180,6 @@ export const JP = {
   Input: "Input",
   PanelPosition: "パネルポジション",
   PanelPositionDesc: "サイドパネルを左、右、または自動で表示する",
-  InputCapacity: "Input Capacity",
   Output: "Output",
   OutputCapacity: "Output Capacity",
   ResourceDeposit: "Resource Deposit",
@@ -612,7 +611,6 @@ export const JP = {
     "チャットメッセージで私のことが話題になったとき、音声とトーストの通知を非表示にします",
   AcceptTradeFailRateLimit: "トレードは%{time}秒ごとに1回しか行えません",
   DowngradeBuilding: "ダウングレード",
-  WarehouseInputRoutes: "供給元の追加",
   WarehouseAddInput: "供給元の追加",
   WarehouseTapToSelect: "地図をタップして選択...",
   WarehouseFindOnMap: "🔍地図から探す",
@@ -1272,4 +1270,7 @@ export const JP = {
   OwnDLC: "Own %{number}x Expansion(s)",
   GeneralServerSuccessMessage: "Your request has completely successfully",
   GeneralServerErrorMessage: "Error from the server: %{error}",
+  WarehouseInputRoutes: "供給元の追加",
+  WarehouseOutputRoutes: "Output Routes",
+  InputCapacity: "Input Capacity",
 };

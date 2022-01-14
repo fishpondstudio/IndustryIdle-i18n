@@ -183,7 +183,6 @@ export const TR = {
   PanelPosition: "Panel Pozisyonu",
   PanelPositionDesc:
     "Yan paneli solda, sağda veya otomatik olarak göster (seçili döşemeye bağlıdır)",
-  InputCapacity: "Üretim Kapasitesi",
   Output: "Output",
   OutputCapacity: "Tüketim Kapasitesi",
   ResourceDeposit: "Kaynak Yatırımı",
@@ -634,7 +633,6 @@ export const TR = {
   AcceptTradeFailRateLimit:
     "You can only accept one trade every %{time} seconds",
   DowngradeBuilding: "Downgrade",
-  WarehouseInputRoutes: "Input Routes",
   WarehouseAddInput: "Add Route",
   WarehouseTapToSelect: "Tap on Map to Select...",
   WarehouseFindOnMap: "🔍 Find on Map",
@@ -1308,4 +1306,7 @@ export const TR = {
   OwnDLC: "Own %{number}x Expansion(s)",
   GeneralServerSuccessMessage: "Your request has completely successfully",
   GeneralServerErrorMessage: "Error from the server: %{error}",
+  WarehouseInputRoutes: "Input Routes",
+  WarehouseOutputRoutes: "Output Routes",
+  InputCapacity: "Üretim Kapasitesi",
 };
