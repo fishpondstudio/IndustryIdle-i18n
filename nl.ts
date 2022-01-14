@@ -1318,4 +1318,7 @@ export const NL = {
   YAxisStartsFromZero: "Y Axis From 0",
   YAxisStartsFromZeroDesc:
     "All graphs' Y axis will always start from 0 instead of being auto adjusted",
+  OwnDLC: "Own %{number}x Expansion(s)",
+  GeneralServerSuccessMessage: "Your request has completely successfully",
+  GeneralServerErrorMessage: "Error from the server: %{error}",
 };
