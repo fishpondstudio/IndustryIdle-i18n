@@ -1332,4 +1332,7 @@ export const VN = {
   WarehouseInputRoutes: "Các nguồn cung cấp",
   WarehouseOutputRoutes: "Output Routes",
   InputCapacity: "Dung lượng nguyên liệu",
+  MultipleSources: "Multiple Sources",
+  MultipleSourcesDesc:
+    "Allow the building to potentially transport resources from multiple sources during a production cycle",
 };

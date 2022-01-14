@@ -1320,4 +1320,7 @@ export const PT_BR = {
   WarehouseInputRoutes: "Input Routes",
   WarehouseOutputRoutes: "Output Routes",
   InputCapacity: "Capacidade de entrada",
+  MultipleSources: "Multiple Sources",
+  MultipleSourcesDesc:
+    "Allow the building to potentially transport resources from multiple sources during a production cycle",
 };

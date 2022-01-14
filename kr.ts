@@ -1270,4 +1270,7 @@ export const KR = {
   WarehouseInputRoutes: "입력 경로",
   WarehouseOutputRoutes: "Output Routes",
   InputCapacity: "입력 용량",
+  MultipleSources: "Multiple Sources",
+  MultipleSourcesDesc:
+    "Allow the building to potentially transport resources from multiple sources during a production cycle",
 };

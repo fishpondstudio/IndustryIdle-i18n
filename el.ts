@@ -1310,4 +1310,7 @@ export const EL = {
   WarehouseInputRoutes: "Input Routes",
   WarehouseOutputRoutes: "Output Routes",
   InputCapacity: "Input Capacity",
+  MultipleSources: "Multiple Sources",
+  MultipleSourcesDesc:
+    "Allow the building to potentially transport resources from multiple sources during a production cycle",
 };

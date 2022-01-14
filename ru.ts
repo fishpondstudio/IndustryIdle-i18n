@@ -1358,4 +1358,7 @@ export const RU = {
   WarehouseInputRoutes: "Входные маршруты",
   WarehouseOutputRoutes: "Output Routes",
   InputCapacity: "Входная мощность",
+  MultipleSources: "Multiple Sources",
+  MultipleSourcesDesc:
+    "Allow the building to potentially transport resources from multiple sources during a production cycle",
 };

@@ -1171,4 +1171,7 @@ export const ZH_HK = {
   WarehouseInputRoutes: "輸入線",
   WarehouseOutputRoutes: "Output Routes",
   InputCapacity: "輸入量",
+  MultipleSources: "Multiple Sources",
+  MultipleSourcesDesc:
+    "Allow the building to potentially transport resources from multiple sources during a production cycle",
 };

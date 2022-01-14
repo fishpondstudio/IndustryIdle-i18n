@@ -1184,4 +1184,7 @@ export const ZH_CN = {
   WarehouseInputRoutes: "运入路线",
   WarehouseOutputRoutes: "Output Routes",
   InputCapacity: "投入量",
+  MultipleSources: "Multiple Sources",
+  MultipleSourcesDesc:
+    "Allow the building to potentially transport resources from multiple sources during a production cycle",
 };

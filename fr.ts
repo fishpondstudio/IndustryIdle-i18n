@@ -1355,4 +1355,7 @@ export const FR = {
   WarehouseInputRoutes: "Routes d'entrée",
   WarehouseOutputRoutes: "Output Routes",
   InputCapacity: "Capacité d'entrée",
+  MultipleSources: "Multiple Sources",
+  MultipleSourcesDesc:
+    "Allow the building to potentially transport resources from multiple sources during a production cycle",
 };

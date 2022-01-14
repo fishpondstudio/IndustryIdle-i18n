@@ -1322,4 +1322,7 @@ export const NL = {
   WarehouseInputRoutes: "Input Routes",
   WarehouseOutputRoutes: "Output Routes",
   InputCapacity: "Invoer Capaciteit",
+  MultipleSources: "Multiple Sources",
+  MultipleSourcesDesc:
+    "Allow the building to potentially transport resources from multiple sources during a production cycle",
 };
