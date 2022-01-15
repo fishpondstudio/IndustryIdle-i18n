@@ -1346,9 +1346,7 @@ export const RU = {
   FactoryMining: "Добывающая фабрика",
   FactoryMiningDesc:
     "Фабрика может добывать ресурс непосредственно из плитки, если она потребляет такое же месторождение (БЕСПЛАТНАЯ ПОЛИТИКА)",
-  FactoryMiningBanner:
-
-    "Это здание добывает %{resource} прямо из этой плитки",
+  FactoryMiningBanner: "Это здание добывает %{resource} прямо из этой плитки",
   WarehouseSourceWeight: "Вес: %{weight}",
   YAxisStartsFromZero: "Y Axis From 0",
   YAxisStartsFromZeroDesc:
