@@ -1336,4 +1336,5 @@ export const TR = {
   GreenhouseDesc: "Produce a crop of your choice",
   WaterEntityLevelTooHighDesc:
     "Your building level is higher than the adjacent hydro dam level. Please upgrade your hydro dam",
+  AirLiquidizer: "Air Liquidizer",
 };
