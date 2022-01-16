@@ -1174,4 +1174,28 @@ export const ZH_HK = {
   MultipleSources: "Multiple Sources",
   MultipleSourcesDesc:
     "Allow the building to potentially transport resources from multiple sources during a production cycle",
+  Water: "Water",
+  KansasCity: "Kansas City",
+  Dam: "Hydro Dam",
+  DamDesc: "Hydro dam turns adjacent empty tiles into water tile",
+  Farmland: "Farmland",
+  FarmlandDesc: "Produce crops on top of a water tile",
+  Storage: "Storage",
+  Rice: "Rice",
+  Corn: "Corn",
+  Wheat: "Wheat",
+  Soybean: "Soybean",
+  Sugarcane: "Sugarcane",
+  Vegetable: "Vegetable",
+  FarmlandProduce: "Produce",
+  FarmlandOfflineFarming: "Offline Farming",
+  FarmlandOfflineFarmingDesc:
+    "Farmland built on top of natural water source produce while you are offline. Subject to offline earning time and affected by Swiss upgrades",
+  FarmlandProductionDesc:
+    "💡 Farmlands only work 5 seconds out of every 10 seconds - all cycles are aligned",
+  WaterPump: "Water Pump",
+  Greenhouse: "Greenhouse",
+  GreenhouseDesc: "Produce a crop of your choice",
+  WaterEntityLevelTooHighDesc:
+    "Your building level is higher than the adjacent hydro dam level. Please upgrade your hydro dam",
 };
