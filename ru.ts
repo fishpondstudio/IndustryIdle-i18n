@@ -693,7 +693,7 @@ export const RU = {
   PlayerTradeAsk: "Купить",
   ClaimTradeSuccessV2:
     "Ваша сделка была успешно завершена: %{cashOrResource}",
-  AcceptTradeSuccessV2: "Эта сделка была завершена вами: %{cashOrResource}",
+  AcceptTradeSuccessV2: "Эта сделка была совершена вами: %{cashOrResource}",
   ResourceExplorer: "Исследователь ресурсов",
   ResourceExplorerDesc: "Позволяет добывать ресурсы на пустой плитке карты",
   ResourceExplorerDescLong:
