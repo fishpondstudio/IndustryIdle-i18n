@@ -214,7 +214,7 @@ export const RU = {
   MaxAutoSellConcurrencyReached:
     "Вы достигли максимального количества автоматических продаж, отключите другую автоматическую продажу, чтобы включить эту",
   WallStreet: "Уолл-стрит",
-  MarketCap: "Рыночная стоимость",
+  MarketCap: "Рыночная капитализация",
   MarketCapDesc: "Общая рыночная стоимость вашей компании",
   BuildingValuation: "Оценка стоимости зданий",
   BuildingValuationDesc:
