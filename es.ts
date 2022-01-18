@@ -1356,4 +1356,8 @@ export const ES = {
   OfflineProduction: "Offline Production",
   OfflineProductionDesc:
     "Transporting capacitors to this building will allow it to run when you are offline",
+  Moderator: "Moderator",
+  FlourMill: "Flour Mill",
+  Flour: "Flour",
+  FlourMillAdjustMix: "Adjust Flour Mix",
 };
