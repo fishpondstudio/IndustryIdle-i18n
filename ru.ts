@@ -1385,4 +1385,13 @@ export const RU = {
   WaterEntityLevelTooHighDesc:
     "Уровень вашего здания выше, чем уровень соседней гидроплотины. Пожалуйста, повысьте уровень вашей гидроплотины",
   AirLiquidizer: "Атмосферный конденсатор",
+  CapacitorFactory: "Фабрика конденсаторов",
+  Capacitor: "Конденсатор",
+  OfflineProduction: "Оффлайн продукция",
+  OfflineProductionDesc:
+    "Транспортировка конденсаторов в это здание позволит ему работать, когда вы оффлайн",
+  Moderator: "Модератор",
+  FlourMill: "Мельница",
+  Flour: "Мука",
+  FlourMillAdjustMix: "Настройка смеси муки",
 };

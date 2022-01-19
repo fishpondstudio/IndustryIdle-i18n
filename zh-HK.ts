@@ -1199,4 +1199,9 @@ export const ZH_HK = {
   WaterEntityLevelTooHighDesc:
     "Your building level is higher than the adjacent hydro dam level. Please upgrade your hydro dam",
   AirLiquidizer: "Air Liquidizer",
+  CapacitorFactory: "Capacitor Factory",
+  Capacitor: "Capacitor",
+  OfflineProduction: "Offline Production",
+  OfflineProductionDesc:
+    "Transporting capacitors to this building will allow it to run when you are offline",
 };
