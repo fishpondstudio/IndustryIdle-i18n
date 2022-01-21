@@ -1251,4 +1251,13 @@ export const ZH_TW = {
   Cookie: "Cookie",
   Butter: "Butter",
   UnlockAtLevel: "Unlock At Level %{level}",
+  FastFoodChain: "Fast Food Chain",
+  Burger: "Burger",
+  Sandwich: "Sandwich",
+  StandbyMode: "Standby Mode",
+  StandbyModeDesc:
+    "The game's simulation will continue to run in the background but it will not render any graphics. This should significant reduce GPU usage and moderately reduce CPU usage as well",
+  StandbyModeOn: "Standby Mode On",
+  StandbyModeOnDesc:
+    "The game is running in the background. Tap anywhere to exit standby mode",
 };
