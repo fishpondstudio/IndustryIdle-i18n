@@ -1458,4 +1458,6 @@ export const RU = {
   StreamingAcceptStream: "Accept",
   StreamingRejectStream: "Reject",
   StreamingStopStreamDesc: "Stop Streaming For This Viewer",
+  StreamingConnectionFailed:
+    "Failed to establish a peer connection - it is very likely your network doesn't support P2P connection",
 };

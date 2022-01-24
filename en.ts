@@ -1406,7 +1406,7 @@ export const EN = {
   StreamingPlayerRejected: "%{player} has declined your stream request",
   StreamingPlayerRequested:
     "%{player} has requested to watch your stream, go to Headquarter to accept or reject",
-  StreamingSettings: "Steaming Settings",
+  StreamingSettings: "Streaming Settings",
   StreamingPreview: "Preview",
   StreamingAvailableStreams: "Available Streams",
   StreamingAudience: "Viewers",
@@ -1414,4 +1414,6 @@ export const EN = {
   StreamingAcceptStream: "Accept",
   StreamingRejectStream: "Reject",
   StreamingStopStreamDesc: "Stop Streaming For This Viewer",
+  StreamingConnectionFailed:
+    "Failed to establish a peer connection - it is very likely your network doesn't support P2P connection",
 };
