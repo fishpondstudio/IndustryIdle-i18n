@@ -1351,7 +1351,7 @@ export const RU = {
   YAxisStartsFromZero: "Оси Y от 0",
   YAxisStartsFromZeroDesc:
     "Оси Y всех графов будут всегда начинаться от 0 вместо авто-центровки",
-  OwnDLC: "Имеет %{number}x расширение(-нии)",
+  OwnDLC: "Имеет %{number}x расширение(-ий)",
   GeneralServerSuccessMessage: "Ваш запрос был успешно завершён",
   GeneralServerErrorMessage: "Ошибка от сервера: %{error}",
   WarehouseInputRoutes: "Входные маршруты",
@@ -1427,4 +1427,35 @@ export const RU = {
   StandbyModeOn: "Режим ожидания включён",
   StandbyModeOnDesc:
     "Игра работает в фоновом режиме. Нажмите в любом месте, чтобы выйти из режима ожидания",
+  PigFarm: "Ферма свиней",
+  Pork: "Свинина",
+  SausageFactory: "Сосисочный завод",
+  Sausage: "Сосиска",
+  Hotdog: "Хот-дог",
+  BatchOperation: "Для каждого %{name}",
+  BatchUpgradeTo: "Улучшить до",
+  BatchOperationDesc:
+    "Это повлияет на %{number} здание(-ий). Вы хотите продолжить?",
+  BatchOperationResult:
+    "Ваша пакетная операция завершена для %{success} здания(-ий).",
+  StreamingMakeMeDiscoverable: "Сделать меня доступным для обнаружения",
+  StreamingMakeMeDiscoverableDesc:
+    "Разрешить другим игрокам наблюдать за вашим игровым процессом. Соединение одноранговое, транслируется только ваш игровой процесс. Микрофон или веб-камера не будут доступны",
+  StreamAutoApprove: "Публичная трансляция",
+  StreamAutoApproveDesc:
+    "Разрешить игрокам присоединяться к вашей трансляции, от вас потребуется подтверждать каждый индивидуальный запрос.",
+  StreamingWatch: "Смотреть",
+  StreamingStop: "Остановиться",
+  StreamingPlayerDisconnected: "%{player} отключился от трансляции",
+  StreamingPlayerRejected: "%{player} отклонил ваш запрос на допуск к трансляции",
+  StreamingPlayerRequested:
+    "%{player} запросил просмотр вашей трансляции, перейдите в штаб-квартиру, чтобы принять или отклонить",
+  StreamingSettings: "Настройки трансляции",
+  StreamingPreview: "Предварительный просмотр",
+  StreamingAvailableStreams: "Доступные трансляции",
+  StreamingAudience: "Зрители",
+  StreamingStopStream: "Остановить трансляцию для этого зрителя",
+  StreamingAcceptStream: "Принять",
+  StreamingRejectStream: "Отклонить",
+  StreamingStopStreamDesc: "Остановить трансляцию для этого зрителя",
 };
