@@ -1406,7 +1406,7 @@ export const EN = {
   StreamingPlayerRejected: "%{player} has declined your stream request",
   StreamingPlayerRequested:
     "%{player} has requested to watch your stream, go to Headquarter to accept or reject",
-  StreamingSettings: "Steaming Settings",
+  StreamingSettings: "Streaming Settings",
   StreamingPreview: "Preview",
   StreamingAvailableStreams: "Available Streams",
   StreamingAudience: "Viewers",
