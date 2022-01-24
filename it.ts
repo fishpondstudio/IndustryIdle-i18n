@@ -1384,7 +1384,8 @@ export const IT = {
   SausageFactory: "Sausage Factory",
   Sausage: "Sausage",
   Hotdog: "Hotdog",
-  BatchUpgradeToLevelX: "Upgrade All %{name} to Level %{level}",
+  BatchOperation: "For Each %{name}",
+  BatchUpgradeTo: "Upgrade To",
   BatchOperationDesc:
     "This will apply to %{number} buildings(s). Do you want to continue?",
   BatchOperationResult:
@@ -1398,9 +1399,15 @@ export const IT = {
   StreamingWatch: "Watch",
   StreamingStop: "Stop",
   StreamingPlayerDisconnected: "%{player} has disconnected from the stream",
+  StreamingPlayerRejected: "%{player} has declined your stream request",
+  StreamingPlayerRequested:
+    "%{player} has requested to watch your stream, go to Headquarter to accept or reject",
   StreamingSettings: "Steaming Settings",
   StreamingPreview: "Preview",
   StreamingAvailableStreams: "Available Streams",
   StreamingAudience: "Viewers",
   StreamingStopStream: "Stop Streaming For This Viewer",
+  StreamingAcceptStream: "Accept",
+  StreamingRejectStream: "Reject",
+  StreamingStopStreamDesc: "Stop Streaming For This Viewer",
 };
