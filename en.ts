@@ -1383,4 +1383,37 @@ export const EN = {
   StandbyModeOn: "Standby Mode On",
   StandbyModeOnDesc:
     "The game is running in the background. Tap anywhere to exit standby mode",
+  PigFarm: "Pig Farm",
+  Pork: "Pork",
+  SausageFactory: "Sausage Factory",
+  Sausage: "Sausage",
+  Hotdog: "Hotdog",
+  BatchOperation: "For Each %{name}",
+  BatchUpgradeTo: "Upgrade To",
+  BatchOperationDesc:
+    "This will apply to %{number} buildings(s). Estimated cost is $%{cost}. Do you want to continue?",
+  BatchOperationResult:
+    "Batch operation result: success: %{success}, fail: %{fail}, total cost: $%{cost}",
+  StreamingMakeMeDiscoverable: "Make Me Discoverable",
+  StreamingMakeMeDiscoverableDesc:
+    "Allow other players to watch your gameplay. The connection is peer to peer and only your gameplay is streamed. Microphone or webcam will not be accessed",
+  StreamAutoApprove: "Public Stream",
+  StreamAutoApproveDesc:
+    "Allows players to join your stream with needing you to approve individual request",
+  StreamingWatch: "Watch",
+  StreamingStop: "Stop",
+  StreamingPlayerDisconnected: "%{player} has disconnected from the stream",
+  StreamingPlayerRejected: "%{player} has declined your stream request",
+  StreamingPlayerRequested:
+    "%{player} has requested to watch your stream, go to Headquarter to accept or reject",
+  StreamingSettings: "Streaming Settings",
+  StreamingPreview: "Preview",
+  StreamingAvailableStreams: "Available Streams",
+  StreamingAudience: "Viewers",
+  StreamingStopStream: "Stop",
+  StreamingAcceptStream: "Accept",
+  StreamingRejectStream: "Reject",
+  StreamingStopStreamDesc: "Stop Streaming For This Viewer",
+  StreamingConnectionFailed:
+    "Failed to establish a peer connection - it is very likely your network doesn't support P2P connection",
 };

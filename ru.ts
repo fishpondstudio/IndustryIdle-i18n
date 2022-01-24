@@ -1427,4 +1427,37 @@ export const RU = {
   StandbyModeOn: "Режим ожидания Вкл.",
   StandbyModeOnDesc:
     "Игра работает в фоновом режиме. Нажмите в любом месте, чтобы выйти из режима ожидания",
+  PigFarm: "Свиноферма",
+  Pork: "Свинина",
+  SausageFactory: "Колбасная фабрика",
+  Sausage: "Колбаса",
+  Hotdog: "Хотдог",
+  BatchOperation: "для каждого %{name}",
+  BatchUpgradeTo: "Модернизировать до",
+  BatchOperationDesc:
+    "Это будет применено к %{number} зданию(-ям). Вы хотите продолжить?",
+  BatchOperationResult:
+    "Операция была выпонена успешно для %{success} здания(-ий)",
+  StreamingMakeMeDiscoverable: "Сделать меня видимым",
+  StreamingMakeMeDiscoverableDesc:
+    "Позволяет другим игрокам наблюдать за вашим игровым процессом. Соединение является P2P и транслируется только ваш игровой процесс. Доступ к микрофону или веб-камере не предоставляется",
+  StreamAutoApprove: "Публичная трансляция",
+  StreamAutoApproveDesc:
+    "Позволяет игрокам присоединяться к вашему потоку без необходимости одобрения индивидуального запроса",
+  StreamingWatch: "Смотреть",
+  StreamingStop: "Остановить",
+  StreamingPlayerDisconnected: "%{player} был отсоединён от трансляции",
+  StreamingPlayerRejected: "%{player} отклонил ваш запрос на трансляцию",
+  StreamingPlayerRequested:
+    "%{player} запросил просмотр вашей трансляции, перейдите в центральный офис, чтобы принять или отклонить запрос",
+  StreamingSettings: "Настройки трансляции",
+  StreamingPreview: "Превью",
+  StreamingAvailableStreams: "Доступные трансляции",
+  StreamingAudience: "Зрители",
+  StreamingStopStream: "Остановить",
+  StreamingAcceptStream: "Принять",
+  StreamingRejectStream: "Отклонить",
+  StreamingStopStreamDesc: "Остановить трансляцию для этого зрителя",
+  StreamingConnectionFailed:
+    "Не удалось установить соединение - вполне вероятно, что ваша сеть не поддерживает P2P-соединение",
 };
