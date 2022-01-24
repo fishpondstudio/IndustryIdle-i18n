@@ -1426,4 +1426,28 @@ export const PL = {
   StandbyModeOn: "Standby Mode On",
   StandbyModeOnDesc:
     "The game is running in the background. Tap anywhere to exit standby mode",
+  PigFarm: "Pig Farm",
+  Pork: "Pork",
+  SausageFactory: "Sausage Factory",
+  Sausage: "Sausage",
+  Hotdog: "Hotdog",
+  BatchUpgradeToLevelX: "Upgrade All %{name} to Level %{level}",
+  BatchOperationDesc:
+    "This will apply to %{number} buildings(s). Do you want to continue?",
+  BatchOperationResult:
+    "Your batch operation has completed for %{success} buildings(s)",
+  StreamingMakeMeDiscoverable: "Make Me Discoverable",
+  StreamingMakeMeDiscoverableDesc:
+    "Allow other players to watch your gameplay. The connection is peer to peer and only your gameplay is streamed. Microphone or webcam will not be accessed",
+  StreamAutoApprove: "Public Stream",
+  StreamAutoApproveDesc:
+    "Allows players to join your stream with needing you to approve individual request",
+  StreamingWatch: "Watch",
+  StreamingStop: "Stop",
+  StreamingPlayerDisconnected: "%{player} has disconnected from the stream",
+  StreamingSettings: "Steaming Settings",
+  StreamingPreview: "Preview",
+  StreamingAvailableStreams: "Available Streams",
+  StreamingAudience: "Viewers",
+  StreamingStopStream: "Stop Streaming For This Viewer",
 };
