@@ -1432,7 +1432,7 @@ export const RU = {
   SausageFactory: "Колбасная фабрика",
   Sausage: "Колбаса",
   Hotdog: "Хотдог",
-  BatchOperation: "для каждого %{name}",
+  BatchOperation: "Для каждого %{name}",
   BatchUpgradeTo: "Модернизировать до",
   BatchOperationDesc:
     "Это будет применено к %{number} зданию(-ям). Примерная стоимость составляет $%{cost}. Вы хотите продолжить?",
