@@ -1413,4 +1413,14 @@ export const SK = {
   StreamingStopStreamDesc: "Stop Streaming For This Viewer",
   StreamingConnectionFailed:
     "Failed to establish a peer connection - it is very likely your network doesn't support P2P connection",
+  Pizza: "Pizza",
+  StreamingStartRecord: "Start Recording",
+  StreamingRecordCamera: "Record A Directed's Cut",
+  StreamingRecordCameraDesc:
+    "Record a 10s pre-directed sequence - the camera will set to max zoom and slowly zoom out",
+  StreamingStopRecord: "Stop Recording",
+  StreamingRecordingReady: "Recording Is Ready",
+  StreamingRecordingReadyDesc:
+    "You can save your recording file and play it with a compatible video player",
+  StreamingRecordingSave: "Save As",
 };
