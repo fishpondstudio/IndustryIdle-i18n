@@ -976,6 +976,7 @@ export const ZH_CN = {
   BattleshipFactory: "战列舰工厂",
   ResourceMovementHide: "始终隐藏",
   ResourceMovementShow: "始终显示",
+  ResourceMovementViewport: "In Viewport",
   ResourceMovementHighlight: "高亮显示",
   ResourceMovementLine: "只显示连线",
   ResourceMovement: "资源移动",
@@ -1278,7 +1279,6 @@ export const ZH_CN = {
   StreamingPlayerRequested:
     "%{player} has requested to watch your stream, go to Headquarter to accept or reject",
   StreamingSettings: "Steaming Settings",
-  StreamingPreview: "Preview",
   StreamingAvailableStreams: "Available Streams",
   StreamingAudience: "Viewers",
   StreamingStopStream: "Stop Streaming For This Viewer",

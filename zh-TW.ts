@@ -983,6 +983,7 @@ export const ZH_TW = {
   BattleshipFactory: "戰艦造船廠",
   ResourceMovementHide: "永遠隱藏",
   ResourceMovementShow: "永遠顯示",
+  ResourceMovementViewport: "In Viewport",
   ResourceMovementHighlight: "高亮顯示",
   ResourceMovementLine: "只有線段",
   ResourceMovement: "資源移動",
@@ -1284,7 +1285,6 @@ export const ZH_TW = {
   StreamingPlayerRequested:
     "%{player} has requested to watch your stream, go to Headquarter to accept or reject",
   StreamingSettings: "Steaming Settings",
-  StreamingPreview: "Preview",
   StreamingAvailableStreams: "Available Streams",
   StreamingAudience: "Viewers",
   StreamingStopStream: "Stop Streaming For This Viewer",

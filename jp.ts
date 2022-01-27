@@ -1055,6 +1055,7 @@ export const JP = {
   BattleshipFactory: "戦艦工場",
   ResourceMovementHide: "すべて非表示",
   ResourceMovementShow: "すべて表示",
+  ResourceMovementViewport: "In Viewport",
   ResourceMovementHighlight: "ハイライトのみ",
   ResourceMovementLine: "線だけ表示",
   ResourceMovement: "資源移動の表示",
@@ -1367,7 +1368,6 @@ export const JP = {
   StreamingPlayerRequested:
     "%{player} has requested to watch your stream, go to Headquarter to accept or reject",
   StreamingSettings: "Steaming Settings",
-  StreamingPreview: "Preview",
   StreamingAvailableStreams: "Available Streams",
   StreamingAudience: "Viewers",
   StreamingStopStream: "Stop Streaming For This Viewer",

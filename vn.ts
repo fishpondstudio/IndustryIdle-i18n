@@ -1110,6 +1110,7 @@ export const VN = {
   BattleshipFactory: "Xưởng đóng pháo hạm",
   ResourceMovementHide: "Luôn giấu đi",
   ResourceMovementShow: "Luôn hiển thị",
+  ResourceMovementViewport: "In Viewport",
   ResourceMovementHighlight: "Chỉ hiện khi được chọn",
   ResourceMovementLine: "Chỉ hiện đường kẻ",
   ResourceMovement: "Tuyến di chuyển tài nguyên",
@@ -1426,7 +1427,6 @@ export const VN = {
   StreamingPlayerRequested:
     "%{player} has requested to watch your stream, go to Headquarter to accept or reject",
   StreamingSettings: "Steaming Settings",
-  StreamingPreview: "Preview",
   StreamingAvailableStreams: "Available Streams",
   StreamingAudience: "Viewers",
   StreamingStopStream: "Stop Streaming For This Viewer",

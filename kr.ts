@@ -1052,6 +1052,7 @@ export const KR = {
   BattleshipFactory: "전함 공장",
   ResourceMovementHide: "항상 숨기기",
   ResourceMovementShow: "항상 표시",
+  ResourceMovementViewport: "In Viewport",
   ResourceMovementHighlight: "강조 표시",
   ResourceMovementLine: "줄만 보이기",
   ResourceMovement: "자원 이동",
@@ -1364,7 +1365,6 @@ export const KR = {
   StreamingPlayerRequested:
     "%{player} has requested to watch your stream, go to Headquarter to accept or reject",
   StreamingSettings: "Steaming Settings",
-  StreamingPreview: "Preview",
   StreamingAvailableStreams: "Available Streams",
   StreamingAudience: "Viewers",
   StreamingStopStream: "Stop Streaming For This Viewer",

@@ -1135,6 +1135,7 @@ export const DE = {
   BattleshipFactory: "Schlachtschifffabrik",
   ResourceMovementHide: "Immer ausblenden",
   ResourceMovementShow: "Immer anzeigen",
+  ResourceMovementViewport: "In Viewport",
   ResourceMovementHighlight: "On Highlight",
   ResourceMovementLine: "Line Only",
   ResourceMovement: "Ressourcenbewegung",
@@ -1452,7 +1453,6 @@ export const DE = {
   StreamingPlayerRequested:
     "%{player} has requested to watch your stream, go to Headquarter to accept or reject",
   StreamingSettings: "Steaming Settings",
-  StreamingPreview: "Preview",
   StreamingAvailableStreams: "Available Streams",
   StreamingAudience: "Viewers",
   StreamingStopStream: "Stop Streaming For This Viewer",
