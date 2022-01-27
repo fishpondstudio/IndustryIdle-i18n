@@ -1469,4 +1469,9 @@ export const PL = {
   StreamingRecordingReadyDesc:
     "You can save your recording file and play it with a compatible video player",
   StreamingRecordingSave: "Save As",
+  Lantern: "Lantern",
+  LunarNewYear22: "Year of The Tiger",
+  LunarNewYear22Desc:
+    "All buildings that consume paper will use Lantern instead and will have 2x capacity. Paper mills become Paper Academy and produce culture instead",
+  PaperAcademy: "Paper Academy",
 };
