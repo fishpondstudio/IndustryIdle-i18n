@@ -1131,6 +1131,7 @@ export const RU = {
   BattleshipFactory: "Завод линкоров",
   ResourceMovementHide: "Всегда скрывать",
   ResourceMovementShow: "Всегда отображать",
+  ResourceMovementViewport: "In Viewport",
   ResourceMovementHighlight: "При выделении",
   ResourceMovementLine: "Только линии",
   ResourceMovement: "Движение ресурсов",
@@ -1451,7 +1452,6 @@ export const RU = {
   StreamingPlayerRequested:
     "%{player} has requested to watch your stream, go to Headquarter to accept or reject",
   StreamingSettings: "Steaming Settings",
-  StreamingPreview: "Preview",
   StreamingAvailableStreams: "Available Streams",
   StreamingAudience: "Viewers",
   StreamingStopStream: "Stop Streaming For This Viewer",

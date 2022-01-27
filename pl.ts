@@ -1130,6 +1130,7 @@ export const PL = {
   BattleshipFactory: "Fabryka pancerników",
   ResourceMovementHide: "Zawsze ukrywać",
   ResourceMovementShow: "Zawsze pokazuj",
+  ResourceMovementViewport: "In Viewport",
   ResourceMovementHighlight: "Na wyróżnienie",
   ResourceMovementLine: "Tylko linia",
   ResourceMovement: "Ruch surowców",
@@ -1450,7 +1451,6 @@ export const PL = {
   StreamingPlayerRequested:
     "%{player} has requested to watch your stream, go to Headquarter to accept or reject",
   StreamingSettings: "Steaming Settings",
-  StreamingPreview: "Preview",
   StreamingAvailableStreams: "Available Streams",
   StreamingAudience: "Viewers",
   StreamingStopStream: "Stop Streaming For This Viewer",
