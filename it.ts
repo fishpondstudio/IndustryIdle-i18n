@@ -1429,4 +1429,6 @@ export const IT = {
   BatchModeCluster: "Cluster",
   BatchUpgradeToLevelX: "To Level %{level}",
   ApplyToBatch: "Apply To %{batch}",
+  BatteryRecycler: "Battery Recycler",
+  BatteryShell: "Battery Shell",
 };
