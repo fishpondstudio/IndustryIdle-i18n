@@ -271,9 +271,6 @@ export const VN = {
   Settings: "Tùy chọn",
   Sound: "Hiệu ứng âm thanh",
   SoundDesc: "Bật hiệu ứng âm thanh cho nhấp chuột hay báo lỗi",
-  AutoHighlight: "Tự động đánh dấu",
-  AutoHighlightDesc:
-    "Tự động đánh dấu các công trình cùng loại khi bạn chọn một công trình",
   MusicDesc:
     "Bật nhạc: It's Not Over 'Til The Bossa Nova bởi Shane Ivers (https://www.silvermansound.com)",
   Credits: "Công trạng",
@@ -291,7 +288,6 @@ export const VN = {
   TurnOffProduction: "Ngừng hoạt động",
   TurnOffProductionDesc:
     "Ngưng sản xuất. Công trình cũng sẽ không vận chuyển tài nguyên và không sử dụng điện năng",
-  ApplyToAll: "Áp dụng cho tất cả các công trình %{building}",
   FuelCostNumber: "%{cost} %{fuel}",
   Unlimited: "Không giới hạn",
   Transport: "Vận chuyển",
@@ -1408,8 +1404,6 @@ export const VN = {
   SausageFactory: "Sausage Factory",
   Sausage: "Sausage",
   Hotdog: "Hotdog",
-  BatchOperation: "For Each %{name}",
-  BatchUpgradeTo: "Upgrade To",
   BatchOperationDesc:
     "This will apply to %{number} buildings(s). Do you want to continue?",
   BatchOperationResult:
@@ -1450,4 +1444,13 @@ export const VN = {
   LunarNewYear22Desc:
     "All buildings that consume paper will use Lantern instead and will have 2x capacity. Paper mills become Paper Academy and produce culture instead",
   PaperAcademy: "Paper Academy",
+  FriedRice: "Fried Rice",
+  ApplyToCluster: "Apply To The Cluster",
+  Highlight: "🔍 Highlight",
+  BatchMode: "Batch Mode",
+  BatchModeAll: "All",
+  BatchModeAdjacent: "Adjacent",
+  BatchModeCluster: "Cluster",
+  BatchUpgradeToLevelX: "To Level %{level}",
+  ApplyToBatch: "Apply To %{batch}",
 };

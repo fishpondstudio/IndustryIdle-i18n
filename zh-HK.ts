@@ -258,8 +258,6 @@ export const ZH_HK = {
   Settings: "設定",
   Sound: "音效",
   SoundDesc: "打開音效，如撳掣或者出錯嘅聲",
-  AutoHighlight: "自動突顯",
-  AutoHighlightDesc: "喺您揀建築嗰陣，會自動突顯一樣嘅建築",
   MusicDesc:
     "打開音樂: Shane Ivers (https://www.silvermansound.com)嘅《It's Not Over 'Til The Bossa Nova》",
   Credits: "鳴謝",
@@ -274,7 +272,6 @@ export const ZH_HK = {
   NBuildingsAreHighlighted: "%{n}個建築物被突顯",
   TurnOffProduction: "閂",
   TurnOffProductionDesc: "閂建築嘅生產。佢唔會再送資源同用電",
-  ApplyToAll: "套用喺全部%{building}",
   FuelCostNumber: "%{cost} %{fuel}",
   Unlimited: "無限",
   Transport: "運送",
@@ -1247,8 +1244,6 @@ export const ZH_HK = {
   SausageFactory: "Sausage Factory",
   Sausage: "Sausage",
   Hotdog: "Hotdog",
-  BatchOperation: "For Each %{name}",
-  BatchUpgradeTo: "Upgrade To",
   BatchOperationDesc:
     "This will apply to %{number} buildings(s). Do you want to continue?",
   BatchOperationResult:
@@ -1289,4 +1284,13 @@ export const ZH_HK = {
   LunarNewYear22Desc:
     "All buildings that consume paper will use Lantern instead and will have 2x capacity. Paper mills become Paper Academy and produce culture instead",
   PaperAcademy: "Paper Academy",
+  FriedRice: "Fried Rice",
+  ApplyToCluster: "Apply To The Cluster",
+  Highlight: "🔍 Highlight",
+  BatchMode: "Batch Mode",
+  BatchModeAll: "All",
+  BatchModeAdjacent: "Adjacent",
+  BatchModeCluster: "Cluster",
+  BatchUpgradeToLevelX: "To Level %{level}",
+  ApplyToBatch: "Apply To %{batch}",
 };

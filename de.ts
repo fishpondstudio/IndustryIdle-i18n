@@ -271,9 +271,6 @@ export const DE = {
   Settings: "Einstellungen",
   Sound: "Sound-Effekt",
   SoundDesc: "Aktivieren Sie Soundeffekte wie Klick- oder Fehlersound",
-  AutoHighlight: "Automatische Markierung",
-  AutoHighlightDesc:
-    "Markieren Sie automatisch Gebäude desselben Typs, wenn Sie ein Gebäude auswählen",
   MusicDesc:
     "Musik einschalten: It's Not Over 'Til The Bossa Nova by Shane Ivers (https://www.silvermansound.com)",
   Credits: "Credits",
@@ -291,7 +288,6 @@ export const DE = {
   TurnOffProduction: "Stilllegen",
   TurnOffProductionDesc:
     "Schalten Sie die Produktion des Gebäudes aus. Das Gebäude wird keine Ressourcen mehr transportieren und keinen Strom verbrauchen",
-  ApplyToAll: "Auf alle anwenden %{building}",
   FuelCostNumber: "%{cost} %{fuel}",
   Unlimited: "unbegrenzt",
   Transport: "transport",
@@ -1434,8 +1430,6 @@ export const DE = {
   SausageFactory: "Sausage Factory",
   Sausage: "Sausage",
   Hotdog: "Hotdog",
-  BatchOperation: "For Each %{name}",
-  BatchUpgradeTo: "Upgrade To",
   BatchOperationDesc:
     "This will apply to %{number} buildings(s). Do you want to continue?",
   BatchOperationResult:
@@ -1476,4 +1470,13 @@ export const DE = {
   LunarNewYear22Desc:
     "All buildings that consume paper will use Lantern instead and will have 2x capacity. Paper mills become Paper Academy and produce culture instead",
   PaperAcademy: "Paper Academy",
+  FriedRice: "Fried Rice",
+  ApplyToCluster: "Apply To The Cluster",
+  Highlight: "🔍 Highlight",
+  BatchMode: "Batch Mode",
+  BatchModeAll: "All",
+  BatchModeAdjacent: "Adjacent",
+  BatchModeCluster: "Cluster",
+  BatchUpgradeToLevelX: "To Level %{level}",
+  ApplyToBatch: "Apply To %{batch}",
 };

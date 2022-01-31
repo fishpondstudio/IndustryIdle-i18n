@@ -272,9 +272,6 @@ export const EN = {
   Settings: "Settings",
   Sound: "Sound Effect",
   SoundDesc: "Turn on sound effect like click or error sound",
-  AutoHighlight: "Auto Highlight",
-  AutoHighlightDesc:
-    "Automatically highlight buildings of the same type when you select a building",
   MusicDesc:
     "Turn on music: It's Not Over 'Til The Bossa Nova by Shane Ivers (https://www.silvermansound.com)",
   Credits: "Credits",
@@ -291,7 +288,6 @@ export const EN = {
   TurnOffProduction: "Shutdown",
   TurnOffProductionDesc:
     "Turn off the building's production. The building will no longer transport resources and use power",
-  ApplyToAll: "Apply To All %{building}",
   FuelCostNumber: "%{cost} %{fuel}",
   Unlimited: "Unlimited",
   Transport: "Transport",
@@ -1389,8 +1385,6 @@ export const EN = {
   SausageFactory: "Sausage Factory",
   Sausage: "Sausage",
   Hotdog: "Hotdog",
-  BatchOperation: "For Each %{name}",
-  BatchUpgradeTo: "Upgrade To",
   BatchOperationDesc:
     "This will apply to %{number} buildings(s). Estimated cost is $%{cost}. Do you want to continue?",
   BatchOperationResult:
@@ -1400,7 +1394,7 @@ export const EN = {
     "Allow other players to watch your gameplay. The connection is peer to peer and only your gameplay is streamed. Microphone or webcam will not be accessed",
   StreamAutoApprove: "Public Stream",
   StreamAutoApproveDesc:
-    "Allows players to join your stream with needing you to approve individual request",
+    "Allows players to join your stream without needing you to approve individual request",
   StreamingWatch: "Watch",
   StreamingStop: "Stop",
   StreamingPlayerDisconnected: "%{player} has disconnected from the stream",
@@ -1431,4 +1425,13 @@ export const EN = {
   LunarNewYear22Desc:
     "All buildings that consume paper will use Lantern instead and will have 2x capacity. Paper mills become Paper Academy and produce culture instead",
   PaperAcademy: "Paper Academy",
+  FriedRice: "Fried Rice",
+  ApplyToCluster: "Apply To The Cluster",
+  Highlight: "🔍 Highlight",
+  BatchMode: "Batch Mode",
+  BatchModeAll: "All",
+  BatchModeAdjacent: "Adjacent",
+  BatchModeCluster: "Cluster",
+  BatchUpgradeToLevelX: "To Level %{level}",
+  ApplyToBatch: "Apply To %{batch}",
 };

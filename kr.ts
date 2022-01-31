@@ -266,8 +266,6 @@ export const KR = {
   Settings: "설정",
   Sound: "사운드 효과",
   SoundDesc: "클릭 또는 오류 같은 사운드 효과 켜기",
-  AutoHighlight: "자동 강조",
-  AutoHighlightDesc: "건물을 선택할 때 동일한 유형의 건물을 자동으로 강조 표시",
   MusicDesc:
     "음악 켜기: It's Not Over 'Til The Bossa Nova by Shane Ivers (https://www.silvermansound.com)",
   Credits: "제작 참여",
@@ -284,7 +282,6 @@ export const KR = {
   TurnOffProduction: "꺼짐",
   TurnOffProductionDesc:
     "건물의 생산을 중단합니다. 건물은 더 이상 자원을 수송하거나 전력을 사용하지 않을 것입니다",
-  ApplyToAll: "모든 %{building}에 적용",
   FuelCostNumber: "%{cost} %{fuel}",
   Unlimited: "무제한",
   Transport: "수송",
@@ -1346,8 +1343,6 @@ export const KR = {
   SausageFactory: "Sausage Factory",
   Sausage: "Sausage",
   Hotdog: "Hotdog",
-  BatchOperation: "For Each %{name}",
-  BatchUpgradeTo: "Upgrade To",
   BatchOperationDesc:
     "This will apply to %{number} buildings(s). Do you want to continue?",
   BatchOperationResult:
@@ -1388,4 +1383,13 @@ export const KR = {
   LunarNewYear22Desc:
     "All buildings that consume paper will use Lantern instead and will have 2x capacity. Paper mills become Paper Academy and produce culture instead",
   PaperAcademy: "Paper Academy",
+  FriedRice: "Fried Rice",
+  ApplyToCluster: "Apply To The Cluster",
+  Highlight: "🔍 Highlight",
+  BatchMode: "Batch Mode",
+  BatchModeAll: "All",
+  BatchModeAdjacent: "Adjacent",
+  BatchModeCluster: "Cluster",
+  BatchUpgradeToLevelX: "To Level %{level}",
+  ApplyToBatch: "Apply To %{batch}",
 };

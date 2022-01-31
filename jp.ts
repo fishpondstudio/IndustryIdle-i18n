@@ -264,9 +264,6 @@ export const JP = {
   Settings: "設定",
   Sound: "効果音",
   SoundDesc: "クリック音やエラー音などの効果音をオンにする",
-  AutoHighlight: "自動ハイライト",
-  AutoHighlightDesc:
-    "施設を選択すると、同じ種類の施設が自動的にハイライトされます",
   MusicDesc:
     "BGMをオンにする。曲名 : It's Not Over 'Til The Bossa Nova アーティスト : Shane Ivers (https://www.silvermansound.com)",
   Credits: "クレジット",
@@ -282,7 +279,6 @@ export const JP = {
   TurnOffProduction: "一時停止",
   TurnOffProductionDesc:
     "施設を一時停止します。施設は、生産・輸送を停止し、消費電力が0になります",
-  ApplyToAll: "すべての%{building}に適用",
   FuelCostNumber: "%{cost}%{fuel}",
   Unlimited: "無制限",
   Transport: "輸送",
@@ -1349,8 +1345,6 @@ export const JP = {
   SausageFactory: "Sausage Factory",
   Sausage: "Sausage",
   Hotdog: "Hotdog",
-  BatchOperation: "For Each %{name}",
-  BatchUpgradeTo: "Upgrade To",
   BatchOperationDesc:
     "This will apply to %{number} buildings(s). Do you want to continue?",
   BatchOperationResult:
@@ -1391,4 +1385,13 @@ export const JP = {
   LunarNewYear22Desc:
     "All buildings that consume paper will use Lantern instead and will have 2x capacity. Paper mills become Paper Academy and produce culture instead",
   PaperAcademy: "Paper Academy",
+  FriedRice: "Fried Rice",
+  ApplyToCluster: "Apply To The Cluster",
+  Highlight: "🔍 Highlight",
+  BatchMode: "Batch Mode",
+  BatchModeAll: "All",
+  BatchModeAdjacent: "Adjacent",
+  BatchModeCluster: "Cluster",
+  BatchUpgradeToLevelX: "To Level %{level}",
+  ApplyToBatch: "Apply To %{batch}",
 };
