@@ -1426,7 +1426,6 @@ export const EN = {
     "All buildings that consume paper will use Lantern instead and will have 2x capacity. Paper mills become Paper Academy and produce culture instead",
   PaperAcademy: "Paper Academy",
   FriedRice: "Fried Rice",
-  ApplyToCluster: "Apply To The Cluster",
   Highlight: "🔍 Highlight",
   BatchMode: "Batch Mode",
   BatchModeAll: "All",
