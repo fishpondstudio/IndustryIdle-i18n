@@ -1477,4 +1477,9 @@ export const FR = {
   ApplyToBatch: "Apply To %{batch}",
   BatteryRecycler: "Battery Recycler",
   BatteryShell: "Battery Shell",
+  StartInANewCity: "Start In A New City",
+  StartInANewCityFinePrint: "(Or Restart Your Current City)",
+  BatteryFuelDesc:
+    "💡 After batteries are used as fuel, they will become battery shells. You can build Battery Recyclers to recycle or recharge them",
+  FriedChicken: "Fried Chicken",
 };
