@@ -1299,4 +1299,10 @@ export const ZH_HK = {
   BatteryFuelDesc:
     "💡 After batteries are used as fuel, they will become battery shells. You can build Battery Recyclers to recycle or recharge them",
   FriedChicken: "Fried Chicken",
+  Coffee: "Coffee",
+  Cocoa: "Cocoa",
+  CornSyrup: "Liquid Sugar",
+  CornSyrupDesc:
+    "Sugar refineries produce refined sugar with corn instead of sugarcane",
+  Crop: "Crop",
 };
