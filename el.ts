@@ -1443,4 +1443,7 @@ export const EL = {
   CornSyrupDesc:
     "Sugar refineries produce refined sugar with corn instead of sugarcane",
   Crop: "Crop",
+  SaoPaulo: "São Paulo",
+  FishPond: "Fish Pond",
+  Fish: "Fish",
 };
