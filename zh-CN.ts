@@ -187,7 +187,7 @@ export const ZH_CN = {
   AlwaysTransportInput: "库存模式",
   AlwaysTransportInputTradeCenter: "始终出口",
   AlwaysTransportInputTradeCenterDesc:
-    "始终将资源运送到贸易中心，即使该资源无法启用自动销售",
+    "始终将资源运送到贸易中心，即使该资源没有启用自动销售",
   AlwaysTransportInputDesc: "始终运输投入资源，即使它们高于最低生产要求",
   ProductionCycleLength: "生产周期",
   ProductionCycleLengthDesc:
@@ -1043,7 +1043,7 @@ export const ZH_CN = {
   OfflineEarningDescV2: "离线收入取决于您当前的研究、生产力和销售能力",
   HighSpeedWarehouse: "仓库快速",
   HighSpeedWarehouseDesc:
-    "仓库运输的容量提高了2倍，进出运输的速度提高了50%，但使用了2倍的电力",
+    "仓库运输的容量是原来的2倍，进出运输的速度提高了50%，但使用了2倍的电力",
   IndustryZoneMultiplierDesc: "工业区奖金",
   IndustryZoneMultiplierSwissBoost: "工业区产能提升",
   EarningPerMinuteV2: "收益率",
@@ -1085,9 +1085,9 @@ export const ZH_CN = {
   AchievementCrowdfundingTycoon: "众筹大佬",
   AchievementCrowdfundingTycoonDesc: "在单次众筹中认捐10Qa的资源",
   AchievementCashIsKing: "现金为王",
-  AchievementCashIsKingDesc: "在单局游戏中拥有10Qa现金在手",
+  AchievementCashIsKingDesc: "在单局游戏中拥有1Qa现金在手",
   AchievementPowerTycoon: "能源大亨",
-  AchievementPowerTycoonDesc: "单词游戏中，获得1GW电力",
+  AchievementPowerTycoonDesc: "单局游戏中，获得1GW电力",
   PlayerTradeFilteringNResources: "过滤 %{n} 种资源",
   PlayerTradeFilterResources: "过滤资源",
   PlayerTradeFilterClear: "清除过滤",
@@ -1292,11 +1292,11 @@ export const ZH_CN = {
   StreamingRecordingReadyDesc:
     "You can save your recording file and play it with a compatible video player",
   StreamingRecordingSave: "Save As",
-  Lantern: "Lantern",
-  LunarNewYear22: "Year of The Tiger",
+  Lantern: "灯笼",
+  LunarNewYear22: "虎年大吉",
   LunarNewYear22Desc:
-    "All buildings that consume paper will use Lantern instead and will have 2x capacity. Paper mills become Paper Academy and produce culture instead",
-  PaperAcademy: "Paper Academy",
+    "所有消耗纸张的建筑使用灯笼作为替代品，且生产能力是原来的2倍。造纸厂变为造纸学院，产出文化点",
+  PaperAcademy: "造纸学院",
   FriedRice: "Fried Rice",
   Highlight: "🔍 Highlight",
   BatchMode: "Batch Mode",
