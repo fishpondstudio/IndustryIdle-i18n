@@ -545,9 +545,7 @@ export const FR = {
     AcceptTrade: "Accepter",
     CancelTrade: "Annuler",
     ClaimTrade: "Réclamer",
-    PasteYourSave: "Veuillez coller vos données de sauvegarde",
     FailedToImportSave: "Échec de l'importation de la sauvegarde",
-    SaveCopiedToClipboard: "Vos données de sauvegarde ont été copiées dans votre presse-papiers",
     CancelActiveTradeFirst: "Vous avez des échanges actifs, veuillez d'abord les annuler / les réclamer",
     PlayerTradeQuotaExceed: "Cet échange a dépassé votre quota",
     PlayerTradeValidRange: "Entre: %{min} ~ %{max}",
@@ -1331,5 +1329,4 @@ export const FR = {
     SaoPaulo: "São Paulo",
     FishPond: "Fish Pond",
     Fish: "Fish",
-    ErrorNoDetail: "Error details are not available",
 };

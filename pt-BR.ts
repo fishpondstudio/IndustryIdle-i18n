@@ -533,9 +533,7 @@ export const PT_BR = {
     AcceptTrade: "Aceitar",
     CancelTrade: "Cancelar",
     ClaimTrade: "Reivindicar",
-    PasteYourSave: "Please paste your save data",
     FailedToImportSave: "Falha ao importar seu carregamento",
-    SaveCopiedToClipboard: "Your save data has been copied to your clipboard",
     CancelActiveTradeFirst: "You have active player trades, please cancel/claim them first",
     PlayerTradeQuotaExceed: "Este comércio excedeu sua cota",
     PlayerTradeValidRange: "Alcance: %{min} ~ %{max}",
@@ -1308,5 +1306,4 @@ export const PT_BR = {
     SaoPaulo: "São Paulo",
     FishPond: "Fish Pond",
     Fish: "Fish",
-    ErrorNoDetail: "Error details are not available",
 };

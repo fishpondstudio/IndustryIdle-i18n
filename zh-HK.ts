@@ -502,9 +502,7 @@ export const ZH_HK = {
     AcceptTrade: "接受",
     CancelTrade: "取消",
     ClaimTrade: "攞",
-    PasteYourSave: "請貼上您嘅存檔數據",
     FailedToImportSave: "匯入唔到存檔",
-    SaveCopiedToClipboard: "您嘅存檔數據複製咗落您嘅剪貼簿",
     CancelActiveTradeFirst: "您有做緊嘅玩家交易，取消/攞咗佢哋先",
     PlayerTradeQuotaExceed: "呢個交易多過您嘅配額",
     PlayerTradeValidRange: "範圍: %{min} ~ %{max}",
@@ -1244,5 +1242,4 @@ export const ZH_HK = {
     SaoPaulo: "São Paulo",
     FishPond: "Fish Pond",
     Fish: "Fish",
-    ErrorNoDetail: "Error details are not available",
 };

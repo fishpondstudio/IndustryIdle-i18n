@@ -504,9 +504,7 @@ export const ZH_TW = {
     AcceptTrade: "接受",
     CancelTrade: "取消",
     ClaimTrade: "領取",
-    PasteYourSave: "請貼上您的存檔數據",
     FailedToImportSave: "無法匯入存檔",
-    SaveCopiedToClipboard: "您的存檔數據已被複製到您的剪貼簿",
     CancelActiveTradeFirst: "您有進行中的玩家交易，請先取消/領取",
     PlayerTradeQuotaExceed: "該交易已超過您的配額",
     PlayerTradeValidRange: "範圍：%{min} ~ %{max}",
@@ -1245,5 +1243,4 @@ export const ZH_TW = {
     SaoPaulo: "São Paulo",
     FishPond: "Fish Pond",
     Fish: "Fish",
-    ErrorNoDetail: "Error details are not available",
 };

@@ -532,9 +532,7 @@ export const RU = {
     AcceptTrade: "Принять",
     CancelTrade: "Отмена",
     ClaimTrade: "Завершить",
-    PasteYourSave: "Пожалуйста, вставьте данные вашего сохранения",
     FailedToImportSave: "Не удалось импортировать сохранение",
-    SaveCopiedToClipboard: "Данные вашего сохранения были скопированы в буфер обмена",
     CancelActiveTradeFirst: "У вас есть активные сделки с игроками, пожалуйста, сначала отмените/завершите их",
     PlayerTradeQuotaExceed: "Эта сделка превысила вашу квоту",
     PlayerTradeValidRange: "Диапазон: %{min} ~ %{max}",
@@ -1327,5 +1325,4 @@ export const RU = {
     SaoPaulo: "Сан-Паулу",
     FishPond: "Рыбный пруд",
     Fish: "Рыба",
-    ErrorNoDetail: "Error details are not available",
 };

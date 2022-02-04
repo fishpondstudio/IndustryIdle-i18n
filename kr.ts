@@ -514,9 +514,7 @@ export const KR = {
     AcceptTrade: "수락",
     CancelTrade: "취소",
     ClaimTrade: "청구",
-    PasteYourSave: "저장 데이터를 붙여 넣으십시오",
     FailedToImportSave: "저장 가져 오기 실패",
-    SaveCopiedToClipboard: "저장 데이터가 클립 보드에 복사되었습니다",
     CancelActiveTradeFirst: "활성중인 사용자 간 거래가 있습니다. 먼저 취소/청구하십시오",
     PlayerTradeQuotaExceed: "이 거래는 한도를 초과했습니다",
     PlayerTradeValidRange: "범위: %{min} ~ %{max}",
@@ -1272,5 +1270,4 @@ export const KR = {
     SaoPaulo: "São Paulo",
     FishPond: "Fish Pond",
     Fish: "Fish",
-    ErrorNoDetail: "Error details are not available",
 };

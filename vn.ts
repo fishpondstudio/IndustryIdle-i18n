@@ -523,9 +523,7 @@ export const VN = {
     AcceptTrade: "Chấp nhận",
     CancelTrade: "Hủy",
     ClaimTrade: "Kết toán",
-    PasteYourSave: "Xin vui lòng dán dữ liệu sao lưu",
     FailedToImportSave: "Đọc dữ liệu sao lưu không thành công",
-    SaveCopiedToClipboard: "Dữ liệu bản lưu của bạn đã được chép vào bộ nhớ",
     CancelActiveTradeFirst: "Bạn có giao dịch đang thực hiện với người chơi khác, xin vui lòng kết toán hoặc hủy chúng",
     PlayerTradeQuotaExceed: "Giao dịch này vượt quá hạn mức của bạn",
     PlayerTradeValidRange: "Khoảng: %{min} ~ %{max}",
@@ -1302,5 +1300,4 @@ export const VN = {
     SaoPaulo: "São Paulo",
     FishPond: "Fish Pond",
     Fish: "Fish",
-    ErrorNoDetail: "Error details are not available",
 };
