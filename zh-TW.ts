@@ -506,7 +506,6 @@ export const ZH_TW = {
     ClaimTrade: "領取",
     PasteYourSave: "請貼上您的存檔數據",
     FailedToImportSave: "無法匯入存檔",
-    FailedToImportSaveDesc: "您的存檔不相容或損壞：%{error}",
     SaveCopiedToClipboard: "您的存檔數據已被複製到您的剪貼簿",
     CancelActiveTradeFirst: "您有進行中的玩家交易，請先取消/領取",
     PlayerTradeQuotaExceed: "該交易已超過您的配額",
@@ -1246,4 +1245,5 @@ export const ZH_TW = {
     SaoPaulo: "São Paulo",
     FishPond: "Fish Pond",
     Fish: "Fish",
+    ErrorNoDetail: "Error details are not available",
 };

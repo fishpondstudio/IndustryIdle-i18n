@@ -515,7 +515,6 @@ export const JP = {
     ClaimTrade: "受け取る",
     PasteYourSave: "保存データを貼り付けてください",
     FailedToImportSave: "保存データのインポートに失敗しました",
-    FailedToImportSaveDesc: "セーブファイルに互換性がないか破損しています : %{error}",
     SaveCopiedToClipboard: "セーブデータがクリップボードにコピーされました",
     CancelActiveTradeFirst: "アクティブなプレイヤー間トレードがあります。先にキャンセル/受取してください",
     PlayerTradeQuotaExceed: "このトレードはあなたの取引枠を超えています",
@@ -1277,4 +1276,5 @@ export const JP = {
     SaoPaulo: "São Paulo",
     FishPond: "Fish Pond",
     Fish: "Fish",
+    ErrorNoDetail: "Error details are not available",
 };

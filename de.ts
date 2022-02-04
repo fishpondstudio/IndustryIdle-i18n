@@ -539,7 +539,6 @@ export const DE = {
     ClaimTrade: "erhalte",
     PasteYourSave: "Bitte fügen Sie Ihre gespeicherten Daten ein",
     FailedToImportSave: "Fehler beim Importieren der Sicherung",
-    FailedToImportSaveDesc: "Ihre Sicherungsdatei ist nicht kompatibel oder beschädigt: %{error}",
     SaveCopiedToClipboard: "Ihre gespeicherten Daten wurden in Ihre Zwischenablage kopiert",
     CancelActiveTradeFirst: "Sie haben aktive Spieler-Handel, bitte stornieren / beanspruchen Sie diese zuerst",
     PlayerTradeQuotaExceed: "Dieser Handel hat Ihre Menge überschritten",
@@ -1327,4 +1326,5 @@ export const DE = {
     SaoPaulo: "São Paulo",
     FishPond: "Fish Pond",
     Fish: "Fish",
+    ErrorNoDetail: "Error details are not available",
 };

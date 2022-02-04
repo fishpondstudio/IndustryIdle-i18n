@@ -541,7 +541,6 @@ export const ES = {
     ClaimTrade: "Reclamar",
     PasteYourSave: "Please paste your save data",
     FailedToImportSave: "Error al Importar Partida",
-    FailedToImportSaveDesc: "Tu partida es incompatible o esta corrompida: %{error}",
     SaveCopiedToClipboard: "Tu archivo de guardado se ha copiado al portapapeles",
     CancelActiveTradeFirst: "You have active player trades, please cancel/claim them first",
     PlayerTradeQuotaExceed: "This trade has exceeded your quota",
@@ -1312,4 +1311,5 @@ export const ES = {
     SaoPaulo: "São Paulo",
     FishPond: "Fish Pond",
     Fish: "Fish",
+    ErrorNoDetail: "Error details are not available",
 };

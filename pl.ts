@@ -534,7 +534,6 @@ export const PL = {
     ClaimTrade: "Odbierz",
     PasteYourSave: "Proszę wkleić zapisane dane",
     FailedToImportSave: "Nie udało się zaimportować Zapisz",
-    FailedToImportSaveDesc: "Twój plik zapisu jest niezgodny lub uszkodzony: %{error}",
     SaveCopiedToClipboard: "Twoje dane zapisu zostały skopiowane do schowka",
     CancelActiveTradeFirst: "Masz aktywne transakcje gracza, najpierw je anuluj lub odbierz",
     PlayerTradeQuotaExceed: "Ta transakcja przekroczyła Twój limit",
@@ -1316,4 +1315,5 @@ export const PL = {
     SaoPaulo: "São Paulo",
     FishPond: "Fish Pond",
     Fish: "Fish",
+    ErrorNoDetail: "Error details are not available",
 };

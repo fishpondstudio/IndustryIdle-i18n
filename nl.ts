@@ -532,7 +532,6 @@ export const NL = {
     ClaimTrade: "Claim",
     PasteYourSave: "Plak uw opslag data aub",
     FailedToImportSave: "opgeslagen data importeren gefaald",
-    FailedToImportSaveDesc: "je opgeslagen bestand is incompatibel or gecorrumpteerd: %{error}",
     SaveCopiedToClipboard: "Je opgeslagen data is gekopieerd naar je klembord",
     CancelActiveTradeFirst: "Je hebt actieve speler transacties, annuleer of eis ze aub eerst op",
     PlayerTradeQuotaExceed: "Deze transactie heeft uw quota overschreden",
@@ -1304,4 +1303,5 @@ export const NL = {
     SaoPaulo: "São Paulo",
     FishPond: "Fish Pond",
     Fish: "Fish",
+    ErrorNoDetail: "Error details are not available",
 };
