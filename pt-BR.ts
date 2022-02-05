@@ -1306,4 +1306,11 @@ export const PT_BR = {
     SaoPaulo: "São Paulo",
     FishPond: "Fish Pond",
     Fish: "Fish",
+    LoadGameErrorRetry: "Retry",
+    LoadGameErrorHardReset: "Hard Reset",
+    ImportGameDesc: "%{import} import(s) in the last %{days} days",
+    ExportSaveWarning:
+        "DO NOT share your save file with others (except for the developer) - your save file contains your account identifiers and will allow others to take over your account",
+    FontSizeScaling: "Font Size Scaling",
+    FontSizeScalingDesc: "Change the UI font size scale. Some UI elements might look out of place. REQUIRES RELOAD",
 };
