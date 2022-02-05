@@ -1301,4 +1301,12 @@ export const SK = {
         "DO NOT share your save file with others (except for the developer) - your save file contains your account identifiers and will allow others to take over your account",
     FontSizeScaling: "Font Size Scaling",
     FontSizeScalingDesc: "Change the UI font size scale. Some UI elements might look out of place. REQUIRES RELOAD",
+    FrozenVegetable: "Frozen Vegetable",
+    MilkPowder: "Milk Powder",
+    CannedFish: "Canned Fish",
+    CocoaPowder: "Cocoa Powder",
+    FrozenChicken: "Frozen Chicken",
+    FrozenPork: "Frozen Pork",
+    CannedBeef: "Canned Beef",
+    FoodProcessingPlant: "Food Processing Plant",
 };
