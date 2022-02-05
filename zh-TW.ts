@@ -1258,4 +1258,7 @@ export const ZH_TW = {
     FrozenPork: "Frozen Pork",
     CannedBeef: "Canned Beef",
     FoodProcessingPlant: "Food Processing Plant",
+    KansasCityBonus:
+        "<li>Farmlands and greenhouses produce 2x corn</li><li>Free corn transportation</li><li>For each level, hydro dams give a 5% boost to adjacent farmlands</li><li>Every 2 farmlands give 1 free building permit</li><li>The Sun Never Sets policy also makes farmland work 100% of the time (including offline)</li><li>2x player trade quota when trading crops</li><li>Food processing plants are unlocked</li>",
+    KansasCityHydroDamBoost: "Kansas City unique bonus: this hydro dam provides %{boost} boost to adjacent farmlands",
 };
