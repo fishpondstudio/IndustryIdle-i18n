@@ -1144,8 +1144,6 @@ export const EN = {
     RandomIslandBonusResources: "Resource deposits on this map: %{deposits}",
     ValuationPerActiveMinute: "Valuation Per Active Minute",
     Perth: "Perth",
-    PerthBonus:
-        "<li>Building spinners rotate clockwise, which is opposite to other cities</li><li>Unique deposit: Geothermal vent</li><li>Unique building: Geothermal Power Plant</li><li>Unique policies: Adjacent Explorer (FREE), Factory Mining (FREE)</li>",
     GV: "Geothermal Vent",
     GeothermalPowerPlant: "Geothermal Power Plant",
     AdjacentExplorer: "Adjacent Explorer",
@@ -1312,6 +1310,18 @@ export const EN = {
     CannedBeef: "Canned Beef",
     FoodProcessingPlant: "Food Processing Plant",
     KansasCityBonus:
-        "<li>Farmlands and greenhouses produce 2x corn</li><li>Free corn transportation</li><li>For each level, hydro dams give a 5% boost to adjacent farmlands</li><li>Every 2 farmlands give 1 free building permit</li><li>The Sun Never Sets policy also makes farmland work 100% of the time (including offline)</li><li>2x player trade quota when trading crops</li><li>Food processing plants are unlocked</li>",
+        "<li>Farmlands and greenhouses produce 2x corn</li><li>Free corn transportation</li><li>For each level, hydro dams give a 5% boost to adjacent farmlands</li><li>Every 2 farmlands give 1 free building permit</li><li>The Sun Never Sets policy also makes farmland work 100% of the time (including offline)</li><li>2x player trade quota when trading crops</li><li>Food processing plants are unlocked</li><li>Fast food chains (including all recipes) have 2x capacity</li>",
     KansasCityHydroDamBoost: "Kansas City unique bonus: this hydro dam provides %{boost} boost to adjacent farmlands",
+    PerthGeothermalPowerPlantBoost:
+        "Perth unique bonus: this geothermal power plant provides %{boost} boost to adjacent buildings that produce steel",
+    PerthBonus:
+        "<li>Building spinners rotate clockwise, which is opposite to other cities</li><li>Unique deposit: Geothermal vent</li><li>Unique building: Geothermal Power Plant</li><li>For each level, geothermal power plants give a 5% boost to adjacent buildings that produce steel</li><li>Robot factories have 2x productivity</li><li>Tank factories have 2x capacity</li><li>Unique policies: Adjacent Explorer (FREE), Factory Mining (FREE)</li>",
+    Biofuel: "Biofuel",
+    SaoPauloBonus:
+        "<li>Unique fuel: Biofuel</li><li>Pig, cow and chicken farms produces extra biofuel</li><li>Unique building: Biofuel Power Plant</li><li>Unique building: Cristo Redentor</li><li>Resource boosters can boost pig, cow and chicken farms</li><li>Logging camps produce 2x wood</li><li>Lumber mills have 2x capacity</li><li>Frozen chicken, frozen pork and canned beef have 2x trading quota</li>",
+    BiofuelPowerPlant: "Biofuel Power Plant",
+    CristoRedentor: "Cristo Redentor",
+    CristoRedentorBanner:
+        "Cristo Redentor provides adjacent bonus to any building that has lower or equal level. Its culture consumption grows exponentially if you build more",
+    CristoRedentorDesc: "Consumes culture and provide adjacent bonus to any building",
 };
