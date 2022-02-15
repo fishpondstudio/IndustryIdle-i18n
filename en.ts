@@ -181,7 +181,7 @@ export const EN = {
     ResourceDeposit: "Resource Deposit",
     AdjacentBonus: "Adjacent Bonus",
     AdjacentBonusDesc: "You get %{bonus}% extra capacity for every adjacent working building of the same type",
-    ConsiderIncreaseProduction: "💡 Consider increase %{resource} production",
+    ConsiderIncreaseProduction: "💡 Consider increasing %{resource} production",
     AlwaysTransportInput: "Stockpile Mode",
     AlwaysTransportInputTradeCenter: "Always Export",
     AlwaysTransportInputTradeCenterDesc:
