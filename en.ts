@@ -33,7 +33,7 @@ export const EN = {
     NoLiquidity: "No Liquidity",
     NoLiquidityTurnOffAutoSell: "There's not enough liquidity in the market for %{res}, auto sell has been turned off",
     Multiplier: "Multiplier",
-    MultiplierDesc: "Every 10 level, you get +1 multiplier",
+    MultiplierDesc: "Every 10 levels, you get +1 multiplier",
     SellBuilding: "Sell Building",
     PowerGrid: "Power Grid",
     TradeAmount: "Trade Amount",
@@ -181,7 +181,7 @@ export const EN = {
     ResourceDeposit: "Resource Deposit",
     AdjacentBonus: "Adjacent Bonus",
     AdjacentBonusDesc: "You get %{bonus}% extra capacity for every adjacent working building of the same type",
-    ConsiderIncreaseProduction: "💡 Consider increase %{resource} production",
+    ConsiderIncreaseProduction: "💡 Consider increasing %{resource} production",
     AlwaysTransportInput: "Stockpile Mode",
     AlwaysTransportInputTradeCenter: "Always Export",
     AlwaysTransportInputTradeCenterDesc:
