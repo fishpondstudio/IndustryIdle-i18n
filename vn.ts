@@ -1328,4 +1328,7 @@ export const VN = {
     CristoRedentorBanner:
         "Cristo Redentor provides adjacent bonus to any building that has lower or equal level. Its culture consumption grows exponentially if you build more",
     CristoRedentorDesc: "Consumes culture and provide adjacent bonus to any building",
+    Istanbul: "Istanbul",
+    Wormhole: "Wormhole",
+    Turret: "Turret",
 };

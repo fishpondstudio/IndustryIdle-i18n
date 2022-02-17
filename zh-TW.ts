@@ -1096,11 +1096,9 @@ export const ZH_TW = {
     GV: "地熱通風口",
     GeothermalPowerPlant: "地熱發電廠",
     AdjacentExplorer: "相鄰資源管理器",
-    AdjacentExplorerDesc:
-        "如果資源管理器與其正在生產的資源相鄰，則它會產生 2 倍的輸出（免費政策）",
+    AdjacentExplorerDesc: "如果資源管理器與其正在生產的資源相鄰，則它會產生 2 倍的輸出（免費政策）",
     FactoryMining: "工廠採礦",
-    FactoryMiningDesc:
-        "如果工廠消耗相同的存款，則工廠可以直接從地塊中開採存款（免費政策）",
+    FactoryMiningDesc: "如果工廠消耗相同的存款，則工廠可以直接從地塊中開採存款（免費政策）",
     FactoryMiningBanner: "該建築物正在直接從該圖塊開採 %{resource}",
     WarehouseSourceWeight: "重量: %{weight}",
     YAxisStartsFromZero: "Y 軸從 0",
@@ -1112,8 +1110,7 @@ export const ZH_TW = {
     WarehouseOutputRoutes: "輸出路線",
     InputCapacity: "消耗量",
     MultipleSources: "多個來源",
-    MultipleSourcesDesc:
-        "允許建築物在生產週期中潛在地從多個來源傳輸資源",
+    MultipleSourcesDesc: "允許建築物在生產週期中潛在地從多個來源傳輸資源",
     Water: "水",
     KansasCity: "堪薩斯城",
     Dam: "水壩",
@@ -1129,14 +1126,12 @@ export const ZH_TW = {
     Vegetable: "蔬菜",
     FarmlandProduce: "生產",
     FarmlandOfflineFarming: "離線農業",
-    FarmlandOfflineFarmingDesc:
-        "離線時建立在天然水源產品之上的農田。受制於離線賺取時間並受瑞士升級影響",
+    FarmlandOfflineFarmingDesc: "離線時建立在天然水源產品之上的農田。受制於離線賺取時間並受瑞士升級影響",
     FarmlandProductionDesc: "💡 農田每 10 秒只工作 5 秒 - 全部運作週期一致",
     WaterPump: "水泵",
     Greenhouse: "溫室",
     GreenhouseDesc: "生產您選擇的農作物",
-    WaterEntityLevelTooHighDesc:
-        "您的建築等級高於相鄰的水壩等級。 請升級您的水壩",
+    WaterEntityLevelTooHighDesc: "您的建築等級高於相鄰的水壩等級。 請升級您的水壩",
     AirLiquidizer: "空氣液化器",
     CapacitorFactory: "電容器廠",
     Capacitor: "電容器",
@@ -1155,8 +1150,7 @@ export const ZH_TW = {
     SugarRefinery: "糖廠",
     RefinedSugar: "精製糖",
     ShowSupplyChain: "展示供應鏈",
-    ShowSupplyChainDesc:
-        "突出顯示建築物時，顯示所有上游和下游建築物的整個供應鏈",
+    ShowSupplyChainDesc: "突出顯示建築物時，顯示所有上游和下游建築物的整個供應鏈",
     Cake: "蛋糕",
     ChooseARecipe: "選擇一個食譜",
     ChickenFarm: "養雞場",
@@ -1202,21 +1196,18 @@ export const ZH_TW = {
     StreamingAcceptStream: "接受",
     StreamingRejectStream: "拒绝",
     StreamingStopStreamDesc: "停止串流觀眾此觀看",
-    StreamingConnectionFailed:
-        "無法建立對等連接 - 您的網絡很可能不支持 P2P 連接",
+    StreamingConnectionFailed: "無法建立對等連接 - 您的網絡很可能不支持 P2P 連接",
     Pizza: "披薩",
     StreamingStartRecord: "開始錄製",
     StreamingRecordCamera: "錄製導演剪輯版",
-    StreamingRecordCameraDesc:
-        "錄製 10 秒的預設序列 - 攝像機將設置為最大變焦並慢慢縮小",
+    StreamingRecordCameraDesc: "錄製 10 秒的預設序列 - 攝像機將設置為最大變焦並慢慢縮小",
     StreamingStopRecord: "停止錄製",
     StreamingRecordingReady: "錄製準備就緒",
     StreamingRecordingReadyDesc: "您可以保存錄製文件並使用兼容的視頻播放器播放",
     StreamingRecordingSave: "另存為",
     Lantern: "照明",
     LunarNewYear22: "虎年",
-    LunarNewYear22Desc:
-        "所有消耗紙張的建築物都將使用照明，並且容量將是 2 倍。造紙廠成為造紙學院並生產文化",
+    LunarNewYear22Desc: "所有消耗紙張的建築物都將使用照明，並且容量將是 2 倍。造紙廠成為造紙學院並生產文化",
     PaperAcademy: "紙藝學院",
     FriedRice: "炒飯",
     Highlight: "🔍 強調",
@@ -1230,8 +1221,7 @@ export const ZH_TW = {
     BatteryShell: "電池殼",
     StartInANewCity: "在新城市開始",
     StartInANewCityFinePrint: "(或重新啟動您當前的城市)",
-    BatteryFuelDesc:
-        "💡 電池用作燃料後，就會變成電池殼。 您可以構建電池回收器來回收或充電",
+    BatteryFuelDesc: "💡 電池用作燃料後，就會變成電池殼。 您可以構建電池回收器來回收或充電",
     FriedChicken: "炸雞",
     Coffee: "咖啡",
     Cocoa: "可可",
@@ -1259,8 +1249,7 @@ export const ZH_TW = {
     KansasCityBonus:
         "<li>農田和溫室生產 2 倍玉米</li><li>免費玉米運輸</li><li>對於每個級別，水壩為相鄰農田提供 5% 的提升</li><li>每 2 個農田免費提供 1 個 建築許可證</li><li>太陽永不落山政策還使農田工作 100% 的時間（包括離線）</li><li>在交易農作物時 2 倍玩家交易配額</li><li>食品加工廠已解鎖</li>",
     KansasCityHydroDamBoost: "堪薩斯城的獨特獎勵：這座水壩為鄰近的農田提供 %{boost} 提升",
-    PerthGeothermalPowerPlantBoost:
-        "珀斯獨特的好處：這個地熱發電廠為相鄰的鋼鐵建築提供 %{boost} 提升",
+    PerthGeothermalPowerPlantBoost: "珀斯獨特的好處：這個地熱發電廠為相鄰的鋼鐵建築提供 %{boost} 提升",
     PerthBonus:
         "<li>建築旋轉器順時針旋轉，與其他城市相反</li><li>獨特的礦床：地熱噴口</li><li>獨特建築：地熱發電廠</li><li>獨特的政策：相鄰資源管理器（免費）、工廠採礦（免費）</li>",
     Biofuel: "生物燃料",
@@ -1271,4 +1260,7 @@ export const ZH_TW = {
     CristoRedentorBanner:
         "基督救世主為任何具有較低或同等等級的建築物提供相鄰獎勵。 如果你建造更多，它的文化消耗會成倍增長",
     CristoRedentorDesc: "消耗文化並為任何建築物提供相鄰獎勵",
+    Istanbul: "Istanbul",
+    Wormhole: "Wormhole",
+    Turret: "Turret",
 };

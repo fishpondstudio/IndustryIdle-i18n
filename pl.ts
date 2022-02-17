@@ -1225,8 +1225,7 @@ export const PL = {
     SugarRefinery: "Cukrownia",
     RefinedSugar: "Cukier",
     ShowSupplyChain: "Pokaż łańcuch dostaw",
-    ShowSupplyChainDesc:
-        "Kiedy zaznaczysz budynek, pokazuje cały łańcuch dostaw dla surowców i produktów",
+    ShowSupplyChainDesc: "Kiedy zaznaczysz budynek, pokazuje cały łańcuch dostaw dla surowców i produktów",
     Cake: "Ciasto",
     ChooseARecipe: "Wybierz przepis",
     ChickenFarm: "Ferma drobiu",
@@ -1341,4 +1340,7 @@ export const PL = {
     CristoRedentorBanner:
         "Cristo Redentor provides adjacent bonus to any building that has lower or equal level. Its culture consumption grows exponentially if you build more",
     CristoRedentorDesc: "Consumes culture and provide adjacent bonus to any building",
+    Istanbul: "Istanbul",
+    Wormhole: "Wormhole",
+    Turret: "Turret",
 };
