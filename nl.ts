@@ -552,7 +552,8 @@ export const NL = {
     SiliconMine2xOutputDesc:
         "Silicium mijnen produceren 2x zo veel silicium maar gebruiken 50% meer stroom en het vervoer van silicium kost 50% meer brandstof",
     CoalMine2xOutput: "Industriële revolutie",
-    CoalMine2xOutputDesc: "Steenkool mijnen produceren 2x zo veel steenkool maar gebruiken 50% meer stroom en het vervoer van steenkool kost 50% meer brandstof",
+    CoalMine2xOutputDesc:
+        "Steenkool mijnen produceren 2x zo veel steenkool maar gebruiken 50% meer stroom en het vervoer van steenkool kost 50% meer brandstof",
     AlMine2xOutput: "Aluminum Smelting",
     AlMine2xOutputDesc: "Aluminum mines produce 2x aluminum and use 2x more power",
     LoggingCamp2xOutput: "Deforestation",
@@ -995,7 +996,6 @@ export const NL = {
     IndustryZoneMaxBuildingLevel: "Max Building Level",
     IndustryZoneNotWorkingDesc:
         "All of its adjacent buildings should form a supply chain and are not part of other industry zones",
-    IndustryZoneNoAdjacentBonus: "This building is part of an industry zone and does not have adjacent bonus",
     PlayerTradeAutoClaim: "Automatically claim filled trades",
     MusifyInc: "Musify Inc",
     WebflixInc: "Webflix Inc",
@@ -1296,7 +1296,6 @@ export const NL = {
     CornSyrup: "Liquid Sugar",
     CornSyrupDesc: "Sugar refineries produce refined sugar with corn instead of sugarcane",
     Crop: "Crop",
-    SaoPaulo: "São Paulo",
     FishPond: "Fish Pond",
     Fish: "Fish",
     LoadGameErrorRetry: "Retry",
@@ -1322,7 +1321,8 @@ export const NL = {
     PerthBonus:
         "<li>Building spinners rotate clockwise, which is opposite to other cities</li><li>Unique deposit: Geothermal vent</li><li>Unique building: Geothermal Power Plant</li><li>Unique policies: Adjacent Explorer (FREE), Factory Mining (FREE)</li>",
     Biofuel: "Biofuel",
-    SaoPauloBonus:
+    RioDeJaneiro: "Rio de Janeiro",
+    RioDeJaneiroBonus:
         "<li>Unique fuel: Biofuel</li><li>Pig, cow and chicken farms produces extra biofuel</li><li>Unique building: Biofuel Power Plant</li><li>Unique building: Cristo Redentor</li><li>Resource boosters can boost pig, cow and chicken farms</li><li>Logging camps produce 2x wood</li><li>Lumber mills have 2x capacity</li><li>Frozen chicken, frozen pork and canned beef have 2x trading quota</li>",
     BiofuelPowerPlant: "Biofuel Power Plant",
     CristoRedentor: "Cristo Redentor",
@@ -1331,5 +1331,23 @@ export const NL = {
     CristoRedentorDesc: "Consumes culture and provide adjacent bonus to any building",
     Istanbul: "Istanbul",
     Wormhole: "Wormhole",
-    Turret: "Turret",
+    DefenseCommand: "Defense Command",
+    WavesSurvived: "Waves Survived",
+    NumberOfWormholes: "Number of Wormholes on Map",
+    NextWave: "Next Wave",
+    NextWaveUnitHP: "Unit HP",
+    NextWaveTotalCount: "Total Units",
+    NextWaveTotalCountDesc: "Total number of units that will spawn from each wormhole",
+    NextWaveSpeed: "Move Speed",
+    NextWaveSpawnDelay: "Spawn Frequency",
+    NextWaveSpawnDelayValue: "Every %{number}s",
+    NextWaveBonusMultiplier: "Bonus Multiplier",
+    NextWaveBonusMultiplierValue: "%{number}x",
+    NextWaveTotalDamageNeeded: "Total Damage Needed",
+    NextWaveTotalReward: "Total Reward",
+    StartWave: "Start Wave",
+    WaveSpawned: "Spawned",
+    WaveEliminated: "Eliminated",
+    WaveFailed: "Failed",
+    WaveRetry: "Retry",
 };

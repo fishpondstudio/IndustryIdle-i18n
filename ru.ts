@@ -1008,7 +1008,6 @@ export const RU = {
     IndustryZoneMaxBuildingLevel: "Максимальный уровень зданий",
     IndustryZoneNotWorkingDesc:
         "Все соседние здания должны образовывать цепочку поставок и не являться частью других промышленных зон",
-    IndustryZoneNoAdjacentBonus: "Это здание является частью промышленной зоны и не имеет смежных бонусов.",
     PlayerTradeAutoClaim: "Автоматическое завершение исполненных сделок",
     MusifyInc: "Корпорация 'Musify'",
     WebflixInc: "Корпорация 'Webflix'",
@@ -1320,7 +1319,6 @@ export const RU = {
     CornSyrup: "Жидкий сахар",
     CornSyrupDesc: "Сахарные заводы производят рафинированный сахар из кукурузы вместо сахарного тростника",
     Crop: "Культура",
-    SaoPaulo: "Сан-Паулу",
     FishPond: "Рыбный пруд",
     Fish: "Рыба",
     LoadGameErrorRetry: "Повторить",
@@ -1348,8 +1346,9 @@ export const RU = {
     PerthBonus:
         "<li>Вращение зданий по часовой стрелке, что противоположно другим городам</li><li>Уникальное месторождение: Геотермальный источник</li><li>Уникальное здание: Геотермальная электростанция</li><li>Уникальные политики: Прилегающий исследователь (БЕСПЛАТНО), Добывающая фабрика (БЕСПЛАТНО)</li>",
     Biofuel: "Биотопливо",
-    SaoPauloBonus:
-        "<li>Уникальное топливо: Биотопливо</li><li>Фермы свиней, коров и куриц производят дополнительное биотопливо</li><li>Уникальное здание: Биотопливная электростанция</li><li>Уникальное здание: Христос Искупитель</li><li>Ускорители ресурсов позволяют ускорить фермы свиней, коров и кур</li><li>Лесозаготовки производят 2x дерева</li><li>Лесопильные заводы имеют 2x мощности</li><li>Замороженная курица, замороженная свинина и консервированная говядина имеют 2х торговую квоту</li>",
+    RioDeJaneiro: "Rio de Janeiro",
+    RioDeJaneiroBonus:
+        "<li>Unique fuel: Biofuel</li><li>Pig, cow and chicken farms produces extra biofuel</li><li>Unique building: Biofuel Power Plant</li><li>Unique building: Cristo Redentor</li><li>Resource boosters can boost pig, cow and chicken farms</li><li>Logging camps produce 2x wood</li><li>Lumber mills have 2x capacity</li><li>Frozen chicken, frozen pork and canned beef have 2x trading quota</li>",
     BiofuelPowerPlant: "Биотопливная электростанция",
     CristoRedentor: "Христос Искупитель",
     CristoRedentorBanner:
@@ -1357,5 +1356,23 @@ export const RU = {
     CristoRedentorDesc: "Потребляет культуру и обеспечивает смежный бонус для любого здания",
     Istanbul: "Istanbul",
     Wormhole: "Wormhole",
-    Turret: "Turret",
+    DefenseCommand: "Defense Command",
+    WavesSurvived: "Waves Survived",
+    NumberOfWormholes: "Number of Wormholes on Map",
+    NextWave: "Next Wave",
+    NextWaveUnitHP: "Unit HP",
+    NextWaveTotalCount: "Total Units",
+    NextWaveTotalCountDesc: "Total number of units that will spawn from each wormhole",
+    NextWaveSpeed: "Move Speed",
+    NextWaveSpawnDelay: "Spawn Frequency",
+    NextWaveSpawnDelayValue: "Every %{number}s",
+    NextWaveBonusMultiplier: "Bonus Multiplier",
+    NextWaveBonusMultiplierValue: "%{number}x",
+    NextWaveTotalDamageNeeded: "Total Damage Needed",
+    NextWaveTotalReward: "Total Reward",
+    StartWave: "Start Wave",
+    WaveSpawned: "Spawned",
+    WaveEliminated: "Eliminated",
+    WaveFailed: "Failed",
+    WaveRetry: "Retry",
 };

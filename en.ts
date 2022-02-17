@@ -989,7 +989,6 @@ export const EN = {
     IndustryZoneMaxBuildingLevel: "Max Building Level",
     IndustryZoneNotWorkingDesc:
         "All of its adjacent buildings should form a supply chain, are max Level %{level} and are not part of other industry zones",
-    IndustryZoneNoAdjacentBonus: "This building is part of an industry zone and does not have adjacent bonus",
     PlayerTradeAutoClaim: "Automatically claim filled trades",
     MusifyInc: "Musify Inc",
     WebflixInc: "Webflix Inc",
