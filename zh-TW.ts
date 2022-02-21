@@ -1230,7 +1230,6 @@ export const ZH_TW = {
     Fish: "魚",
     LoadGameErrorRetry: "重試",
     LoadGameErrorHardReset: "硬重置",
-    ImportGameDesc: "過去 %{days} 天的 %{import} 次導入",
     FontSizeScaling: "字體大小縮放",
     FontSizeScalingDesc: "更改 UI 字體大小比例。 一些 UI 元素可能看起來不合適。 需要重新加載",
     FrozenVegetable: "冷凍蔬菜",

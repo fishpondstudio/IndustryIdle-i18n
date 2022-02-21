@@ -1239,7 +1239,6 @@ export const ZH_HK = {
     Fish: "Fish",
     LoadGameErrorRetry: "Retry",
     LoadGameErrorHardReset: "Hard Reset",
-    ImportGameDesc: "%{import} import(s) in the last %{days} days",
     FontSizeScaling: "Font Size Scaling",
     FontSizeScalingDesc: "Change the UI font size scale. Some UI elements might look out of place. REQUIRES RELOAD",
     FrozenVegetable: "Frozen Vegetable",

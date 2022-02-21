@@ -1324,7 +1324,6 @@ export const IT = {
     Fish: "Fish",
     LoadGameErrorRetry: "Riprova",
     LoadGameErrorHardReset: "Hard Reset",
-    ImportGameDesc: "%{import} importa negli ultimi %{days} giorni",
     FontSizeScaling: "Scala della grandezza del font",
     FontSizeScalingDesc:
         "Cambia la grandezza del font nell'interfaccia del giocatore. Alcuni elementi dell'interfaccia del giocatore potrebbero sembrare spostati. RICHIEDE IL RIAVVIO",
