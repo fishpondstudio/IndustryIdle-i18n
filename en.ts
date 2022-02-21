@@ -1035,7 +1035,7 @@ export const EN = {
     WholesaleCenterOrderFasterV2: "Bigger Faster Wholesale",
     OfflineResearchSwissBoost: "Offline Research",
     OfflineResearchSwissBoostDesc:
-        "Research points are generated while you are offline (according to your Research Lab level, Science in your warehouse and offline earning time)",
+        "Research points are generated while you are offline (according to your Research Lab level, Science in its storage and offline earning time)",
     SanJose: "San Jose",
     SanJoseBonus:
         "<li>Unique building: chip manufacturer</li><li>Unique building: FaceApp Inc</li><li>Unique building: Bitcoin Miner</li><li>All buildings that consume silicon have max tile modifier</li><li>Start with 100% Industry Zone Capacity Booster</li><li>Extra 25% return for crowdfunding</li><li>All buildings that consume or produce internet has 2x capacity</li><li>Solar panels generate 2x power</li><li>Silicon mines have 2x output</li>",
@@ -1325,7 +1325,6 @@ export const EN = {
     CristoRedentorDesc: "Consumes culture and provide adjacent bonus to any building",
     Istanbul: "Istanbul",
     Wormhole: "Wormhole",
-    DefenseCommand: "Defense Command",
     WavesSurvived: "Waves Survived",
     NumberOfWormholes: "Number of Wormholes on Map",
     NextWave: "Next Wave",
@@ -1344,4 +1343,23 @@ export const EN = {
     WaveEliminated: "Eliminated",
     WaveFailed: "Failed",
     WaveRetry: "Retry",
+    Damage: "Damage",
+    DefenseCommandConvert: "Convert",
+    DefenseModule: "Defense Module",
+    DefenseModuleAddOne: "Add A Defense Module",
+    DefenseModuleRange: "Range",
+    DefenseModuleDamage: "Damage",
+    DefenseModuleBulletSpeed: "Bullet Speed",
+    DefenseModuleAttackSpeed: "Attack Speed",
+    DefenseModuleUpgrade: "Upgrade",
+    DefenseModuleMaxUpgrade: "Max Upgrade",
+    DefenseModuleCriticalDamageChance: "Critical Damage Chance",
+    DefenseModuleCriticalDamageMultiplier: "Critical Damage Multiplier",
+    DefenseModuleBaseModule: "Base Module",
+    DefenseCommand: "Defense Command",
+    DefenseCommandDesc: "Produce damage from weapons and defend your base against invaders",
+    PathBlocked:
+        "You cannot build on this tile as it will block all the possible paths from wormholes to your headquarter",
+    WaveInProgressBuildRemoveDisabled:
+        "You cannot construct buildings on the pathway or sell buildings when an invasion wave is in progress",
 };
