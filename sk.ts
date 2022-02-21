@@ -1104,7 +1104,6 @@ export const SK = {
         "Social Network Inc is renamed to Meta Inc and consumes internet, game, super computer, bitcoin and dogecoin instead",
     MetaInc: "Meta Inc",
     ImportSave: "Import Save",
-    ExportSave: "Export Save",
     ClearMyTrades: "Clear My Trades",
     SaveVersionTooNew:
         "Your save is from %{saveVersion} but your game is %{gameVersion}. Please update your game first",
@@ -1293,8 +1292,6 @@ export const SK = {
     LoadGameErrorRetry: "Retry",
     LoadGameErrorHardReset: "Hard Reset",
     ImportGameDesc: "%{import} import(s) in the last %{days} days",
-    ExportSaveWarning:
-        "DO NOT share your save file with others (except for the developer) - your save file contains your account identifiers and will allow others to take over your account",
     FontSizeScaling: "Font Size Scaling",
     FontSizeScalingDesc: "Change the UI font size scale. Some UI elements might look out of place. REQUIRES RELOAD",
     FrozenVegetable: "Frozen Vegetable",
@@ -1360,4 +1357,16 @@ export const SK = {
         "You cannot build on this tile as it will block all the possible paths from wormholes to your headquarter",
     WaveInProgressBuildRemoveDisabled:
         "You cannot construct buildings on the pathway or sell buildings when an invasion wave is in progress",
+    ExportSaveForTransfer: "Transfer Your Save",
+    ExportSaveForTransferDesc:
+        "Choose this option if you want to transfer your save across devices. This will export your right to trade to your save file - you can continue to trade after importing the save file. Your current device will not be able to trade without waiting for a cooldown period",
+    ExportSaveForBackup: "Backup Your Save",
+    ExportSaveForBackupDesc:
+        "Choose this if you simply want to take a backup of your progress. This will leave your right to trade on your current device - importing the backup save file will not restore the right to trade without waiting for a cooldown period",
+    CheckRightToTrade: "Check Right To Trade",
+    RightToTradeValid: "Right To Trade",
+    RightToTradeInvalid: "No Right To Trade",
+    RightToTradeInvalidDesc:
+        "This is because your right to trade has been exported to another save file - you should import that save file to restore your right to trade. If you have lost that save file, you can force restore your right to trade on this save but you will be subject to a cooldown and your other save will lose the right to trade",
+    ForceRestoreRightToTrade: "Force Restore (%{cooldown}-hour cooldown)",
 };

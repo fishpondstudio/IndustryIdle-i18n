@@ -1052,7 +1052,6 @@ export const ZH_CN = {
     MetaRebrandingDesc: "社交网络公司更名为元宇宙(Meta)公司并且消耗互联网、游戏、超级计算机、比特币和狗狗币",
     MetaInc: "元宇宙(Meta)公司",
     ImportSave: "导入存档",
-    ExportSave: "导出存档",
     ClearMyTrades: "清除我的交易",
     SaveVersionTooNew: "你的存档保存自%{saveVersion}，但你的游戏是%{gameVersion}。请先更新你的游戏",
     LeaderboardByFlag: "根据玩家旗帜制表",
@@ -1107,8 +1106,7 @@ export const ZH_CN = {
     WarehouseOutputRoutes: "输出路径",
     InputCapacity: "投入量",
     MultipleSources: "Multiple Sources",
-    MultipleSourcesDesc:
-        "允许建筑在一个生产周期内运输来自来源不同的资源",
+    MultipleSourcesDesc: "允许建筑在一个生产周期内运输来自来源不同的资源",
     Water: "水",
     KansasCity: "堪萨斯",
     Dam: "水电站",
@@ -1124,14 +1122,12 @@ export const ZH_CN = {
     Vegetable: "蔬菜",
     FarmlandProduce: "生产",
     FarmlandOfflineFarming: "Offline Farming",
-    FarmlandOfflineFarmingDesc:
-        "建立在自然水上的农田可以在你离线时生产。离线盈利受离线时间和瑞士币升级影响",
+    FarmlandOfflineFarmingDesc: "建立在自然水上的农田可以在你离线时生产。离线盈利受离线时间和瑞士币升级影响",
     FarmlandProductionDesc: "💡 农田每10秒只工作5秒——生产周期都是同一时间的",
     WaterPump: "水泵",
     Greenhouse: "温室",
     GreenhouseDesc: "生产你所选择的庄稼",
-    WaterEntityLevelTooHighDesc:
-        "您的建筑等级高于相邻的水电站大坝等级，请升级你的水电站",
+    WaterEntityLevelTooHighDesc: "您的建筑等级高于相邻的水电站大坝等级，请升级你的水电站",
     AirLiquidizer: "空气液化器",
     CapacitorFactory: "电容厂",
     Capacitor: "电容器",
@@ -1168,8 +1164,7 @@ export const ZH_CN = {
     Burger: "汉堡",
     Sandwich: "三明治",
     StandbyMode: "待机模式",
-    StandbyModeDesc:
-        "游戏将继续在后台运行，但不会呈现任何图形。这将显著的减少GPU的使用，并适度减少CPU的使用",
+    StandbyModeDesc: "游戏将继续在后台运行，但不会呈现任何图形。这将显著的减少GPU的使用，并适度减少CPU的使用",
     StandbyModeOn: "待机模式开启",
     StandbyModeOnDesc: "游戏正在处于待机模式。点击任意位置退出待机模式",
     PigFarm: "养猪场",
@@ -1235,8 +1230,6 @@ export const ZH_CN = {
     LoadGameErrorRetry: "重试",
     LoadGameErrorHardReset: "Hard Reset",
     ImportGameDesc: "最近%{days}天内导入过%{import}次",
-    ExportSaveWarning:
-        "不要与其他人共享你的存档文件（除了开发者）- 你的存档文件里包含了账号标识符，共享存档文件将允许其他人接管你的账号",
     FontSizeScaling: "Font Size Scaling",
     FontSizeScalingDesc: "Change the UI font size scale. Some UI elements might look out of place. REQUIRES RELOAD",
     FrozenVegetable: "Frozen Vegetable",
@@ -1302,4 +1295,16 @@ export const ZH_CN = {
         "You cannot build on this tile as it will block all the possible paths from wormholes to your headquarter",
     WaveInProgressBuildRemoveDisabled:
         "You cannot construct buildings on the pathway or sell buildings when an invasion wave is in progress",
+    ExportSaveForTransfer: "Transfer Your Save",
+    ExportSaveForTransferDesc:
+        "Choose this option if you want to transfer your save across devices. This will export your right to trade to your save file - you can continue to trade after importing the save file. Your current device will not be able to trade without waiting for a cooldown period",
+    ExportSaveForBackup: "Backup Your Save",
+    ExportSaveForBackupDesc:
+        "Choose this if you simply want to take a backup of your progress. This will leave your right to trade on your current device - importing the backup save file will not restore the right to trade without waiting for a cooldown period",
+    CheckRightToTrade: "Check Right To Trade",
+    RightToTradeValid: "Right To Trade",
+    RightToTradeInvalid: "No Right To Trade",
+    RightToTradeInvalidDesc:
+        "This is because your right to trade has been exported to another save file - you should import that save file to restore your right to trade. If you have lost that save file, you can force restore your right to trade on this save but you will be subject to a cooldown and your other save will lose the right to trade",
+    ForceRestoreRightToTrade: "Force Restore (%{cooldown}-hour cooldown)",
 };

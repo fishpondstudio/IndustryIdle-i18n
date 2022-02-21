@@ -1055,7 +1055,6 @@ export const ZH_TW = {
     MetaRebrandingDesc: "將社群網路公司更名為元宇宙（Meta）公司並消耗網際網路、遊戲、超級電腦、比特幣和狗狗幣",
     MetaInc: "元宇宙（Meta）公司",
     ImportSave: "匯入存檔",
-    ExportSave: "導出存檔",
     ClearMyTrades: "清除我的交易",
     SaveVersionTooNew: "你的存檔保存於 %{saveVersion}版本 但你的遊戲是 %{gameVersion}版本. 請更新你的遊戲",
     LeaderboardByFlag: "根據玩家旗幟製表",
@@ -1232,8 +1231,6 @@ export const ZH_TW = {
     LoadGameErrorRetry: "重試",
     LoadGameErrorHardReset: "硬重置",
     ImportGameDesc: "過去 %{days} 天的 %{import} 次導入",
-    ExportSaveWarning:
-        "不要與他人共享您的存檔文件（開發者除外） - 您的存檔文件包含您的帳戶標識符，並且將允許其他人接管您的帳戶",
     FontSizeScaling: "字體大小縮放",
     FontSizeScalingDesc: "更改 UI 字體大小比例。 一些 UI 元素可能看起來不合適。 需要重新加載",
     FrozenVegetable: "冷凍蔬菜",
@@ -1298,4 +1295,16 @@ export const ZH_TW = {
         "You cannot build on this tile as it will block all the possible paths from wormholes to your headquarter",
     WaveInProgressBuildRemoveDisabled:
         "You cannot construct buildings on the pathway or sell buildings when an invasion wave is in progress",
+    ExportSaveForTransfer: "Transfer Your Save",
+    ExportSaveForTransferDesc:
+        "Choose this option if you want to transfer your save across devices. This will export your right to trade to your save file - you can continue to trade after importing the save file. Your current device will not be able to trade without waiting for a cooldown period",
+    ExportSaveForBackup: "Backup Your Save",
+    ExportSaveForBackupDesc:
+        "Choose this if you simply want to take a backup of your progress. This will leave your right to trade on your current device - importing the backup save file will not restore the right to trade without waiting for a cooldown period",
+    CheckRightToTrade: "Check Right To Trade",
+    RightToTradeValid: "Right To Trade",
+    RightToTradeInvalid: "No Right To Trade",
+    RightToTradeInvalidDesc:
+        "This is because your right to trade has been exported to another save file - you should import that save file to restore your right to trade. If you have lost that save file, you can force restore your right to trade on this save but you will be subject to a cooldown and your other save will lose the right to trade",
+    ForceRestoreRightToTrade: "Force Restore (%{cooldown}-hour cooldown)",
 };
