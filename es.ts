@@ -1384,4 +1384,5 @@ export const ES = {
         "This is because your right to trade has been exported to another save file - you should import that save file to restore your right to trade. If you have lost that save file, you can force restore your right to trade on this save but you will be subject to a cooldown and your other save will lose the right to trade",
     ForceRestoreRightToTrade: "Force Restore (%{cooldown}-hour cooldown)",
     ImportSaveRestoreFail: "Failed to connect to the server, please check your internet connection",
+    DefenseCommandConvertDesc: "Convert resources into damage at its current trade center price",
 };
