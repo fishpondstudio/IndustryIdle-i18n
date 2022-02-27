@@ -1,6 +1,6 @@
 export const ZH_CN = {
     Translator: "译者",
-    TranslatorName: "LazySu, snewpeap, Orange233， YinTingChow, HagridThick, Kx1672, WUTONK，CarrlangCha",
+    TranslatorName: "LazySu, snewpeap, Orange233， YinTingChow, HagridThick, Kx1672, WUTONK，CarrlangCha，N13m4nd",
     Language: "语言",
     ThisLanguage: "简体中文",
     OK: "好的",
@@ -1247,11 +1247,11 @@ export const ZH_CN = {
     PerthBonus:
         "<li>Building spinners rotate clockwise, which is opposite to other cities</li><li>Unique deposit: Geothermal vent</li><li>Unique building: Geothermal Power Plant</li><li>Unique policies: Adjacent Explorer (FREE), Factory Mining (FREE)</li>",
     Biofuel: "Biofuel",
-    RioDeJaneiro: "Rio de Janeiro",
+    RioDeJaneiro: "里约热内卢",
     RioDeJaneiroBonus:
-        "<li>Unique fuel: Biofuel</li><li>Pig, cow and chicken farms produces extra biofuel</li><li>Unique building: Biofuel Power Plant</li><li>Unique building: Cristo Redentor</li><li>Resource boosters can boost pig, cow and chicken farms</li><li>Logging camps produce 2x wood</li><li>Lumber mills have 2x capacity</li><li>Frozen chicken, frozen pork and canned beef have 2x trading quota</li>",
-    BiofuelPowerPlant: "Biofuel Power Plant",
-    CristoRedentor: "Cristo Redentor",
+        "<li>独特燃料：生物燃料</li><li>猪，牛和鸡养殖设施可以生产额外的生物燃料</li><li>独特建筑：生物燃料发电站</li><li>独特建筑：救世基督像</li><li>资源加速器可以为猪，牛和鸡养殖场提供加成</li><li>伐木场可以生产两倍的木材</li><li>锯木厂的产能是以往的两倍</li><li>冷冻鸡肉、冷冻猪肉和牛肉罐头有2倍的交易配额</li>",
+    BiofuelPowerPlant: "生物燃料发电站",
+    CristoRedentor: "救世基督像",
     CristoRedentorBanner:
         "Cristo Redentor provides adjacent bonus to any building that has lower or equal level. Its culture consumption grows exponentially if you build more",
     CristoRedentorDesc: "Consumes culture and provide adjacent bonus to any building",
