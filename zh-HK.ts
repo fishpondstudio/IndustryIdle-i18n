@@ -1321,4 +1321,5 @@ export const ZH_HK = {
     DefenseCommandConvertDesc: "Convert resources into damage at its current trade center price",
     MousewheelSensitivity: "Mousewheel Zoom Sensitivity",
     MousewheelSensitivityDesc: "Adjust the sensitivity when scrolling mousewheel to zoom in/out",
+    PlayerTradeFilterWhatIHave: "Filter What I Have",
 };

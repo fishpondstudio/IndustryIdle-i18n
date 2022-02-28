@@ -1370,6 +1370,7 @@ export const RU = {
     WaveEliminated: "Уничтожено",
     WaveFailed: "Неудачно",
     WaveRetry: "Повторить",
+    WaveForfeit: "Forfeit",
     Damage: "Урон",
     DefenseCommandConvert: "Использует",
     DefenseModule: "Модуль защиты",
@@ -1401,7 +1402,9 @@ export const RU = {
     RightToTradeInvalidDesc:
         "Это происходит потому, что ваше право на торговлю было экспортировано в другой файл сохранения - вам следует импортировать этот файл сохранения, чтобы восстановить право на торговлю. Если вы потеряли этот файл сохранения, вы можете принудительно восстановить право на торговлю на этом сохранении, но на вас будет наложен таймера ожидания, а ваше другое сохранение потеряет право на торговлю.",
     ForceRestoreRightToTrade: "Принудительное восстановление (%{cooldown}-час(-ов) таймера ожидания)",
+    ImportSaveRestoreFail: "Failed to connect to the server, please check your internet connection",
     DefenseCommandConvertDesc: "Convert resources into damage at its current trade center price",
     MousewheelSensitivity: "Mousewheel Zoom Sensitivity",
     MousewheelSensitivityDesc: "Adjust the sensitivity when scrolling mousewheel to zoom in/out",
+    PlayerTradeFilterWhatIHave: "Filter What I Have",
 };
