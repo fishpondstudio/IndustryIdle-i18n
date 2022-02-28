@@ -1338,6 +1338,7 @@ export const EL = {
     WaveEliminated: "Eliminated",
     WaveFailed: "Failed",
     WaveRetry: "Retry",
+    WaveForfeit: "Forfeit",
     Damage: "Damage",
     DefenseCommandConvert: "Convert",
     DefenseModule: "Defense Module",
@@ -1371,4 +1372,6 @@ export const EL = {
     ForceRestoreRightToTrade: "Force Restore (%{cooldown}-hour cooldown)",
     ImportSaveRestoreFail: "Failed to connect to the server, please check your internet connection",
     DefenseCommandConvertDesc: "Convert resources into damage at its current trade center price",
+    MousewheelSensitivity: "Mousewheel Zoom Sensitivity",
+    MousewheelSensitivityDesc: "Adjust the sensitivity when scrolling mousewheel to zoom in/out",
 };
