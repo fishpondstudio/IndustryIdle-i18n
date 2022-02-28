@@ -188,9 +188,6 @@ export const IT = {
         "Ottieni %{bonus}% in più di capacità per ogni struttura adiacente funzionante dello stesso tipo",
     ConsiderIncreaseProduction: "💡 Considera un aumento del %{resource} della produzione",
     AlwaysTransportInput: "Modalità Di Scorta",
-    AlwaysTransportInputTradeCenter: "Trasporto Continuo",
-    AlwaysTransportInputTradeCenterDesc:
-        "Trasporta sempre le risorse al centro di scambio, anche se la vendita automatica non è attiva",
     AlwaysTransportInputDesc:
         "Trasporta sempre le risorse di input, anche se sono sotto la prodizione minima richiesta",
     ProductionCycleLength: "Ciclo Di Produzione",
@@ -1384,7 +1381,9 @@ export const IT = {
     DefenseModuleUpgrade: "Upgrade",
     DefenseModuleMaxUpgrade: "Max Upgrade",
     DefenseModuleCriticalDamageChance: "Critical Damage Chance",
+    DefenseModuleCriticalDamageChanceShort: "Crit Dmg %",
     DefenseModuleCriticalDamageMultiplier: "Critical Damage Multiplier",
+    DefenseModuleCriticalDamageMultiplierShort: "Crit Dmg x",
     DefenseModuleBaseModule: "Base Module",
     DefenseCommand: "Defense Command",
     DefenseCommandDesc: "Produce damage from weapons and defend your base against invaders",

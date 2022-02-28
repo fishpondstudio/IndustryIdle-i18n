@@ -183,8 +183,6 @@ export const ZH_TW = {
     AdjacentBonusDesc: "每棟相鄰且運作中的同類型建築物將帶來 %{bonus}% 的額外產能",
     ConsiderIncreaseProduction: "💡 考慮增加%{resource}生產",
     AlwaysTransportInput: "庫存模式",
-    AlwaysTransportInputTradeCenter: "始終集貨",
-    AlwaysTransportInputTradeCenterDesc: "始終將資源運送到貿易中心，即使該資源無法啟用自動銷售",
     AlwaysTransportInputDesc: "始終運輸所需資源，即使儲存量已高於最低生產要求",
     ProductionCycleLength: "生產週期",
     ProductionCycleLengthDesc:
@@ -1287,7 +1285,9 @@ export const ZH_TW = {
     DefenseModuleUpgrade: "Upgrade",
     DefenseModuleMaxUpgrade: "Max Upgrade",
     DefenseModuleCriticalDamageChance: "Critical Damage Chance",
+    DefenseModuleCriticalDamageChanceShort: "Crit Dmg %",
     DefenseModuleCriticalDamageMultiplier: "Critical Damage Multiplier",
+    DefenseModuleCriticalDamageMultiplierShort: "Crit Dmg x",
     DefenseModuleBaseModule: "Base Module",
     DefenseCommand: "Defense Command",
     DefenseCommandDesc: "Produce damage from weapons and defend your base against invaders",

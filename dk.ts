@@ -183,9 +183,6 @@ export const DK = {
     AdjacentBonusDesc: "You get %{bonus}% extra capacity for every adjacent working building of the same type",
     ConsiderIncreaseProduction: "💡 Consider increase %{resource} production",
     AlwaysTransportInput: "Stockpile Mode",
-    AlwaysTransportInputTradeCenter: "Always Export",
-    AlwaysTransportInputTradeCenterDesc:
-        "Always transport resources to Trade Center, even if auto sell is not enabled for that resource",
     AlwaysTransportInputDesc: "Always transport input resources, even if they are above minimal production requirement",
     ProductionCycleLength: "Production Cycle",
     ProductionCycleLengthDesc:
@@ -1350,7 +1347,9 @@ export const DK = {
     DefenseModuleUpgrade: "Upgrade",
     DefenseModuleMaxUpgrade: "Max Upgrade",
     DefenseModuleCriticalDamageChance: "Critical Damage Chance",
+    DefenseModuleCriticalDamageChanceShort: "Crit Dmg %",
     DefenseModuleCriticalDamageMultiplier: "Critical Damage Multiplier",
+    DefenseModuleCriticalDamageMultiplierShort: "Crit Dmg x",
     DefenseModuleBaseModule: "Base Module",
     DefenseCommand: "Defense Command",
     DefenseCommandDesc: "Produce damage from weapons and defend your base against invaders",

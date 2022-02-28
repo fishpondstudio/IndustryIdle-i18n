@@ -186,9 +186,6 @@ export const PT_BR = {
     AdjacentBonusDesc: "Você ganha %{bonus}% de capacidade extra para cada construção adjacente de mesmo tipo operando",
     ConsiderIncreaseProduction: "💡 Considere aumentar a produção de %{resource}",
     AlwaysTransportInput: "Modo de Estoque",
-    AlwaysTransportInputTradeCenter: "Sempre exportar",
-    AlwaysTransportInputTradeCenterDesc:
-        "Sempre transportar recursos ao centro comercial, mesmo se a venda automática estiver desabiltada para este recurso",
     AlwaysTransportInputDesc:
         "Sempre transporte recursos de entrada, mesmo se eles estiverem acima do requisito mínimo de produção",
     ProductionCycleLength: "Ciclo de produção",
@@ -1361,7 +1358,9 @@ export const PT_BR = {
     DefenseModuleUpgrade: "Upgrade",
     DefenseModuleMaxUpgrade: "Max Upgrade",
     DefenseModuleCriticalDamageChance: "Critical Damage Chance",
+    DefenseModuleCriticalDamageChanceShort: "Crit Dmg %",
     DefenseModuleCriticalDamageMultiplier: "Critical Damage Multiplier",
+    DefenseModuleCriticalDamageMultiplierShort: "Crit Dmg x",
     DefenseModuleBaseModule: "Base Module",
     DefenseCommand: "Defense Command",
     DefenseCommandDesc: "Produce damage from weapons and defend your base against invaders",

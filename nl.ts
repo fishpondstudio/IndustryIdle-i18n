@@ -185,9 +185,6 @@ export const NL = {
     AdjacentBonusDesc: "Je krijgt %{bonus}% extra capaciteit voor elk aangrenzend werkend gebouw van hetzelfde type",
     ConsiderIncreaseProduction: "💡 Overweeg %{resource} productie te verhogen",
     AlwaysTransportInput: "Stapel Modus",
-    AlwaysTransportInputTradeCenter: "Altijd Exporteren",
-    AlwaysTransportInputTradeCenterDesc:
-        "Altijd transporteren naar het handelscentrum, ook al is de automatische verkoop niet geactiveerd voor dit product",
     AlwaysTransportInputDesc:
         "Altijd invoer goederen transporteren, zelfs als deze boven de minimale productie vereisten liggen",
     ProductionCycleLength: "Productie Cyclus",
@@ -1357,7 +1354,9 @@ export const NL = {
     DefenseModuleUpgrade: "Upgrade",
     DefenseModuleMaxUpgrade: "Max Upgrade",
     DefenseModuleCriticalDamageChance: "Critical Damage Chance",
+    DefenseModuleCriticalDamageChanceShort: "Crit Dmg %",
     DefenseModuleCriticalDamageMultiplier: "Critical Damage Multiplier",
+    DefenseModuleCriticalDamageMultiplierShort: "Crit Dmg x",
     DefenseModuleBaseModule: "Base Module",
     DefenseCommand: "Defense Command",
     DefenseCommandDesc: "Produce damage from weapons and defend your base against invaders",

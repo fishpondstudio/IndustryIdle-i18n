@@ -186,9 +186,6 @@ export const PL = {
         "Otrzymujesz %{bonus}% dodatkową premię za każdy sąsiadujacy i pracujacy budynek tego samego typu",
     ConsiderIncreaseProduction: "💡 Rozważ zwiekszenie produkcji %{resource} ",
     AlwaysTransportInput: "Nadwyżka magazynowa",
-    AlwaysTransportInputTradeCenter: "Zawsze eksportuj",
-    AlwaysTransportInputTradeCenterDesc:
-        "Zawsze transportuj surowce do Rynku, nawet jeżeli autosprzedaż nie jest aktywna dla danego surowca",
     AlwaysTransportInputDesc:
         "Zawsze transportuj surowce produkcyjne, nawet jeżeli spełnione zostały minimalne wymogi produkcji",
     ProductionCycleLength: "Cykl produkcyjny",
@@ -1367,7 +1364,9 @@ export const PL = {
     DefenseModuleUpgrade: "Upgrade",
     DefenseModuleMaxUpgrade: "Max Upgrade",
     DefenseModuleCriticalDamageChance: "Critical Damage Chance",
+    DefenseModuleCriticalDamageChanceShort: "Crit Dmg %",
     DefenseModuleCriticalDamageMultiplier: "Critical Damage Multiplier",
+    DefenseModuleCriticalDamageMultiplierShort: "Crit Dmg x",
     DefenseModuleBaseModule: "Base Module",
     DefenseCommand: "Defense Command",
     DefenseCommandDesc: "Produce damage from weapons and defend your base against invaders",

@@ -183,9 +183,6 @@ export const TR = {
     AdjacentBonusDesc: "Aynı türdeki her bitişik çalışan bina için %{bonus}% ekstra kapasite elde edersiniz",
     ConsiderIncreaseProduction: "💡 %{resource} üretimini artırmayı düşünün",
     AlwaysTransportInput: "Stoklama Modu",
-    AlwaysTransportInputTradeCenter: "Hepsini ihraç et",
-    AlwaysTransportInputTradeCenterDesc:
-        "Bu kaynak için otomatik satış etkinleştirilmemiş olsa bile kaynakları her zaman Ticaret Merkezine taşıyın",
     AlwaysTransportInputDesc: "Minimum üretim gereksiniminin üzerinde olsalar bile kaynakları daima taşıyın",
     ProductionCycleLength: "Üretim Döngüsü",
     ProductionCycleLengthDesc:
@@ -1350,7 +1347,9 @@ export const TR = {
     DefenseModuleUpgrade: "Upgrade",
     DefenseModuleMaxUpgrade: "Max Upgrade",
     DefenseModuleCriticalDamageChance: "Critical Damage Chance",
+    DefenseModuleCriticalDamageChanceShort: "Crit Dmg %",
     DefenseModuleCriticalDamageMultiplier: "Critical Damage Multiplier",
+    DefenseModuleCriticalDamageMultiplierShort: "Crit Dmg x",
     DefenseModuleBaseModule: "Base Module",
     DefenseCommand: "Defense Command",
     DefenseCommandDesc: "Produce damage from weapons and defend your base against invaders",

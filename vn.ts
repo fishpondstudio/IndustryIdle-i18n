@@ -183,9 +183,6 @@ export const VN = {
     AdjacentBonusDesc: "Bạn được thêm %{bonus}% sản lượng cho mỗi công trình liền kề cùng loại",
     ConsiderIncreaseProduction: "💡 Đề nghị tăng sản lượng %{resource}",
     AlwaysTransportInput: "Chế độ tích trữ",
-    AlwaysTransportInputTradeCenter: "Luôn xuất hàng",
-    AlwaysTransportInputTradeCenterDesc:
-        "Luôn vận chuyển thành phẩm đến Trung tâm Thương mại ngay cả khi không bật chế độ Tự động Bán hàng cho tài nguyên này",
     AlwaysTransportInputDesc: "Luôn vận chuyển nguyên liệu, ngay cả khi vượt qua số lượng tối thiểu cần cho sản xuất",
     ProductionCycleLength: "Chu kỳ sản xuất",
     ProductionCycleLengthDesc:
@@ -1355,7 +1352,9 @@ export const VN = {
     DefenseModuleUpgrade: "Upgrade",
     DefenseModuleMaxUpgrade: "Max Upgrade",
     DefenseModuleCriticalDamageChance: "Critical Damage Chance",
+    DefenseModuleCriticalDamageChanceShort: "Crit Dmg %",
     DefenseModuleCriticalDamageMultiplier: "Critical Damage Multiplier",
+    DefenseModuleCriticalDamageMultiplierShort: "Crit Dmg x",
     DefenseModuleBaseModule: "Base Module",
     DefenseCommand: "Defense Command",
     DefenseCommandDesc: "Produce damage from weapons and defend your base against invaders",
