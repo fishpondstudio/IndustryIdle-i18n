@@ -1312,4 +1312,6 @@ export const ZH_TW = {
     MousewheelSensitivity: "Mousewheel Zoom Sensitivity",
     MousewheelSensitivityDesc: "Adjust the sensitivity when scrolling mousewheel to zoom in/out",
     PlayerTradeFilterWhatIHave: "Filter What I Have",
+    PathTemporarilyBlocked:
+        "You cannot build on this tile as there's a wave in progress. Check again after the wave is finished",
 };
