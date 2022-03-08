@@ -1408,4 +1408,12 @@ export const RU = {
     PlayerTradeFilterWhatIHave: "Отфильтровать то, что у меня есть",
     PathTemporarilyBlocked:
         "Вы не можете строить на этой плитке, так как идет волна. Проверьте еще раз после окончания волны",
+    MobilePriceChangeTitle: "Complementary Expansion Pack 2",
+    MobilePriceChangeDesc:
+        "Price for Expansion Pack 1 on %{platform} has been changed from $4.99 to $2.99. As you are our early supporter and have purchased the expansion with the original price, we would like to offer you a complimentary Expansion Pack 2 ($2.99) when it is released. This should be automatic - but if it doesn't work, you can click Restore Purchases or contact support",
+    MoveBuilding: "Move Building",
+    MoveBuildingInvalidTarget: "Failed to move the building - target tile is not valid",
+    MoveBuildingMoving: "Select An Empty Tile...",
+    WaveAutoNext: "Auto Start",
+    WaveAutoNextDesc: "After successfully defending a wave, automatically claim the reward and start the next one",
 };
