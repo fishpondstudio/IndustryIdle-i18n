@@ -185,9 +185,6 @@ export const NL = {
     AdjacentBonusDesc: "Je krijgt %{bonus}% extra capaciteit voor elk aangrenzend werkend gebouw van hetzelfde type",
     ConsiderIncreaseProduction: "💡 Overweeg %{resource} productie te verhogen",
     AlwaysTransportInput: "Stapel Modus",
-    AlwaysTransportInputTradeCenter: "Altijd Exporteren",
-    AlwaysTransportInputTradeCenterDesc:
-        "Altijd transporteren naar het handelscentrum, ook al is de automatische verkoop niet geactiveerd voor dit product",
     AlwaysTransportInputDesc:
         "Altijd invoer goederen transporteren, zelfs als deze boven de minimale productie vereisten liggen",
     ProductionCycleLength: "Productie Cyclus",
@@ -1345,6 +1342,7 @@ export const NL = {
     WaveEliminated: "Eliminated",
     WaveFailed: "Failed",
     WaveRetry: "Retry",
+    WaveForfeit: "Forfeit",
     Damage: "Damage",
     DefenseCommandConvert: "Convert",
     DefenseModule: "Defense Module",
@@ -1356,7 +1354,9 @@ export const NL = {
     DefenseModuleUpgrade: "Upgrade",
     DefenseModuleMaxUpgrade: "Max Upgrade",
     DefenseModuleCriticalDamageChance: "Critical Damage Chance",
+    DefenseModuleCriticalDamageChanceShort: "Crit Dmg %",
     DefenseModuleCriticalDamageMultiplier: "Critical Damage Multiplier",
+    DefenseModuleCriticalDamageMultiplierShort: "Crit Dmg x",
     DefenseModuleBaseModule: "Base Module",
     DefenseCommand: "Defense Command",
     DefenseCommandDesc: "Produce damage from weapons and defend your base against invaders",
@@ -1378,4 +1378,17 @@ export const NL = {
     ForceRestoreRightToTrade: "Force Restore (%{cooldown}-hour cooldown)",
     ImportSaveRestoreFail: "Failed to connect to the server, please check your internet connection",
     DefenseCommandConvertDesc: "Convert resources into damage at its current trade center price",
+    MousewheelSensitivity: "Mousewheel Zoom Sensitivity",
+    MousewheelSensitivityDesc: "Adjust the sensitivity when scrolling mousewheel to zoom in/out",
+    PlayerTradeFilterWhatIHave: "Filter What I Have",
+    PathTemporarilyBlocked:
+        "You cannot build on this tile as there's a wave in progress. Check again after the wave is finished",
+    MobilePriceChangeTitle: "Complementary Expansion Pack 2",
+    MobilePriceChangeDesc:
+        "Price for Expansion Pack 1 on %{platform} has been changed from $4.99 to $2.99. As you are our early supporter and have purchased the expansion with the original price, we would like to offer you a complimentary Expansion Pack 2 ($2.99) when it is released. This should be automatic - but if it doesn't work, you can click Restore Purchases or contact support",
+    MoveBuilding: "Move Building",
+    MoveBuildingInvalidTarget: "Failed to move the building - target tile is not valid",
+    MoveBuildingMoving: "Select An Empty Tile...",
+    WaveAutoNext: "Auto Start",
+    WaveAutoNextDesc: "After successfully defending a wave, automatically claim the reward and start the next one",
 };

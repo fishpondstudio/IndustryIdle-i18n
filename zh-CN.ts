@@ -182,8 +182,6 @@ export const ZH_CN = {
     AdjacentBonusDesc: "每栋相邻的同类型工作建筑物将带来%{bonus}%的额外产量",
     ConsiderIncreaseProduction: "💡 考虑增加 %{resource} 生产",
     AlwaysTransportInput: "库存模式",
-    AlwaysTransportInputTradeCenter: "始终出口",
-    AlwaysTransportInputTradeCenterDesc: "始终将资源运送到贸易中心，即使该资源没有启用自动销售",
     AlwaysTransportInputDesc: "始终运输投入资源，即使它们高于最低生产要求",
     ProductionCycleLength: "生产周期",
     ProductionCycleLengthDesc:
@@ -1308,4 +1306,17 @@ export const ZH_CN = {
     ForceRestoreRightToTrade: "强制恢复（%{cooldown}小时冷却）",
     ImportSaveRestoreFail: "连接服务器失败，请检查你的网络连接",
     DefenseCommandConvertDesc: "基于当前贸易中心的价格将资源转化为伤害",
+    MousewheelSensitivity: "Mousewheel Zoom Sensitivity",
+    MousewheelSensitivityDesc: "Adjust the sensitivity when scrolling mousewheel to zoom in/out",
+    PlayerTradeFilterWhatIHave: "Filter What I Have",
+    PathTemporarilyBlocked:
+        "You cannot build on this tile as there's a wave in progress. Check again after the wave is finished",
+    MobilePriceChangeTitle: "Complementary Expansion Pack 2",
+    MobilePriceChangeDesc:
+        "Price for Expansion Pack 1 on %{platform} has been changed from $4.99 to $2.99. As you are our early supporter and have purchased the expansion with the original price, we would like to offer you a complimentary Expansion Pack 2 ($2.99) when it is released. This should be automatic - but if it doesn't work, you can click Restore Purchases or contact support",
+    MoveBuilding: "Move Building",
+    MoveBuildingInvalidTarget: "Failed to move the building - target tile is not valid",
+    MoveBuildingMoving: "Select An Empty Tile...",
+    WaveAutoNext: "Auto Start",
+    WaveAutoNextDesc: "After successfully defending a wave, automatically claim the reward and start the next one",
 };

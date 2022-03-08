@@ -184,9 +184,6 @@ export const RU = {
         "Вы получаете %{bonus}% дополнительной мощности за каждое рабочее здание того же типа находящееся рядом",
     ConsiderIncreaseProduction: "💡 Рассмотрите возможность увеличения производства %{resource}",
     AlwaysTransportInput: "Режим накопления запасов",
-    AlwaysTransportInputTradeCenter: "Постоянный экспорт",
-    AlwaysTransportInputTradeCenterDesc:
-        "Всегда перевозить ресурсы в Торговый центр, даже если для этого ресурса не включена автопродажа",
     AlwaysTransportInputDesc:
         "Всегда перевозить входные ресурсы, даже если они превышают минимальную потребность производства",
     ProductionCycleLength: "Производственный Цикл",
@@ -1370,6 +1367,7 @@ export const RU = {
     WaveEliminated: "Уничтожено",
     WaveFailed: "Неудачно",
     WaveRetry: "Повторить",
+    WaveForfeit: "Forfeit",
     Damage: "Урон",
     DefenseCommandConvert: "Использует",
     DefenseModule: "Модуль защиты",
@@ -1381,7 +1379,9 @@ export const RU = {
     DefenseModuleUpgrade: "Модернизировать",
     DefenseModuleMaxUpgrade: "Максимальная модернизация",
     DefenseModuleCriticalDamageChance: "Шанс критического урона",
+    DefenseModuleCriticalDamageChanceShort: "Crit Dmg %",
     DefenseModuleCriticalDamageMultiplier: "Множитель критического урона",
+    DefenseModuleCriticalDamageMultiplierShort: "Crit Dmg x",
     DefenseModuleBaseModule: "Базовый модуль",
     DefenseCommand: "Оборонительный пункт",
     DefenseCommandDesc: "Производите урон от вооружения и защищайте свою базу от захватчиков",
@@ -1401,5 +1401,19 @@ export const RU = {
     RightToTradeInvalidDesc:
         "Это происходит потому, что ваше право на торговлю было экспортировано в другой файл сохранения - вам следует импортировать этот файл сохранения, чтобы восстановить право на торговлю. Если вы потеряли этот файл сохранения, вы можете принудительно восстановить право на торговлю на этом сохранении, но на вас будет наложен таймера ожидания, а ваше другое сохранение потеряет право на торговлю.",
     ForceRestoreRightToTrade: "Принудительное восстановление (%{cooldown}-час(-ов) таймера ожидания)",
+    ImportSaveRestoreFail: "Failed to connect to the server, please check your internet connection",
     DefenseCommandConvertDesc: "Convert resources into damage at its current trade center price",
+    MousewheelSensitivity: "Mousewheel Zoom Sensitivity",
+    MousewheelSensitivityDesc: "Adjust the sensitivity when scrolling mousewheel to zoom in/out",
+    PlayerTradeFilterWhatIHave: "Filter What I Have",
+    PathTemporarilyBlocked:
+        "You cannot build on this tile as there's a wave in progress. Check again after the wave is finished",
+    MobilePriceChangeTitle: "Complementary Expansion Pack 2",
+    MobilePriceChangeDesc:
+        "Price for Expansion Pack 1 on %{platform} has been changed from $4.99 to $2.99. As you are our early supporter and have purchased the expansion with the original price, we would like to offer you a complimentary Expansion Pack 2 ($2.99) when it is released. This should be automatic - but if it doesn't work, you can click Restore Purchases or contact support",
+    MoveBuilding: "Move Building",
+    MoveBuildingInvalidTarget: "Failed to move the building - target tile is not valid",
+    MoveBuildingMoving: "Select An Empty Tile...",
+    WaveAutoNext: "Auto Start",
+    WaveAutoNextDesc: "After successfully defending a wave, automatically claim the reward and start the next one",
 };
