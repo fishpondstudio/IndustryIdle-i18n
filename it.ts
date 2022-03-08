@@ -1408,4 +1408,14 @@ export const IT = {
     MousewheelSensitivity: "Sensibilità della rotella del mouse",
     MousewheelSensitivityDesc: "Aggiusta la sensibilità del mouse quando esegui zoom in e zoom out",
     PlayerTradeFilterWhatIHave: "Filtra ciò che possiedo",
+    PathTemporarilyBlocked:
+        "You cannot build on this tile as there's a wave in progress. Check again after the wave is finished",
+    MobilePriceChangeTitle: "Complementary Expansion Pack 2",
+    MobilePriceChangeDesc:
+        "Price for Expansion Pack 1 on %{platform} has been changed from $4.99 to $2.99. As you are our early supporter and have purchased the expansion with the original price, we would like to offer you a complimentary Expansion Pack 2 ($2.99) when it is released. This should be automatic - but if it doesn't work, you can click Restore Purchases or contact support",
+    MoveBuilding: "Move Building",
+    MoveBuildingInvalidTarget: "Failed to move the building - target tile is not valid",
+    MoveBuildingMoving: "Select An Empty Tile...",
+    WaveAutoNext: "Auto Start",
+    WaveAutoNextDesc: "After successfully defending a wave, automatically claim the reward and start the next one",
 };
