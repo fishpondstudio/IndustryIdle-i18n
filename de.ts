@@ -188,9 +188,6 @@ export const DE = {
         "Du erhältst %{bonus}% zusätzliche Kapazität für jedes angrenzende und arbeitende Gebäude der selben Art",
     ConsiderIncreaseProduction: "💡 Versuche %{resource} Produktionserhöhrung",
     AlwaysTransportInput: "Vorratsmodus",
-    AlwaysTransportInputTradeCenter: "Immer exportieren",
-    AlwaysTransportInputTradeCenterDesc:
-        "Transportiere Ressourcen immer zum Marktplatz, auch wenn der automatische Verkauf für die Ressource nicht aktiviert ist",
     AlwaysTransportInputDesc: "Transportiere benötigte Ware immer, auch wenn es mehr ist als benötigt",
     ProductionCycleLength: "Produktionszyklus",
     ProductionCycleLengthDesc:
@@ -1041,7 +1038,8 @@ export const DE = {
     MultiplierSwissUpgrade: "Schweizer Upgrade (Permanent)",
     MultiplierSwissBoost: "Schweizer Boost (Aktuelle Stadt)",
     SwissBoostCostDivider: "Schweizer Boost Kostenteiler",
-    SwissBoostCostDividerDesc: "Teile die Schweizer Boost Kosten durch diesen Wert - funktioniert nur für Multiplikator/Teiler-Verbesserungen",
+    SwissBoostCostDividerDesc:
+        "Teile die Schweizer Boost Kosten durch diesen Wert - funktioniert nur für Multiplikator/Teiler-Verbesserungen",
     AirForceCommand: "Luftwaffenführung",
     AirForce: "Luftwaffe",
     StealthFighterFactory: "Tarnkappenbomberfabrik",
@@ -1049,12 +1047,14 @@ export const DE = {
     ArmyCommand: "Heeresführung",
     Army: "Heer",
     GreenPeacekeeper: "Green Peacekeeper",
-    GreenPeacekeeperDesc: "Stelle Herr, Marine, Lufwaffe oder Space Force nur mit erneuerbaren Energien her (Wind/Solar)",
+    GreenPeacekeeperDesc:
+        "Stelle Herr, Marine, Lufwaffe oder Space Force nur mit erneuerbaren Energien her (Wind/Solar)",
     DotComTycoon: "DotCom Tycoon",
     DotComTycoonDesc:
         "Baue einen Stufe 10 Scial Network Inc, Stufe 10 Suchmaschinenfirma, Stufe 10 Skynet Inc und Stufe 10 Musify Inc auf derselben Karte",
     ConstructionNotResearched: "Nicht erforscht",
-    OfflineEarningDescV2: "Offline-Einkommen basiert auf deiner derzeitigen Forschung, Produktion und automatischem Verkauf",
+    OfflineEarningDescV2:
+        "Offline-Einkommen basiert auf deiner derzeitigen Forschung, Produktion und automatischem Verkauf",
     HighSpeedWarehouse: "Hochgeschwindigkeits-Warenhaus",
     HighSpeedWarehouseDesc:
         "Warenhäuser haben doppelte Kapazität und 50% schnelleren Warentransport, baut verbrauchen doppelt so viel Strom",
@@ -1125,10 +1125,11 @@ export const DE = {
     ReindeerSilicon: "Rentier-Silizium",
     ReindeerSiliconDesc: "Alle Gebäude, die Silizium verbrauchen, nutzen stattdessen Rentiere (Kostenlose Richtlinie)",
     ReindeerAluminum: "Rentier-Aluminium",
-    ReindeerAluminumDesc: "Alle Gebäude, die Aluminium verbrauchen, nutzen stattdessen Rentiere (Kostenlose Richtlinie)",
+    ReindeerAluminumDesc:
+        "Alle Gebäude, die Aluminium verbrauchen, nutzen stattdessen Rentiere (Kostenlose Richtlinie)",
     SantaClauseIsComing: "Der Weihnachtsmann kommt :^)",
-    SantaClauseIsComigDesc:
-        "Santa-Fabriken verbrauchen Rentiere und Spielzeug und produzieren Santa, Wissenschaft und Kultur. Santa-Fabriken haben maximalen Zellen-Modifikator. Spielzeug-Fabriken produzieren neben Spielzeug auch Rentiere (Kostenlose Richtlinie)",
+    SantaClauseIsComingDesc:
+        "Santa factories consume reindeer and toy and produce santa, science and culture. Santa factories have max tile modifier. Toy factories produce reindeer in addition to toy (FREE POLICY)",
     MetaRebranding: "Meta Rebranding",
     MetaRebrandingDesc:
         "Social Network Inc wird zu Meta Inc umbenannt und verbraucht stattdessen Internet, Game, Super Computer, Bitcoin und Dogecoin.",
@@ -1166,7 +1167,8 @@ export const DE = {
     RandomIsland: "Zufällige Insel",
     RandomIslandBonus:
         "<li>Die Karte ist jedes mal anders wenn du neu beginnst</li><li>Kartengröße, Zellentyp, Ressourcenvorkommen und einzigartige Boni werden alle zufällig ausgewählt</li><li>Für Kartenneustarts gibt es eine 5 Minuten Wartezeit</li>",
-    RandomIslandBonusDesc: "Der einzigartige Bonus auf der zufälligen Insel verändert sich jedes mal, wenn du auf der Karte neu startest.",
+    RandomIslandBonusDesc:
+        "Der einzigartige Bonus auf der zufälligen Insel verändert sich jedes mal, wenn du auf der Karte neu startest.",
     RandomIslandBonusCapacity: "%{building} hat %{multiplier}x Kapazität",
     RandomIslandBonusProductivity: "%{building} hat %{multiplier}x Produktivität",
     RandomIslandBonusResources: "Resourcenvorkommen auf dieser Karte: %{deposits}",
@@ -1191,8 +1193,7 @@ export const DE = {
     WarehouseOutputRoutes: "Ausgaberouten",
     InputCapacity: "benötigte Materialien",
     MultipleSources: "Mehrere Quellen",
-    MultipleSourcesDesc:
-        "Das Gebäude bezieht Ressourcen von mehreren Quellen während eines Kreifslaufes",
+    MultipleSourcesDesc: "Das Gebäude bezieht Ressourcen von mehreren Quellen während eines Kreifslaufes",
     Water: "Wasser",
     KansasCity: "Kansas City",
     Dam: "Staudamm",
@@ -1234,8 +1235,7 @@ export const DE = {
     SugarRefinery: "Zuckerraffenerie",
     RefinedSugar: "raffinierter Zucker",
     ShowSupplyChain: "Lieferkette",
-    ShowSupplyChainDesc:
-        "Wenn du ein Gebäude hervorhebst, zeige die gesamte Lieferkette.",
+    ShowSupplyChainDesc: "Wenn du ein Gebäude hervorhebst, zeige die gesamte Lieferkette.",
     Cake: "Kuchen",
     ChooseARecipe: "Wähle ein Rezept",
     ChickenFarm: "Geflügelzuchtbetrieb",
@@ -1273,7 +1273,8 @@ export const DE = {
     StreamingStop: "Stop",
     StreamingPlayerDisconnected: "%{player} hat deinen Stream verlassen",
     StreamingPlayerRejected: "%{player} hat deine Streamanfrage abgelehnt",
-    StreamingPlayerRequested: "%{player} hat angefragt deinem Stream zuzuschauen, gehe zum Hauptquartier um anzunehmen oder abzulehnen",
+    StreamingPlayerRequested:
+        "%{player} hat angefragt deinem Stream zuzuschauen, gehe zum Hauptquartier um anzunehmen oder abzulehnen",
     StreamingSettings: "Streameinstellungen",
     StreamingAvailableStreams: "Verfügbare Streams",
     StreamingAudience: "Zuschauer",
@@ -1322,7 +1323,8 @@ export const DE = {
     LoadGameErrorRetry: "Wiederholen",
     LoadGameErrorHardReset: "Hard Reset",
     FontSizeScaling: "Schriftgröße",
-    FontSizeScalingDesc: "Verändert die Schriftgröße. Die Benutzeroberfläche könnte komisch aussehen. Benötigt Neustart.",
+    FontSizeScalingDesc:
+        "Verändert die Schriftgröße. Die Benutzeroberfläche könnte komisch aussehen. Benötigt Neustart.",
     FrozenVegetable: "Gefrohrenes Gemüse",
     MilkPowder: "Milchpulver",
     CannedFish: "Dosenfisch",
@@ -1379,7 +1381,9 @@ export const DE = {
     DefenseModuleUpgrade: "Verbesserung",
     DefenseModuleMaxUpgrade: "Maximale Verbesserung",
     DefenseModuleCriticalDamageChance: "kritische Trefferwahrscheinlichkeit",
+    DefenseModuleCriticalDamageChanceShort: "Crit Dmg %",
     DefenseModuleCriticalDamageMultiplier: "Kritischer-Schaden-Multiplikator",
+    DefenseModuleCriticalDamageMultiplierShort: "Crit Dmg x",
     DefenseModuleBaseModule: "Basismodul",
     DefenseCommand: "Oberkommando der Verteidigung",
     DefenseCommandDesc: "Verursache Schaden mit Waffen und verteidige deine Basis gegen Eindringlinge",

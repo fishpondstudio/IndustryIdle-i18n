@@ -1001,7 +1001,8 @@ export const ZH_CN = {
     BaseProductionMultiplier: "基础生产",
     ShowBreakdown: "展开明细",
     HideBreakdown: "收起明细",
-    IndustryZoneMultiplierSwissBoostDescV2: "工业园内的每一层生产链都为本工业园内的所有建筑以生产乘数的形式提供产能提升加成，提供的生产乘数等于生产链层数乘以这个百分比",
+    IndustryZoneMultiplierSwissBoostDescV2:
+        "工业园内的每一层生产链都为本工业园内的所有建筑以生产乘数的形式提供产能提升加成，提供的生产乘数等于生产链层数乘以这个百分比",
     IndustryZoneBuildingPermitDesc: "如果一个工业园内有N层生产链，它将免费提供N-2个建筑许可证",
     CrowdfundingBackersReturn: "捐助者：%{backers}，当前的回报率：%{return}",
     CrowdfundingBackersNeeded: "再有%{backers}位捐助者",
@@ -1089,8 +1090,7 @@ export const ZH_CN = {
     GV: "地热喷口",
     GeothermalPowerPlant: "地热发电厂",
     AdjacentExplorer: "相邻勘探者",
-    AdjacentExplorerDesc:
-        "当与正在勘探中的资源相邻时，资源勘探者的生产能力是原来的2倍（免费政策）",
+    AdjacentExplorerDesc: "当与正在勘探中的资源相邻时，资源勘探者的生产能力是原来的2倍（免费政策）",
     FactoryMining: "工厂采矿",
     FactoryMiningDesc: "工厂可以直接在矿床地块上采矿，前提是工厂消耗与该地块相同的矿产资源（免费政策）",
     FactoryMiningBanner: "该建筑物正在从该地块上直接采集%{resource}",
@@ -1189,13 +1189,11 @@ export const ZH_CN = {
     StreamingAcceptStream: "接受",
     StreamingRejectStream: "拒绝",
     StreamingStopStreamDesc: "停止为这位观众推流",
-    StreamingConnectionFailed:
-        "点对点连接失败 - 看起来你的网络很可能不支持P2P连接",
+    StreamingConnectionFailed: "点对点连接失败 - 看起来你的网络很可能不支持P2P连接",
     Pizza: "披萨",
     StreamingStartRecord: "开始录制",
     StreamingRecordCamera: "录制一个定向片段",
-    StreamingRecordCameraDesc:
-        "录制一个持续10秒的定向片段 - 镜头会自动设置为最大缩放并慢慢缩小",
+    StreamingRecordCameraDesc: "录制一个持续10秒的定向片段 - 镜头会自动设置为最大缩放并慢慢缩小",
     StreamingStopRecord: "停止录制",
     StreamingRecordingReady: "录制已准备好",
     StreamingRecordingReadyDesc: "你可以保存你的录制文件并使用兼容的播放器播放它",
@@ -1240,8 +1238,7 @@ export const ZH_CN = {
     KansasCityBonus:
         "<li>农田和温室生产2倍玉米</li><li>玉米免费运输</li><li>每一级，水坝为相邻的农田提供5%的加成</li><li>每2个农田提供1个免费建筑许可证</li><li>“日不落”政策同样使农田在100%的时间工作（包括离线）</li><li>交易农作物时拥有2倍玩家交易配额</li><li>食品加工厂已预先解锁</li>",
     KansasCityHydroDamBoost: "堪萨斯城独特加成：这个水坝为相邻的农田提供 %{boost} 加成",
-    PerthGeothermalPowerPlantBoost:
-        "珀斯独特加成：这个地热发电厂为相邻的生产钢的建筑物提供 %{boost} 加成",
+    PerthGeothermalPowerPlantBoost: "珀斯独特加成：这个地热发电厂为相邻的生产钢的建筑物提供 %{boost} 加成",
     PerthBonus:
         "<li>建筑旋转器顺时针旋转，与其他城市相反</li><li>独特矿床：地热喷口</li><li>独特建筑：地热发电厂</li><li>独特政策：相邻勘探者（免费），工厂采矿（免费）</li>",
     Biofuel: "生物燃料",
@@ -1250,8 +1247,7 @@ export const ZH_CN = {
         "<li>独特燃料：生物燃料</li><li>养猪场、养牛场和养鸡场生产额外的生物燃料</li><li>独特建筑：生物燃料发电厂</li><li>独特建筑：救世基督像</li><li>资源加速器可以加速养猪场、养牛场和养鸡场</li><li>伐木场生产的原木是原来的2倍</li><li>锯木厂的生产能力是原来的2倍</li><li>冷冻鸡肉、冷冻猪肉和牛肉罐头拥有2倍交易配额</li>",
     BiofuelPowerPlant: "生物燃料发电厂",
     CristoRedentor: "救世基督像",
-    CristoRedentorBanner:
-        "救世基督像为相邻的不高于自身等级的任意建筑提供相邻加成，消耗的文化点随着建造的数量成倍增长",
+    CristoRedentorBanner: "救世基督像为相邻的不高于自身等级的任意建筑提供相邻加成，消耗的文化点随着建造的数量成倍增长",
     CristoRedentorDesc: "消耗文化点并为任意建筑提供相邻加成",
     Istanbul: "伊斯坦布尔",
     Wormhole: "虫洞",
@@ -1273,6 +1269,7 @@ export const ZH_CN = {
     WaveEliminated: "已消灭",
     WaveFailed: "已失败",
     WaveRetry: "重试",
+    WaveForfeit: "Forfeit",
     Damage: "伤害",
     DefenseCommandConvert: "转化",
     DefenseModule: "防御模块",
@@ -1284,14 +1281,14 @@ export const ZH_CN = {
     DefenseModuleUpgrade: "升级",
     DefenseModuleMaxUpgrade: "最大升级",
     DefenseModuleCriticalDamageChance: "暴击概率",
+    DefenseModuleCriticalDamageChanceShort: "Crit Dmg %",
     DefenseModuleCriticalDamageMultiplier: "暴击伤害",
+    DefenseModuleCriticalDamageMultiplierShort: "Crit Dmg x",
     DefenseModuleBaseModule: "基地模块",
     DefenseCommand: "防御司令部",
     DefenseCommandDesc: "用武器造成伤害并保卫你的基地免受入侵者的侵害",
-    PathBlocked:
-        "你不能在这个地块上建造，因为这将堵住从虫洞到总部的所有可能路径",
-    WaveInProgressBuildRemoveDisabled:
-        "正在被入侵时，你不能建造或出售建筑物",
+    PathBlocked: "你不能在这个地块上建造，因为这将堵住从虫洞到总部的所有可能路径",
+    WaveInProgressBuildRemoveDisabled: "正在被入侵时，你不能建造或出售建筑物",
     ExportSaveForTransfer: "转移你的存档",
     ExportSaveForTransferDesc:
         "如果你想要在你的设备间转移存档，选择这个选项。这将把你的交易权限导出到存档文件中 - 你可以在导入这个存档文件后继续交易。你的当前设备将失去交易权限，除非等待一段冷却时间。",

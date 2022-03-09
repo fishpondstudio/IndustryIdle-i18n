@@ -1253,7 +1253,7 @@ export const EN = {
     StreamingConnectionFailed:
         "Failed to establish a peer connection - it is very likely your network doesn't support P2P connection",
     Pizza: "Pizza",
-    StreamingStartRecord: "Start recording",
+    StreamingStartRecord: "Start Recording",
     StreamingRecordCamera: "Record a Director's Cut",
     StreamingRecordCameraDesc:
         "Record a 10 second pre-directed sequence - the camera will set to max zoom and slowly zoom out",

@@ -1369,7 +1369,7 @@ export const IT = {
     WaveEliminated: "Eliminato",
     WaveFailed: "Fallito",
     WaveRetry: "Riprova",
-    WaweForfeit: "Penalizzata",
+    WaveForfeit: "Forfeit",
     Damage: "Danno",
     DefenseCommandConvert: "Converti",
     DefenseModule: "Modulo di difesa",
