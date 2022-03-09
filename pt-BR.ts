@@ -1,6 +1,6 @@
-export const PT_BR = {
+export const PT_BR = { 
     Translator: "Tradutor",
-    TranslatorName: "Altruista, Bertei e Toni177" ,
+    TranslatorName: "Altruista,Bertei e Toni177" ,
     Language: "Idioma",
     ThisLanguage: "Português (BR)",
     OK: "OK",
@@ -31,9 +31,9 @@ export const PT_BR = {
     Petrol: "Petróleo",
     Buy: "Comprar",
     NoLiquidity: "Sem liquidez",
-    NoLiquidityTurnOffAutoSell: "Não há liquidez no mercado suficiente por %{res}, venda automática desativada",
+    NoLiquidityTurnOffAutoSell: "Não há liquidez no mercado suficiente por %{res},venda automática desativada",
     Multiplier: "Multiplicador",
-    MultiplierDesc: "A cada 10 níveis, você ganha +1 multiplicador",
+    MultiplierDesc: "A cada 10 níveis,você ganha +1 multiplicador",
     SellBuilding: "Vender Construção",
     PowerGrid: "Malha energética",
     TradeAmount: "Quantidade da negociação",
@@ -78,9 +78,9 @@ export const PT_BR = {
     Rocket: "Foguete",
     RocketFactory: "Fábrica de foguetes",
     BuildingPermit: "Permissão para construir",
-    BuildingPermitDesc:
-        "Você tem permissão para %{amount} construções, você já construiu %{amountBuilt} e tem %{amountLeft} sobrando",
-    BuildingLocked: "Construção ainda não disponível, você precisa desbloquear no Centro de Pesquisa primeiro",
+    BuildingPermitDesc: 
+        "Você tem permissão para %{amount} construções,você já construiu %{amountBuilt} e tem %{amountLeft} sobrando",
+    BuildingLocked: "Construção ainda não disponível,você precisa desbloquear no Centro de Pesquisa primeiro",
     MaxBuilders: "Máximo de Construtores",
     MaxBuildersDesc: "Número de edifícios que você pode construir ao mesmo tempo",
     Silicon: "Silício",
@@ -94,7 +94,7 @@ export const PT_BR = {
     TradeCenter: "Centro Comercial",
     Resources: "Recursos",
     NotEnoughCash: "Dinheiro insuficiente para esta operação",
-    NotEnoughSwissMoney: "Não há dinheiro Suiço suficiente para essa operação",
+    NotEnoughSwissMoney: "Não há dinheiro Suíço suficiente para essa operação",
     BuildingNotEnoughFuel: "💡 %{fuel} insuficiente",
     AutoSell: "Venda automática",
     Change: "Trocar",
@@ -119,7 +119,7 @@ export const PT_BR = {
     CarFactory: "Fábrica de Carros",
     Ship: "Navio",
     SolarPanel: "Painel Solar",
-    SolarPanelDesc:
+    SolarPanelDesc: 
         "💡 Painéis Solares trabalham apenas 5 segundos em cada 10 segundos - todos os ciclos estão alinhados",
     WindTurbineDesc: "💡 Turbinas eólicas trabalham apenas 8 segundos em cada 10 segundos - ciclos não estão alinhados",
     Movie: "Filme",
@@ -140,7 +140,7 @@ export const PT_BR = {
     ResourceOutput: "Saída",
     ResourceStorage: "Armazém",
     ResourceChange: "Alterar",
-    ResourceInOutDesc:
+    ResourceInOutDesc: 
         "💡 Clique nos números de Entrada-Saída acima para realçar as correspondentes construções de saída e entrada",
     MarketUpdateIn: "Atualização de mercado em %{time}",
     Semiconductor: "Semicondutor",
@@ -177,8 +177,8 @@ export const PT_BR = {
     ChromiumAlloyPlant: "Planta de Liga de Cromo",
     Input: "Entrada",
     PanelPosition: "Posição do painel",
-    PanelPositionDesc:
-        "Mostrar painel lateral à esquerda, direita ou automático (depende do bloco selecionado atualmente)",
+    PanelPositionDesc: 
+        "Mostrar painel lateral à esquerda,direita ou automático (depende do bloco selecionado atualmente)",
     Output: "Saída",
     OutputCapacity: "Capacidade de saída",
     ResourceDeposit: "Depósito de recursos",
@@ -186,27 +186,27 @@ export const PT_BR = {
     AdjacentBonusDesc: "Você ganha %{bonus}% de capacidade extra para cada construção adjacente de mesmo tipo operando",
     ConsiderIncreaseProduction: "💡 Considere aumentar a produção de %{resource}",
     AlwaysTransportInput: "Modo de Estoque",
-    AlwaysTransportInputDesc:
-        "Sempre transporte recursos de entrada, mesmo se eles estiverem acima do requisito mínimo de produção",
+    AlwaysTransportInputDesc: 
+        "Sempre transporte recursos de entrada,mesmo se eles estiverem acima do requisito mínimo de produção",
     ProductionCycleLength: "Ciclo de produção",
-    ProductionCycleLengthDesc:
-        "Duração de um ciclo de produção, mensurado em segundos. Prolongar o clico irá aumentar a entrada/saída por ciclo consequentemente diminuindo sua prioridade ao buscar recursos de entrada",
+    ProductionCycleLengthDesc: 
+        "Duração de um ciclo de produção,mensurado em segundos. Prolongar o clico irá aumentar a entrada/saída por ciclo consequentemente diminuindo sua prioridade ao buscar recursos de entrada",
     MaxInputDistance: "Distância máxima de entrada",
-    MaxInputDistanceDesc:
-        "A distância máxima a partir da qual este edifício pode buscar recursos de entrada, medida em número de blocos",
+    MaxInputDistanceDesc: 
+        "A distância máxima a partir da qual este edifício pode buscar recursos de entrada,medida em número de blocos",
     AutoSellCapacity: "Capacidade de Venda Automática",
-    AutoSellCapacityDesc:
-        "Quantidade máxima de recursos que a venda automática pode manipular por segundo, por recurso",
+    AutoSellCapacityDesc: 
+        "Quantidade máxima de recursos que a venda automática pode manipular por segundo,por recurso",
     CurrentAutoSellCapacityMultiplier: "Multiplicador atual: x%{n}",
     AutoSellConcurrency: "Simultaneidade de venda automática",
     AutoSellConcurrencyDesc: "Número máximo de recursos que a venda automática pode gerenciar ao mesmo tempo",
-    MaxAutoSellConcurrencyReached:
-        "Você atingiu o máximo de vendas automáticas simultâneas, desativa uma venda automática para habilitar esta",
+    MaxAutoSellConcurrencyReached: 
+        "Você atingiu o máximo de vendas automáticas simultâneas,desativa uma venda automática para habilitar esta",
     WallStreet: "Wall Street",
     MarketCap: "Valor de mercado",
     MarketCapDesc: "Capitalização total (i.e. valor de mercado) de sua corporação",
     BuildingValuation: "Estimativa da construção",
-    BuildingValuationDesc: "Valor total de suas construções, incluindo licenças de construção e atualizações",
+    BuildingValuationDesc: "Valor total de suas construções,incluindo licenças de construção e atualizações",
     ResourcesValuation: "Estimativa de recursos",
     ResourcesValuationDesc: "Valor total de recursos no seu inventário",
     Battery: "Bateria",
@@ -215,8 +215,8 @@ export const PT_BR = {
     RatingSell: "Vender",
     SwissShop: "Loja Suíça",
     RatingHold: "Segurar",
-    RatingOutperform: "Exceder",
-    RatingUnderperform: "Underperform",
+    RatingOutperform: "Superior",
+    RatingUnderperform: "Inferior",
     StockRating: "Avaliação de ações",
     JetEngine: "Motor de jato",
     Helicopter: "Helicóptero",
@@ -250,8 +250,8 @@ export const PT_BR = {
     SpaceshipFactory: "Fábrica de nave espacial",
     SatelliteFactory: "Fábrica de satélites",
     JetEngineFactory: "Fábrica de motor de jatos",
-    StockRatingDesc:
-        "Consenso de classificação de ações de analistas de Wall Street, que afeta sua capitalização de mercado e é atualizado junto com o mercado",
+    StockRatingDesc: 
+        "Consenso de classificação de ações de analistas de Wall Street,que afeta sua capitalização de mercado e é atualizado junto com o mercado",
     OfflineEarning: "Ganhos offline",
     PerMin: "%{amount}/min",
     OfflineEarningTime: "Tempo de ganho offline",
@@ -267,20 +267,20 @@ export const PT_BR = {
     HighlightBuildings: "Destacar construções",
     HighlightTurnedOff: "... que estão desativadas",
     HighlightStockpileModeOn: "...que têm o modo de estoque ativado",
-    HighlightProductionCycleNotDefault: "...quem têm o clico de prodição > 1",
+    HighlightProductionCycleNotDefault: "...quem têm o clico de produção > 1",
     HighlightMaxInputDistanceNotDefault: "...que têm distância máxima de entrada < ∞",
     HighlightNotMakingProfit: "... que não geram lucro",
     NBuildingsAreHighlighted: "%{n} construção(ões) são destacadas",
     TurnOffProduction: "Desativar",
-    TurnOffProductionDesc:
+    TurnOffProductionDesc: 
         "Desligue a produção da construção. A construção não transportará mais recursos nem usará energia",
     FuelCostNumber: "%{cost} %{fuel}",
     Unlimited: "Ilimitado",
     Transport: "Transporte",
-    TileModifier: "Tile Modifier",
+    TileModifier: " Modificador de Bloco",
     ShowAllModifiers: "Mostrar todos modificadores",
     HideAllModifiers: "Esconder todos modificadores",
-    NumberOfBuildings: "Numero de construções que você tem",
+    NumberOfBuildings: "Número de construções que você tem",
     ShowContent: "Mostrar conteúdo",
     HideContent: "Esconder conteúdo",
     BuyExpansionPack: "Comprar por %{price}",
@@ -291,15 +291,15 @@ export const PT_BR = {
     InputStrategyFar: "Mais distante",
     InputStrategyFarDesc: "Prefira o armazém mais distante que tenha recursos suficientes",
     InputStrategyAmount: "Quantidade",
-    InputStrategyAmountDesc: "Prefira o armazém com maior quantidade de recursos, independente da distância",
+    InputStrategyAmountDesc: "Prefira o armazém com maior quantidade de recursos,independente da distância",
     FuelCostSave: "Economia de combustível",
-    FuelCostSaveDescV2:
-        "Os armazéns economizam uma certa porcentagem de combustível para transportar recursos em comparação à outros edifícios, quanto maior o nível, Maior a economia",
+    FuelCostSaveDescV2: 
+        "Os armazéns economizam uma certa porcentagem de combustível para transportar recursos em comparação à outros edifícios,quanto maior o nível,Maior a economia",
     SoftwareCompany: "Empresa de programas",
     Software: "Programa",
     ScreenFactory: "Fábrica de telas",
     Screen: "Tela",
-    JoinDiscord: "Junte-se ao nosso servidor Discord para novidades, dicas e discussões",
+    JoinDiscord: "Junte-se ao nosso servidor Discord para novidades,dicas e discussões",
     ClaimOfflineEarning: "Reivindicar ganhos offline",
     OfflineTime: "Tempo desligado",
     Minutes: "%{time}min",
@@ -316,18 +316,18 @@ export const PT_BR = {
     Reward: "Recompensa",
     PerSecond: "%{time}/s",
     PolicyPoint: "Ponto de Política",
-    PolicyPointDesc: "💡 Quanto mais políticas ativas, mais custo para cada política",
+    PolicyPointDesc: "💡 Quanto mais políticas ativas,mais custo para cada política",
     NextOrderIn: "Próximo pedido em",
     FillOrder: "Preencher pedido",
     RejectOrder: "Passar",
-    WholesaleCenterLocked:
+    WholesaleCenterLocked: 
         "Você precisa de pelo menos %{required} recursos diferentes para desbloquear o Centro de atacado. Você tem apenas %{current} recursos",
     OrderFilled: "O pedido de %{from} foi preenchido com sucesso!",
     PolicyCenter: "Centro Político",
-    NewOrder: "Um novo pedido de %{from} chegou, por favor, verifique no Centro de atacado",
+    NewOrder: "Um novo pedido de %{from} chegou,por favor,verifique no Centro de atacado",
     Policies: "Políticas",
     PolicyNotEnoughTime: "Você não tem pontos de política suficientes para esta política",
-    WholesaleCenterOrderFasterDesc:
+    WholesaleCenterOrderFasterDesc: 
         "A Central de atacado recebe pedidos 2x mais rápido e o tamanho do pedido é 2x maior",
     PolicyOilWellPowerx2: "Sobrecarregar Poço de Petróleo",
     PolicyOilWellPowerx2Desc: "Poços de petróleo produzem 2x mais óleo e usam 2x mais energia",
@@ -337,37 +337,37 @@ export const PT_BR = {
     RefineryMoreOilDesc: "Refinarias de petróleo produzem 50% mais gasolina e 50% menos plástico",
     RefineryMorePlastic: "Mais Plásticos Mais Problemas",
     RefineryMorePlasticDesc: "Refinarias de petróleo produzem 50% menos gasolina e 50% mais plástico",
-    FreeOilTransportDesc:
-        "O transporte de petróleo não custa combustível, mas os poços de petróleo usam 2x mais energia",
+    FreeOilTransportDesc: 
+        "O transporte de petróleo não custa combustível,mas os poços de petróleo usam 2x mais energia",
     SuperSteelMill: "Corações de Ferro",
-    SuperSteelMillDesc: "As siderúrgicas usam 50% menos carvão, 25% mais ferro e 25% mais energia",
+    SuperSteelMillDesc: "As siderúrgicas usam 50% menos carvão,25% mais ferro e 25% mais energia",
     AlSemiconductor: "Circuito de IA",
     AlSemiconductorDesc: "As fundições de circuito usam alumínio em vez de cobre",
     CostSaver: "Economia de Custos",
-    CostSaverDesc: "Se a entrada de um edifício custar mais do que sua produção, desligue a produção",
-    CostSaverBuildingDesc:
-        "A política de redução de custos está ativa, a produção será ligada / desligada automaticamente com base em sua lucratividade",
-    CostSaverBuildingWarning:
-        "A política de redução de custos está ativa, você não pode alterar manualmente a produção",
+    CostSaverDesc: "Se a entrada de um edifício custar mais do que sua produção,desligue a produção",
+    CostSaverBuildingDesc: 
+        "A política de redução de custos está ativa,a produção será ligada / desligada automaticamente com base em sua lucratividade",
+    CostSaverBuildingWarning: 
+        "A política de redução de custos está ativa,você não pode alterar manualmente a produção",
     GlassUseCoal: "Vidro Negro",
     GlassUseCoalDesc: "As fábricas de vidro usam 50% mais carvão e 50% menos silício",
     AdjacentBonusOnlyOutput: "Bônus Adjacente Plus",
-    AdjacentBonusOnlyOutputDesc:
-        "O bônus adjacente não requer mais entrada, mas usa mais energia e é apenas 50% eficaz",
+    AdjacentBonusOnlyOutputDesc: 
+        "O bônus adjacente não requer mais entrada,mas usa mais energia e é apenas 50% eficaz",
     IronMine2xOutput: "Ferro Pesado",
-    IronMine2xOutputDesc: "As minas de ferro produzem 2x o ferro, mas o transporte de ferro custa 2x o combustível",
+    IronMine2xOutputDesc: "As minas de ferro produzem 2x o ferro,mas o transporte de ferro custa 2x o combustível",
     SolarPanelAlwaysWork: "O Sol Nunca Se Põe",
-    SolarPanelAlwaysWorkDesc: "Os painéis solares funcionam 100% do tempo, mas produzem 60% menos energia",
+    SolarPanelAlwaysWorkDesc: "Os painéis solares funcionam 100% do tempo,mas produzem 60% menos energia",
     SteelScience: "Conhecimento através do aço",
     SteelScienceDesc: "As usinas siderúrgicas usam 2x mais insumos e produzem ciência extra",
-    ShoppingSpree: "Shopping Spree",
-    ShoppingSpreeDesc:
-        "Se a capacidade de produção de um recurso for insuficiente, compre a quantidade em falta do Centro Comercial automaticamente (se o recurso tiver venda automática, ele será ignorado)",
-    ShoppingSpreeTradeCenterDesc:
-        "💡 A política da Maratona de Compras está ativada, o Centro Comercial comprará automaticamente os recursos em falta",
+    ShoppingSpree: "Maratona de compras",
+    ShoppingSpreeDesc: 
+        "Se a capacidade de produção de um recurso for insuficiente,compre a quantidade em falta do Centro Comercial automaticamente (se o recurso tiver venda automática,ele será ignorado)",
+    ShoppingSpreeTradeCenterDesc: 
+        "💡 A política da Maratona de Compras está ativada,o Centro Comercial comprará automaticamente os recursos em falta",
     ExtraPolicyPoints: "Lobista Político",
     CrAlloyUseFe: "Chroiron",
-    CrAlloyUseFeDesc: "As fábricas de liga de cromo não usam lítio, mas usam 2x ferro em vez disso",
+    CrAlloyUseFeDesc: "As fábricas de liga de cromo não usam lítio,mas usam 2x ferro em vez disso",
     DoubleTileModifier: "Poder da Natureza",
     TileModifierOutputOnly: "Modificador de Bloco Plus",
     GasPlantPetrol: "Liquidificador de Gás",
@@ -378,24 +378,24 @@ export const PT_BR = {
     SeeTutorialAgain: "Refazer Tutorial",
     HelpTranslateTheGame: "Ajude a traduzir o jogo 🌐",
     NextTutorial: "Próximo",
-    Tutorial1:
-        "Industry Idle é um <em> jogo </em> de gestão de recursos em que você constrói fábricas🏭, produz bens📦 e faz dinheiro💸.<br><br>Vamos repassar alguns conceitos básicos para você começar - não vai demorar muito, eu prometo.",
-    Tutorial2:
-        "Todas as construções precisam de energia⚡, você tem a <em>turbina eólica</em> que gera energia. Você pode ver sua produção de energia atual no lado esquerdo da barra superior.<br><br>Você deve ter notado que as turbinas eólicas só funcionam <em>80%</em> do tempo. Você pode considerar a construção de outros tipos de usinas de energia que geram energia estável.",
-    Tutorial3:
-        "Você tem um monte de <em>depósitos de recursos</em> no mapa. Para extrair recursos, você deve construir minas ⛏️ <em>em cima</em> do depósito correspondente.<br><br>Por exemplo, você tem um <em>poço de petróleo 🛢️</em> que extrai <em>petróleo</em> de um depósito.<br></br>Os depósitos de recursos são ilimitados - não há necessidade de se preocupar com o esgotamento. Além das minas, outros edifícios podem ser construídos em qualquer bloco vazio.",
-    Tutorial5:
-        "Para ganhar dinheiro, você precisa exportar seus recursos através do centro de comércio. Para fazer isso, basta ligar <em>Venda Automática</em> para este recurso.<br></br>Você também pode comprar recursos do centro comercial. Lembre-se, <em>se você compra um recurso, você vai aumentar o preço</em> e se você vender um recurso, você vai baixar o preço.<br><br>O mercado é <em>volátil</em> e o preço📈 muda regularmente.",
-    Tutorial6:
-        "Para construir novos edifícios, você precisa primeiro de desbloquear ele no <em>centro de pesquisa🧪</em>. O laboratório de pesquisa também converte ciência em pontos de pesquisa.<br><br>Sua turbina eólica (e outras plantas de energia) produzem uma pequena quantidade de ciência enquanto funcionam. E você também pode construir escolas🏫 e outros edifícios dedicados para impulsionar a ciência mais tarde.<br><br>Agora que você aprendeu o básico, comece a construir sua economia! Aqui está um pouco de <em>dinheiro💸</em> e <em>petróleo⛽</em> para te dar um salto inicial.",
+    Tutorial1: 
+        "Industry Idle é um <em> jogo </em> de gestão de recursos em que você constrói fábricas🏭,produz bens📦 e faz dinheiro💸.<br><br>Vamos repassar alguns conceitos básicos para você começar - não vai demorar muito,eu prometo.",
+    Tutorial2: 
+        "Todas as construções precisam de energia⚡,você tem a <em>turbina eólica</em> que gera energia. Você pode ver sua produção de energia atual no lado esquerdo da barra superior.<br><br>Você deve ter notado que as turbinas eólicas só funcionam <em>80%</em> do tempo. Você pode considerar a construção de outros tipos de usinas de energia que geram energia estável.",
+    Tutorial3: 
+        "Você tem um monte de <em>depósitos de recursos</em> no mapa. Para extrair recursos,você deve construir minas ⛏️ <em>em cima</em> do depósito correspondente.<br><br>Por exemplo,você tem um <em>poço de petróleo 🛢️</em> que extrai <em>petróleo</em> de um depósito.<br></br>Os depósitos de recursos são ilimitados - não há necessidade de se preocupar com o esgotamento. Além das minas,outros edifícios podem ser construídos em qualquer bloco vazio.",
+    Tutorial5: 
+        "Para ganhar dinheiro,você precisa exportar seus recursos através do centro de comércio. Para fazer isso,basta ligar <em>Venda Automática</em> para este recurso.<br></br>Você também pode comprar recursos do centro comercial. Lembre-se,<em>se você compra um recurso,você vai aumentar o preço</em> e se você vender um recurso,você vai baixar o preço.<br><br>O mercado é <em>volátil</em> e o preço📈 muda regularmente.",
+    Tutorial6: 
+        "Para construir novos edifícios,você precisa primeiro de desbloquear ele no <em>centro de pesquisa🧪</em>. O laboratório de pesquisa também converte ciência em pontos de pesquisa.<br><br>Sua turbina eólica (e outras plantas de energia) produzem uma pequena quantidade de ciência enquanto funcionam. E você também pode construir escolas🏫 e outros edifícios dedicados para impulsionar a ciência mais tarde.<br><br>Agora que você aprendeu o básico,comece a construir sua economia! Aqui está um pouco de <em>dinheiro💸</em> e <em>petróleo⛽</em> para te dar um salto inicial.",
     WelcomePlay: "Tocar",
     WelcomePlayMuted: "Tocar (🔇Música)",
     Chat: "Bate-Papo",
     RestoreFromBackup: "Restaurar do backup",
     RestoreFromBackupFail: "Falha ao restaurar o backup do Steam Cloud: você tem certeza que há um backup?",
     RestoreFromBackupTitle: "Certeza?",
-    RestoreFromBackupDesc:
-        "Normalmente, você não precisa restaurar do backup em nuvem, a menos que seu salvamento local seja perdido. O backup na nuvem é um pouco mais antigo que o seu save local",
+    RestoreFromBackupDesc: 
+        "Normalmente,você não precisa restaurar do backup em nuvem,a menos que seu salvamento local seja perdido. O backup na nuvem é um pouco mais antigo que o seu save local",
     ChangeName: "Trocar",
     SaveName: "Salvar",
     NameValidationRule: "Seu nome só pode conter letras e números e ter entre 5-15 caracteres",
@@ -405,28 +405,28 @@ export const PT_BR = {
     NoMessages: "Sem mensagens novas",
     Leaderboard: "Tabela de Classificação",
     Name: "Nome",
-    Tips1: "As classificações de ações têm 5 níveis: comprar, Maior desempenho, manter, Menor desempenho e vender.",
-    Tips2: "Os edifícios pararão de transportar recursos se já houver o suficiente para produção, a menos que você ative o modo de estoque.",
+    Tips1: "As classificações de ações têm 5 níveis: comprar,Maior desempenho,manter,Menor desempenho e vender.",
+    Tips2: "Os edifícios pararão de transportar recursos se já houver o suficiente para produção,a menos que você ative o modo de estoque.",
     Tips3: "O custo do combustível para o transporte de recursos é determinado pela distância e quantidade de recursos.",
     Tips4: "Os edifícios só transportarão um recurso se a quantidade encontrada no mapa exceder a capacidade de entrada.",
     Tips5: "Os edifícios só transportarão um recurso do Centro comercial se a venda automática estiver desativada para esse recurso.",
     Tips6: "Você pode ver o custo de combustível de um recurso na seção de capacidade de entrada correspondente.",
-    Tips7: "Se você comprar um recurso, o preço aumentará. Se você vender um recurso, reduzirá.",
+    Tips7: "Se você comprar um recurso,o preço aumentará. Se você vender um recurso,reduzirá.",
     Tips8: "Você pode ver o gráfico de quantidade de cada recurso e sua mudança ao longo do tempo no Departamento de Estatísticas.",
     Tips9: "Os pontos de pesquisa necessários para um edifício são determinados pelo preço de mercado de seus recursos de entrada.",
-    Tips10: "Diferentes recursos têm preços diferentes no mercado. Esteja sempre preparado para a Variaçao no mercado.",
+    Tips10: "Diferentes recursos têm preços diferentes no mercado. Esteja sempre preparado para a Variação no mercado.",
     Tips11: "É uma boa ideia sempre verificar seu fornecimento de energia e combustível antes de expandir sua produção.",
     FPS30: "Modo economia de energia(30Fps)",
-    OfflineModeDesc:
-        "Não é possível conectar ao servidor: ganhos offline não serão gerados. Por favor, verifique sua conexão à internet",
+    OfflineModeDesc: 
+        "Não é possível conectar ao servidor: ganhos offline não serão gerados. Por favor,verifique sua conexão à internet",
     OptOut: "OptOut",
     OptIn: "OptIn",
     LeaderboardOptOut: "Placares Opt-Out",
     LeaderboardOptIn: "Placares OptIn",
-    LeaderboardOptInDesc: "Seus dados precisam ser RESETADOS antes que você possa reativar a tabela de classificação, tem certeza?",
+    LeaderboardOptInDesc: "Seus dados precisam ser RESETADOS antes que você possa reativar a tabela de classificação,tem certeza?",
     RewardAdsFailed: "O vídeo de recompensa não foi concluído",
     OfflineEarningDoubleSuccess: "Você dobrou seus ganhos offline",
-    FPS30Desc:
+    FPS30Desc: 
         "Ativar o modo de economia de energia executará o jogo a 30FPS em vez de 60FPS. Isso fará com que sua bateria dure mais ou seu PC consuma menos energia",
     HighlightAll: 'Destacar "%{type}"',
     HighlightInput: "🔍 Destacar %{type} entradas",
@@ -434,7 +434,7 @@ export const PT_BR = {
     RunOutIn: "Acaba em %{time}",
     SwissBank: "Banco na Suíça",
     SwissMoney: "%{money} 💵",
-    PrestigeDesc: "Se você começar em uma nova cidade, você receberá %{money} 💵",
+    PrestigeDesc: "Se você começar em uma nova cidade,você receberá %{money} 💵",
     RestorePurchases: "Restaurar compras",
     RestorePurchasesSuccess: "Suas compras foram restauradas",
     RestorePurchasesFailed: "Suas compras não foram restauradas",
@@ -445,46 +445,46 @@ export const PT_BR = {
     RequireAnyExpansionPack: "Pacotes de expansão exclusivos",
     RequireAnyExpansionPackDesc: "Este recurso requer que você tenha pelo menos um dos pacotes de expansão",
     HideRewardAd: "Ocultar recompensas de propagandas",
-    HideRewardAdDesc:
+    HideRewardAdDesc: 
         "Todos os anúncios no jogo são anúncios premiados opcionais. Isso ocultará todas as opções de anúncios premiados do jogo.",
     HideDiscordBanner: "Esconder banner do Discord",
     HideDiscordBannerDesc: "Oculta o banner do Discord no quartel general",
     HideChat: "Esconder bate-papo",
     PurchaseFailed: "A compra não foi concluída",
     PurchaseSteamContinue: "Conclua sua compra no Steam",
-    PurchaseSuccess: "A compra foi concluída, obrigado pelo seu apoio",
+    PurchaseSuccess: "A compra foi concluída,obrigado pelo seu apoio",
     PrestigeCurrency: "Dinheiro Suíço 💵",
-    RestartDesc:
-        "💡 Quer apenas reiniciar? Você pode apertar em Começar em uma nova cidade acima e escolher sua cidade atual",
+    RestartDesc: 
+        "💡Quer apenas reiniciar? Você pode apertar em Começar em uma nova cidade acima e escolher sua cidade atual",
     PrestigeGoBack: "Voltar",
     ProductionMultiplier: "Multiplicador de Produção",
-    ProductionMultiplierDesc:
-        "Um aumento na capacidade de produção de todos os seus edifícios (incluindo minas, fábricas, usinas de energia, edifícios científicos e culturais)",
-    FuelCostDiscount: "Desconto no custo de combustivel",
+    ProductionMultiplierDesc: 
+        "Um aumento na capacidade de produção de todos os seus edifícios (incluindo minas,fábricas,usinas de energia,edifícios científicos e culturais)",
+    FuelCostDiscount: "Desconto no custo de combustível",
     FuelCostDiscountDesc: "Dá um desconto no custo do combustível ao transportar recursos",
     AutoSellCapacityMultiplier: "Multiplicador de capacidade de venda automática",
-    AutoSellCapacityMultiplierDesc:
-        "Um multiplicador que é aplicado à sua capacidade de venda automática, independentemente da capacidade atual",
+    AutoSellCapacityMultiplierDesc: 
+        "Um multiplicador que é aplicado à sua capacidade de venda automática,independentemente da capacidade atual",
     BuildingPermitCostDivider: "Divisor de Custo de Licença de Construção",
     BuildingPermitCostDividerDesc: "Divida o custo da licença de construção por este divisor",
     ExtraAdjacentBonus: "Bônus Extra Adjacente",
     ExtraAdjacentBonusDesc: "Capacidade de bônus extra para cada edifício de trabalho adjacente do mesmo tipo",
     PrestigeAlertTitle: "Você tem certeza?",
-    PrestigeAlertContent:
+    PrestigeAlertContent: 
         "Sua empresa será liquidada. Você sacará %{amount} dinheiro suíço e iniciará uma nova empresa em %{city}",
-    PrestigeCurrencyDesc:
-        "Este é o dinheiro em sua conta bancária secreta na Suíça, você pode aumentar quando começar em uma nova cidade",
+    PrestigeCurrencyDesc: 
+        "Este é o dinheiro em sua conta bancária secreta na Suíça,você pode aumentar quando começar em uma nova cidade",
     Prestige: "Receber",
     Cancel: "Cancelar",
     SaveFileCorrupted: "Arquivo de save corrompido",
     LoadGameError: "Falha em carregar jogo",
     LoadGameErrorMessage: "Mensagem de erro: %{message}",
-    LoadGameErrorDesc: "Por favor, verifique sua conexão com a internet. Se o problema persistir, contate o suporte",
-    ExpansionPackIncompatible:
-        "Você está importando um save com pacotes de expansão, mas seu jogo não tem os pacotes de expansão necessários",
+    LoadGameErrorDesc: "Por favor,verifique sua conexão com a internet. Se o problema persistir,contate o suporte",
+    ExpansionPackIncompatible: 
+        "Você está importando um save com pacotes de expansão,mas seu jogo não tem os pacotes de expansão necessários",
     CashIn: "Dinheiro em caixa",
     CurrentCity: "Cidade atual",
-    CashInDesc:
+    CashInDesc: 
         "Você receberá esse valor em sua conta bancária na Suíça se começar em uma nova cidade. É baseado na capitalização de mercado da sua empresa e deve atingir %{amount} antes de você ganhar dinheiro suíço",
     CitySize: "Tamanho do mapa",
     GridType: "Tipo de Grade",
@@ -498,28 +498,28 @@ export const PT_BR = {
     Oslo: "Oslo",
     StPetersburg: "São Petersburgo",
     Hamburg: "Hamburgo",
-    HamburgBonus:
+    HamburgBonus: 
         "<li>Fábricas de Zepelim são desbloqueadas de início</li><li>Fábricas de Semicondutor têm 2x de produtividade</li><li>Estaleiros têm 2x de capacidade</li><li>Fábrica de Carro têm 2x de capacidade</li><li>Fábrica de bateria Li-ion são desbloqueadas de início</li>",
     Toulouse: "Toulouse",
     Rome: "Roma",
-    RomeBonus:
+    RomeBonus: 
         "<li>Coliseus são desbloqueados de início</li><li>Coliseus têm 2x de produtividade</li><li>Começa com o Centro Político no nível 5</li><li>Casas de Ópera têm 2x de capacidade</li><li>Estúdios de Gravação também produzem cultura</li>",
     Detroit: "Detroit",
     Boston: "Boston",
-    BostonBonus:
+    BostonBonus: 
         "<li>Começa com o Laboratório de Pesquisa no nível 5</li><li>Escolas politécnicas são desbloqueadas de início</li><li>Escolas politécnicas têm 2x de capacidade</li><li>Escolas têm 2x de capacidade</li><li>Universidade têm 2x de produtividade</li>",
     HideNotProducing: "Esconder recursos que não estão sendo produzidos",
     SortByStorage: "Armazenamento",
     SortByName: "nome",
     PlayerTrade: "Troca entre jogadores",
     AddTradeFail: "Falha ao adicionar sua oferta",
-    AddTradeExceedMaximumTrade:
-        "Você só pode ter no máximo %{number} negociações ativas, reivindique ou cancele uma delas primeiro",
+    AddTradeExceedMaximumTrade: 
+        "Você só pode ter no máximo %{number} negociações ativas,reivindique ou cancele uma delas primeiro",
     AddTradeSuccess: "Sua oferta foi adicionada com sucesso",
-    ClaimTradeFail: "Falha em reinvindicar essa oferta, por favor, tente novamente mais tarde",
+    ClaimTradeFail: "Falha em reivindicar essa oferta,por favor,tente novamente mais tarde",
     CancelTradeSuccess: "Sua oferta foi cancelada com sucesso",
-    CancelTradeFail: "Falha em cancelar essa oferta, por favor, tente novamente mais tarde",
-    AcceptTradeFail: "Falha em aceitar essa oferta, por favor, tente novamente mais tarde",
+    CancelTradeFail: "Falha em cancelar essa oferta,por favor,tente novamente mais tarde",
+    AcceptTradeFail: "Falha em aceitar essa oferta,por favor,tente novamente mais tarde",
     PlayerTradeBanner: "Troque recursos com outros jogadores",
     PlayerTradeResource: "Recurso",
     PlayerTradeAmount: "Quantidade",
@@ -531,11 +531,11 @@ export const PT_BR = {
     CancelTrade: "Cancelar",
     ClaimTrade: "Reivindicar",
     FailedToImportSave: "Falha ao importar seu carregamento",
-    CancelActiveTradeFirst: "Você tem trocas de jogadores ativas, por favor cancele ou reivindique primeiro",
+    CancelActiveTradeFirst: "Você tem trocas de jogadores ativas,por favor cancele ou reivindique primeiro",
     PlayerTradeQuotaExceed: "Este comércio excedeu sua cota",
     PlayerTradeValidRange: "Alcance: %{min} ~ %{max}",
     PlayerTradeQuota: "Quota restante: %{value}",
-    PlayerTradeUnavailable:
+    PlayerTradeUnavailable: 
         "Você precisa ter pelo menos um recurso em produção e em armazenamento antes de poder negociar com jogadores",
     PlayerTradeToClaim: "Você tem %{num} novos negócios para reivindicar no Troca entre jogadores",
     PowerBank: "Power Bank",
@@ -544,28 +544,28 @@ export const PT_BR = {
     PowerBankChargeSpeed: "Velocidade de recarga",
     PowerBankPowerLeft: "Energia restante",
     PowerBankMoreCapacity: "Battery Saver",
-    PowerBankMoreCapacityDesc: "Os PowerBank carregam 50% mais rápido e 50% mais capacidade",
-    PowerBankNotWorking: "⛔ Powerbanks só funcionam ao lado de uma usina de energia",
+    PowerBankMoreCapacityDesc: "Os Power Bank carregam 50% mais rápido e 50% mais capacidade",
+    PowerBankNotWorking: "⛔ Power banks só funcionam ao lado de uma usina de energia",
     ColorTheme: "Tema de cor",
-    ColorThemeDesc: "Tema de cores para ícones de jogos, destaque, grade e plano de fundo. (REQUER RECARGA)",
+    ColorThemeDesc: "Tema de cores para ícones de jogos,destaque,grade e plano de fundo. (REQUER RECARGA)",
     SiliconMine2xOutput: "Vale do Silício",
-    SiliconMine2xOutputDesc:
-        "As minas de silício produzem 2x mais, porem usam 50% mais energia e o transporte de silício custa 50% mais combustível",
+    SiliconMine2xOutputDesc: 
+        "As minas de silício produzem 2x mais,porem usam 50% mais energia e o transporte de silício custa 50% mais combustível",
     CoalMine2xOutput: "Revolução industrial",
-    CoalMine2xOutputDesc: "As minas de carvão produzem 2x mais, usam 50% mais energia e e o custo do transporte de carvão dobra",
+    CoalMine2xOutputDesc: "As minas de carvão produzem 2x mais,usam 50% mais energia e e o custo do transporte de carvão dobra",
     AlMine2xOutput: "Fundição de alumínio",
     AlMine2xOutputDesc: "As minas de alumínio produzem 2x mais e Consomem 2x mais energia",
     LoggingCamp2xOutput: "Desmatamento",
     LoggingCamp2xOutputDesc: "Acampamentos madeireiros produzem 2x mais e o custo do transporte de madeira dobra",
     PowerBankLeft: "Armazenamento de energia restante",
     ColorThemeEditor: "Editor de Esquema de Cor",
-    ColorThemeEditorDesc: "Você pode substituir as cores no tema de cores atual. Você tem atualmente %{num} substituiçõesOcultar a notificação de áudio e brinde quando uma mensagem de bate-papo me mencionar",
+    ColorThemeEditorDesc: "Você pode substituir as cores no tema de cores atual. Você tem atualmente %{num} substituições. Ocultar a notificação de áudio e brinde quando uma mensagem de bate-papo me mencionar",
     ColorThemeEditorSave: "Salvar",
     ColorThemeEditorReset: "Restaurar",
     ColorThemeEditorResetAll: "Restaurar tudo",
     NewMessageMentions: "Uma nova mensagem menciona você: %{message}",
     HideChatMentions: "Esconder menções no bate-papo",
-    HideChatMentionsDesc: "Ocultar a notificação sonora quando quando me mencionarem no Bate-Papo,",
+    HideChatMentionsDesc: "Ocultar a notificação sonora quando me mencionarem no Bate-Papo,",
     AcceptTradeFailRateLimit: "Você só pode aceitar um acordo a cada %{time} segundos",
     DowngradeBuilding: "Rebaixar",
     WarehouseAddInput: "Adicionar rota",
@@ -577,24 +577,24 @@ export const PT_BR = {
     Surplus: "Excedente",
     Production: "Produção",
     Consumption: "Consumo",
-    WarehouseInputCapacityDescV2: "Capacidade total de transporte interno, dividida igualmente entre todas as rotas",
+    WarehouseInputCapacityDescV2: "Capacidade total de transporte interno,dividida igualmente entre todas as rotas",
     PlayerCountryFlag: "Bandeira do Jogador",
     PlayerCountryChooseFlag: "Em ordem alfabética do código do país",
     WindTurbineAlwaysWork: "Ventania",
-    WindTurbineAlwaysWorkDesc: "As turbinas eólicas funcionam 100% do tempo, mas produzem 30% menos energia",
+    WindTurbineAlwaysWorkDesc: "As turbinas eólicas funcionam 100% do tempo,mas produzem 30% menos energia",
     BookPublisherScience: "Literatura Científica",
     BookPublisherScienceDesc: "Editoras de livros produzem ciência em vez de cultura",
     BatteryFuelEconomy: "Bateria recarregável",
-    BatteryFuelEconomyDesc: "A economia de combustível da bateria melhora em 100% (ou seja, 50% do custo do combustível)",
+    BatteryFuelEconomyDesc: "A economia de combustível da bateria melhora em 100% (ou seja,50% do custo do combustível)",
     ShowTheoreticalInputOutputCapacity: "Mostrar capacidade teórica de entrada/saída",
     SpecialTransportCost: "Recursos com custo especial de transporte",
     FreeTransportCost: "Recursos com Custo de Transporte Gratuito",
     Osaka: "Osaka",
-    OsakaBonus:
-        "<li>Recursos tendem em aparecer em grupos</li><li>Armazéns providenciam 50% mais economia de combustível</li><li>Construção única: editora de mangá</li><li>Construção única: estúdio de anime</li><li>Fábricas de Semicondutor têm 2x de produtividade</li><li>Fábrica de bateria Li-ion têm 2x de capacidade</li><li>Fábricas de bateria são desbloqueadas de início</li><li>Fábricas de bateria têm 2x de capacidade</li><li>Melhora em 100% da economia de combustível ao utilizar baterias</li><li>Fábricas de bateria não utilizam carvão</li><li>Começa com 100k de bateriass</li>",
-    HideChatDescV2: "Oculte a mensagem de bate-papo da barra de ferramentas inferior. Ao mostrar mensagens de bate-papo, você concorda com nossos",
+    OsakaBonus: 
+        "<li>Recursos tendem em aparecer em grupos</li><li>Armazéns providenciam 50% mais economia de combustível</li><li>Construção única: editora de mangá</li><li>Construção única: estúdio de anime</li><li>Fábricas de Semicondutor têm 2x de produtividade</li><li>Fábrica de bateria Li-ion têm 2x de capacidade</li><li>Fábricas de bateria são desbloqueadas de início</li><li>Fábricas de bateria têm 2x de capacidade</li><li>Melhora em 100% da economia de combustível ao utilizar baterias</li><li>Fábricas de bateria não utilizam carvão</li><li>Começa com 100k de baterias</li>",
+    HideChatDescV2: "Oculte a mensagem de bate-papo da barra de ferramentas inferior. Ao mostrar mensagens de bate-papo,você concorda com nossos",
     HideChatDescV2ToS: "Termos de serviço",
-    IntegratedCircuitFab: "Circuito Integrado Fab",
+    IntegratedCircuitFab: "Fábrica de Circuito Integrado",
     MangaPublisher: "Editora de mangá",
     Manga: "Mangá",
     AnimeStudio: "Estúdio de anime",
@@ -613,21 +613,21 @@ export const PT_BR = {
     ProductionSettings: "Configurações de produção",
     PlayerTradePartialFillTitle: "Escolha a porcentagem",
     PlayerTradeAmountNotValidV2: "O valor mínimo de negociação permitido é 1",
-    PlayerTradeOptOut: "Você optou por não participar da tabela de classificação, não pode negociar com outros jogadores",
+    PlayerTradeOptOut: "Você optou por não participar da tabela de classificação,não pode negociar com outros jogadores",
     FirstTimeReadGuide: "💡 Precisa de uma ajudinha sobre como jogar? Toque para ler o guia de iniciantes!",
     ReadSteamGuideV2: "Guia do jogo",
     ReadSteamGuideV2Desc: "Você pode ler os guias criados pela comunidade no Steam - e você também pode criar o seu próprio",
     ChatMessageTooLong: "Sua mensagem excedeu o máximo de caracteres permitidos",
-    ChatPlaceholderV2: "Digite sua mensagem: max %{length} caracteres",
+    ChatPlaceholderV2: "Digite sua mensagem: máximo %{length} caracteres",
     ProfitBreakdownOutput: "%{res} de saída",
     ProfitBreakdownInput: "%{res} de entrada",
     ProfitBreakdownFuel: "Custo de combustível",
     BuildingProfit: "Lucro",
     RestoreBackup: "Restaurar",
     SteamLogin: "Entrar pela Steam",
-    SteamLoginDialogDesc:
-        "Seu salvamento local tem o Pacote de Expansão ativado, você precisa entrar no Steam para continuar. Ou você pode APAGAR SEU SALVAR LOCAL e começar de novo",
-    SteamLoginDesc: "Se você possui pacotes de expansão no Steam, pode jogar com pacotes de expansão na web depois de fazer login",
+    SteamLoginDialogDesc: 
+        "Seu salvamento local tem o Pacote de Expansão ativado,você precisa entrar no Steam para continuar. Ou você pode APAGAR SEU SALVAR LOCAL e começar de novo",
+    SteamLoginDesc: "Se você possui pacotes de expansão no Steam,pode jogar com pacotes de expansão na web depois de fazer login",
     SteamLoginYes: "Entrar",
     SteamLoginNo: "Apagar e recomeçar",
     KungFuDojo: "Dojo de Kung-Fu",
@@ -636,8 +636,8 @@ export const PT_BR = {
     TaiChiDojo: "Dojo de Tai-Chi",
     HongKong: "Hong Kong",
     FreeTransportToTradeCenter: "Comércio Internacional de Exportação",
-    FreeTransportToTradeCenterDesc:
-        "Transportation to the trade center does not cost fuel but transportation from the trade center cost 50% more fuel",
+    FreeTransportToTradeCenterDesc: 
+        "O transporte para o centro comercial não custa combustível,mas o transporte do centro comercial custa 50% mais combustível",
     TaiChi10xCulture: "Pérola do Oriente",
     PlayerTradeYouHave: "Armazenado: %{amount}",
     PlayerTradeFillValue: "Valor",
@@ -645,88 +645,88 @@ export const PT_BR = {
     Fiber: "Fibra",
     Achievements: "Conquistas",
     AchievementsDesc: "Você alcançou %{number} de %{total} conquistas",
-    AchievementsReward: "Recompensa: dinheiro suiço +%{swiss}",
-    AchievementsRewardToast: "Você reivindicou a recompensa: dinheiro suiço +%{swiss}",
+    AchievementsReward: "Recompensa: dinheiro suíço +%{swiss}",
+    AchievementsRewardToast: "Você reivindicou a recompensa: dinheiro suíço +%{swiss}",
     AchievementsClaim: "Reivindicar",
-    AchievementsToast: "Você alcançou %{name}, reivindique sua recompensa na Sede",
+    AchievementsToast: "Você alcançou %{name},reivindique sua recompensa na Sede",
     AchievementStockholm100: "Viking Calouro",
-    AchievementStockholm100Desc: "Ganhe 100 dinheiro suíço em Estocolmo em uma única corrida",
+    AchievementStockholm100Desc: "Ganhe 100 dinheiros suíços em Estocolmo em uma única corrida",
     AchievementStockholm500: "Viking Graduado",
-    AchievementStockholm500Desc: "Ganhe 500 dinheiro suíço em Estocolmo em uma única corrida",
+    AchievementStockholm500Desc: "Ganhe 500 dinheiros suíços em Estocolmo em uma única corrida",
     AchievementStockholm1000: "Viking experiente",
-    AchievementStockholm1000Desc: "Ganhe 1000 dinheiro suíço em Estocolmo em uma única corrida",
+    AchievementStockholm1000Desc: "Ganhe 1000 dinheiros suíços em Estocolmo em uma única corrida",
     AchievementOslo100: "Hobista de petróleo norueguês",
-    AchievementOslo100Desc: "Ganhe 100 dinheiro suíço em Oslo em uma única corrida",
+    AchievementOslo100Desc: "Ganhe 100 dinheiros suíços em Oslo em uma única corrida",
     AchievementOslo500: "Entusiasta do Petróleo Norueguês",
-    AchievementOslo500Desc: "Ganhe 500 dinheiro suíço em Oslo em uma única corrida",
+    AchievementOslo500Desc: "Ganhe 500 dinheiros suíços em Oslo em uma única corrida",
     AchievementOslo1000: "Magnata do Petróleo Norueguês",
-    AchievementOslo1000Desc: "Ganhe 1000 dinheiro suíço em Oslo em uma única corrida",
+    AchievementOslo1000Desc: "Ganhe 1000 dinheiros suíços em Oslo em uma única corrida",
     AchievementRotterdam100: "Proprietário do cata-vento",
-    AchievementRotterdam100Desc: "Ganhe 100 dinheiro suíço em Rotterdam em uma única corrida",
+    AchievementRotterdam100Desc: "Ganhe 100 dinheiros suíços em Rotterdam em uma única corrida",
     AchievementRotterdam500: "Proprietário do moinho de vento",
-    AchievementRotterdam500Desc: "Ganhe 500 dinheiro suíço em Rotterdam em uma única corrida",
+    AchievementRotterdam500Desc: "Ganhe 500 dinheiros suíços em Rotterdam em uma única corrida",
     AchievementRotterdam1000: "Proprietário da turbina eólica",
-    AchievementRotterdam1000Desc: "Ganhe 1000 dinheiro suíço em Rotterdam em uma única corrida",
+    AchievementRotterdam1000Desc: "Ganhe 1000 dinheiros suíços em Rotterdam em uma única corrida",
     AchievementDetroit100: "Revendedor de carros local",
-    AchievementDetroit100Desc: "Ganhe 100 dinheiro suíço em Detroit em uma única corrida",
+    AchievementDetroit100Desc: "Ganhe 100 dinheiros suíços em Detroit em uma única corrida",
     AchievementDetroit500: "Distribuidor Regional de Automóveis",
-    AchievementDetroit500Desc: "Ganhe 500 dinheiro suíço em Detroit em uma única corrida",
+    AchievementDetroit500Desc: "Ganhe 500 dinheiros suíços em Detroit em uma única corrida",
     AchievementDetroit1000: "Monopólio Nacional de Automóveis",
-    AchievementDetroit1000Desc: "Ganhe 1000 dinheiro suíço em Detroit em uma única corrida",
+    AchievementDetroit1000Desc: "Ganhe 1000 dinheiros suíços em Detroit em uma única corrida",
     AchievementBoston100: "Bacharel em ganhar dinheiro",
-    AchievementBoston100Desc: "Ganhe 100 dinheiro suíço em Boston em uma única corrida",
+    AchievementBoston100Desc: "Ganhe 100 dinheiros suíços em Boston em uma única corrida",
     AchievementBoston500: "Mestre de ganhar dinheiro",
-    AchievementBoston500Desc: "Ganhe 500 dinheiro suíço em Boston em uma única corrida",
+    AchievementBoston500Desc: "Ganhe 500 dinheiros suíços em Boston em uma única corrida",
     AchievementBoston1000: "Doutorado em Impressão de Dinheiro",
-    AchievementBoston1000Desc: "Ganhe 1000 dinheiro suíço em Boston em uma única corrida",
+    AchievementBoston1000Desc: "Ganhe 1000 dinheiros suíços em Boston em uma única corrida",
     AchievementRome100: "Diocleciano",
-    AchievementRome100Desc: "Ganhe 100 dinheiro suíço em Roma em uma única corrida",
+    AchievementRome100Desc: "Ganhe 100 dinheiros suíços em Roma em uma única corrida",
     AchievementRome500: "Constantino o Grande",
-    AchievementRome500Desc: "Ganhe 500 dinheiro suíço em Roma em uma única corrida",
+    AchievementRome500Desc: "Ganhe 500 dinheiros suíços em Roma em uma única corrida",
     AchievementRome1000: "César Augusto",
-    AchievementRome1000Desc: "Ganhe 1000 dinheiro suíço em Roma em uma única corrida",
+    AchievementRome1000Desc: "Ganhe 1000 dinheiros suíços em Roma em uma única corrida",
     AchievementHamburg100: "Alemanha",
-    AchievementHamburg100Desc: "Ganhe 100 dinheiro suíço em Hamburgo em uma única corrida",
+    AchievementHamburg100Desc: "Ganhe 100 dinheiros suíços em Hamburgo em uma única corrida",
     AchievementHamburg500: "Pátria",
-    AchievementHamburg500Desc: "Ganhe 500 dinheiro suíço em Hamburgo em uma única corrida",
+    AchievementHamburg500Desc: "Ganhe 500 dinheiros suíços em Hamburgo em uma única corrida",
     AchievementHamburg1000: "Graf Zeppelin",
-    AchievementHamburg1000Desc: "Ganhe 1000 dinheiro suíço em Hamburgo em uma única corrida",
+    AchievementHamburg1000Desc: "Ganhe 1000 dinheiros suíços em Hamburgo em uma única corrida",
     AchievementToulouse100: "Jetliner A310",
-    AchievementToulouse100Desc: "Ganhe 100 dinheiro suíço em Toulouse em uma única corrida",
+    AchievementToulouse100Desc: "Ganhe 100 dinheiros suíços em Toulouse em uma única corrida",
     AchievementToulouse500: "Jetliner A330",
-    AchievementToulouse500Desc: "Ganhe 500 dinheiro suíço em Toulouse em uma única corrida",
+    AchievementToulouse500Desc: "Ganhe 500 dinheiros suíços em Toulouse em uma única corrida",
     AchievementToulouse1000: "Jetliner A380",
-    AchievementToulouse1000Desc: "Ganhe 1000 dinheiro suíço em Toulouse em uma única corrida",
+    AchievementToulouse1000Desc: "Ganhe 1000 dinheiros suíços em Toulouse em uma única corrida",
     AchievementHongKong100: "Comerciante amador",
-    AchievementHongKong100Desc: "Ganhe 100 dinheiro suíço em Hong Kong em uma única corrida",
+    AchievementHongKong100Desc: "Ganhe 100 dinheiros suíços em Hong Kong em uma única corrida",
     AchievementHongKong500: "Corretor profissional",
-    AchievementHongKong500Desc: "Ganhe 500 dinheiro suíço em Hong Kong em uma única corrida",
+    AchievementHongKong500Desc: "Ganhe 500 dinheiros suíços em Hong Kong em uma única corrida",
     AchievementHongKong1000: "Gestor de fundos de hedge",
-    AchievementHongKong1000Desc: "Ganhe 1000 dinheiro suíço em Hong Kong em uma única corrida",
+    AchievementHongKong1000Desc: "Ganhe 1000 dinheiros suíços em Hong Kong em uma única corrida",
     AchievementStPetersburg100: "O Grão-Duque",
-    AchievementStPetersburg100Desc: "Ganhe 100 dinheiro suíço em São Petersburgo em uma única corrida",
+    AchievementStPetersburg100Desc: "Ganhe 100 dinheiros suíços em São Petersburgo em uma única corrida",
     AchievementStPetersburg500: "O Tsesarevich",
-    AchievementStPetersburg500Desc: "Ganhe 500 dinheiro suíço em São Petersburgo em uma única corrida",
+    AchievementStPetersburg500Desc: "Ganhe 500 dinheiros suíços em São Petersburgo em uma única corrida",
     AchievementStPetersburg1000: "O czar de toda a Rússia",
-    AchievementStPetersburg1000Desc: "Ganhe 1000 dinheiro suíço em São Petersburgo em uma única corrida",
+    AchievementStPetersburg1000Desc: "Ganhe 1000 dinheiros suíços em São Petersburgo em uma única corrida",
     AchievementOsaka100: "Barão",
-    AchievementOsaka100Desc: "Ganhe 100 dinheiro suíço em Osaka em uma única corrida",
+    AchievementOsaka100Desc: "Ganhe 100 dinheiros suíços em Osaka em uma única corrida",
     AchievementOsaka500: "Conde",
-    AchievementOsaka500Desc: "Ganhe 500 dinheiro suíço em Osaka em uma única corrida",
+    AchievementOsaka500Desc: "Ganhe 500 dinheiros suíços em Osaka em uma única corrida",
     AchievementOsaka1000: "Aristocráticos hereditários",
-    AchievementOsaka1000Desc: "Ganhe 1000 dinheiro suíço em Osaka em uma única corrida",
+    AchievementOsaka1000Desc: "Ganhe 1000 dinheiros suíço em Osaka em uma única corrida",
     SteamAutoCloudBackup: "Steam Cloud Backup automático",
-    SteamAutoCloudBackupFailed: "Falha ao realizar o Backup automatico do Steam Cloud: %{error}",
+    SteamAutoCloudBackupFailed: "Falha ao realizar o Backup automático do Steam Cloud: %{error}",
     SteamManualBackup: "Forçar sincronização na nuvem do Steam",
     UILoading: "Carregando...",
     UserAuthenticated: "Autenticado",
-    BuildingResourceBreakdown: "Idle Amount Breakdown",
-    SortByDeficit: "Deficit",
+    BuildingResourceBreakdown: "Detalhamento de recursos de construção ",
+    SortByDeficit: "Déficit",
     SortByRunOut: "Esgotamento",
     SocialNetworkInc: "Social Network INK",
     SocialNetwork: "Social Network",
-    DatabaseCompany: "Companhia de Database",
-    Database: "Database",
+    DatabaseCompany: "Companhia de Data-base",
+    Database: "Data-base",
     SatelinkInc: "Satelink INK",
     GameStationInc: "Estação de jogos INK",
     AirShuttleInc: "Ônibus aéreo INK",
@@ -735,33 +735,33 @@ export const PT_BR = {
     MapExclusive: "Mapa exclusivo",
     ElectricCar: "Nikola Tesla",
     ElectricCarDesc: "Fábricas de automóveis usam baterias em vez de gasolina e exigem apenas 50% da quantidade",
-    HongKongBonusV2:
+    HongKongBonusV2: 
         "<li>Algoritmo de preços do mercado único - preços e a avaliação das ações seguem uma distribuição normal (curva em sino)</li><li>Atualizações de mercado e redefinições de cotas comerciais são duas vezes mais frequentes (toda hora)</li><li>Pesquisas podem ser desbloqueadas via troca de recursos</li><li>Construção única: Dojo de Kung-Fu</li><li>Construção única: Dojo de Tai-Chi</li><li>Aumento de 50% no número máximo de negociações com jogadores permitidas</li><li>Começa com mais 1 simultaneidade de venda automática</li><li>Política única: Comércio Internacional de Exportação</li><li>Política única: Pérola do Oriente</li><li>O centro de atacado só precisa de 4 recursos para ser desbloqueado</li><li>Começa com 100M de dinheiro</li>",
-    TaiChi10xCultureDescV2:
-        "Transporte gratuito de Kung-fu e Tai-chi. Os estúdios de cinema têm capacidade de 2x, mas usam 50% mais energia",
+    TaiChi10xCultureDescV2: 
+        "Transporte gratuito de Kung-fu e Tai-chi. Os estúdios de cinema têm capacidade de 2x,mas usam 50% mais energia",
     SettingsFullScreen: "Tela cheia",
     SettingsFullScreenDesc: "Execute o jogo em modo de tela cheia. Disponível apenas para a versão Steam",
     LeaderboardByAllPrestigeCurrency: "Dinheiro suíço de todos os tempos ganho",
     LeaderboardByCash: "Dinheiro em mãos atual",
     LeaderboardTotalValuation: "Avaliação Total",
     LeaderboardDescV2: "Veja onde estão os melhores jogadores",
-    LastUpdatedAt: "Ultima atualização em",
-    DetroitBonusV3:
+    LastUpdatedAt: "Última atualização em",
+    DetroitBonusV3: 
         "<li>Fábricas de motor são desbloqueadas de início</li><li>Fábricas de motor têm 2x de produtividade</li><li>Fábricas de carro têm 2x de capacidade</li><li>Fábricas de carro utilizam gás natural em vez de petróleo</li><li>Carros são transportados gratuitamente</li><li>A política Nikola Tesla é gratuita</li><li>Fábricas de trem têm 2x de capacidade</li>",
     SaveAndExit: "Salvar e Sair do Jogo",
-    SaveAndExitDesc:
+    SaveAndExitDesc: 
         "Salvar e Sair do Jogo. Só está disponível na versão da Steam",
     AutoSellResourceWarningShortLabel: "💡Automatizar venda",
-    AutoSellResourceWarningDesc:
-        "Você está vendendo automaticamente este recurso, o valor armazenado no Trade Center não pode ser usado aqui",
+    AutoSellResourceWarningDesc: 
+        "Você está vendendo automaticamente este recurso,o valor armazenado no Trade Center não pode ser usado aqui",
     PlayerTradeLocalPrice: "Preço local: %{price}",
     ChatForceScroll: "Forçar Rolagem",
-    ChatForceScrollDesc:
-        "Se a rolagem forçada estiver ativada, o bate-papo rolará sempre que houver uma nova mensagem. Caso contrário, ele só rolará quando você já estiver na parte inferior",
+    ChatForceScrollDesc: 
+        "Se a rolagem forçada estiver ativada,o bate-papo rolará sempre que houver uma nova mensagem. Caso contrário,ele só rolará quando você já estiver na parte inferior",
     ResourceExplorer2: "Explorador de recursos 2.0",
     ConstructionCancel: "Cancelar",
     PolicyBlueprint: "Blueprint",
-    PolicyBlueprintDesc:
+    PolicyBlueprintDesc: 
         "A construção de um edifício não começará automaticamente - terá que ser iniciada manualmente (Política Gratuita)",
     HighlightUnderConstruction: "...que ainda não foram construídos",
     HighlightUnderLevel10: "...que estão abaixo do nível 10",
@@ -787,29 +787,29 @@ export const PT_BR = {
     MarketNewsIncrease: "aumentou em %{percent}",
     MarketNewsDecrease: "diminuiu em %{percent}",
     MarketNewsBuilding: "Este edifício é afetado por %{num} noticias",
-    StockholmBonusV2:
+    StockholmBonusV2: 
         "<li>Construção única: Produtoras musicais</li><li>Madeireiras têm 2x de saída</li><li>Fábricas de papel são desbloqueadas de início</li><li>Fundições de circuito têm 2x de produtividade</li><li>A política Literatura Científica é gratuita</li>",
     FreeOilTransportV2: "Transporte Elétrico de Petróleo",
-    Tutorial4P1:
-        "O transporte de recursos custa combustível. Existem vários tipos de combustível e agora você está usando <em>gasolina⛽</em> como combustível. Você tem uma <em>refinaria de petróleo</em> que transporta petróleo do poço de petróleo e produz gasolina.<br><br>Os pequenos <em>pontos</em> em movimento representam o movimento em tempo real dos recursos. Você deve otimizar seus locais de construção para minimizar a distância de deslocamento.<br><br><em>Atualizar</em> seus edifícios aumentará sua produção, mas também aumentará o uso de energia e a entrada necessária.",
-    Tutorial4P2:
-        "Você pode alterar seu tipo de combustível no <em>departamento de logística🚦</em> - neste mapa, você também pode usar <em>gás natural</em> como combustível.<br><br>O departamento de logística também mostra suas rotas de transporte que consomem mais combustível - você deve ficar de olho nisso.<br><br>Lembre-se de <em>certificar-se de que sua produção de combustível está acima do consumo</em> caso contrário, sua produção será interrompida quando você correr sem combustível.<br><br>Se isso acontecer, não se preocupe, você pode comprar algum combustível de emergência no centro de comércio ou de outros jogadores.",
-    Tutorial5P2:
-        "<em>O departamento de estatísticas📊</em> fornece uma boa visão geral da sua produção. Você pode ver uma análise detalhada de sua entrada e saída de recursos.<br><br>Há também muitos gráficos úteis📈 - você vai querer consultá-los quando equilibrar sua produção.<br></br>Seu Os números <em>cash💰, excedente de energia⚡ e excedente de combustível⛽</em> também são mostrados no canto superior esquerdo - se algum deles ficar vermelho, você deve investigar o que está acontecendo.",
+    Tutorial4P1: 
+        "O transporte de recursos custa combustível. Existem vários tipos de combustível e agora você está usando <em>gasolina⛽</em> como combustível. Você tem uma <em>refinaria de petróleo</em> que transporta petróleo do poço de petróleo e produz gasolina.<br><br>Os pequenos <em>pontos</em> em movimento representam o movimento em tempo real dos recursos. Você deve otimizar seus locais de construção para minimizar a distância de deslocamento.<br><br><em>Atualizar</em> seus edifícios aumentarão sua produção,mas também aumentará o uso de energia e a entrada necessária.",
+    Tutorial4P2: 
+        "Você pode alterar seu tipo de combustível no <em>departamento de logística🚦</em> - neste mapa,você também pode usar <em>gás natural</em> como combustível.<br><br>O departamento de logística também mostra suas rotas de transporte que consomem mais combustível - você deve ficar de olho nisso.<br><br>Lembre-se de <em>certificar-se de que sua produção de combustível está acima do consumo</em> caso contrário,sua produção será interrompida quando você correr sem combustível.<br><br>Se isso acontecer,não se preocupe,você pode comprar algum combustível de emergência no centro de comércio ou de outros jogadores.",
+    Tutorial5P2: 
+        "<em>O departamento de estatísticas📊</em> fornece uma boa visão geral da sua produção. Você pode ver uma análise detalhada de sua entrada e saída de recursos.<br><br>Há também muitos gráficos úteis📈 - você vai querer consultá-los quando equilibrar sua produção.<br></br>Seu Os números <em>cash💰,excedente de energia⚡ e excedente de combustível⛽</em> também são mostrados no canto superior esquerdo - se algum deles ficar vermelho,você deve investigar o que está acontecendo.",
     MusicProducer: "Produtora Musical",
     PlasticFiber: "Fibra Plástica",
-    PlasticFiberDesc: "Fábricas de fibra usam 50% mais plásticos, porém 50% menos vidro",
+    PlasticFiberDesc: "Fábricas de fibra usam 50% mais plásticos,porém 50% menos vidro",
     NewsEffectx2: "Conferência de imprensa",
-    NewsEffectx2Desc: "O efeito das notícias do mercado dobra, tanto positivo quanto negativo",
+    NewsEffectx2Desc: "O efeito das notícias do mercado dobra,tanto positivo quanto negativo",
     SellRefundPercentage: "Reembolso de venda/rebaixamento",
-    SellRefundPercentageDesc:
-        "Se você vender ou rebaixar um edifício, esta é a porcentagem de dinheiro e recursos que será reembolsado",
-    SellBuildingDescV2:
+    SellRefundPercentageDesc: 
+        "Se você vender ou rebaixar um edifício,esta é a porcentagem de dinheiro e recursos que será reembolsado",
+    SellBuildingDescV2: 
         "A venda de um edifício reembolsará %{percent} do seu investimento e %{percent} dos recursos serão transportados para o Trade Center",
     BuilderMoveSpeed: "Velocidade de movimento do construtor",
     BuilderMoveSpeedDesc: "A velocidade que os construtores se movem para construir edifícios",
     EBookInc: "eBook INK",
-    ResourceBooster: "Impulsionador de recuros",
+    ResourceBooster: "Impulsionador de recursos",
     BuildWarningTitle: "Construção pode não funcionar",
     BuildWarningTitleDesc: "%{reason}. Tem certeza que deseja construir nesse bloco?",
     BuildWarningBuildAnyway: "Construir de qualquer maneira",
@@ -819,39 +819,39 @@ export const PT_BR = {
     AllTimeSwissMoneyEarned: "Total de Dinheiro Suíço ganho: %{number}",
     BuildingUpgradeCostDivider: "Divisor de custo de melhoria de construção",
     AchievementSoftwareGiant: "Gigante de Software",
-    AchievementSoftwareGiantDesc:
-        "Construa uma Compania de Software nível 10, Indústria de Sistemas Operacionais nível 10, Compania de Banco de Dados nível 10 e um Navegado de Internet nível 10 no mesmo mapa",
+    AchievementSoftwareGiantDesc: 
+        "Construa uma Companhia de Software nível 10,Indústria de Sistemas Operacionais nível 10,Companhia de Banco de Dados nível 10 e um Navegado de Internet nível 10 no mesmo mapa",
     AchievementSpaceRace: "Corrida espacial",
-    AchievementSpaceRaceDesc:
-        "Construa uma fábrica de foguetes nível 10, fábrica de satélite nível 10, fábrica de nave estelar nível 10 e uma fábrica de Estação Espacial nível 10 no mesmo mapa",
+    AchievementSpaceRaceDesc: 
+        "Construa uma fábrica de foguetes nível 10,fábrica de satélite nível 10,fábrica de nave estelar nível 10 e uma fábrica de Estação Espacial nível 10 no mesmo mapa",
     AchievementToTheMoon: "Para a Lua",
-    AchievementToTheMoonDesc:
+    AchievementToTheMoonDesc: 
         "Construa uma Fazenda de Bitcoin nível 40 e uma Fazenda de Dogecoin nível 40. Tenha 1B em Bitcoin e 1B em Dogecoin",
     ItsAllGreen: "Tudo verde",
-    ItsAllGreenDesc: "Tenha 50 linha de produção sem nenhum déficit",
+    ItsAllGreenDesc: "Tenha 50 linhas de produção sem nenhum déficit",
     DeepInRed: "Afundado em dívidas",
     DeepInRedDesc: "Tenha 50 linhas de produção em déficit",
     UseScientificNotation: "Usar notação científica",
     UseScientificNotationDesc: "Use notação científica para números maiores que 999.9T",
-    LogoutDescV2:
-        "Você entrou em outro dispositivo, este dispositivo está desconectado. Você pode entrar novamente, mas o outro dispositivo será desconectado",
+    LogoutDescV2: 
+        "Você entrou em outro dispositivo,este dispositivo está desconectado. Você pode entrar novamente,mas o outro dispositivo será desconectado",
     LogBackIn: "Entrar novamente",
-    PlayerTradeNowAllowedV2:
-        "Trocas com jogadores não estão disponíveis por  %{hour} horas após restaurar/importar o jogo",
-    ServerDisconnected:
-        "Você está desconectado do servidor, por favor, verifique sua conexão com a internet e reinicie o jogo",
+    PlayerTradeNowAllowedV2: 
+        "Trocas com jogadores não estão disponíveis por %{hour} horas após restaurar/importar o jogo",
+    ServerDisconnected: 
+        "Você está desconectado do servidor,por favor,verifique sua conexão com a internet e reinicie o jogo",
     BuildingUpgradeCostDividerDescV2: "Divide o custo da melhoria de construção por este divisor",
     ResourceBoosterDesc: "Impulsiona a saída de minas adjacentes",
     BlockUserChatTitle: "Bloquear %{user}",
     BlockUserChatAction: "Bloquear",
-    BlockUserChatDesc:
+    BlockUserChatDesc: 
         "O bloqueio estará em vigor durante esta sessão de jogo e você não poderá desfazer isso a menos que reinicie o jogo",
     ChangeNameCooldown: "Você só pode alterar seu nome uma vez a cada %{hour} horas",
     AtomicBombFactory: "Fábrica de Bombas Atômicas",
     AtomicBomb: "Bombas Atômicas",
     DynamiteFactory: "Fábrica de Dinamite",
     Dynamite: "Dinamite",
-    NuclearMissileFactory: "Fabrica de Missil Nuclear",
+    NuclearMissileFactory: "Fabrica de Míssil Nuclear",
     NuclearMissile: "Míssil Nucelar",
     LiquidPropellantFactory: "Fábrica de Propelentes Líquidos",
     GasPropellantFactory: "Fábrica de Propulsores a Gás",
@@ -863,35 +863,35 @@ export const PT_BR = {
     Radar: "Radar",
     SpaceForceCommand: "Comando da Força Espacial",
     SpaceForce: "Força Espacial",
-    SteamAutoCloudBackupDescV2:
+    SteamAutoCloudBackupDescV2: 
         "Seu progresso mais recente é salvo na Steam Cloud e sincronizado entre os dispositivos. O jogo também faz backup do seu salvamento a cada 10 minutos automaticamente no Steam Cloud. Você pode forçar um backup a qualquer momento",
-    SpaceColony: "Colônia especiaL",
-    SpaceColonyInc: "Côlonia espacial INK",
+    SpaceColony: "Colônia especial",
+    SpaceColonyInc: "Colônia espacial INK",
     ProjectVostok: "Projeto Vostok",
     AdjacentBonusSquare: "Quadrado de bônus adjacente",
-    AdjacentBonusSquareDesc: "O bônus adjacente é 50% mais eficaz, mas os modificadores de peças variam de -15% a +15%",
+    AdjacentBonusSquareDesc: "O bônus adjacente é 50% mais eficaz,mas os modificadores de peças variam de -15% a +15%",
     ResourceBoosterSquare: "Quadrado de reforço de recursos",
-    ResourceBoosterSquareDesc:
-        "Os impulsionadores de recursos fornecem 25% a mais de impulso, mas sua entrada científica e uso de energia também aumentam em 25%",
+    ResourceBoosterSquareDesc: 
+        "Os impulsionadores de recursos fornecem 25% a mais de impulso,mas sua entrada científica e uso de energia também aumentam em 25%",
     SteelMillx2: "Modernização do Forno de Aço",
-    SteelMillx2Desc: "Siderúrgicas e usinas de aço inoxidável têm 2x de capacidade, mas usam 2x de energia",
+    SteelMillx2Desc: "Siderúrgicas e usinas de aço inoxidável têm 2x de capacidade,mas usam 2x de energia",
     FuelDynamite: "Combustível Dinamite",
     FuelDynamiteDesc: "Fábricas de dinamite usam seu combustível atual em vez de óleo",
-    StPetersburgBonusV2:
+    StPetersburgBonusV2: 
         "<li>Minas de urânio têm 2x de saída</li><li>Plantas de enriquecimento de urânio têm 2x de capacidade</li><li>Transportar urânio utiliza 50% menos combustível</li><li>Armas são transportadas gratuitamente</li><li>Projeto Vostok têm 2x de capacidade</li>",
-    ToulouseBonusV2:
+    ToulouseBonusV2: 
         "<li>Minas de titânio têm 2x de saída</li><li>Plantas de enriquecimento de urânio têm 2x de produtividade</li><li>Fábricas de motor de jato têm 2x de capacidade</li><li>Fábricas de aeronave têm 2x de produtividade</li><li>Fábricas de foguete têm 2x de capacidade</li>",
     BuildingPermitsNeededDesc: "Este edifício não está funcionando porque você não tem licenças de construção suficientes",
     BuildingPermitsNeeded: "Licenças de construção necessárias",
     BuyMissingPermits: "Comprar licenças ausentes",
     GPUIsBusy: "Sua GPU está ocupada",
-    GPUIsBusyDesc:
-        "Seu sistema operacional pausou os gráficos do jogo porque a GPU(Placa de vídeo) está ocupada com outras tarefas. Você pode recarregar o jogo para continuar. Se não funcionar, tente reiniciar o jogo",
+    GPUIsBusyDesc: 
+        "Seu sistema operacional pausou os gráficos do jogo porque a GPU (Placa de vídeo) está ocupada com outras tarefas. Você pode recarregar o jogo para continuar. Se não funcionar,tente reiniciar o jogo",
     SaveAndReloadGame: "Salvar e recarregar o jogo",
     ResearchLabCultureInput: "O renascimento",
-    ResearchLabCultureInputDesc: "O Laboratório de Pesquisa tem 2x capacidade, mas leva a cultura como entrada extra",
+    ResearchLabCultureInputDesc: "O Laboratório de Pesquisa tem 2x capacidade,mas leva a cultura como entrada extra",
     GasPumpx2Output: "Bomba de Gás de Alta Pressão",
-    GasPumpx2OutputDesc: "As bombas de gás natural têm 2x de saída, mas usam 2x mais energia",
+    GasPumpx2OutputDesc: "As bombas de gás natural têm 2x de saída,mas usam 2x mais energia",
     LeaderboardValuationPerHour: "Valor total por hora",
     LeaderboardValuationPerHourPerSwiss: "Valor total por hora na suíça",
     LeaderboardValuationPerHourNewPlayers: "Valor total por hora (< 1000 Swiss)",
@@ -899,47 +899,47 @@ export const PT_BR = {
     BuildingCustomColor: "Cor da construção",
     BuildingCustomColorReset: "Resetar",
     Vancouver: "Vancouver",
-    VancouverBonus:
+    VancouverBonus: 
         "<li>Cada 4 tipos diferentes de edifícios dão 1 licença de construção gratuita</li><li>Política única: Diversificação da produção</li><li>Prédio único: Fábrica de xarope de bordo</li><li>Transporte gratuito de xarope de bordo </li><li>Tipo de combustível exclusivo: Xarope de bordo</li><li>Cota comercial de 2x jogadores ao negociar urânio e urânio enriquecido</li><li>Política gratuita exclusiva: Xarope de plástico</li><li> Fábricas de brinquedos têm 2x de produtividade</li><li>Estúdios de jogos têm 2x de capacidade</li>",
     MapExtraPermitDesc: "Você recebe %{number} licenças de construção gratuitas do bônus exclusivo do mapa",
-    OsloBonusV3:
+    OsloBonusV3: 
         "<li>As refinarias de petróleo são desbloqueadas</li><li>As refinarias de petróleo têm 2x a capacidade</li><li>A política de transporte elétrico de petróleo é gratuita</li><li>As usinas de processamento de gás têm 2x a capacidade</li>< li>Turbina eólica de nível 4 livre x1</li><li>Poço de petróleo de nível 8 livre x1</li><li>Refinaria de petróleo de nível 2 livre x1</li><li>Bomba de gás natural de nível 2 livre x1</li> li>",
-    ResourceBoosterPercentageV2: "💡 This amount includes %{percent} boost from adjacent resource boosters",
+    ResourceBoosterPercentageV2: "💡 Este valor inclui %{percent} aumento de impulsionadores de recursos adjacentes",
     MapleSyrup: "Xarope de bordo",
     MapleSyrupFactory: "Fábrica de xarope de bordo",
     SyrupPlastic: "Plástico de Xarope",
     SyrupPlasticDesc: "Todos os edifícios que usam plástico usam xarope de bordo",
     ResourceBoosterSupplyChain: "Impulsionador da Cadeia de Suprimentos",
-    ResourceBoosterSupplyChainDesc:
-        "Os boosters de recursos usam 2x de poder e ciência, mas para cada mina em funcionamento um booster de recursos está aumentando, ele também fornece aumento de capacidade para fábricas adjacentes que consomem a produção da mina (a fábrica deve consumir apenas depósitos)",
+    ResourceBoosterSupplyChainDesc: 
+        "Os boosters de recursos usam 2x de poder e ciência,mas para cada mina em funcionamento um booster de recursos está aumentando,ele também fornece aumento de capacidade para fábricas adjacentes que consomem a produção da mina (a fábrica deve consumir apenas depósitos)",
     ProductionDiversification: "Diversificação da Produção",
     ProductionDiversificationDesc: "Cada tipo diferente de edifício dá 1% de capacidade extra a todos os edifícios",
     ExtraPolicyPointsDescV2: "A central de políticas tem 2x capacidade de conversão de pontos de política",
     PowerRequired: "Energia necessária",
     AchievementVancouver100: "Vendedor de seiva",
-    AchievementVancouver100Desc: "Ganhe 100 dinheiro suíço em Vancouver em uma única corrida",
+    AchievementVancouver100Desc: "Ganhe 100 dinheiros suíços em Vancouver em uma única corrida",
     AchievementVancouver500: "Xarope Savant",
-    AchievementVancouver500Desc: "Ganhe 500 dinheiro suíço em Vancouver em uma única corrida",
+    AchievementVancouver500Desc: "Ganhe 500 dinheiros suíços em Vancouver em uma única corrida",
     AchievementVancouver1000: "Conquistador de Canuck",
-    AchievementVancouver1000Desc: "Ganhe 1000 dinheiro suíço em Vancouver em uma única corrida",
+    AchievementVancouver1000Desc: "Ganhe 1000 dinheiros suíços em Vancouver em uma única corrida",
     BarbariansAtTheGate: "Bárbaros no portão",
     BarbariansAtTheGateDesc: "Use 1 trilhão de cotas de troca de jogadores entre as atualizações do mercado",
     DiversifiedProductions: "Produções Diversificadas",
     DiversifiedProductionsDesc: "Construa 100 tipos diferentes de edifícios em um único mapa",
     RealEstateTycoon: "Magnata imobiliário",
     RealEstateTycoonDesc: "Tenha 400 edifícios em um único mapa",
-    ResourceExplorer2DescV2:
-        "Exploradores de recursos produzem 2x de saída, mas usam 2x de potência. Os exploradores de recursos podem ser impulsionados por impulsionadores de recursos se a política do Supply Chain Booster estiver ativa e o impulsionador tiver uma mina adjacente com a mesma saída",
+    ResourceExplorer2DescV2: 
+        "Exploradores de recursos produzem 2x de saída,mas usam 2x de potência. Os exploradores de recursos podem ser impulsionados por impulsionadores de recursos se a política do Impulsionador da Cadeia de Suprimentos estiver ativa e o impulsionador tiver uma mina adjacente com a mesma saída",
     NoTileModifier: "A Terra é Plana",
-    NoTileModifierDesc:
+    NoTileModifierDesc: 
         "Todos os modificadores de tile são zero. Esta política desativará as políticas *Poder da Natureza* e *Modificador de Blocos Plus*",
-    DoubleTileModifierDescV2:
+    DoubleTileModifierDescV2: 
         "Efeito de todos os modificadores de tile x2 - tanto positivo quanto negativo. Esta política desativará a política da Terra é plana",
-    TileModifierOutputOnlyDescV2:
-        "Os modificadores de bloco afetam apenas a saída em vez de entrada e saída, mas são apenas 50% eficazes. Esta política desativará a política da Terra é plana",
+    TileModifierOutputOnlyDescV2: 
+        "Os modificadores de bloco afetam apenas a saída em vez de entrada e saída,mas são apenas 50% eficazes. Esta política desativará a política da Terra é plana",
     QuickLinks: "Links Rápidos",
     GetHelp: "Ajuda",
-    GetHelpBeginnerGuides: "Guia do Iniciate",
+    GetHelpBeginnerGuides: "Guia do Iniciante",
     GetHelpSteamGuides: "Outras Guias na Steam",
     GetHelpInGameChat: "Pergunte no chat do jogo",
     GetHelpDiscord: "Junte-se ao nosso Discord",
@@ -948,18 +948,18 @@ export const PT_BR = {
     PledgeAmount: "Promessa %{amount}",
     PledgeValue: "Valor $%{amount}",
     TotalPledgedValue: "Valor total prometido",
-    TotalPledgedValueDesc:
-        "Sua primeira promessa conta para a meta de financiamento coletivo. As promessas subsequentes aumentam o valor total prometido, mas não contam para a meta",
+    TotalPledgedValueDesc: 
+        "Sua primeira promessa conta para a meta de financiamento coletivo. As promessas subsequentes aumentam o valor total prometido,mas não contam para a meta",
     ReturnOnPledge: "Devolução do Compromisso",
     CrowdfundingEndIn: "Terminar em %{time}",
     ClaimCrowdfundingReward: "Reivindicar Recompensa %{amount}",
     PledgeSuccessful: "Você prometeu %{amount} para este financiamento coletivo",
     CrowdfundingClaimSuccessful: "Você reivindicou %{amount} em dinheiro",
     CrowdfundingAlreadyPledged: "Você já prometeu",
-    CrowdfundingAlreadyPledgedDesc:
-        "Você pode comprometer mais recursos, o que aumentará seu valor total prometido (e retorno potencial), mas não contará para a meta de financiamento coletivo",
+    CrowdfundingAlreadyPledgedDesc: 
+        "Você pode comprometer mais recursos,o que aumentará seu valor total prometido (e retorno potencial),mas não contará para a meta de financiamento coletivo",
     WholesaleCenterProducingOnly: "Parceiros de Atacado",
-    WholesaleCenterProducingOnlyDesc:
+    WholesaleCenterProducingOnlyDesc: 
         "Os pedidos do centro de atacado contêm apenas recursos que estão sendo produzidos no momento (você também precisa estar produzindo o número de recursos necessários para desbloquear o centro de atacado)",
     SoftwareCompiler: "Compilador de software",
     SearchEngine: "Motor de busca",
@@ -974,13 +974,13 @@ export const PT_BR = {
     ResourceMovementHighlight: "Em destaque",
     ResourceMovementLine: "Apenas na linha",
     ResourceMovement: "Movimento de recursos",
-    ResourceMovementDesc:
+    ResourceMovementDesc: 
         "Você pode escolher quando mostrar o movimento do recurso (pontos). Escondê-lo pode melhorar o desempenho",
     CrowdfundingCashInWarning: "Você tem compromissos pendentes de financiamento coletivo - começar em uma nova cidade os perderá",
-    ResourceBoosterBannerDescV2:
+    ResourceBoosterBannerDescV2: 
         "💡 Atualmente você tem %{number} impulsionadores de recursos - a entrada científica de cada um é dimensionada para o número de impulsionadores de recursos que você possui atualmente",
     CrowdfundingId: "Financiamento colaborativo %{id}",
-    PatchNotes: "Notas de correçao",
+    PatchNotes: "Notas de correção",
     PatchNotesDesc: "Veja o que há de novo nesta atualização",
     PanelPositionLeft: "Esquerda",
     PanelPositionLeftFloat: "Esquerda (Flutuante)",
@@ -994,7 +994,7 @@ export const PT_BR = {
     IndustryZone: "Zona Industrial",
     IndustryZoneDesc: "Combine edifícios adjacentes que formam uma cadeia de suprimentos e economize licenças de construção",
     IndustryZoneMaxBuildingLevel: "Nível máximo de construção",
-    IndustryZoneNotWorkingDesc:
+    IndustryZoneNotWorkingDesc: 
         "Todos os seus edifícios adjacentes devem formar uma cadeia de suprimentos e não fazer parte de outras zonas industriais",
     PlayerTradeAutoClaim: "Reivindicar negociações realizadas automaticamente",
     MusifyInc: "Musify INK",
@@ -1013,7 +1013,7 @@ export const PT_BR = {
     SwissUpgrade: "Upgrade suíço",
     SwissUpgradeDesc: "As atualizações suíças são permanentes e serão aplicadas se você começar em uma nova cidade",
     SwissBoost: "Boost suíço",
-    SwissBoostDesc:
+    SwissBoostDesc: 
         "Os impulsos suíços afetam apenas sua corrida atual - e serão redefinidos se você começar em uma nova cidade",
     ProductionMultipliers: "Multiplicadores de Produção",
     MultiplierMapUniqueBonus: "Bônus Único do Mapa",
@@ -1028,27 +1028,27 @@ export const PT_BR = {
     ArmyCommand: "Comando do Exército",
     Army: "Exército",
     GreenPeacekeeper: "Pacificador Verde",
-    GreenPeacekeeperDesc: "Faça exército, marinha, força aérea ou força espacial apenas com usinas de energia renovável (eólica/solar)",
+    GreenPeacekeeperDesc: "Faça exército,marinha,força aérea ou força espacial apenas com usinas de energia renovável (eólica/solar)",
     DotComTycoon: "Magnata do DotCom",
-    DotComTycoonDesc:
-        "Construa um nível 10 Rede Social INK., nível 10 Empresa de motores de busca, nível 10 SkyNet INK e nível 10 Musify INK no mesmo mapa",
+    DotComTycoonDesc: 
+        "Construa um nível 10 Rede Social INK.,nível 10 Empresa de motores de busca,nível 10 SkyNet INK e nível 10 Musify INK no mesmo mapa",
     ConstructionNotResearched: "Não pesquisado",
-    OfflineEarningDescV2: "O ganho offline depende de sua pesquisa, produção e venda de automóveis atuais",
+    OfflineEarningDescV2: "O ganho offline depende de sua pesquisa,produção e venda de automóveis atuais",
     HighSpeedWarehouse: "Armazém de alta velocidade",
-    HighSpeedWarehouseDesc:
-        "Os armazéns têm capacidade 2x e velocidade de transporte interna e externa 50% mais rápida, mas usam potência 2x",
+    HighSpeedWarehouseDesc: 
+        "Os armazéns têm capacidade 2x e velocidade de transporte interna e externa 50% mais rápida,mas usam potência 2x",
     IndustryZoneMultiplierDesc: "Bônus da Zona da Indústria",
     IndustryZoneMultiplierSwissBoost: "Impulsionador de capacidade da zona da indústria",
     EarningPerMinuteV2: "Taxa de ganhos off-line",
     OfflineResearchPoint: "Ponto de pesquisa off-line",
-    WholesaleCenterOrderFasterV2: "Atacada maior e mais rapido",
-    OfflineResearchSwissBoost: "Offline Research",
-    OfflineResearchSwissBoostDesc:
-        "Os pontos de pesquisa são gerados enquanto você está offline (de acordo com seu nível de Laboratório de Pesquisa, Ciência em seu depósito e tempo de ganho offline)",
+    WholesaleCenterOrderFasterV2: "Atacada maior e mais rápido",
+    OfflineResearchSwissBoost: " Pesquisa off-line",
+    OfflineResearchSwissBoostDesc: 
+        "Os pontos de pesquisa são gerados enquanto você está offline (de acordo com seu nível de Laboratório de Pesquisa,Ciência em seu depósito e tempo de ganho offline)",
     SanJose: "São José",
-    SanJoseBonus:
+    SanJoseBonus: 
         "<li>Edifício exclusivo: fabricante de chips</li><li>Edifício exclusivo: FaceApp INK</li><li>Edifício exclusivo: Bitcoin Miner</li><li>Todos os edifícios que consomem silício têm modificador máximo de ladrilhos</li> li><li>Os painéis solares geram 2x de energia</li><li>As minas de silício têm 2x de potência</li>",
-    RotterdamBonusV2:
+    RotterdamBonusV2: 
         "<li>Aciarias têm 2x capacidade</li><li>Aciarias têm 2x capacidade</li><li>Transporte gratuito de ferro</li><li>Transporte de aço custa 50% menos combustível</li>< li>Comece com 2x a capacidade de venda automática</li><li>A política da Terra Plana é gratuita</li>",
     ChipManufacturer: "Fabricante de chips",
     SnapTokInc: "SnapTok INK",
@@ -1058,40 +1058,40 @@ export const PT_BR = {
     BaseProductionMultiplier: "Produção básica",
     ShowBreakdown: "Mostrar detalhes",
     HideBreakdown: "Esconder detalhes",
-    IndustryZoneMultiplierSwissBoostDescV2:
+    IndustryZoneMultiplierSwissBoostDescV2: 
         "Cada camada da cadeia de produção dentro de uma zona industrial fornece esse aumento de capacidade para todos os edifícios na mesma zona",
-    IndustryZoneBuildingPermitDesc:
-        "Se uma zona industrial tiver N níveis de produção, fornecerá licenças de construção N-2 gratuitamente",
-    CrowdfundingBackersReturn: "Apoiadores: %{backers}, Retorno Atual: %{return}",
+    IndustryZoneBuildingPermitDesc: 
+        "Se uma zona industrial tiver N níveis de produção,fornecerá licenças de construção N-2 gratuitamente",
+    CrowdfundingBackersReturn: "Apoiadores: %{backers},Retorno Atual: %{return}",
     CrowdfundingBackersNeeded: "%{backers} Mais Apoiadores",
     CrowdfundingReturnBonus: "+%{return} Retorno",
-    ReturnOnPledgeDescV2:
+    ReturnOnPledgeDescV2: 
         "Seu retorno total é igual ao valor total prometido multiplicado pelas taxas de retorno de todos os recursos. Mais apoiadores de um recurso melhorarão seu retorno",
-    PlayerTradeQuotaDescV2:
-        "💡 Cota é o valor do recurso que você pode negociar. O valor monetário é igual a %{percent} do seu valor de mercado e é redefinido quando o mercado é atualizado. Quanto mais o preço da sua negociação se desviar do preço do seu centro de negociação, mais cota você precisa",
+    PlayerTradeQuotaDescV2: 
+        "💡 Cota é o valor do recurso que você pode negociar. O valor monetário é igual a %{percent} do seu valor de mercado e é redefinido quando o mercado é atualizado. Quanto mais o preço da sua negociação se desviar do preço do seu centro de negociação,mais cota você precisa",
     AchievementSanJose100: "Aventureiro por hobby",
-    AchievementSanJose100Desc: "Ganhe 100 dinheiro suíço em São José em uma única corrida",
+    AchievementSanJose100Desc: "Ganhe 100 dinheiros suíços em São José em uma única corrida",
     AchievementSanJose500: "Entusiasta de Empreendimentos",
-    AchievementSanJose500Desc: "Ganhe 500 dinheiro suíço em São José em uma única corrida",
+    AchievementSanJose500Desc: "Ganhe 500 dinheiros suíços em São José em uma única corrida",
     AchievementSanJose1000: "Capitalista de risco",
-    AchievementSanJose1000Desc: "Ganhe 1000 dinheiro suíço em São José em uma única corrida",
+    AchievementSanJose1000Desc: "Ganhe 1000 dinheiros suíços em São José em uma única corrida",
     AchievementCrowdfundingTycoon: "Magnata do financiamento coletivo",
     AchievementCrowdfundingTycoonDesc: "Prometa 1Qa de recursos em um único financiamento colaborativo",
     AchievementCashIsKing: "O dinheiro é rei",
     AchievementCashIsKingDesc: "Tenha 1Qa em dinheiro em uma única corrida",
     AchievementPowerTycoon: "Magnata do Poder",
-        AchievementPowerTycoonDesc: "Gere 1 GW de energia  em uma única execução",
+        AchievementPowerTycoonDesc: "Gere 1 GW de energia em uma única execução",
     PlayerTradeFilteringNResources: "Filtrando %{n} Recurso(s)",
     PlayerTradeFilterResources: "Filtrar recursos",
     PlayerTradeFilterClear: "Limpar filtros",
     ResourceExplorerAll: "Explorar todos os recursos",
-    ResourceExplorerAllDesc:
-        "Exploradores de recursos podem produzir todos os recursos, incluindo os que não estão no mapa (isso NÃO desbloqueia as tecnologias relevantes)",
+    ResourceExplorerAllDesc: 
+        "Exploradores de recursos podem produzir todos os recursos,incluindo os que não estão no mapa (isso NÃO desbloqueia as tecnologias relevantes)",
     ShowResourceInTopBar: "Mostrar na barra superior",
-    LeaderboardOptOutDescV2:
-        "Você não aparecerá mais na tabela de classificação. Isso também desativará a troca de jogadores. OBSERVAÇÃO: se você quiser habilitar a tabela de classificação mais tarde, seus dados precisam ser redefinidos",
-    PolicyPointNoCopperDesc:
-        "💡 Este mapa não possui depósitos de cobre, você pode ativar a política Circuito IA para desbloquear mais tecnologias",
+    LeaderboardOptOutDescV2: 
+        "Você não aparecerá mais na tabela de classificação. Isso também desativará a troca de jogadores. OBSERVAÇÃO: se você quiser habilitar a tabela de classificação mais tarde,seus dados precisam ser redefinidos",
+    PolicyPointNoCopperDesc: 
+        "💡 Este mapa não possui depósitos de cobre,você pode ativar a política Circuito IA para desbloquear mais tecnologias",
     Pumpkin: "Abóbora",
     PumpkinBattery: "Bateria de abóbora",
     PumpkinBatteryDesc: "Todos os edifícios que consomem bateria usam abóbora (POLÍTICA GRATUITA)",
@@ -1106,18 +1106,18 @@ export const PT_BR = {
     ReindeerAluminum: "Rena de Alumínio",
     ReindeerAluminumDesc: "Todos os edifícios que consomem alumínio usam renas (POLÍTICA GRATUITA)",
     SantaClauseIsComing: "Papai Noel está chegando!",
-    SantaClauseIsComingDesc:
-        "As fábricas de Papai Noel consomem renas e brinquedos e produzem Papai Noel, ciência e cultura. As fábricas de Papai Noel têm modificador máximo de peças. Fábricas de brinquedos produzem renas além de brinquedos (POLÍTICA GRATUITA)",
+    SantaClauseIsComingDesc: 
+        "As fábricas de Papai Noel consomem renas e brinquedos e produzem Papai Noel,ciência e cultura. As fábricas de Papai Noel têm modificador máximo de peças. Fábricas de brinquedos produzem renas além de brinquedos (POLÍTICA GRATUITA)",
     MetaRebranding: "MetaVerso",
-    MetaRebrandingDesc:
-        "A Rede social INK é renomeada para Meta INK e consome internet, jogo, supercomputador, bitcoin e dogecoin.",
+    MetaRebrandingDesc: 
+        "A Rede social INK é renomeada para Meta INK e consome internet,jogo,supercomputador,bitcoin e dogecoin.",
     MetaInc: "Meta INK",
     ImportSave: "Importar Save",
     ClearMyTrades: "Limpar minhas negociações",
-    SaveVersionTooNew:
-        "Seu save é de %{saveVersion}, mas seu jogo é %{gameVersion}. Atualize seu jogo primeiro",
+    SaveVersionTooNew: 
+        "Seu save é de %{saveVersion},mas seu jogo é %{gameVersion}. Atualize seu jogo primeiro",
     LeaderboardByFlag: "Classificação por bandeira do jogador",
-    LeaderboardByMap: "Classificaçao por Mapa",
+    LeaderboardByMap: "Classificação por Mapa",
     LeaderboardByFlagPlayerFlag: "Bandeira",
     LeaderboardByFlagPayerCount: "#",
     LeaderboardByFlagPayerValuationPerHour: "V/H",
@@ -1126,7 +1126,7 @@ export const PT_BR = {
     PlayerTradeFilterBetterThanMarket: "Melhor que o mercado",
     PlayerTradeFilterAll: "Tudo",
     PlayerTradeFilterBestPrice: "Melhor Preço",
-    CrowdfundingTotalPledgdeValueTooLarge:
+    CrowdfundingTotalPledgdeValueTooLarge: 
         "Seu valor total prometido para um financiamento coletivo não pode exceder seu valor de mercado atual",
     BuildingSourceAuto: "Fonte automática",
     BuildingSourceManual: "🔍 Fonte manual",
@@ -1134,17 +1134,17 @@ export const PT_BR = {
     BuildingSourceSelecting: "Toque no mapa...",
     BuildingSourceSetOverride: "Substituir",
     BuildingSourceFallback: "Fonte de construção alternativa",
-    BuildingSourceFallbackDesc:
+    BuildingSourceFallbackDesc: 
         "Como o prédio deve transportar sua entrada se a fonte manual não tiver o suficiente? Pular - não transportar; Drenar - transportar o que resta; Novo - use a fonte automática para encontrar uma nova fonte",
     BuildingSourceFallbackSkip: "Pular",
     BuildingSourceFallbackDrain: "Drenar",
     BuildingSourceFallbackAuto: "Novo",
     BuildingSourceFallbackMarker: "Reserva",
-    BuildingSourceFallbackMarkerDesc: "A fonte manual não tem recursos suficientes, a estratégia de Reserva está ativa",
-    BuildingSourceInvalid: "Sua fonte selecionada é inválida, selecione um bloco válido",
+    BuildingSourceFallbackMarkerDesc: "A fonte manual não tem recursos suficientes,a estratégia de Reserva está ativa",
+    BuildingSourceInvalid: "Sua fonte selecionada é inválida,selecione um bloco válido",
     RandomIsland: "Ilha aleatória",
-    RandomIslandBonus:
-        "<li>O mapa é randomizado toda vez que você inicia</li><li>Tamanho do mapa, tipo de grade, depósitos de recursos e bônus exclusivos são todos rolados aleatoriamente</li><li>Há um tempo de espera de 5 minutos - o reroll só acontece com um intervalo mínimo de 5 minutos</li>",
+    RandomIslandBonus: 
+        "<li>O mapa é randomizado toda vez que você inicia</li><li>Tamanho do mapa,tipo de grade,depósitos de recursos e bônus exclusivos são todos rolados aleatoriamente</li><li>Há um tempo de espera de 5 minutos - o reroll só acontece com um intervalo mínimo de 5 minutos</li>",
     RandomIslandBonusDesc: "O bônus único na ilha aleatória é refeito toda vez que você começa no mapa",
     RandomIslandBonusCapacity: "%{building} tem %{multiplier}x capacidade",
     RandomIslandBonusProductivity: "%{building} tem %{multiplier}x produtividade",
@@ -1154,10 +1154,10 @@ export const PT_BR = {
     GV: "Ventilação geotérmica",
     GeothermalPowerPlant: "Usina geotérmica",
     AdjacentExplorer: "Explorador adjacente",
-    AdjacentExplorerDesc:
+    AdjacentExplorerDesc: 
         "Um explorador de recursos produz uma saída 2x se for adjacente ao recurso que está produzindo (POLÍTICA GRATUITA)",
     FactoryMining: "Mineração de fábrica",
-    FactoryMiningDesc:
+    FactoryMiningDesc: 
         "Uma fábrica pode minerar o depósito diretamente do ladrilho se consumir o mesmo depósito (POLÍTICA DE GRAÇA)",
     FactoryMiningBanner: "Este edifício está minerando %{resource} diretamente deste bloco",
     WarehouseSourceWeight: "Peso: %{weight}",
@@ -1170,7 +1170,7 @@ export const PT_BR = {
     WarehouseOutputRoutes: "Rotas de Saída",
     InputCapacity: "Capacidade de entrada",
     MultipleSources: "Várias fontes",
-    MultipleSourcesDesc:
+    MultipleSourcesDesc: 
         "Permitir que o edifício transporte potencialmente recursos de várias fontes durante um ciclo de produção",
     Water: "Água",
     KansasCity: "Cidade de Kansas",
@@ -1178,23 +1178,23 @@ export const PT_BR = {
     DamDesc: "Barragem hidrelétrica transforma ladrilhos vazios adjacentes em ladrilhos de água",
     Farmland: "Fazenda",
     FarmlandDesc: "Produza colheitas em cima de um ladrilho de água",
-    Storage: "Armazem",
+    Storage: "Armazém",
     Rice: "Arroz",
     Corn: "Pipoca",
     Wheat: "Trigo",
     Soybean: "Soja",
     Sugarcane: "Cana de açúcar",
     Vegetable: "Vegetais",
-    FarmlandProduce: "Produçao",
+    FarmlandProduce: "Produção",
     FarmlandOfflineFarming: "Cultivo Offline",
-    FarmlandOfflineFarmingDesc:
+    FarmlandOfflineFarmingDesc: 
         "Terras agrícolas construídas em cima de fontes naturais de água produzem enquanto você está offline. Sujeito a tempo de ganho offline e afetado por atualizações suíças",
     FarmlandProductionDesc: "💡 As fazendas funcionam apenas 5 segundos a cada 10 segundos - todos os ciclos estão alinhados",
     WaterPump: "Bomba de água",
     Greenhouse: "Estufa",
     GreenhouseDesc: "Produza uma colheita de sua escolha",
-    WaterEntityLevelTooHighDesc:
-        "Seu nível de construção é mais alto que o nível da barragem hidrelétrica adjacente. Por favor, atualize sua barragem hidrelétrica",
+    WaterEntityLevelTooHighDesc: 
+        "Seu nível de construção é mais alto que o nível da barragem hidrelétrica adjacente. Por favor,atualize sua barragem hidrelétrica",
     AirLiquidizer: "Liquidificador a ar",
     CapacitorFactory: "Fábrica de capacitores",
     Capacitor: "Capacitor",
@@ -1213,8 +1213,8 @@ export const PT_BR = {
     SugarRefinery: "Refinaria de açúcar",
     RefinedSugar: "Açúcar refinado",
     ShowSupplyChain: "Mostrar Cadeia de Suprimentos",
-    ShowSupplyChainDesc:
-        "Ao destacar um edifício, mostre toda a cadeia de suprimentos de todos os edifícios a montante e a jusante",
+    ShowSupplyChainDesc: 
+        "Ao destacar um edifício,mostre toda a cadeia de suprimentos de todos os edifícios a montante e a jusante",
     Cake: "Bolo",
     ChooseARecipe: "Escolha uma receita",
     ChickenFarm: "Fazenda de galinhas",
@@ -1227,15 +1227,15 @@ export const PT_BR = {
     Cheese: "Queijo",
     Cookie: "Biscoito\Bolacha",
     Butter: "Manteiga",
-    UnlockAtLevel: "Desbloqueie no Nivel %{level}",
+    UnlockAtLevel: "Desbloqueie no nível %{level}",
     FastFoodChain: " Franquia de fast food",
-    Burger: "hambúrguer",
+    Burger: "Hambúrguer",
     Sandwich: "Sanduíche",
     StandbyMode: "Modo de espera",
-    StandbyModeDesc:
-        "O jogo continuará sendo executada em segundo plano, mas não renderizará nenhum gráfico. Isso reduzirá significativamente o uso da GPU(Placa de vídeo) e o uso da CPU(Processador) também",
+    StandbyModeDesc: 
+        "O jogo continuará sendo executado em segundo plano,mas não renderizará nenhum gráfico. Isso reduzirá significativamente o uso da GPU (Placa de vídeo) e o uso da CPU(Processador) também",
     StandbyModeOn: "Modo de espera ativado",
-    StandbyModeOnDesc: "⏳🕗   O jogo está rodando em segundo plano. Toque em qualquer lugar para sair do modo de espera !   🕗⏳",
+    StandbyModeOnDesc: "⏳🕗   O jogo está rodando em segundo plano. Toque em qualquer lugar para sair do modo de espera!   🕗⏳",
     PigFarm: "Fazenda de Porco",
     Pork: "Porco",
     SausageFactory: "Fabrica de salsinha",
@@ -1244,36 +1244,36 @@ export const PT_BR = {
     BatchOperationDesc: "Isso se aplicará a %{number} prédios. Você quer continuar?",
     BatchOperationResult: "Sua operação em lote foi concluída para %{success} prédios",
     StreamingMakeMeDiscoverable: "Torne-me detectável",
-    StreamingMakeMeDiscoverableDesc:
+    StreamingMakeMeDiscoverableDesc: 
         "Permita que outros jogadores assistam ao seu jogo. A conexão é ponto a ponto e apenas o seu jogo é transmitido. Microfone ou webcam não serão acessados",
     StreamAutoApprove: "Transmissão Pública",
-    StreamAutoApproveDesc: "Permite que os jogadores participem da sua transmissão ao Vivo, precisando que você aprove a solicitação individual na sede",
+    StreamAutoApproveDesc: "Permite que os jogadores participem da sua transmissão ao Vivo,precisando que você aprove a solicitação individual na sede",
     StreamingWatch: "Assistir",
     StreamingStop: "Parar",
     StreamingPlayerDisconnected: "%{player} foi desconectado da Streaming",
     StreamingPlayerRejected: "%{player} recusou sua solicitação de transmissão",
-    StreamingPlayerRequested: "%{player} Está pedindo para te assistir, vá para a SEDE para aceitar ou rejeitar",
-    StreamingSettings: "Configuraçoes da Transmissão",
+    StreamingPlayerRequested: "%{player} Está pedindo para te assistir,vá para a SEDE para aceitar ou rejeitar",
+    StreamingSettings: "Configurações da Transmissão",
     StreamingAvailableStreams: "Transmissões disponível",
     StreamingAudience: "Visualizadores:",
     StreamingStopStream: "Interromper a transmissão para este visualizador",
     StreamingAcceptStream: "Aceitar",
     StreamingRejectStream: "Rejeitar",
     StreamingStopStreamDesc: "Para de transmitir para este espectador",
-    StreamingConnectionFailed:
+    StreamingConnectionFailed: 
         "Falha ao estabelecer uma conexão Ponto-a-Ponto. é muito provável que sua rede não suporte conexão P2P",
     Pizza: "Pizza",
     StreamingStartRecord: "Começar a gravar",
     StreamingRecordCamera: "Gravar um corte do diretor",
-    StreamingRecordCameraDesc:
+    StreamingRecordCameraDesc: 
         "Grave uma sequência pré-dirigida de 10s - A câmera definirá o zoom máximo e diminuirá o zoom lentamente",
-    StreamingStopRecord: "Parar gravaçao",
-    StreamingRecordingReady: "Gravaçao esta pronta",
-    StreamingRecordingReadyDesc: "Você pode salvar seu arquivo de gravação e reproduzi-lo com um player de vídeo compatível(Media Player, VLC Software, Etc...)",
+    StreamingStopRecord: "Parar gravação",
+    StreamingRecordingReady: "Gravação está pronta",
+    StreamingRecordingReadyDesc: "Você pode salvar seu arquivo de gravação e reproduzi-lo com um player de vídeo compatível (Media Player,VLC Software,Etc...)",
     StreamingRecordingSave: "Salvar como",
     Lantern: "Lanterna",
     LunarNewYear22: "Ano do tigre",
-    LunarNewYear22Desc:
+    LunarNewYear22Desc: 
         "Todos os prédios que consomem papel usarão Lanterna e terão 2x a capacidade. Fábricas de papel se tornam Academia do Papel e produzem cultura em vez disso",
     PaperAcademy: "Academia do Papel",
     FriedRice: "Arroz frito",
@@ -1282,14 +1282,14 @@ export const PT_BR = {
     BatchModeAll: "Todos",
     BatchModeAdjacent: "adjacente",
     BatchModeCluster: "Agrupado",
-    BatchUpgradeToLevelX: "Para o nivel %{level}",
+    BatchUpgradeToLevelX: "Para o nível %{level}",
     ApplyToBatch: "Aplicar para %{batch}",
     BatteryRecycler: "Reciclador de Bateria",
     BatteryShell: "Baterias Velhas.",
     StartInANewCity: "Começar em uma nova cidade",
     StartInANewCityFinePrint: "(Ou reinicie sua cidade atual)",
-    BatteryFuelDesc:
-        "💡 Depois que as baterias forem usadas como combustível, elas se tornarão Baterias velhas. Você pode construir recicladores de baterias para reciclá-los ou recarregá-las",
+    BatteryFuelDesc: 
+        "💡 Depois que as baterias forem usadas como combustível,elas se tornarão Baterias velhas. Você pode construir recicladores de baterias para reciclá-los ou recarregá-las",
     FriedChicken: "Frango frito",
     Coffee: "Café",
     Cocoa: "Cacau",
@@ -1310,20 +1310,20 @@ export const PT_BR = {
     FrozenPork: "Porco congelado",
     CannedBeef: "Carne enlatada",
     FoodProcessingPlant: "Fabrica de processamento de alimentos",
-    KansasCityBonus:
-        "<li>Plantas e estufas produzem 2x mais milho</li><li>Transporte gratuito de milho</li><li>Para cada nível, as hidrelétricas aumentam em 5% as terras agrícolas adjacentes</li><li>A cada 2 terras agrícolas conceda 1 licença de construção gratuita</li><li>A política O sol nunca se põe também faz com que as terras agrícolas trabalhem 100% do tempo (incluindo off-line)</li><li>2x cota de troca de jogadores ao negociar colheitas</li><li >Fábricas de processamento de alimentos são desbloqueadas</li>",
+    KansasCityBonus: 
+        "<li>Plantas e estufas produzem 2x mais milho</li><li>Transporte gratuito de milho</li><li>Para cada nível,as hidrelétricas aumentam em 5% as terras agrícolas adjacentes</li><li>A cada 2 terras agrícolas conceda 1 licença de construção gratuita</li><li>A política O sol nunca se põe também faz com que as terras agrícolas trabalhem 100% do tempo (incluindo off-line)</li><li>2x cota de troca de jogadores ao negociar colheitas</li><li >Fábricas de processamento de alimentos são desbloqueadas</li>",
     KansasCityHydroDamBoost: "Bônus exclusivo de Kansas City: esta barragem hidráulica fornece %{boost} impulso para fazendas adjacentes",
-    PerthGeothermalPowerPlantBoost:
+    PerthGeothermalPowerPlantBoost: 
         "Bônus exclusivo de Perth: esta Fabrica geotérmica fornece %{boost} impulso para edifícios adjacentes que produzem aço",
-    PerthBonus:
-        "<li>Os spinners do edifício giram no sentido horário, o que é oposto a outras cidades</li><li>Depósito exclusivo: chaminé geotérmica</li><li>Edifício exclusivo: Fabrica geotérmica</li><li>Políticas exclusivas: adjacente Explorer (GRÁTIS), Mineração de Fábrica (GRÁTIS)</li>",
+    PerthBonus: 
+        "<li>Os spinners do edifício giram no sentido horário,o que é oposto a outras cidades</li><li>Depósito exclusivo: chaminé geotérmica</li><li>Edifício exclusivo: Fabrica geotérmica</li><li>Políticas exclusivas: adjacente Explorer (GRÁTIS),Mineração de Fábrica (GRÁTIS)</li>",
     Biofuel: "Biocombustível",
     RioDeJaneiro: "Rio de Janeiro",
-    RioDeJaneiroBonus:
-        "<li>Combustível único: Biocombustível</li><li>Grupos de porcos, vacas e galinhas produzem biocombustível extra</li><li>Prédio único: Usina de Biocombustível</li><li>Prédio único: Cristo Redentor< /li><li>Os reforços de recursos podem aumentar as fazendas de porcos, vacas e galinhas</li><li>Os campos de extração de madeira produzem 2x madeira</li><li>As serrarias têm 2x a capacidade</li><li>Frango congelado, carne de porco congelada e carne bovina enlatada têm 2x cota de negociação</li>",
+    RioDeJaneiroBonus: 
+        "<li>Combustível único: Biocombustível</li><li>Grupos de porcos,vacas e galinhas produzem biocombustível extra</li><li>Prédio único: Usina de Biocombustível</li><li>Prédio único: Cristo Redentor< /li><li>Os reforços de recursos podem aumentar as fazendas de porcos,vacas e galinhas</li><li>Os campos de extração de madeira produzem 2x madeira</li><li>As serrarias têm 2x a capacidade</li><li>Frango congelado,carne de porco congelada e carne bovina enlatada têm 2x cota de negociação</li>",
     BiofuelPowerPlant: "Fabrica de Biocombustível",
     CristoRedentor: "Cristo Redentor",
-    CristoRedentorBanner:
+    CristoRedentorBanner: 
         "O Cristo Redentor fornece bônus adjacente a qualquer edifício que tenha nível inferior ou igual. Seu consumo de cultura cresce exponencialmente se você construir mais",
     CristoRedentorDesc: "Consome cultura e fornece bônus adjacentes a qualquer edifício",
     Istanbul: "Istanbul",
@@ -1334,12 +1334,12 @@ export const PT_BR = {
     NextWaveUnitHP: "Unidade HP",
     NextWaveTotalCount: "Unidades Totais",
     NextWaveTotalCountDesc: "Número total de unidades que irão surgir de cada buraco de minhoca",
-    NextWaveSpeed: "Velocidade da proxima onda",
-    NextWaveSpawnDelay: "Frequencia Gerado",
+    NextWaveSpeed: "Velocidade da próxima onda",
+    NextWaveSpawnDelay: "Frequência Gerado",
     NextWaveSpawnDelayValue: "A cada %{number}s",
-    NextWaveBonusMultiplier: "Bonus multiplicador",
+    NextWaveBonusMultiplier: "Bônus multiplicador",
     NextWaveBonusMultiplierValue: "%{number}x",
-    NextWaveTotalDamageNeeded: "Dano Total necessario",
+    NextWaveTotalDamageNeeded: "Dano Total necessário",
     NextWaveTotalReward: "Recompensa total",
     StartWave: "Começar Onda",
     WaveSpawned: "Gerar",
@@ -1356,43 +1356,43 @@ export const PT_BR = {
     DefenseModuleBulletSpeed: "Velocidade da bala",
     DefenseModuleAttackSpeed: "Velocidade de ataque",
     DefenseModuleUpgrade: "Melhoria",
-    DefenseModuleMaxUpgrade: "Melhoria Maxima",
-    DefenseModuleCriticalDamageChance: "Chance de dano critico",
+    DefenseModuleMaxUpgrade: "Melhoria Máxima",
+    DefenseModuleCriticalDamageChance: "Chance de dano crítico",
     DefenseModuleCriticalDamageChanceShort: "Dano critico %",
-    DefenseModuleCriticalDamageMultiplier: "Multiplicador de dano critico",
-    DefenseModuleCriticalDamageMultiplierShort: "Dano critici x",
+    DefenseModuleCriticalDamageMultiplier: "Multiplicador de dano crítico",
+    DefenseModuleCriticalDamageMultiplierShort: "Dano critico x",
     DefenseModuleBaseModule: "Base modular",
     DefenseCommand: "Comando de Defesa",
     DefenseCommandDesc: "Produza danos de armas e defenda sua base contra invasores",
-    PathBlocked:
-        "Você não pode construir neste bloco, pois ele bloqueará todos os caminhos possíveis de buracos de minhoca até sua sede",
-    WaveInProgressBuildRemoveDisabled:
+    PathBlocked: 
+        "Você não pode construir neste bloco,pois ele bloqueará todos os caminhos possíveis de buracos de minhoca até sua sede",
+    WaveInProgressBuildRemoveDisabled: 
         "Você não pode construir edifícios no caminho ou vender edifícios quando uma onda de invasão estiver em andamento",
     ExportSaveForTransfer: "Transferir save",
-    ExportSaveForTransferDesc:
+    ExportSaveForTransferDesc: 
         "Escolha esta opção se quiser transferir seu salvamento entre dispositivos. Isso exportará seu direito de negociar para seu arquivo salvo - você pode continuar a negociar após importar o arquivo salvo. Seu dispositivo atual não poderá negociar sem aguardar um período de espera",
     ExportSaveForBackup: "Fazer Backup do save",
-    ExportSaveForBackupDesc:
+    ExportSaveForBackupDesc: 
         "Escolha esta opção se você deseja simplesmente fazer um backup do seu progresso. Isso deixará seu direito de negociar em seu dispositivo atual - importar o arquivo salvo de backup não restaurará o direito de negociar sem aguardar um período de espera",
     CheckRightToTrade: "Verifique o direito de negociar",
     RightToTradeValid: "Direito de negociar",
     RightToTradeInvalid: "Sem direito de negociar",
-    RightToTradeInvalidDesc:
-        "Isso ocorre porque seu direito de negociar foi exportado para outro arquivo salvo - você deve importar esse arquivo salvo para restaurar seu direito de negociar. Se você perdeu esse arquivo salvo, você pode forçar a restauração do seu direito de negociar neste salvamento, mas você estará sujeito a um tempo de espera e seu outro salvamento perderá o direito de negociar",
+    RightToTradeInvalidDesc: 
+        "Isso ocorre porque seu direito de negociar foi exportado para outro arquivo salvo - você deve importar esse arquivo salvo para restaurar seu direito de negociar. Se você perdeu esse arquivo salvo,você pode forçar a restauração do seu direito de negociar neste salvamento,mas você estará sujeito a um tempo de espera e seu outro salvamento perderá o direito de negociar",
     ForceRestoreRightToTrade: "Forçar restauração (%{cooldown}-hour cooldown)",
-    ImportSaveRestoreFail: "Falha ao conectar ao servidor, verifique sua conexão com a Internet",
+    ImportSaveRestoreFail: "Falha ao conectar ao servidor,verifique sua conexão com a Internet",
     DefenseCommandConvertDesc: "Converta recursos em danos ao preço atual do centro comercial",
     MousewheelSensitivity: "Sensibilidade do Zoom do Mouse",
     MousewheelSensitivityDesc: "Ajuste a sensibilidade ao rolar a roda do mouse para aumentar/diminuir o zoom",
     PlayerTradeFilterWhatIHave: "Filtre o que eu tenho",
-    PathTemporarilyBlocked:
-        "You cannot build on this tile as there's a wave in progress. Check again after the wave is finished",
-    MobilePriceChangeTitle: "Complementary Expansion Pack 2",
-    MobilePriceChangeDesc:
-        "Price for Expansion Pack 1 on %{platform} has been changed from $4.99 to $2.99. As you are our early supporter and have purchased the expansion with the original price, we would like to offer you a complimentary Expansion Pack 2 ($2.99) when it is released. This should be automatic - but if it doesn't work, you can click Restore Purchases or contact support",
-    MoveBuilding: "Move Building",
-    MoveBuildingInvalidTarget: "Failed to move the building - target tile is not valid",
-    MoveBuildingMoving: "Select An Empty Tile...",
-    WaveAutoNext: "Auto Start",
-    WaveAutoNextDesc: "After successfully defending a wave, automatically claim the reward and start the next one",
+    PathTemporarilyBlocked: 
+        "Você não pode construir neste bloco,pois há uma onda em andamento. Verifique novamente depois que a onda terminar",
+    MobilePriceChangeTitle: "Pacote de Expansão Complementar 2",
+    MobilePriceChangeDesc: 
+        "O preço do Pacote de Expansão 1 em %{platform} foi alterado de US$ 4,99 para US$2.99. Como você é nosso apoiador inicial e comprou a expansão com o preço original,gostaríamos de oferecer a você o Pacote de Expansão 2 de cortesia (US$ 2,99) quando for lançado. Isso deve ser automático - mas se não funcionar,você pode clicar em Restaurar compras ou entrar em contato com o suporte. ⚠️(Preço em reais pode variar na Steam)⚠",
+    MoveBuilding: "Mover Edifício",
+    MoveBuildingInvalidTarget: "Falha ao mover o edifício - o local de destino não é válido",
+    MoveBuildingMoving: "Selecione um local vazio...",
+    WaveAutoNext: "Começo automático",
+    WaveAutoNextDesc: "Depois de defender com sucesso uma onda,reivindique automaticamente a recompensa e inicie a próxima",
 };
