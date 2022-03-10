@@ -1415,4 +1415,6 @@ export const PT_BR = {
     MoveBuildingMoving: "Select An Empty Tile...",
     WaveAutoNext: "Auto Start",
     WaveAutoNextDesc: "After successfully defending a wave, automatically claim the reward and start the next one",
+    IstanbulBonus:
+        "<li>Tower defense mode - convert your weapons to damage, defend against invaders and get cash rewards for further expansion</li><li>Army commands have 2x capacity</li><li>Tank factories have 2x capacity</li><li>Gun factories have 2x capacity</li><li>Missile factories have 2x capacity</li><li>Dynamite factories have 2x productivity</li>",
 };
