@@ -1,6 +1,6 @@
 export const PT_BR = {
     Translator: "Tradutor",
-    TranslatorName: "Altruista,Bertei e Toni177" ,
+    TranslatorName: "Altruista, Bertei e Toni177",
     Language: "Idioma",
     ThisLanguage: "Português (BR)",
     OK: "OK",
@@ -608,7 +608,8 @@ export const PT_BR = {
     AcceptTradeSuccessV2: "Esse acordo foi aceito por você: %{cashOrResource}",
     ResourceExplorer: "Explorador de recursos",
     ResourceExplorerDesc: "Permite extrair recursos de um bloco de mapa vazio",
-    ResourceExplorerDescLong: "💡 Exploradores de recursos não possuem bônus adjacentes. O uso de energia difere por recurso",
+    ResourceExplorerDescLong:
+        "💡 Exploradores de recursos não possuem bônus adjacentes. O uso de energia difere por recurso",
     ResourceExplorerSelectResource: "Explorar",
     ProductionSettings: "Configurações de produção",
     PlayerTradePartialFillTitle: "Escolha a porcentagem",
@@ -616,7 +617,8 @@ export const PT_BR = {
     PlayerTradeOptOut: "Você optou por não participar da tabela de classificação,não pode negociar com outros jogadores",
     FirstTimeReadGuide: "💡 Precisa de uma ajudinha sobre como jogar? Toque para ler o guia de iniciantes!",
     ReadSteamGuideV2: "Guia do jogo",
-    ReadSteamGuideV2Desc: "Você pode ler os guias criados pela comunidade no Steam - e você também pode criar o seu próprio",
+    ReadSteamGuideV2Desc:
+        "Você pode ler os guias criados pela comunidade no Steam - e você também pode criar o seu próprio",
     ChatMessageTooLong: "Sua mensagem excedeu o máximo de caracteres permitidos",
     ChatPlaceholderV2: "Digite sua mensagem: máximo %{length} caracteres",
     ProfitBreakdownOutput: "%{res} de saída",
@@ -749,8 +751,7 @@ export const PT_BR = {
     DetroitBonusV3:
         "<li>Fábricas de motor são desbloqueadas de início</li><li>Fábricas de motor têm 2x de produtividade</li><li>Fábricas de carro têm 2x de capacidade</li><li>Fábricas de carro utilizam gás natural em vez de petróleo</li><li>Carros são transportados gratuitamente</li><li>A política Nikola Tesla é gratuita</li><li>Fábricas de trem têm 2x de capacidade</li>",
     SaveAndExit: "Salvar e Sair do Jogo",
-    SaveAndExitDesc:
-        "Salvar e Sair do Jogo. Só está disponível na versão da Steam",
+    SaveAndExitDesc: "Salvar e Sair do Jogo. Só está disponível na versão da Steam",
     AutoSellResourceWarningShortLabel: "💡Automatizar venda",
     AutoSellResourceWarningDesc:
         "Você está vendendo automaticamente este recurso,o valor armazenado no Trade Center não pode ser usado aqui",
@@ -881,7 +882,8 @@ export const PT_BR = {
         "<li>Minas de urânio têm 2x de saída</li><li>Plantas de enriquecimento de urânio têm 2x de capacidade</li><li>Transportar urânio utiliza 50% menos combustível</li><li>Armas são transportadas gratuitamente</li><li>Projeto Vostok têm 2x de capacidade</li>",
     ToulouseBonusV2:
         "<li>Minas de titânio têm 2x de saída</li><li>Plantas de enriquecimento de urânio têm 2x de produtividade</li><li>Fábricas de motor de jato têm 2x de capacidade</li><li>Fábricas de aeronave têm 2x de produtividade</li><li>Fábricas de foguete têm 2x de capacidade</li>",
-    BuildingPermitsNeededDesc: "Este edifício não está funcionando porque você não tem licenças de construção suficientes",
+    BuildingPermitsNeededDesc:
+        "Este edifício não está funcionando porque você não tem licenças de construção suficientes",
     BuildingPermitsNeeded: "Licenças de construção necessárias",
     BuyMissingPermits: "Comprar licenças ausentes",
     GPUIsBusy: "Sua GPU está ocupada",
@@ -976,7 +978,8 @@ export const PT_BR = {
     ResourceMovement: "Movimento de recursos",
     ResourceMovementDesc:
         "Você pode escolher quando mostrar o movimento do recurso (pontos). Escondê-lo pode melhorar o desempenho",
-    CrowdfundingCashInWarning: "Você tem compromissos pendentes de financiamento coletivo - começar em uma nova cidade os perderá",
+    CrowdfundingCashInWarning:
+        "Você tem compromissos pendentes de financiamento coletivo - começar em uma nova cidade os perderá",
     ResourceBoosterBannerDescV2:
         "💡 Atualmente você tem %{number} impulsionadores de recursos - a entrada científica de cada um é dimensionada para o número de impulsionadores de recursos que você possui atualmente",
     CrowdfundingId: "Financiamento colaborativo %{id}",
@@ -992,7 +995,8 @@ export const PT_BR = {
     HighPowerPriority: "Alta prioridade de Energia",
     HighPowerPriorityDesc: "Ativar isso fará com que o edifício consuma energia primeiro que outros edifícios",
     IndustryZone: "Zona Industrial",
-    IndustryZoneDesc: "Combine edifícios adjacentes que formam uma cadeia de suprimentos e economize licenças de construção",
+    IndustryZoneDesc:
+        "Combine edifícios adjacentes que formam uma cadeia de suprimentos e economize licenças de construção",
     IndustryZoneMaxBuildingLevel: "Nível máximo de construção",
     IndustryZoneNotWorkingDesc:
         "Todos os seus edifícios adjacentes devem formar uma cadeia de suprimentos e não fazer parte de outras zonas industriais",
@@ -1020,7 +1024,8 @@ export const PT_BR = {
     MultiplierSwissUpgrade: "Upgrade suíço (Permanente)",
     MultiplierSwissBoost: "Boost suíço (Esta partida)",
     SwissBoostCostDivider: "Divisor de custo de impulso suíço",
-    SwissBoostCostDividerDesc: "Divida o custo de aumento suíço por este divisor - aplica-se apenas a atualizações de multiplicadores/divisores",
+    SwissBoostCostDividerDesc:
+        "Divida o custo de aumento suíço por este divisor - aplica-se apenas a atualizações de multiplicadores/divisores",
     AirForceCommand: "Comando da Força Aérea",
     AirForce: "Força Aérea",
     StealthFighterFactory: "Fábrica de Caças Furtivos",
@@ -1162,7 +1167,8 @@ export const PT_BR = {
     FactoryMiningBanner: "Este edifício está minerando %{resource} diretamente deste bloco",
     WarehouseSourceWeight: "Peso: %{weight}",
     YAxisStartsFromZero: "Eixo Y de 0",
-    YAxisStartsFromZeroDesc: "O eixo Y de todos os gráficos sempre começará em 0 em vez de ser ajustado automaticamente",
+    YAxisStartsFromZeroDesc:
+        "O eixo Y de todos os gráficos sempre começará em 0 em vez de ser ajustado automaticamente",
     OwnDLC: "Possui %{number}x expansão(ões)",
     GeneralServerSuccessMessage: "Seu pedido foi completamente bem sucedido",
     GeneralServerErrorMessage: "Erro do servidor: %{error}",
@@ -1189,7 +1195,8 @@ export const PT_BR = {
     FarmlandOfflineFarming: "Cultivo Offline",
     FarmlandOfflineFarmingDesc:
         "Terras agrícolas construídas em cima de fontes naturais de água produzem enquanto você está offline. Sujeito a tempo de ganho offline e afetado por atualizações suíças",
-    FarmlandProductionDesc: "💡 As fazendas funcionam apenas 5 segundos a cada 10 segundos - todos os ciclos estão alinhados",
+    FarmlandProductionDesc:
+        "💡 As fazendas funcionam apenas 5 segundos a cada 10 segundos - todos os ciclos estão alinhados",
     WaterPump: "Bomba de água",
     Greenhouse: "Estufa",
     GreenhouseDesc: "Produza uma colheita de sua escolha",
@@ -1199,7 +1206,8 @@ export const PT_BR = {
     CapacitorFactory: "Fábrica de capacitores",
     Capacitor: "Capacitor",
     OfflineProduction: "Produção Offline",
-    OfflineProductionDesc: "O transporte de capacitores para este prédio permitirá que ele funcione quando você estiver offline",
+    OfflineProductionDesc:
+        "O transporte de capacitores para este prédio permitirá que ele funcione quando você estiver offline",
     Moderator: "Moderador",
     FlourMill: "Moinho de Farinha",
     Flour: "Farinha de trigo",
@@ -1225,7 +1233,7 @@ export const PT_BR = {
     Milk: "Leite",
     DairyFactory: "Fábrica de Laticínios",
     Cheese: "Queijo",
-    Cookie: "Biscoito\Bolacha",
+    Cookie: "BiscoitoBolacha",
     Butter: "Manteiga",
     UnlockAtLevel: "Desbloqueie no nível %{level}",
     FastFoodChain: " Franquia de fast food",
@@ -1235,7 +1243,7 @@ export const PT_BR = {
     StandbyModeDesc:
         "O jogo continuará sendo executado em segundo plano,mas não renderizará nenhum gráfico. Isso reduzirá significativamente o uso da GPU (Placa de vídeo) e o uso da CPU(Processador) também",
     StandbyModeOn: "Modo de espera ativado",
-    StandbyModeOnDesc: "⏳🕗   O jogo está rodando em segundo plano. Toque em qualquer lugar para sair do modo de espera!   🕗⏳",
+    StandbyModeOnDesc: "O jogo está rodando em segundo plano. Toque em qualquer lugar para sair do modo de espera!",
     PigFarm: "Fazenda de Porco",
     Pork: "Porco",
     SausageFactory: "Fabrica de salsinha",
@@ -1301,7 +1309,8 @@ export const PT_BR = {
     LoadGameErrorRetry: "😕Tente Novamente...😞",
     LoadGameErrorHardReset: "Forçar Reinicialização",
     FontSizeScaling: "Dimensionamento do tamanho da fonte",
-    FontSizeScalingDesc: "Altere a escala de tamanho da fonte da interface do usuário. Alguns elementos da interface do usuário podem parecer deslocados. (Reiniciar jogo)",
+    FontSizeScalingDesc:
+        "Altere a escala de tamanho da fonte da interface do usuário. Alguns elementos da interface do usuário podem parecer deslocados. (Reiniciar jogo)",
     FrozenVegetable: "Vegetais congelados",
     MilkPowder: "Leite em pó",
     CannedFish: "Peixe enlatado",
@@ -1395,4 +1404,6 @@ export const PT_BR = {
     MoveBuildingMoving: "Selecione um local vazio...",
     WaveAutoNext: "Começo automático",
     WaveAutoNextDesc: "Depois de defender com sucesso uma onda,reivindique automaticamente a recompensa e inicie a próxima",
+    IstanbulBonus:
+        "<li>Tower defense mode - convert your weapons to damage, defend against invaders and get cash rewards for further expansion</li><li>Army commands have 2x capacity</li><li>Tank factories have 2x capacity</li><li>Gun factories have 2x capacity</li><li>Missile factories have 2x capacity</li><li>Dynamite factories have 2x productivity</li>",
 };

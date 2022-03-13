@@ -1369,7 +1369,7 @@ export const IT = {
     WaveEliminated: "Eliminato",
     WaveFailed: "Fallito",
     WaveRetry: "Riprova",
-    WaweForfeit: "Penalizzata",
+    WaveForfeit: "Forfeit",
     Damage: "Danno",
     DefenseCommandConvert: "Converti",
     DefenseModule: "Modulo di difesa",
@@ -1409,13 +1409,15 @@ export const IT = {
     MousewheelSensitivityDesc: "Aggiusta la sensibilità del mouse quando esegui zoom in e zoom out",
     PlayerTradeFilterWhatIHave: "Filtra ciò che possiedo",
     PathTemporarilyBlocked:
-        "You cannot build on this tile as there's a wave in progress. Check again after the wave is finished",
-    MobilePriceChangeTitle: "Complementary Expansion Pack 2",
+        "Non puoi costruire qui perchè c'è una ondata in corso. Riprova quando l'ondata sarà finita",
+    MobilePriceChangeTitle: "PAcchetto espansione complementare 2",
     MobilePriceChangeDesc:
-        "Price for Expansion Pack 1 on %{platform} has been changed from $4.99 to $2.99. As you are our early supporter and have purchased the expansion with the original price, we would like to offer you a complimentary Expansion Pack 2 ($2.99) when it is released. This should be automatic - but if it doesn't work, you can click Restore Purchases or contact support",
-    MoveBuilding: "Move Building",
-    MoveBuildingInvalidTarget: "Failed to move the building - target tile is not valid",
-    MoveBuildingMoving: "Select An Empty Tile...",
-    WaveAutoNext: "Auto Start",
-    WaveAutoNextDesc: "After successfully defending a wave, automatically claim the reward and start the next one",
+        "Il prezzo del pachetto espansione 1 su %{platform} è cambiato da $4.99 a $2.99. Dato che sei un nostro supporter dall'inizio e hai comprato il pacchetto espansione al prezzo iniziale, ci piacerebbe offrirti un pacchetto espansione complementare 2 ($2.99) quando sarà rilasciato. Dovrebbe essere automatico - ma se non funziona, puoi premere resetta acquisti oppure contattare il supporto",
+    MoveBuilding: "Muovi struttura",
+    MoveBuildingInvalidTarget: "Errore nello spostare la struttura - la casella selezionata non è valida",
+    MoveBuildingMoving: "Seleziona una casella vuota...",
+    WaveAutoNext: "Inizio automatico",
+    WaveAutoNextDesc: "Dopo aver pulito un ondata con successo, ne inizierà automaticamente un altra dopo aver acquisito la ricompensa",
+    IstanbulBonus:
+        "<li>Modalità tower efense - converte le tue armi in danni, difenditi contro gli invasori e ottieni soldi per espansioni future</li><li>Comando dell'esercito ha il doppio della capacità</li><li>Le fabbriche di carri armati hanno il doppio delle capacità</li><li>Le fabbriche di armi hanno il doppio della capacità</li><li>Le fabbriche di missili hanno il doppio della capacità</li><li>Le fabbriche di dinamite producono il dopppio</li>",
 };
