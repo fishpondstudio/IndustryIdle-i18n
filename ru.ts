@@ -1404,7 +1404,8 @@ export const RU = {
     ImportSaveRestoreFail: "Не удалось подключиться к серверу, пожалуйста, проверьте подключение к Интернету",
     DefenseCommandConvertDesc: "Конвертировать ресурсы в урон по текущей цене торгового центра",
     MousewheelSensitivity: "Чувствительность масштабирования колесика мыши",
-    MousewheelSensitivityDesc: "Настройка чувствительности при прокрутке колеса мыши для увеличения/уменьшения масштаба",
+    MousewheelSensitivityDesc:
+        "Настройка чувствительности при прокрутке колеса мыши для увеличения/уменьшения масштаба",
     PlayerTradeFilterWhatIHave: "Отфильтровать то, что у меня есть",
     PathTemporarilyBlocked:
         "Вы не можете строить на этой плитке, так как идет волна. Проверьте еще раз после окончания волны",
@@ -1416,4 +1417,6 @@ export const RU = {
     MoveBuildingMoving: "Выберите пустую плитку...",
     WaveAutoNext: "Автозапуск",
     WaveAutoNextDesc: "После успешной защиты волны, автоматически получает награду и начинает следующую",
+    IstanbulBonus:
+        "<li>Tower defense mode - convert your weapons to damage, defend against invaders and get cash rewards for further expansion</li><li>Army commands have 2x capacity</li><li>Tank factories have 2x capacity</li><li>Gun factories have 2x capacity</li><li>Missile factories have 2x capacity</li><li>Dynamite factories have 2x productivity</li>",
 };
