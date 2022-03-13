@@ -1417,7 +1417,12 @@ export const IT = {
     MoveBuildingInvalidTarget: "Errore nello spostare la struttura - la casella selezionata non è valida",
     MoveBuildingMoving: "Seleziona una casella vuota...",
     WaveAutoNext: "Inizio automatico",
-    WaveAutoNextDesc: "Dopo aver pulito un ondata con successo, ne inizierà automaticamente un altra dopo aver acquisito la ricompensa",
+    WaveAutoNextDesc:
+        "Dopo aver pulito un ondata con successo, ne inizierà automaticamente un altra dopo aver acquisito la ricompensa",
     IstanbulBonus:
         "<li>Modalità tower efense - converte le tue armi in danni, difenditi contro gli invasori e ottieni soldi per espansioni future</li><li>Comando dell'esercito ha il doppio della capacità</li><li>Le fabbriche di carri armati hanno il doppio delle capacità</li><li>Le fabbriche di armi hanno il doppio della capacità</li><li>Le fabbriche di missili hanno il doppio della capacità</li><li>Le fabbriche di dinamite producono il dopppio</li>",
+    PlayerTradeCancelTitle: "Cancel This Trade?",
+    PlayerTradeCancelDesc: "Cancelling this trade will return your quota and part of your resource",
+    PlayerTradeCancelYes: "Cancel Trade",
+    PlayerTradeCancelNo: "Don't Cancel",
 };
