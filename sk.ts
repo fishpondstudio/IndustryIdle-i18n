@@ -853,8 +853,6 @@ export const SK = {
     Radar: "Radar",
     SpaceForceCommand: "Space Force Command",
     SpaceForce: "Space Force",
-    SteamAutoCloudBackupDescV2:
-        "Your latest progress is saved to Steam Cloud and synced across devices. The game also backs up your save every 10 minutes automatically to Steam Cloud. You can force a backup at any time",
     SpaceColony: "Space Colony",
     SpaceColonyInc: "Space Colony Inc",
     ProjectVostok: "Project Vostok",
@@ -1389,4 +1387,6 @@ export const SK = {
     PlayerTradeCancelDesc: "Cancelling this trade will return your quota and part of your resource",
     PlayerTradeCancelYes: "Cancel Trade",
     PlayerTradeCancelNo: "Don't Cancel",
+    SteamAutoCloudBackupDescV3:
+        "Your latest progress is saved to Steam Cloud. The game also backs up every 10 minutes - you can force a backup at any time. Loading a backup will lose the right to trade and require a force restoration (subject to cooldown)",
 };

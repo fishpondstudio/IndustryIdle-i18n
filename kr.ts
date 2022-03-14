@@ -835,8 +835,6 @@ export const KR = {
     Radar: "레이더",
     SpaceForceCommand: "우주군 사령부",
     SpaceForce: "우주군",
-    SteamAutoCloudBackupDescV2:
-        "최근 진행 상황은 Steam 클라우드에 저장되고 장치간에 동기화됩니다. 게임은 10분마다 저장한 내용을 Steam 클라우드에 자동으로 백업합니다. 언제든지 강제로 백업할 수 있습니다",
     SpaceColony: "우주 식민지",
     SpaceColonyInc: "우주 식민지",
     ProjectVostok: "프로젝트 Vostok",
@@ -1365,4 +1363,6 @@ export const KR = {
     PlayerTradeCancelDesc: "Cancelling this trade will return your quota and part of your resource",
     PlayerTradeCancelYes: "Cancel Trade",
     PlayerTradeCancelNo: "Don't Cancel",
+    SteamAutoCloudBackupDescV3:
+        "Your latest progress is saved to Steam Cloud. The game also backs up every 10 minutes - you can force a backup at any time. Loading a backup will lose the right to trade and require a force restoration (subject to cooldown)",
 };

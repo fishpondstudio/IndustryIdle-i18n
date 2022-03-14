@@ -838,8 +838,6 @@ export const JP = {
     Radar: "レーダー",
     SpaceForceCommand: "宇宙軍司令部",
     SpaceForce: "宇宙軍",
-    SteamAutoCloudBackupDescV2:
-        "ゲームの進行状況はSteamCloudに保存され、デバイス間で同期されます。また、ゲーム内のセーブデータは10分ごとにSteamCloudに自動的にバックアップされます。バックアップはいつでも強制的に行うことができます",
     SpaceColony: "スペースコロニー",
     SpaceColonyInc: "スペースコロニー社",
     ProjectVostok: "ボストーク計画",
@@ -1370,4 +1368,6 @@ export const JP = {
     PlayerTradeCancelDesc: "Cancelling this trade will return your quota and part of your resource",
     PlayerTradeCancelYes: "Cancel Trade",
     PlayerTradeCancelNo: "Don't Cancel",
+    SteamAutoCloudBackupDescV3:
+        "Your latest progress is saved to Steam Cloud. The game also backs up every 10 minutes - you can force a backup at any time. Loading a backup will lose the right to trade and require a force restoration (subject to cooldown)",
 };

@@ -817,8 +817,6 @@ export const ZH_CN = {
     Radar: "雷达",
     SpaceForceCommand: "太空部队司令部",
     SpaceForce: "太空部队",
-    SteamAutoCloudBackupDescV2:
-        "你的最新进度已经保存到Steam云并在设备间同步。同时游戏每10分钟都会自动备份到Steam云。你可以随时强制备份",
     SpaceColony: "太空殖民地",
     SpaceColonyInc: "太空殖民地",
     ProjectVostok: "东方计划",
@@ -1322,4 +1320,6 @@ export const ZH_CN = {
     PlayerTradeCancelDesc: "Cancelling this trade will return your quota and part of your resource",
     PlayerTradeCancelYes: "Cancel Trade",
     PlayerTradeCancelNo: "Don't Cancel",
+    SteamAutoCloudBackupDescV3:
+        "Your latest progress is saved to Steam Cloud. The game also backs up every 10 minutes - you can force a backup at any time. Loading a backup will lose the right to trade and require a force restoration (subject to cooldown)",
 };

@@ -858,8 +858,6 @@ export const VN = {
     Radar: "Ra-đa",
     SpaceForceCommand: "Bộ Tư Lệnh Quân chủng Không gian",
     SpaceForce: "Quân chủng Không gian",
-    SteamAutoCloudBackupDescV2:
-        "Tiến độ mới nhất của bạn được lưu lên Đám mây của Steam và đồng bộ lên các thiết bị. Trò chơi cũng tự động lưu mỗi 10 phút lên Đám mây của Steam. Bạn có thể ép lưu bất kỳ lúc nào",
     SpaceColony: "Thuộc địa Không gian",
     SpaceColonyInc: "Thuộc địa Không gian",
     ProjectVostok: "Dự án Vostok",
@@ -1395,4 +1393,6 @@ export const VN = {
     PlayerTradeCancelDesc: "Cancelling this trade will return your quota and part of your resource",
     PlayerTradeCancelYes: "Cancel Trade",
     PlayerTradeCancelNo: "Don't Cancel",
+    SteamAutoCloudBackupDescV3:
+        "Your latest progress is saved to Steam Cloud. The game also backs up every 10 minutes - you can force a backup at any time. Loading a backup will lose the right to trade and require a force restoration (subject to cooldown)",
 };

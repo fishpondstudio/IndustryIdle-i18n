@@ -864,8 +864,6 @@ export const PL = {
     Radar: "Radar",
     SpaceForceCommand: "Dowództwo Sił Kosmicznych",
     SpaceForce: "Siła Kosmicznae",
-    SteamAutoCloudBackupDescV2:
-        "Twoje najnowsze postępy są zapisywane w Steam Cloud i synchronizowane na różnych urządzeniach. Gra automatycznie tworzy kopię zapasową zapisanych stanów gry co 10 minut w Steam Cloud. W każdej chwili możesz wymusić wykonanie kopii zapasowej",
     SpaceColony: "Kosmiczna Kolonia",
     SpaceColonyInc: "Kosmiczna Kolonia Inc",
     ProjectVostok: "Projekt Wostok",
@@ -1407,4 +1405,6 @@ export const PL = {
     PlayerTradeCancelDesc: "Cancelling this trade will return your quota and part of your resource",
     PlayerTradeCancelYes: "Cancel Trade",
     PlayerTradeCancelNo: "Don't Cancel",
+    SteamAutoCloudBackupDescV3:
+        "Your latest progress is saved to Steam Cloud. The game also backs up every 10 minutes - you can force a backup at any time. Loading a backup will lose the right to trade and require a force restoration (subject to cooldown)",
 };
