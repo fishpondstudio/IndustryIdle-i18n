@@ -1416,11 +1416,11 @@ export const RU = {
     WaveAutoNext: "Автозапуск",
     WaveAutoNextDesc: "После успешной защиты волны, автоматически получает награду и начинает следующую",
     IstanbulBonus:
-        "<li>Tower defense mode - convert your weapons to damage, defend against invaders and get cash rewards for further expansion</li><li>Army commands have 2x capacity</li><li>Tank factories have 2x capacity</li><li>Gun factories have 2x capacity</li><li>Missile factories have 2x capacity</li><li>Dynamite factories have 2x productivity</li>",
-    PlayerTradeCancelTitle: "Cancel This Trade?",
-    PlayerTradeCancelDesc: "Cancelling this trade will return your quota and part of your resource",
-    PlayerTradeCancelYes: "Cancel Trade",
-    PlayerTradeCancelNo: "Don't Cancel",
+        "<li>Режим защиты башни - конвертируйте оружие в урон, защищайтесь от противников и получайте денежные вознаграждения для дальнейшего развития</li><li>Командования армией имеют 2x мощности</li><li>Танковые заводы имеют 2x мощности</li><li>Оружейные заводы имеют 2x мощности</li><li>Заводв снарядов имеют 2x мощности</li><li>Динамитные фабрики имеют 2x производительности</li>",
+    PlayerTradeCancelTitle: "Отменить эту сделку?",
+    PlayerTradeCancelDesc: "Отмена этой сделки вернет вашу квоту и часть ваших ресурсов",
+    PlayerTradeCancelYes: "Отмена сделки",
+    PlayerTradeCancelNo: "Не отменять",
     SteamAutoCloudBackupDescV3:
-        "Your latest progress is saved to Steam Cloud. The game also backs up every 10 minutes - you can force a backup at any time. Loading a backup will lose the right to trade and require a force restoration (subject to cooldown)",
+        "Ваш последний прогресс сохраняется в Steam Cloud. Игра также создает резервные копии каждые 10 минут - вы можете принудительно создать резервную копию в любое время. Загрузка резервной копии приведет к потере права на торговлю и потребует принудительного восстановления (применится таймер ожидания).",
 };
