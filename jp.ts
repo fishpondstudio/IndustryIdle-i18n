@@ -36,7 +36,6 @@ export const JP = {
     MultiplierDesc: "10レベルごとに倍率が1上がります",
     SellBuilding: "施設を売却",
     PowerGrid: "電力網",
-    TradeAmount: "取引量",
     SortBy: "並び替え",
     SortByPrice: "価格",
     SortByAmount: "数量",
@@ -814,7 +813,6 @@ export const JP = {
     LogoutDescV2:
         "他の端末でログインしたところ、その端末がログアウトしてしまいました。再度ログインすることはできますが、他の端末はログアウトされてしまいます",
     LogBackIn: "ログインし直す",
-    PlayerTradeNowAllowedV2: "セーブを復元/インポートしてから%{hour}時間以内は、プレイヤー間トレードができません",
     ServerDisconnected: "サーバーから切断されています。インターネット接続を確認して、ゲームを再起動してください",
     BuildingUpgradeCostDividerDescV2: "施設のアップグレード費用をこの値で割る",
     ResourceBoosterDesc: "隣接する採掘場の出力を上げる",
@@ -1370,4 +1368,8 @@ export const JP = {
     PlayerTradeCancelNo: "Don't Cancel",
     SteamAutoCloudBackupDescV3:
         "Your latest progress is saved to Steam Cloud. The game also backs up every 10 minutes - you can force a backup at any time. Loading a backup will lose the right to trade and require a force restoration (subject to cooldown)",
+    BuyFromTradeCenter: "Buy from Trade Center",
+    BuyFromTradeCenterBestBid: "Best bid price from player trades",
+    BuyFromTradeCenterBestAsk: "Best ask price from player trades",
+    BuyFromTradeCenterAveragePrice: "Average %{price}",
 };

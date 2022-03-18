@@ -36,7 +36,6 @@ export const ZH_HK = {
     MultiplierDesc: "每10級+1倍率",
     SellBuilding: "賣建築物",
     PowerGrid: "電網",
-    TradeAmount: "交易量",
     SortBy: "排喺",
     SortByPrice: "價錢",
     SortByAmount: "數量",
@@ -791,7 +790,6 @@ export const ZH_HK = {
     UseScientificNotationDesc: "用科學計數法(e計數法) 喺大過999.9T嘅數字",
     LogoutDescV2: "您喺另一個設備度登入咗，呢個設備登出咗。您可以登入返但其他設備會被登出",
     LogBackIn: "登入返",
-    PlayerTradeNowAllowedV2: "恢復/匯入保存之後嘅％{hour}個鐘用唔到玩家交易",
     ServerDisconnected: "您同伺服器斷咗線，檢查您嘅網路連線同重新開過",
     BuildingUpgradeCostDividerDescV2: "建築升級成本被呢個折扣折咗",
     ResourceBoosterDesc: "加成隔離礦場輸出",
@@ -1338,4 +1336,8 @@ export const ZH_HK = {
     PlayerTradeCancelNo: "Don't Cancel",
     SteamAutoCloudBackupDescV3:
         "Your latest progress is saved to Steam Cloud. The game also backs up every 10 minutes - you can force a backup at any time. Loading a backup will lose the right to trade and require a force restoration (subject to cooldown)",
+    BuyFromTradeCenter: "Buy from Trade Center",
+    BuyFromTradeCenterBestBid: "Best bid price from player trades",
+    BuyFromTradeCenterBestAsk: "Best ask price from player trades",
+    BuyFromTradeCenterAveragePrice: "Average %{price}",
 };

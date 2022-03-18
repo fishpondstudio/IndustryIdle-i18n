@@ -36,7 +36,6 @@ export const KR = {
     MultiplierDesc: "10 레벨마다 +1 승수를 얻습니다.",
     SellBuilding: "건물 판매",
     PowerGrid: "전력망",
-    TradeAmount: "거래 금액",
     SortBy: "정렬",
     SortByPrice: "가격",
     SortByAmount: "재고",
@@ -811,7 +810,6 @@ export const KR = {
     LogoutDescV2:
         "다른 장치에 로그인했습니다. 이 장치는 로그 아웃되었습니다. 다시 로그인 할 수 있지만 다른 장치는 로그 아웃됩니다.",
     LogBackIn: "다시 로그인",
-    PlayerTradeNowAllowedV2: "저장을 복원/가져오기 후 %{hour}시간 이내에는 플레이어 거래를 사용할 수 없습니다",
     ServerDisconnected: "서버 연결이 끊어졌습니다. 인터넷 연결을 확인하고 게임을 다시 시작하세요",
     BuildingUpgradeCostDividerDescV2: "건물 업그레이드 비용을 이 숫자로 나눕니다",
     ResourceBoosterDesc: "인접 광산의 생산량 증가",
@@ -1365,4 +1363,8 @@ export const KR = {
     PlayerTradeCancelNo: "Don't Cancel",
     SteamAutoCloudBackupDescV3:
         "Your latest progress is saved to Steam Cloud. The game also backs up every 10 minutes - you can force a backup at any time. Loading a backup will lose the right to trade and require a force restoration (subject to cooldown)",
+    BuyFromTradeCenter: "Buy from Trade Center",
+    BuyFromTradeCenterBestBid: "Best bid price from player trades",
+    BuyFromTradeCenterBestAsk: "Best ask price from player trades",
+    BuyFromTradeCenterAveragePrice: "Average %{price}",
 };
