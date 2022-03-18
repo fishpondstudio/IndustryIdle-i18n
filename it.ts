@@ -1418,11 +1418,11 @@ export const IT = {
     WaveAutoNextDesc:
         "Dopo aver pulito un ondata con successo, ne inizierà automaticamente un altra dopo aver acquisito la ricompensa",
     IstanbulBonus:
-        "<li>Modalità tower efense - converte le tue armi in danni, difenditi contro gli invasori e ottieni soldi per espansioni future</li><li>Comando dell'esercito ha il doppio della capacità</li><li>Le fabbriche di carri armati hanno il doppio delle capacità</li><li>Le fabbriche di armi hanno il doppio della capacità</li><li>Le fabbriche di missili hanno il doppio della capacità</li><li>Le fabbriche di dinamite producono il dopppio</li>",
-    PlayerTradeCancelTitle: "Cancel This Trade?",
-    PlayerTradeCancelDesc: "Cancelling this trade will return your quota and part of your resource",
-    PlayerTradeCancelYes: "Cancel Trade",
-    PlayerTradeCancelNo: "Don't Cancel",
+        "<li>Modalità tower defense - converte le tue armi in danni, difenditi contro gli invasori e ottieni soldi per espansioni future</li><li>Comando dell'esercito ha il doppio della capacità</li><li>Le fabbriche di carri armati hanno il doppio delle capacità</li><li>Le fabbriche di armi hanno il doppio della capacità</li><li>Le fabbriche di missili hanno il doppio della capacità</li><li>Le fabbriche di dinamite producono il dopppio</li>",
+    PlayerTradeCancelTitle: "Cancellare questo scambio?",
+    PlayerTradeCancelDesc: "Cancellare questo scambio ti ridarà la tua quota e parte delle risorse",
+    PlayerTradeCancelYes: "Cancella scambio",
+    PlayerTradeCancelNo: "Non cancellare",
     SteamAutoCloudBackupDescV3:
-        "Your latest progress is saved to Steam Cloud. The game also backs up every 10 minutes - you can force a backup at any time. Loading a backup will lose the right to trade and require a force restoration (subject to cooldown)",
+        "I tuoi ultimi progressi sono salvati nel cloud di Steam. Il gioco salva automaticamente ogni 10 minuti - puoi forzar il backup quando vuoi. Caricare un backup ti farà perdere il diritto allo scambio e necessita di un restore forzato( soggetto a cooldown )",
 };
