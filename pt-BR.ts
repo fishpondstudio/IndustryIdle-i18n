@@ -1411,7 +1411,7 @@ export const PT_BR = {
     WaveAutoNextDesc:
         "Depois de defender com sucesso uma onda,reivindique automaticamente a recompensa e inicie a próxima",
     IstanbulBonus:
-        "<li>Modo de defesa de torre - converta suas armas em dano, defenda-se contra invasores e receba recompensas em dinheiro para expandir ainda mais</li><li>Os comandos do exército têm 2x a capacidade</li><li>As fábricas de tanques têm 2x a capacidade</li><li >As fábricas de armas têm 2x de capacidade</li><li>As fábricas de mísseis têm 2x de capacidade</li><li>As fábricas de dinamite têm 2x de produtividade</li>",
+        "<li>Modo de defesa de torre - converta suas armas em dano, defenda-se contra invasores e receba recompensas em dinheiro para expandir ainda mais</li><li>Os comandos do exército têm 2x a capacidade</li><li>As fábricas de tanques têm 2x a capacidade</li><li >As fábricas de armas têm 2x de capacidade</li><li>As fábricas de mísseis têm 2x mais capacidade</li><li>As fábricas de dinamite têm 2x de produtividade</li>",
     PlayerTradeCancelTitle: "Cancelar negociação?",
     PlayerTradeCancelDesc: "Cancelar esta negociação devolverá sua cota e parte do seu recurso",
     PlayerTradeCancelYes: "Cancelar negociação",
