@@ -1411,11 +1411,11 @@ export const PT_BR = {
     WaveAutoNextDesc:
         "Depois de defender com sucesso uma onda,reivindique automaticamente a recompensa e inicie a próxima",
     IstanbulBonus:
-        "<li>Tower defense mode - convert your weapons to damage, defend against invaders and get cash rewards for further expansion</li><li>Army commands have 2x capacity</li><li>Tank factories have 2x capacity</li><li>Gun factories have 2x capacity</li><li>Missile factories have 2x capacity</li><li>Dynamite factories have 2x productivity</li>",
-    PlayerTradeCancelTitle: "Cancel This Trade?",
-    PlayerTradeCancelDesc: "Cancelling this trade will return your quota and part of your resource",
-    PlayerTradeCancelYes: "Cancel Trade",
-    PlayerTradeCancelNo: "Don't Cancel",
+        "<li>Modo de defesa de torre - converta suas armas em dano, defenda-se contra invasores e receba recompensas em dinheiro para expandir ainda mais</li><li>Os comandos do exército têm 2x a capacidade</li><li>As fábricas de tanques têm 2x a capacidade</li><li >As fábricas de armas têm 2x de capacidade</li><li>As fábricas de mísseis têm 2x de capacidade</li><li>As fábricas de dinamite têm 2x de produtividade</li>",
+    PlayerTradeCancelTitle: "Cancelar negociação?",
+    PlayerTradeCancelDesc: "Cancelar esta negociação devolverá sua cota e parte do seu recurso",
+    PlayerTradeCancelYes: "Cancelar negociação",
+    PlayerTradeCancelNo: "Não cancele",
     SteamAutoCloudBackupDescV3:
-        "Your latest progress is saved to Steam Cloud. The game also backs up every 10 minutes - you can force a backup at any time. Loading a backup will lose the right to trade and require a force restoration (subject to cooldown)",
+        "Seu progresso mais recente é salvo no Steam Cloud. O jogo também faz backup a cada 10 minutos - você pode forçar um backup a qualquer momento. Carregar um backup perderá o direito de negociar e exigirá uma restauração de força (sujeito a Tempo de espera!)",
 };
