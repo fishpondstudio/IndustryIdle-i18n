@@ -1391,4 +1391,5 @@ export const SK = {
     BuyFromTradeCenterBestBid: "Best bid price from player trades",
     BuyFromTradeCenterBestAsk: "Best ask price from player trades",
     BuyFromTradeCenterAveragePrice: "Average %{price}",
+    PlayerTradesAvailable: "%{number} trade(s) available from players",
 };
