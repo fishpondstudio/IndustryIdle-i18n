@@ -37,7 +37,6 @@ export const IT = {
     MultiplierDesc: "Ogni 10 livelli, guadagni +1 moltiplicazione",
     SellBuilding: "Vendi Struttura",
     PowerGrid: "Rete Elettrca",
-    TradeAmount: "Quantità Dello Scambio",
     SortBy: "Ordina Per",
     SortByPrice: "Prezzo",
     SortByAmount: "Quantità",
@@ -844,8 +843,6 @@ export const IT = {
     LogoutDescV2:
         "Hai effettuato il login in un altro dispositivo, questo ha efettuato il log out. Puoi effettuare il login, ma l'altro dispositivo verrà disconnesso",
     LogBackIn: "Effettua il Log in",
-    PlayerTradeNowAllowedV2:
-        "Gli scambi con altri giocatori non sono disponibili prima di %{hour} ore dal ripristino/importo di un salvataggio",
     ServerDisconnected:
         "Sei stato disconnesso dal server, per favore controlla la tua connessione a internet e riavvia il gioco",
     BuildingUpgradeCostDividerDescV2: "Dividi il costo di costruzione per questo divisore",
@@ -1425,4 +1422,8 @@ export const IT = {
     PlayerTradeCancelNo: "Non cancellare",
     SteamAutoCloudBackupDescV3:
         "I tuoi ultimi progressi sono salvati nel cloud di Steam. Il gioco salva automaticamente ogni 10 minuti - puoi forzar il backup quando vuoi. Caricare un backup ti farà perdere il diritto allo scambio e necessita di un restore forzato( soggetto a cooldown )",
+    BuyFromTradeCenter: "Buy from Trade Center",
+    BuyFromTradeCenterBestBid: "Best bid price from player trades",
+    BuyFromTradeCenterBestAsk: "Best ask price from player trades",
+    BuyFromTradeCenterAveragePrice: "Average %{price}",
 };

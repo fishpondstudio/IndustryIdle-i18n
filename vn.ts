@@ -36,7 +36,6 @@ export const VN = {
     MultiplierDesc: "Mỗi 10 cấp, bạn được thêm 1 bội số",
     SellBuilding: "Bán công trình",
     PowerGrid: "Lưới điện",
-    TradeAmount: "Khối lượng giao dịch",
     SortBy: "Sắp xếp theo",
     SortByPrice: "Giá cả",
     SortByAmount: "Số lượng",
@@ -831,8 +830,6 @@ export const VN = {
     LogoutDescV2:
         "Bạn vừa đăng nhập vào thiết bị khác, thiết bị này đã bị đăng xuất. Bạn có thể đăng nhập lại nhưng thiết bị kia sẽ bị đăng xuất",
     LogBackIn: "Đăng nhập lại",
-    PlayerTradeNowAllowedV2:
-        "Giao dịch với người chơi bị tạm ngưng %{hour} giờ sau khi bạn đọc lại dữ liệu của bản lưu",
     ServerDisconnected:
         "Kết nối với máy chủ bị gián đoạn, xin vui lòng kiểm tra lại đường truyền và khởi động lại trò chơi",
     BuildingUpgradeCostDividerDescV2: "Chia chi phí nâng cấp cho số này",
@@ -1395,4 +1392,8 @@ export const VN = {
     PlayerTradeCancelNo: "Don't Cancel",
     SteamAutoCloudBackupDescV3:
         "Your latest progress is saved to Steam Cloud. The game also backs up every 10 minutes - you can force a backup at any time. Loading a backup will lose the right to trade and require a force restoration (subject to cooldown)",
+    BuyFromTradeCenter: "Buy from Trade Center",
+    BuyFromTradeCenterBestBid: "Best bid price from player trades",
+    BuyFromTradeCenterBestAsk: "Best ask price from player trades",
+    BuyFromTradeCenterAveragePrice: "Average %{price}",
 };

@@ -36,7 +36,6 @@ export const RU = {
     MultiplierDesc: "За каждые 10 уровней вы получаете +1 множитель",
     SellBuilding: "Продать здание",
     PowerGrid: "Электрическая сеть",
-    TradeAmount: "Сумма сделки",
     SortBy: "Сортировка",
     SortByPrice: "Цене",
     SortByAmount: "Сумме",
@@ -841,8 +840,6 @@ export const RU = {
     LogoutDescV2:
         "Вы вошли в систему на другом устройстве. Данное устройство отключено от системы. Вы можете снова войти в систему, но другое устройство будет отключено от системы",
     LogBackIn: "Войти снова",
-    PlayerTradeNowAllowedV2:
-        "Торговля между игроками недоступна в течение %{hour} часов после восстановления/импорта сохранения",
     ServerDisconnected: "Вы отключены от сервера, пожалуйста, проверьте подключение к интернету и перезапустите игру",
     BuildingUpgradeCostDividerDescV2: "Разделите стоимость модернизации здания на этот делитель",
     ResourceBoosterDesc: "Увеличивает производительность соседних шахт",
@@ -1423,4 +1420,8 @@ export const RU = {
     PlayerTradeCancelNo: "Не отменять",
     SteamAutoCloudBackupDescV3:
         "Ваш последний прогресс сохраняется в Steam Cloud. Игра также создает резервные копии каждые 10 минут - вы можете принудительно создать резервную копию в любое время. Загрузка резервной копии приведет к потере права на торговлю и потребует принудительного восстановления (применится таймер ожидания).",
+    BuyFromTradeCenter: "Buy from Trade Center",
+    BuyFromTradeCenterBestBid: "Best bid price from player trades",
+    BuyFromTradeCenterBestAsk: "Best ask price from player trades",
+    BuyFromTradeCenterAveragePrice: "Average %{price}",
 };

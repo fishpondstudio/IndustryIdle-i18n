@@ -37,7 +37,6 @@ export const PL = {
     MultiplierDesc: "Każde 10 poziomów, zwieksza mnożnik o 1",
     SellBuilding: "Sprzedaj budynek",
     PowerGrid: "Sieć energetyczna",
-    TradeAmount: "Ilość towaru",
     SortBy: "Sortuj po",
     SortByPrice: "Cena",
     SortByAmount: "Ilość",
@@ -838,8 +837,6 @@ export const PL = {
     LogoutDescV2:
         "Zalogowałeś się na innym urządzeniu, to urządzenie jest wylogowane. Możesz się ponownie zalogować, ale drugie urządzenie zostanie wylogowane",
     LogBackIn: "Zaloguj się ponownie",
-    PlayerTradeNowAllowedV2:
-        "Transakcje graczy nie są dostępne w ciągu %{hour} godzin od przywrócenia/zaimportowania zapisu",
     ServerDisconnected: "Nie masz połączenia z serwerem, sprawdź połączenie z internetem i spróbój ponownie",
     BuildingUpgradeCostDividerDescV2: "Podziel koszt ulepszenia budynku przez ten dzielnik",
     ResourceBoosterDesc: "Zwiększ wydajność sąsiednich kopalń",
@@ -1407,4 +1404,8 @@ export const PL = {
     PlayerTradeCancelNo: "Don't Cancel",
     SteamAutoCloudBackupDescV3:
         "Your latest progress is saved to Steam Cloud. The game also backs up every 10 minutes - you can force a backup at any time. Loading a backup will lose the right to trade and require a force restoration (subject to cooldown)",
+    BuyFromTradeCenter: "Buy from Trade Center",
+    BuyFromTradeCenterBestBid: "Best bid price from player trades",
+    BuyFromTradeCenterBestAsk: "Best ask price from player trades",
+    BuyFromTradeCenterAveragePrice: "Average %{price}",
 };

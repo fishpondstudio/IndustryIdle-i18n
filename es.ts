@@ -37,7 +37,6 @@ export const ES = {
     MultiplierDesc: "Cada 10 niveles, obtienes +1 multiplicador",
     SellBuilding: "Vender Edificio",
     PowerGrid: "Red eléctrica",
-    TradeAmount: "Monto comercial",
     SortBy: "Ordenar por",
     SortByPrice: "Precio",
     SortByAmount: "Cantidad",
@@ -842,7 +841,6 @@ export const ES = {
     LogoutDescV2:
         "You have logged in on another device, this device is logged out. You can log back in but the other device will be logged out",
     LogBackIn: "Log Back In",
-    PlayerTradeNowAllowedV2: "Player trades are not available within %{hour} hours of restoring/importing a save",
     ServerDisconnected: "Estas desconectado del servidor, comprueba tu conexión a internet y reinicia el juego",
     BuildingUpgradeCostDividerDescV2: "Divide building upgrade cost by this divider",
     ResourceBoosterDesc: "Boost the output of adjacent mines",
@@ -1404,4 +1402,8 @@ export const ES = {
     PlayerTradeCancelNo: "Don't Cancel",
     SteamAutoCloudBackupDescV3:
         "Your latest progress is saved to Steam Cloud. The game also backs up every 10 minutes - you can force a backup at any time. Loading a backup will lose the right to trade and require a force restoration (subject to cooldown)",
+    BuyFromTradeCenter: "Buy from Trade Center",
+    BuyFromTradeCenterBestBid: "Best bid price from player trades",
+    BuyFromTradeCenterBestAsk: "Best ask price from player trades",
+    BuyFromTradeCenterAveragePrice: "Average %{price}",
 };

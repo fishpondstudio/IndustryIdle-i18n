@@ -36,7 +36,6 @@ export const ZH_CN = {
     MultiplierDesc: "每提升10级，您将增加1个乘数",
     SellBuilding: "出售建筑物",
     PowerGrid: "电力系统",
-    TradeAmount: "贸易数量",
     SortBy: "排序",
     SortByPrice: "价格",
     SortByAmount: "数量",
@@ -793,7 +792,6 @@ export const ZH_CN = {
     UseScientificNotationDesc: "使用科学计数法（e表示法）来表示大于999.9T的数字",
     LogoutDescV2: "你已在其他设备上登录，该设备将下线。你可以重新登录但这将导致其他设备下线",
     LogBackIn: "重新登录",
-    PlayerTradeNowAllowedV2: "在恢复/导入存档的%{hour}小时内不可进行玩家交易",
     ServerDisconnected: "你已断开与服务器的连接，请检查你的互联网连接或重启游戏",
     BuildingUpgradeCostDividerDescV2: "建筑升级成本将除以该除数",
     ResourceBoosterDesc: "增加相邻矿场的产出量",
@@ -1322,4 +1320,8 @@ export const ZH_CN = {
     PlayerTradeCancelNo: "Don't Cancel",
     SteamAutoCloudBackupDescV3:
         "Your latest progress is saved to Steam Cloud. The game also backs up every 10 minutes - you can force a backup at any time. Loading a backup will lose the right to trade and require a force restoration (subject to cooldown)",
+    BuyFromTradeCenter: "Buy from Trade Center",
+    BuyFromTradeCenterBestBid: "Best bid price from player trades",
+    BuyFromTradeCenterBestAsk: "Best ask price from player trades",
+    BuyFromTradeCenterAveragePrice: "Average %{price}",
 };

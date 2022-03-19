@@ -36,7 +36,6 @@ export const TR = {
     MultiplierDesc: "Her 10 seviyede bir +1 çarpanı alırsınız ",
     SellBuilding: "Yapıyı sat",
     PowerGrid: "Güç ızgarası",
-    TradeAmount: "Ticaret miktarı",
     SortBy: "Göre sırala",
     SortByPrice: "Fiyat",
     SortByAmount: "Miktar",
@@ -827,7 +826,6 @@ export const TR = {
     LogoutDescV2:
         "You have logged in on another device, this device is logged out. You can log back in but the other device will be logged out",
     LogBackIn: "Log Back In",
-    PlayerTradeNowAllowedV2: "Player trades are not available within %{hour} hours of restoring/importing a save",
     ServerDisconnected:
         "You are disconnected from the server, please check your internet connection and restart the game",
     BuildingUpgradeCostDividerDescV2: "Divide building upgrade cost by this divider",
@@ -1390,4 +1388,8 @@ export const TR = {
     PlayerTradeCancelNo: "Don't Cancel",
     SteamAutoCloudBackupDescV3:
         "Your latest progress is saved to Steam Cloud. The game also backs up every 10 minutes - you can force a backup at any time. Loading a backup will lose the right to trade and require a force restoration (subject to cooldown)",
+    BuyFromTradeCenter: "Buy from Trade Center",
+    BuyFromTradeCenterBestBid: "Best bid price from player trades",
+    BuyFromTradeCenterBestAsk: "Best ask price from player trades",
+    BuyFromTradeCenterAveragePrice: "Average %{price}",
 };
