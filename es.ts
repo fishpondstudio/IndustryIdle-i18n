@@ -1407,4 +1407,5 @@ export const ES = {
     BuyFromTradeCenterBestAsk: "Best ask price from player trades",
     BuyFromTradeCenterAveragePrice: "Average %{price}",
     PlayerTradesAvailable: "%{number} trade(s) available from players",
+    SettingsShowInToolbar: "Show In Toolbar",
 };
