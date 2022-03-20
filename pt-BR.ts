@@ -1415,7 +1415,7 @@ export const PT_BR = {
     PlayerTradeCancelNo: "Não cancele",
     SteamAutoCloudBackupDescV3:
         "Seu progresso mais recente é salvo no Steam Cloud. O jogo também faz backup a cada 10 minutos - você pode forçar um backup a qualquer momento. Carregar um backup perderá o direito de negociar e exigirá uma restauração de força (sujeito a Tempo de espera!)",
-    BuyFromTradeCenter: "Compre no Trade Center",
+    BuyFromTradeCenter: "Compre no Centro comercial",
     BuyFromTradeCenterBestBid: "Melhor preço de lance de negociações de jogadores",
     BuyFromTradeCenterBestAsk: "Melhor preço de venda de negociações de jogadores",
     BuyFromTradeCenterAveragePrice: "Média %{price}",
