@@ -1425,4 +1425,5 @@ export const RU = {
     BuyFromTradeCenterBestAsk: "Лучшая цена для покупки в торговле игроков",
     BuyFromTradeCenterAveragePrice: "Средняя %{price}",
     PlayerTradesAvailable: "%{number} Сделка(-ок) доступны у игроков",
+    SettingsShowInToolbar: "Показать на панели инструментов",
 };
