@@ -1422,10 +1422,10 @@ export const IT = {
     PlayerTradeCancelNo: "Non cancellare",
     SteamAutoCloudBackupDescV3:
         "I tuoi ultimi progressi sono salvati nel cloud di Steam. Il gioco salva automaticamente ogni 10 minuti - puoi forzar il backup quando vuoi. Caricare un backup ti farà perdere il diritto allo scambio e necessita di un restore forzato( soggetto a cooldown )",
-    BuyFromTradeCenter: "Buy from Trade Center",
-    BuyFromTradeCenterBestBid: "Best bid price from player trades",
-    BuyFromTradeCenterBestAsk: "Best ask price from player trades",
-    BuyFromTradeCenterAveragePrice: "Average %{price}",
-    PlayerTradesAvailable: "%{number} trade(s) available from players",
-    SettingsShowInToolbar: "Show In Toolbar",
+    BuyFromTradeCenter: "Compra dal centro di commercio",
+    BuyFromTradeCenterBestBid: "Miglior prezzo dell'offerta dagli scambi tra giocatori",
+    BuyFromTradeCenterBestAsk: "Miglior prezzo delle richieste dagli scambi tra giocatori",
+    BuyFromTradeCenterAveragePrice: "Prezzo medio %{price}",
+    PlayerTradesAvailable: "%{number} scambi tra giocatori disponibili",
+    SettingsShowInToolbar: "Mostra nella barra degli strumenti",
 };
