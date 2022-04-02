@@ -1392,7 +1392,6 @@ export const IT = {
     ExportSaveForBackup: "Esegui il backup del tuo salvataggio",
     ExportSaveForBackupDesc:
         "Scegli questa opzione se vuoi semplicemente un backup dei tuoi progressi. Questa opzione ti lascierà il diritto di scambio sul tuo dispositivo attuale - importare il file di backup non annullerà il cooldown",
-    CheckRightToTrade: "Controlla il diritto alo scambio",
     RightToTradeValid: "Diritto allo scambio",
     RightToTradeInvalid: "Nessun diritto allo scambio",
     RightToTradeInvalidDesc:
@@ -1433,6 +1432,8 @@ export const IT = {
     AccountNotAuthenticated: "Not Authenticated",
     AccountTrusted: "Trusted Account",
     AccountLimited: "Limited Account",
+    AntiCheatPass: "Anti-Cheat Pass",
+    AntiCheatFail: "Anti-Cheat Fail",
     AccountLimitedDesc: "Your Steam account fails to satisfy platform requirement",
     AccountLimitedAction: "Read Steam Support Article",
     AchievementIstanbul100: "Leo the Great",

@@ -1385,7 +1385,6 @@ export const PT_BR = {
     ExportSaveForBackup: "Fazer Backup do save",
     ExportSaveForBackupDesc:
         "Escolha esta opção se você deseja simplesmente fazer um backup do seu progresso. Isso deixará seu direito de negociar em seu dispositivo atual - importar o arquivo salvo de backup não restaurará o direito de negociar sem aguardar um período de espera",
-    CheckRightToTrade: "Verifique o direito de negociar",
     RightToTradeValid: "Direito de negociar",
     RightToTradeInvalid: "Sem direito de negociar",
     RightToTradeInvalidDesc:
@@ -1426,6 +1425,8 @@ export const PT_BR = {
     AccountNotAuthenticated: "Not Authenticated",
     AccountTrusted: "Trusted Account",
     AccountLimited: "Limited Account",
+    AntiCheatPass: "Anti-Cheat Pass",
+    AntiCheatFail: "Anti-Cheat Fail",
     AccountLimitedDesc: "Your Steam account fails to satisfy platform requirement",
     AccountLimitedAction: "Read Steam Support Article",
     AchievementIstanbul100: "Leo the Great",

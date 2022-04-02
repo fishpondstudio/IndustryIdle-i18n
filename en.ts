@@ -1399,6 +1399,8 @@ export const EN = {
     AccountNotAuthenticated: "Not Authenticated",
     AccountTrusted: "Trusted Account",
     AccountLimited: "Limited Account",
+    AntiCheatPass: "Anti-Cheat Pass",
+    AntiCheatFail: "Anti-Cheat Fail",
     AccountLimitedDesc: "Your Steam account fails to satisfy platform requirement",
     AccountLimitedAction: "Read Steam Support Article",
     AchievementIstanbul100: "Leo the Great",

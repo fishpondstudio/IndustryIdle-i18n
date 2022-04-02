@@ -1390,7 +1390,6 @@ export const RU = {
     ExportSaveForBackup: "Резервное копия вашего сохранения",
     ExportSaveForBackupDesc:
         "Выберите этот вариант, если вы просто хотите сделать резервную копию своего прогресса. При этом ваше право на торговлю останется на текущем устройстве - импорт резервного файла сохранения не восстановит право на торговлю до истечения таймера ожидания",
-    CheckRightToTrade: "Проверить право на торговлю",
     RightToTradeValid: "Есть право на торговлю",
     RightToTradeInvalid: "Нет права на торговлю",
     RightToTradeInvalidDesc:
@@ -1431,6 +1430,8 @@ export const RU = {
     AccountNotAuthenticated: "Not Authenticated",
     AccountTrusted: "Trusted Account",
     AccountLimited: "Limited Account",
+    AntiCheatPass: "Anti-Cheat Pass",
+    AntiCheatFail: "Anti-Cheat Fail",
     AccountLimitedDesc: "Your Steam account fails to satisfy platform requirement",
     AccountLimitedAction: "Read Steam Support Article",
     AchievementIstanbul100: "Leo the Great",

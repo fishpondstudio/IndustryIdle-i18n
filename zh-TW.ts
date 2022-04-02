@@ -1297,7 +1297,6 @@ export const ZH_TW = {
     ExportSaveForBackup: "備份你的存檔",
     ExportSaveForBackupDesc:
         " 如果您只是想備份您的進度，請選擇此選項。這將保留您在當前設備上的交易權 - 導入備份保存文件不會在不等待冷卻時間的情況下恢復交易權。 ",
-    CheckRightToTrade: "檢查交易權",
     RightToTradeValid: "交易權",
     RightToTradeInvalid: "沒有交易權",
     RightToTradeInvalidDesc:
@@ -1337,6 +1336,8 @@ export const ZH_TW = {
     AccountNotAuthenticated: "Not Authenticated",
     AccountTrusted: "Trusted Account",
     AccountLimited: "Limited Account",
+    AntiCheatPass: "Anti-Cheat Pass",
+    AntiCheatFail: "Anti-Cheat Fail",
     AccountLimitedDesc: "Your Steam account fails to satisfy platform requirement",
     AccountLimitedAction: "Read Steam Support Article",
     AchievementIstanbul100: "Leo the Great",

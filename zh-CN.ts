@@ -1291,7 +1291,6 @@ export const ZH_CN = {
     ExportSaveForBackup: "备份你的存档",
     ExportSaveForBackupDesc:
         "如果你单纯只想备份你的进度，选择这个选项。这将保留你在当前设备上的交易权限 - 导入这个存档文件不会恢复交易权限，除非等待一段冷却时间。",
-    CheckRightToTrade: "检查交易权限",
     RightToTradeValid: "有权交易",
     RightToTradeInvalid: "无权交易",
     RightToTradeInvalidDesc:
@@ -1330,6 +1329,8 @@ export const ZH_CN = {
     AccountNotAuthenticated: "Not Authenticated",
     AccountTrusted: "Trusted Account",
     AccountLimited: "Limited Account",
+    AntiCheatPass: "Anti-Cheat Pass",
+    AntiCheatFail: "Anti-Cheat Fail",
     AccountLimitedDesc: "Your Steam account fails to satisfy platform requirement",
     AccountLimitedAction: "Read Steam Support Article",
     AchievementIstanbul100: "Leo the Great",

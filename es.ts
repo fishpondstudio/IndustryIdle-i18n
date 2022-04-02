@@ -1373,7 +1373,6 @@ export const ES = {
     ExportSaveForBackup: "Backup Your Save",
     ExportSaveForBackupDesc:
         "Choose this if you simply want to take a backup of your progress. This will leave your right to trade on your current device - importing the backup save file will not restore the right to trade without waiting for a cooldown period",
-    CheckRightToTrade: "Check Right To Trade",
     RightToTradeValid: "Right To Trade",
     RightToTradeInvalid: "No Right To Trade",
     RightToTradeInvalidDesc:
@@ -1413,6 +1412,8 @@ export const ES = {
     AccountNotAuthenticated: "Not Authenticated",
     AccountTrusted: "Trusted Account",
     AccountLimited: "Limited Account",
+    AntiCheatPass: "Anti-Cheat Pass",
+    AntiCheatFail: "Anti-Cheat Fail",
     AccountLimitedDesc: "Your Steam account fails to satisfy platform requirement",
     AccountLimitedAction: "Read Steam Support Article",
     AchievementIstanbul100: "Leo the Great",

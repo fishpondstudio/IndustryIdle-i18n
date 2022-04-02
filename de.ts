@@ -1392,7 +1392,6 @@ export const DE = {
     ExportSaveForBackup: "Backup für deinen Speicherstand",
     ExportSaveForBackupDesc:
         "Wähle diese Option, wenn du ein Backup deines Fortschrittes machen will. Dein derzeitiges Gerät behält das Handelsrecht - Das Backup zu importieren stellt das Handelsrecht erst nach einer Wartezeit wieder her",
-    CheckRightToTrade: "Prüfe Handelsrecht",
     RightToTradeValid: "Handelsrecht",
     RightToTradeInvalid: "Kein Handelsrecht",
     RightToTradeInvalidDesc:
@@ -1432,6 +1431,8 @@ export const DE = {
     AccountNotAuthenticated: "Not Authenticated",
     AccountTrusted: "Trusted Account",
     AccountLimited: "Limited Account",
+    AntiCheatPass: "Anti-Cheat Pass",
+    AntiCheatFail: "Anti-Cheat Fail",
     AccountLimitedDesc: "Your Steam account fails to satisfy platform requirement",
     AccountLimitedAction: "Read Steam Support Article",
     AchievementIstanbul100: "Leo the Great",
