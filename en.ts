@@ -1445,4 +1445,5 @@ export const EN = {
     SoftDrink: "Soft Drink",
     Alcohol: "Alcohol",
     Wine: "Wine",
+    Cocktail: "Cocktail",
 };
