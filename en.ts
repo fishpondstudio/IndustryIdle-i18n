@@ -1436,7 +1436,7 @@ export const EN = {
     AchievementFishPond200: "Admiral of the Fish Pond",
     AchievementFishPond200Desc: "Build 200 fish ponds on any map in a single run",
     Photogram: "Photogram",
-    TyreStarRestaurant: "Tyre Star Restaurant",
+    FineDining: "Fine Dining",
     Sushi: "Sushi",
     Pastry: "Pastry",
     HappyMeal: "Happy Meal",
