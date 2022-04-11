@@ -1423,4 +1423,13 @@ export const KR = {
     ThreeCourseMeal: "Three Course Meal",
     SixCourseMeal: "Six Course Meal",
     NineCourseMeal: "Nine Course Meal",
+    IndustryZoneCapacityBoostPermanent: "Industry Zone Bonus (Permanent)",
+    IndustryZoneCapacityBoostThisRun: "Industry Zone Bonus (This Run)",
+    IndustryZoneMaxBuildingLevelDesc: "Max level of buildings supported within this Industry Zone",
+    IndustryZoneHelp: "How Industry Zone Works?",
+    IndustryZoneProductivityBoost: "Industry Zone Plus",
+    IndustryZoneProductivityBoostDesc:
+        "Every tier or every 10 level of an Industry Zone provide 10% output boost to buildings in it",
+    ExtraBuildingPermit: "Extra Building Permit",
+    ExtraBuildingPermitDesc: "Add extra building permits to your current map - this will not increase the cost curve",
 };
