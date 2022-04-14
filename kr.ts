@@ -1,6 +1,6 @@
 export const KR = {
     Translator: "번역자",
-    TranslatorName: "zed, FreeRiding, darkboom",
+    TranslatorName: "zed, FreeRiding, darkboom, oein",
     Language: "언어",
     ThisLanguage: "한국어",
     OK: "OK",
