@@ -175,8 +175,6 @@ export const NL = {
     ChromiumAlloyPlant: "Chroom Legering Fabriek",
     Input: "Invoer",
     PanelPosition: "Paneel Positie",
-    PanelPositionDesc:
-        "Toon zijpaneel aan de linkerkant, rechterkant of automatisch (afhankelijk van de geselecteerde tegel)",
     Output: "Productie",
     OutputCapacity: "Productie Capaciteit",
     ResourceDeposit: "Grondstoffen Bron",
@@ -1464,4 +1462,8 @@ export const NL = {
         "Every tier or every 10 level of an Industry Zone provide 10% output boost to buildings in it",
     ExtraBuildingPermit: "Extra Building Permit",
     ExtraBuildingPermitDesc: "Add extra building permits to your current map - this will not increase the cost curve",
+    PanelPositionDescV2:
+        "Show side panel on left, right or auto (depends on current selected tile). Only work in landscape mode",
+    PanelHeight: "Panel Height",
+    PanelHeightDesc: "Choose the height of the panel. Only work in portrait mode on mobile devices. REQUIRES RELOAD",
 };

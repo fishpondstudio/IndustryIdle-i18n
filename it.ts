@@ -177,8 +177,6 @@ export const IT = {
     ChromiumAlloyPlant: "Fabbrica Di Lega Di Cromio",
     Input: "Input",
     PanelPosition: "Posizione Del Pannello",
-    PanelPositionDesc:
-        "Visualizza il pannello laterale a sinistra, destra o automatico( dipene dal titolo selezionato)",
     Output: "Output",
     OutputCapacity: "Capacità Di Output",
     ResourceDeposit: "Deposito Di Risorse",
@@ -1491,4 +1489,8 @@ export const IT = {
         "Every tier or every 10 level of an Industry Zone provide 10% output boost to buildings in it",
     ExtraBuildingPermit: "Extra Building Permit",
     ExtraBuildingPermitDesc: "Add extra building permits to your current map - this will not increase the cost curve",
+    PanelPositionDescV2:
+        "Show side panel on left, right or auto (depends on current selected tile). Only work in landscape mode",
+    PanelHeight: "Panel Height",
+    PanelHeightDesc: "Choose the height of the panel. Only work in portrait mode on mobile devices. REQUIRES RELOAD",
 };

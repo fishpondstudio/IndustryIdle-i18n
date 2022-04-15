@@ -174,7 +174,6 @@ export const ZH_TW = {
     ChromiumAlloyPlant: "鉻合金加工廠",
     Input: "消耗",
     PanelPosition: "面板位置",
-    PanelPositionDesc: "將控制面板顯示在左側、右側或自動（取決於目前的選擇的區塊）",
     Output: "產出",
     OutputCapacity: "產出量",
     ResourceDeposit: "資源礦藏",
@@ -1395,4 +1394,8 @@ export const ZH_TW = {
         "Every tier or every 10 level of an Industry Zone provide 10% output boost to buildings in it",
     ExtraBuildingPermit: "Extra Building Permit",
     ExtraBuildingPermitDesc: "Add extra building permits to your current map - this will not increase the cost curve",
+    PanelPositionDescV2:
+        "Show side panel on left, right or auto (depends on current selected tile). Only work in landscape mode",
+    PanelHeight: "Panel Height",
+    PanelHeightDesc: "Choose the height of the panel. Only work in portrait mode on mobile devices. REQUIRES RELOAD",
 };
