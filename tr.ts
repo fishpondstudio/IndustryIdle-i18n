@@ -1460,4 +1460,7 @@ export const TR = {
         "Show side panel on left, right or auto (depends on current selected tile). Only work in landscape mode",
     PanelHeight: "Panel Height",
     PanelHeightDesc: "Choose the height of the panel. Only work in portrait mode on mobile devices. REQUIRES RELOAD",
+    AllowPortraitMode: "Enable Portrait Mode",
+    AllowPortraitModeDesc:
+        "This will enable portrait mode (experimental), the screen will rotate based on your phone's sensor and settings",
 };
