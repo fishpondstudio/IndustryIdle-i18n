@@ -1486,4 +1486,7 @@ export const PT_BR = {
         "Mostrar painel lateral à esquerda, direita ou automático (depende do bloco selecionado atualmente). Só funciona no modo paisagem",
     PanelHeight: "Altura do Painel",
     PanelHeightDesc: "Escolha a altura do painel. Só funciona no modo retrato em dispositivos móveis. O Jogo irá reiniciar!",
+    AllowPortraitMode: "Enable Portrait Mode",
+    AllowPortraitModeDesc:
+        "This will enable portrait mode (experimental), the screen will rotate based on your phone's sensor and settings",
 };
