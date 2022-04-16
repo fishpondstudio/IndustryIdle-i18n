@@ -174,7 +174,6 @@ export const VN = {
     ChromiumAlloyPlant: "Xưởng hợp kim Crôm",
     Input: "Nguyên liệu",
     PanelPosition: "Vị trí bảng thông tin",
-    PanelPositionDesc: "Hiển thị bảng thông tin bên trái, phải hoặc tự động (tùy vào ô được chọn trên bản đồ)",
     Output: "Thành phẩm",
     OutputCapacity: "Dung lượng thành phẩm",
     ResourceDeposit: "Trữ lượng",
@@ -1461,4 +1460,11 @@ export const VN = {
         "Every tier or every 10 level of an Industry Zone provide 10% output boost to buildings in it",
     ExtraBuildingPermit: "Extra Building Permit",
     ExtraBuildingPermitDesc: "Add extra building permits to your current map - this will not increase the cost curve",
+    PanelPositionDescV2:
+        "Show side panel on left, right or auto (depends on current selected tile). Only work in landscape mode",
+    PanelHeight: "Panel Height",
+    PanelHeightDesc: "Choose the height of the panel. Only work in portrait mode on mobile devices. REQUIRES RELOAD",
+    AllowPortraitMode: "Enable Portrait Mode",
+    AllowPortraitModeDesc:
+        "This will enable portrait mode (experimental), the screen will rotate based on your phone's sensor and settings",
 };

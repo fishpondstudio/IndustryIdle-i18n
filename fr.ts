@@ -180,8 +180,6 @@ export const FR = {
     ChromiumAlloyPlant: "Usine d'alliage de chrome",
     Input: "Entrée",
     PanelPosition: "Position du panneau",
-    PanelPositionDesc:
-        "Afficher le panneau latéral à gauche, à droite ou automatique (dépend de la vignette actuellement sélectionnée)",
     Output: "Sortie",
     OutputCapacity: "Capacité de sortie",
     ResourceDeposit: "Dépôt de ressources",
@@ -1490,4 +1488,11 @@ export const FR = {
         "Every tier or every 10 level of an Industry Zone provide 10% output boost to buildings in it",
     ExtraBuildingPermit: "Extra Building Permit",
     ExtraBuildingPermitDesc: "Add extra building permits to your current map - this will not increase the cost curve",
+    PanelPositionDescV2:
+        "Show side panel on left, right or auto (depends on current selected tile). Only work in landscape mode",
+    PanelHeight: "Panel Height",
+    PanelHeightDesc: "Choose the height of the panel. Only work in portrait mode on mobile devices. REQUIRES RELOAD",
+    AllowPortraitMode: "Enable Portrait Mode",
+    AllowPortraitModeDesc:
+        "This will enable portrait mode (experimental), the screen will rotate based on your phone's sensor and settings",
 };
