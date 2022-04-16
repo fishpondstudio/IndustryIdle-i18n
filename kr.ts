@@ -174,7 +174,6 @@ export const KR = {
     ChromiumAlloyPlant: "크롬 합금 공장",
     Input: "입력",
     PanelPosition: "패널 위치",
-    PanelPositionDesc: "왼쪽, 오른쪽 또는 자동에 측면 패널 표시 (현재 선택한 타일에 따라 다름)",
     Output: "출력",
     OutputCapacity: "출력 용량",
     ResourceDeposit: "자원 매장층",
@@ -1432,4 +1431,11 @@ export const KR = {
         "Every tier or every 10 level of an Industry Zone provide 10% output boost to buildings in it",
     ExtraBuildingPermit: "Extra Building Permit",
     ExtraBuildingPermitDesc: "Add extra building permits to your current map - this will not increase the cost curve",
+    PanelPositionDescV2:
+        "Show side panel on left, right or auto (depends on current selected tile). Only work in landscape mode",
+    PanelHeight: "Panel Height",
+    PanelHeightDesc: "Choose the height of the panel. Only work in portrait mode on mobile devices. REQUIRES RELOAD",
+    AllowPortraitMode: "Enable Portrait Mode",
+    AllowPortraitModeDesc:
+        "This will enable portrait mode (experimental), the screen will rotate based on your phone's sensor and settings",
 };

@@ -176,7 +176,6 @@ export const PL = {
     ChromiumAlloyPlant: "Fabryka stopów chromu",
     Input: "Potrzebuje",
     PanelPosition: "Pozycja wyświetlacza",
-    PanelPositionDesc: "Pokaż panel boczny z lewej, prawej lub automatycznie (zależne od zaznaczonego pola)",
     Output: "Produkuje",
     OutputCapacity: "Pojemność wyjściowa",
     ResourceDeposit: "Depozyt zasobów",
@@ -1473,4 +1472,11 @@ export const PL = {
         "Every tier or every 10 level of an Industry Zone provide 10% output boost to buildings in it",
     ExtraBuildingPermit: "Extra Building Permit",
     ExtraBuildingPermitDesc: "Add extra building permits to your current map - this will not increase the cost curve",
+    PanelPositionDescV2:
+        "Show side panel on left, right or auto (depends on current selected tile). Only work in landscape mode",
+    PanelHeight: "Panel Height",
+    PanelHeightDesc: "Choose the height of the panel. Only work in portrait mode on mobile devices. REQUIRES RELOAD",
+    AllowPortraitMode: "Enable Portrait Mode",
+    AllowPortraitModeDesc:
+        "This will enable portrait mode (experimental), the screen will rotate based on your phone's sensor and settings",
 };

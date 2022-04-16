@@ -177,8 +177,6 @@ export const IT = {
     ChromiumAlloyPlant: "Fabbrica Di Lega Di Cromio",
     Input: "Input",
     PanelPosition: "Posizione Del Pannello",
-    PanelPositionDesc:
-        "Visualizza il pannello laterale a sinistra, destra o automatico( dipene dal titolo selezionato)",
     Output: "Output",
     OutputCapacity: "Capacità Di Output",
     ResourceDeposit: "Deposito Di Risorse",
@@ -1491,4 +1489,11 @@ export const IT = {
         "ogni 10 livelli di una zona industriale provvee il 10% di boost alle strutture al suo interno",
     ExtraBuildingPermit: "Permessi di costruzione extra",
     ExtraBuildingPermitDesc: "Aggiungi permessi i costruzione alla mappa corrende - non aumenterà la curva del costo",
+    PanelPositionDescV2:
+        "Show side panel on left, right or auto (depends on current selected tile). Only work in landscape mode",
+    PanelHeight: "Panel Height",
+    PanelHeightDesc: "Choose the height of the panel. Only work in portrait mode on mobile devices. REQUIRES RELOAD",
+    AllowPortraitMode: "Enable Portrait Mode",
+    AllowPortraitModeDesc:
+        "This will enable portrait mode (experimental), the screen will rotate based on your phone's sensor and settings",
 };

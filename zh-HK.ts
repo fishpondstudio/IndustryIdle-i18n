@@ -173,7 +173,6 @@ export const ZH_HK = {
     ChromiumAlloyPlant: "鉻合金廠",
     Input: "輸入",
     PanelPosition: "面板位",
-    PanelPositionDesc: "將控制面板擺喺左右邊或者自動 (取決喺揀嘅位)",
     Output: "輸出",
     OutputCapacity: "輸出量",
     ResourceDeposit: "資源床",
@@ -1405,4 +1404,11 @@ export const ZH_HK = {
         "Every tier or every 10 level of an Industry Zone provide 10% output boost to buildings in it",
     ExtraBuildingPermit: "Extra Building Permit",
     ExtraBuildingPermitDesc: "Add extra building permits to your current map - this will not increase the cost curve",
+    PanelPositionDescV2:
+        "Show side panel on left, right or auto (depends on current selected tile). Only work in landscape mode",
+    PanelHeight: "Panel Height",
+    PanelHeightDesc: "Choose the height of the panel. Only work in portrait mode on mobile devices. REQUIRES RELOAD",
+    AllowPortraitMode: "Enable Portrait Mode",
+    AllowPortraitModeDesc:
+        "This will enable portrait mode (experimental), the screen will rotate based on your phone's sensor and settings",
 };
