@@ -1487,7 +1487,8 @@ export const RU = {
     IndustryZoneProductivityBoostDesc:
         "Каждое здание в цепочке или каждый 10 уровень промышленной зоны дает 10% прибавку к производительности зданий в ней",
     ExtraBuildingPermit: "Дополнительное разрешение на строительство",
-    ExtraBuildingPermitDesc: "Добавление дополнительных разрешений на строительство на вашей текущей карте - это не приведет к увеличению кривой стоимости",
+    ExtraBuildingPermitDesc:
+        "Добавление дополнительных разрешений на строительство на вашей текущей карте - это не приведет к увеличению кривой стоимости",
     PanelPositionDescV2:
         "Show side panel on left, right or auto (depends on current selected tile). Only work in landscape mode",
     PanelHeight: "Panel Height",

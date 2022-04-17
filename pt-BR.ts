@@ -1481,11 +1481,13 @@ export const PT_BR = {
     IndustryZoneProductivityBoostDesc:
         "Cada nível ou cada 10 níveis de uma Zona da Indústria fornecem 10% de aumento de produção para edifícios nela",
     ExtraBuildingPermit: "Licença Extra de Construção",
-    ExtraBuildingPermitDesc: "Adicione alvarás de construção extras ao seu mapa atual - isso não aumentará a curva de custo",
+    ExtraBuildingPermitDesc:
+        "Adicione alvarás de construção extras ao seu mapa atual - isso não aumentará a curva de custo",
     PanelPositionDescV2:
         "Mostrar painel lateral à esquerda, direita ou automático (depende do bloco selecionado atualmente). Só funciona no modo paisagem",
     PanelHeight: "Altura do Painel",
-    PanelHeightDesc: "Escolha a altura do painel. Só funciona no modo retrato em dispositivos móveis. O Jogo irá reiniciar!",
+    PanelHeightDesc:
+        "Escolha a altura do painel. Só funciona no modo retrato em dispositivos móveis. O Jogo irá reiniciar!",
     AllowPortraitMode: "Enable Portrait Mode",
     AllowPortraitModeDesc:
         "This will enable portrait mode (experimental), the screen will rotate based on your phone's sensor and settings",

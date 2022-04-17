@@ -1146,7 +1146,8 @@ export const KR = {
     Vegetable: "야채",
     FarmlandProduce: "생산",
     FarmlandOfflineFarming: "오프라인 생산",
-    FarmlandOfflineFarmingDesc: "Farmland built on top of natural water source produce while you are offline. Subject to offline earning time and affected by Swiss upgrades",
+    FarmlandOfflineFarmingDesc:
+        "Farmland built on top of natural water source produce while you are offline. Subject to offline earning time and affected by Swiss upgrades",
     FarmlandProductionDesc: "💡 Farmlands only work 5 seconds out of every 10 seconds - all cycles are aligned",
     WaterPump: "급수 펌프",
     Greenhouse: "온실",
