@@ -1490,10 +1490,10 @@ export const RU = {
     ExtraBuildingPermitDesc:
         "Добавление дополнительных разрешений на строительство на вашей текущей карте - это не приведет к увеличению кривой стоимости",
     PanelPositionDescV2:
-        "Show side panel on left, right or auto (depends on current selected tile). Only work in landscape mode",
-    PanelHeight: "Panel Height",
-    PanelHeightDesc: "Choose the height of the panel. Only work in portrait mode on mobile devices. REQUIRES RELOAD",
-    AllowPortraitMode: "Enable Portrait Mode",
+        "Показывать боковую панель слева, справа или автоматически (в зависимости от текущей выбранной плитки). Работает только в альбомном режиме",
+    PanelHeight: "Высота панели",
+    PanelHeightDesc: "Выберите высоту панели. Работает только в портретном режиме на мобильных устройствах. ТРЕБУЕТ ПЕРЕЗАГРУЗКИ",
+    AllowPortraitMode: "Включить портретный режим",
     AllowPortraitModeDesc:
-        "This will enable portrait mode (experimental), the screen will rotate based on your phone's sensor and settings",
+        "Это позволит включить портретный режим (экспериментальный), экран будет поворачиваться в зависимости от датчика вашего телефона и настроек",
 };
