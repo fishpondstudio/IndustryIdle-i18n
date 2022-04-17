@@ -1390,8 +1390,6 @@ export const ZH_TW = {
     IndustryZoneMaxBuildingLevelDesc: "此工業園區內支持的最高建築物等級",
     IndustryZoneHelp: "工業園區如何運作?",
     IndustryZoneProductivityBoost: "工業園區 Plus",
-    IndustryZoneProductivityBoostDesc:
-        "Every tier or every 10 level of an Industry Zone provide 10% output boost to buildings in it",
     ExtraBuildingPermit: "額外建築許可證",
     ExtraBuildingPermitDesc: "增加當前地圖的建築許可證 - 不會增加建築許可證費用",
     PanelPositionDescV2:
@@ -1401,4 +1399,6 @@ export const ZH_TW = {
     AllowPortraitMode: "Enable Portrait Mode",
     AllowPortraitModeDesc:
         "This will enable portrait mode (experimental), the screen will rotate based on your phone's sensor and settings",
+    IndustryZoneProductivityBoostDesc:
+        "Every tier or every 10 level of an Industry Zone provide 10% output boost to buildings in it",
 };

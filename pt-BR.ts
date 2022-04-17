@@ -1478,8 +1478,6 @@ export const PT_BR = {
     IndustryZoneMaxBuildingLevelDesc: "Nível máximo de edifícios suportados nesta zona industrial",
     IndustryZoneHelp: "Como funciona a Zona da Indústria?",
     IndustryZoneProductivityBoost: "Zona Industrial Plus",
-    IndustryZoneProductivityBoostDesc:
-        "Cada nível ou cada 10 níveis de uma Zona da Indústria fornecem 10% de aumento de produção para edifícios nela",
     ExtraBuildingPermit: "Licença Extra de Construção",
     ExtraBuildingPermitDesc:
         "Adicione alvarás de construção extras ao seu mapa atual - isso não aumentará a curva de custo",
@@ -1491,4 +1489,6 @@ export const PT_BR = {
     AllowPortraitMode: "Enable Portrait Mode",
     AllowPortraitModeDesc:
         "This will enable portrait mode (experimental), the screen will rotate based on your phone's sensor and settings",
+    IndustryZoneProductivityBoostDesc:
+        "Cada nível ou cada 10 níveis de uma Zona da Indústria fornecem 10% de aumento de produção para edifícios nela",
 };

@@ -1484,8 +1484,6 @@ export const RU = {
     IndustryZoneMaxBuildingLevelDesc: "Максимальный уровень зданий, поддерживаемый в данной промышленной зоне",
     IndustryZoneHelp: "Как работает промышленная зона?",
     IndustryZoneProductivityBoost: "Промышленная зона плюс",
-    IndustryZoneProductivityBoostDesc:
-        "Каждое здание в цепочке или каждый 10 уровень промышленной зоны дает 10% прибавку к производительности зданий в ней",
     ExtraBuildingPermit: "Дополнительное разрешение на строительство",
     ExtraBuildingPermitDesc:
         "Добавление дополнительных разрешений на строительство на вашей текущей карте - это не приведет к увеличению кривой стоимости",
@@ -1496,4 +1494,6 @@ export const RU = {
     AllowPortraitMode: "Enable Portrait Mode",
     AllowPortraitModeDesc:
         "This will enable portrait mode (experimental), the screen will rotate based on your phone's sensor and settings",
+    IndustryZoneProductivityBoostDesc:
+        "Каждое здание в цепочке или каждый 10 уровень промышленной зоны дает 10% прибавку к производительности зданий в ней",
 };

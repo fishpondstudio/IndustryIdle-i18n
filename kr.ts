@@ -1427,8 +1427,6 @@ export const KR = {
     IndustryZoneMaxBuildingLevelDesc: "Max level of buildings supported within this Industry Zone",
     IndustryZoneHelp: "How Industry Zone Works?",
     IndustryZoneProductivityBoost: "Industry Zone Plus",
-    IndustryZoneProductivityBoostDesc:
-        "Every tier or every 10 level of an Industry Zone provide 10% output boost to buildings in it",
     ExtraBuildingPermit: "추가 건축 허가증 발급",
     ExtraBuildingPermitDesc: "건축 허가를 추가로 가지고 시작합니다 - 이로 인한 건축 허가 비용 증가분은 없습니다",
     PanelPositionDescV2:
@@ -1438,4 +1436,6 @@ export const KR = {
     AllowPortraitMode: "Enable Portrait Mode",
     AllowPortraitModeDesc:
         "This will enable portrait mode (experimental), the screen will rotate based on your phone's sensor and settings",
+    IndustryZoneProductivityBoostDesc:
+        "Every tier or every 10 level of an Industry Zone provide 10% output boost to buildings in it",
 };
