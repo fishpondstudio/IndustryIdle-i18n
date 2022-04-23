@@ -1452,8 +1452,6 @@ export const DK = {
     IndustryZoneMaxBuildingLevelDesc: "Max level of buildings supported within this Industry Zone",
     IndustryZoneHelp: "How Industry Zone Works?",
     IndustryZoneProductivityBoost: "Industry Zone Plus",
-    IndustryZoneProductivityBoostDesc:
-        "Every tier or every 10 level of an Industry Zone provide 10% output boost to buildings in it",
     ExtraBuildingPermit: "Extra Building Permit",
     ExtraBuildingPermitDesc: "Add extra building permits to your current map - this will not increase the cost curve",
     PanelPositionDescV2:
@@ -1463,4 +1461,6 @@ export const DK = {
     AllowPortraitMode: "Enable Portrait Mode",
     AllowPortraitModeDesc:
         "This will enable portrait mode (experimental), the screen will rotate based on your phone's sensor and settings",
+    IndustryZoneProductivityBoostDesc:
+        "Every tier or every 10 level of an Industry Zone provide 10% output boost to buildings in it",
 };
