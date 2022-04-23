@@ -1485,15 +1485,15 @@ export const IT = {
     IndustryZoneMaxBuildingLevelDesc: "Livello massimo di strutture supportate da qesta zona industriale",
     IndustryZoneHelp: "Come funziona la zona industriale?",
     IndustryZoneProductivityBoost: "Zona industriale plus",
+    IndustryZoneProductivityBoostDesc:
+        "ogni 10 livelli di una zona industriale provvee il 10% di boost alle strutture al suo interno",
     ExtraBuildingPermit: "Permessi di costruzione extra",
     ExtraBuildingPermitDesc: "Aggiungi permessi i costruzione alla mappa corrende - non aumenterà la curva del costo",
     PanelPositionDescV2:
-        "Show side panel on left, right or auto (depends on current selected tile). Only work in landscape mode",
-    PanelHeight: "Panel Height",
-    PanelHeightDesc: "Choose the height of the panel. Only work in portrait mode on mobile devices. REQUIRES RELOAD",
-    AllowPortraitMode: "Enable Portrait Mode",
+        "Mostra il pannello a sinistra, destra o automaticamente(dipende dal posto in cui è attualmente. funziona solo in modalità landscape",
+    PanelHeight: "Altezza del pannello",
+    PanelHeightDesc: "Scegli l'altezza del pannello. funziona solo su dispositivi mobili. RICHIEDE RIAVVIO DEL GIOCO",
+    AllowPortraitMode: "Attiva modalità orientamento automatico",
     AllowPortraitModeDesc:
-        "This will enable portrait mode (experimental), the screen will rotate based on your phone's sensor and settings",
-    IndustryZoneProductivityBoostDesc:
-        "ogni 10 livelli di una zona industriale provvee il 10% di boost alle strutture al suo interno",
+        "Attiverà la modalità orientamento automatico(sperimentale), lo schermo ruoterà in base ai sensori di movimento del tuo teledono",
 };
