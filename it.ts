@@ -1485,8 +1485,6 @@ export const IT = {
     IndustryZoneMaxBuildingLevelDesc: "Livello massimo di strutture supportate da qesta zona industriale",
     IndustryZoneHelp: "Come funziona la zona industriale?",
     IndustryZoneProductivityBoost: "Zona industriale plus",
-    IndustryZoneProductivityBoostDesc:
-        "ogni 10 livelli di una zona industriale provvee il 10% di boost alle strutture al suo interno",
     ExtraBuildingPermit: "Permessi di costruzione extra",
     ExtraBuildingPermitDesc: "Aggiungi permessi i costruzione alla mappa corrende - non aumenterà la curva del costo",
     PanelPositionDescV2:
@@ -1496,4 +1494,6 @@ export const IT = {
     AllowPortraitMode: "Attiva modalità orientamento automatico",
     AllowPortraitModeDesc:
         "Attiverà la modalità orientamento automatico(sperimentale), lo schermo ruoterà in base ai sensori di movimento del tuo teledono",
+    IndustryZoneProductivityBoostDesc:
+        "ogni 10 livelli di una zona industriale provvee il 10% di boost alle strutture al suo interno",
 };

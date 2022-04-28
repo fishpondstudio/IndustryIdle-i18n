@@ -1152,8 +1152,7 @@ export const KR = {
     WaterPump: "급수 펌프",
     Greenhouse: "온실",
     GreenhouseDesc: "재배할 작물을 선택하세요.",
-    WaterEntityLevelTooHighDesc:
-        "건물의 레벨이 주변의 수자원 댐 레벨보다 높습니다. 수자원 댐을 업그레이드 해주세요",
+    WaterEntityLevelTooHighDesc: "건물의 레벨이 주변의 수자원 댐 레벨보다 높습니다. 수자원 댐을 업그레이드 해주세요",
     AirLiquidizer: "대기 수분 수확기",
     CapacitorFactory: "Capacitor Factory",
     Capacitor: "Capacitor",
@@ -1172,8 +1171,7 @@ export const KR = {
     SugarRefinery: "설탕 정제소",
     RefinedSugar: "정제된 설탕",
     ShowSupplyChain: "공급체인 보이기",
-    ShowSupplyChainDesc:
-        "당신이 건물을 선택할 때, 모든(상,하방) 공급체인을 표시해줍니다",
+    ShowSupplyChainDesc: "당신이 건물을 선택할 때, 모든(상,하방) 공급체인을 표시해줍니다",
     Cake: "케이크",
     ChooseARecipe: "제작법을 선택하세요",
     ChickenFarm: "닭 농장",
