@@ -1393,4 +1393,13 @@ export const ZH_TW = {
     AllowPortraitMode: "啟用直向模式",
     AllowPortraitModeDesc: "這將啟用直向模式（實驗性），畫面將根據手機的傳感器和設置旋轉",
     IndustryZoneProductivityBoostDesc: "工業區的每層或每 10 等為其中的建築物提供 10% 的產出提升",
+    Auckland: "Auckland",
+    AucklandBonus:
+        "<li>All deposits are found in a New Zealand shaped area at the center of the map</li><li>Unique Building: Hydro Power Plant</li><li>Unique Policy: Mine Booster</li><li>Unique Policy: Electric Fish Pond</li><li>Fish ponds can be built on any tiles</li>",
+    MineBooster: "Mine Booster",
+    MineBoosterDesc:
+        "A working mine provides 100% capacity boost to adjacent mines or factories that consume the deposit",
+    HydroPowerPlant: "Hydro Power Plant",
+    ElectricFishPond: "Electric Fish Pond",
+    ElectricFishPondDesc: "Each working hydro power plant provides 20% capacity boost to all fish ponds on the map",
 };
