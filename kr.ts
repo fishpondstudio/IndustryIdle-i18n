@@ -698,7 +698,6 @@ export const KR = {
     SteamAutoCloudBackupFailed: "Steam 클라우드 자동 백업 실패: %{error}",
     SteamManualBackup: "강제 Steam 클라우드 동기화",
     UILoading: "로드 중...",
-    UserAuthenticated: "인증되었습니다",
     BuildingResourceBreakdown: "건설 자원 분석",
     SortByDeficit: "증감",
     SortByRunOut: "고갈",
@@ -1436,4 +1435,13 @@ export const KR = {
         "This will enable portrait mode (experimental), the screen will rotate based on your phone's sensor and settings",
     IndustryZoneProductivityBoostDesc:
         "Every tier or every 10 level of an Industry Zone provide 10% output boost to buildings in it",
+    Auckland: "Auckland",
+    AucklandBonus:
+        "<li>All deposits are found in a New Zealand shaped area at the center of the map</li><li>Unique Building: Hydro Power Plant</li><li>Unique Policy: Mine Booster</li><li>Unique Policy: Electric Fish Pond</li><li>Fish ponds can be built on any tiles</li>",
+    MineBooster: "Mine Booster",
+    MineBoosterDesc:
+        "A working mine provides 100% capacity boost to adjacent mines or factories that consume the deposit",
+    HydroPowerPlant: "Hydro Power Plant",
+    ElectricFishPond: "Electric Fish Pond",
+    ElectricFishPondDesc: "Each working hydro power plant provides 20% capacity boost to all fish ponds on the map",
 };

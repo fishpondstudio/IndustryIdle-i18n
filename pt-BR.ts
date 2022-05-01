@@ -722,7 +722,6 @@ export const PT_BR = {
     SteamAutoCloudBackupFailed: "Falha ao realizar o Backup automático do Steam Cloud: %{error}",
     SteamManualBackup: "Forçar sincronização na nuvem do Steam",
     UILoading: "Carregando...",
-    UserAuthenticated: "Autenticado",
     BuildingResourceBreakdown: "Detalhamento de recursos de construção ",
     SortByDeficit: "Déficit",
     SortByRunOut: "Esgotamento",
@@ -1491,4 +1490,13 @@ export const PT_BR = {
         "This will enable portrait mode (experimental), the screen will rotate based on your phone's sensor and settings",
     IndustryZoneProductivityBoostDesc:
         "Cada nível ou cada 10 níveis de uma Zona da Indústria fornecem 10% de aumento de produção para edifícios nela",
+    Auckland: "Auckland",
+    AucklandBonus:
+        "<li>All deposits are found in a New Zealand shaped area at the center of the map</li><li>Unique Building: Hydro Power Plant</li><li>Unique Policy: Mine Booster</li><li>Unique Policy: Electric Fish Pond</li><li>Fish ponds can be built on any tiles</li>",
+    MineBooster: "Mine Booster",
+    MineBoosterDesc:
+        "A working mine provides 100% capacity boost to adjacent mines or factories that consume the deposit",
+    HydroPowerPlant: "Hydro Power Plant",
+    ElectricFishPond: "Electric Fish Pond",
+    ElectricFishPondDesc: "Each working hydro power plant provides 20% capacity boost to all fish ponds on the map",
 };

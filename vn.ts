@@ -712,7 +712,6 @@ export const VN = {
     SteamAutoCloudBackupFailed: "Tự động lưu lên Đám mây của Steam không thành công: %{error}",
     SteamManualBackup: "Ép lưu lên Đám mây của Steam",
     UILoading: "Đang đọc dữ liệu...",
-    UserAuthenticated: "Bạn đã đăng nhập",
     BuildingResourceBreakdown: "Chi tiết doanh thu do nhàn rỗi",
     SortByDeficit: "Thâm hụt",
     SortByRunOut: "Kiệt quệ",
@@ -1467,4 +1466,13 @@ export const VN = {
         "This will enable portrait mode (experimental), the screen will rotate based on your phone's sensor and settings",
     IndustryZoneProductivityBoostDesc:
         "Every tier or every 10 level of an Industry Zone provide 10% output boost to buildings in it",
+    Auckland: "Auckland",
+    AucklandBonus:
+        "<li>All deposits are found in a New Zealand shaped area at the center of the map</li><li>Unique Building: Hydro Power Plant</li><li>Unique Policy: Mine Booster</li><li>Unique Policy: Electric Fish Pond</li><li>Fish ponds can be built on any tiles</li>",
+    MineBooster: "Mine Booster",
+    MineBoosterDesc:
+        "A working mine provides 100% capacity boost to adjacent mines or factories that consume the deposit",
+    HydroPowerPlant: "Hydro Power Plant",
+    ElectricFishPond: "Electric Fish Pond",
+    ElectricFishPondDesc: "Each working hydro power plant provides 20% capacity boost to all fish ponds on the map",
 };
