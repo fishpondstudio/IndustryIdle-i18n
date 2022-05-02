@@ -1496,13 +1496,13 @@ export const RU = {
         "Это позволит включить портретный режим (экспериментальный), экран будет поворачиваться в зависимости от датчика вашего телефона и настроек",
     IndustryZoneProductivityBoostDesc:
         "Каждое здание в цепочке или каждый 10 уровень промышленной зоны дает 10% прибавку к производительности зданий в ней",
-    Auckland: "Auckland",
+    Auckland: "Окленд",
     AucklandBonus:
-        "<li>All deposits are found in a New Zealand shaped area at the center of the map</li><li>Unique Building: Hydro Power Plant</li><li>Unique Policy: Mine Booster</li><li>Unique Policy: Electric Fish Pond</li><li>Fish ponds can be built on any tiles</li>",
-    MineBooster: "Mine Booster",
+        "<li>Все месторождения находятся в области в форме Новой Зеландии в центре карты</li><li>Уникальное здание: Гидроэлектростанция</li><li>Уникальная политика: Ускоритель для шахты</li><li>Уникальная политика: Электрический рыбный пруд</li><li>Рыбный пруд можно строить на любой плитке</li>",
+    MineBooster: "Ускоритель для шахты",
     MineBoosterDesc:
-        "A working mine provides 100% capacity boost to adjacent mines or factories that consume the deposit",
-    HydroPowerPlant: "Hydro Power Plant",
-    ElectricFishPond: "Electric Fish Pond",
-    ElectricFishPondDesc: "Each working hydro power plant provides 20% capacity boost to all fish ponds on the map",
+        "Работающая шахта дает 100% прибавку к мощности соседним шахтам или фабрикам, которые потребляют месторождение",
+    HydroPowerPlant: "Гидроэлектростанция",
+    ElectricFishPond: "Электрический рыбный пруд",
+    ElectricFishPondDesc: "Каждая работающая гидроэлектростанция дает 20% прирост мощности всем рыбным прудам на карте",
 };
