@@ -1497,11 +1497,11 @@ export const IT = {
         "ogni 10 livelli di una zona industriale provvee il 10% di boost alle strutture al suo interno",
     Auckland: "Auckland",
     AucklandBonus:
-        "<li>All deposits are found in a New Zealand shaped area at the center of the map</li><li>Unique Building: Hydro Power Plant</li><li>Unique Policy: Mine Booster</li><li>Unique Policy: Electric Fish Pond</li><li>Fish ponds can be built on any tiles</li>",
-    MineBooster: "Mine Booster",
+        "<li>Tutti i depositi di risorse all'interno dell'area della nuova zelanda sono al centro della mappa</li><li>Struttura unica: Centrale idroelettrica</li><li>Policy unica: Booster delle miniere</li><li>policy unica: stagni elettrificati</li><li>Gli stagni possono essere cotruite in ogni piastrella</li>",
+    MineBooster: "Booster delle miniere",
     MineBoosterDesc:
-        "A working mine provides 100% capacity boost to adjacent mines or factories that consume the deposit",
-    HydroPowerPlant: "Hydro Power Plant",
-    ElectricFishPond: "Electric Fish Pond",
-    ElectricFishPondDesc: "Each working hydro power plant provides 20% capacity boost to all fish ponds on the map",
+        "Una miniera funzionante provvede il 100% di boost alle miniere o fabbriche adiacenti che consumano lo stesso deposito",
+    HydroPowerPlant: "Centrale idroelettrica",
+    ElectricFishPond: "Stagni elettrificati",
+    ElectricFishPondDesc: "Ogni centrale idroelettrica provvede il 20% di capacità in più a tutti gli stagni nella mappa",
 };
