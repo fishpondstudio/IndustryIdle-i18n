@@ -1379,14 +1379,14 @@ export const ZH_TW = {
     Whopper: "華堡",
     DrinkFactory: "飲料工廠",
     SoftDrink: "飲料",
-    Alcohol: "酒精",
+    Alcohol: "酒精饮料",
     Wine: "葡萄酒",
     Cocktail: "雞尾酒",
     ThreeCourseMeal: "三道菜",
     SixCourseMeal: "六道菜",
     NineCourseMeal: "九道菜",
     IndustryZoneCapacityBoostPermanent: "工業園區加成（永久）",
-    IndustryZoneCapacityBoostThisRun: "工業園區加成（在這一次遊玩）",
+    IndustryZoneCapacityBoostThisRun: "工業園區加成（在此轮游戏）",
     IndustryZoneMaxBuildingLevelDesc: "此工業園區內支持的最高建築物等級",
     IndustryZoneHelp: "工業園區如何運作?",
     IndustryZoneProductivityBoost: "工業園區 Plus",
@@ -1400,5 +1400,5 @@ export const ZH_TW = {
     AllowPortraitModeDesc:
         "這將啟用直向模式（實驗性），畫面將根據手機的傳感器和設置旋轉",
     IndustryZoneProductivityBoostDesc:
-        "工業區的每層或每 10 等為其中的建築物提供 10% 的產出提升",
+        "工業區的每1或每10等级都会為其中的建築物提供 10% 的產出提升",
 };
