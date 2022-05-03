@@ -1400,5 +1400,5 @@ export const ZH_TW = {
     AllowPortraitModeDesc:
         "這將啟用直向模式（實驗性），畫面將根據手機的傳感器和設置旋轉",
     IndustryZoneProductivityBoostDesc:
-        "工業區的每1或每10等级都会為其中的建築物提供 10% 的產出提升",
+        "工業區的每層或每10等级都会為其中的建築物提供 10% 的產出提升",
 };

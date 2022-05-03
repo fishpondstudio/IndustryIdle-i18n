@@ -1393,6 +1393,6 @@ export const ZH_CN = {
     AllowPortraitModeDesc:
         "如果启用竖屏模式，屏幕将根据手机的传感器和设置旋转（实验性功能）",
     IndustryZoneProductivityBoostDesc:
-        "工业区的每1或每10等级都会为其中的建筑提供10%的产出提升",
+        "工业区的每层或每10等级都会为其中的建筑提供10%的产出提升",
         
 };
