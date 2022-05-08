@@ -1430,8 +1430,6 @@ export const RU = {
     AccountLimited: "Ограниченная учетная запись",
     AntiCheatPass: "Проверка Анти-чита успешна",
     AntiCheatFail: "Проверка Анти-чита неудачна",
-    AccountLimitedDesc: "Ваша учетная запись Steam не удовлетворяет требованиям платформы",
-    AccountLimitedAction: "Прочитать статью поддержки Steam",
     AchievementIstanbul100: "Лев Великий",
     AchievementIstanbul100Desc: "Заработайте 100 кредитов в Стамбуле за одну сессию",
     AchievementIstanbul500: "Юстиниан Великий",
@@ -1505,4 +1503,13 @@ export const RU = {
     HydroPowerPlant: "Hydro Power Plant",
     ElectricFishPond: "Electric Fish Pond",
     ElectricFishPondDesc: "Each working hydro power plant provides 20% capacity boost to all fish ponds on the map",
+    AccountLimitedDescV2: "Your account fails to satisfy platform requirement",
+    AccountLimitedActionV2: "Read FAQ on Limited Account",
+    CropOutputx2: "Modern Fertilizer",
+    CropOutputx2Desc: "Farmlands and greenhouses produce 2x crops but crop transport costs 2x fuel",
+    MeatProductionx2: "Livestock Steroid",
+    MeatProductionx2Desc:
+        "Chicken farms, pig farms, cow farms, fish ponds and fodder factories have 2x capacity but uses 2x power",
+    HydroFarming: "Hydro Farming",
+    HydroFarmingDesc: "Each working hydro dam provides 20% capacity boost to all farmlands and greenhouses on the map",
 };
