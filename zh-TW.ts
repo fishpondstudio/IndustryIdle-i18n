@@ -1409,4 +1409,6 @@ export const ZH_TW = {
         "Chicken farms, pig farms, cow farms, fish ponds and fodder factories have 2x capacity but uses 2x power",
     HydroFarming: "Hydro Farming",
     HydroFarmingDesc: "Each working hydro dam provides 20% capacity boost to all farmlands and greenhouses on the map",
+    ExtraTradeQuota: "Extra Player Trade Quota",
+    ExtraTradeQuotaDesc: "Initial player trade quota is 1% of your market cap - this will grant extra percentage",
 };
