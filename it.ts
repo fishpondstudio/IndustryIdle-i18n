@@ -1513,4 +1513,6 @@ export const IT = {
     HydroFarmingDesc: "Ogni diga funzionante provvede il 20% di capacità un più a tutti i terreni coltivabili sulla mappa",
     ExtraTradeQuota: "Quota di scambio extra",
     ExtraTradeQuotaDesc: "La quota di scambio giocatore è l'1% della tua capitalizzazione di mercato. questo garantirà una percentuale maggiore",
+    ProduceAllCrops: "Produci tutt i raccolti",
+    ProduceAllCropsDesc: "Terreni coltivabili e serre possono produrre ogni tipo di raccolto, anche quelli che non sono presenti sulla mappa",
 };
