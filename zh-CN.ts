@@ -1411,4 +1411,8 @@ export const ZH_CN = {
     HydroFarmingDesc: "Each working hydro dam provides 20% capacity boost to all farmlands and greenhouses on the map",
     ExtraTradeQuota: "Extra Player Trade Quota",
     ExtraTradeQuotaDesc: "Initial player trade quota is 1% of your market cap - this will grant extra percentage",
+    ProduceAllCrops: "Produce All Crops",
+    ProduceAllCropsDesc: "Farmlands and greenhouses can produce all crops, including the ones that are not on the map",
+    ResearchAgreement: "Research Agreement",
+    ResearchAgreementDesc: "Filling each trade with an unique player gives 10 mins of research point production",
 };
