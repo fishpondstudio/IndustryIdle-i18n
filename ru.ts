@@ -801,8 +801,6 @@ export const RU = {
     MusicProducer: "Музыкальный продюсер",
     PlasticFiber: "Пластиковое волокно",
     PlasticFiberDesc: "Заводы по производству волокон используют на 50% больше пластика и на 50% меньше стекла",
-    NewsEffectx2: "Пресс-конференция",
-    NewsEffectx2Desc: "Эффекты от новостей на рынке удваивается, как положительный, так и отрицательный",
     SellRefundPercentage: "Компенсация за продажу/понижение уровня",
     SellRefundPercentageDesc:
         "Процент денежных средств и ресурсов, которые вам будут компенсированы, в случае продажи или понижения уровень здания",
@@ -1518,4 +1516,6 @@ export const RU = {
     ProduceAllCropsDesc: "Farmlands and greenhouses can produce all crops, including the ones that are not on the map",
     ResearchAgreement: "Research Agreement",
     ResearchAgreementDesc: "Filling each trade with an unique player gives 10 mins of research point production",
+    NewsEffectx2V2: "Press Conference",
+    NewsEffectx2DescV2: "All market news are 50% more effective",
 };

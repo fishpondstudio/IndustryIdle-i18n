@@ -787,8 +787,6 @@ export const EL = {
     MusicProducer: "Music Producer",
     PlasticFiber: "Plastic Fiber",
     PlasticFiberDesc: "Fiber factories use 50% more plastics but 50% less glass",
-    NewsEffectx2: "Press Conference",
-    NewsEffectx2Desc: "The effect of market news doubles, both positive and negative",
     SellRefundPercentage: "Sell/Downgrade Refund",
     SellRefundPercentageDesc:
         "If you sell or downgrade a building, this is the percentage of cash and resources you are refunded",
@@ -1484,4 +1482,6 @@ export const EL = {
     ProduceAllCropsDesc: "Farmlands and greenhouses can produce all crops, including the ones that are not on the map",
     ResearchAgreement: "Research Agreement",
     ResearchAgreementDesc: "Filling each trade with an unique player gives 10 mins of research point production",
+    NewsEffectx2V2: "Press Conference",
+    NewsEffectx2DescV2: "All market news are 50% more effective",
 };

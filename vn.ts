@@ -791,8 +791,6 @@ export const VN = {
     MusicProducer: "Nhà sản xuất nhạc",
     PlasticFiber: "Cáp quang Nhựa",
     PlasticFiberDesc: "Xưởng cáp quang sử dụng thêm 50% Nhựa và bớt đi 50% Kính",
-    NewsEffectx2: "Họp báo",
-    NewsEffectx2Desc: "Hiệu ứng tin tức thị trường tăng gấp đôi, cả tích cực lẫn tiêu cực",
     SellRefundPercentage: "Tỷ lệ hoàn trả khi Bán/Hạ cấp",
     SellRefundPercentageDesc:
         "Nếu bạn bán hoặc hạ cấp một công trình, đây là phần trăm tiền mặt và tài nguyên bạn được hoàn lại",
@@ -1488,4 +1486,6 @@ export const VN = {
     ProduceAllCropsDesc: "Farmlands and greenhouses can produce all crops, including the ones that are not on the map",
     ResearchAgreement: "Research Agreement",
     ResearchAgreementDesc: "Filling each trade with an unique player gives 10 mins of research point production",
+    NewsEffectx2V2: "Press Conference",
+    NewsEffectx2DescV2: "All market news are 50% more effective",
 };

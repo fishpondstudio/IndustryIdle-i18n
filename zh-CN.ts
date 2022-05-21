@@ -758,8 +758,6 @@ export const ZH_CN = {
     MusicProducer: "音乐制作商",
     PlasticFiber: "塑料光纤",
     PlasticFiberDesc: "光纤工厂多用50%塑料，少用50%玻璃",
-    NewsEffectx2: "新闻发布会",
-    NewsEffectx2Desc: "所有市场消息的正面和负面效果翻倍",
     SellRefundPercentage: "出售/降级退款",
     SellRefundPercentageDesc: "每当你出售或降级建筑，该数值是退还的现金和资源的比例",
     SellBuildingDescV2: "出售建筑将返还你%{percent}的投资且%{percent}的资源将会运送到贸易中心",
@@ -1415,4 +1413,6 @@ export const ZH_CN = {
     ProduceAllCropsDesc: "Farmlands and greenhouses can produce all crops, including the ones that are not on the map",
     ResearchAgreement: "Research Agreement",
     ResearchAgreementDesc: "Filling each trade with an unique player gives 10 mins of research point production",
+    NewsEffectx2V2: "Press Conference",
+    NewsEffectx2DescV2: "All market news are 50% more effective",
 };
