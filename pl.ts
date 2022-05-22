@@ -798,8 +798,6 @@ export const PL = {
     MusicProducer: "Producent muzyczny",
     PlasticFiber: "Plastikowe włókno",
     PlasticFiberDesc: "Fabryki włókien zużywają o 50% więcej tworzyw sztucznych, ale o 50% mniej szkła",
-    NewsEffectx2: "Konferencja prasowa",
-    NewsEffectx2Desc: "Podwaja się efekt wiadomości rynkowych – zarówno pozytywnych, jak i negatywnych",
     SellRefundPercentage: "Zwrot kosztów sprzedaży/obniżenia ulepszenia",
     SellRefundPercentageDesc:
         "Jeśli sprzedasz lub obniżysz poziom budynku, jest to procent pieniędzy i zasobów, który otrzymujesz z powrotem",
@@ -1500,4 +1498,6 @@ export const PL = {
     ProduceAllCropsDesc: "Farmlands and greenhouses can produce all crops, including the ones that are not on the map",
     ResearchAgreement: "Research Agreement",
     ResearchAgreementDesc: "Filling each trade with an unique player gives 10 mins of research point production",
+    NewsEffectx2V2: "Press Conference",
+    NewsEffectx2DescV2: "All market news are 50% more effective",
 };

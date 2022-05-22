@@ -775,8 +775,6 @@ export const JP = {
     MusicProducer: "音楽プロデューサー",
     PlasticFiber: "安価な光ファイバー",
     PlasticFiberDesc: "光ファイバー工場がプラスチックの消費量を50%増やし、ガラスの消費量を50%減らします",
-    NewsEffectx2: "記者会見",
-    NewsEffectx2Desc: "市場ニュースの効果が良いものも悪いものも2倍になります",
     SellRefundPercentage: "売却返金率",
     SellRefundPercentageDesc: "施設を売却/ダウングレードした際に、戻ってくる現金と資源の割合",
     SellBuildingDescV2:
@@ -1464,4 +1462,6 @@ export const JP = {
     ProduceAllCropsDesc: "Farmlands and greenhouses can produce all crops, including the ones that are not on the map",
     ResearchAgreement: "Research Agreement",
     ResearchAgreementDesc: "Filling each trade with an unique player gives 10 mins of research point production",
+    NewsEffectx2V2: "Press Conference",
+    NewsEffectx2DescV2: "All market news are 50% more effective",
 };

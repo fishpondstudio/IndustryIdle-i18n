@@ -774,8 +774,6 @@ export const KR = {
     MusicProducer: "음악 프로듀서",
     PlasticFiber: "플라스틱 섬유",
     PlasticFiberDesc: "섬유 공장은 플라스틱을 50% 많게 유리는 50% 적게 사용합니다",
-    NewsEffectx2: "기자 회견",
-    NewsEffectx2Desc: "시장 뉴스의 긍정적, 부정적인 영향이 두 배로 증가합니다",
     SellRefundPercentage: "판매/다운그레이드 환불",
     SellRefundPercentageDesc: "건물을 매각하거나 다운그레이드하는 경우 환불되는 현금 및 자원의 비율입니다",
     SellBuildingDescV2: "건물을 팔면 투자 금액의 %{percent}이 환불되고 자원의 %{percent}는 무역 센터로 운송됩니다",
@@ -1457,4 +1455,6 @@ export const KR = {
     ProduceAllCropsDesc: "Farmlands and greenhouses can produce all crops, including the ones that are not on the map",
     ResearchAgreement: "Research Agreement",
     ResearchAgreementDesc: "Filling each trade with an unique player gives 10 mins of research point production",
+    NewsEffectx2V2: "Press Conference",
+    NewsEffectx2DescV2: "All market news are 50% more effective",
 };
