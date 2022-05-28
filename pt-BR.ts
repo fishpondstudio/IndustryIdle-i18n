@@ -191,9 +191,6 @@ export const PT_BR = {
     MaxInputDistance: "Distância máxima de entrada",
     MaxInputDistanceDesc:
         "A distância máxima a partir da qual este edifício pode buscar recursos de entrada,medida em número de blocos",
-    AutoSellCapacity: "Capacidade de Venda Automática",
-    AutoSellCapacityDesc: "Quantidade máxima de recursos que a venda automática pode manipular por segundo,por recurso",
-    CurrentAutoSellCapacityMultiplier: "Multiplicador atual: x%{n}",
     AutoSellConcurrency: "Simultaneidade de venda automática",
     AutoSellConcurrencyDesc: "Número máximo de recursos que a venda automática pode gerenciar ao mesmo tempo",
     MaxAutoSellConcurrencyReached:
@@ -457,9 +454,6 @@ export const PT_BR = {
         "Um aumento na capacidade de produção de todos os seus edifícios (incluindo minas,fábricas,usinas de energia,edifícios científicos e culturais)",
     FuelCostDiscount: "Desconto no custo de combustível",
     FuelCostDiscountDesc: "Dá um desconto no custo do combustível ao transportar recursos",
-    AutoSellCapacityMultiplier: "Multiplicador de capacidade de venda automática",
-    AutoSellCapacityMultiplierDesc:
-        "Um multiplicador que é aplicado à sua capacidade de venda automática,independentemente da capacidade atual",
     BuildingPermitCostDivider: "Divisor de Custo de Licença de Construção",
     BuildingPermitCostDividerDesc: "Divida o custo da licença de construção por este divisor",
     ExtraAdjacentBonus: "Bônus Extra Adjacente",
@@ -1512,4 +1506,12 @@ export const PT_BR = {
     ResearchAgreementDesc: "Filling each trade with an unique player gives 10 mins of research point production",
     NewsEffectx2V2: "Press Conference",
     NewsEffectx2DescV2: "All market news are 50% more effective",
+    PlayerTradeQuotaPenaltyWarning:
+        "Your trading value with this player exceeds 1% of your market cap and the price of this trade differs too much from your local price. Filling this trade requires extra trading quota",
+    AutoSellCapacityMultiplierV2: "Extra Auto Sell Capacity",
+    AutoSellCapacityMultiplierDescV2: "This will give extra auto sell capacity on top of your existing capacity",
+    AutoSellCapacity: "Capacidade de Venda Automática",
+    AutoSellCapacityDescV2:
+        "Max amount of resources auto sell can handle per second, per resource, measured as the percentage of your total production of that resource",
+    AutoSellCapacityExtraPercentageFromSwiss: "Extra Percentage from Swiss Upgrade and Boost: %{n}%",
 };

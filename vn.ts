@@ -187,9 +187,6 @@ export const VN = {
         "Thời gian của một chu kỳ sản xuất tính bằng giây. Kéo dài chu kỳ sẽ tăng nguyên liệu và thành phẩm tương ứng, làm hạ thấp nhu cầu vận chuyển nguyên liệu",
     MaxInputDistance: "Khoảng cách tối đa vận chuyển nguyên liệu",
     MaxInputDistanceDesc: "Khoảng cách tối đa mà công trình sẽ vận chuyển nguyên liệu, tính bằng số ô",
-    AutoSellCapacity: "Số lượng Tự động Bán hàng",
-    AutoSellCapacityDesc: "Số lượng tối đã tài nguyên có thể bán mỗi giây cho mỗi tài nguyên",
-    CurrentAutoSellCapacityMultiplier: "Bội số hiện tại: x%{n}",
     AutoSellConcurrency: "Tự động Bán hàng đồng thời",
     AutoSellConcurrencyDesc: "Số lượng tối đa loại tài nguyên có thể đồng thời Tự động Bán hàng",
     MaxAutoSellConcurrencyReached:
@@ -450,9 +447,6 @@ export const VN = {
         "Nâng cấp sản lượng cho các công trình của bạn (bao gồm các công trình mỏ, nhà xưởng, nhà máy điện, khoa học và văn hóa)",
     FuelCostDiscount: "Giảm chi phí nhiên liệu",
     FuelCostDiscountDesc: "Giảm giá chi phí nhiên liệu khi vận chuyển tài nguyên",
-    AutoSellCapacityMultiplier: "Bội số cho Tự động Bán hàng",
-    AutoSellCapacityMultiplierDesc:
-        "Bội số được áp dụng cho số lượng Tự động Bán hàng bất kể mức nâng cấp hiện tại trong Trung tâm Thương mại",
     BuildingPermitCostDivider: "Số chia giá thành Giấy phép xây dựng",
     BuildingPermitCostDividerDesc: "Lấy giá Giấy phép xây dựng chia cho số này ",
     ExtraAdjacentBonus: "Hiệu ứng Liền kề nâng cao",
@@ -1488,4 +1482,12 @@ export const VN = {
     ResearchAgreementDesc: "Filling each trade with an unique player gives 10 mins of research point production",
     NewsEffectx2V2: "Press Conference",
     NewsEffectx2DescV2: "All market news are 50% more effective",
+    PlayerTradeQuotaPenaltyWarning:
+        "Your trading value with this player exceeds 1% of your market cap and the price of this trade differs too much from your local price. Filling this trade requires extra trading quota",
+    AutoSellCapacityMultiplierV2: "Extra Auto Sell Capacity",
+    AutoSellCapacityMultiplierDescV2: "This will give extra auto sell capacity on top of your existing capacity",
+    AutoSellCapacity: "Số lượng Tự động Bán hàng",
+    AutoSellCapacityDescV2:
+        "Max amount of resources auto sell can handle per second, per resource, measured as the percentage of your total production of that resource",
+    AutoSellCapacityExtraPercentageFromSwiss: "Extra Percentage from Swiss Upgrade and Boost: %{n}%",
 };

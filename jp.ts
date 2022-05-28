@@ -185,9 +185,6 @@ export const JP = {
     ProductionCycleLengthDesc: "サイクルを大きくすると1度にまとめて生産を行います。資源取得の優先順位が下がります",
     MaxInputDistance: "最大入力距離",
     MaxInputDistanceDesc: "この施設が入力資源を取得できる最大の距離（タイル数）",
-    AutoSellCapacity: "自動売却量",
-    AutoSellCapacityDesc: "自動売却では、資源ごとに1秒あたりの最大処理量が設定されています",
-    CurrentAutoSellCapacityMultiplier: "現在倍率 : x%{n}",
     AutoSellConcurrency: "自動売却枠",
     AutoSellConcurrencyDesc: "自動売却で同時に売れる資源の種類",
     MaxAutoSellConcurrencyReached: "自動売却枠が最大に達しています",
@@ -445,8 +442,6 @@ export const JP = {
     ProductionMultiplierDesc: "全施設の生産能力",
     FuelCostDiscount: "燃料 割引率",
     FuelCostDiscountDesc: "資源を輸送する際の燃料費の割引率",
-    AutoSellCapacityMultiplier: "自動売却倍率",
-    AutoSellCapacityMultiplierDesc: "現在の容量に関係なく、自動売却容量に適用される倍率",
     BuildingPermitCostDivider: "建築許可証 割引率",
     BuildingPermitCostDividerDesc: "建築許可証の代金をこの値で割る",
     ExtraAdjacentBonus: "隣接ボーナス",
@@ -1464,4 +1459,12 @@ export const JP = {
     ResearchAgreementDesc: "Filling each trade with an unique player gives 10 mins of research point production",
     NewsEffectx2V2: "Press Conference",
     NewsEffectx2DescV2: "All market news are 50% more effective",
+    PlayerTradeQuotaPenaltyWarning:
+        "Your trading value with this player exceeds 1% of your market cap and the price of this trade differs too much from your local price. Filling this trade requires extra trading quota",
+    AutoSellCapacityMultiplierV2: "Extra Auto Sell Capacity",
+    AutoSellCapacityMultiplierDescV2: "This will give extra auto sell capacity on top of your existing capacity",
+    AutoSellCapacity: "自動売却量",
+    AutoSellCapacityDescV2:
+        "Max amount of resources auto sell can handle per second, per resource, measured as the percentage of your total production of that resource",
+    AutoSellCapacityExtraPercentageFromSwiss: "Extra Percentage from Swiss Upgrade and Boost: %{n}%",
 };

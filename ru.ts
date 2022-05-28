@@ -190,10 +190,6 @@ export const RU = {
     MaxInputDistance: "Максимальное входное расстояние",
     MaxInputDistanceDesc:
         "Максимальное расстояние, на котором это здание может получить входные ресурсы, измеряется в количестве плиток",
-    AutoSellCapacity: "Емкость автоматической продажи",
-    AutoSellCapacityDesc:
-        "Максимальное количество ресурсов, которые автопродажа может обрабатывать в секунду, на каждый ресурс",
-    CurrentAutoSellCapacityMultiplier: "Текущий множитель: x%{n}",
     AutoSellConcurrency: "Одновременная автопродажа",
     AutoSellConcurrencyDesc: "Максимальное количество ресурсов, которое может одновременно обрабатывать автопродажа",
     MaxAutoSellConcurrencyReached:
@@ -458,9 +454,6 @@ export const RU = {
         "Повышение производственных мощностей всех ваших зданий (включая шахты, заводы, электростанции, научные и культурные здания).",
     FuelCostDiscount: "Скидка на стоимость топлива",
     FuelCostDiscountDesc: "Дает скидку на стоимость топлива при перевозке ресурсов",
-    AutoSellCapacityMultiplier: "Множитель количества автопродаж",
-    AutoSellCapacityMultiplierDesc:
-        "Множитель, который применяется к вашему количеству автопродаж, независимо от текущего количества автопродаж",
     BuildingPermitCostDivider: "Делитель стоимости разрешения на строительство",
     BuildingPermitCostDividerDesc: "Разделите стоимость разрешения на строительство на этот делитель",
     ExtraAdjacentBonus: "Дополнительный смежный бонус",
@@ -1518,4 +1511,12 @@ export const RU = {
     ResearchAgreementDesc: "Filling each trade with an unique player gives 10 mins of research point production",
     NewsEffectx2V2: "Press Conference",
     NewsEffectx2DescV2: "All market news are 50% more effective",
+    PlayerTradeQuotaPenaltyWarning:
+        "Your trading value with this player exceeds 1% of your market cap and the price of this trade differs too much from your local price. Filling this trade requires extra trading quota",
+    AutoSellCapacityMultiplierV2: "Extra Auto Sell Capacity",
+    AutoSellCapacityMultiplierDescV2: "This will give extra auto sell capacity on top of your existing capacity",
+    AutoSellCapacity: "Емкость автоматической продажи",
+    AutoSellCapacityDescV2:
+        "Max amount of resources auto sell can handle per second, per resource, measured as the percentage of your total production of that resource",
+    AutoSellCapacityExtraPercentageFromSwiss: "Extra Percentage from Swiss Upgrade and Boost: %{n}%",
 };
