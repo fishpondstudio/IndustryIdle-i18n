@@ -187,9 +187,6 @@ export const KR = {
         "생산주기의 기간(초). 주기를 늘리면 주기 당 입/출력이 증가하므로 입력 자원을 가져올 때 우선 순위가 낮아집니다",
     MaxInputDistance: "최대 입력 거리",
     MaxInputDistanceDesc: "건물에서 입력 자원을 가져올 수 있는 최대 거리(타일 수)",
-    AutoSellCapacity: "자동 판매 용량",
-    AutoSellCapacityDesc: "자동 판매가 처리할 수 있는 초당 자원량",
-    CurrentAutoSellCapacityMultiplier: "현재 승수: x%{n}",
     AutoSellConcurrency: "자동 판매 종류",
     AutoSellConcurrencyDesc: "자동 판매가 동시에 처리 할 수 있는 최대 자원 종류",
     MaxAutoSellConcurrencyReached:
@@ -444,8 +441,6 @@ export const KR = {
     ProductionMultiplierDesc: "모든 건물의 생산 능력 향상 (광산, 공장, 발전소, 과학 및 문화 건물 포함)",
     FuelCostDiscount: "연료비 절약",
     FuelCostDiscountDesc: "자원을 운송할 때 연료비를 할인합니다",
-    AutoSellCapacityMultiplier: "자동 판매 용량 승수",
-    AutoSellCapacityMultiplierDesc: "현재 용량에 관계없이 자동 판매 용량에 적용되는 승수",
     BuildingPermitCostDivider: "건축 허가 비용 나누기",
     BuildingPermitCostDividerDesc: "건축 허가 비용 나누기",
     ExtraAdjacentBonus: "추가 인접 보너스",
@@ -1457,4 +1452,12 @@ export const KR = {
     ResearchAgreementDesc: "Filling each trade with an unique player gives 10 mins of research point production",
     NewsEffectx2V2: "Press Conference",
     NewsEffectx2DescV2: "All market news are 50% more effective",
+    PlayerTradeQuotaPenaltyWarning:
+        "Your trading value with this player exceeds 1% of your market cap and the price of this trade differs too much from your local price. Filling this trade requires extra trading quota",
+    AutoSellCapacityMultiplierV2: "Extra Auto Sell Capacity",
+    AutoSellCapacityMultiplierDescV2: "This will give extra auto sell capacity on top of your existing capacity",
+    AutoSellCapacity: "자동 판매 용량",
+    AutoSellCapacityDescV2:
+        "Max amount of resources auto sell can handle per second, per resource, measured as the percentage of your total production of that resource",
+    AutoSellCapacityExtraPercentageFromSwiss: "Extra Percentage from Swiss Upgrade and Boost: %{n}%",
 };

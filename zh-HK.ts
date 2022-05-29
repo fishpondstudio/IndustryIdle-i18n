@@ -185,9 +185,6 @@ export const ZH_HK = {
     ProductionCycleLengthDesc: "一個生產周期嘅時間，用秒計。加長周期會加每個周期嘅輸出入嚟到降低攞資源輸入嘅優先度",
     MaxInputDistance: "最長輸入距離",
     MaxInputDistanceDesc: "呢棟建築用版塊量計輸入資源嘅最長距離",
-    AutoSellCapacity: "自動賣出量",
-    AutoSellCapacityDesc: "自動賣出每種資源每秒處理到嘅最大資源量",
-    CurrentAutoSellCapacityMultiplier: "而家倍率: x%{n}",
     AutoSellConcurrency: "同時自動賣出量",
     AutoSellConcurrencyDesc: "自動賣出同時處理到嘅最大資源量",
     MaxAutoSellConcurrencyReached: "您已經去到最大同時自動賣出量，閂咗另一個自動賣出嚟開呢個",
@@ -435,8 +432,6 @@ export const ZH_HK = {
     ProductionMultiplierDesc: "提高您全部建築嘅產量 (包括礦場、工廠、發電廠、科學同文化建築)",
     FuelCostDiscount: "燃料成本折扣",
     FuelCostDiscountDesc: "喺運資源個嗰陣俾燃料成本折扣",
-    AutoSellCapacityMultiplier: "自動賣出量倍率",
-    AutoSellCapacityMultiplierDesc: "就算而家嘅量係點，都會用落您嘅自動賣出量嘅倍率",
     BuildingPermitCostDivider: "建築許可證成本折扣",
     BuildingPermitCostDividerDesc: "建築許可證成本被呢個折扣折",
     ExtraAdjacentBonus: "額外相鄰加成",
@@ -1432,4 +1427,12 @@ export const ZH_HK = {
     ResearchAgreementDesc: "Filling each trade with an unique player gives 10 mins of research point production",
     NewsEffectx2V2: "Press Conference",
     NewsEffectx2DescV2: "All market news are 50% more effective",
+    PlayerTradeQuotaPenaltyWarning:
+        "Your trading value with this player exceeds 1% of your market cap and the price of this trade differs too much from your local price. Filling this trade requires extra trading quota",
+    AutoSellCapacityMultiplierV2: "Extra Auto Sell Capacity",
+    AutoSellCapacityMultiplierDescV2: "This will give extra auto sell capacity on top of your existing capacity",
+    AutoSellCapacity: "自動賣出量",
+    AutoSellCapacityDescV2:
+        "Max amount of resources auto sell can handle per second, per resource, measured as the percentage of your total production of that resource",
+    AutoSellCapacityExtraPercentageFromSwiss: "Extra Percentage from Swiss Upgrade and Boost: %{n}%",
 };
