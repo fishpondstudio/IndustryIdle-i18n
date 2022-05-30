@@ -1418,4 +1418,5 @@ export const ZH_CN = {
     AutoSellCapacityDescV2:
         "每种资源每秒自动销售可以处理的最大资源量，以占该资源总产量的百分比来衡量",
     AutoSellCapacityExtraPercentageFromSwiss: "瑞士升级和加速的额外百分比: %{n}%",
+    PlayerTradeHideExtraQuotaTrades: "隱藏需要額外報價的交易",
 };
