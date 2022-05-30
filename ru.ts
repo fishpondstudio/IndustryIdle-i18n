@@ -1460,7 +1460,7 @@ export const RU = {
     HappyMeal: "Хэппи Мил",
     Whopper: "Воппер",
     DrinkFactory: "Завод напитков",
-    SoftDrink: "Газорованный напиток",
+    SoftDrink: "Газированный напиток",
     Alcohol: "Алкоголь",
     Wine: "Вино",
     Cocktail: "Коктейль",
@@ -1519,4 +1519,5 @@ export const RU = {
     AutoSellCapacityDescV2:
         "Максимальное количество ресурсов, которое может обработать автопродажа в секунду, для каждого ресурса, измеряется как процент от общего производства данного ресурса",
     AutoSellCapacityExtraPercentageFromSwiss: "Дополнительный процент от Улучшения и Усиления за кредиты: %{n}%",
+    PlayerTradeHideExtraQuotaTrades: "Скрыть сделки, требующие дополнительной квоты",
 };
