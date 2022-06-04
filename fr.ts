@@ -1518,4 +1518,10 @@ export const FR = {
         "Max amount of resources auto sell can handle per second, per resource, measured as the percentage of your total production of that resource",
     AutoSellCapacityExtraPercentageFromSwiss: "Extra Percentage from Swiss Upgrade and Boost: %{n}%",
     PlayerTradeHideExtraQuotaTrades: "Hide trades that require extra quota",
+    AchievementAuckland100: "Hoiho",
+    AchievementAuckland100Desc: "Earn 100 Swiss Money in Auckland in a single run",
+    AchievementAuckland500: "Whio",
+    AchievementAuckland500Desc: "Earn 500 Swiss Money in Auckland in a single run",
+    AchievementAuckland1000: "Kiwi",
+    AchievementAuckland1000Desc: "Earn 1000 Swiss Money in Auckland in a single run",
 };
