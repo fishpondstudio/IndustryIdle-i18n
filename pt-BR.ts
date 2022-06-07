@@ -794,7 +794,7 @@ export const PT_BR = {
     MusicProducer: "Produtora Musical",
     PlasticFiber: "Fibra Plástica",
     PlasticFiberDesc: "Fábricas de fibra usam 50% mais plásticos,porém 50% menos vidro",
-    SellRefundPercentage: "Reembolso de venda/rebaixamento",
+    SellRefundPercentage: "Porcentagem de reembolso de venda",
     SellRefundPercentageDesc:
         "Se você vender ou rebaixar um edifício,esta é a porcentagem de dinheiro e recursos que será reembolsado",
     SellBuildingDescV2:
@@ -893,7 +893,7 @@ export const PT_BR = {
         "<li>Cada 4 tipos diferentes de edifícios dão 1 licença de construção gratuita</li><li>Política única: Diversificação da produção</li><li>Prédio único: Fábrica de xarope de bordo</li><li>Transporte gratuito de xarope de bordo </li><li>Tipo de combustível exclusivo: Xarope de bordo</li><li>Cota comercial de 2x jogadores ao negociar urânio e urânio enriquecido</li><li>Política gratuita exclusiva: Xarope de plástico</li><li> Fábricas de brinquedos têm 2x de produtividade</li><li>Estúdios de jogos têm 2x de capacidade</li>",
     MapExtraPermitDesc: "Você recebe %{number} licenças de construção gratuitas do bônus exclusivo do mapa",
     OsloBonusV3:
-        "<li>As refinarias de petróleo são desbloqueadas</li><li>As refinarias de petróleo têm 2x a capacidade</li><li>A política de transporte elétrico de petróleo é gratuita</li><li>As usinas de processamento de gás têm 2x a capacidade</li>< li>Turbina eólica de nível 4 livre x1</li><li>Poço de petróleo de nível 8 livre x1</li><li>Refinaria de petróleo de nível 2 livre x1</li><li>Bomba de gás natural de nível 2 livre x1</li> li>",
+        "<li>As refinarias de petróleo são desbloqueadas</li><li>As refinarias de petróleo têm 2x a capacidade</li><li>A política de transporte elétrico de petróleo é gratuita</li><li>As usinas de processamento de gás têm 2x a capacidade</li><li>Turbina eólica de nível 4 livre x1</li><li>Poço de petróleo de nível 8 livre x1</li><li>Refinaria de petróleo de nível 2 livre x1</li><li>Bomba de gás natural de nível 2 livre x1</li> li>",
     ResourceBoosterPercentageV2: "💡 Este valor inclui %{percent} aumento de impulsionadores de recursos adjacentes",
     MapleSyrup: "Xarope de bordo",
     MapleSyrupFactory: "Fábrica de xarope de bordo",
@@ -1043,7 +1043,7 @@ export const PT_BR = {
     SanJoseBonus:
         "<li>Edifício exclusivo: fabricante de chips</li><li>Edifício exclusivo: FaceApp INK</li><li>Edifício exclusivo: Bitcoin Miner</li><li>Todos os edifícios que consomem silício têm modificador máximo de ladrilhos</li> li><li>Os painéis solares geram 2x de energia</li><li>As minas de silício têm 2x de potência</li>",
     RotterdamBonusV2:
-        "<li>Aciarias têm 2x capacidade</li><li>Aciarias têm 2x capacidade</li><li>Transporte gratuito de ferro</li><li>Transporte de aço custa 50% menos combustível</li>< li>Comece com 2x a capacidade de venda automática</li><li>A política da Terra Plana é gratuita</li>",
+        "<li>Aciarias têm 2x capacidade</li><li>Aciarias têm 2x capacidade</li><li>Transporte gratuito de ferro</li><li>Transporte de aço custa 50% menos combustível</li><li>Comece com 2x a capacidade de venda automática</li><li>A política da Terra Plana é gratuita</li>",
     ChipManufacturer: "Fabricante de chips",
     SnapTokInc: "SnapTok INK",
     FaceAppInc: "FaceApp INK",
@@ -1310,7 +1310,7 @@ export const PT_BR = {
     CannedBeef: "Carne enlatada",
     FoodProcessingPlant: "Fabrica de processamento de alimentos",
     KansasCityBonus:
-        "<li>Plantas e estufas produzem 2x mais milho</li><li>Transporte gratuito de milho</li><li>Para cada nível,as hidrelétricas aumentam em 5% as terras agrícolas adjacentes</li><li>A cada 2 terras agrícolas conceda 1 licença de construção gratuita</li><li>A política O sol nunca se põe também faz com que as terras agrícolas trabalhem 100% do tempo (incluindo off-line)</li><li>2x cota de troca de jogadores ao negociar colheitas</li><li >Fábricas de processamento de alimentos são desbloqueadas</li>",
+        "<li>Plantas e estufas produzem 2x mais milho</li><li>Transporte gratuito de milho</li><li>Para cada nível,as hidrelétricas aumentam em 5% as terras agrícolas adjacentes</li><li>A cada 2 terras agrícolas conceda 1 licença de construção gratuita</li><li>A política O sol nunca se põe também faz com que as terras agrícolas trabalhem 100% do tempo (incluindo off-line)</li><li>2x cota de troca de jogadores ao negociar colheitas</li><li>Fábricas de processamento de alimentos são desbloqueadas</li>",
     KansasCityHydroDamBoost:
         "Bônus exclusivo de Kansas City: esta barragem hidráulica fornece %{boost} impulso para fazendas adjacentes",
     PerthGeothermalPowerPlantBoost:
@@ -1396,7 +1396,7 @@ export const PT_BR = {
     WaveAutoNextDesc:
         "Depois de defender com sucesso uma onda,reivindique automaticamente a recompensa e inicie a próxima",
     IstanbulBonus:
-        "<li>Modo de defesa de torre - converta suas armas em dano, defenda-se contra invasores e receba recompensas em dinheiro para expandir ainda mais</li><li>Os comandos do exército têm 2x a capacidade</li><li>As fábricas de tanques têm 2x a capacidade</li><li >As fábricas de armas têm 2x de capacidade</li><li>As fábricas de mísseis têm 2x mais capacidade</li><li>As fábricas de dinamite têm 2x de produtividade</li>",
+        "<li>Modo de defesa de torre - converta suas armas em dano, defenda-se contra invasores e receba recompensas em dinheiro para expandir ainda mais</li><li>Os comandos do exército têm 2x a capacidade</li><li>As fábricas de tanques têm 2x a capacidade</li><li>As fábricas de armas têm 2x de capacidade</li><li>As fábricas de mísseis têm 2x mais capacidade</li><li>As fábricas de dinamite têm 2x de produtividade</li>",
     PlayerTradeCancelTitle: "Cancelar negociação?",
     PlayerTradeCancelDesc: "Cancelar esta negociação devolverá sua cota e parte do seu recurso",
     PlayerTradeCancelYes: "Cancelar negociação",
@@ -1482,7 +1482,7 @@ export const PT_BR = {
         "Cada nível ou cada 10 níveis de uma Zona da Indústria fornecem 10% de aumento de produção para edifícios nela",
     Auckland: "Auckland",
     AucklandBonus:
-        "<li>Todos os depósitos são encontrados em uma área em forma de Nova Zelândia no centro do mapa</li><li>Edifício único: Usina Hidrelétrica</li><li>Política exclusiva: Mine Booster</li><li >Política Única: Lagoa de Peixes Elétrico</li><li>Os tanques de peixes podem ser construídos em qualquer ladrilho</li>",
+        "<li>Todos os depósitos são encontrados em uma área em forma de Nova Zelândia no centro do mapa</li><li>Edifício único: Usina Hidrelétrica</li><li>Política exclusiva: Mine Booster</li><li>Política Única: Lagoa de Peixes Elétrico</li><li>Os tanques de peixes podem ser construídos em qualquer ladrilho</li>",
     MineBooster: "Intensificador de Mina",
     MineBoosterDesc:
         "Uma mina em funcionamento fornece 100% de aumento de capacidade para minas ou fábricas adjacentes que consomem o depósito",
@@ -1494,8 +1494,7 @@ export const PT_BR = {
     CropOutputx2: "Fertilizante Moderno",
     CropOutputx2Desc: "Terras agrícolas e estufas produzem 2x colheitas, mas o transporte de colheitas custa 2x combustível",
     MeatProductionx2: "Esteróide de gado",
-    MeatProductionx2Desc:
-        "Fazendas de frangos, fazendas de porcos, fazendas de vacas, tanques de peixes e fábricas de forragem têm 2x de capacidade, mas usam 2x de energia",
+    MeatProductionx2Desc: "Fazendas de frangos, fazendas de porcos, fazendas de vacas, tanques de peixes e fábricas de forragem têm 2x de capacidade, mas usam 2x de energia",
     HydroFarming: "Hidroagricultura",
     HydroFarmingDesc: "Cada barragem hidrelétrica em funcionamento fornece 20% de aumento de capacidade para todas as terras agrícolas e estufas no mapa",
     ExtraTradeQuota: "Cota de negociação de jogador extra",
@@ -1506,13 +1505,11 @@ export const PT_BR = {
     ResearchAgreementDesc: "Preencher cada negociação com um jogador único dá 10 minutos de produção de pontos de pesquisa",
     NewsEffectx2V2: "Conferência de imprensa",
     NewsEffectx2DescV2: "Todas as notícias do mercado são 50% mais eficazes",
-    PlayerTradeQuotaPenaltyWarning:
-        "Seu valor de negociação com este jogador excede 1% do seu valor de mercado e o preço desta negociação difere muito do seu preço local. Preencher esta negociação requer cota de negociação extra",
+    PlayerTradeQuotaPenaltyWarning: "Seu valor de negociação com este jogador excede 1% do seu valor de mercado e o preço desta negociação difere muito do seu preço local. Preencher esta negociação requer cota de negociação extra",
     AutoSellCapacityMultiplierV2: "Capacidade extra de venda automática",
     AutoSellCapacityMultiplierDescV2: "Isso fornecerá capacidade extra de venda automática além da capacidade existente",
     AutoSellCapacity: "Capacidade de Venda Automática",
-    AutoSellCapacityDescV2:
-        "Quantidade máxima de recursos que a venda automática pode processar por segundo, por recurso, medida como a porcentagem de sua produção total desse recurso",
+    AutoSellCapacityDescV2: "Quantidade máxima de recursos que a venda automática pode processar por segundo, por recurso, medida como a porcentagem de sua produção total desse recurso",
     AutoSellCapacityExtraPercentageFromSwiss: "Porcentagem extra de upgrade e reforço suíços: %{n}%",
     PlayerTradeHideExtraQuotaTrades: "Ocultar negociações que exigem cota extra",
 };
