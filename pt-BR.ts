@@ -971,7 +971,7 @@ export const PT_BR = {
     ResourceBoosterBannerDescV2:
         "💡 Atualmente você tem %{number} impulsionadores de recursos - a entrada científica de cada um é dimensionada para o número de impulsionadores de recursos que você possui atualmente",
     CrowdfundingId: "Financiamento colaborativo %{id}",
-    PatchNotes: "Notas de correção",
+    PatchNotes: "Notas de Atualização!",
     PatchNotesDesc: "Veja o que há de novo nesta atualização",
     PanelPositionLeft: "Esquerda",
     PanelPositionLeftFloat: "Esquerda (Flutuante)",
@@ -981,14 +981,14 @@ export const PT_BR = {
     TimePlayed: "Tempo de jogo",
     ValuationPerHour: "Valor por Hora",
     HighPowerPriority: "Alta prioridade de Energia",
-    HighPowerPriorityDesc: "Ativar isso fará com que o edifício consuma energia primeiro que outros edifícios",
+    HighPowerPriorityDesc: "Ativar isso fará com que o edifício tenha preferencia ao consumo de energia!",
     IndustryZone: "Zona Industrial",
     IndustryZoneDesc:
         "Combine edifícios adjacentes que formam uma cadeia de suprimentos e economize licenças de construção",
     IndustryZoneMaxBuildingLevel: "Nível máximo de construção",
     IndustryZoneNotWorkingDesc:
         "Todos os seus edifícios adjacentes devem formar uma cadeia de suprimentos e não fazer parte de outras zonas industriais",
-    PlayerTradeAutoClaim: "Reivindicar negociações realizadas automaticamente",
+    PlayerTradeAutoClaim: "Reivindicar automaticamente as negociações realizadas",
     MusifyInc: "Musify INK",
     WebflixInc: "Webflix INK",
     CloudStreaming: "Cloud Steaming",
