@@ -1512,4 +1512,14 @@ export const PT_BR = {
     AutoSellCapacityDescV2: "Quantidade máxima de recursos que a venda automática pode processar por segundo, por recurso, medida como a porcentagem de sua produção total desse recurso",
     AutoSellCapacityExtraPercentageFromSwiss: "Porcentagem extra de upgrade e reforço suíços: %{n}%",
     PlayerTradeHideExtraQuotaTrades: "Ocultar negociações que exigem cota extra",
+    AutoSellCapacityDescV2:
+        "Quantidade máxima de recursos que a venda automática pode processar por segundo, por recurso, medida como a porcentagem de sua produção total desse recurso",
+    AutoSellCapacityExtraPercentageFromSwiss: "Porcentagem extra de upgrade e reforço suíços: %{n}%",
+    PlayerTradeHideExtraQuotaTrades: "Ocultar negociações que exigem cota extra",
+    AchievementAuckland100: "Hoiho",
+    AchievementAuckland100Desc: "Ganhe 100 Dinheiros suiços em Auckland em uma única corrida",
+    AchievementAuckland500: "Whio",
+    AchievementAuckland500Desc: "Ganhe 500 dinheiros suíços em Auckland em uma única corrida",
+    AchievementAuckland1000: "Kiwi",
+    AchievementAuckland1000Desc: "Ganhe 1000 dinheiros suíços em Auckland em uma única corrida",
 };
