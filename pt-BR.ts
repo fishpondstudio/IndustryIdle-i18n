@@ -893,7 +893,7 @@ export const PT_BR = {
         "<li>Cada 4 tipos diferentes de edifícios dão 1 licença de construção gratuita</li><li>Política única: Diversificação da produção</li><li>Prédio único: Fábrica de xarope de bordo</li><li>Transporte gratuito de xarope de bordo </li><li>Tipo de combustível exclusivo: Xarope de bordo</li><li>Cota comercial de 2x jogadores ao negociar urânio e urânio enriquecido</li><li>Política gratuita exclusiva: Xarope de plástico</li><li> Fábricas de brinquedos têm 2x de produtividade</li><li>Estúdios de jogos têm 2x de capacidade</li>",
     MapExtraPermitDesc: "Você recebe %{number} licenças de construção gratuitas do bônus exclusivo do mapa",
     OsloBonusV3:
-        "<li>As refinarias de petróleo são desbloqueadas</li><li>As refinarias de petróleo têm 2x a capacidade</li><li>A política de transporte elétrico de petróleo é gratuita</li><li>As usinas de processamento de gás têm 2x a capacidade</li><li>Turbina eólica de nível 4 livre x1</li><li>Poço de petróleo de nível 8 livre x1</li><li>Refinaria de petróleo de nível 2 livre x1</li><li>Bomba de gás natural de nível 2 livre x1</li> li>",
+        "<li>As refinarias de petróleo são desbloqueadas</li><li>As refinarias de petróleo têm 2x a capacidade</li><li>A política de transporte elétrico de petróleo é gratuita</li><li>As usinas de processamento de gás têm 2x a capacidade</li><li>Turbina eólica de nível 4 livre x1</li><li>Poço de petróleo de nível 8 livre x1</li><li>Refinaria de petróleo de nível 2 livre x1</li><li>Bomba de gás natural de nível 2 livre x1</li>",
     ResourceBoosterPercentageV2: "💡 Este valor inclui %{percent} aumento de impulsionadores de recursos adjacentes",
     MapleSyrup: "Xarope de bordo",
     MapleSyrupFactory: "Fábrica de xarope de bordo",
@@ -1041,7 +1041,7 @@ export const PT_BR = {
         "Os pontos de pesquisa são gerados enquanto você está offline (de acordo com seu nível de Laboratório de Pesquisa,Ciência em seu depósito e tempo de ganho offline)",
     SanJose: "São José",
     SanJoseBonus:
-        "<li>Edifício exclusivo: fabricante de chips</li><li>Edifício exclusivo: FaceApp INK</li><li>Edifício exclusivo: Bitcoin Miner</li><li>Todos os edifícios que consomem silício têm modificador máximo de ladrilhos</li> li><li>Os painéis solares geram 2x de energia</li><li>As minas de silício têm 2x de potência</li>",
+        "<li>Edifício exclusivo: fabricante de chips</li><li>Edifício exclusivo: FaceApp INK</li><li>Edifício exclusivo: Bitcoin Miner</li><li>Todos os edifícios que consomem silício têm modificador máximo de ladrilhos</li><li>Os painéis solares geram 2x de energia</li><li>As minas de silício têm 2x de potência</li>",
     RotterdamBonusV2:
         "<li>Aciarias têm 2x capacidade</li><li>Aciarias têm 2x capacidade</li><li>Transporte gratuito de ferro</li><li>Transporte de aço custa 50% menos combustível</li><li>Comece com 2x a capacidade de venda automática</li><li>A política da Terra Plana é gratuita</li>",
     ChipManufacturer: "Fabricante de chips",
