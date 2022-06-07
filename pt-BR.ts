@@ -1512,8 +1512,7 @@ export const PT_BR = {
     AutoSellCapacityDescV2: "Quantidade máxima de recursos que a venda automática pode processar por segundo, por recurso, medida como a porcentagem de sua produção total desse recurso",
     AutoSellCapacityExtraPercentageFromSwiss: "Porcentagem extra de upgrade e reforço suíços: %{n}%",
     PlayerTradeHideExtraQuotaTrades: "Ocultar negociações que exigem cota extra",
-    AutoSellCapacityDescV2:
-        "Quantidade máxima de recursos que a venda automática pode processar por segundo, por recurso, medida como a porcentagem de sua produção total desse recurso",
+    AutoSellCapacityDescV2: "Quantidade máxima de recursos que a venda automática pode processar por segundo, por recurso, medida como a porcentagem de sua produção total desse recurso",
     AutoSellCapacityExtraPercentageFromSwiss: "Porcentagem extra de upgrade e reforço suíços: %{n}%",
     PlayerTradeHideExtraQuotaTrades: "Ocultar negociações que exigem cota extra",
     AchievementAuckland100: "Hoiho",
