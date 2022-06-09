@@ -1520,7 +1520,7 @@ export const RU = {
         "Максимальное количество ресурсов, которое может обработать автопродажа в секунду, для каждого ресурса, измеряется как процент от общего производства данного ресурса",
     AutoSellCapacityExtraPercentageFromSwiss: "Дополнительный процент от Улучшения и Усиления за кредиты: %{n}%",
     PlayerTradeHideExtraQuotaTrades: "Скрыть сделки, требующие дополнительной квоты",
-    AchievementAuckland100: "хоихо",
+    AchievementAuckland100: "Желтоглазый пингвин",
     AchievementAuckland100Desc: "Заработайте 100 кредитов в Окленде за одну сессию",
     AchievementAuckland500: "Синяя утка",
     AchievementAuckland500Desc: "Заработайте 500 кредитов в Окленде за одну сессию",
