@@ -1453,7 +1453,7 @@ export const RU = {
     AchievementRandomIsland1000Desc: "Заработайте 1000 кредитов на Острове Рандом за одну сессию",
     AchievementFishPond200: "Адмирал рыбного пруда",
     AchievementFishPond200Desc: "Постройте 200 рыбных прудов на любой карте за один запуск",
-    Photogram: "Фотограмма",
+    Photogram: "Фотограмм",
     FineDiningRestaurant: "Ресторан изысканных блюд",
     Sushi: "Суши",
     Pastry: "Выпечка",
