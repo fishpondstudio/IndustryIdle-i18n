@@ -192,9 +192,6 @@ export const PL = {
     MaxInputDistance: "Maksymalna odległość zaopatrzenia",
     MaxInputDistanceDesc:
         "Maksymalna odległość z jakiej budynek jest w stanie pobierać surowce do produkcji, liczone w polach.",
-    AutoSellCapacity: "Przepustowość automatycznej sprzedaży",
-    AutoSellCapacityDesc: "Maksymalne ilości  produktów  jake mogą  być sprzedawane automatycznie w sekundach/ilość",
-    CurrentAutoSellCapacityMultiplier: "Bieżacy mnożnik: x%{n}",
     AutoSellConcurrency: "Limit rodzajów sprzedawanych towarów",
     AutoSellConcurrencyDesc: "Maksymalna liczba rodzajów produktów jakie można sprzedawać w tym samamy czasie",
     MaxAutoSellConcurrencyReached:
@@ -459,9 +456,6 @@ export const PL = {
         "Zwiększenie zdolności produkcyjnej wszystkich budynków (w tym kopalń, fabryk, elektrowni, budynków naukowych i kulturalnych)",
     FuelCostDiscount: "Zniżka na koszty paliwa",
     FuelCostDiscountDesc: "Daje zniżkę na koszt paliwa przy transporcie surowców",
-    AutoSellCapacityMultiplier: "Mnożnik zdolności sprzedaży automatycznej",
-    AutoSellCapacityMultiplierDesc:
-        "Mnożnik stosowany do zdolności automatycznej sprzedaży niezależnie od aktualnej zdolności",
     BuildingPermitCostDivider: "Dzielnik kosztów pozwoleń  na budowę",
     BuildingPermitCostDividerDesc: "Podziel koszt pozwoleń na budowę przez ten dzielnik",
     ExtraAdjacentBonus: "Dodatkowe sąsiednie bonusy",
@@ -798,8 +792,6 @@ export const PL = {
     MusicProducer: "Producent muzyczny",
     PlasticFiber: "Plastikowe włókno",
     PlasticFiberDesc: "Fabryki włókien zużywają o 50% więcej tworzyw sztucznych, ale o 50% mniej szkła",
-    NewsEffectx2: "Konferencja prasowa",
-    NewsEffectx2Desc: "Podwaja się efekt wiadomości rynkowych – zarówno pozytywnych, jak i negatywnych",
     SellRefundPercentage: "Zwrot kosztów sprzedaży/obniżenia ulepszenia",
     SellRefundPercentageDesc:
         "Jeśli sprzedasz lub obniżysz poziom budynku, jest to procent pieniędzy i zasobów, który otrzymujesz z powrotem",
@@ -1496,4 +1488,25 @@ export const PL = {
     HydroFarmingDesc: "Each working hydro dam provides 20% capacity boost to all farmlands and greenhouses on the map",
     ExtraTradeQuota: "Extra Player Trade Quota",
     ExtraTradeQuotaDesc: "Initial player trade quota is 1% of your market cap - this will grant extra percentage",
+    ProduceAllCrops: "Produce All Crops",
+    ProduceAllCropsDesc: "Farmlands and greenhouses can produce all crops, including the ones that are not on the map",
+    ResearchAgreement: "Research Agreement",
+    ResearchAgreementDesc: "Filling each trade with an unique player gives 10 mins of research point production",
+    NewsEffectx2V2: "Press Conference",
+    NewsEffectx2DescV2: "All market news are 50% more effective",
+    PlayerTradeQuotaPenaltyWarning:
+        "Your trading value with this player exceeds 1% of your market cap and the price of this trade differs too much from your local price. Filling this trade requires extra trading quota",
+    AutoSellCapacityMultiplierV2: "Extra Auto Sell Capacity",
+    AutoSellCapacityMultiplierDescV2: "This will give extra auto sell capacity on top of your existing capacity",
+    AutoSellCapacity: "Przepustowość automatycznej sprzedaży",
+    AutoSellCapacityDescV2:
+        "Max amount of resources auto sell can handle per second, per resource, measured as the percentage of your total production of that resource",
+    AutoSellCapacityExtraPercentageFromSwiss: "Extra Percentage from Swiss Upgrade and Boost: %{n}%",
+    PlayerTradeHideExtraQuotaTrades: "Hide trades that require extra quota",
+    AchievementAuckland100: "Hoiho",
+    AchievementAuckland100Desc: "Earn 100 Swiss Money in Auckland in a single run",
+    AchievementAuckland500: "Whio",
+    AchievementAuckland500Desc: "Earn 500 Swiss Money in Auckland in a single run",
+    AchievementAuckland1000: "Kiwi",
+    AchievementAuckland1000Desc: "Earn 1000 Swiss Money in Auckland in a single run",
 };

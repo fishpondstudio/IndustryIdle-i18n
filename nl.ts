@@ -190,9 +190,6 @@ export const NL = {
     MaxInputDistance: "Maximale Invoer Afstand",
     MaxInputDistanceDesc:
         "De maximale afstand van waar dit gebouw invoer van goederen kan krijgen, gemeten in aantal tegels",
-    AutoSellCapacity: "Automatische Verkoop Capaciteit",
-    AutoSellCapacityDesc: "Max aantal goederen die de automatische verkoop kan verwerken per seconde, per goed",
-    CurrentAutoSellCapacityMultiplier: "Huidige vermenigvuldiger: x%{n}",
     AutoSellConcurrency: "Automatische Verkoop Gelijktijdigheid",
     AutoSellConcurrencyDesc: "Max aantal goederen die je tegelijk kan verkopen",
     MaxAutoSellConcurrencyReached:
@@ -455,9 +452,6 @@ export const NL = {
         "Een boost aan al je gebouwen productie capaciteiten (inclusief mijnen, fabrieken, energie centrales, wetenschap en cultuur gebouwen)",
     FuelCostDiscount: "Brandstof Kosten Korting",
     FuelCostDiscountDesc: "Geeft een korting op de brandstof kosten wanneer je goederen transporteert",
-    AutoSellCapacityMultiplier: "Automatische Verkoopscapaciteit vermedigvuldiger",
-    AutoSellCapacityMultiplierDesc:
-        "Een vermedigvuldiger die toegepast wordt op je automatische verkoopscapaciteit, ongacht de huidige capaciteit",
     BuildingPermitCostDivider: "Bouwvergunning Kosten Deler",
     BuildingPermitCostDividerDesc: "Deel de prijs van Bouwvergunningen door deze factor",
     ExtraAdjacentBonus: "Extra Aangrenzingsbonus",
@@ -793,8 +787,6 @@ export const NL = {
     MusicProducer: "Music Producer",
     PlasticFiber: "Plastic Fiber",
     PlasticFiberDesc: "Fiber factories use 50% more plastics but 50% less glass",
-    NewsEffectx2: "Press Conference",
-    NewsEffectx2Desc: "The effect of market news doubles, both positive and negative",
     SellRefundPercentage: "Sell/Downgrade Refund",
     SellRefundPercentageDesc:
         "If you sell or downgrade a building, this is the percentage of cash and resources you are refunded",
@@ -1486,4 +1478,25 @@ export const NL = {
     HydroFarmingDesc: "Each working hydro dam provides 20% capacity boost to all farmlands and greenhouses on the map",
     ExtraTradeQuota: "Extra Player Trade Quota",
     ExtraTradeQuotaDesc: "Initial player trade quota is 1% of your market cap - this will grant extra percentage",
+    ProduceAllCrops: "Produce All Crops",
+    ProduceAllCropsDesc: "Farmlands and greenhouses can produce all crops, including the ones that are not on the map",
+    ResearchAgreement: "Research Agreement",
+    ResearchAgreementDesc: "Filling each trade with an unique player gives 10 mins of research point production",
+    NewsEffectx2V2: "Press Conference",
+    NewsEffectx2DescV2: "All market news are 50% more effective",
+    PlayerTradeQuotaPenaltyWarning:
+        "Your trading value with this player exceeds 1% of your market cap and the price of this trade differs too much from your local price. Filling this trade requires extra trading quota",
+    AutoSellCapacityMultiplierV2: "Extra Auto Sell Capacity",
+    AutoSellCapacityMultiplierDescV2: "This will give extra auto sell capacity on top of your existing capacity",
+    AutoSellCapacity: "Automatische Verkoop Capaciteit",
+    AutoSellCapacityDescV2:
+        "Max amount of resources auto sell can handle per second, per resource, measured as the percentage of your total production of that resource",
+    AutoSellCapacityExtraPercentageFromSwiss: "Extra Percentage from Swiss Upgrade and Boost: %{n}%",
+    PlayerTradeHideExtraQuotaTrades: "Hide trades that require extra quota",
+    AchievementAuckland100: "Hoiho",
+    AchievementAuckland100Desc: "Earn 100 Swiss Money in Auckland in a single run",
+    AchievementAuckland500: "Whio",
+    AchievementAuckland500Desc: "Earn 500 Swiss Money in Auckland in a single run",
+    AchievementAuckland1000: "Kiwi",
+    AchievementAuckland1000Desc: "Earn 1000 Swiss Money in Auckland in a single run",
 };
