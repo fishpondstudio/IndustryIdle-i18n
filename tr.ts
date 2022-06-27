@@ -188,9 +188,6 @@ export const TR = {
     MaxInputDistance: "Max Input Distance",
     MaxInputDistanceDesc:
         "The maximum distance this building can fetch input resources from, measured in number of tiles",
-    AutoSellCapacity: "Auto Sell Capacity",
-    AutoSellCapacityDesc: "Max amount of resources auto sell can handle per second, per resource",
-    CurrentAutoSellCapacityMultiplier: "Current multiplier: x%{n}",
     AutoSellConcurrency: "Auto Sell Concurrency",
     AutoSellConcurrencyDesc: "Max number of resources auto sell can handle at the same time",
     MaxAutoSellConcurrencyReached:
@@ -451,9 +448,6 @@ export const TR = {
         "A boost to all your buildings' production capacity (including mines, factories, power plants, science and culture buildings)",
     FuelCostDiscount: "Fuel Cost Discount",
     FuelCostDiscountDesc: "Gives a discount to fuel cost when transporting resources",
-    AutoSellCapacityMultiplier: "Auto Sell Capacity Multiplier",
-    AutoSellCapacityMultiplierDesc:
-        "A multiplier that is applied to your auto sell capacity reagardless of the current capacity",
     BuildingPermitCostDivider: "Building Permit Cost Divider",
     BuildingPermitCostDividerDesc: "Divide building permit cost by this divider",
     ExtraAdjacentBonus: "Extra Adjacent Bonus",
@@ -787,8 +781,6 @@ export const TR = {
     MusicProducer: "Music Producer",
     PlasticFiber: "Plastik Fiber",
     PlasticFiberDesc: "Fiber factories use 50% more plastics but 50% less glass",
-    NewsEffectx2: "Press Conference",
-    NewsEffectx2Desc: "The effect of market news doubles, both positive and negative",
     SellRefundPercentage: "Sell/Downgrade Refund",
     SellRefundPercentageDesc:
         "If you sell or downgrade a building, this is the percentage of cash and resources you are refunded",
@@ -1482,4 +1474,23 @@ export const TR = {
     ExtraTradeQuotaDesc: "Initial player trade quota is 1% of your market cap - this will grant extra percentage",
     ProduceAllCrops: "Produce All Crops",
     ProduceAllCropsDesc: "Farmlands and greenhouses can produce all crops, including the ones that are not on the map",
+    ResearchAgreement: "Research Agreement",
+    ResearchAgreementDesc: "Filling each trade with an unique player gives 10 mins of research point production",
+    NewsEffectx2V2: "Press Conference",
+    NewsEffectx2DescV2: "All market news are 50% more effective",
+    PlayerTradeQuotaPenaltyWarning:
+        "Your trading value with this player exceeds 1% of your market cap and the price of this trade differs too much from your local price. Filling this trade requires extra trading quota",
+    AutoSellCapacityMultiplierV2: "Extra Auto Sell Capacity",
+    AutoSellCapacityMultiplierDescV2: "This will give extra auto sell capacity on top of your existing capacity",
+    AutoSellCapacity: "Auto Sell Capacity",
+    AutoSellCapacityDescV2:
+        "Max amount of resources auto sell can handle per second, per resource, measured as the percentage of your total production of that resource",
+    AutoSellCapacityExtraPercentageFromSwiss: "Extra Percentage from Swiss Upgrade and Boost: %{n}%",
+    PlayerTradeHideExtraQuotaTrades: "Hide trades that require extra quota",
+    AchievementAuckland100: "Hoiho",
+    AchievementAuckland100Desc: "Earn 100 Swiss Money in Auckland in a single run",
+    AchievementAuckland500: "Whio",
+    AchievementAuckland500Desc: "Earn 500 Swiss Money in Auckland in a single run",
+    AchievementAuckland1000: "Kiwi",
+    AchievementAuckland1000Desc: "Earn 1000 Swiss Money in Auckland in a single run",
 };

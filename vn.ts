@@ -187,9 +187,6 @@ export const VN = {
         "Thời gian của một chu kỳ sản xuất tính bằng giây. Kéo dài chu kỳ sẽ tăng nguyên liệu và thành phẩm tương ứng, làm hạ thấp nhu cầu vận chuyển nguyên liệu",
     MaxInputDistance: "Khoảng cách tối đa vận chuyển nguyên liệu",
     MaxInputDistanceDesc: "Khoảng cách tối đa mà công trình sẽ vận chuyển nguyên liệu, tính bằng số ô",
-    AutoSellCapacity: "Số lượng Tự động Bán hàng",
-    AutoSellCapacityDesc: "Số lượng tối đã tài nguyên có thể bán mỗi giây cho mỗi tài nguyên",
-    CurrentAutoSellCapacityMultiplier: "Bội số hiện tại: x%{n}",
     AutoSellConcurrency: "Tự động Bán hàng đồng thời",
     AutoSellConcurrencyDesc: "Số lượng tối đa loại tài nguyên có thể đồng thời Tự động Bán hàng",
     MaxAutoSellConcurrencyReached:
@@ -450,9 +447,6 @@ export const VN = {
         "Nâng cấp sản lượng cho các công trình của bạn (bao gồm các công trình mỏ, nhà xưởng, nhà máy điện, khoa học và văn hóa)",
     FuelCostDiscount: "Giảm chi phí nhiên liệu",
     FuelCostDiscountDesc: "Giảm giá chi phí nhiên liệu khi vận chuyển tài nguyên",
-    AutoSellCapacityMultiplier: "Bội số cho Tự động Bán hàng",
-    AutoSellCapacityMultiplierDesc:
-        "Bội số được áp dụng cho số lượng Tự động Bán hàng bất kể mức nâng cấp hiện tại trong Trung tâm Thương mại",
     BuildingPermitCostDivider: "Số chia giá thành Giấy phép xây dựng",
     BuildingPermitCostDividerDesc: "Lấy giá Giấy phép xây dựng chia cho số này ",
     ExtraAdjacentBonus: "Hiệu ứng Liền kề nâng cao",
@@ -791,8 +785,6 @@ export const VN = {
     MusicProducer: "Nhà sản xuất nhạc",
     PlasticFiber: "Cáp quang Nhựa",
     PlasticFiberDesc: "Xưởng cáp quang sử dụng thêm 50% Nhựa và bớt đi 50% Kính",
-    NewsEffectx2: "Họp báo",
-    NewsEffectx2Desc: "Hiệu ứng tin tức thị trường tăng gấp đôi, cả tích cực lẫn tiêu cực",
     SellRefundPercentage: "Tỷ lệ hoàn trả khi Bán/Hạ cấp",
     SellRefundPercentageDesc:
         "Nếu bạn bán hoặc hạ cấp một công trình, đây là phần trăm tiền mặt và tài nguyên bạn được hoàn lại",
@@ -1486,4 +1478,23 @@ export const VN = {
     ExtraTradeQuotaDesc: "Initial player trade quota is 1% of your market cap - this will grant extra percentage",
     ProduceAllCrops: "Produce All Crops",
     ProduceAllCropsDesc: "Farmlands and greenhouses can produce all crops, including the ones that are not on the map",
+    ResearchAgreement: "Research Agreement",
+    ResearchAgreementDesc: "Filling each trade with an unique player gives 10 mins of research point production",
+    NewsEffectx2V2: "Press Conference",
+    NewsEffectx2DescV2: "All market news are 50% more effective",
+    PlayerTradeQuotaPenaltyWarning:
+        "Your trading value with this player exceeds 1% of your market cap and the price of this trade differs too much from your local price. Filling this trade requires extra trading quota",
+    AutoSellCapacityMultiplierV2: "Extra Auto Sell Capacity",
+    AutoSellCapacityMultiplierDescV2: "This will give extra auto sell capacity on top of your existing capacity",
+    AutoSellCapacity: "Số lượng Tự động Bán hàng",
+    AutoSellCapacityDescV2:
+        "Max amount of resources auto sell can handle per second, per resource, measured as the percentage of your total production of that resource",
+    AutoSellCapacityExtraPercentageFromSwiss: "Extra Percentage from Swiss Upgrade and Boost: %{n}%",
+    PlayerTradeHideExtraQuotaTrades: "Hide trades that require extra quota",
+    AchievementAuckland100: "Hoiho",
+    AchievementAuckland100Desc: "Earn 100 Swiss Money in Auckland in a single run",
+    AchievementAuckland500: "Whio",
+    AchievementAuckland500Desc: "Earn 500 Swiss Money in Auckland in a single run",
+    AchievementAuckland1000: "Kiwi",
+    AchievementAuckland1000Desc: "Earn 1000 Swiss Money in Auckland in a single run",
 };

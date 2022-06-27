@@ -193,9 +193,6 @@ export const IT = {
     MaxInputDistance: "Distanza Di Input Massima",
     MaxInputDistanceDesc:
         "La distanza massima a cui questa struttura può prendere le risorse, misurata in numero di piastrelle",
-    AutoSellCapacity: "Capacità Vendita Automatica",
-    AutoSellCapacityDesc: "Quantità massima di risorse che la vendita automatica può elaborare al secondo",
-    CurrentAutoSellCapacityMultiplier: "Moltiplicatore attuale: x%{n}",
     AutoSellConcurrency: "Risorse Elaborabili Della Vendita Automatica",
     AutoSellConcurrencyDesc:
         "Numero massimo di tipi di risorse che la vendita automatica può vendere allo stesso tempo",
@@ -462,9 +459,6 @@ export const IT = {
         "Un boost alla capacità di produzione di tutte le tue strutture( incluse miniere, fabbriche, centrali eletteiche, e le steutture dedicate a scienza e cultura)",
     FuelCostDiscount: "Sconto dul costo in carburante",
     FuelCostDiscountDesc: "Dà uno sconto sul carburante quando trasporti le risorse",
-    AutoSellCapacityMultiplier: "Moltiplicatore della capacità della vendita automatica",
-    AutoSellCapacityMultiplierDesc:
-        "Un moltiplicatore che si applica alla capacità della vendita automatica, senza tenere conto della capacità corrente",
     BuildingPermitCostDivider: "Divisore del costo del permesso di costruzione",
     BuildingPermitCostDividerDesc: "Divide il costo del permesso di costruzione per questo divisore",
     ExtraAdjacentBonus: "Bonus adiacenza aggiuntivo",
@@ -803,8 +797,6 @@ export const IT = {
     MusicProducer: "Produttore musicale",
     PlasticFiber: "Pibra di plastica",
     PlasticFiberDesc: "Le fabbriche di fibre usano il 50% in più di plastica e il 50% in meno di vetro",
-    NewsEffectx2: "Conferenza Stampa",
-    NewsEffectx2Desc: "L'efetto delle novità di mercato si duplica, sia negative che positive",
     SellRefundPercentage: "rimborso di Vendita/Declassamento",
     SellRefundPercentageDesc:
         "Se declassi o vendi una struttura, questa è la percentuale di soldi e risorse che ti verranno rimborsati",
