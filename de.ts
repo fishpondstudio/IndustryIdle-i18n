@@ -192,9 +192,6 @@ export const DE = {
     MaxInputDistance: "Max. Importentfernung",
     MaxInputDistanceDesc:
         "Die maximale Distanz des Gebäudes woher Rohstoffe bezogen werden, gemessen in Zellenanzahlen",
-    AutoSellCapacity: "automatische Verkaufsmenge",
-    AutoSellCapacityDesc: "Maximale Anzahl an Ressourcen die automatisch verkauft werden können pro Sekunde/Ressource",
-    CurrentAutoSellCapacityMultiplier: "Aktueller Multiplikator: x%{n}",
     AutoSellConcurrency: "automatische Verkaufsanzahl",
     AutoSellConcurrencyDesc: "Maximale Anzahl der Ressourcen die gleichzeit automatisch verkauft werden können",
     MaxAutoSellConcurrencyReached:
@@ -462,9 +459,6 @@ export const DE = {
         "Steigerung der Produktionskapazität aller Gebäude (einschließlich Minen, Fabriken, Kraftwerke, Wissenschafts- und Kulturgebäude)",
     FuelCostDiscount: "Kraftstoffkostenrabatt",
     FuelCostDiscountDesc: "Gibt einen Rabatt auf die Kraftstoffkosten beim Transport von Ressourcen",
-    AutoSellCapacityMultiplier: "Multiplikator für die automatische Verkaufskapazität",
-    AutoSellCapacityMultiplierDesc:
-        "Ein Multiplikator, der unabhängig von der aktuellen Kapazität auf Ihre automatische Verkaufskapazität angewendet wird",
     BuildingPermitCostDivider: "Kostenteiler für Baugenehmigungen",
     BuildingPermitCostDividerDesc: "Teilen Sie die Baugenehmigungskosten durch diesen Teiler",
     ExtraAdjacentBonus: "Zusätzlicher Benachbarungsbonus",
@@ -728,7 +722,6 @@ export const DE = {
     SteamAutoCloudBackupFailed: "Steam Cloud Auto Backup fehlgeschlagen: %{error}",
     SteamManualBackup: "Steam Cloud Sync erzwingen",
     UILoading: "Laden...",
-    UserAuthenticated: "Sie sind authentifiziert",
     BuildingResourceBreakdown: "Aufschlüsselung des Leerlaufbetrags",
     SortByDeficit: "Defizit",
     SortByRunOut: "Läuft aus",
@@ -808,8 +801,6 @@ export const DE = {
     MusicProducer: "Musikproduzent",
     PlasticFiber: "Kunststofffaser",
     PlasticFiberDesc: "Glasfaserfabriken verwenden 50% mehr Kunststoff, aber 50% weniger Glas",
-    NewsEffectx2: "Pressekonferenz",
-    NewsEffectx2Desc: "Der Effekt von Marktnachrichten verdoppelt sich sowohl positiv als auch negativ",
     SellRefundPercentage: "Rückerstattung verkaufen / herabstufen",
     SellRefundPercentageDesc:
         "Wenn Sie ein Gebäude verkaufen oder herabstufen, ist dies der Prozentsatz an Bargeld und Ressourcen, den Sie erstattet bekommen",
@@ -1431,8 +1422,6 @@ export const DE = {
     AccountLimited: "Limited Account",
     AntiCheatPass: "Anti-Cheat Pass",
     AntiCheatFail: "Anti-Cheat Fail",
-    AccountLimitedDesc: "Your Steam account fails to satisfy platform requirement",
-    AccountLimitedAction: "Read Steam Support Article",
     AchievementIstanbul100: "Leo the Great",
     AchievementIstanbul100Desc: "Earn 100 Swiss Money in Istanbul in a single run",
     AchievementIstanbul500: "Justinian the Great",
@@ -1485,14 +1474,57 @@ export const DE = {
     IndustryZoneHelp: "Wie funktionieren Industriezonen?",
     IndustryZoneProductivityBoost: "Industriezonen Plus",
     ExtraBuildingPermit: "Zusätzliche Baugenehmigungen",
-    ExtraBuildingPermitDesc: "Füge zusätzliche Baugenehmigungen zur aktuellen Karte - Dies wird nicht die Kostenkurve erhöhen",
+    ExtraBuildingPermitDesc:
+        "Füge zusätzliche Baugenehmigungen zur aktuellen Karte - Dies wird nicht die Kostenkurve erhöhen",
     PanelPositionDescV2:
         "Zeige das Seiten-Fenster links, rechts oder automatisch (hängt von der selektierten Zelle ab). Funktioniert nur im Landscape-Modus",
     PanelHeight: "Panel Höhe",
-    PanelHeightDesc: "Wähle die Höhe des Fensters. Funktioniert nur im Porträt-Modus auf mobilen Geräten. NEULADEN ERFORDERLICH",
+    PanelHeightDesc:
+        "Wähle die Höhe des Fensters. Funktioniert nur im Porträt-Modus auf mobilen Geräten. NEULADEN ERFORDERLICH",
     AllowPortraitMode: "Aktiviere Porträt-Modus",
     AllowPortraitModeDesc:
         "Aktiviert Porträt-Modus (Experimentel), der Bildschirm wird gedreht basierend auf den und Sensoren und Einstellungen deines mobilen Gerätes",
     IndustryZoneProductivityBoostDesc:
         "Jedes Tier oder alle 10 Level einer Industriezone erzeugen einen 10% Ausgabeboost an zugehörigen Gebäuden",
+    Auckland: "Auckland",
+    AucklandBonus:
+        "<li>All deposits are found in a New Zealand shaped area at the center of the map</li><li>Unique Building: Hydro Power Plant</li><li>Unique Policy: Mine Booster</li><li>Unique Policy: Electric Fish Pond</li><li>Fish ponds can be built on any tiles</li>",
+    MineBooster: "Mine Booster",
+    MineBoosterDesc:
+        "A working mine provides 100% capacity boost to adjacent mines or factories that consume the deposit",
+    HydroPowerPlant: "Hydro Power Plant",
+    ElectricFishPond: "Electric Fish Pond",
+    ElectricFishPondDesc: "Each working hydro power plant provides 20% capacity boost to all fish ponds on the map",
+    AccountLimitedDescV2: "Your account fails to satisfy platform requirement",
+    AccountLimitedActionV2: "Read FAQ on Limited Account",
+    CropOutputx2: "Modern Fertilizer",
+    CropOutputx2Desc: "Farmlands and greenhouses produce 2x crops but crop transport costs 2x fuel",
+    MeatProductionx2: "Livestock Steroid",
+    MeatProductionx2Desc:
+        "Chicken farms, pig farms, cow farms, fish ponds and fodder factories have 2x capacity but uses 2x power",
+    HydroFarming: "Hydro Farming",
+    HydroFarmingDesc: "Each working hydro dam provides 20% capacity boost to all farmlands and greenhouses on the map",
+    ExtraTradeQuota: "Extra Player Trade Quota",
+    ExtraTradeQuotaDesc: "Initial player trade quota is 1% of your market cap - this will grant extra percentage",
+    ProduceAllCrops: "Produce All Crops",
+    ProduceAllCropsDesc: "Farmlands and greenhouses can produce all crops, including the ones that are not on the map",
+    ResearchAgreement: "Research Agreement",
+    ResearchAgreementDesc: "Filling each trade with an unique player gives 10 mins of research point production",
+    NewsEffectx2V2: "Press Conference",
+    NewsEffectx2DescV2: "All market news are 50% more effective",
+    PlayerTradeQuotaPenaltyWarning:
+        "Your trading value with this player exceeds 1% of your market cap and the price of this trade differs too much from your local price. Filling this trade requires extra trading quota",
+    AutoSellCapacityMultiplierV2: "Extra Auto Sell Capacity",
+    AutoSellCapacityMultiplierDescV2: "This will give extra auto sell capacity on top of your existing capacity",
+    AutoSellCapacity: "automatische Verkaufsmenge",
+    AutoSellCapacityDescV2:
+        "Max amount of resources auto sell can handle per second, per resource, measured as the percentage of your total production of that resource",
+    AutoSellCapacityExtraPercentageFromSwiss: "Extra Percentage from Swiss Upgrade and Boost: %{n}%",
+    PlayerTradeHideExtraQuotaTrades: "Hide trades that require extra quota",
+    AchievementAuckland100: "Hoiho",
+    AchievementAuckland100Desc: "Earn 100 Swiss Money in Auckland in a single run",
+    AchievementAuckland500: "Whio",
+    AchievementAuckland500Desc: "Earn 500 Swiss Money in Auckland in a single run",
+    AchievementAuckland1000: "Kiwi",
+    AchievementAuckland1000Desc: "Earn 1000 Swiss Money in Auckland in a single run",
 };

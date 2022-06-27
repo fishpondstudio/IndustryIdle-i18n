@@ -195,10 +195,6 @@ export const FR = {
     MaxInputDistance: "Distance d'entrée maximale",
     MaxInputDistanceDesc:
         "La distance maximale à partir de laquelle ce bâtiment peut récupérer les ressources d'entrée, mesurée en nombre de tuiles",
-    AutoSellCapacity: "Capacité de vente automatique",
-    AutoSellCapacityDesc:
-        "Quantité maximale de ressources que la vente automatique peut gérer par seconde et par ressource",
-    CurrentAutoSellCapacityMultiplier: "Multiplicateur actuel: x%{n}",
     AutoSellConcurrency: "Nombre de vente automatique",
     AutoSellConcurrencyDesc: "Nombre maximum de ressources que la vente automatique peut gérer en même temps",
     MaxAutoSellConcurrencyReached:
@@ -469,9 +465,6 @@ export const FR = {
         "Une augmentation de la capacité de production de tous vos bâtiments (y compris les mines, les usines, les centrales électriques, les bâtiments scientifiques et culturels)",
     FuelCostDiscount: "Remise sur le prix du carburant",
     FuelCostDiscountDesc: "Donne une réduction sur le coût du carburant lors du transport des ressources",
-    AutoSellCapacityMultiplier: "Multiplicateur de capacité de vente automatique",
-    AutoSellCapacityMultiplierDesc:
-        "Un multiplicateur qui est appliqué à votre capacité de vente quelle que soit la capacité actuelle",
     BuildingPermitCostDivider: "Diviseur des coûts de permis de construire",
     BuildingPermitCostDividerDesc: "Divisez le coût du permis de construire par ce diviseur",
     ExtraAdjacentBonus: "Bonus supplémentaire adjacent",
@@ -737,7 +730,6 @@ export const FR = {
     SteamAutoCloudBackupFailed: "Échec de la sauvegarde automatique de Steam Cloud: %{error}",
     SteamManualBackup: "Forcer la synchronisation de Steam Cloud",
     UILoading: "Chargement...",
-    UserAuthenticated: "Vous êtes authentifié",
     BuildingResourceBreakdown: "Idle Amount Breakdown",
     SortByDeficit: "Déficit",
     SortByRunOut: "Run Out",
@@ -818,8 +810,6 @@ export const FR = {
     MusicProducer: "Producteur de musique",
     PlasticFiber: "Fibre plastique",
     PlasticFiberDesc: "Les usines de fibres utilisent 50 % de plastique en plus, mais 50 % de verre en moins.",
-    NewsEffectx2: "Conférence de presse",
-    NewsEffectx2Desc: "L'effet des nouvelles du marché double, tant positif que négatif",
     SellRefundPercentage: "Remboursement de la vente/rétrogradation",
     SellRefundPercentageDesc:
         "Si vous vendez ou déclassez un bâtiment, voici le pourcentage d'argent et de ressources qui vous est remboursé",
@@ -1431,8 +1421,6 @@ export const FR = {
     AccountLimited: "Limited Account",
     AntiCheatPass: "Anti-Cheat Pass",
     AntiCheatFail: "Anti-Cheat Fail",
-    AccountLimitedDesc: "Your Steam account fails to satisfy platform requirement",
-    AccountLimitedAction: "Read Steam Support Article",
     AchievementIstanbul100: "Leo the Great",
     AchievementIstanbul100Desc: "Earn 100 Swiss Money in Istanbul in a single run",
     AchievementIstanbul500: "Justinian the Great",
@@ -1495,4 +1483,45 @@ export const FR = {
         "This will enable portrait mode (experimental), the screen will rotate based on your phone's sensor and settings",
     IndustryZoneProductivityBoostDesc:
         "Every tier or every 10 level of an Industry Zone provide 10% output boost to buildings in it",
+    Auckland: "Auckland",
+    AucklandBonus:
+        "<li>All deposits are found in a New Zealand shaped area at the center of the map</li><li>Unique Building: Hydro Power Plant</li><li>Unique Policy: Mine Booster</li><li>Unique Policy: Electric Fish Pond</li><li>Fish ponds can be built on any tiles</li>",
+    MineBooster: "Mine Booster",
+    MineBoosterDesc:
+        "A working mine provides 100% capacity boost to adjacent mines or factories that consume the deposit",
+    HydroPowerPlant: "Hydro Power Plant",
+    ElectricFishPond: "Electric Fish Pond",
+    ElectricFishPondDesc: "Each working hydro power plant provides 20% capacity boost to all fish ponds on the map",
+    AccountLimitedDescV2: "Your account fails to satisfy platform requirement",
+    AccountLimitedActionV2: "Read FAQ on Limited Account",
+    CropOutputx2: "Modern Fertilizer",
+    CropOutputx2Desc: "Farmlands and greenhouses produce 2x crops but crop transport costs 2x fuel",
+    MeatProductionx2: "Livestock Steroid",
+    MeatProductionx2Desc:
+        "Chicken farms, pig farms, cow farms, fish ponds and fodder factories have 2x capacity but uses 2x power",
+    HydroFarming: "Hydro Farming",
+    HydroFarmingDesc: "Each working hydro dam provides 20% capacity boost to all farmlands and greenhouses on the map",
+    ExtraTradeQuota: "Extra Player Trade Quota",
+    ExtraTradeQuotaDesc: "Initial player trade quota is 1% of your market cap - this will grant extra percentage",
+    ProduceAllCrops: "Produce All Crops",
+    ProduceAllCropsDesc: "Farmlands and greenhouses can produce all crops, including the ones that are not on the map",
+    ResearchAgreement: "Research Agreement",
+    ResearchAgreementDesc: "Filling each trade with an unique player gives 10 mins of research point production",
+    NewsEffectx2V2: "Press Conference",
+    NewsEffectx2DescV2: "All market news are 50% more effective",
+    PlayerTradeQuotaPenaltyWarning:
+        "Your trading value with this player exceeds 1% of your market cap and the price of this trade differs too much from your local price. Filling this trade requires extra trading quota",
+    AutoSellCapacityMultiplierV2: "Extra Auto Sell Capacity",
+    AutoSellCapacityMultiplierDescV2: "This will give extra auto sell capacity on top of your existing capacity",
+    AutoSellCapacity: "Capacité de vente automatique",
+    AutoSellCapacityDescV2:
+        "Max amount of resources auto sell can handle per second, per resource, measured as the percentage of your total production of that resource",
+    AutoSellCapacityExtraPercentageFromSwiss: "Extra Percentage from Swiss Upgrade and Boost: %{n}%",
+    PlayerTradeHideExtraQuotaTrades: "Hide trades that require extra quota",
+    AchievementAuckland100: "Hoiho",
+    AchievementAuckland100Desc: "Earn 100 Swiss Money in Auckland in a single run",
+    AchievementAuckland500: "Whio",
+    AchievementAuckland500Desc: "Earn 500 Swiss Money in Auckland in a single run",
+    AchievementAuckland1000: "Kiwi",
+    AchievementAuckland1000Desc: "Earn 1000 Swiss Money in Auckland in a single run",
 };
