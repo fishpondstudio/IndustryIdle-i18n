@@ -1382,16 +1382,13 @@ export const ZH_TW = {
     PanelHeight: "面板高度",
     PanelHeightDesc: "選擇面板的高度。 僅在移動設備上以直向模式工作。 需要重新加載",
     AllowPortraitMode: "啟用直向模式",
-    AllowPortraitModeDesc:
-        "這將啟用直向模式（實驗性），畫面將根據手機的傳感器和設置旋轉",
-    IndustryZoneProductivityBoostDesc:
-        "工業區的每層或每10等級都會為其中的建築物提供 10% 的產出提升",
+    AllowPortraitModeDesc: "這將啟用直向模式（實驗性），畫面將根據手機的傳感器和設置旋轉",
+    IndustryZoneProductivityBoostDesc: "工業區的每層或每10等級都會為其中的建築物提供 10% 的產出提升",
     Auckland: "奧克蘭(Auckland)",
     AucklandBonus:
         "<li>新西蘭所有礦場所有礦場都位於地圖中心區域</li><li>獨特建築:水力發電廠</li><li>獨特的政策:礦場加速器</li><li>獨特政策:電動魚池</li><li>魚池可以建在任何瓷磚上</li>",
     MineBooster: "礦場加速器",
-    MineBoosterDesc:
-        "一個工作中的礦山為消耗礦床的相鄰礦山或工廠提供 100% 的產能提升",
+    MineBoosterDesc: "一個工作中的礦山為消耗礦床的相鄰礦山或工廠提供 100% 的產能提升",
     HydroPowerPlant: "水力發電廠",
     ElectricFishPond: "電動魚池",
     ElectricFishPondDesc: "每個正在運行的水力發電廠為地圖上的所有魚塘提供 20% 的容量提升",
@@ -1400,8 +1397,7 @@ export const ZH_TW = {
     CropOutputx2: "現代肥料",
     CropOutputx2Desc: "農田和溫室生產2倍作物，但作物運輸成本2倍燃料",
     MeatProductionx2: "Livestock Steroid",
-    MeatProductionx2Desc:
-        "養雞場、養豬場、養牛場、魚塘和飼料廠的產能是2倍，但耗電量是2倍",
+    MeatProductionx2Desc: "養雞場、養豬場、養牛場、魚塘和飼料廠的產能是2倍，但耗電量是2倍",
     HydroFarming: "Hydro Farming",
     HydroFarmingDesc: "每個工作中的水壩為地圖上的所有農田和溫室提供 20% 的容量提升",
     ExtraTradeQuota: "額外玩家交易配額",
@@ -1417,8 +1413,7 @@ export const ZH_TW = {
     AutoSellCapacityMultiplierV2: "額外的自動銷售能力",
     AutoSellCapacityMultiplierDescV2: "這將在您現有容量的基礎上提供額外的自動銷售容量",
     AutoSellCapacity: "自動銷售數量",
-    AutoSellCapacityDescV2:
-        "每種資源每秒自動銷售可以處理的最大資源量，以佔該資源總產量的百分比來衡量",
+    AutoSellCapacityDescV2: "每種資源每秒自動銷售可以處理的最大資源量，以佔該資源總產量的百分比來衡量",
     AutoSellCapacityExtraPercentageFromSwiss: "瑞士升級和加速的額外百分比: %{n}%",
     PlayerTradeHideExtraQuotaTrades: "隱藏需要額外報價的交易",
     AchievementAuckland100: "Hoiho",

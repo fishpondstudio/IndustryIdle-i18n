@@ -1488,31 +1488,38 @@ export const PT_BR = {
         "Uma mina em funcionamento fornece 100% de aumento de capacidade para minas ou fábricas adjacentes que consomem o depósito",
     HydroPowerPlant: "Usina hidrelétrica",
     ElectricFishPond: "Lago de Peixes Elétrico",
-    ElectricFishPondDesc: "Cada usina hidrelétrica em funcionamento fornece 20% de aumento de capacidade para todos os tanques de peixes no mapa",
+    ElectricFishPondDesc:
+        "Cada usina hidrelétrica em funcionamento fornece 20% de aumento de capacidade para todos os tanques de peixes no mapa",
     AccountLimitedDescV2: "Sua conta não atende aos requisitos da plataforma",
     AccountLimitedActionV2: "Leia as 'perguntas frequentes' sobre a conta limitada",
     CropOutputx2: "Fertilizante Moderno",
-    CropOutputx2Desc: "Terras agrícolas e estufas produzem 2x colheitas, mas o transporte de colheitas custa 2x combustível",
+    CropOutputx2Desc:
+        "Terras agrícolas e estufas produzem 2x colheitas, mas o transporte de colheitas custa 2x combustível",
     MeatProductionx2: "Esteróide de gado",
-    MeatProductionx2Desc: "Fazendas de frangos, fazendas de porcos, fazendas de vacas, tanques de peixes e fábricas de forragem têm 2x de capacidade, mas usam 2x de energia",
+    MeatProductionx2Desc:
+        "Fazendas de frangos, fazendas de porcos, fazendas de vacas, tanques de peixes e fábricas de forragem têm 2x de capacidade, mas usam 2x de energia",
     HydroFarming: "Hidroagricultura",
-    HydroFarmingDesc: "Cada barragem hidrelétrica em funcionamento fornece 20% de aumento de capacidade para todas as terras agrícolas e estufas no mapa",
+    HydroFarmingDesc:
+        "Cada barragem hidrelétrica em funcionamento fornece 20% de aumento de capacidade para todas as terras agrícolas e estufas no mapa",
     ExtraTradeQuota: "Cota de negociação de jogador extra",
-    ExtraTradeQuotaDesc: "A cota inicial de negociação do jogador é de 1% do seu valor de mercado - isso concederá uma porcentagem extra",
+    ExtraTradeQuotaDesc:
+        "A cota inicial de negociação do jogador é de 1% do seu valor de mercado - isso concederá uma porcentagem extra",
     ProduceAllCrops: "Produzir todas as colheitas",
-    ProduceAllCropsDesc: "Terras agrícolas e estufas podem produzir todas as culturas, incluindo as que não estão no mapa",
+    ProduceAllCropsDesc:
+        "Terras agrícolas e estufas podem produzir todas as culturas, incluindo as que não estão no mapa",
     ResearchAgreement: "Contrato de Pesquisa",
-    ResearchAgreementDesc: "Preencher cada negociação com um jogador único dá 10 minutos de produção de pontos de pesquisa",
+    ResearchAgreementDesc:
+        "Preencher cada negociação com um jogador único dá 10 minutos de produção de pontos de pesquisa",
     NewsEffectx2V2: "Conferência de imprensa",
     NewsEffectx2DescV2: "Todas as notícias do mercado são 50% mais eficazes",
-    PlayerTradeQuotaPenaltyWarning: "Seu valor de negociação com este jogador excede 1% do seu valor de mercado e o preço desta negociação difere muito do seu preço local. Preencher esta negociação requer cota de negociação extra",
+    PlayerTradeQuotaPenaltyWarning:
+        "Seu valor de negociação com este jogador excede 1% do seu valor de mercado e o preço desta negociação difere muito do seu preço local. Preencher esta negociação requer cota de negociação extra",
     AutoSellCapacityMultiplierV2: "Capacidade extra de venda automática",
-    AutoSellCapacityMultiplierDescV2: "Isso fornecerá capacidade extra de venda automática além da capacidade existente",
+    AutoSellCapacityMultiplierDescV2:
+        "Isso fornecerá capacidade extra de venda automática além da capacidade existente",
     AutoSellCapacity: "Capacidade de Venda Automática",
-    AutoSellCapacityDescV2: "Quantidade máxima de recursos que a venda automática pode processar por segundo, por recurso, medida como a porcentagem de sua produção total desse recurso",
-    AutoSellCapacityExtraPercentageFromSwiss: "Porcentagem extra de upgrade e reforço suíços: %{n}%",
-    PlayerTradeHideExtraQuotaTrades: "Ocultar negociações que exigem cota extra",
-    AutoSellCapacityDescV2: "Quantidade máxima de recursos que a venda automática pode processar por segundo, por recurso, medida como a porcentagem de sua produção total desse recurso",
+    AutoSellCapacityDescV2:
+        "Quantidade máxima de recursos que a venda automática pode processar por segundo, por recurso, medida como a porcentagem de sua produção total desse recurso",
     AutoSellCapacityExtraPercentageFromSwiss: "Porcentagem extra de upgrade e reforço suíços: %{n}%",
     PlayerTradeHideExtraQuotaTrades: "Ocultar negociações que exigem cota extra",
     AchievementAuckland100: "Hoiho",

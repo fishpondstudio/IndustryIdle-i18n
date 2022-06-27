@@ -1493,18 +1493,42 @@ export const IT = {
         "Una miniera funzionante provvede il 100% di boost alle miniere o fabbriche adiacenti che consumano lo stesso deposito",
     HydroPowerPlant: "Centrale idroelettrica",
     ElectricFishPond: "Stagni elettrificati",
-    ElectricFishPondDesc: "Ogni centrale idroelettrica provvede il 20% di capacità in più a tutti gli stagni nella mappa",
+    ElectricFishPondDesc:
+        "Ogni centrale idroelettrica provvede il 20% di capacità in più a tutti gli stagni nella mappa",
     AccountLimitedDescV2: "Il tuo account non soddisfa i requisiti della piattaforma",
     AccountLimitedActionV2: "Leggi le domande più comuni sugli account limitati",
     CropOutputx2: "Fertilizzante moderno",
-    CropOutputx2Desc: "Terreni agricoli e serre producono il doppio del raccolto, ma il costo del trasporto costa il doppio",
+    CropOutputx2Desc:
+        "Terreni agricoli e serre producono il doppio del raccolto, ma il costo del trasporto costa il doppio",
     MeatProductionx2: "Steroidi per il bestiame",
     MeatProductionx2Desc:
         "Le fattorie di polli, di maiali, e di mucche, gli stagni e le fabbriche di cibo hanno il doppio della capacità ma usano il doppio dell'energia",
     HydroFarming: "Agricoltura idrica",
-    HydroFarmingDesc: "Ogni diga funzionante provvede il 20% di capacità un più a tutti i terreni coltivabili sulla mappa",
+    HydroFarmingDesc:
+        "Ogni diga funzionante provvede il 20% di capacità un più a tutti i terreni coltivabili sulla mappa",
     ExtraTradeQuota: "Quota di scambio extra",
-    ExtraTradeQuotaDesc: "La quota di scambio giocatore è l'1% della tua capitalizzazione di mercato. questo garantirà una percentuale maggiore",
+    ExtraTradeQuotaDesc:
+        "La quota di scambio giocatore è l'1% della tua capitalizzazione di mercato. questo garantirà una percentuale maggiore",
     ProduceAllCrops: "Produci tutt i raccolti",
-    ProduceAllCropsDesc: "Terreni coltivabili e serre possono produrre ogni tipo di raccolto, anche quelli che non sono presenti sulla mappa",
+    ProduceAllCropsDesc:
+        "Terreni coltivabili e serre possono produrre ogni tipo di raccolto, anche quelli che non sono presenti sulla mappa",
+    ResearchAgreement: "Research Agreement",
+    ResearchAgreementDesc: "Filling each trade with an unique player gives 10 mins of research point production",
+    NewsEffectx2V2: "Press Conference",
+    NewsEffectx2DescV2: "All market news are 50% more effective",
+    PlayerTradeQuotaPenaltyWarning:
+        "Your trading value with this player exceeds 1% of your market cap and the price of this trade differs too much from your local price. Filling this trade requires extra trading quota",
+    AutoSellCapacityMultiplierV2: "Extra Auto Sell Capacity",
+    AutoSellCapacityMultiplierDescV2: "This will give extra auto sell capacity on top of your existing capacity",
+    AutoSellCapacity: "Auto Sell Capacity",
+    AutoSellCapacityDescV2:
+        "Max amount of resources auto sell can handle per second, per resource, measured as the percentage of your total production of that resource",
+    AutoSellCapacityExtraPercentageFromSwiss: "Extra Percentage from Swiss Upgrade and Boost: %{n}%",
+    PlayerTradeHideExtraQuotaTrades: "Hide trades that require extra quota",
+    AchievementAuckland100: "Hoiho",
+    AchievementAuckland100Desc: "Earn 100 Swiss Money in Auckland in a single run",
+    AchievementAuckland500: "Whio",
+    AchievementAuckland500Desc: "Earn 500 Swiss Money in Auckland in a single run",
+    AchievementAuckland1000: "Kiwi",
+    AchievementAuckland1000Desc: "Earn 1000 Swiss Money in Auckland in a single run",
 };

@@ -1322,8 +1322,6 @@ export const ZH_CN = {
     AccountLimited: "受限帐户",
     AntiCheatPass: "已通过反作弊检测",
     AntiCheatFail: "未能通过反作弊检测",
-    AccountLimitedDesc: "你的Steam帐户被限制或无法满足平台要求",
-    AccountLimitedAction: "阅读Steam技术支持文档",
     AchievementIstanbul100: "Leo the Great",
     AchievementIstanbul100Desc: "在伊斯坦布尔第一次赚取100瑞士币",
     AchievementIstanbul500: "Justinian the Great",
@@ -1377,15 +1375,12 @@ export const ZH_CN = {
     IndustryZoneProductivityBoost: "工业区+",
     ExtraBuildingPermit: "额外建筑许可证",
     ExtraBuildingPermitDesc: "在当前地图上添加额外的建筑许可证——这不会增加成本",
-    PanelPositionDescV2:
-        "在左边、右边或自动显示侧板（取决于当前选定的地块）。只在横向模式下工作",
+    PanelPositionDescV2: "在左边、右边或自动显示侧板（取决于当前选定的地块）。只在横向模式下工作",
     PanelHeight: "面板高度",
     PanelHeightDesc: "选择面板的高度。只在移动设备上的竖屏模式下工作（需要重新加载）",
     AllowPortraitMode: "启用竖屏模式",
-    AllowPortraitModeDesc:
-        "如果启用竖屏模式，屏幕将根据手机的传感器和设置旋转（实验性功能）",
-    IndustryZoneProductivityBoostDesc:
-        "工业区的每层或每10等级都会为其中的建筑提供10%的产出提升",
+    AllowPortraitModeDesc: "如果启用竖屏模式，屏幕将根据手机的传感器和设置旋转（实验性功能）",
+    IndustryZoneProductivityBoostDesc: "工业区的每层或每10等级都会为其中的建筑提供10%的产出提升",
     Auckland: "Auckland",
     AucklandBonus:
         "<li>All deposits are found in a New Zealand shaped area at the center of the map</li><li>独特建筑:水力发电厂</li><li>独特的政策:矿场加速器</li><li>独特政策:电动鱼池</li><li>鱼池可以建在任何瓷砖上</li>",
@@ -1417,8 +1412,7 @@ export const ZH_CN = {
     AutoSellCapacityMultiplierV2: "额外的自动销售能力",
     AutoSellCapacityMultiplierDescV2: "这将在您现有容量的基础上提供额外的自动销售容量",
     AutoSellCapacity: "自动销售数量",
-    AutoSellCapacityDescV2:
-        "每种资源每秒自动销售可以处理的最大资源量，以占该资源总产量的百分比来衡量",
+    AutoSellCapacityDescV2: "每种资源每秒自动销售可以处理的最大资源量，以占该资源总产量的百分比来衡量",
     AutoSellCapacityExtraPercentageFromSwiss: "瑞士升级和加速的额外百分比: %{n}%",
     PlayerTradeHideExtraQuotaTrades: "隱藏需要額外報價的交易",
     AchievementAuckland100: "Hoiho",

@@ -120,10 +120,8 @@ export const ES = {
     CarFactory: "Fábrica de automóviles",
     Ship: "Barco",
     SolarPanel: "Panel solar",
-    SolarPanelDesc:
-        "💡 Los paneles solares solo funcionan 5 de cada 10 segundos - todos los ciclos están alineados",
-    WindTurbineDesc:
-        "💡 Las turbinas eólicas solo funcionan 8 de cada 10 segundos - los ciclos no están alineados",
+    SolarPanelDesc: "💡 Los paneles solares solo funcionan 5 de cada 10 segundos - todos los ciclos están alineados",
+    WindTurbineDesc: "💡 Las turbinas eólicas solo funcionan 8 de cada 10 segundos - los ciclos no están alineados",
     Movie: "Película",
     MovieStudio: "Estudio de cine",
     Sitcom: "Comedia de enredo",
@@ -195,9 +193,6 @@ export const ES = {
     MaxInputDistance: "Distancia máxima de entrada",
     MaxInputDistanceDesc:
         "La distancia máxima de la que este edificio puede obtener recursos de entrada, medida en número de mosaicos",
-    AutoSellCapacity: "Capacidad de autoventa",
-    AutoSellCapacityDesc: "Cantidad máxima de recursos que la venta automática puede manejar por segundo, por recurso",
-    CurrentAutoSellCapacityMultiplier: "Multiplicador actual: x%{n}",
     AutoSellConcurrency: "Autoventa concurrente",
     AutoSellConcurrencyDesc: "Número máximo de recursos que la venta automática puede gestionar simultáneamente",
     MaxAutoSellConcurrencyReached:
@@ -291,8 +286,7 @@ export const ES = {
     InputStrategyFar: "Más lejos",
     InputStrategyFarDesc: "Prefiere el almacén más lejano que tenga suficientes recursos.",
     InputStrategyAmount: "Cantidad",
-    InputStrategyAmountDesc:
-        "Prefiere el almacén con la mayor cantidad de recursos sin importar la distancia.",
+    InputStrategyAmountDesc: "Prefiere el almacén con la mayor cantidad de recursos sin importar la distancia.",
     FuelCostSave: "Ahorro de costes de combustible",
     FuelCostSaveDescV2:
         "Los almacenes ahorran un porcentaje de combustible en el transporte de recursos en comparación con otros edificios. Cuanto más alto sea el nivel mayor es el ahorro",
@@ -349,7 +343,8 @@ export const ES = {
     CostSaverDesc: "Si los gastos de un edificio cuestan más que su producción, cierre la producción",
     CostSaverBuildingDesc:
         "La directiva de ahorro de costes está activa, la producción se activará o desactivará automáticamente en función de su rentabilidad",
-    CostSaverBuildingWarning: "La directiva de ahorro de costos está activa, no puedes cambiar la producción manualmente",
+    CostSaverBuildingWarning:
+        "La directiva de ahorro de costos está activa, no puedes cambiar la producción manualmente",
     GlassUseCoal: "Vidrio negro",
     GlassUseCoalDesc: "Las fábricas de vidrio utilizan un 50% más de carbón y un 50% menos de silicio",
     AdjacentBonusOnlyOutput: "Bono de adyacencia Plus",
@@ -1487,7 +1482,8 @@ export const ES = {
     HydroFarming: "Hydro Farming",
     HydroFarmingDesc: "Each working hydro dam provides 20% capacity boost to all farmlands and greenhouses on the map",
     ExtraTradeQuota: "Cuota de comercio adicional",
-    ExtraTradeQuotaDesc: "La cuota de comercio inicial del jugador es el 1% de tu capacidad bursátil - esto garantiza un porcentaje adicional",
+    ExtraTradeQuotaDesc:
+        "La cuota de comercio inicial del jugador es el 1% de tu capacidad bursátil - esto garantiza un porcentaje adicional",
     ProduceAllCrops: "Produce All Crops",
     ProduceAllCropsDesc: "Farmlands and greenhouses can produce all crops, including the ones that are not on the map",
     ResearchAgreement: "Research Agreement",
