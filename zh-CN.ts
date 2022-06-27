@@ -1419,4 +1419,10 @@ export const ZH_CN = {
         "每种资源每秒自动销售可以处理的最大资源量，以占该资源总产量的百分比来衡量",
     AutoSellCapacityExtraPercentageFromSwiss: "瑞士升级和加速的额外百分比: %{n}%",
     PlayerTradeHideExtraQuotaTrades: "隱藏需要額外報價的交易",
+    AchievementAuckland100: "Hoiho",
+    AchievementAuckland100Desc: "单次在奥克兰赚取100瑞士货币",
+    AchievementAuckland500: "Whio",
+    AchievementAuckland500Desc: "单次在奥克兰赚取500瑞士货币",
+    AchievementAuckland1000: "Kiwi",
+    AchievementAuckland1000Desc: "单次在奥克兰赚取1000瑞士货币",
 };
