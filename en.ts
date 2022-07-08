@@ -538,7 +538,7 @@ export const EN = {
     CoalMine2xOutput: "Industrial Revolution",
     CoalMine2xOutputDesc: "Coal mines produce 2x coal but use 50% more power and coal transport costs 50% more fuel",
     AlMine2xOutput: "Aluminum Smelting",
-    AlMine2xOutputDesc: "Aluminum mines produce 2x aluminum and use 2x more power",
+    AlMine2xOutputDesc: "Aluminum mines produce 2x aluminum and use 2x power",
     LoggingCamp2xOutput: "Deforestation",
     LoggingCamp2xOutputDesc: "Logging camps produce 2x wood and wood transport costs 2x fuel",
     PowerBankLeft: "Power Bank",
