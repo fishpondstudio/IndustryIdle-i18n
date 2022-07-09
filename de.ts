@@ -1247,8 +1247,8 @@ export const DE = {
     SausageFactory: "Metzgerei",
     Sausage: "Wurst",
     Hotdog: "Hotdog",
-    BatchOperationDesc: "Das wird auf %{number} Gebäude angewandt. Ausführen?",
-    BatchOperationResult: "Der Batchbefehl wurde erfolgreich für %{success} Gebäude ausgeführt",
+    BatchOperationDesc: "Das wird auf %{number} Gebäude angewandt. Die vorraussichtlichen Baukosten belaufen sich auf $%{cost}. Möchtest du fortfahren?",
+    BatchOperationResult: "Der Bau wurde für %{success} Gebäude erfolgreich ausgeführt",
     StreamingMakeMeDiscoverable: "Mach mich entdeckbar",
     StreamingMakeMeDiscoverableDesc:
         "Erlaube es anderen Spielern deinem Spiel zuzuschauen. Die Verbindung basiert auf P2P und ist wird nur das Gameplay gestreamt. Es wird weder auf Mikrofon nocht Kamer zugegriffen",
