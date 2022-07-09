@@ -1528,4 +1528,7 @@ export const PT_BR = {
     AchievementAuckland500Desc: "Ganhe 500 dinheiros suíços em Auckland em uma única corrida",
     AchievementAuckland1000: "Kiwi",
     AchievementAuckland1000Desc: "Ganhe 1000 dinheiros suíços em Auckland em uma única corrida",
+    ExternalManageYourSave: "Import And Export Your Save",
+    ExternalManageYourSaveDesc:
+        "Due to technical limitation, Importing and exporting your save must be done from the game's official website",
 };

@@ -1422,4 +1422,7 @@ export const ZH_TW = {
     AchievementAuckland500Desc: "單次在奧克蘭賺取500瑞士貨幣",
     AchievementAuckland1000: "Kiwi",
     AchievementAuckland1000Desc: "單次在奧克蘭賺取1000瑞士貨幣",
+    ExternalManageYourSave: "Import And Export Your Save",
+    ExternalManageYourSaveDesc:
+        "Due to technical limitation, Importing and exporting your save must be done from the game's official website",
 };

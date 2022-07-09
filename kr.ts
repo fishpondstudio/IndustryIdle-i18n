@@ -1467,4 +1467,7 @@ export const KR = {
     AchievementAuckland500Desc: "Earn 500 Swiss Money in Auckland in a single run",
     AchievementAuckland1000: "Kiwi",
     AchievementAuckland1000Desc: "Earn 1000 Swiss Money in Auckland in a single run",
+    ExternalManageYourSave: "Import And Export Your Save",
+    ExternalManageYourSaveDesc:
+        "Due to technical limitation, Importing and exporting your save must be done from the game's official website",
 };
