@@ -1247,7 +1247,8 @@ export const DE = {
     SausageFactory: "Metzgerei",
     Sausage: "Wurst",
     Hotdog: "Hotdog",
-    BatchOperationDesc: "Das wird auf %{number} Gebäude angewandt. Die vorraussichtlichen Baukosten belaufen sich auf $%{cost}. Möchtest du fortfahren?",
+    BatchOperationDesc:
+        "Das wird auf %{number} Gebäude angewandt. Die vorraussichtlichen Baukosten belaufen sich auf $%{cost}. Möchtest du fortfahren?",
     BatchOperationResult: "Der Bau wurde für %{success} Gebäude erfolgreich ausgeführt",
     StreamingMakeMeDiscoverable: "Mach mich entdeckbar",
     StreamingMakeMeDiscoverableDesc:
