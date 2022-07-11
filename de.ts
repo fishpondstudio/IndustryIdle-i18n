@@ -1532,4 +1532,5 @@ export const DE = {
     ExternalManageYourSave: "Import And Export Your Save",
     ExternalManageYourSaveDesc:
         "Due to technical limitation, Importing and exporting your save must be done from the game's official website",
+    MREPlant: "Meal, Ready-To-Eat Plant",
 };
