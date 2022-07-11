@@ -1529,8 +1529,8 @@ export const RU = {
     AchievementAuckland500Desc: "Заработайте 500 кредитов в Окленде за одну сессию",
     AchievementAuckland1000: "Киви",
     AchievementAuckland1000Desc: "Заработайте 1000 кредитов в Окленде за одну сессию",
-    ExternalManageYourSave: "Import And Export Your Save",
+    ExternalManageYourSave: "Импорт и экспорт ваших сохранений",
     ExternalManageYourSaveDesc:
-        "Due to technical limitation, Importing and exporting your save must be done from the game's official website",
-    MREPlant: "Meal, Ready-To-Eat Plant",
+        "В связи с техническими ограничениями, импорт и экспорт ваших сохранений должен осуществляться с официального сайта игры",
+    MREPlant: "Завод блюд, готовых к употреблению",
 };
