@@ -496,9 +496,7 @@ export const ZH_TW = {
     ClaimTrade: "領取",
     FailedToImportSave: "無法匯入存檔",
     CancelActiveTradeFirst: "您有進行中的玩家交易，請先取消/領取",
-    PlayerTradeQuotaExceed: "該交易已超過您的配額",
     PlayerTradeValidRange: "範圍：%{min} ~ %{max}",
-    PlayerTradeQuota: "剩餘配額：%{value}",
     PlayerTradeUnavailable: "在與玩家進行交易之前，您需要在生產和儲存中至少有一個資源",
     PlayerTradeToClaim: "您有 %{num} 宗玩家交易待領取",
     PowerBank: "蓄電池",
@@ -601,7 +599,6 @@ export const ZH_TW = {
     FreeTransportToTradeCenterDesc: "運輸到貿易中心不消耗燃料，但從貿易中心運出資源多消耗 50% 燃料",
     TaiChi10xCulture: "東方之珠",
     PlayerTradeYouHave: "庫存：%{amount}",
-    PlayerTradeFillValue: "價值",
     FiberFactory: "光纖工廠",
     Fiber: "光纖",
     Achievements: "成就",
@@ -996,8 +993,6 @@ export const ZH_TW = {
     CrowdfundingBackersNeeded: "還需要 %{backers} 位支持者",
     CrowdfundingReturnBonus: "+%{return} 回報",
     ReturnOnPledgeDescV2: "您獲得的總回報等於總質押價值乘以所有資源的回報率。對於一種資源來說，愈多支持者代表回報愈高",
-    PlayerTradeQuotaDescV2:
-        "💡 配額是您能交易的資源量。貨幣價值等同您市值的 %{percent}，並且在市場更新時重置。您的交易價格偏離您貿易中心的價格愈多，您所需要的配額就愈高",
     AchievementSanJose100: "創業愛好者",
     AchievementSanJose100Desc: "在聖荷西一次性賺取 100 瑞士貨幣",
     AchievementSanJose500: "創業狂熱者",
@@ -1408,14 +1403,11 @@ export const ZH_TW = {
     ResearchAgreementDesc: "每筆獨一無二的玩家交易會產生10分鐘的研究點數",
     NewsEffectx2V2: "新聞發布會(Press Conference)",
     NewsEffectx2DescV2: "所有市場新聞提高50%",
-    PlayerTradeQuotaPenaltyWarning:
-        "您與該玩家的交易價值超過您市值的1%，並且該交易的價格與您當地的價格相差太大。 填寫此交易需要額外的交易配額",
     AutoSellCapacityMultiplierV2: "額外的自動銷售能力",
     AutoSellCapacityMultiplierDescV2: "這將在您現有容量的基礎上提供額外的自動銷售容量",
     AutoSellCapacity: "自動銷售數量",
     AutoSellCapacityDescV2: "每種資源每秒自動銷售可以處理的最大資源量，以佔該資源總產量的百分比來衡量",
     AutoSellCapacityExtraPercentageFromSwiss: "瑞士升級和加速的額外百分比: %{n}%",
-    PlayerTradeHideExtraQuotaTrades: "隱藏需要額外報價的交易",
     AchievementAuckland100: "Hoiho",
     AchievementAuckland100Desc: "單次在奧克蘭賺取100瑞士貨幣",
     AchievementAuckland500: "Whio",
@@ -1426,4 +1418,20 @@ export const ZH_TW = {
     ExternalManageYourSaveDesc:
         "Due to technical limitation, Importing and exporting your save must be done from the game's official website",
     MREPlant: "Meal, Ready-To-Eat Plant",
+    PlayerTradeTaxCreditProduction: "Tax Credit: Production",
+    PlayerTradeTaxCreditProductionDesc:
+        "This tax credit is based on the amount of %{res} you've produced since the last market update. Total credit amount is %{total} and you have used %{used}",
+    PlayerTradeTaxCreditMarketCap: "Tax Credit: Market Cap",
+    PlayerTradeTaxCreditMarketCapDesc:
+        "This tax credit is %{percentage} of your market cap, can be upgraded via Swiss Upgrade/Boost. Total credit amount is %{total} and you have used %{used}",
+    PlayerTradeGrossTradeValue: "Gross Trade Value",
+    PlayerTradeTaxableValue: "Taxable Value",
+    PlayerTradeTaxRate: "Tax Rate",
+    PlayerTradeTaxRateDesc:
+        "Tax rate is based on price difference between your local price and this trade - the tax rate is progressive. 0% ~ 50%: 0.5% for every 1% difference; 50% ~ 75%: 1% for every 1% difference; 75% ~ 100%: 2% for every 1% difference",
+    PlayerTradeTaxPayable: "Tax Payable",
+    PlayerTradeTradeValueAfterTax: "Trade Value After Tax",
+    PlayerTradeShowTaxCalculation: "Show Tax Calculation",
+    PlayerTradeHideTaxCalculation: "Hide Tax Calculation",
+    PlayerTradeMaxTaxCreditValue: "Set Amount to Match Tax Credit",
 };

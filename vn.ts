@@ -514,9 +514,7 @@ export const VN = {
     ClaimTrade: "Kết toán",
     FailedToImportSave: "Đọc dữ liệu sao lưu không thành công",
     CancelActiveTradeFirst: "Bạn có giao dịch đang thực hiện với người chơi khác, xin vui lòng kết toán hoặc hủy chúng",
-    PlayerTradeQuotaExceed: "Giao dịch này vượt quá hạn mức của bạn",
     PlayerTradeValidRange: "Khoảng: %{min} ~ %{max}",
-    PlayerTradeQuota: "Hạn mức còn lại: %{value}",
     PlayerTradeUnavailable:
         "Bạn phải sản xuất tối thiểu 1 tài nguyên và có tồn kho trước khi bạn có thể giao dịch với người chơi khác",
     PlayerTradeToClaim: "Bạn có %{num} giao dịch mới cần kết toán trong Giao dịch với Người chơi",
@@ -627,7 +625,6 @@ export const VN = {
         "Vận chuyển đến kho bãi miễn phí nhưng vận chuyển từ kho bãi tốn thêm 50% nhiên liệu",
     TaiChi10xCulture: "Hòn ngọc Viễn Đông",
     PlayerTradeYouHave: "Trong kho: %{amount}",
-    PlayerTradeFillValue: "Giá trị",
     FiberFactory: "Xưởng cáp quang",
     Fiber: "Cáp quang",
     Achievements: "Thành tựu",
@@ -1046,8 +1043,6 @@ export const VN = {
     CrowdfundingReturnBonus: "+%{return} Return",
     ReturnOnPledgeDescV2:
         "Your total return equals to total pledged value multiplied by return rates from all resources. More backers of a resource will improve its return",
-    PlayerTradeQuotaDescV2:
-        "💡 Quota is the amount of the resource you can trade. The monetary value equals to %{percent} of your market cap and it resets when the market updates. The more your trade's price deviates from your trade center price, the more quota you need",
     AchievementSanJose100: "Venture Hobbyist",
     AchievementSanJose100Desc: "Earn 100 Swiss Money in San Jose in a single run",
     AchievementSanJose500: "Venture Enthusiast",
@@ -1482,15 +1477,12 @@ export const VN = {
     ResearchAgreementDesc: "Filling each trade with an unique player gives 10 mins of research point production",
     NewsEffectx2V2: "Press Conference",
     NewsEffectx2DescV2: "All market news are 50% more effective",
-    PlayerTradeQuotaPenaltyWarning:
-        "Your trading value with this player exceeds 1% of your market cap and the price of this trade differs too much from your local price. Filling this trade requires extra trading quota",
     AutoSellCapacityMultiplierV2: "Extra Auto Sell Capacity",
     AutoSellCapacityMultiplierDescV2: "This will give extra auto sell capacity on top of your existing capacity",
     AutoSellCapacity: "Số lượng Tự động Bán hàng",
     AutoSellCapacityDescV2:
         "Max amount of resources auto sell can handle per second, per resource, measured as the percentage of your total production of that resource",
     AutoSellCapacityExtraPercentageFromSwiss: "Extra Percentage from Swiss Upgrade and Boost: %{n}%",
-    PlayerTradeHideExtraQuotaTrades: "Hide trades that require extra quota",
     AchievementAuckland100: "Hoiho",
     AchievementAuckland100Desc: "Earn 100 Swiss Money in Auckland in a single run",
     AchievementAuckland500: "Whio",
@@ -1501,4 +1493,20 @@ export const VN = {
     ExternalManageYourSaveDesc:
         "Due to technical limitation, Importing and exporting your save must be done from the game's official website",
     MREPlant: "Meal, Ready-To-Eat Plant",
+    PlayerTradeTaxCreditProduction: "Tax Credit: Production",
+    PlayerTradeTaxCreditProductionDesc:
+        "This tax credit is based on the amount of %{res} you've produced since the last market update. Total credit amount is %{total} and you have used %{used}",
+    PlayerTradeTaxCreditMarketCap: "Tax Credit: Market Cap",
+    PlayerTradeTaxCreditMarketCapDesc:
+        "This tax credit is %{percentage} of your market cap, can be upgraded via Swiss Upgrade/Boost. Total credit amount is %{total} and you have used %{used}",
+    PlayerTradeGrossTradeValue: "Gross Trade Value",
+    PlayerTradeTaxableValue: "Taxable Value",
+    PlayerTradeTaxRate: "Tax Rate",
+    PlayerTradeTaxRateDesc:
+        "Tax rate is based on price difference between your local price and this trade - the tax rate is progressive. 0% ~ 50%: 0.5% for every 1% difference; 50% ~ 75%: 1% for every 1% difference; 75% ~ 100%: 2% for every 1% difference",
+    PlayerTradeTaxPayable: "Tax Payable",
+    PlayerTradeTradeValueAfterTax: "Trade Value After Tax",
+    PlayerTradeShowTaxCalculation: "Show Tax Calculation",
+    PlayerTradeHideTaxCalculation: "Hide Tax Calculation",
+    PlayerTradeMaxTaxCreditValue: "Set Amount to Match Tax Credit",
 };

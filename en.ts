@@ -516,9 +516,7 @@ export const EN = {
     ClaimTrade: "Claim",
     FailedToImportSave: "Failed to Import Save",
     CancelActiveTradeFirst: "You have active player trades, please cancel/claim them first",
-    PlayerTradeQuotaExceed: "This trade has exceeded your quota",
     PlayerTradeValidRange: "Range: %{min} ~ %{max}",
-    PlayerTradeQuota: "Quota Left: %{value}",
     PlayerTradeUnavailable:
         "You need to have at least one resource in production and in storage before you can trade with players",
     PlayerTradeToClaim: "You have %{num} new trade(s) to claim in Player Trade",
@@ -624,7 +622,6 @@ export const EN = {
         "Transportation to the Trade Center does not cost fuel but transportation from the Trade Center cost 50% more fuel",
     TaiChi10xCulture: "Pearl of the Orient",
     PlayerTradeYouHave: "In Storage: %{amount}",
-    PlayerTradeFillValue: "Value",
     FiberFactory: "Fiber Factory",
     Fiber: "Fiber",
     Achievements: "Achievements",
@@ -719,7 +716,7 @@ export const EN = {
     ElectricCar: "Nikola Tesla",
     ElectricCarDesc: "Car factories use batteries instead of petrol and only require 50% of the amount",
     HongKongBonusV2:
-        "<li>Unique market pricing algorithm - prices and stock rating follow normal distribution (bell curve)</li><li>Market updates and trade quota resets are twice as frequent (every hour)</li><li>Research can be unlocked via traded resources</li><li>Unique building: Kung-Fu Dojo</li><li>Unique building: Tai-Chi Dojo</li><li>50% increase in max number of active player trades allowed</li><li>Start with 1 more auto sell concurrency</li><li>Unique policy: International Export Trade</li><li>Unique policy: Pearl of the Orient</li><li>Wholesale Center only needs 4 resources to unlock</li><li>Start with 100M Cash</li>",
+        "<li>Unique market pricing algorithm - prices and stock rating follow normal distribution (bell curve)</li><li>Market updates and tax credit resets are twice as frequent (every hour)</li><li>Research can be unlocked via traded resources</li><li>Unique building: Kung-Fu Dojo</li><li>Unique building: Tai-Chi Dojo</li><li>50% increase in max number of active player trades allowed</li><li>Start with 1 more auto sell concurrency</li><li>Unique policy: International Export Trade</li><li>Unique policy: Pearl of the Orient</li><li>Wholesale Center only needs 4 resources to unlock</li><li>Start with 100M Cash</li>",
     TaiChi10xCultureDescV2:
         "Free Kung-fu and Tai-chi transportation. Movie studios have 2x capacity but use 50% more power",
     SettingsFullScreen: "Full Screen",
@@ -877,7 +874,7 @@ export const EN = {
     BuildingCustomColorReset: "Reset",
     Vancouver: "Vancouver",
     VancouverBonus:
-        "<li>Every 4 different types of buildings give 1 free building permit</li><li>Unique policy: Production Diversification</li><li>Unique building: Maple Syrup Factory</li><li>Free maple syrup transport</li><li>Unique fuel type: Maple Syrup</li><li>2x player trade quota when trading Uranium and Enriched Uranium</li><li>Unique free policy: Syrup Plastic</li><li>Toy factories have 2x productivity</li><li>Game studios have 2x capacity</li>",
+        "<li>Every 4 different types of buildings give 1 free building permit</li><li>Unique policy: Production Diversification</li><li>Unique building: Maple Syrup Factory</li><li>Free maple syrup transport</li><li>Unique fuel type: Maple Syrup</li><li>2x player trade production-based tax credit when trading Uranium and Enriched Uranium</li><li>Unique free policy: Syrup Plastic</li><li>Toy factories have 2x productivity</li><li>Game studios have 2x capacity</li>",
     MapExtraPermitDesc: "You get %{number} free building permits from the map's unique bonus",
     OsloBonusV3:
         "<li>Oil refineries are unlocked</li><li>Oil refineries have 2x capacity</li><li>Electric oil transport policy is free</li><li>Gas processing plants have 2x capacity</li><li>Free level 4 wind turbine x1</li><li>Free level 8 oil well x1</li><li>Free level 2 oil refinery x1</li><li>Free level 2 natural gas pump x1</li>",
@@ -900,7 +897,7 @@ export const EN = {
     AchievementVancouver1000: "Canuck Conqueror",
     AchievementVancouver1000Desc: "Earn 1000 Swiss Money in Vancouver in a single run",
     BarbariansAtTheGate: "Barbarians At The Gate",
-    BarbariansAtTheGateDesc: "Use 1 trillion worth of player trade quota between market updates",
+    BarbariansAtTheGateDesc: "Use 1 trillion worth of market cap-based player trade tax credit between market updates",
     DiversifiedProductions: "Diversified Productions",
     DiversifiedProductionsDesc: "Build 100 different types of buildings on a single map",
     RealEstateTycoon: "Real Estate Tycoon",
@@ -1041,8 +1038,6 @@ export const EN = {
     CrowdfundingReturnBonus: "+%{return} Return",
     ReturnOnPledgeDescV2:
         "Your total return equals to total pledged value multiplied by return rates from all resources. More backers of a resource will improve its return",
-    PlayerTradeQuotaDescV2:
-        "💡 Quota is the amount of the resource you can trade. The monetary value equals to %{percent} of your market cap and it resets when the market updates. The more your trade's price deviates from your trade center price, the more quota you need",
     AchievementSanJose100: "Venture Hobbyist",
     AchievementSanJose100Desc: "Earn 100 Swiss Money in San Jose in a single run",
     AchievementSanJose500: "Venture Enthusiast",
@@ -1286,7 +1281,7 @@ export const EN = {
     CannedBeef: "Canned Beef",
     FoodProcessingPlant: "Food Processing Plant",
     KansasCityBonus:
-        "<li>Farmlands and greenhouses produce 2x corn</li><li>Free corn transportation</li><li>For each level, hydro dams give a 5% boost to adjacent farmlands</li><li>Every 2 farmlands give 1 free building permit</li><li>The Sun Never Sets policy also makes farmland work 100% of the time (including offline)</li><li>2x player trade quota when trading crops</li><li>Food processing plants are unlocked</li><li>Fast food chains (including all recipes) have 2x capacity</li>",
+        "<li>Farmlands and greenhouses produce 2x corn</li><li>Free corn transportation</li><li>For each level, hydro dams give a 5% boost to adjacent farmlands</li><li>Every 2 farmlands give 1 free building permit</li><li>The Sun Never Sets policy also makes farmland work 100% of the time (including offline)</li><li>2x player trade production-based tax credit when trading crops</li><li>Food processing plants are unlocked</li><li>Fast food chains (including all recipes) have 2x capacity</li>",
     KansasCityHydroDamBoost: "Kansas City unique bonus: this hydro dam provides %{boost} boost to adjacent farmlands",
     PerthGeothermalPowerPlantBoost:
         "Perth unique bonus: this geothermal power plant provides %{boost} boost to adjacent buildings that produce steel",
@@ -1295,7 +1290,7 @@ export const EN = {
     Biofuel: "Biofuel",
     RioDeJaneiro: "Rio de Janeiro",
     RioDeJaneiroBonus:
-        "<li>Unique fuel: Biofuel</li><li>Pig, cow and chicken farms produces extra biofuel</li><li>Unique building: Biofuel Power Plant</li><li>Unique building: Cristo Redentor</li><li>Resource boosters can boost pig, cow and chicken farms</li><li>Logging camps produce 2x wood</li><li>Lumber mills have 2x capacity</li><li>Frozen chicken, frozen pork and canned beef have 2x trading quota</li>",
+        "<li>Unique fuel: Biofuel</li><li>Pig, cow and chicken farms produces extra biofuel</li><li>Unique building: Biofuel Power Plant</li><li>Unique building: Cristo Redentor</li><li>Resource boosters can boost pig, cow and chicken farms</li><li>Logging camps produce 2x wood</li><li>Lumber mills have 2x capacity</li><li>Frozen chicken, frozen pork and canned beef have 2x player trade production-based tax credit</li>",
     BiofuelPowerPlant: "Biofuel Power Plant",
     CristoRedentor: "Cristo Redentor",
     CristoRedentorBanner:
@@ -1372,7 +1367,7 @@ export const EN = {
     IstanbulBonus:
         "<li>Tower defense mode - convert your weapons to damage, defend against invaders and get cash rewards for further expansion</li><li>Army commands have 2x capacity</li><li>Tank factories have 2x capacity</li><li>Gun factories have 2x capacity</li><li>Missile factories have 2x capacity</li><li>Dynamite factories have 2x productivity</li>",
     PlayerTradeCancelTitle: "Cancel This Trade?",
-    PlayerTradeCancelDesc: "Cancelling this trade will return your quota and part of your resource",
+    PlayerTradeCancelDesc: "Cancelling this trade will only return part of your resource",
     PlayerTradeCancelYes: "Cancel Trade",
     PlayerTradeCancelNo: "Don't Cancel",
     SteamAutoCloudBackupDescV3:
@@ -1470,23 +1465,20 @@ export const EN = {
         "Chicken farms, pig farms, cow farms, fish ponds and fodder factories have 2x capacity but uses 2x power",
     HydroFarming: "Hydro Farming",
     HydroFarmingDesc: "Each working hydro dam provides 20% capacity boost to all farmlands and greenhouses on the map",
-    ExtraTradeQuota: "Extra Player Trade Quota",
-    ExtraTradeQuotaDesc: "Initial player trade quota is 1% of your market cap - this will grant extra percentage",
+    ExtraTradeQuota: "Extra Player Trade Market Cap-Based Tax Credit",
+    ExtraTradeQuotaDesc: "Market cap-based tax credit is 1% of your market cap - this will grant extra percentage",
     ProduceAllCrops: "Produce All Crops",
     ProduceAllCropsDesc: "Farmlands and greenhouses can produce all crops, including the ones that are not on the map",
     ResearchAgreement: "Research Agreement",
     ResearchAgreementDesc: "Filling each trade with an unique player gives 10 mins of research point production",
     NewsEffectx2V2: "Press Conference",
     NewsEffectx2DescV2: "All market news are 50% more effective",
-    PlayerTradeQuotaPenaltyWarning:
-        "Your trading value with this player exceeds 1% of your market cap and the price of this trade differs too much from your local price. Filling this trade requires extra trading quota",
     AutoSellCapacityMultiplierV2: "Extra Auto Sell Capacity",
     AutoSellCapacityMultiplierDescV2: "This will give extra auto sell capacity on top of your existing capacity",
     AutoSellCapacity: "Auto Sell Capacity",
     AutoSellCapacityDescV2:
         "Max amount of resources auto sell can handle per second, per resource, measured as the percentage of your total production of that resource",
     AutoSellCapacityExtraPercentageFromSwiss: "Extra Percentage from Swiss Upgrade and Boost: %{n}%",
-    PlayerTradeHideExtraQuotaTrades: "Hide trades that require extra quota",
     AchievementAuckland100: "Hoiho",
     AchievementAuckland100Desc: "Earn 100 Swiss Money in Auckland in a single run",
     AchievementAuckland500: "Whio",
@@ -1497,4 +1489,20 @@ export const EN = {
     ExternalManageYourSaveDesc:
         "Due to technical limitation, Importing and exporting your save must be done from the game's official website",
     MREPlant: "Meal, Ready-To-Eat Plant",
+    PlayerTradeTaxCreditProduction: "Tax Credit: Production",
+    PlayerTradeTaxCreditProductionDesc:
+        "This tax credit is based on the amount of %{res} you've produced since the last market update. You have produced %{produced} and you have traded %{used}",
+    PlayerTradeTaxCreditMarketCap: "Tax Credit: Market Cap",
+    PlayerTradeTaxCreditMarketCapDesc:
+        "This tax credit is %{percentage} of your market cap, can be upgraded via Swiss Upgrade/Boost. Total credit amount is %{total} and you have used %{used}",
+    PlayerTradeGrossTradeValue: "Gross Trade Value",
+    PlayerTradeTaxableValue: "Taxable Value",
+    PlayerTradeTaxRate: "Tax Rate",
+    PlayerTradeTaxRateDesc:
+        "Tax rate is based on price difference between your local price and this trade - the tax rate is progressive. 0% ~ 50%: 0.5% for every 1% difference; 50% ~ 75%: 1% for every 1% difference; 75% ~ 100%: 2% for every 1% difference",
+    PlayerTradeTaxPayable: "Tax Payable",
+    PlayerTradeTradeValueAfterTax: "Trade Value After Tax",
+    PlayerTradeShowTaxCalculation: "Show Tax Calculation",
+    PlayerTradeHideTaxCalculation: "Hide Tax Calculation",
+    PlayerTradeMaxTaxCreditValue: "Set Amount to Match Tax Credit",
 };

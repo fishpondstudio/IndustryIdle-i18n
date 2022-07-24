@@ -522,9 +522,7 @@ export const RU = {
     ClaimTrade: "Завершить",
     FailedToImportSave: "Не удалось импортировать сохранение",
     CancelActiveTradeFirst: "У вас есть активные сделки с игроками, пожалуйста, сначала отмените/завершите их",
-    PlayerTradeQuotaExceed: "Эта сделка превысила вашу квоту",
     PlayerTradeValidRange: "Диапазон: %{min} ~ %{max}",
-    PlayerTradeQuota: "Остаток квоты: %{value}",
     PlayerTradeUnavailable:
         "Вам необходимо иметь хотя бы один ресурс в производстве и на складе, прежде чем вы сможете торговать с игроками",
     PlayerTradeToClaim: "У Вас есть %{num} новая(ые) сделка(и), которую(ые) вы можете завершить в торговле с игроками",
@@ -635,7 +633,6 @@ export const RU = {
         "Перевозка в Торговый центр бесплатная, но перевозка из Торгового центра на 50% дороже",
     TaiChi10xCulture: "Жемчужина Востока",
     PlayerTradeYouHave: "В хранилище: %{amount}",
-    PlayerTradeFillValue: "Стоимость",
     FiberFactory: "Завод по производству волокон",
     Fiber: "Волокно",
     Achievements: "Достижения",
@@ -1061,8 +1058,6 @@ export const RU = {
     CrowdfundingReturnBonus: "Доход +%{return}",
     ReturnOnPledgeDescV2:
         "Ваш общий доход равен общей заложенной стоимости, умноженной на коэффициент доходности всех ресурсов. Чем больше спонсоров у ресурса, тем выше его доходность",
-    PlayerTradeQuotaDescV2:
-        "💡 Квота - это количество ресурса, которым вы можете торговать. Денежная стоимость равна %{percent} от вашего рыночного капитала и обнуляется при обновлении рынка. Чем больше цена вашей сделки отклоняется от цены в торговом центре, тем больше квоты вам требуется",
     AchievementSanJose100: "Венчурный любитель",
     AchievementSanJose100Desc: "Заработайте 100 Индустриальных кредитов в Сан-Хосе за одну сессию",
     AchievementSanJose500: "Венчурный энтузиаст",
@@ -1513,8 +1508,6 @@ export const RU = {
         "Заполнение каждой сделки с уникальным игроком дает 10 минут производства очков исследования",
     NewsEffectx2V2: "Пресс-конференция",
     NewsEffectx2DescV2: "Все новости рынка на 50% эффективнее",
-    PlayerTradeQuotaPenaltyWarning:
-        "Стоимость вашей торговли с этим игроком превышает 1% от вашей рыночной капитализации, и цена этой сделки слишком сильно отличается от вашей локальной цены. Для выполнения этой сделки требуется дополнительная торговая квота",
     AutoSellCapacityMultiplierV2: "Дополнительная мощность автопродажи",
     AutoSellCapacityMultiplierDescV2:
         "Это даст дополнительную возможность автоматической продажи свыше существующей ёмкости.",
@@ -1522,7 +1515,6 @@ export const RU = {
     AutoSellCapacityDescV2:
         "Максимальное количество ресурсов, которое может обработать автопродажа в секунду, для каждого ресурса, измеряется как процент от общего производства данного ресурса",
     AutoSellCapacityExtraPercentageFromSwiss: "Дополнительный процент от Улучшения и Усиления за кредиты: %{n}%",
-    PlayerTradeHideExtraQuotaTrades: "Скрыть сделки, требующие дополнительной квоты",
     AchievementAuckland100: "Желтоглазый пингвин",
     AchievementAuckland100Desc: "Заработайте 100 кредитов в Окленде за одну сессию",
     AchievementAuckland500: "Синяя утка",
@@ -1533,4 +1525,20 @@ export const RU = {
     ExternalManageYourSaveDesc:
         "Due to technical limitation, Importing and exporting your save must be done from the game's official website",
     MREPlant: "Meal, Ready-To-Eat Plant",
+    PlayerTradeTaxCreditProduction: "Tax Credit: Production",
+    PlayerTradeTaxCreditProductionDesc:
+        "This tax credit is based on the amount of %{res} you've produced since the last market update. Total credit amount is %{total} and you have used %{used}",
+    PlayerTradeTaxCreditMarketCap: "Tax Credit: Market Cap",
+    PlayerTradeTaxCreditMarketCapDesc:
+        "This tax credit is %{percentage} of your market cap, can be upgraded via Swiss Upgrade/Boost. Total credit amount is %{total} and you have used %{used}",
+    PlayerTradeGrossTradeValue: "Gross Trade Value",
+    PlayerTradeTaxableValue: "Taxable Value",
+    PlayerTradeTaxRate: "Tax Rate",
+    PlayerTradeTaxRateDesc:
+        "Tax rate is based on price difference between your local price and this trade - the tax rate is progressive. 0% ~ 50%: 0.5% for every 1% difference; 50% ~ 75%: 1% for every 1% difference; 75% ~ 100%: 2% for every 1% difference",
+    PlayerTradeTaxPayable: "Tax Payable",
+    PlayerTradeTradeValueAfterTax: "Trade Value After Tax",
+    PlayerTradeShowTaxCalculation: "Show Tax Calculation",
+    PlayerTradeHideTaxCalculation: "Hide Tax Calculation",
+    PlayerTradeMaxTaxCreditValue: "Set Amount to Match Tax Credit",
 };

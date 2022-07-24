@@ -525,9 +525,7 @@ export const IT = {
     ClaimTrade: "Reclama",
     FailedToImportSave: "Errore nell'importare il salvataggio",
     CancelActiveTradeFirst: "Hai degli scambi tra giocatori attivi, per favore reclamali",
-    PlayerTradeQuotaExceed: "Questo scambio ha ecceduto la tua quota",
     PlayerTradeValidRange: "Raggio: %{min} ~ %{max}",
-    PlayerTradeQuota: "Quota rimasta: %{value}",
     PlayerTradeUnavailable:
         "Hai bisogno di almeno una risorsa in prouzione e nel magazzino prima di effettuare scambi con altri giocatori",
     PlayerTradeToClaim: "Hai %{num} nuovi scambi da reclamare",
@@ -638,7 +636,6 @@ export const IT = {
         "Il trasporto al centro di scambio non costa carburante, ma il trasporto dal centro di scambio costa il 50% di carburante in più",
     TaiChi10xCulture: "Perla dell'Oriente",
     PlayerTradeYouHave: "In Magazzino: %{amount}",
-    PlayerTradeFillValue: "Valore",
     FiberFactory: "Fabbrica di Fibre",
     Fiber: "Fibre",
     Achievements: "Traguardi",
@@ -1067,8 +1064,6 @@ export const IT = {
     CrowdfundingReturnBonus: "+%{return} Ritorno",
     ReturnOnPledgeDescV2:
         "Il tuo ritorno totale è uguale al oegno totale moltiplicato per il rateo di ritorno da tutte le risorse. più sostenitori di una risorsa aumenterà il suo ritorno",
-    PlayerTradeQuotaDescV2:
-        "💡 La quota è la quantità di risorse che puoi scambiare. La quantità monetaria è uguale a %{percent} della tua capitalizzazione di mercato e si resetta quando il mercato si aggiorna. Più scambi deviano dal prezzo del centro degli scambi, più quota sarà necessaria",
     AchievementSanJose100: "Hobbyista del vanto",
     AchievementSanJose100Desc: "Guadagna 100 franchi svizzeri a San Jose in una singola volta",
     AchievementSanJose500: "Appassionato del vanto",
@@ -1516,15 +1511,12 @@ export const IT = {
     ResearchAgreementDesc: "Filling each trade with an unique player gives 10 mins of research point production",
     NewsEffectx2V2: "Press Conference",
     NewsEffectx2DescV2: "All market news are 50% more effective",
-    PlayerTradeQuotaPenaltyWarning:
-        "Your trading value with this player exceeds 1% of your market cap and the price of this trade differs too much from your local price. Filling this trade requires extra trading quota",
     AutoSellCapacityMultiplierV2: "Extra Auto Sell Capacity",
     AutoSellCapacityMultiplierDescV2: "This will give extra auto sell capacity on top of your existing capacity",
     AutoSellCapacity: "Auto Sell Capacity",
     AutoSellCapacityDescV2:
         "Max amount of resources auto sell can handle per second, per resource, measured as the percentage of your total production of that resource",
     AutoSellCapacityExtraPercentageFromSwiss: "Extra Percentage from Swiss Upgrade and Boost: %{n}%",
-    PlayerTradeHideExtraQuotaTrades: "Hide trades that require extra quota",
     AchievementAuckland100: "Hoiho",
     AchievementAuckland100Desc: "Earn 100 Swiss Money in Auckland in a single run",
     AchievementAuckland500: "Whio",
@@ -1535,4 +1527,20 @@ export const IT = {
     ExternalManageYourSaveDesc:
         "Due to technical limitation, Importing and exporting your save must be done from the game's official website",
     MREPlant: "Meal, Ready-To-Eat Plant",
+    PlayerTradeTaxCreditProduction: "Tax Credit: Production",
+    PlayerTradeTaxCreditProductionDesc:
+        "This tax credit is based on the amount of %{res} you've produced since the last market update. Total credit amount is %{total} and you have used %{used}",
+    PlayerTradeTaxCreditMarketCap: "Tax Credit: Market Cap",
+    PlayerTradeTaxCreditMarketCapDesc:
+        "This tax credit is %{percentage} of your market cap, can be upgraded via Swiss Upgrade/Boost. Total credit amount is %{total} and you have used %{used}",
+    PlayerTradeGrossTradeValue: "Gross Trade Value",
+    PlayerTradeTaxableValue: "Taxable Value",
+    PlayerTradeTaxRate: "Tax Rate",
+    PlayerTradeTaxRateDesc:
+        "Tax rate is based on price difference between your local price and this trade - the tax rate is progressive. 0% ~ 50%: 0.5% for every 1% difference; 50% ~ 75%: 1% for every 1% difference; 75% ~ 100%: 2% for every 1% difference",
+    PlayerTradeTaxPayable: "Tax Payable",
+    PlayerTradeTradeValueAfterTax: "Trade Value After Tax",
+    PlayerTradeShowTaxCalculation: "Show Tax Calculation",
+    PlayerTradeHideTaxCalculation: "Hide Tax Calculation",
+    PlayerTradeMaxTaxCreditValue: "Set Amount to Match Tax Credit",
 };

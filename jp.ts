@@ -506,9 +506,7 @@ export const JP = {
     ClaimTrade: "受け取る",
     FailedToImportSave: "保存データのインポートに失敗しました",
     CancelActiveTradeFirst: "アクティブなプレイヤー間トレードがあります。先にキャンセル/受取してください",
-    PlayerTradeQuotaExceed: "このトレードはあなたの取引枠を超えています",
     PlayerTradeValidRange: "Range : %{min}~%{max}",
-    PlayerTradeQuota: "取引枠残り : %{value}",
     PlayerTradeUnavailable:
         "プレイヤー間トレードを行うには、少なくとも1つのリソースが生産され、保管されている必要があります",
     PlayerTradeToClaim: "あと%{num}件受け取り可能なプレイヤー間トレードがあります",
@@ -614,7 +612,6 @@ export const JP = {
     FreeTransportToTradeCenterDesc: "トレードセンターへの輸送が無料。トレードセンターからの輸送コストが+50%",
     TaiChi10xCulture: "Pearl of the Orient",
     PlayerTradeYouHave: "InStorage : %{amount}",
-    PlayerTradeFillValue: "価値",
     FiberFactory: "光ファイバー工場",
     Fiber: "光ファイバー",
     Achievements: "Achievements",
@@ -1023,8 +1020,6 @@ export const JP = {
     CrowdfundingReturnBonus: "+%{return}のリターン",
     ReturnOnPledgeDescV2:
         "トータルリターンは、支援金額の合計に、すべての資源のリターン率を掛けたものになります。資源の支援者が多ければ、リターンが増えます",
-    PlayerTradeQuotaDescV2:
-        "💡取引枠とは、現在の単価で取引できる資源量のことです。あなたの都市の市場価格と単価の差が大きいほど、取引枠は減ります。割当量は、あなたの会社の時価総額の%{percent}で、マーケットが更新されるとリセットされます",
     AchievementSanJose100: "Venture Hobbyist",
     AchievementSanJose100Desc: "1回のプレイでサンノゼで100スイスマネーを獲得",
     AchievementSanJose500: "Venture Enthusiast",
@@ -1459,15 +1454,12 @@ export const JP = {
     ResearchAgreementDesc: "Filling each trade with an unique player gives 10 mins of research point production",
     NewsEffectx2V2: "Press Conference",
     NewsEffectx2DescV2: "All market news are 50% more effective",
-    PlayerTradeQuotaPenaltyWarning:
-        "Your trading value with this player exceeds 1% of your market cap and the price of this trade differs too much from your local price. Filling this trade requires extra trading quota",
     AutoSellCapacityMultiplierV2: "Extra Auto Sell Capacity",
     AutoSellCapacityMultiplierDescV2: "This will give extra auto sell capacity on top of your existing capacity",
     AutoSellCapacity: "自動売却量",
     AutoSellCapacityDescV2:
         "Max amount of resources auto sell can handle per second, per resource, measured as the percentage of your total production of that resource",
     AutoSellCapacityExtraPercentageFromSwiss: "Extra Percentage from Swiss Upgrade and Boost: %{n}%",
-    PlayerTradeHideExtraQuotaTrades: "Hide trades that require extra quota",
     AchievementAuckland100: "Hoiho",
     AchievementAuckland100Desc: "Earn 100 Swiss Money in Auckland in a single run",
     AchievementAuckland500: "Whio",
@@ -1478,4 +1470,20 @@ export const JP = {
     ExternalManageYourSaveDesc:
         "Due to technical limitation, Importing and exporting your save must be done from the game's official website",
     MREPlant: "Meal, Ready-To-Eat Plant",
+    PlayerTradeTaxCreditProduction: "Tax Credit: Production",
+    PlayerTradeTaxCreditProductionDesc:
+        "This tax credit is based on the amount of %{res} you've produced since the last market update. Total credit amount is %{total} and you have used %{used}",
+    PlayerTradeTaxCreditMarketCap: "Tax Credit: Market Cap",
+    PlayerTradeTaxCreditMarketCapDesc:
+        "This tax credit is %{percentage} of your market cap, can be upgraded via Swiss Upgrade/Boost. Total credit amount is %{total} and you have used %{used}",
+    PlayerTradeGrossTradeValue: "Gross Trade Value",
+    PlayerTradeTaxableValue: "Taxable Value",
+    PlayerTradeTaxRate: "Tax Rate",
+    PlayerTradeTaxRateDesc:
+        "Tax rate is based on price difference between your local price and this trade - the tax rate is progressive. 0% ~ 50%: 0.5% for every 1% difference; 50% ~ 75%: 1% for every 1% difference; 75% ~ 100%: 2% for every 1% difference",
+    PlayerTradeTaxPayable: "Tax Payable",
+    PlayerTradeTradeValueAfterTax: "Trade Value After Tax",
+    PlayerTradeShowTaxCalculation: "Show Tax Calculation",
+    PlayerTradeHideTaxCalculation: "Hide Tax Calculation",
+    PlayerTradeMaxTaxCreditValue: "Set Amount to Match Tax Credit",
 };
