@@ -1489,20 +1489,20 @@ export const EN = {
     ExternalManageYourSaveDesc:
         "Due to technical limitation, Importing and exporting your save must be done from the game's official website",
     MREPlant: "Meal, Ready-To-Eat Plant",
-    PlayerTradeTaxCreditProduction: "Tax Credit: Production",
+    PlayerTradeTaxCreditProduction: "Tariff Credit: Production",
     PlayerTradeTaxCreditProductionDesc:
         "This tax credit is based on the amount of %{res} you've produced since the last market update. You have produced %{produced} and you have traded %{used}",
-    PlayerTradeTaxCreditMarketCap: "Tax Credit: Market Cap",
+    PlayerTradeTaxCreditMarketCap: "Tariff Credit: Market Cap",
     PlayerTradeTaxCreditMarketCapDesc:
         "This tax credit is %{percentage} of your market cap, can be upgraded via Swiss Upgrade/Boost. Total credit amount is %{total} and you have used %{used}",
     PlayerTradeGrossTradeValue: "Gross Trade Value",
     PlayerTradeTaxableValue: "Taxable Value",
-    PlayerTradeTaxRate: "Tax Rate",
+    PlayerTradeTaxRate: "Tariff Rate",
     PlayerTradeTaxRateDesc:
-        "Tax rate is based on price difference between your local price and this trade - the tax rate is progressive. 0% ~ 50%: 0.5% for every 1% difference; 50% ~ 75%: 1% for every 1% difference; 75% ~ 100%: 2% for every 1% difference",
-    PlayerTradeTaxPayable: "Tax Payable",
-    PlayerTradeTradeValueAfterTax: "Trade Value After Tax",
-    PlayerTradeShowTaxCalculation: "Show Tax Calculation",
-    PlayerTradeHideTaxCalculation: "Hide Tax Calculation",
-    PlayerTradeMaxTaxCreditValue: "Set Amount to Match Tax Credit",
+        "Tariff rate is based on price difference between your local price and this trade - the tariff rate is progressive. 0% ~ 50%: 0.5% for every 1% difference; 50% ~ 75%: 1% for every 1% difference; 75% ~ 100%: 2% for every 1% difference",
+    PlayerTradeTaxPayable: "Tariff Payable",
+    PlayerTradeTradeValueAfterTax: "Trade Value After Tariff",
+    PlayerTradeShowTaxCalculation: "Show Tariff Calculation",
+    PlayerTradeHideTaxCalculation: "Hide Tariff Calculation",
+    PlayerTradeMaxTaxCreditValue: "Set Amount to Match Tariff Credit",
 };
