@@ -620,7 +620,7 @@ export const RU = {
     SteamLoginDialogDesc:
         "В вашем локальном сохранении включен пакет расширения, чтобы продолжить игру, вам нужно войти в систему через Steam. Или вы можете СТЕРЕТЬ СВОЕ ЛОКАЛЬНОЕ СОХРАНЕНИЕ и начать заново",
     SteamLoginDesc:
-        "Если у вас есть пакеты расширения в Steam, вы можете играть с пакетами расширения в Интернете после входа в систему",
+        "Если у вас есть пакеты расширения в Steam, вы можете играть с пакетами расширения в веб-версии после входа в систему",
     SteamLoginYes: "Войти",
     SteamLoginNo: "Стереть и начать сначала",
     KungFuDojo: "Кунг-Фу Додзё",
@@ -1525,20 +1525,20 @@ export const RU = {
     ExternalManageYourSaveDesc:
         "В связи с техническими ограничениями, импорт и экспорт ваших сохранений должен осуществляться с официального сайта игры",
     MREPlant: "Завод блюд, готовых к употреблению",
-    PlayerTradeTaxCreditProduction: "Tax Credit: Production",
+    PlayerTradeTaxCreditProduction: "Налоговый кредит: Производство",
     PlayerTradeTaxCreditProductionDesc:
-        "This tax credit is based on the amount of %{res} you've produced since the last market update. Total credit amount is %{total} and you have used %{used}",
-    PlayerTradeTaxCreditMarketCap: "Tax Credit: Market Cap",
+        "Этот налоговый кредит основан на количестве %{res}, которое вы произвели с момента последнего обновления рынка. Вы произвели %{produced} и торговали %{used}",
+    PlayerTradeTaxCreditMarketCap: "Налоговый кредит: Рыночная кпитализация",
     PlayerTradeTaxCreditMarketCapDesc:
-        "This tax credit is %{percentage} of your market cap, can be upgraded via Swiss Upgrade/Boost. Total credit amount is %{total} and you have used %{used}",
-    PlayerTradeGrossTradeValue: "Gross Trade Value",
-    PlayerTradeTaxableValue: "Taxable Value",
-    PlayerTradeTaxRate: "Tax Rate",
+        "Этот налоговый кредит %{percentage} от вашей рыночной капитализации, может быть улучшен через Усиление/Улучшение за кредиты. Общая сумма кредита составляет %{total} и вы использовали %{used}",
+    PlayerTradeGrossTradeValue: "Общая торговая стоимость",
+    PlayerTradeTaxableValue: "Налогооблагаемая стоимость",
+    PlayerTradeTaxRate: "Налоговая ставка",
     PlayerTradeTaxRateDesc:
-        "Tax rate is based on price difference between your local price and this trade - the tax rate is progressive. 0% ~ 50%: 0.5% for every 1% difference; 50% ~ 75%: 1% for every 1% difference; 75% ~ 100%: 2% for every 1% difference",
-    PlayerTradeTaxPayable: "Tax Payable",
-    PlayerTradeTradeValueAfterTax: "Trade Value After Tax",
-    PlayerTradeShowTaxCalculation: "Show Tax Calculation",
-    PlayerTradeHideTaxCalculation: "Hide Tax Calculation",
-    PlayerTradeMaxTaxCreditValue: "Set Amount to Match Tax Credit",
+        "Налоговая ставка основана на разнице цен между вашей местной ценой и данной торговой ценой - налоговая ставка является прогрессивной. 0% ~ 50%: 0.5% за каждый 1% разницы; 50% ~ 75%: 1% за каждый 1% разницы; 75% ~ 100%: 2% за каждый 1% разницы",
+    PlayerTradeTaxPayable: "Налог к оплате",
+    PlayerTradeTradeValueAfterTax: "Торговая стоимость после уплаты налогов",
+    PlayerTradeShowTaxCalculation: "Показать расчет налога",
+    PlayerTradeHideTaxCalculation: "Скрыть расчет налога",
+    PlayerTradeMaxTaxCreditValue: "Установите сумму, соответствующую налоговому кредиту",
 };
