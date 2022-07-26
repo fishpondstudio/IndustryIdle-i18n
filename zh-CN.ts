@@ -1417,20 +1417,20 @@ export const ZH_CN = {
     ExternalManageYourSaveDesc:
         "Due to technical limitation, Importing and exporting your save must be done from the game's official website",
     MREPlant: "Meal, Ready-To-Eat Plant",
-    PlayerTradeTaxCreditProduction: "Tax Credit: Production",
+    PlayerTradeTaxCreditProduction: "税收减免:生产",
     PlayerTradeTaxCreditProductionDesc:
-        "This tax credit is based on the amount of %{res} you've produced since the last market update. Total credit amount is %{total} and you have used %{used}",
-    PlayerTradeTaxCreditMarketCap: "Tax Credit: Market Cap",
+        "此税收减免基于您自上次市场更新以来产生的 %{res} . 总抵减税额为 %{total} ,您使用了 %{used}",
+    PlayerTradeTaxCreditMarketCap: "税收减免:市值",
     PlayerTradeTaxCreditMarketCapDesc:
-        "This tax credit is %{percentage} of your market cap, can be upgraded via Swiss Upgrade/Boost. Total credit amount is %{total} and you have used %{used}",
-    PlayerTradeGrossTradeValue: "Gross Trade Value",
-    PlayerTradeTaxableValue: "Taxable Value",
-    PlayerTradeTaxRate: "Tax Rate",
+        "此税收减免是您市值的 %{percentage} , 可通过 Swiss Upgrade/Boost 进行升级。总税收减免金额为 %{total},您使用了 %{used}",
+    PlayerTradeGrossTradeValue: "总交易价值",
+    PlayerTradeTaxableValue: "应税价值",
+    PlayerTradeTaxRate: "税率",
     PlayerTradeTaxRateDesc:
-        "Tax rate is based on price difference between your local price and this trade - the tax rate is progressive. 0% ~ 50%: 0.5% for every 1% difference; 50% ~ 75%: 1% for every 1% difference; 75% ~ 100%: 2% for every 1% difference",
-    PlayerTradeTaxPayable: "Tax Payable",
-    PlayerTradeTradeValueAfterTax: "Trade Value After Tax",
-    PlayerTradeShowTaxCalculation: "Show Tax Calculation",
-    PlayerTradeHideTaxCalculation: "Hide Tax Calculation",
-    PlayerTradeMaxTaxCreditValue: "Set Amount to Match Tax Credit",
+        "税率是根据当地价格和本次交易的价格差来计算的 — 税率是累进的。0%~50%：每1%差0.5%；50%~75%：每1%差1%； 75% ~ 100%：每 1% 差异 2%",
+    PlayerTradeTaxPayable: "应付税款",
+    PlayerTradeTradeValueAfterTax: "税后贸易价值",
+    PlayerTradeShowTaxCalculation: "显示税收计算",
+    PlayerTradeHideTaxCalculation: "隐藏税收计算",
+    PlayerTradeMaxTaxCreditValue: "税收减免表",
 };
