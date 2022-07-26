@@ -1433,4 +1433,6 @@ export const ZH_CN = {
     PlayerTradeShowTaxCalculation: "显示税收计算",
     PlayerTradeHideTaxCalculation: "隐藏税收计算",
     PlayerTradeMaxTaxCreditValue: "税收减免表",
+    WaterProductionx2: "Super Water Pump",
+    WaterProductionx2Desc: "Water pumps produce 2x output but consumes 2x power",
 };

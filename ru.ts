@@ -1541,4 +1541,6 @@ export const RU = {
     PlayerTradeShowTaxCalculation: "Показать расчет налога",
     PlayerTradeHideTaxCalculation: "Скрыть расчет налога",
     PlayerTradeMaxTaxCreditValue: "Установите сумму, соответствующую налоговому кредиту",
+    WaterProductionx2: "Super Water Pump",
+    WaterProductionx2Desc: "Water pumps produce 2x output but consumes 2x power",
 };

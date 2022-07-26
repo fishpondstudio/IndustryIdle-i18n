@@ -1517,4 +1517,6 @@ export const ES = {
     PlayerTradeShowTaxCalculation: "Show Tax Calculation",
     PlayerTradeHideTaxCalculation: "Hide Tax Calculation",
     PlayerTradeMaxTaxCreditValue: "Set Amount to Match Tax Credit",
+    WaterProductionx2: "Super Water Pump",
+    WaterProductionx2Desc: "Water pumps produce 2x output but consumes 2x power",
 };

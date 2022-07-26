@@ -1434,4 +1434,6 @@ export const ZH_TW = {
     PlayerTradeShowTaxCalculation: "顯示稅收計算",
     PlayerTradeHideTaxCalculation: "隱藏稅收計算",
     PlayerTradeMaxTaxCreditValue: "抵減稅額表",
+    WaterProductionx2: "Super Water Pump",
+    WaterProductionx2Desc: "Water pumps produce 2x output but consumes 2x power",
 };
