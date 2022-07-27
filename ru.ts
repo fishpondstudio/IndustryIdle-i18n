@@ -1495,7 +1495,7 @@ export const RU = {
     CropOutputx2Desc: "Фермы и теплицы производят 2x урожая, но транспортировка урожая требует 2x топлива",
     MeatProductionx2: "Стероиды для скота",
     MeatProductionx2Desc:
-        "Птицефермы, свинофермы, Коровники, рыбные пруды и кормовые заводы имеют 2x мощности, но потребляют 2x энергии",
+        "Птицефермы, свинофермы, коровники, рыбные пруды и кормовые заводы имеют 2x мощности, но потребляют 2x энергии",
     HydroFarming: "Гидрофермерство",
     HydroFarmingDesc: "Каждая работающая гидроплотина дает 20% прирост мощности всем фермам и теплицам на карте",
     ExtraTradeQuota: "Дополнительная торговая квота игроков",
@@ -1541,6 +1541,6 @@ export const RU = {
     PlayerTradeShowTaxCalculation: "Показать расчет налога",
     PlayerTradeHideTaxCalculation: "Скрыть расчет налога",
     PlayerTradeMaxTaxCreditValue: "Установите сумму, соответствующую налоговому кредиту",
-    WaterProductionx2: "Super Water Pump",
-    WaterProductionx2Desc: "Water pumps produce 2x output but consumes 2x power",
+    WaterProductionx2: "Супер Водяной насос",
+    WaterProductionx2Desc: "Водяной насос производит 2x продукции, но потребляет 2x энергии",
 };
