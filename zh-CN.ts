@@ -461,7 +461,7 @@ export const ZH_CN = {
     Rotterdam: "鹿特丹",
     Oslo: "奥斯陆",
     StPetersburg: "圣彼得堡",
-    Hamburg: "汉堡",
+    Hamburg: "巨无霸汉堡",
     HamburgBonus:
         "<li>齐柏林飞艇工厂已预先解锁</li><li>半导体工厂的产出量是原来的2倍</li><li>造船厂的生产能力是原来的2倍</li><li>汽车工厂的生产能力是原来的2倍</li><li>锂离子电池工厂已预先解锁</li>",
     Toulouse: "图卢兹",
