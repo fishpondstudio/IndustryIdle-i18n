@@ -461,7 +461,7 @@ export const ZH_CN = {
     Rotterdam: "鹿特丹",
     Oslo: "奥斯陆",
     StPetersburg: "圣彼得堡",
-    Hamburg: "汉堡",
+    Hamburg: "巨无霸汉堡",
     HamburgBonus:
         "<li>齐柏林飞艇工厂已预先解锁</li><li>半导体工厂的产出量是原来的2倍</li><li>造船厂的生产能力是原来的2倍</li><li>汽车工厂的生产能力是原来的2倍</li><li>锂离子电池工厂已预先解锁</li>",
     Toulouse: "图卢兹",
@@ -1389,7 +1389,7 @@ export const ZH_CN = {
     AccountLimitedActionV2: "Read FAQ on Limited Account",
     CropOutputx2: "Modern Fertilizer",
     CropOutputx2Desc: "农田和温室生产2倍作物，但作物运输成本2倍燃料",
-    MeatProductionx2: "Livestock Steroid",
+    MeatProductionx2: "生物激素",
     MeatProductionx2Desc:
         "养鸡场、养猪场、奶牛场、鱼塘和饲料厂的产能是2倍，但耗电量是2倍",
     HydroFarming: "Hydro Farming",
