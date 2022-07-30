@@ -1387,9 +1387,6 @@ export const RU = {
     PlayerTradeFilterWhatIHave: "Отфильтровать то, что у меня есть",
     PathTemporarilyBlocked:
         "Вы не можете строить на этой плитке, так как идет волна. Проверьте еще раз после окончания волны",
-    MobilePriceChangeTitle: "Дополнительный пакет расширения 2",
-    MobilePriceChangeDesc:
-        "Цена на Пакет Расширения 1 для %{platform} была изменена с $4.99 до $2.99. Поскольку вы являетесь нашим ранним спонсором и приобрели расширение по первоначальной цене, мы хотели бы предложить вам бесплатный Пакет Расширения 2 ($2.99), когда он выйдет в продажу. Это должно произойти автоматически, но если это не сработает, вы можете нажать кнопку Восстановить покупки или обратиться в службу поддержки",
     MoveBuilding: "Переместить здание",
     MoveBuildingInvalidTarget: "Не удалось переместить здание - выбранная плитка некорректна",
     MoveBuildingMoving: "Выберите пустую плитку...",
@@ -1526,8 +1523,8 @@ export const RU = {
         "В связи с техническими ограничениями, импорт и экспорт ваших сохранений должен осуществляться с официального сайта игры",
     MREPlant: "Завод блюд, готовых к употреблению",
     PlayerTradeTaxCreditProduction: "Налоговый кредит: Производство",
-    PlayerTradeTaxCreditProductionDesc:
-        "Этот налоговый кредит основан на количестве %{res}, которое вы произвели с момента последнего обновления рынка. Вы произвели %{produced} и торговали %{used}",
+    PlayerTradeTaxCreditProductionDescV2:
+        "This tax credit is based on the amount of %{res} you've produced since the last market update. You have produced %{produced} and you have traded %{used}",
     PlayerTradeTaxCreditMarketCap: "Налоговый кредит: Рыночная кпитализация",
     PlayerTradeTaxCreditMarketCapDesc:
         "Этот налоговый кредит %{percentage} от вашей рыночной капитализации, может быть улучшен через Усиление/Улучшение за кредиты. Общая сумма кредита составляет %{total} и вы использовали %{used}",

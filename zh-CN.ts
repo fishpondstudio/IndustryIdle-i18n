@@ -1288,9 +1288,6 @@ export const ZH_CN = {
     MousewheelSensitivityDesc: "调整滚动鼠标滚轮缩放时的灵敏度",
     PlayerTradeFilterWhatIHave: "过滤现有资源",
     PathTemporarilyBlocked: "你不能在这个地块上建造，因为入侵正在进行中。请在这一波结束后重试",
-    MobilePriceChangeTitle: "扩展包2补充",
-    MobilePriceChangeDesc:
-        "扩展包1在 %{platform} 上的定价已经从4.99美元下调至2.99美元。由于您是我们的早期支持者并以原价购买了该扩展包，因此我们希望在发布时为您提供免费的扩展包2（2.99美元）。这应该是自动生效的 - 但如果它不起作用，您可以单击恢复购买或联系支持",
     MoveBuilding: "移动建筑",
     MoveBuildingInvalidTarget: "移动建筑失败 - 目标地块不可用",
     MoveBuildingMoving: "选择一个空地块...",
@@ -1390,8 +1387,7 @@ export const ZH_CN = {
     CropOutputx2: "Modern Fertilizer",
     CropOutputx2Desc: "农田和温室生产2倍作物，但作物运输成本2倍燃料",
     MeatProductionx2: "Livestock Steroid",
-    MeatProductionx2Desc:
-        "养鸡场、养猪场、奶牛场、鱼塘和饲料厂的产能是2倍，但耗电量是2倍",
+    MeatProductionx2Desc: "养鸡场、养猪场、奶牛场、鱼塘和饲料厂的产能是2倍，但耗电量是2倍",
     HydroFarming: "Hydro Farming",
     HydroFarmingDesc: "每个工作中的水坝为地图上的所有农田和温室提供 20% 的容量提升",
     ExtraTradeQuota: "额外玩家交易配额",
@@ -1418,8 +1414,8 @@ export const ZH_CN = {
         "Due to technical limitation, Importing and exporting your save must be done from the game's official website",
     MREPlant: "Meal, Ready-To-Eat Plant",
     PlayerTradeTaxCreditProduction: "税收减免:生产",
-    PlayerTradeTaxCreditProductionDesc:
-        "此税收减免基于您自上次市场更新以来产生的 %{res} . 总抵减税额为 %{total} ,您使用了 %{used}",
+    PlayerTradeTaxCreditProductionDescV2:
+        "This tax credit is based on the amount of %{res} you've produced since the last market update. You have produced %{produced} and you have traded %{used}",
     PlayerTradeTaxCreditMarketCap: "税收减免:市值",
     PlayerTradeTaxCreditMarketCapDesc:
         "此税收减免是您市值的 %{percentage} , 可通过 Swiss Upgrade/Boost 进行升级。总税收减免金额为 %{total},您使用了 %{used}",

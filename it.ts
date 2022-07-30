@@ -1388,9 +1388,6 @@ export const IT = {
     PlayerTradeFilterWhatIHave: "Filtra ciò che possiedo",
     PathTemporarilyBlocked:
         "Non puoi costruire qui perchè c'è una ondata in corso. Riprova quando l'ondata sarà finita",
-    MobilePriceChangeTitle: "PAcchetto espansione complementare 2",
-    MobilePriceChangeDesc:
-        "Il prezzo del pachetto espansione 1 su %{platform} è cambiato da $4.99 a $2.99. Dato che sei un nostro supporter dall'inizio e hai comprato il pacchetto espansione al prezzo iniziale, ci piacerebbe offrirti un pacchetto espansione complementare 2 ($2.99) quando sarà rilasciato. Dovrebbe essere automatico - ma se non funziona, puoi premere resetta acquisti oppure contattare il supporto",
     MoveBuilding: "Muovi struttura",
     MoveBuildingInvalidTarget: "Errore nello spostare la struttura - la casella selezionata non è valida",
     MoveBuildingMoving: "Seleziona una casella vuota...",
@@ -1528,8 +1525,8 @@ export const IT = {
         "Due to technical limitation, Importing and exporting your save must be done from the game's official website",
     MREPlant: "Meal, Ready-To-Eat Plant",
     PlayerTradeTaxCreditProduction: "Tax Credit: Production",
-    PlayerTradeTaxCreditProductionDesc:
-        "This tax credit is based on the amount of %{res} you've produced since the last market update. Total credit amount is %{total} and you have used %{used}",
+    PlayerTradeTaxCreditProductionDescV2:
+        "This tax credit is based on the amount of %{res} you've produced since the last market update. You have produced %{produced} and you have traded %{used}",
     PlayerTradeTaxCreditMarketCap: "Tax Credit: Market Cap",
     PlayerTradeTaxCreditMarketCapDesc:
         "This tax credit is %{percentage} of your market cap, can be upgraded via Swiss Upgrade/Boost. Total credit amount is %{total} and you have used %{used}",
