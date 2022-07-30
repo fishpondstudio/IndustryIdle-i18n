@@ -1524,7 +1524,7 @@ export const RU = {
     MREPlant: "Завод блюд, готовых к употреблению",
     PlayerTradeTaxCreditProduction: "Налоговый кредит: Производство",
     PlayerTradeTaxCreditProductionDescV2:
-        "This tax credit is based on the amount of %{res} you've produced since the last market update. You have produced %{produced} and you have traded %{used}",
+        "Этот налоговый кредит основан на количестве %{res}, которое вы произвели с момента последнего обновления рынка. Вы произвели %{produced} и торговали %{used}",
     PlayerTradeTaxCreditMarketCap: "Налоговый кредит: Рыночная кпитализация",
     PlayerTradeTaxCreditMarketCapDesc:
         "Этот налоговый кредит %{percentage} от вашей рыночной капитализации, может быть улучшен через Усиление/Улучшение за кредиты. Общая сумма кредита составляет %{total} и вы использовали %{used}",
@@ -1537,7 +1537,7 @@ export const RU = {
     PlayerTradeTradeValueAfterTax: "Торговая стоимость после уплаты налогов",
     PlayerTradeShowTaxCalculation: "Показать расчет налога",
     PlayerTradeHideTaxCalculation: "Скрыть расчет налога",
-    PlayerTradeMaxTaxCreditValue: "Установите сумму, соответствующую налоговому кредиту",
+    PlayerTradeMaxTaxCreditValue: "Установить сумму, соответствующую налоговому кредиту",
     WaterProductionx2: "Супер Водяной насос",
     WaterProductionx2Desc: "Водяной насос производит 2x продукции, но потребляет 2x энергии",
 };
