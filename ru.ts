@@ -1537,7 +1537,7 @@ export const RU = {
     PlayerTradeTradeValueAfterTax: "Торговая стоимость после уплаты налогов",
     PlayerTradeShowTaxCalculation: "Показать расчет налога",
     PlayerTradeHideTaxCalculation: "Скрыть расчет налога",
-    PlayerTradeMaxTaxCreditValue: "Установите сумму, соответствующую налоговому кредиту",
+    PlayerTradeMaxTaxCreditValue: "Установить сумму, соответствующую налоговому кредиту",
     WaterProductionx2: "Супер Водяной насос",
     WaterProductionx2Desc: "Водяной насос производит 2x продукции, но потребляет 2x энергии",
 };
