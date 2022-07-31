@@ -1516,4 +1516,9 @@ export const ES = {
     PlayerTradeMaxTaxCreditValue: "Set Amount to Match Tax Credit",
     WaterProductionx2: "Super Water Pump",
     WaterProductionx2Desc: "Water pumps produce 2x output but consumes 2x power",
+    InputBufferTypeAuto: "Auto",
+    InputBufferTypeStockpile: "Stockpile",
+    InputBuffer: "Resource Input Buffer",
+    InputBufferDesc:
+        "The maximum cycles of input resource to keep in the storage before this building will no longer transport that resource. Auto means using prediction to keep a minimum buffer that allows continuous production. Stockpile means always transporting input resources regardless of the amount in the storage",
 };

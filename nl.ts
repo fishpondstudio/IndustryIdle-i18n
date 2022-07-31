@@ -1502,12 +1502,4 @@ export const NL = {
     PlayerTradeTaxableValue: "Taxable Value",
     PlayerTradeTaxRate: "Tax Rate",
     PlayerTradeTaxRateDesc:
-        "Tax rate is based on price difference between your local price and this trade - the tax rate is progressive. 0% ~ 50%: 0.5% for every 1% difference; 50% ~ 75%: 1% for every 1% difference; 75% ~ 100%: 2% for every 1% difference",
-    PlayerTradeTaxPayable: "Tax Payable",
-    PlayerTradeTradeValueAfterTax: "Trade Value After Tax",
-    PlayerTradeShowTaxCalculation: "Show Tax Calculation",
-    PlayerTradeHideTaxCalculation: "Hide Tax Calculation",
-    PlayerTradeMaxTaxCreditValue: "Set Amount to Match Tax Credit",
-    WaterProductionx2: "Super Water Pump",
-    WaterProductionx2Desc: "Water pumps produce 2x output but consumes 2x power",
-};
+        "Tax rate is based on price difference between yo
