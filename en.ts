@@ -180,8 +180,6 @@ export const EN = {
     AdjacentBonus: "Adjacent Bonus",
     AdjacentBonusDesc: "You get %{bonus}% extra capacity for every adjacent working building of the same type",
     ConsiderIncreaseProduction: "💡 Consider increasing %{resource} production",
-    AlwaysTransportInput: "Stockpile Mode",
-    AlwaysTransportInputDesc: "Always transport input resources, even if they are above minimal production requirement",
     ProductionCycleLength: "Production Cycle",
     ProductionCycleLengthDesc:
         "Duration of one production cycle, measured in seconds. Lengthening the cycle will increase the input/output per cycle accordingly thus lowering its priority when fetching input resources",

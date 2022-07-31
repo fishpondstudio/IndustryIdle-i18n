@@ -184,9 +184,6 @@ export const ES = {
     AdjacentBonusDesc:
         "Consigues un %{bonus}% de capacidad adicional por cada edificio de trabajo adyacente del mismo tipo",
     ConsiderIncreaseProduction: "💡 Valora incrementar %{resource} producción",
-    AlwaysTransportInput: "Siempre transportar",
-    AlwaysTransportInputDesc:
-        "Transporte siempre los recursos de entrada, incluso si están por encima de los requisitos mínimos de producción.",
     ProductionCycleLength: "Duración del ciclo productivo",
     ProductionCycleLengthDesc:
         "Duración de un ciclo de producción, medido en segundos. Prolongar el ciclo aumentará la entrada y salida por ciclo y por tanto reducirá su prioridad al buscar recursos de entrada",

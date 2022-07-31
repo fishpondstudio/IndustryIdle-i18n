@@ -181,9 +181,6 @@ export const NL = {
     AdjacentBonus: "Aangrenzings Bonus",
     AdjacentBonusDesc: "Je krijgt %{bonus}% extra capaciteit voor elk aangrenzend werkend gebouw van hetzelfde type",
     ConsiderIncreaseProduction: "💡 Overweeg %{resource} productie te verhogen",
-    AlwaysTransportInput: "Stapel Modus",
-    AlwaysTransportInputDesc:
-        "Altijd invoer goederen transporteren, zelfs als deze boven de minimale productie vereisten liggen",
     ProductionCycleLength: "Productie Cyclus",
     ProductionCycleLengthDesc:
         "De duur van één productie cyclus, gemeten in seconden. De cyclus verlengen zal de invoer/uitvoer per cyclus verhogen, dus als bijgevolg de prioriteit verlagen bij het ophalen van invoergoederen",
@@ -1502,4 +1499,17 @@ export const NL = {
     PlayerTradeTaxableValue: "Taxable Value",
     PlayerTradeTaxRate: "Tax Rate",
     PlayerTradeTaxRateDesc:
-        "Tax rate is based on price difference between yo
+        "Tax rate is based on price difference between your local price and this trade - the tax rate is progressive. 0% ~ 50%: 0.5% for every 1% difference; 50% ~ 75%: 1% for every 1% difference; 75% ~ 100%: 2% for every 1% difference",
+    PlayerTradeTaxPayable: "Tax Payable",
+    PlayerTradeTradeValueAfterTax: "Trade Value After Tax",
+    PlayerTradeShowTaxCalculation: "Show Tax Calculation",
+    PlayerTradeHideTaxCalculation: "Hide Tax Calculation",
+    PlayerTradeMaxTaxCreditValue: "Set Amount to Match Tax Credit",
+    WaterProductionx2: "Super Water Pump",
+    WaterProductionx2Desc: "Water pumps produce 2x output but consumes 2x power",
+    InputBufferTypeAuto: "Auto",
+    InputBufferTypeStockpile: "Stockpile",
+    InputBuffer: "Resource Input Buffer",
+    InputBufferDesc:
+        "The maximum cycles of input resource to keep in the storage before this building will no longer transport that resource. Auto means using prediction to keep a minimum buffer that allows continuous production. Stockpile means always transporting input resources regardless of the amount in the storage",
+};

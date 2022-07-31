@@ -184,8 +184,6 @@ export const DE = {
     AdjacentBonusDesc:
         "Du erhältst %{bonus}% zusätzliche Kapazität für jedes angrenzende und arbeitende Gebäude der selben Art",
     ConsiderIncreaseProduction: "💡 Versuche die Produktion von %{resource} zu erhöhen.",
-    AlwaysTransportInput: "Vorratsmodus",
-    AlwaysTransportInputDesc: "Transportiere benötigte Ressourcen immer, auch wenn es mehr als benötigt ist",
     ProductionCycleLength: "Produktionszyklus",
     ProductionCycleLengthDesc:
         "Dauer eines Produktionszyklus in Sekunden. Eine Verlängerung des Zyklus erhöht entsprechend die benötigen und hergestellten Ressourcen",

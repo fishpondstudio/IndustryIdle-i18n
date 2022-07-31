@@ -184,9 +184,6 @@ export const IT = {
     AdjacentBonusDesc:
         "Ottieni %{bonus}% in più di capacità per ogni struttura adiacente funzionante dello stesso tipo",
     ConsiderIncreaseProduction: "💡 Considera un aumento del %{resource} della produzione",
-    AlwaysTransportInput: "Modalità Di Scorta",
-    AlwaysTransportInputDesc:
-        "Trasporta sempre le risorse di input, anche se sono sotto la prodizione minima richiesta",
     ProductionCycleLength: "Ciclo Di Produzione",
     ProductionCycleLengthDesc:
         "Durata del ciclo di produzione, misurata in secondi. Allungando la lunghezza del ciclo, aumenterà l'input/output per ciclo, di conseguenza si ridurrà la sua priorità durante il recupero delle risorse di input",

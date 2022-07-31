@@ -186,9 +186,6 @@ export const FR = {
     AdjacentBonus: "Bonus adjacent",
     AdjacentBonusDesc: "Vous obtenez %{bonus}% capacité supplémentaire pour chaque bâtiment adjacent du même type",
     ConsiderIncreaseProduction: "💡 Pensez à augmenter %{resource} production",
-    AlwaysTransportInput: "Mode de stockage",
-    AlwaysTransportInputDesc:
-        "Transportez toujours les ressources d'entrée, même si elles dépassent les exigences de production minimales",
     ProductionCycleLength: "Cycle de production",
     ProductionCycleLengthDesc:
         "Durée d'un cycle de production, mesurée en secondes. L'allongement du cycle augmentera les entrées / sorties par cycle, diminuant ainsi sa priorité lors de la récupération des ressources d'entrée",

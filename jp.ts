@@ -179,8 +179,6 @@ export const JP = {
     AdjacentBonus: "隣接ボーナス",
     AdjacentBonusDesc: "同じ種類の施設が隣接していると、容量が%{bonus}%追加されます",
     ConsiderIncreaseProduction: "💡%{resource}の生産量を増やすことを検討してください",
-    AlwaysTransportInput: "備蓄モード",
-    AlwaysTransportInputDesc: "材料を必要量を超えて輸入し、この施設に備蓄します",
     ProductionCycleLength: "生産サイクル",
     ProductionCycleLengthDesc: "サイクルを大きくすると1度にまとめて生産を行います。資源取得の優先順位が下がります",
     MaxInputDistance: "最大入力距離",

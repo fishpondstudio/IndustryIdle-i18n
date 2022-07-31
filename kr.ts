@@ -180,8 +180,6 @@ export const KR = {
     AdjacentBonus: "인접 보너스",
     AdjacentBonusDesc: "같은 유형의 인접한 모든 작업 건물에 대해 %{bonus}% 추가 용량을 얻습니다",
     ConsiderIncreaseProduction: "💡 %{resource} 생산량 증가 고려",
-    AlwaysTransportInput: "비축 모드",
-    AlwaysTransportInputDesc: "생산에 필요한 최소량을 초과하더라도 항상 입력 자원을 전송합니다",
     ProductionCycleLength: "생산주기",
     ProductionCycleLengthDesc:
         "생산주기의 기간(초). 주기를 늘리면 주기 당 입/출력이 증가하므로 입력 자원을 가져올 때 우선 순위가 낮아집니다",
