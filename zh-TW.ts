@@ -1291,9 +1291,6 @@ export const ZH_TW = {
     MousewheelSensitivityDesc: "調整滾動鼠標滾輪時放大/縮小的靈敏度",
     PlayerTradeFilterWhatIHave: "篩選我擁有的資源",
     PathTemporarilyBlocked: "您無法在此地塊上建築，因為正在進行波。 波結束後再次檢查",
-    MobilePriceChangeTitle: "擴展包 2 說明",
-    MobilePriceChangeDesc:
-        " 擴展包1 在 %{platform} 的價格已從 4.99 美元更改為 2.99 美元。由於您是我們的早期支持者並以原價購買了擴展包，因此我們希望在這個情況下為您提供免費的擴展包 2 ($2.99) 已發布。這應該是自動的生效但如果它不起作用，您可以點擊恢復購買或聯繫支持。",
     MoveBuilding: "移動建築",
     MoveBuildingInvalidTarget: "移動建築物失敗 - 目標地塊無效",
     MoveBuildingMoving: "選擇一個空的地塊...",
@@ -1419,8 +1416,8 @@ export const ZH_TW = {
         "Due to technical limitation, Importing and exporting your save must be done from the game's official website",
     MREPlant: "膳食，即食植物",
     PlayerTradeTaxCreditProduction: "抵減稅額：生產",
-    PlayerTradeTaxCreditProductionDesc:
-        "此抵減稅額基於您自上次市場更新以來產生的 %{res} . 總抵減稅額為 %{total} ,您使用了 %{used}",
+    PlayerTradeTaxCreditProductionDescV2:
+        "This tax credit is based on the amount of %{res} you've produced since the last market update. You have produced %{produced} and you have traded %{used}",
     PlayerTradeTaxCreditMarketCap: "抵減稅額:市值",
     PlayerTradeTaxCreditMarketCapDesc:
         "此抵減稅額是您市值的 %{percentage} , 可通過 Swiss Upgrade/Boost 進行升級。總抵減稅額為 %{total},您使用了 %{used}",

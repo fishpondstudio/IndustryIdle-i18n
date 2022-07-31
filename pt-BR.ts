@@ -1381,9 +1381,6 @@ export const PT_BR = {
     PlayerTradeFilterWhatIHave: "Filtre o que eu tenho",
     PathTemporarilyBlocked:
         "Você não pode construir neste bloco,pois há uma onda em andamento. Verifique novamente depois que a onda terminar",
-    MobilePriceChangeTitle: "Pacote de Expansão Complementar 2",
-    MobilePriceChangeDesc:
-        "O preço do Pacote de Expansão 1 em %{platform} foi alterado de US$ 4,99 para US$2.99. Como você é nosso apoiador inicial e comprou a expansão com o preço original,gostaríamos de oferecer a você o Pacote de Expansão 2 de cortesia (US$ 2,99) quando for lançado. Isso deve ser automático - mas se não funcionar,você pode clicar em Restaurar compras ou entrar em contato com o suporte. ⚠️(Preço em reais pode variar na Steam)⚠",
     MoveBuilding: "Mover Edifício",
     MoveBuildingInvalidTarget: "Falha ao mover o edifício - o local de destino não é válido",
     MoveBuildingMoving: "Selecione um local vazio...",
@@ -1525,8 +1522,8 @@ export const PT_BR = {
         "Due to technical limitation, Importing and exporting your save must be done from the game's official website",
     MREPlant: "Meal, Ready-To-Eat Plant",
     PlayerTradeTaxCreditProduction: "Tax Credit: Production",
-    PlayerTradeTaxCreditProductionDesc:
-        "This tax credit is based on the amount of %{res} you've produced since the last market update. Total credit amount is %{total} and you have used %{used}",
+    PlayerTradeTaxCreditProductionDescV2:
+        "This tax credit is based on the amount of %{res} you've produced since the last market update. You have produced %{produced} and you have traded %{used}",
     PlayerTradeTaxCreditMarketCap: "Tax Credit: Market Cap",
     PlayerTradeTaxCreditMarketCapDesc:
         "This tax credit is %{percentage} of your market cap, can be upgraded via Swiss Upgrade/Boost. Total credit amount is %{total} and you have used %{used}",

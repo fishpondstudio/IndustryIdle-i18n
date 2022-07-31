@@ -1356,9 +1356,6 @@ export const EN = {
     PlayerTradeFilterWhatIHave: "Filter What I Have",
     PathTemporarilyBlocked:
         "You cannot build on this tile as there's a wave in progress. Check again after the wave is finished",
-    MobilePriceChangeTitle: "Complementary Expansion Pack 2",
-    MobilePriceChangeDesc:
-        "Price for Expansion Pack 1 on %{platform} has been changed from $4.99 to $2.99. As you are our early supporter and have purchased the expansion with the original price, we would like to offer you a complimentary Expansion Pack 2 when it is released. This should be automatic - but if it doesn't work, you can click Restore Purchases or contact support",
     MoveBuilding: "Move Building",
     MoveBuildingInvalidTarget: "Failed to move the building - target tile is not valid",
     MoveBuildingMoving: "Select An Empty Tile...",
@@ -1490,7 +1487,7 @@ export const EN = {
         "Due to technical limitation, Importing and exporting your save must be done from the game's official website",
     MREPlant: "Meal, Ready-To-Eat Plant",
     PlayerTradeTaxCreditProduction: "Tariff Credit: Production",
-    PlayerTradeTaxCreditProductionDesc:
+    PlayerTradeTaxCreditProductionDescV2:
         "This tax credit is based on the amount of %{res} you've produced since the last market update. You have produced %{produced} and you have traded %{used}",
     PlayerTradeTaxCreditMarketCap: "Tariff Credit: Market Cap",
     PlayerTradeTaxCreditMarketCapDesc:

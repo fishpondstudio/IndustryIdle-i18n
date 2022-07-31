@@ -1387,9 +1387,6 @@ export const RU = {
     PlayerTradeFilterWhatIHave: "Отфильтровать то, что у меня есть",
     PathTemporarilyBlocked:
         "Вы не можете строить на этой плитке, так как идет волна. Проверьте еще раз после окончания волны",
-    MobilePriceChangeTitle: "Дополнительный пакет расширения 2",
-    MobilePriceChangeDesc:
-        "Цена на Пакет Расширения 1 для %{platform} была изменена с $4.99 до $2.99. Поскольку вы являетесь нашим ранним спонсором и приобрели расширение по первоначальной цене, мы хотели бы предложить вам бесплатный Пакет Расширения 2 ($2.99), когда он выйдет в продажу. Это должно произойти автоматически, но если это не сработает, вы можете нажать кнопку Восстановить покупки или обратиться в службу поддержки",
     MoveBuilding: "Переместить здание",
     MoveBuildingInvalidTarget: "Не удалось переместить здание - выбранная плитка некорректна",
     MoveBuildingMoving: "Выберите пустую плитку...",
@@ -1495,7 +1492,7 @@ export const RU = {
     CropOutputx2Desc: "Фермы и теплицы производят 2x урожая, но транспортировка урожая требует 2x топлива",
     MeatProductionx2: "Стероиды для скота",
     MeatProductionx2Desc:
-        "Птицефермы, свинофермы, Коровники, рыбные пруды и кормовые заводы имеют 2x мощности, но потребляют 2x энергии",
+        "Птицефермы, свинофермы, коровники, рыбные пруды и кормовые заводы имеют 2x мощности, но потребляют 2x энергии",
     HydroFarming: "Гидрофермерство",
     HydroFarmingDesc: "Каждая работающая гидроплотина дает 20% прирост мощности всем фермам и теплицам на карте",
     ExtraTradeQuota: "Дополнительная торговая квота игроков",
@@ -1526,7 +1523,7 @@ export const RU = {
         "В связи с техническими ограничениями, импорт и экспорт ваших сохранений должен осуществляться с официального сайта игры",
     MREPlant: "Завод блюд, готовых к употреблению",
     PlayerTradeTaxCreditProduction: "Налоговый кредит: Производство",
-    PlayerTradeTaxCreditProductionDesc:
+    PlayerTradeTaxCreditProductionDescV2:
         "Этот налоговый кредит основан на количестве %{res}, которое вы произвели с момента последнего обновления рынка. Вы произвели %{produced} и торговали %{used}",
     PlayerTradeTaxCreditMarketCap: "Налоговый кредит: Рыночная кпитализация",
     PlayerTradeTaxCreditMarketCapDesc:
@@ -1540,7 +1537,7 @@ export const RU = {
     PlayerTradeTradeValueAfterTax: "Торговая стоимость после уплаты налогов",
     PlayerTradeShowTaxCalculation: "Показать расчет налога",
     PlayerTradeHideTaxCalculation: "Скрыть расчет налога",
-    PlayerTradeMaxTaxCreditValue: "Установите сумму, соответствующую налоговому кредиту",
-    WaterProductionx2: "Super Water Pump",
-    WaterProductionx2Desc: "Water pumps produce 2x output but consumes 2x power",
+    PlayerTradeMaxTaxCreditValue: "Установить сумму, соответствующую налоговому кредиту",
+    WaterProductionx2: "Супер Водяной насос",
+    WaterProductionx2Desc: "Водяной насос производит 2x продукции, но потребляет 2x энергии",
 };
