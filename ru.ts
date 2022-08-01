@@ -1524,7 +1524,7 @@ export const RU = {
         "Этот налоговый кредит основан на количестве %{res}, которое вы произвели с момента последнего обновления рынка. Вы произвели %{produced} и торговали %{used}",
     PlayerTradeTaxCreditMarketCap: "Налоговый кредит: Рыночная кпитализация",
     PlayerTradeTaxCreditMarketCapDesc:
-        "Этот налоговый кредит %{percentage} от вашей рыночной капитализации, может быть улучшен через Усиление/Улучшение за кредиты. Общая сумма кредита составляет %{total} и вы использовали %{used}",
+        "Этот налоговый кредит состовляет %{percentage} от вашей рыночной капитализации, может быть улучшен через Улучшение/Усиление за кредиты. Общая сумма кредита составляет %{total} и вы использовали %{used}",
     PlayerTradeGrossTradeValue: "Общая торговая стоимость",
     PlayerTradeTaxableValue: "Налогооблагаемая стоимость",
     PlayerTradeTaxRate: "Налоговая ставка",
@@ -1537,9 +1537,9 @@ export const RU = {
     PlayerTradeMaxTaxCreditValue: "Установить сумму, соответствующую налоговому кредиту",
     WaterProductionx2: "Супер Водяной насос",
     WaterProductionx2Desc: "Водяной насос производит 2x продукции, но потребляет 2x энергии",
-    InputBufferTypeAuto: "Auto",
-    InputBufferTypeStockpile: "Stockpile",
-    InputBuffer: "Resource Input Buffer",
+    InputBufferTypeAuto: "Авто",
+    InputBufferTypeStockpile: "Запас",
+    InputBuffer: "Входной буфер ресурсов",
     InputBufferDesc:
-        "The maximum cycles of input resource to keep in the storage before this building will no longer transport that resource. Auto means using prediction to keep a minimum buffer that allows continuous production. Stockpile means always transporting input resources regardless of the amount in the storage",
+        "Максимальное количество циклов входного ресурса, которое необходимо хранить в складе, прежде чем это здание перестанет транспортировать этот ресурс. Авто означает использование прогнозирования для поддержания минимального количества, позволяющего непрерывно производить продукцию. Запас означает постоянную транспортировку входных ресурсов независимо от их количества на складе",
 };
