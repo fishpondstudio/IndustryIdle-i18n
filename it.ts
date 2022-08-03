@@ -1394,7 +1394,7 @@ export const IT = {
     IstanbulBonus:
         "<li>Modalità tower defense - converte le tue armi in danni, difenditi contro gli invasori e ottieni soldi per espansioni future</li><li>Comando dell'esercito ha il doppio della capacità</li><li>Le fabbriche di carri armati hanno il doppio delle capacità</li><li>Le fabbriche di armi hanno il doppio della capacità</li><li>Le fabbriche di missili hanno il doppio della capacità</li><li>Le fabbriche di dinamite producono il dopppio</li>",
     PlayerTradeCancelTitle: "Cancellare questo scambio?",
-    PlayerTradeCancelDesc: "Cancellare questo scambio ti ridarà la tua quota e parte delle risorse",
+    PlayerTradeCancelDescV2: "The tariff paid on this trade will NOT be refunded",
     PlayerTradeCancelYes: "Cancella scambio",
     PlayerTradeCancelNo: "Non cancellare",
     SteamAutoCloudBackupDescV3:
@@ -1544,4 +1544,6 @@ export const IT = {
     InputBuffer: "Resource Input Buffer",
     InputBufferDesc:
         "The maximum cycles of input resource to keep in the storage before this building will no longer transport that resource. Auto means using prediction to keep a minimum buffer that allows continuous production. Stockpile means always transporting input resources regardless of the amount in the storage",
+    InputCapacityOverride: "Input Capacity Override",
+    InputCapacityOverrideDesc: "For each production cycle, transport %{percent} of the resources needed for production",
 };

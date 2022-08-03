@@ -1392,7 +1392,7 @@ export const RU = {
     IstanbulBonus:
         "<li>Режим защиты башни - конвертируйте оружие в урон, защищайтесь от противников и получайте денежные вознаграждения для дальнейшего развития</li><li>Командования армией имеют 2x мощности</li><li>Танковые заводы имеют 2x мощности</li><li>Оружейные заводы имеют 2x мощности</li><li>Заводв снарядов имеют 2x мощности</li><li>Динамитные фабрики имеют 2x производительности</li>",
     PlayerTradeCancelTitle: "Отменить эту сделку?",
-    PlayerTradeCancelDesc: "Отмена этой сделки вернет вашу квоту и часть ваших ресурсов",
+    PlayerTradeCancelDescV2: "The tariff paid on this trade will NOT be refunded",
     PlayerTradeCancelYes: "Отмена сделки",
     PlayerTradeCancelNo: "Не отменять",
     SteamAutoCloudBackupDescV3:
@@ -1542,4 +1542,6 @@ export const RU = {
     InputBuffer: "Входной буфер ресурсов",
     InputBufferDesc:
         "Максимальное количество циклов входного ресурса, которое необходимо хранить в складе, прежде чем это здание перестанет транспортировать этот ресурс. Авто означает использование прогнозирования для поддержания минимального количества, позволяющего непрерывно производить продукцию. Запас означает постоянную транспортировку входных ресурсов независимо от их количества на складе",
+    InputCapacityOverride: "Input Capacity Override",
+    InputCapacityOverrideDesc: "For each production cycle, transport %{percent} of the resources needed for production",
 };

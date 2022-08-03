@@ -1294,7 +1294,7 @@ export const ZH_CN = {
     IstanbulBonus:
         "<li>塔防模式 - 将军火转化为伤害，抵御入侵，获取现金回报并进一步扩展</li><li>陆军司令部的生产能力是原来的2倍</li><li>坦克工厂的生产能力是原来的2倍</li><li>枪械工厂的生产能力是原来的2倍</li><li>导弹工厂的生产能力是原来的2倍</li><li>炸药工厂的产出量是原来的2倍</li>",
     PlayerTradeCancelTitle: "要取消这个交易吗？",
-    PlayerTradeCancelDesc: "取消这个交易将返还配额和部分资源",
+    PlayerTradeCancelDescV2: "The tariff paid on this trade will NOT be refunded",
     PlayerTradeCancelYes: "取消交易",
     PlayerTradeCancelNo: "不要取消",
     SteamAutoCloudBackupDescV3:
@@ -1434,4 +1434,6 @@ export const ZH_CN = {
     InputBuffer: "Resource Input Buffer",
     InputBufferDesc:
         "The maximum cycles of input resource to keep in the storage before this building will no longer transport that resource. Auto means using prediction to keep a minimum buffer that allows continuous production. Stockpile means always transporting input resources regardless of the amount in the storage",
+    InputCapacityOverride: "Input Capacity Override",
+    InputCapacityOverrideDesc: "For each production cycle, transport %{percent} of the resources needed for production",
 };

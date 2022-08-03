@@ -1377,7 +1377,7 @@ export const PL = {
     IstanbulBonus:
         "<li>Tower defense mode - convert your weapons to damage, defend against invaders and get cash rewards for further expansion</li><li>Army commands have 2x capacity</li><li>Tank factories have 2x capacity</li><li>Gun factories have 2x capacity</li><li>Missile factories have 2x capacity</li><li>Dynamite factories have 2x productivity</li>",
     PlayerTradeCancelTitle: "Cancel This Trade?",
-    PlayerTradeCancelDesc: "Cancelling this trade will return your quota and part of your resource",
+    PlayerTradeCancelDescV2: "The tariff paid on this trade will NOT be refunded",
     PlayerTradeCancelYes: "Cancel Trade",
     PlayerTradeCancelNo: "Don't Cancel",
     SteamAutoCloudBackupDescV3:
@@ -1522,4 +1522,6 @@ export const PL = {
     InputBuffer: "Resource Input Buffer",
     InputBufferDesc:
         "The maximum cycles of input resource to keep in the storage before this building will no longer transport that resource. Auto means using prediction to keep a minimum buffer that allows continuous production. Stockpile means always transporting input resources regardless of the amount in the storage",
+    InputCapacityOverride: "Input Capacity Override",
+    InputCapacityOverrideDesc: "For each production cycle, transport %{percent} of the resources needed for production",
 };
