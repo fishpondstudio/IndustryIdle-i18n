@@ -30,8 +30,6 @@ export const VN = {
     Plastic: "Nhựa",
     Petrol: "Xăng",
     Buy: "Mua",
-    NoLiquidity: "Không có giao dịch",
-    NoLiquidityTurnOffAutoSell: "Không đủ lượng giao dịch cho %{res}, ngừng Tự động Bán hàng",
     Multiplier: "Bội số",
     MultiplierDesc: "Mỗi 10 cấp, bạn được thêm 1 bội số",
     SellBuilding: "Bán công trình",
@@ -1478,6 +1476,7 @@ export const VN = {
     AutoSellCapacityDescV2:
         "Max amount of resources auto sell can handle per second, per resource, measured as the percentage of your total production of that resource",
     AutoSellCapacityExtraPercentageFromSwiss: "Extra Percentage from Swiss Upgrade and Boost: %{n}%",
+    BaselineAutoSellCapacity: "Baseline auto sell capacity: %{amount}",
     AchievementAuckland100: "Hoiho",
     AchievementAuckland100Desc: "Earn 100 Swiss Money in Auckland in a single run",
     AchievementAuckland500: "Whio",

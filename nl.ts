@@ -30,8 +30,6 @@ export const NL = {
     Plastic: "Plastic",
     Petrol: "Petroleum",
     Buy: "Kopen",
-    NoLiquidity: "Geen Liquiditeit",
-    NoLiquidityTurnOffAutoSell: "Er is niet genoeg liquiditeit in de markt voor %{res}, auto verkopen is stil gezet",
     Multiplier: "Vermenigvuldiger",
     MultiplierDesc: "Elke 10 levels, krijg je +1 vermenigvuldiger",
     SellBuilding: "Verkoop Gebouw",
@@ -1479,6 +1477,7 @@ export const NL = {
     AutoSellCapacityDescV2:
         "Max amount of resources auto sell can handle per second, per resource, measured as the percentage of your total production of that resource",
     AutoSellCapacityExtraPercentageFromSwiss: "Extra Percentage from Swiss Upgrade and Boost: %{n}%",
+    BaselineAutoSellCapacity: "Baseline auto sell capacity: %{amount}",
     AchievementAuckland100: "Hoiho",
     AchievementAuckland100Desc: "Earn 100 Swiss Money in Auckland in a single run",
     AchievementAuckland500: "Whio",

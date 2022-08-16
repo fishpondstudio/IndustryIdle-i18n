@@ -30,8 +30,6 @@ export const KR = {
     Plastic: "플라스틱",
     Petrol: "휘발유",
     Buy: "구매",
-    NoLiquidity: "유동성 없음",
-    NoLiquidityTurnOffAutoSell: "시장에 %{res}에 대한 유동성이 충분하지 않습니다. 자동 판매가 꺼졌습니다.",
     Multiplier: "승수",
     MultiplierDesc: "10 레벨마다 +1 승수를 얻습니다.",
     SellBuilding: "건물 판매",
@@ -1448,6 +1446,7 @@ export const KR = {
     AutoSellCapacityDescV2:
         "Max amount of resources auto sell can handle per second, per resource, measured as the percentage of your total production of that resource",
     AutoSellCapacityExtraPercentageFromSwiss: "Extra Percentage from Swiss Upgrade and Boost: %{n}%",
+    BaselineAutoSellCapacity: "Baseline auto sell capacity: %{amount}",
     AchievementAuckland100: "Hoiho",
     AchievementAuckland100Desc: "Earn 100 Swiss Money in Auckland in a single run",
     AchievementAuckland500: "Whio",

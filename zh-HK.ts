@@ -30,8 +30,6 @@ export const ZH_HK = {
     Plastic: "塑膠",
     Petrol: "汽油",
     Buy: "買入",
-    NoLiquidity: "無流通性",
-    NoLiquidityTurnOffAutoSell: "唔夠市場流通性，得%{res}，閂咗自動賣出。",
     Multiplier: "倍率",
     MultiplierDesc: "每10級+1倍率",
     SellBuilding: "賣建築物",
@@ -1423,6 +1421,7 @@ export const ZH_HK = {
     AutoSellCapacityDescV2:
         "Max amount of resources auto sell can handle per second, per resource, measured as the percentage of your total production of that resource",
     AutoSellCapacityExtraPercentageFromSwiss: "Extra Percentage from Swiss Upgrade and Boost: %{n}%",
+    BaselineAutoSellCapacity: "Baseline auto sell capacity: %{amount}",
     AchievementAuckland100: "Hoiho",
     AchievementAuckland100Desc: "Earn 100 Swiss Money in Auckland in a single run",
     AchievementAuckland500: "Whio",

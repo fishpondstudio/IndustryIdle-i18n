@@ -30,8 +30,6 @@ export const JP = {
     Plastic: "プラスチック",
     Petrol: "ガソリン",
     Buy: "購入",
-    NoLiquidity: "流動性なし",
-    NoLiquidityTurnOffAutoSell: "%{res}の市場には十分な流動性がないので、自動売却がオフになっています",
     Multiplier: "倍率",
     MultiplierDesc: "10レベルごとに倍率が1上がります",
     SellBuilding: "施設を売却",
@@ -1455,6 +1453,7 @@ export const JP = {
     AutoSellCapacityDescV2:
         "Max amount of resources auto sell can handle per second, per resource, measured as the percentage of your total production of that resource",
     AutoSellCapacityExtraPercentageFromSwiss: "Extra Percentage from Swiss Upgrade and Boost: %{n}%",
+    BaselineAutoSellCapacity: "Baseline auto sell capacity: %{amount}",
     AchievementAuckland100: "Hoiho",
     AchievementAuckland100Desc: "Earn 100 Swiss Money in Auckland in a single run",
     AchievementAuckland500: "Whio",

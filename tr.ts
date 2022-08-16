@@ -30,8 +30,6 @@ export const TR = {
     Plastic: "Plastik",
     Petrol: "Petrol",
     Buy: "Sat",
-    NoLiquidity: "Likidite yok",
-    NoLiquidityTurnOffAutoSell: "Pazarda %{res} için yeterli likidite yok, otomatik satış kapatıldı",
     Multiplier: "Katlayıcı",
     MultiplierDesc: "Her 10 seviyede bir +1 çarpanı alırsınız ",
     SellBuilding: "Yapıyı sat",
@@ -1474,6 +1472,7 @@ export const TR = {
     AutoSellCapacityDescV2:
         "Max amount of resources auto sell can handle per second, per resource, measured as the percentage of your total production of that resource",
     AutoSellCapacityExtraPercentageFromSwiss: "Extra Percentage from Swiss Upgrade and Boost: %{n}%",
+    BaselineAutoSellCapacity: "Baseline auto sell capacity: %{amount}",
     AchievementAuckland100: "Hoiho",
     AchievementAuckland100Desc: "Earn 100 Swiss Money in Auckland in a single run",
     AchievementAuckland500: "Whio",

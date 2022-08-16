@@ -30,9 +30,6 @@ export const FR = {
     Plastic: "Plastique",
     Petrol: "Pétrole Raffiné",
     Buy: "Acheter",
-    NoLiquidity: "Plus d'argent",
-    NoLiquidityTurnOffAutoSell:
-        "Il n'y a pas assez de d'argent sur le marché pour %{res}, la vente automatique a été désactivée",
     Multiplier: "Multiplicateur",
     MultiplierDesc: "Tous les 10 niveaux, vous obtenez x2 multiplicateur",
     SellBuilding: "Vendre un bâtiment",
@@ -1504,6 +1501,7 @@ export const FR = {
     AutoSellCapacityDescV2:
         "Max amount of resources auto sell can handle per second, per resource, measured as the percentage of your total production of that resource",
     AutoSellCapacityExtraPercentageFromSwiss: "Extra Percentage from Swiss Upgrade and Boost: %{n}%",
+    BaselineAutoSellCapacity: "Baseline auto sell capacity: %{amount}",
     AchievementAuckland100: "Hoiho",
     AchievementAuckland100Desc: "Earn 100 Swiss Money in Auckland in a single run",
     AchievementAuckland500: "Whio",
