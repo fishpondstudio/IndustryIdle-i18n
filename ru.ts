@@ -1541,6 +1541,6 @@ export const RU = {
     InputBuffer: "Входной буфер ресурсов",
     InputBufferDesc:
         "Максимальное количество циклов входного ресурса, которое необходимо хранить в складе, прежде чем это здание перестанет транспортировать этот ресурс. Авто означает использование прогнозирования для поддержания минимального количества, позволяющего непрерывно производить продукцию. Запас означает постоянную транспортировку входных ресурсов независимо от их количества на складе",
-    InputCapacityOverride: "Input Capacity Override",
-    InputCapacityOverrideDesc: "For each production cycle, transport %{percent} of the resources needed for production",
+    InputCapacityOverride: "Управление входной мощностью",
+    InputCapacityOverrideDesc: "Для каждого производственного цикла транспортируется %{percent} ресурсов, необходимых для производства",
 };
