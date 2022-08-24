@@ -1507,7 +1507,7 @@ export const RU = {
     AutoSellCapacityDescV2:
         "Максимальное количество ресурсов, которое может обработать автопродажа в секунду, для каждого ресурса, измеряется как процент от общего производства данного ресурса",
     AutoSellCapacityExtraPercentageFromSwiss: "Дополнительный процент от Улучшения и Усиления за кредиты: %{n}%",
-    BaselineAutoSellCapacity: "Baseline auto sell capacity: %{amount}",
+    BaselineAutoSellCapacity: "Базовая мощность автопродажи: %{amount}",
     AchievementAuckland100: "Желтоглазый пингвин",
     AchievementAuckland100Desc: "Заработайте 100 кредитов в Окленде за одну сессию",
     AchievementAuckland500: "Синяя утка",
