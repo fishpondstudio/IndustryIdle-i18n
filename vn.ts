@@ -30,8 +30,6 @@ export const VN = {
     Plastic: "Nhựa",
     Petrol: "Xăng",
     Buy: "Mua",
-    NoLiquidity: "Không có giao dịch",
-    NoLiquidityTurnOffAutoSell: "Không đủ lượng giao dịch cho %{res}, ngừng Tự động Bán hàng",
     Multiplier: "Bội số",
     MultiplierDesc: "Mỗi 10 cấp, bạn được thêm 1 bội số",
     SellBuilding: "Bán công trình",
@@ -180,8 +178,6 @@ export const VN = {
     AdjacentBonus: "Hiệu ứng liền kề",
     AdjacentBonusDesc: "Bạn được thêm %{bonus}% sản lượng cho mỗi công trình liền kề cùng loại",
     ConsiderIncreaseProduction: "💡 Đề nghị tăng sản lượng %{resource}",
-    AlwaysTransportInput: "Chế độ tích trữ",
-    AlwaysTransportInputDesc: "Luôn vận chuyển nguyên liệu, ngay cả khi vượt qua số lượng tối thiểu cần cho sản xuất",
     ProductionCycleLength: "Chu kỳ sản xuất",
     ProductionCycleLengthDesc:
         "Thời gian của một chu kỳ sản xuất tính bằng giây. Kéo dài chu kỳ sẽ tăng nguyên liệu và thành phẩm tương ứng, làm hạ thấp nhu cầu vận chuyển nguyên liệu",
@@ -514,9 +510,7 @@ export const VN = {
     ClaimTrade: "Kết toán",
     FailedToImportSave: "Đọc dữ liệu sao lưu không thành công",
     CancelActiveTradeFirst: "Bạn có giao dịch đang thực hiện với người chơi khác, xin vui lòng kết toán hoặc hủy chúng",
-    PlayerTradeQuotaExceed: "Giao dịch này vượt quá hạn mức của bạn",
     PlayerTradeValidRange: "Khoảng: %{min} ~ %{max}",
-    PlayerTradeQuota: "Hạn mức còn lại: %{value}",
     PlayerTradeUnavailable:
         "Bạn phải sản xuất tối thiểu 1 tài nguyên và có tồn kho trước khi bạn có thể giao dịch với người chơi khác",
     PlayerTradeToClaim: "Bạn có %{num} giao dịch mới cần kết toán trong Giao dịch với Người chơi",
@@ -627,7 +621,6 @@ export const VN = {
         "Vận chuyển đến kho bãi miễn phí nhưng vận chuyển từ kho bãi tốn thêm 50% nhiên liệu",
     TaiChi10xCulture: "Hòn ngọc Viễn Đông",
     PlayerTradeYouHave: "Trong kho: %{amount}",
-    PlayerTradeFillValue: "Giá trị",
     FiberFactory: "Xưởng cáp quang",
     Fiber: "Cáp quang",
     Achievements: "Thành tựu",
@@ -1046,8 +1039,6 @@ export const VN = {
     CrowdfundingReturnBonus: "+%{return} Return",
     ReturnOnPledgeDescV2:
         "Your total return equals to total pledged value multiplied by return rates from all resources. More backers of a resource will improve its return",
-    PlayerTradeQuotaDescV2:
-        "💡 Quota is the amount of the resource you can trade. The monetary value equals to %{percent} of your market cap and it resets when the market updates. The more your trade's price deviates from your trade center price, the more quota you need",
     AchievementSanJose100: "Venture Hobbyist",
     AchievementSanJose100Desc: "Earn 100 Swiss Money in San Jose in a single run",
     AchievementSanJose500: "Venture Enthusiast",
@@ -1365,9 +1356,6 @@ export const VN = {
     PlayerTradeFilterWhatIHave: "Filter What I Have",
     PathTemporarilyBlocked:
         "You cannot build on this tile as there's a wave in progress. Check again after the wave is finished",
-    MobilePriceChangeTitle: "Complementary Expansion Pack 2",
-    MobilePriceChangeDesc:
-        "Price for Expansion Pack 1 on %{platform} has been changed from $4.99 to $2.99. As you are our early supporter and have purchased the expansion with the original price, we would like to offer you a complimentary Expansion Pack 2 ($2.99) when it is released. This should be automatic - but if it doesn't work, you can click Restore Purchases or contact support",
     MoveBuilding: "Move Building",
     MoveBuildingInvalidTarget: "Failed to move the building - target tile is not valid",
     MoveBuildingMoving: "Select An Empty Tile...",
@@ -1376,7 +1364,7 @@ export const VN = {
     IstanbulBonus:
         "<li>Tower defense mode - convert your weapons to damage, defend against invaders and get cash rewards for further expansion</li><li>Army commands have 2x capacity</li><li>Tank factories have 2x capacity</li><li>Gun factories have 2x capacity</li><li>Missile factories have 2x capacity</li><li>Dynamite factories have 2x productivity</li>",
     PlayerTradeCancelTitle: "Cancel This Trade?",
-    PlayerTradeCancelDesc: "Cancelling this trade will return your quota and part of your resource",
+    PlayerTradeCancelDescV2: "The tariff paid on this trade will NOT be refunded",
     PlayerTradeCancelYes: "Cancel Trade",
     PlayerTradeCancelNo: "Don't Cancel",
     SteamAutoCloudBackupDescV3:
@@ -1482,19 +1470,46 @@ export const VN = {
     ResearchAgreementDesc: "Filling each trade with an unique player gives 10 mins of research point production",
     NewsEffectx2V2: "Press Conference",
     NewsEffectx2DescV2: "All market news are 50% more effective",
-    PlayerTradeQuotaPenaltyWarning:
-        "Your trading value with this player exceeds 1% of your market cap and the price of this trade differs too much from your local price. Filling this trade requires extra trading quota",
     AutoSellCapacityMultiplierV2: "Extra Auto Sell Capacity",
     AutoSellCapacityMultiplierDescV2: "This will give extra auto sell capacity on top of your existing capacity",
     AutoSellCapacity: "Số lượng Tự động Bán hàng",
     AutoSellCapacityDescV2:
         "Max amount of resources auto sell can handle per second, per resource, measured as the percentage of your total production of that resource",
     AutoSellCapacityExtraPercentageFromSwiss: "Extra Percentage from Swiss Upgrade and Boost: %{n}%",
-    PlayerTradeHideExtraQuotaTrades: "Hide trades that require extra quota",
+    BaselineAutoSellCapacity: "Baseline auto sell capacity: %{amount}",
     AchievementAuckland100: "Hoiho",
     AchievementAuckland100Desc: "Earn 100 Swiss Money in Auckland in a single run",
     AchievementAuckland500: "Whio",
     AchievementAuckland500Desc: "Earn 500 Swiss Money in Auckland in a single run",
     AchievementAuckland1000: "Kiwi",
     AchievementAuckland1000Desc: "Earn 1000 Swiss Money in Auckland in a single run",
+    ExternalManageYourSave: "Import And Export Your Save",
+    ExternalManageYourSaveDesc:
+        "Due to technical limitation, Importing and exporting your save must be done from the game's official website",
+    MREPlant: "Meal, Ready-To-Eat Plant",
+    PlayerTradeTaxCreditProduction: "Tax Credit: Production",
+    PlayerTradeTaxCreditProductionDescV2:
+        "This tax credit is based on the amount of %{res} you've produced since the last market update. You have produced %{produced} and you have traded %{used}",
+    PlayerTradeTaxCreditMarketCap: "Tax Credit: Market Cap",
+    PlayerTradeTaxCreditMarketCapDesc:
+        "This tax credit is %{percentage} of your market cap, can be upgraded via Swiss Upgrade/Boost. Total credit amount is %{total} and you have used %{used}",
+    PlayerTradeGrossTradeValue: "Gross Trade Value",
+    PlayerTradeTaxableValue: "Taxable Value",
+    PlayerTradeTaxRate: "Tax Rate",
+    PlayerTradeTaxRateDesc:
+        "Tax rate is based on price difference between your local price and this trade - the tax rate is progressive. 0% ~ 50%: 0.5% for every 1% difference; 50% ~ 75%: 1% for every 1% difference; 75% ~ 100%: 2% for every 1% difference",
+    PlayerTradeTaxPayable: "Tax Payable",
+    PlayerTradeTradeValueAfterTax: "Trade Value After Tax",
+    PlayerTradeShowTaxCalculation: "Show Tax Calculation",
+    PlayerTradeHideTaxCalculation: "Hide Tax Calculation",
+    PlayerTradeMaxTaxCreditValue: "Set Amount to Match Tax Credit",
+    WaterProductionx2: "Super Water Pump",
+    WaterProductionx2Desc: "Water pumps produce 2x output but consumes 2x power",
+    InputBufferTypeAuto: "Auto",
+    InputBufferTypeStockpile: "Stockpile",
+    InputBuffer: "Resource Input Buffer",
+    InputBufferDesc:
+        "The maximum cycles of input resource to keep in the storage before this building will no longer transport that resource. Auto means using prediction to keep a minimum buffer that allows continuous production. Stockpile means always transporting input resources regardless of the amount in the storage",
+    InputCapacityOverride: "Input Capacity Override",
+    InputCapacityOverrideDesc: "For each production cycle, transport %{percent} of the resources needed for production",
 };

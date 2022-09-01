@@ -30,9 +30,6 @@ export const DE = {
     Plastic: "Kunststoff",
     Petrol: "Benzin",
     Buy: "Kaufen",
-    NoLiquidity: "Zahlungsunfähig",
-    NoLiquidityTurnOffAutoSell:
-        "Es gibt nicht genügend Nachfrage für %{res}, der automatische Verkauf wurde eingestellt.",
     Multiplier: "Multiplikator",
     MultiplierDesc: "Alle 10 Stufen erhältst du +1 Multiplikator",
     SellBuilding: "Gebäude verkaufen",
@@ -184,8 +181,6 @@ export const DE = {
     AdjacentBonusDesc:
         "Du erhältst %{bonus}% zusätzliche Kapazität für jedes angrenzende und arbeitende Gebäude der selben Art",
     ConsiderIncreaseProduction: "💡 Versuche die Produktion von %{resource} zu erhöhen.",
-    AlwaysTransportInput: "Vorratsmodus",
-    AlwaysTransportInputDesc: "Transportiere benötigte Ressourcen immer, auch wenn es mehr als benötigt ist",
     ProductionCycleLength: "Produktionszyklus",
     ProductionCycleLengthDesc:
         "Dauer eines Produktionszyklus in Sekunden. Eine Verlängerung des Zyklus erhöht entsprechend die benötigten und hergestellten Ressourcen",
@@ -529,9 +524,7 @@ export const DE = {
     ClaimTrade: "Beanspruchen",
     FailedToImportSave: "Fehler beim Importieren der Sicherungsdateien",
     CancelActiveTradeFirst: "Du hast aktive Spielerhandel, bitte storniere / beanspruche diese zuerst",
-    PlayerTradeQuotaExceed: "Dieser Handel hat deine Marktgrenze überschritten",
     PlayerTradeValidRange: "Entfernung: %{min} ~ %{max}",
-    PlayerTradeQuota: "Menge übrig: %{value}",
     PlayerTradeUnavailable:
         "Du brauchst mindestens eine Ressource in Produktion oder im Lager um mit anderen Spielern zu handeln",
     PlayerTradeToClaim: "Du hast %{num} neue Handel zum Abholen im Spielerhandel",
@@ -644,7 +637,6 @@ export const DE = {
         "Der Transport zum Handelszentrum kostet keinen Kraftstoff, aber der Transport vom Handelszentrum kostet 50% mehr Kraftstoff",
     TaiChi10xCulture: "Perle des Orients",
     PlayerTradeYouHave: "Auf Lager: %{amount}",
-    PlayerTradeFillValue: "Wert",
     FiberFactory: "Glasfaserfabrik",
     Fiber: "Glasfaser",
     Achievements: "Errungenschaften",
@@ -1513,19 +1505,46 @@ export const DE = {
     ResearchAgreementDesc: "Filling each trade with an unique player gives 10 mins of research point production",
     NewsEffectx2V2: "Press Conference",
     NewsEffectx2DescV2: "All market news are 50% more effective",
-    PlayerTradeQuotaPenaltyWarning:
-        "Your trading value with this player exceeds 1% of your market cap and the price of this trade differs too much from your local price. Filling this trade requires extra trading quota",
     AutoSellCapacityMultiplierV2: "Extra Auto Sell Capacity",
     AutoSellCapacityMultiplierDescV2: "This will give extra auto sell capacity on top of your existing capacity",
     AutoSellCapacity: "automatische Verkaufsmenge",
     AutoSellCapacityDescV2:
         "Max amount of resources auto sell can handle per second, per resource, measured as the percentage of your total production of that resource",
     AutoSellCapacityExtraPercentageFromSwiss: "Extra Percentage from Swiss Upgrade and Boost: %{n}%",
-    PlayerTradeHideExtraQuotaTrades: "Hide trades that require extra quota",
+    BaselineAutoSellCapacity: "Baseline auto sell capacity: %{amount}",
     AchievementAuckland100: "Hoiho",
     AchievementAuckland100Desc: "Earn 100 Swiss Money in Auckland in a single run",
     AchievementAuckland500: "Whio",
     AchievementAuckland500Desc: "Earn 500 Swiss Money in Auckland in a single run",
     AchievementAuckland1000: "Kiwi",
     AchievementAuckland1000Desc: "Earn 1000 Swiss Money in Auckland in a single run",
+    ExternalManageYourSave: "Import And Export Your Save",
+    ExternalManageYourSaveDesc:
+        "Due to technical limitation, Importing and exporting your save must be done from the game's official website",
+    MREPlant: "Meal, Ready-To-Eat Plant",
+    PlayerTradeTaxCreditProduction: "Tax Credit: Production",
+    PlayerTradeTaxCreditProductionDescV2:
+        "This tax credit is based on the amount of %{res} you've produced since the last market update. You have produced %{produced} and you have traded %{used}",
+    PlayerTradeTaxCreditMarketCap: "Tax Credit: Market Cap",
+    PlayerTradeTaxCreditMarketCapDesc:
+        "This tax credit is %{percentage} of your market cap, can be upgraded via Swiss Upgrade/Boost. Total credit amount is %{total} and you have used %{used}",
+    PlayerTradeGrossTradeValue: "Gross Trade Value",
+    PlayerTradeTaxableValue: "Taxable Value",
+    PlayerTradeTaxRate: "Tax Rate",
+    PlayerTradeTaxRateDesc:
+        "Tax rate is based on price difference between your local price and this trade - the tax rate is progressive. 0% ~ 50%: 0.5% for every 1% difference; 50% ~ 75%: 1% for every 1% difference; 75% ~ 100%: 2% for every 1% difference",
+    PlayerTradeTaxPayable: "Tax Payable",
+    PlayerTradeTradeValueAfterTax: "Trade Value After Tax",
+    PlayerTradeShowTaxCalculation: "Show Tax Calculation",
+    PlayerTradeHideTaxCalculation: "Hide Tax Calculation",
+    PlayerTradeMaxTaxCreditValue: "Set Amount to Match Tax Credit",
+    WaterProductionx2: "Super Water Pump",
+    WaterProductionx2Desc: "Water pumps produce 2x output but consumes 2x power",
+    InputBufferTypeAuto: "Auto",
+    InputBufferTypeStockpile: "Stockpile",
+    InputBuffer: "Resource Input Buffer",
+    InputBufferDesc:
+        "The maximum cycles of input resource to keep in the storage before this building will no longer transport that resource. Auto means using prediction to keep a minimum buffer that allows continuous production. Stockpile means always transporting input resources regardless of the amount in the storage",
+    InputCapacityOverride: "Input Capacity Override",
+    InputCapacityOverrideDesc: "For each production cycle, transport %{percent} of the resources needed for production",
 };

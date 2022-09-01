@@ -30,8 +30,6 @@ export const ZH_HK = {
     Plastic: "塑膠",
     Petrol: "汽油",
     Buy: "買入",
-    NoLiquidity: "無流通性",
-    NoLiquidityTurnOffAutoSell: "唔夠市場流通性，得%{res}，閂咗自動賣出。",
     Multiplier: "倍率",
     MultiplierDesc: "每10級+1倍率",
     SellBuilding: "賣建築物",
@@ -179,8 +177,6 @@ export const ZH_HK = {
     AdjacentBonus: "相鄰加成",
     AdjacentBonusDesc: "每棟相鄰同類型郁緊嘅建築會有%{bonus}%額外產量",
     ConsiderIncreaseProduction: "💡 考慮加多啲%{resource}產量",
-    AlwaysTransportInput: "儲存模式",
-    AlwaysTransportInputDesc: "一直入資源，就算佢哋高過最低生產要求",
     ProductionCycleLength: "生產周期",
     ProductionCycleLengthDesc: "一個生產周期嘅時間，用秒計。加長周期會加每個周期嘅輸出入嚟到降低攞資源輸入嘅優先度",
     MaxInputDistance: "最長輸入距離",
@@ -495,9 +491,7 @@ export const ZH_HK = {
     ClaimTrade: "攞",
     FailedToImportSave: "匯入唔到存檔",
     CancelActiveTradeFirst: "您有做緊嘅玩家交易，取消/攞咗佢哋先",
-    PlayerTradeQuotaExceed: "呢個交易多過您嘅配額",
     PlayerTradeValidRange: "範圍: %{min} ~ %{max}",
-    PlayerTradeQuota: "配額得返: %{value}",
     PlayerTradeUnavailable: "喺同玩家交易之前，你要至少有一個資源喺生產同存庫度",
     PlayerTradeToClaim: "您有 %{num}單玩家交易仲未攞",
     PowerBank: "蓄電池",
@@ -599,7 +593,6 @@ export const ZH_HK = {
     FreeTransportToTradeCenterDesc: "運到交易所唔用燃料，但喺交易所度運用多50%燃料",
     TaiChi10xCulture: "東方之珠",
     PlayerTradeYouHave: "庫存: %{amount}",
-    PlayerTradeFillValue: "價值",
     FiberFactory: "光纖工廠",
     Fiber: "光纖",
     Achievements: "成就",
@@ -991,8 +984,6 @@ export const ZH_HK = {
     CrowdfundingReturnBonus: "+%{return} Return",
     ReturnOnPledgeDescV2:
         "Your total return equals to total pledged value multiplied by return rates from all resources. More backers of a resource will improve its return",
-    PlayerTradeQuotaDescV2:
-        "💡 Quota is the amount of the resource you can trade. The monetary value equals to %{percent} of your market cap and it resets when the market updates. The more your trade's price deviates from your trade center price, the more quota you need",
     AchievementSanJose100: "Venture Hobbyist",
     AchievementSanJose100Desc: "Earn 100 Swiss Money in San Jose in a single run",
     AchievementSanJose500: "Venture Enthusiast",
@@ -1310,9 +1301,6 @@ export const ZH_HK = {
     PlayerTradeFilterWhatIHave: "Filter What I Have",
     PathTemporarilyBlocked:
         "You cannot build on this tile as there's a wave in progress. Check again after the wave is finished",
-    MobilePriceChangeTitle: "Complementary Expansion Pack 2",
-    MobilePriceChangeDesc:
-        "Price for Expansion Pack 1 on %{platform} has been changed from $4.99 to $2.99. As you are our early supporter and have purchased the expansion with the original price, we would like to offer you a complimentary Expansion Pack 2 ($2.99) when it is released. This should be automatic - but if it doesn't work, you can click Restore Purchases or contact support",
     MoveBuilding: "Move Building",
     MoveBuildingInvalidTarget: "Failed to move the building - target tile is not valid",
     MoveBuildingMoving: "Select An Empty Tile...",
@@ -1321,7 +1309,7 @@ export const ZH_HK = {
     IstanbulBonus:
         "<li>Tower defense mode - convert your weapons to damage, defend against invaders and get cash rewards for further expansion</li><li>Army commands have 2x capacity</li><li>Tank factories have 2x capacity</li><li>Gun factories have 2x capacity</li><li>Missile factories have 2x capacity</li><li>Dynamite factories have 2x productivity</li>",
     PlayerTradeCancelTitle: "Cancel This Trade?",
-    PlayerTradeCancelDesc: "Cancelling this trade will return your quota and part of your resource",
+    PlayerTradeCancelDescV2: "The tariff paid on this trade will NOT be refunded",
     PlayerTradeCancelYes: "Cancel Trade",
     PlayerTradeCancelNo: "Don't Cancel",
     SteamAutoCloudBackupDescV3:
@@ -1427,19 +1415,46 @@ export const ZH_HK = {
     ResearchAgreementDesc: "Filling each trade with an unique player gives 10 mins of research point production",
     NewsEffectx2V2: "Press Conference",
     NewsEffectx2DescV2: "All market news are 50% more effective",
-    PlayerTradeQuotaPenaltyWarning:
-        "Your trading value with this player exceeds 1% of your market cap and the price of this trade differs too much from your local price. Filling this trade requires extra trading quota",
     AutoSellCapacityMultiplierV2: "Extra Auto Sell Capacity",
     AutoSellCapacityMultiplierDescV2: "This will give extra auto sell capacity on top of your existing capacity",
     AutoSellCapacity: "自動賣出量",
     AutoSellCapacityDescV2:
         "Max amount of resources auto sell can handle per second, per resource, measured as the percentage of your total production of that resource",
     AutoSellCapacityExtraPercentageFromSwiss: "Extra Percentage from Swiss Upgrade and Boost: %{n}%",
-    PlayerTradeHideExtraQuotaTrades: "Hide trades that require extra quota",
+    BaselineAutoSellCapacity: "Baseline auto sell capacity: %{amount}",
     AchievementAuckland100: "Hoiho",
     AchievementAuckland100Desc: "Earn 100 Swiss Money in Auckland in a single run",
     AchievementAuckland500: "Whio",
     AchievementAuckland500Desc: "Earn 500 Swiss Money in Auckland in a single run",
     AchievementAuckland1000: "Kiwi",
     AchievementAuckland1000Desc: "Earn 1000 Swiss Money in Auckland in a single run",
+    ExternalManageYourSave: "Import And Export Your Save",
+    ExternalManageYourSaveDesc:
+        "Due to technical limitation, Importing and exporting your save must be done from the game's official website",
+    MREPlant: "Meal, Ready-To-Eat Plant",
+    PlayerTradeTaxCreditProduction: "Tax Credit: Production",
+    PlayerTradeTaxCreditProductionDescV2:
+        "This tax credit is based on the amount of %{res} you've produced since the last market update. You have produced %{produced} and you have traded %{used}",
+    PlayerTradeTaxCreditMarketCap: "Tax Credit: Market Cap",
+    PlayerTradeTaxCreditMarketCapDesc:
+        "This tax credit is %{percentage} of your market cap, can be upgraded via Swiss Upgrade/Boost. Total credit amount is %{total} and you have used %{used}",
+    PlayerTradeGrossTradeValue: "Gross Trade Value",
+    PlayerTradeTaxableValue: "Taxable Value",
+    PlayerTradeTaxRate: "Tax Rate",
+    PlayerTradeTaxRateDesc:
+        "Tax rate is based on price difference between your local price and this trade - the tax rate is progressive. 0% ~ 50%: 0.5% for every 1% difference; 50% ~ 75%: 1% for every 1% difference; 75% ~ 100%: 2% for every 1% difference",
+    PlayerTradeTaxPayable: "Tax Payable",
+    PlayerTradeTradeValueAfterTax: "Trade Value After Tax",
+    PlayerTradeShowTaxCalculation: "Show Tax Calculation",
+    PlayerTradeHideTaxCalculation: "Hide Tax Calculation",
+    PlayerTradeMaxTaxCreditValue: "Set Amount to Match Tax Credit",
+    WaterProductionx2: "Super Water Pump",
+    WaterProductionx2Desc: "Water pumps produce 2x output but consumes 2x power",
+    InputBufferTypeAuto: "Auto",
+    InputBufferTypeStockpile: "Stockpile",
+    InputBuffer: "Resource Input Buffer",
+    InputBufferDesc:
+        "The maximum cycles of input resource to keep in the storage before this building will no longer transport that resource. Auto means using prediction to keep a minimum buffer that allows continuous production. Stockpile means always transporting input resources regardless of the amount in the storage",
+    InputCapacityOverride: "Input Capacity Override",
+    InputCapacityOverrideDesc: "For each production cycle, transport %{percent} of the resources needed for production",
 };

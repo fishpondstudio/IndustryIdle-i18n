@@ -30,9 +30,6 @@ export const ES = {
     Plastic: "Plástico",
     Petrol: "Gasolina",
     Buy: "Comprar",
-    NoLiquidity: "Sin liquidez",
-    NoLiquidityTurnOffAutoSell:
-        "No hay suficiente liquidez en el mercado para %{res}, la venta automática se ha desactivado",
     Multiplier: "Multiplicador",
     MultiplierDesc: "Cada 10 niveles, obtienes +1 multiplicador",
     SellBuilding: "Vender edificio",
@@ -172,7 +169,7 @@ export const ES = {
     UraniumEnrichmentPlant: "Planta de enriquecimiento de uranio",
     UraniumMine: "Mina de uranio",
     Titanium: "Titanio",
-    TitaniumMine: "Titanium mine",
+    TitaniumMine: "Mina de titanio",
     TitaniumAlloyPlant: "Mina de titanio",
     ChromiumAlloyPlant: "Planta de aleación de cromo",
     Input: "Entrada",
@@ -184,9 +181,6 @@ export const ES = {
     AdjacentBonusDesc:
         "Consigues un %{bonus}% de capacidad adicional por cada edificio de trabajo adyacente del mismo tipo",
     ConsiderIncreaseProduction: "💡 Valora incrementar %{resource} producción",
-    AlwaysTransportInput: "Siempre transportar",
-    AlwaysTransportInputDesc:
-        "Transporte siempre los recursos de entrada, incluso si están por encima de los requisitos mínimos de producción.",
     ProductionCycleLength: "Duración del ciclo productivo",
     ProductionCycleLengthDesc:
         "Duración de un ciclo de producción, medido en segundos. Prolongar el ciclo aumentará la entrada y salida por ciclo y por tanto reducirá su prioridad al buscar recursos de entrada",
@@ -527,9 +521,7 @@ export const ES = {
     ClaimTrade: "Reclamar",
     FailedToImportSave: "Error al Importar Partida",
     CancelActiveTradeFirst: "Tiene intercambios de jugadores activos, cancélelos o reclame primero",
-    PlayerTradeQuotaExceed: "Esta operación ha excedido su cuota",
     PlayerTradeValidRange: "Rango: %{min} ~ %{max}",
-    PlayerTradeQuota: "Cuota restante: %{value}",
     PlayerTradeUnavailable:
         "Debe tener al menos un recurso en producción y almacenado antes de poder comerciar con los jugadores.",
     PlayerTradeToClaim: "Tienes %{num} intercambio(s) nuevo(s) para reclamar en Player Trade",
@@ -576,14 +568,14 @@ export const ES = {
     PlayerCountryFlag: "Player Flag",
     PlayerCountryChooseFlag: "In Alphabetical Order of Country Code",
     WindTurbineAlwaysWork: "The Wind Rises",
-    WindTurbineAlwaysWorkDesc: "Wind turbines work 100% of the time but produces 30% less power",
+    WindTurbineAlwaysWorkDesc: "Turbinas de viento trabajan el 100% del tiempo pero producen un 30% menos de energia",
     BookPublisherScience: "Science Literature",
-    BookPublisherScienceDesc: "Book publishers produce science instead of culture",
+    BookPublisherScienceDesc: "La publicacion de libros produce ciencia en vez de cultura",
     BatteryFuelEconomy: "Batería Recargable",
     BatteryFuelEconomyDesc: "Battery fuel economy improves by 100% (ie. 50% fuel cost)",
-    ShowTheoreticalInputOutputCapacity: "Show theoretical input/output capacity",
-    SpecialTransportCost: "Resources with Special Transport Cost",
-    FreeTransportCost: "Resources with Free Transport Cost",
+    ShowTheoreticalInputOutputCapacity: "Muestra la capadidad teorica de entrada/salida",
+    SpecialTransportCost: "Recursos con coste especial de transporte",
+    FreeTransportCost: "Recursos con transporte gratuito",
     Osaka: "Osaka",
     OsakaBonus:
         "<li>Resources tend to spawn in clusters</li><li>Warehouse provide 50% more fuel save</li><li>Unique building: manga publisher</li><li>Unique building: anime studio</li><li>Semiconductor factories have 2x productivity</li><li>Li-ion battery factories have 2x capacity</li><li>Battery factories are unlocked</li><li>Battery factories have 2x capacity</li><li>Battery fuel economy improves by 100%</li><li>Battery factories do not require coal</li><li>Start with 100K batteries</li>",
@@ -635,7 +627,6 @@ export const ES = {
         "Transportation to the trade center does not cost fuel but transportation from the trade center cost 50% more fuel",
     TaiChi10xCulture: "Pearl of the Orient",
     PlayerTradeYouHave: "En Almacén: %{amount}",
-    PlayerTradeFillValue: "Valor",
     FiberFactory: "Fiber Factory",
     Fiber: "Fiber",
     Achievements: "Logros",
@@ -1053,8 +1044,6 @@ export const ES = {
     CrowdfundingReturnBonus: "+%{return} Return",
     ReturnOnPledgeDescV2:
         "Your total return equals to total pledged value multiplied by return rates from all resources. More backers of a resource will improve its return",
-    PlayerTradeQuotaDescV2:
-        "💡 Quota is the amount of the resource you can trade. The monetary value equals to %{percent} of your market cap and it resets when the market updates. The more your trade's price deviates from your trade center price, the more quota you need",
     AchievementSanJose100: "Venture Hobbyist",
     AchievementSanJose100Desc: "Earn 100 Swiss Money in San Jose in a single run",
     AchievementSanJose500: "Venture Enthusiast",
@@ -1372,9 +1361,6 @@ export const ES = {
     PlayerTradeFilterWhatIHave: "Filter What I Have",
     PathTemporarilyBlocked:
         "You cannot build on this tile as there's a wave in progress. Check again after the wave is finished",
-    MobilePriceChangeTitle: "Complementary Expansion Pack 2",
-    MobilePriceChangeDesc:
-        "Price for Expansion Pack 1 on %{platform} has been changed from $4.99 to $2.99. As you are our early supporter and have purchased the expansion with the original price, we would like to offer you a complimentary Expansion Pack 2 ($2.99) when it is released. This should be automatic - but if it doesn't work, you can click Restore Purchases or contact support",
     MoveBuilding: "Move Building",
     MoveBuildingInvalidTarget: "Failed to move the building - target tile is not valid",
     MoveBuildingMoving: "Select An Empty Tile...",
@@ -1383,7 +1369,7 @@ export const ES = {
     IstanbulBonus:
         "<li>Tower defense mode - convert your weapons to damage, defend against invaders and get cash rewards for further expansion</li><li>Army commands have 2x capacity</li><li>Tank factories have 2x capacity</li><li>Gun factories have 2x capacity</li><li>Missile factories have 2x capacity</li><li>Dynamite factories have 2x productivity</li>",
     PlayerTradeCancelTitle: "Cancel This Trade?",
-    PlayerTradeCancelDesc: "Cancelling this trade will return your quota and part of your resource",
+    PlayerTradeCancelDescV2: "The tariff paid on this trade will NOT be refunded",
     PlayerTradeCancelYes: "Cancel Trade",
     PlayerTradeCancelNo: "Don't Cancel",
     SteamAutoCloudBackupDescV3:
@@ -1490,19 +1476,46 @@ export const ES = {
     ResearchAgreementDesc: "Filling each trade with an unique player gives 10 mins of research point production",
     NewsEffectx2V2: "Press Conference",
     NewsEffectx2DescV2: "All market news are 50% more effective",
-    PlayerTradeQuotaPenaltyWarning:
-        "Your trading value with this player exceeds 1% of your market cap and the price of this trade differs too much from your local price. Filling this trade requires extra trading quota",
     AutoSellCapacityMultiplierV2: "Extra Auto Sell Capacity",
     AutoSellCapacityMultiplierDescV2: "This will give extra auto sell capacity on top of your existing capacity",
     AutoSellCapacity: "Capacidad de venta automática",
     AutoSellCapacityDescV2:
         "Max amount of resources auto sell can handle per second, per resource, measured as the percentage of your total production of that resource",
     AutoSellCapacityExtraPercentageFromSwiss: "Extra Percentage from Swiss Upgrade and Boost: %{n}%",
-    PlayerTradeHideExtraQuotaTrades: "Hide trades that require extra quota",
+    BaselineAutoSellCapacity: "Baseline auto sell capacity: %{amount}",
     AchievementAuckland100: "Hoiho",
     AchievementAuckland100Desc: "Earn 100 Swiss Money in Auckland in a single run",
     AchievementAuckland500: "Whio",
     AchievementAuckland500Desc: "Earn 500 Swiss Money in Auckland in a single run",
     AchievementAuckland1000: "Kiwi",
     AchievementAuckland1000Desc: "Earn 1000 Swiss Money in Auckland in a single run",
+    ExternalManageYourSave: "Import And Export Your Save",
+    ExternalManageYourSaveDesc:
+        "Due to technical limitation, Importing and exporting your save must be done from the game's official website",
+    MREPlant: "Meal, Ready-To-Eat Plant",
+    PlayerTradeTaxCreditProduction: "Tax Credit: Production",
+    PlayerTradeTaxCreditProductionDescV2:
+        "This tax credit is based on the amount of %{res} you've produced since the last market update. You have produced %{produced} and you have traded %{used}",
+    PlayerTradeTaxCreditMarketCap: "Tax Credit: Market Cap",
+    PlayerTradeTaxCreditMarketCapDesc:
+        "This tax credit is %{percentage} of your market cap, can be upgraded via Swiss Upgrade/Boost. Total credit amount is %{total} and you have used %{used}",
+    PlayerTradeGrossTradeValue: "Gross Trade Value",
+    PlayerTradeTaxableValue: "Taxable Value",
+    PlayerTradeTaxRate: "Tax Rate",
+    PlayerTradeTaxRateDesc:
+        "Tax rate is based on price difference between your local price and this trade - the tax rate is progressive. 0% ~ 50%: 0.5% for every 1% difference; 50% ~ 75%: 1% for every 1% difference; 75% ~ 100%: 2% for every 1% difference",
+    PlayerTradeTaxPayable: "Tax Payable",
+    PlayerTradeTradeValueAfterTax: "Trade Value After Tax",
+    PlayerTradeShowTaxCalculation: "Show Tax Calculation",
+    PlayerTradeHideTaxCalculation: "Hide Tax Calculation",
+    PlayerTradeMaxTaxCreditValue: "Set Amount to Match Tax Credit",
+    WaterProductionx2: "Super Water Pump",
+    WaterProductionx2Desc: "Water pumps produce 2x output but consumes 2x power",
+    InputBufferTypeAuto: "Auto",
+    InputBufferTypeStockpile: "Stockpile",
+    InputBuffer: "Resource Input Buffer",
+    InputBufferDesc:
+        "The maximum cycles of input resource to keep in the storage before this building will no longer transport that resource. Auto means using prediction to keep a minimum buffer that allows continuous production. Stockpile means always transporting input resources regardless of the amount in the storage",
+    InputCapacityOverride: "Input Capacity Override",
+    InputCapacityOverrideDesc: "For each production cycle, transport %{percent} of the resources needed for production",
 };

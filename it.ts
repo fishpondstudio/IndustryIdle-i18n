@@ -30,9 +30,6 @@ export const IT = {
     Plastic: "Plastica",
     Petrol: "Benzina",
     Buy: "Compra",
-    NoLiquidity: "Nessuna Liquidità",
-    NoLiquidityTurnOffAutoSell:
-        "Non c'è abbastanza liquidità nel mercato per %{res}, la vendita automatica è stata disattivata",
     Multiplier: "Moltiplicatore",
     MultiplierDesc: "Ogni 10 livelli, guadagni +1 moltiplicazione",
     SellBuilding: "Vendi Struttura",
@@ -184,9 +181,6 @@ export const IT = {
     AdjacentBonusDesc:
         "Ottieni %{bonus}% in più di capacità per ogni struttura adiacente funzionante dello stesso tipo",
     ConsiderIncreaseProduction: "💡 Considera un aumento del %{resource} della produzione",
-    AlwaysTransportInput: "Modalità Di Scorta",
-    AlwaysTransportInputDesc:
-        "Trasporta sempre le risorse di input, anche se sono sotto la prodizione minima richiesta",
     ProductionCycleLength: "Ciclo Di Produzione",
     ProductionCycleLengthDesc:
         "Durata del ciclo di produzione, misurata in secondi. Allungando la lunghezza del ciclo, aumenterà l'input/output per ciclo, di conseguenza si ridurrà la sua priorità durante il recupero delle risorse di input",
@@ -525,9 +519,7 @@ export const IT = {
     ClaimTrade: "Reclama",
     FailedToImportSave: "Errore nell'importare il salvataggio",
     CancelActiveTradeFirst: "Hai degli scambi tra giocatori attivi, per favore reclamali",
-    PlayerTradeQuotaExceed: "Questo scambio ha ecceduto la tua quota",
     PlayerTradeValidRange: "Raggio: %{min} ~ %{max}",
-    PlayerTradeQuota: "Quota rimasta: %{value}",
     PlayerTradeUnavailable:
         "Hai bisogno di almeno una risorsa in prouzione e nel magazzino prima di effettuare scambi con altri giocatori",
     PlayerTradeToClaim: "Hai %{num} nuovi scambi da reclamare",
@@ -638,7 +630,6 @@ export const IT = {
         "Il trasporto al centro di scambio non costa carburante, ma il trasporto dal centro di scambio costa il 50% di carburante in più",
     TaiChi10xCulture: "Perla dell'Oriente",
     PlayerTradeYouHave: "In Magazzino: %{amount}",
-    PlayerTradeFillValue: "Valore",
     FiberFactory: "Fabbrica di Fibre",
     Fiber: "Fibre",
     Achievements: "Traguardi",
@@ -1067,8 +1058,6 @@ export const IT = {
     CrowdfundingReturnBonus: "+%{return} Ritorno",
     ReturnOnPledgeDescV2:
         "Il tuo ritorno totale è uguale al oegno totale moltiplicato per il rateo di ritorno da tutte le risorse. più sostenitori di una risorsa aumenterà il suo ritorno",
-    PlayerTradeQuotaDescV2:
-        "💡 La quota è la quantità di risorse che puoi scambiare. La quantità monetaria è uguale a %{percent} della tua capitalizzazione di mercato e si resetta quando il mercato si aggiorna. Più scambi deviano dal prezzo del centro degli scambi, più quota sarà necessaria",
     AchievementSanJose100: "Hobbyista del vanto",
     AchievementSanJose100Desc: "Guadagna 100 franchi svizzeri a San Jose in una singola volta",
     AchievementSanJose500: "Appassionato del vanto",
@@ -1393,9 +1382,6 @@ export const IT = {
     PlayerTradeFilterWhatIHave: "Filtra ciò che possiedo",
     PathTemporarilyBlocked:
         "Non puoi costruire qui perchè c'è una ondata in corso. Riprova quando l'ondata sarà finita",
-    MobilePriceChangeTitle: "PAcchetto espansione complementare 2",
-    MobilePriceChangeDesc:
-        "Il prezzo del pachetto espansione 1 su %{platform} è cambiato da $4.99 a $2.99. Dato che sei un nostro supporter dall'inizio e hai comprato il pacchetto espansione al prezzo iniziale, ci piacerebbe offrirti un pacchetto espansione complementare 2 ($2.99) quando sarà rilasciato. Dovrebbe essere automatico - ma se non funziona, puoi premere resetta acquisti oppure contattare il supporto",
     MoveBuilding: "Muovi struttura",
     MoveBuildingInvalidTarget: "Errore nello spostare la struttura - la casella selezionata non è valida",
     MoveBuildingMoving: "Seleziona una casella vuota...",
@@ -1405,7 +1391,7 @@ export const IT = {
     IstanbulBonus:
         "<li>Modalità tower defense - converte le tue armi in danni, difenditi contro gli invasori e ottieni soldi per espansioni future</li><li>Comando dell'esercito ha il doppio della capacità</li><li>Le fabbriche di carri armati hanno il doppio delle capacità</li><li>Le fabbriche di armi hanno il doppio della capacità</li><li>Le fabbriche di missili hanno il doppio della capacità</li><li>Le fabbriche di dinamite producono il dopppio</li>",
     PlayerTradeCancelTitle: "Cancellare questo scambio?",
-    PlayerTradeCancelDesc: "Cancellare questo scambio ti ridarà la tua quota e parte delle risorse",
+    PlayerTradeCancelDescV2: "The tariff paid on this trade will NOT be refunded",
     PlayerTradeCancelYes: "Cancella scambio",
     PlayerTradeCancelNo: "Non cancellare",
     SteamAutoCloudBackupDescV3:
@@ -1516,19 +1502,46 @@ export const IT = {
     ResearchAgreementDesc: "Filling each trade with an unique player gives 10 mins of research point production",
     NewsEffectx2V2: "Press Conference",
     NewsEffectx2DescV2: "All market news are 50% more effective",
-    PlayerTradeQuotaPenaltyWarning:
-        "Your trading value with this player exceeds 1% of your market cap and the price of this trade differs too much from your local price. Filling this trade requires extra trading quota",
     AutoSellCapacityMultiplierV2: "Extra Auto Sell Capacity",
     AutoSellCapacityMultiplierDescV2: "This will give extra auto sell capacity on top of your existing capacity",
     AutoSellCapacity: "Auto Sell Capacity",
     AutoSellCapacityDescV2:
         "Max amount of resources auto sell can handle per second, per resource, measured as the percentage of your total production of that resource",
     AutoSellCapacityExtraPercentageFromSwiss: "Extra Percentage from Swiss Upgrade and Boost: %{n}%",
-    PlayerTradeHideExtraQuotaTrades: "Hide trades that require extra quota",
+    BaselineAutoSellCapacity: "Baseline auto sell capacity: %{amount}",
     AchievementAuckland100: "Hoiho",
     AchievementAuckland100Desc: "Earn 100 Swiss Money in Auckland in a single run",
     AchievementAuckland500: "Whio",
     AchievementAuckland500Desc: "Earn 500 Swiss Money in Auckland in a single run",
     AchievementAuckland1000: "Kiwi",
     AchievementAuckland1000Desc: "Earn 1000 Swiss Money in Auckland in a single run",
+    ExternalManageYourSave: "Import And Export Your Save",
+    ExternalManageYourSaveDesc:
+        "Due to technical limitation, Importing and exporting your save must be done from the game's official website",
+    MREPlant: "Meal, Ready-To-Eat Plant",
+    PlayerTradeTaxCreditProduction: "Tax Credit: Production",
+    PlayerTradeTaxCreditProductionDescV2:
+        "This tax credit is based on the amount of %{res} you've produced since the last market update. You have produced %{produced} and you have traded %{used}",
+    PlayerTradeTaxCreditMarketCap: "Tax Credit: Market Cap",
+    PlayerTradeTaxCreditMarketCapDesc:
+        "This tax credit is %{percentage} of your market cap, can be upgraded via Swiss Upgrade/Boost. Total credit amount is %{total} and you have used %{used}",
+    PlayerTradeGrossTradeValue: "Gross Trade Value",
+    PlayerTradeTaxableValue: "Taxable Value",
+    PlayerTradeTaxRate: "Tax Rate",
+    PlayerTradeTaxRateDesc:
+        "Tax rate is based on price difference between your local price and this trade - the tax rate is progressive. 0% ~ 50%: 0.5% for every 1% difference; 50% ~ 75%: 1% for every 1% difference; 75% ~ 100%: 2% for every 1% difference",
+    PlayerTradeTaxPayable: "Tax Payable",
+    PlayerTradeTradeValueAfterTax: "Trade Value After Tax",
+    PlayerTradeShowTaxCalculation: "Show Tax Calculation",
+    PlayerTradeHideTaxCalculation: "Hide Tax Calculation",
+    PlayerTradeMaxTaxCreditValue: "Set Amount to Match Tax Credit",
+    WaterProductionx2: "Super Water Pump",
+    WaterProductionx2Desc: "Water pumps produce 2x output but consumes 2x power",
+    InputBufferTypeAuto: "Auto",
+    InputBufferTypeStockpile: "Stockpile",
+    InputBuffer: "Resource Input Buffer",
+    InputBufferDesc:
+        "The maximum cycles of input resource to keep in the storage before this building will no longer transport that resource. Auto means using prediction to keep a minimum buffer that allows continuous production. Stockpile means always transporting input resources regardless of the amount in the storage",
+    InputCapacityOverride: "Input Capacity Override",
+    InputCapacityOverrideDesc: "For each production cycle, transport %{percent} of the resources needed for production",
 };
