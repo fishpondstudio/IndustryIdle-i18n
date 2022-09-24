@@ -1513,4 +1513,6 @@ export const NL = {
         "The maximum cycles of input resource to keep in the storage before this building will no longer transport that resource. Auto means using prediction to keep a minimum buffer that allows continuous production. Stockpile means always transporting input resources regardless of the amount in the storage",
     InputCapacityOverride: "Input Capacity Override",
     InputCapacityOverrideDesc: "For each production cycle, transport %{percent} of the resources needed for production",
+    PumpkinSpiceLatte: "Pumpkin Spice Latte",
+    PumpkinPie: "Pumpkin Pie",
 };
