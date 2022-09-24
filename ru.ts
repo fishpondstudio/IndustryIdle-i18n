@@ -1544,4 +1544,6 @@ export const RU = {
     InputCapacityOverride: "Управление входной мощностью",
     InputCapacityOverrideDesc:
         "Для каждого производственного цикла транспортируется %{percent} ресурсов, необходимых для производства",
+    PumpkinSpiceLatte: "Pumpkin Spice Latte",
+    PumpkinPie: "Pumpkin Pie",
 };

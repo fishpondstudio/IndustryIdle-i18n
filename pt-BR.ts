@@ -1542,4 +1542,6 @@ export const PT_BR = {
         "Os ciclos máximos de recursos de entrada a serem mantidos no armazenamento antes deste edifício não transportarão mais esse recurso. Auto significa usar a previsão para manter um buffer mínimo que permita a produção contínua. Estoque significa sempre transportar recursos de entrada, independentemente da quantidade no armazenamento",
     InputCapacityOverride: "Substituição de capacidade de entrada",
     InputCapacityOverrideDesc: "Para cada ciclo de produção, transporte %{percent} dos recursos necessários para a produção",
+    PumpkinSpiceLatte: "Pumpkin Spice Latte",
+    PumpkinPie: "Pumpkin Pie",
 };
