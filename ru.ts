@@ -1544,4 +1544,7 @@ export const RU = {
         "Для каждого производственного цикла транспортируется %{percent} ресурсов, необходимых для производства",
     PumpkinSpiceLatte: "Pumpkin Spice Latte",
     PumpkinPie: "Pumpkin Pie",
+    QuantumComputerLab: "Quantum Computer Lab",
+    QuantumComputer: "Quantum Computer",
+    TVStudioPlus: "TV Studio+",
 };

@@ -1489,4 +1489,7 @@ export const JP = {
     InputCapacityOverrideDesc: "For each production cycle, transport %{percent} of the resources needed for production",
     PumpkinSpiceLatte: "Pumpkin Spice Latte",
     PumpkinPie: "Pumpkin Pie",
+    QuantumComputerLab: "Quantum Computer Lab",
+    QuantumComputer: "Quantum Computer",
+    TVStudioPlus: "TV Studio+",
 };
