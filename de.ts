@@ -1132,7 +1132,8 @@ export const DE = {
     BuildingSourceFallbackDrain: "Lagerbestand",
     BuildingSourceFallbackAuto: "Neu",
     BuildingSourceFallbackMarker: "(Zurückgreifen)",
-    BuildingSourceFallbackMarkerDesc: "Der manuellen Quelle fehlt es an Ressourcen, es wird auf andere Quellen zurückgegriffen",
+    BuildingSourceFallbackMarkerDesc:
+        "Der manuellen Quelle fehlt es an Ressourcen, es wird auf andere Quellen zurückgegriffen",
     BuildingSourceInvalid: "Deine ausgewählte Quelle ist ungültig, wähle ein gültige Zelle aus.",
     RandomIsland: "Zufällige Insel",
     RandomIslandBonus:
@@ -1226,7 +1227,8 @@ export const DE = {
     StandbyModeDesc:
         "Das Spiel wird weiterhin im Hintergrund laufen, aber keine Grafiken mehr rendern. Grafikkarte und Prozessor werden hierdurch entlastet",
     StandbyModeOn: "Energiesparmodus aktiviert",
-    StandbyModeOnDesc: "Das Spiel läuft im Hintergrund. Drücke eine beliebige Taste um den Energiesparmodus zu verlassen",
+    StandbyModeOnDesc:
+        "Das Spiel läuft im Hintergrund. Drücke eine beliebige Taste um den Energiesparmodus zu verlassen",
     PigFarm: "Schweinezuchtbetrieb",
     Pork: "Schweinefleisch",
     SausageFactory: "Metzgerei",
@@ -1494,7 +1496,8 @@ export const DE = {
     ExtraTradeQuota: "Extra Handelsquote",
     ExtraTradeQuotaDesc: "Die Handelsquote beträgt 1% deines Marktwerts - Diese Richtlinie gewährt zusätzliche %",
     ProduceAllCrops: "Grüner Daumen",
-    ProduceAllCropsDesc: "Äcker und Gewächshäuser können alle Pflanzen, einschließlich derer, die nicht auf der Karte vorhanden sind, anbauen",
+    ProduceAllCropsDesc:
+        "Äcker und Gewächshäuser können alle Pflanzen, einschließlich derer, die nicht auf der Karte vorhanden sind, anbauen",
     ResearchAgreement: "Forschungsübereinkunft",
     ResearchAgreementDesc: "Jeder Handel mit einem individuellen Spieler gewährt 10 Minuten Forschungszeit",
     NewsEffectx2V2: "Pressekonferenz",

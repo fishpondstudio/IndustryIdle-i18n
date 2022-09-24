@@ -1,6 +1,7 @@
 export const ES = {
     Translator: "Traductor",
-    TranslatorName: "Juan Manuel Jaén Cabrera (Leunal17), Dishito, Daniel Padilla Rodríguez (danpad01), robertomd, MrGat0s",
+    TranslatorName:
+        "Juan Manuel Jaén Cabrera (Leunal17), Dishito, Daniel Padilla Rodríguez (danpad01), robertomd, MrGat0s",
     Language: "Idioma",
     ThisLanguage: "Español",
     OK: "Vale",
