@@ -335,8 +335,7 @@ export const DE = {
     AlSemiconductor: "Al Schaltkreis",
     AlSemiconductorDesc: "Schaltungsgießereien verwenden Aluminium statt Kupfer",
     CostSaver: "Kosteneinsparung",
-    CostSaverDesc:
-        "Wenn die Produktionskosten höher sind als der Gewinn, stellt sich die Produktion automatisch ein",
+    CostSaverDesc: "Wenn die Produktionskosten höher sind als der Gewinn, stellt sich die Produktion automatisch ein",
     CostSaverBuildingDesc:
         "Die Kosteneinsparungsrichtlinie ist aktiv. Die Produktion wird, basierend auf ihrer Rentabilität, automatisch ein- und ausgeschaltet",
     CostSaverBuildingWarning:
@@ -825,8 +824,7 @@ export const DE = {
     DeepInRed: "Tiefrot",
     DeepInRedDesc: "Führe 50 Produktionslinien mit Produktionsdefizit",
     UseScientificNotation: "Wissenschaftliche Notation verwenden",
-    UseScientificNotationDesc:
-        "Verwende exponentielle Darstellungen für Zahlen, die größer als 999,9T sind",
+    UseScientificNotationDesc: "Verwende exponentielle Darstellungen für Zahlen, die größer als 999,9T sind",
     LogoutDescV2:
         "Du hast dich auf einem anderen Gerät angemeldet, dieses Gerät wurde abgemeldet. Du kannst dich zwar wieder anmelden, aber das andere Gerät wird abgemeldet ",
     LogBackIn: "Anmelden",
@@ -865,8 +863,7 @@ export const DE = {
     ResourceBoosterSquareDesc:
         "Ressourcenverstärker sorgen für 25% mehr Boost, aber ihr Wissenschaftspunkte- und Stromverbrauch steigt um 25%",
     SteelMillx2: "Stahlofenmodernisierung",
-    SteelMillx2Desc:
-        "Stahlwerke und Edelstahlwerke haben 2x Kapazität, verbrauchen jedoch 2x Strom",
+    SteelMillx2Desc: "Stahlwerke und Edelstahlwerke haben 2x Kapazität, verbrauchen jedoch 2x Strom",
     FuelDynamite: "Kein Öl ins Feuer",
     FuelDynamiteDesc: "Dynamitfabriken verwenden Ihren aktuellen Kraftstoff anstelle von Öl",
     StPetersburgBonusV2:
@@ -906,8 +903,7 @@ export const DE = {
         "Ressourcenverstärker verbrauchen 2x Strom und Wissenschaftspunkte, aber für jede arbeitende Mine erhöht ein Ressourcenverstärker die Kapazität benachbarter Fabriken, die die produzierten Ressourcen der Mine verbrauchen (die Fabrik sollte nur Lagerbestände verbrauchen).",
     ProductionDiversification: "Produktionsdiversifizierung",
     ProductionDiversificationDesc: "Jeder Gebäudetyp gibt allen Gebäuden 1% zusätzliche Kapazität",
-    ExtraPolicyPointsDescV2:
-        "Der Bundestag verfügt über die doppelte Konvertierungskapazität von Richtlinienpunkten",
+    ExtraPolicyPointsDescV2: "Der Bundestag verfügt über die doppelte Konvertierungskapazität von Richtlinienpunkten",
     PowerRequired: "Strom benötigt",
     AchievementVancouver100: "Saftverkäufer",
     AchievementVancouver100Desc: "Verdiene  in einem einzigen Durchgang 100 Schweizer Franken in Vancouver",
@@ -986,8 +982,7 @@ export const DE = {
     HighPowerPriority: "Hohe Leistungspriorität",
     HighPowerPriorityDesc: "Wenn du dies aktivierst, wird dieses Gebäude vorrangig mit Strom versorgt",
     IndustryZone: "Industrie Zone",
-    IndustryZoneDesc:
-        "Kombiniere angrenzende Gebäude, die eine Lieferkette bilden und spare so Baugenehmigungen",
+    IndustryZoneDesc: "Kombiniere angrenzende Gebäude, die eine Lieferkette bilden und spare so Baugenehmigungen",
     IndustryZoneMaxBuildingLevel: "Maximale Gebäudestufe",
     IndustryZoneNotWorkingDesc:
         "Alle angrenzenden Gebäude sollten eine Lieferkette bilden und nicht Teil einer anderer Industriezone sein",
@@ -1065,8 +1060,6 @@ export const DE = {
     CrowdfundingReturnBonus: "+%{return} Gewinn",
     ReturnOnPledgeDescV2:
         "Dein Gewinn ergibt sich aus deinem gesamten Beitrag multipliziert mit den Gewinnraten aller Ressourcen.  Je mehr Ressourcen du investierst, desto höher wird der Gewinn sein.",
-    PlayerTradeQuotaDescV2:
-        "💡 Quota ist die Menge an Ressourcen, die du handeln kannst. Der Geldwert gleicht %{percent} deiner Marktkapitalisierung und wird beim Marktpreisupdate zurückgesetzt. Je mehr dein Handelswert von dem des Handelszentrums abweicht, desto mehr Quota benötigst du",
     AchievementSanJose100: "Venture Hobbyist",
     AchievementSanJose100Desc: "Verdiene in einem einzigen Durchgang 100 Schweizer Franken in San Jose",
     AchievementSanJose500: "Venture Enthusiast",
@@ -1139,7 +1132,8 @@ export const DE = {
     BuildingSourceFallbackDrain: "Lagerbestand",
     BuildingSourceFallbackAuto: "Neu",
     BuildingSourceFallbackMarker: "(Zurückgreifen)",
-    BuildingSourceFallbackMarkerDesc: "Der manuellen Quelle fehlt es an Ressourcen, es wird auf andere Quellen zurückgegriffen",
+    BuildingSourceFallbackMarkerDesc:
+        "Der manuellen Quelle fehlt es an Ressourcen, es wird auf andere Quellen zurückgegriffen",
     BuildingSourceInvalid: "Deine ausgewählte Quelle ist invalide, wähle ein gültige Zelle aus.",
     RandomIsland: "Zufällige Insel",
     RandomIslandBonus:
@@ -1386,18 +1380,16 @@ export const DE = {
     PlayerTradeFilterWhatIHave: "Filter, was ich besitze",
     PathTemporarilyBlocked:
         "Du kannst während einer aktiven Angriffswelle keine Gebäude bauen. Versuche es nach dem Angriff erneut.",
-    MobilePriceChangeTitle: "Preisanpassung Expansion Pack 2",
-    MobilePriceChangeDesc:
-        "Der Preis für das Erweiterungspaket 1 wurde auf %{platform} von $4.99 auf $2.99 reduziert. Als Dankeschön für unsere frühesten Unterstützer möchten wir dir das Erweiterungspaket 2 ($2,99) schenken. Dies sollte zwar automatisch funktionieren - Sollte etwas schief gehen benutze den 'Einkäufe wiederherstellen'- Button oder kontaktiere ein Teammitglied",
     MoveBuilding: "Gebäude verschieben",
     MoveBuildingInvalidTarget: "Gebäude konnte nicht verschoben werden - die gewählte Zelle ist keine gültige Quelle",
     MoveBuildingMoving: "Wähle eine leere Zelle ...",
     WaveAutoNext: "Autom. Start",
-    WaveAutoNextDesc: "Hast du eine Welle erfolgreich besiegt wird die Belohnung direkt eingesammelt und eine neue Welle generiert",
+    WaveAutoNextDesc:
+        "Hast du eine Welle erfolgreich besiegt wird die Belohnung direkt eingesammelt und eine neue Welle generiert",
     IstanbulBonus:
         "<li>Tower Defense Modus - Wandle deine Waffen in Schaden um, verteidige dich gegen Angreifer und verdiene so zusätzliches Geld</li><li>Heeresführung hat 2x Kapazität</li><li>Panzerwerke haben 2x Kapazität</li><li>Waffenfabriken haben 2x Kapazität</li><li>Fernlenkgeschossmanufakturen haben 2x Kapazität</li><li>Sprengstofffabriken haben 2x Produktivität</li>",
     PlayerTradeCancelTitle: "Möchtest du diesen Handel stornieren?",
-    PlayerTradeCancelDesc: "Das Stornieren eines Spielerhandels setzt deine Quota auf ihren Ursprungswert zurück. Du erhälst einen Teil deiner Ressourcen zurück.",
+    PlayerTradeCancelDescV2: "The tariff paid on this trade will NOT be refunded",
     PlayerTradeCancelYes: "Handel stornieren",
     PlayerTradeCancelNo: "Nicht stornieren",
     SteamAutoCloudBackupDescV3:
@@ -1440,11 +1432,14 @@ export const DE = {
     AchievementRioDeJaneiro1000: "Copacabana",
     AchievementRioDeJaneiro1000Desc: "Verdiene in einem einzigen Durchgang 1000 Schweizer Franken in Rio de Janeiro",
     AchievementRandomIsland100: "Bernoulli",
-    AchievementRandomIsland100Desc: "Verdiene in einem einzigen Durchgang 100 Schweizer Franken auf einer zufälligen Insel",
+    AchievementRandomIsland100Desc:
+        "Verdiene in einem einzigen Durchgang 100 Schweizer Franken auf einer zufälligen Insel",
     AchievementRandomIsland500: "Poisson",
-    AchievementRandomIsland500Desc: "Verdiene in einem einzigen Durchgang 500 Schweizer Franken auf einer zufälligen Insel",
+    AchievementRandomIsland500Desc:
+        "Verdiene in einem einzigen Durchgang 500 Schweizer Franken auf einer zufälligen Insel",
     AchievementRandomIsland1000: "Gauss",
-    AchievementRandomIsland1000Desc: "Verdiene in einem einzigen Durchgang 1000 Schweizer Franken auf einer zufälligen Insel",
+    AchievementRandomIsland1000Desc:
+        "Verdiene in einem einzigen Durchgang 1000 Schweizer Franken auf einer zufälligen Insel",
     AchievementFishPond200: "Admiral of the Fish Pond",
     AchievementFishPond200Desc: "Baue in einem einzigen Durchgang 200 Fischteiche auf deiner Karte",
     Photogram: "Fotogramm",
@@ -1547,4 +1542,6 @@ export const DE = {
         "The maximum cycles of input resource to keep in the storage before this building will no longer transport that resource. Auto means using prediction to keep a minimum buffer that allows continuous production. Stockpile means always transporting input resources regardless of the amount in the storage",
     InputCapacityOverride: "Input Capacity Override",
     InputCapacityOverrideDesc: "For each production cycle, transport %{percent} of the resources needed for production",
+    PumpkinSpiceLatte: "Pumpkin Spice Latte",
+    PumpkinPie: "Pumpkin Pie",
 };
