@@ -578,7 +578,6 @@ export const JP = {
     ResourceExplorer: "リソースエクスプローラ",
     ResourceExplorerDesc: "何もないタイルから資源を採掘できるようになります",
     ResourceExplorerDescLong: "💡リソースエクスプローラには隣接ボーナスがありません。消費電力は資源ごとに異なります",
-    ResourceExplorerSelectResource: "採掘資源",
     ProductionSettings: "プロダクション設定",
     PlayerTradePartialFillTitle: "フィル・パーセンテージを選択",
     PlayerTradeAmountNotValidV2: "最小取引量は1です",
@@ -1132,7 +1131,6 @@ export const JP = {
     Soybean: "Soybean",
     Sugarcane: "Sugarcane",
     Vegetable: "Vegetable",
-    FarmlandProduce: "Produce",
     FarmlandOfflineFarming: "Offline Farming",
     FarmlandOfflineFarmingDesc:
         "Farmland built on top of natural water source produce while you are offline. Subject to offline earning time and affected by Swiss upgrades",

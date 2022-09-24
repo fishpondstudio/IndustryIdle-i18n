@@ -598,7 +598,6 @@ export const IT = {
     ResourceExplorerDesc: "Ti permette di estrarre risorse da una piastrella vuota",
     ResourceExplorerDescLong:
         "💡 L'esploratore di risorse non ha bonus adicenza. L'uso di elettricità dipende dal tipo di risorsa",
-    ResourceExplorerSelectResource: "Esplora",
     ProductionSettings: "Impostazioni di Produzione",
     PlayerTradePartialFillTitle: "Scegli Percentuale di Riempimento",
     PlayerTradeAmountNotValidV2: "Lo quantità minima di scambio è 1",
@@ -1175,7 +1174,6 @@ export const IT = {
     Soybean: "Semi di soia",
     Sugarcane: "Canna da zucchero",
     Vegetable: "Verdure",
-    FarmlandProduce: "Produci",
     FarmlandOfflineFarming: "Farming offline",
     FarmlandOfflineFarmingDesc:
         "I terreni agricoli costruiti sopra delle fonti d'acqua naturali producono anche mentre sei offline. Soggetto al tempo di guadagno offline, e affetto dagli upgrade svizzeri",

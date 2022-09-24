@@ -564,7 +564,6 @@ export const ZH_HK = {
     ResourceExplorer: "資源探勘器",
     ResourceExplorerDesc: "俾您喺空格度攞資源",
     ResourceExplorerDescLong: "💡 資源勘探器冇相鄰加成。用電量係睇資源",
-    ResourceExplorerSelectResource: "探勘",
     ProductionSettings: "生產設定",
     PlayerTradePartialFillTitle: "揀填%",
     PlayerTradeAmountNotValidV2: "最細交易量係1",
@@ -1100,7 +1099,6 @@ export const ZH_HK = {
     Soybean: "Soybean",
     Sugarcane: "Sugarcane",
     Vegetable: "Vegetable",
-    FarmlandProduce: "Produce",
     FarmlandOfflineFarming: "Offline Farming",
     FarmlandOfflineFarmingDesc:
         "Farmland built on top of natural water source produce while you are offline. Subject to offline earning time and affected by Swiss upgrades",

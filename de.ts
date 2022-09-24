@@ -602,7 +602,6 @@ export const DE = {
     ResourceExplorerDesc: "Ermöglicht das Extrahieren von Ressourcen aus einer leeren Kartenkachel",
     ResourceExplorerDescLong:
         "💡 Ressourcenentdecker haben keinen Benachbarungsbonus. Der Stromverbrauch ist je nach Ressource unterschiedlich",
-    ResourceExplorerSelectResource: "Erkunden",
     ProductionSettings: "Produktionseinstellungen",
     PlayerTradePartialFillTitle: "Wähle Füllprozentsatz",
     PlayerTradeAmountNotValidV2: "Der minimal zulässige Handelsbetrag beträgt 1",
@@ -1178,7 +1177,6 @@ export const DE = {
     Soybean: "Sojabohne",
     Sugarcane: "Zuckerrohr",
     Vegetable: "Gemüse",
-    FarmlandProduce: "Ernte",
     FarmlandOfflineFarming: "Offline-Landwirtschaft",
     FarmlandOfflineFarmingDesc:
         "Äcker auf natürlichen Wasserquellen produzieren, beeinflusst durch Schweizer Upgrades und Offlineerwerbszeit, auch offline weiter.",

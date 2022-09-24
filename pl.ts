@@ -595,7 +595,6 @@ export const PL = {
     ResourceExplorerDesc: "Pozwalają wydobywać zasoby z pustego kafelka mapy",
     ResourceExplorerDescLong:
         "💡 Odkrywcy zasobów nie mają sąsiedniego bonusu. Zużycie energii różni się w zależności od zasobu",
-    ResourceExplorerSelectResource: "Badać",
     ProductionSettings: "Ustawienia produkcji",
     PlayerTradePartialFillTitle: "Wybierz procent wypełnienia",
     PlayerTradeAmountNotValidV2: "Minimalna dozwolona kwota transakcji to 1",
@@ -1166,7 +1165,6 @@ export const PL = {
     Soybean: "Soja",
     Sugarcane: "Trzcina cukrowa",
     Vegetable: "Warzywa",
-    FarmlandProduce: "Produkować",
     FarmlandOfflineFarming: "Rolnictwo offline",
     FarmlandOfflineFarmingDesc:
         "Tereny uprawne zbudowane na naturalnych źródłach wody produkują, gdy jesteś offline. Z zastrzeżeniem czasu zarabiania w trybie offline i wpływu szwajcarskich aktualizacji",

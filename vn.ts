@@ -588,7 +588,6 @@ export const VN = {
     ResourceExplorerDesc: "Cho phép bạn khai thác tài nguyên từ ô trống trên bản đồ",
     ResourceExplorerDescLong:
         "💡 Khai khuẩn tài nguyên không được hưởng hiệu ứng liền kề. Điện năng sử dụng tùy thuộc vào loại tài nguyên",
-    ResourceExplorerSelectResource: "Khai khẩn",
     ProductionSettings: "Cơ cấu sản xuất",
     PlayerTradePartialFillTitle: "Chọn phần trăm làm đầy",
     PlayerTradeAmountNotValidV2: "Số lượng giao dịch tối thiểu là 1",
@@ -1155,7 +1154,6 @@ export const VN = {
     Soybean: "Soybean",
     Sugarcane: "Sugarcane",
     Vegetable: "Vegetable",
-    FarmlandProduce: "Produce",
     FarmlandOfflineFarming: "Offline Farming",
     FarmlandOfflineFarmingDesc:
         "Farmland built on top of natural water source produce while you are offline. Subject to offline earning time and affected by Swiss upgrades",

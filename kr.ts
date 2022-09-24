@@ -577,7 +577,6 @@ export const KR = {
     ResourceExplorer: "자원 탐색가",
     ResourceExplorerDesc: "빈 타일에서 자원을 추출할 수 있습니다",
     ResourceExplorerDescLong: "💡 자원 탐색가는 인접 보너스가 없습니다. 전력 사용량은 자원마다 다릅니다.",
-    ResourceExplorerSelectResource: "탐색",
     ProductionSettings: "생산 설정",
     PlayerTradePartialFillTitle: "채우기 백분율 선택",
     PlayerTradeAmountNotValidV2: "허용되는 최소 거래 금액은 1입니다",
@@ -1127,7 +1126,6 @@ export const KR = {
     Soybean: "콩",
     Sugarcane: "사탕수수",
     Vegetable: "야채",
-    FarmlandProduce: "생산",
     FarmlandOfflineFarming: "오프라인 생산",
     FarmlandOfflineFarmingDesc:
         "Farmland built on top of natural water source produce while you are offline. Subject to offline earning time and affected by Swiss upgrades",

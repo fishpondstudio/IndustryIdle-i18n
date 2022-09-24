@@ -596,7 +596,6 @@ export const PT_BR = {
     ResourceExplorerDesc: "Permite extrair recursos de um bloco de mapa vazio",
     ResourceExplorerDescLong:
         "💡 Exploradores de recursos não possuem bônus adjacentes. O uso de energia difere por recurso",
-    ResourceExplorerSelectResource: "Explorar",
     ProductionSettings: "Configurações de produção",
     PlayerTradePartialFillTitle: "Escolha a porcentagem",
     PlayerTradeAmountNotValidV2: "O valor mínimo de negociação permitido é 1",
@@ -1169,7 +1168,6 @@ export const PT_BR = {
     Soybean: "Soja",
     Sugarcane: "Cana de açúcar",
     Vegetable: "Vegetais",
-    FarmlandProduce: "Produção",
     FarmlandOfflineFarming: "Cultivo Offline",
     FarmlandOfflineFarmingDesc:
         "Terras agrícolas construídas em cima de fontes naturais de água produzem enquanto você está offline. Sujeito a tempo de ganho offline e afetado por atualizações suíças",

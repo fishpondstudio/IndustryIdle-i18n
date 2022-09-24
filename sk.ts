@@ -586,7 +586,6 @@ export const SK = {
     ResourceExplorer: "Resource Explorer",
     ResourceExplorerDesc: "Allow you to extract resources from an empty map tile",
     ResourceExplorerDescLong: "💡 Resource Explorers do not have adjacent bonus. The power usage differs per resource",
-    ResourceExplorerSelectResource: "Explore",
     ProductionSettings: "Production Settings",
     PlayerTradePartialFillTitle: "Choose Fill Percentage",
     PlayerTradeAmountNotValidV2: "Minimum trade amount allowed is 1",
@@ -1150,7 +1149,6 @@ export const SK = {
     Soybean: "Soybean",
     Sugarcane: "Sugarcane",
     Vegetable: "Vegetable",
-    FarmlandProduce: "Produce",
     FarmlandOfflineFarming: "Offline Farming",
     FarmlandOfflineFarmingDesc:
         "Farmland built on top of natural water source produce while you are offline. Subject to offline earning time and affected by Swiss upgrades",

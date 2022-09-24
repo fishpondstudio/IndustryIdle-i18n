@@ -608,7 +608,6 @@ export const FR = {
     ResourceExplorerDesc: "Permet d'extraire des ressources d'un carreau de carte vide.",
     ResourceExplorerDescLong:
         "💡 Les explorateurs de ressources ne bénéficient pas du bonus adjacent. L'utilisation de l'énergie diffère selon la ressource",
-    ResourceExplorerSelectResource: "Explorez",
     ProductionSettings: "Paramètres de production",
     PlayerTradePartialFillTitle: "Choisissez le pourcentage de remplissage",
     PlayerTradeAmountNotValidV2: "Le montant minimum de transaction autorisé est de 1",
@@ -1180,7 +1179,6 @@ export const FR = {
     Soybean: "Soybean",
     Sugarcane: "Sugarcane",
     Vegetable: "Vegetable",
-    FarmlandProduce: "Produce",
     FarmlandOfflineFarming: "Offline Farming",
     FarmlandOfflineFarmingDesc:
         "Farmland built on top of natural water source produce while you are offline. Subject to offline earning time and affected by Swiss upgrades",
