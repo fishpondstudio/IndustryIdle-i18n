@@ -1542,9 +1542,9 @@ export const RU = {
     InputCapacityOverride: "Управление входной мощностью",
     InputCapacityOverrideDesc:
         "Для каждого производственного цикла транспортируется %{percent} ресурсов, необходимых для производства",
-    PumpkinSpiceLatte: "Pumpkin Spice Latte",
-    PumpkinPie: "Pumpkin Pie",
-    QuantumComputerLab: "Quantum Computer Lab",
-    QuantumComputer: "Quantum Computer",
-    TVStudioPlus: "TV Studio+",
+    PumpkinSpiceLatte: "Тыквенно-пряный латте",
+    PumpkinPie: "Тыквенный пирог",
+    QuantumComputerLab: "Лаборатория квантовых компьютеров",
+    QuantumComputer: "Квантовый компьютер",
+    TVStudioPlus: "ТВ Студия+",
 };
