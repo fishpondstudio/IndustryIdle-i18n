@@ -45,7 +45,7 @@ export const DE = {
     Unlock: "Freischalten",
     BuildingUnlocked: "%{building} wurde freigeschaltet",
     Science: "Wissenschaftspunkte",
-    ScienceFromPowerDesc: "Stormerzeuger produzieren neben Strom auch eine kleine Menge Wissenschaftspunkte",
+    ScienceFromPowerDesc: "Stromerzeuger produzieren neben Strom auch eine kleine Menge an Wissenschaftspunkten.",
     Culture: "Kultur",
     School: "Schule",
     University: "Universität",
