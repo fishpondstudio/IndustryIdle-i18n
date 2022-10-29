@@ -1,3 +1,7 @@
+# Please Note
+
+Industry Idle has gone open source. The translation has been moved here: https://github.com/fishpondstudio/IndustryIdle/tree/main/assets/Script/Languages
+
 # Industry Idle Translations
 
 Base language is English and can be found in the list below
