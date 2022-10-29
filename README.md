@@ -1,4 +1,4 @@
-# Please Note
+# ⚠️Please Note
 
 Industry Idle has gone open source. The translation has been moved here: https://github.com/fishpondstudio/IndustryIdle/tree/main/assets/Script/Languages
 
